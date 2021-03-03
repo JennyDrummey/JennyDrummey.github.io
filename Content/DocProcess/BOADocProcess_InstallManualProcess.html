@@ -198,7 +198,7 @@
                                                     <h1>Install Manual Process</h1>
                                                     <h2>Manuals to Update for each SST GA Release</h2>
                                                     <p>The regular release cadence is monthly releases of resolved issues, and quarterly releases of enhancements and new features. It has worked out to roughly 6 releases a year.</p>
-                                                    <h4 id="syniti-solutions">Syniti Solutions</h4>
+                                                    <h3>Syniti Solutions</h3>
                                                     <p>The Full version contains Master Data Management, but not ISA. The following Installation Manuals in a Flare project are updated for each release <em>if there are changes to be made.</em> </p>
                                                     <ul>
                                                         <li>
@@ -243,24 +243,23 @@
                                                         </li>
                                                     </ul>
                                                     <h3 id="organization-of-the-installmanuals-flare-project">Organization of the InstallManuals Flare Project</h3>
-                                                    <p>The project is organized by manual. Several sections are used across multiple manuals, with conditional tags applied. The Version History topic (Appendix A for the Installation Manual and the SRHS Guide) is updated for each manual with all updates made to the manual in the release. Appendix A is not delivered with the final system, it is used so that the documentation team can track changes for each version. The most recent entry is at the top.</p>
+                                                    <p>The project is organized by manual. Several sections are used across multiple manuals, with conditional tags applied. </p>
+                                                    <p>The Version History topic (Appendix A for the Installation Manual and the SRHS Guide) is updated for each manual with all updates made to the manual in the release. Appendix A is not delivered with the final system, it is used so that the documentation team can track changes for each version. The most recent entry is at the top.</p>
                                                     <h3 id="update-the-installation-manuals">Update the Installation Manuals</h3>
                                                     <p>The following steps describe the collaboration, review, approval and final formatting process to get the Installation Manuals ready to publish for each software release.</p>
                                                     <p>Members of the Documentation Team take turns updating the Manuals for each release.</p>
                                                     <p>Follow these steps to update the install manuals: </p>
                                                     <p>1. <a href="#Synchronize_your_master_branch_with_the_BackOfficeAssoc_GitHub_Repo">The Tech Writer synchronizes their local master branch with the BackOfficeAssoc dsp-install-manuals master branch</a>. NOTE: If you do not have a local copy of the install manuals on your laptop, see <a href="#Clone_the_dsp-install-manuals_repo">Clone the dsp-install-manuals repo</a>.</p>
                                                     <p>2. <a href="#Create_a_branch_for_your_updates_based_on_the_master_branch">The TW creates a new Staging branch based on the Master branch in the dsp-install-manuals repo</a>. </p>
-                                                    <p>3. <a href="#Create_a_Release_Folder_on_SharePoint">The TW creates a release folder on SharePoint in the Published folder for the current release, copies the current Word files of the manuals into the new release folder, and updates the file titles</a>. NOTE: Ensure Track Changes is turned on for this version so that reviewers can find updates easily. The TW will include a link to this folder in the next step when they create the Jira ticket.</p>
+                                                    <p>3. <a href="#Create_a_Release_Folder_on_SharePoint">The TW creates a release folder on SharePoint in the Published folder for the current release, creates new Word docs for review with the updated version number in the file titles</a>. NOTE: Ensure Track Changes is turned on for this version so that reviewers can find updates easily. The TW will include a link to this folder in the next step when they create the Jira ticket.</p>
                                                     <p>4. <a href="#Create_a_JIRA_Ticket_for_the_Manuals">The TW creates a Jira ticket in the DSP70 project for updating the manuals for this release</a>. </p>
                                                     <p>5. <a href="#nk_Tickets_Related_to_Manuals_to_JIRA_Epic">The TW links all tickets that describe updates to manuals to this ticket to track the updates</a>. </p>
                                                     <p>6. The TW and contributors review and update the manuals in Sharepoint in the Published folder and Flare as needed. If major changes have been made to the Installation Manuals, Support will test these steps. </p>
                                                     <p>7. Once the collaboration is complete and the content is final, the approver sets the <strong>Documentation Status</strong> field to of the installation manual Jira issue to <strong>Approved</strong>. </p>
                                                     <p>8. The TW makes the changes in the Stangingnnn branch of the Flare project. Refer to <a href="BOADocProcess_UpdateOnlineHelp.html">Update Online Help</a> for more information. After all changes are made, the TW builds the project in the dev environment in Jenkins.</p>
-                                                    <p>8. The TW sets the <strong>Documentation Status</strong> field of the installation manual Jira issue to <strong>Peer Review</strong> and requests a peer review from another tech writer on the team in the doc_checkouts Slack channel. </p>
-                                                    <p>9. The Peer reviewer makes any necessary edits in Flare and merges the Staging branch with the Master branch NOTE: The reviewing tech writer does not need to review content for accuracy, because collaborators must address and approve all content changes during the collaboration step.</p>
-                                                    <p> 10. After peer review is complete, the TW Author builds the install manuals Flare project in prod. </p>
+                                                    <p>9. The TW sets the <strong>Documentation Status</strong> field of the installation manual Jira issue to <strong>Peer Review</strong> and requests a peer review from another tech writer on the team in the doc_checkouts Slack channel. </p>
+                                                    <p> 10. After peer review is complete, if needed,the Author updates the Falre project and builds the install manuals Flare project in dev/prod. </p>
                                                     <p> 11.  The TW sends notification that the final manuals are ready to Support with a link to the production version  and then closes the Jira ticket. </p>
-                                                    <p>IMPORTANT: If changes are made to the install manuals after a release, tell Support that new versions are available.</p>
                                                     <p>IMPORTANT: The master branch must be updated with the latest changes at the close of each release, and a new Staging branch must be created at the beginning of every release cycle from the master branch by the Tech Writer who is handling the manuals that release cycle. Sometimes customers need manuals specific to the version of SST that they are running, so the Staging branches must not be updated or deleted once they have been merged into the master branch.</p>
                                                     <h3 id="clone-the-dsp-install-manuals-repo"><a name="Clone_the_dsp-install-manuals_repo"></a>Clone the dsp-install-manuals repo</h3>
                                                     <p>To clone the dsp-install-manuals repo, follow the instructions <a href="BOADocProcess_GitInitSetup.html#Clone_BackOffice/dsp-docs_repo_to_local">here</a>, but all Staging branches should be based on the <strong>Master</strong> branch from this repo.</p>
@@ -297,7 +296,7 @@
                                                         <li value="5">Open the prior version folder and select the Word files of the different manuals.</li>
                                                         <li value="6">Click <strong>Copy to</strong> and select the new release folder you just created.</li>
                                                         <li value="7">Update the titles of the manuals to reflect the new release number.</li>
-                                                        <li value="8">Open the new manuals and accept all changes made in the previous versions. </li>
+                                                        <li value="8">Open the new manuals and accept all changes made in the previous versions. NOTE:&#160;You caould also create a new version of the Word document for any of the guides in Flare. Set the correct TOC for hte print version (the one in the archive) folder and the Word targets will still work).</li>
                                                         <li value="9">Ensure Track Changes is on in the Word document to record updates.</li>
                                                     </ol>
                                                     <h3 id="create-a-jira-ticket-for-the-manuals"><a name="Create_a_JIRA_Ticket_for_the_Manuals"></a>Create a JIRA Ticket for the Manuals</h3>
@@ -315,7 +314,7 @@
                                                     <h3 id="link-tickets-related-to-manuals-to-jira-epic"><a name="nk_Tickets_Related_to_Manuals_to_JIRA_Epic"></a>Link Tickets Related to Manuals to JIRA Epic</h3>
                                                     <p>Add links to the epic to any tickets that affect the installation manual.</p>
                                                     <h3 id="make-updates-in-flare">Make Updates in Flare</h3>
-                                                    <p>To make updates in Flare follow the instructions in the topics <a href="BOADocProcess_Workflow_InProcess.html">Work Flow In Process</a> and <a href="BOADocProcess_UpdateOnlineHelp.html">Update Online Help</a>.</p>
+                                                    <p>After the manual content is reviewed and finalized make  updates in Flare. Follow the instructions in the topics <a href="BOADocProcess_Workflow_InProcess.html">Work Flow In Process</a> and <a href="BOADocProcess_UpdateOnlineHelp.html">Update Online Help</a>.</p>
                                                     <p>Document all updates in the <strong>Version History - Install</strong> and the <strong>Version History - SRHS</strong> topics (located in the Content folder). While these topics are no longer included in the final manuals, we track our changes for internal purposes.</p>
                                                     <p>NOTE: Do NOT merge changes into the <strong>master</strong> branch without having another writer review the Pull Request.</p>
                                                     <h3 id="update-the-targets-for-the-manuals">Update the Targets for the Manuals</h3>
@@ -329,40 +328,38 @@
                                                         </thead>
                                                         <tbody>
                                                             <tr class="odd">
-                                                                <td>SAP Configuration Guide</td>
-                                                                <td style="text-align: center;">WordConfigSolex</td>
+                                                                <td>Syniti SRHS Guide</td>
+                                                                <td style="text-align: center;">HTML5 Full -Install</td>
                                                             </tr>
-                                                            <tr class="even">
+                                                            <tr class="odd">
                                                                 <td>Syniti Installation and Upgrade Manual</td>
-                                                                <td style="text-align: center;">WordInstallManualFULL</td>
+                                                                <td style="text-align: center;">HTML5 Full -Install</td>
+                                                            </tr>
+                                                            <tr class="odd">
+                                                                <td>SAP Configuration Guide</td>
+                                                                <td style="text-align: center;">HTML5 Solex -Install</td>
                                                             </tr>
                                                             <tr class="odd">
                                                                 <td>SAP Installation and Upgrade Manual</td>
-                                                                <td style="text-align: center;">WordInstallManualSolex</td>
+                                                                <td style="text-align: center;">HTML5 Solex -Install</td>
                                                             </tr>
                                                             <tr class="even">
                                                                 <td>SAP Operations Guide</td>
-                                                                <td style="text-align: center;">WordOpsGuideSolex</td>
+                                                                <td style="text-align: center;">HTML5 Solex -Install</td>
                                                             </tr>
                                                             <tr class="odd">
                                                                 <td>SAP Quick Start Guide</td>
-                                                                <td style="text-align: center;">WordQuickStartSolex</td>
-                                                            </tr>
-                                                            <tr class="even">
-                                                                <td>Syniti SRHS Guide</td>
-                                                                <td style="text-align: center;">WordSRHSFull</td>
+                                                                <td style="text-align: center;">HTML5 Solex -Install</td>
                                                             </tr>
                                                             <tr class="odd">
                                                                 <td>SAP SRHS Guide</td>
-                                                                <td style="text-align: center;">WordSRHSSolex</td>
+                                                                <td style="text-align: center;">HTML5 Solex -Install</td>
                                                             </tr>
                                                         </tbody>
                                                     </table>
                                                     <p>To update the targets for the manuals:</p>
                                                     <ol type="1">
-                                                        <li value="1">Update the Master TOC for the target.</li>
-                                                        <li value="2">Save the Output file path to a destination you can access.</li>
-                                                        <li value="3">Update the Variable file in the Project Explorer and the Variables in each target. These updates include:</li>
+                                                        <li value="1">Update the Variable file in the Project Explorer and the Variables in each target. These updates include:</li>
                                                     </ol>
                                                     <ul>
                                                         <li>ProductNameShort</li>
@@ -383,36 +380,7 @@
                                                         </li>
                                                     </ol>
                                                     <h3 id="perform-peer-review-of-installation-manuals">Perform Peer Review of Installation Manuals</h3>
-                                                    <p>To peer review the install manuals, the Reviewer:</p>
-                                                    <ol>
-                                                        <li value="1">
-                                                            <p> Accesses the dev environment where the manual project has been built, and opens the manuals in Word that have the tracked changes in SharePoint. </p>
-                                                        </li>
-                                                        <li value="2">
-                                                            <p>Compares the two to ensure all changes have been made and the changes are free of typos.</p>
-                                                        </li>
-                                                        <li value="3">
-                                                            <p>Once the review is complete, the reviewer posts in the doc_checkouts channel. </p>
-                                                        </li>
-                                                    </ol>
-                                                    <h4 id="peer-review-that-requires-reviewer-updates">Peer Review That Requires Reviewer Updates</h4>
-                                                    <ol type="1">
-                                                        <li value="1">
-                                                            <p>The reviewer mention updates in the doc_checkout channel. </p>
-                                                        </li>
-                                                        <li value="2">
-                                                            <p>The author makes the corrections in the Flare project, builds in dev, and asks for another review. </p>
-                                                        </li>
-                                                    </ol>
-                                                    <h3 id="merge-the-stagingnnn-branch-to-the-master-branch">Merge the Stagingnnn Branch to the Master Branch I THINK THIS WILL GO AWAY WITH THE NEW PROCESS BUT WANT TO CONFIRM.</h3>
-                                                    <p>After the install manuals are finalized, the author of that releases manuals merges the StagingNN branch to Master before the next release version branch is created:</p>
-                                                    <ol type="1">
-                                                        <li value="1">Click the New pull request button in GitHub.</li>
-                                                        <li value="2">Make sure Base is Master and Compare is the recently released version of StagingNNN.</li>
-                                                        <li value="3">Click the <em>Create pull request</em> button.</li>
-                                                        <li value="4">Click the Merge pull requests button.</li>
-                                                        <li value="5">Click the Confirm merge button. Do NOT delete the StagingNNN branch.</li>
-                                                    </ol>
+                                                    <p>Follow the steps <a href="BOADocProcess_Workflow_PeerReview.html">here</a>. </p>
                                                     <h3 id="updating-the-sap-operations-guide">Updating the SAP Operations Guide</h3>
                                                     <p>This manual contains diagrams created in PowerPoint in the section Technical System Landscape. These diagrams are stored in the Published folder (Level_2_Slide_Box_ACMAndISA.pptx) along with the other files. When producing the final version of the Ops guide, pdf the slides and insert them into the pdf of the ops guide.</p>
                                                 </div>

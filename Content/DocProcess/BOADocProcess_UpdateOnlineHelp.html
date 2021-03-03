@@ -293,10 +293,10 @@
                                                             <p>Right-click anywhere in the topic, and then select Topic Properties from the drop-down.</p>
                                                         </li>
                                                         <li value="6">
-                                                            <p>Set the appropriate master page depending on the component name. Refer to Apply the Master Page.</p>
+                                                            <p>Set the appropriate master page depending on the component name. Refer to <a href="#Apply3">Apply the Master Page</a>.</p>
                                                         </li>
                                                         <li value="7">
-                                                            <p>On the Conditional Text tab, select the condition tag to apply to the topic. Refer to Use Condition Tags.</p>
+                                                            <p>On the Conditional Text tab, select the condition tag to apply to the topic. Refer to <a href="#Use">Use Condition Tags</a>.</p>
                                                         </li>
                                                         <li value="8">
                                                             <p>Click OK.</p>
@@ -311,7 +311,7 @@
                                                             <p>Right-click the topic in the TOC and select Properties from the drop-down menu.</p>
                                                         </li>
                                                         <li value="12">
-                                                            <p>On the Conditional Text tab select the appropriate conditions for the topic in the TOC. Refer to Use Condition Tags for more information about how condition tags are used to generate output.</p>
+                                                            <p>On the Conditional Text tab select the appropriate conditions for the topic in the TOC. Refer to <a href="#Use">Use Condition Tags</a> for more information about how condition tags are used to generate output.</p>
                                                         </li>
                                                         <li value="13">
                                                             <p>Click OK.</p>
@@ -326,7 +326,7 @@
                                                     </ol>
                                                     <ul>
                                                         <li>
-                                                            <p>In the Properties dialog, on the Topic Properties tab, set the appropriate master page based on the component name.</p>
+                                                            <p>In the Properties dialog, on the Topic Properties tab, set the appropriate master page based on the component name/guide name.</p>
                                                         </li>
                                                         <li>
                                                             <p>On the Conditional Text tab, select the check box next to the component name.</p>
@@ -334,7 +334,7 @@
                                                     </ul>
                                                     <ol data-mc-continue="true">
                                                         <li value="2">
-                                                            <p>Add component name snippet to upper right of topic: See Add and Insert Snippets for Static Content for the steps for this process.</p>
+                                                            <p>Add component name snippet to upper right of topic: See <a href="#Add4">Add and Insert Snippets for Static Content</a> for the steps for this process.</p>
                                                         </li>
                                                         <li value="3">
                                                             <p>Add component Concept to the topic: This step ensures the topics is included in search results when a search filters is set.</p>
@@ -366,13 +366,13 @@
                                                             <p>Add component name CT to the topic in TOC: See <a href="#Use">Use Condition Tags</a> for the steps to complete this process.</p>
                                                         </li>
                                                         <li value="7">
-                                                            <p>Confirm proper CTs have been applied: This includes references to ADM/dspMigrate, ISA, IGC, dspConduct, and IGUC.</p>
+                                                            <p>Confirm proper CTs have been applied: This includes references to  ISA, Syniti Connect, and Master Data Management.Additionly omit any information about the Data Quality application from the solex version o the release notes/What's new topic .</p>
                                                         </li>
                                                         <li value="8">
-                                                            <p>Review formatting: Refer to the Syniti Documentation Standards for more information.</p>
+                                                            <p>Review formatting: Refer to the <a href="../SSTDocStandards/BOADocStandards_Overview.html">Syniti Documentation Standards</a> for more information.</p>
                                                         </li>
                                                     </ol>
-                                                    <h2><a name="Checklis2"></a>Checklist for Adding a Field Description</h2>
+                                                    <h2><a name="Checklis2"></a>Checklist for Adding a Field Description (SST only)</h2>
                                                     <ol>
                                                         <li value="1">
                                                             <p>Update Topic Properties:</p>
@@ -405,7 +405,7 @@
                                                     <p>Tip: Refer to <a href="#Add">Add Concepts</a> for more information..</p>
                                                     <ol data-mc-continue="true">
                                                         <li value="3">
-                                                            <p>Add component name snippet to upper right of topic: See Add and Insert Snippets for Static Content for the steps for this process.</p>
+                                                            <p>Add component name snippet to upper right of topic: See <a href="#Add4">Add and Insert Snippets for Static Content</a> for the steps for this process.</p>
                                                         </li>
                                                         <li value="4">
                                                             <p>Confirm links have been added: This includes “Refer to” links and page name links.</p>
@@ -420,7 +420,7 @@
                                                             <p>Add component name CT to the topic in TOC: Set the conditional tag in the topic and in the TOC. See <a href="#Use">Use Condition Tags</a> for the steps to complete this process</p>
                                                         </li>
                                                         <li value="7">
-                                                            <p>Confirm proper CTs have been applied: This includes references to ADM/dspMigrate, ISA, IGC, dspConduct, and IGUC.</p>
+                                                            <p>Confirm proper CTs have been applied: : This includes references to  ISA, Syniti Connect, and Master Data Management.Additionly omit any information about the Data Quality application from the solex version o the release notes/What's new topic.</p>
                                                         </li>
                                                         <li value="8">
                                                             <p>Review formatting:</p>
@@ -496,11 +496,21 @@
                                                     <p>Condition tags serve two purposes. A condition tag is applied to almost every topic in the Content Explorer in Flare to identify the specific component to which it belongs.</p>
                                                     <p>Condition tags are also used in an output Target to include/exclude entire topics or certain text in a topic from Help output. This allows generations of the two online help systems described in the next section. If a topic must be excluded from one of the Help systems, the condition tag also must be applied to the topic’s TOC link in the TOC.</p>
                                                     <h2><a name="Types"></a>Types of Help Systems Output from Flare</h2>
-                                                    <p>For SST, two online help systems are output from Flare, Full and Solex.</p>
+                                                    <ul>
+                                                        <li>
+                                                            <p>For SST, two online help systems are output from Flare, Full and Solex.</p>
+                                                        </li>
+                                                    </ul>
                                                     <p>The condition tags to be include or excluded in these outputs are configured in the Target used to build the output. Refer to Build Help Targets</p>
                                                     <p>Refer to <a href="BOADocProcess_CondTags.html">Condition Tags Used in the Project File</a> for information about which condition tags are included/excluded for each help system.</p>
-                                                    <p>For SKT, one help system is built and published. </p>
-                                                    <p>For Installation Guides. . . .</p>
+                                                    <ul>
+                                                        <li>
+                                                            <p>For SKT, one help system is built and published. </p>
+                                                        </li>
+                                                        <li>
+                                                            <p>For Syniti Guides, two sets of manuals are available online. </p>
+                                                        </li>
+                                                    </ul>
                                                     <h2><a name="Apply"></a>Apply Condition Tag to a Topic</h2>
                                                     <p>A condition tag must be applied to almost every topic in the Content Explorer to identify the topic’s component. The condition tag must be applied to the topic’s link in the master TOC as well.</p>
                                                     <p>Note: Content that displays in both versions of help does not have a CT. This includes DSP Navigation and How to Use Online Help topics, and other general topics.</p>
@@ -583,7 +593,7 @@
                                                     <p>To apply the master page in Flare on the Topic Properties window, go the Topic Properties tab, in the Masterpage list box.</p>
                                                     <p>SST master pages are based on component names.</p>
                                                     <p>SKT master pages are . .. </p>
-                                                    <p>Installation Guides master pages are . .. </p>
+                                                    <p>Installation Guides master pages are based on the name of the guide.</p>
                                                     <h2><a name="Format"></a>Format Tables in Topics</h2>
                                                     <p>Use the following steps to format tables in Flare topics when copying and pasting from Word:</p>
                                                     <ol>
@@ -749,7 +759,7 @@
                                                             <p>Click Save.</p>
                                                         </li>
                                                     </ol>
-                                                    <h2><a name="Add2"></a>Add Context-sensitive Help Links</h2>
+                                                    <h2><a name="Add2"></a>Add Context-sensitive Help Links (SST only)</h2>
                                                     <p>When a user clicks the ? icon on any page in the product, the help system opens and displays the field description topic for that page. This is referred to as Context-sensitive Help.</p>
                                                     <p>When documenting a new page, enter a Map ID that links the page with the topic name in Flare. The Map ID, coupled with an Alias Value in Flare, links a page in the product with a topic in the help file. In the SST implementation of online help, a Map ID is the GUID for a page.</p>
                                                     <p>Each component has a range for an alias file Value. Refer to <a href="BOADocProcess_AliasValueRange.html">Alias File Value Range</a> to see a table of values by component.</p>
@@ -809,7 +819,7 @@
                                                             <p>Double-click the topic name that opens when the user clicks the ? on the GUID’s page in the Topics pane to assign it to Identifier.</p>
                                                         </li>
                                                     </ol>
-                                                    <h2><a name="Generate"></a>Generate Map ID for a page ID (GUID) that starts with a number</h2>
+                                                    <h3><a name="Generate"></a>Generate Map ID for a page ID (GUID) that starts with a number</h3>
                                                     <ol>
                                                         <li value="1">
                                                             <p>Open the alias file in the Project &gt; Advanced folder (the file is called BackOffice Associates Solutions, the second one listed). Sort it on Value to find the sequence you need. Close the alias file.</p>
@@ -828,7 +838,7 @@
                                                         </li>
                                                     </ol>
                                                     <p>Important: To test the GUID links to the correct page, merge the PR to the develop_XXX branch, build dev in Jenkins, pull up the Cucumber report, and click the Help icon for the new page in the DSP. Refer to <a href="BOADocProcess_ChecklistGenOnlineHelp.html">Check Latest Build</a> for detailed steps.</p>
-                                                    <h2><a name="Add"></a>Add Concepts</h2>
+                                                    <h2><a name="Add"></a>Add Concepts SST only)</h2>
                                                     <p>We apply Concepts to related topics to group them to create the search filter in help. We have added concepts for component names along with related subjects such as CTS or Bulk Execution.</p>
                                                     <p>Note: You can copy and paste a concept from one topic to another instead of following the steps below. The Concept does not show up in the generated output.</p>
                                                     <p>Adding concepts and search filters:</p>

@@ -11,7 +11,7 @@
         <link rel="icon" sizes="32x32" href="../../Skins/Favicons/favicon-32x32.png" />
         <link rel="icon" sizes="16x16" href="../../Skins/Favicons/favicon-16x16.png" />
         <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" /><title data-title="BOA Help">Update Help on Dev and Prod Sites </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" /><title data-title="BOA Help">Publish SKT Help</title>
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <!-- Scripts for menu modal dropdown, popup modals, and back-to-top button. -->
         <link href="../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
@@ -195,95 +195,141 @@
                                                 <br />
                                                 <br />
                                                 <div role="main" id="mc-main-content">
-                                                    <h1>Update Help on Dev and Prod Sites </h1>
-                                                    <p>The dev site is for Tech Writers to test that the online help works. The prod site is the site that users access directly from the product when they click the ? on any page.</p>
-                                                    <p>The process for updating help is the same for the product help (in the dps-docs repo) and the installation manuals/Requiements/SAP Config guides (stored in the dsp-install-manuals). </p>
-                                                    <p>Each SST release has a branch in the dsp-docs repo with the naming convention develop_nnn, where nnn is the release number (develop_701, for example). After a pull request is merged to the branch develop_nnn, a Technical Writer can then log in to Jenkins and build the help on the dev site, prod site, or both.</p>
-                                                    <p>Each SST release has a branch in the dsp-install-manuals repo with the naming convention Stagingnnn, where nnn is the release number (Stagini701, for example). After a pull request is merged to the branch develop_nnn fo Stagingnnn, a Technical Writer can then log in to Jenkins and build the help on the dev site, prod site, or both.</p>
-                                                    <p>When jenkins builds help for these versions, it copies the output to a site accessed by a specific URL.</p>
-                                                    <p>Tip: You must <a href="BOADocProcess_BuildHelpTargets.html">Build and Publish Help Targets</a> in Flare before building in Jenkins for the SKT  </p>
-                                                    <h2>SST Domain for DSP Versions 7.0-7.0.5</h2>
-                                                    <p>The dev site for the full version:</p>
-                                                    <p>https://dsphelpdev.boaweb.com/nnn/general/Home.htm</p>
-                                                    <p>The dev site for the solex version:</p>
-                                                    <p>https://dsphelpdev.boaweb.com/nnn/solex/Home.htm</p>
-                                                    <p>When a user clicks the ? in the DSP for the full version of 7.0-7.0.5, it takes them to this URL for the prod full help:</p>
-                                                    <p>https://dsphelp.boaweb.com/nnn/general/Home.htm</p>
-                                                    <p>When a user clicks the ? in the DSP for the solex version of 7.0-7.0.5, it takes them to this URL for the prod solex help:</p>
-                                                    <p>https://dsphelp.boaweb.com/nnn/solex/Home.htm</p>
-                                                    <h2>SST Versions 7.0.6 and Later</h2>
-                                                    <p>For version 7.0.6 and later of DSP, help is located at these addresses.</p>
-                                                    <p>Dev Full</p>
-                                                    <p>https://dsphelpdev.syniti.com/nnn/general/Home.htm</p>
-                                                    <p>Dev Solex</p>
-                                                    <p>https://dsphelpdev.syniti.com/nnn/solex/Home.htm</p>
-                                                    <p>When a user clicks the ? in the DSP for the full version of DSP 7.0.6 and later, it takes them to this production URL:</p>
-                                                    <p>https://dsphelp.syniti.com/nnn/general/Home.htm</p>
-                                                    <p>When a user clicks the ? in the DSP for the solex version of DSP 7.0.6 and later, it takes them to this production URL:</p>
-                                                    <p>https://dsphelp.syniti.com/nnn/solex/Home.htm</p>
-                                                    <h2>SKT Domains</h2>
-                                                    <p>Dev version:</p>
-                                                    <p>https://skthelpdev.syniti.com/Welcome.htm</p>
-                                                    <p>Prod version</p>
-                                                    <p>https://skthelp.syniti.com/Welcome.htm</p>
-                                                    <h2>Syniti Guides</h2>
-                                                    <p>Full Dev version</p>
-                                                    <p>https://dsphelpdev.syniti.com/nnn/general-install/Home.htm</p>
-                                                    <p>Full Prod version</p>
-                                                    <p>https://dsphelp.syniti.com/nnn/general-install/Home.htm</p>
-                                                    <p>Solex Dev Version</p>
-                                                    <p>https://dsphelpdev.syniti.com/nnn/solex-install/05%20SAP%20Quick%20Start%20Guide/SAPQuickStartGuide.htm#</p>
-                                                    <p>Solex Prod Version</p>
-                                                    <p>https://dsphelp.syniti.com/nnn/solex-install/05%20SAP%20Quick%20Start%20Guide/SAPQuickStartGuide.htm#</p>
-                                                    <h2>Update the Help on the Dev and Prod Sites</h2>
-                                                    <p>To update the help on the sites for SST and the Syniti Guides:</p>
+                                                    <h1>Publish SKT Help</h1>
+                                                    <p>SKT Help updates can be published anytime and do not require a jenkins build. When a ticket on the Kyber board reaches Done status, it is deployed and the related documentation should be published.</p>
+                                                    <p>To publish Help:</p>
                                                     <ol>
                                                         <li value="1">
-                                                            <p>Log in to Jenkins.</p>
+                                                            <p>Prepare the help content as described in the  Documentation Process Overview. Only content approved by a PM&#160;or Dev should be added to the help. </p>
                                                         </li>
                                                         <li value="2">
-                                                            <p>In the Name column, click DSPDocs.</p>
+                                                            <p>Inform the Doc Team in the doc_checkouts Slack channel that you are going to check out the Help.</p>
                                                         </li>
                                                         <li value="3">
-                                                            <p>Click the Schedule a Build with parameters for [Target Name] icon for either </p>
-                                                            <ul>
-                                                                <li>
-                                                                    <p>DSPDocDev </p>
-                                                                </li>
-                                                                <li>
-                                                                    <p>DSPDocProd.</p>
-                                                                </li>
-                                                                <li>
-                                                                    <p>DSPDocDev-Installs</p>
-                                                                </li>
-                                                                <li>
-                                                                    <p>DSPDocProd-Installs</p>
-                                                                </li>
-                                                            </ul>
+                                                            <p><a href="#Synchron">Synchronize your local repo develop branch with the remote develop branch and create a new branch.</a>
+                                                            </p>
                                                         </li>
-                                                    </ol>
-                                                    <p>Note: If you are updating a version of the help that has already been released, build the help in dev then in prod. If you are updating a version of the help that has not yet been released, build in dev as needed.</p>
-                                                    <ol data-mc-continue="true">
                                                         <li value="4">
-                                                            <p>Enter the version number in the VERSION field.</p>
+                                                            <p>Make updates and note them in your <a href="BOADocProcess_Workflow_Approved.html#Author">Author Notes</a>. </p>
                                                         </li>
                                                         <li value="5">
-                                                            <p>Click Build. The build status displays in the left column under Build History.</p>
+                                                            <p><a href="#Build">Build and Publish</a> the target.</p>
                                                         </li>
                                                         <li value="6">
-                                                            <p>Open an incognito window in Chrome to view the help to confirm your updates are on the site.</p>
+                                                            <p>Commit updates locally and push to remote.</p>
+                                                        </li>
+                                                        <li value="7">
+                                                            <p>Merge your changes to the develop branch. This will automatically start a jenkins job that will copy the updated help system to the dev environment.</p>
+                                                        </li>
+                                                        <li value="8">
+                                                            <p>When the changes are available on the develop site, ask for a peer review. </p>
                                                         </li>
                                                     </ol>
-                                                    <p>To update the sites for the SKT you do not use Jenkins. Instead, you push content to two different repositories:</p>
+                                                    <h2><a name="Synchron"></a>Synchronize your local repo develop branch with the remote develop branch and create a new branch</h2>
+                                                    <p>Right-click your local repo folder and select Git Bash Here from the dropdown menu to open the command prompt at that location.</p>
                                                     <ol>
                                                         <li value="1">
-                                                            <p>Merge your branch to the develop branch. This runs a job to automatically update the develop site.</p>
+                                                            <p>Review the current branch, which appears in parenthesis at the end of the line. If you are not currently in the develop branch, switch to the develop branch by entering the git command git checkout develop.</p>
                                                         </li>
                                                         <li value="2">
-                                                            <p>After checking the develop site, merge the develop branch to the master branch. This pushes your updates to the production site. </p>
+                                                            <p>Enter the git command git pull origin develop to synchronize your local copy of the develop branch with the remote copy.</p>
                                                         </li>
                                                     </ol>
-                                                    <p>&#160;</p>
+                                                    <p>Note: You MUST perform these steps before you make updates to ensure you are working in the latest copy of the develop branch.</p>
+                                                    <ol data-mc-continue="true">
+                                                        <li value="3">
+                                                            <p>Enter git command git checkout -b BranchName to create a personal branch in which to make edits, where BranchName is a brief description of the branch.</p>
+                                                        </li>
+                                                        <li value="4">
+                                                            <p>Open the SKP help project in Flare and make updates.</p>
+                                                        </li>
+                                                        <li value="5">
+                                                            <p>Save your changes, and Build and Publish Target.</p>
+                                                        </li>
+                                                        <li value="6">
+                                                            <p>In File Explorer, verify your updates are appearing correctly in the correct publish folder (IGCHelp or IGCWhatsNew)</p>
+                                                        </li>
+                                                        <li value="7">
+                                                            <p>Close Flare and Help output.</p>
+                                                        </li>
+                                                    </ol>
+                                                    <h2>Commit updates locally and push to remote</h2>
+                                                    <ol>
+                                                        <li value="1">
+                                                            <p>Return to Git Bash or open a new session.</p>
+                                                        </li>
+                                                        <li value="2">
+                                                            <p>Navigate to your repo, and make sure you are in the correct branch. It is in parenthesis after your prompt.</p>
+                                                        </li>
+                                                        <li value="3">
+                                                            <p>Enter the git command git status to see all of the changes you have made.</p>
+                                                            <p>Note: All of the updated files’ paths will appear in red.</p>
+                                                            <p>Note: If you do not see them, you may have forgotten to save or you are in the wrong branch.</p>
+                                                        </li>
+                                                        <li value="4">
+                                                            <p>Enter the git command git add . to stage your updates for commit.</p>
+                                                            <p>Note: The file paths change from red to green after you stage them. Include the space and the period.</p>
+                                                        </li>
+                                                        <li value="5">
+                                                            <p>Enter the git the command git commit -m "commit message" to commit staged updates.</p>
+                                                            <p>Note: Do not use special characters, like apostrophes, in message.</p>
+                                                        </li>
+                                                        <li value="6">
+                                                            <p>Enter the git the command git push origin BranchName to push your updates to the remote repo.</p>
+                                                        </li>
+                                                        <li value="7">
+                                                            <p>Create pull request to merge BranchName into develop.</p>
+                                                        </li>
+                                                        <li value="8">
+                                                            <p>Message peer reviewer in Slack with link to PR in GitHub.</p>
+                                                        </li>
+                                                    </ol>
+                                                    <h2>Perform SKT Help Peer Review</h2>
+                                                    <p>Follow the steps listed <a href="BOADocProcess_Workflow_PeerReview.html">here</a>. </p>
+                                                    <h2><a name="Build"></a>Build and Publish Target</h2>
+                                                    <p>To build and publish a target in Flare:</p>
+                                                    <ol>
+                                                        <li value="1">
+                                                            <p>Open Flare, click the down arrow on the Build Primary button and select either HTML5 SKP Help.</p>
+                                                        </li>
+                                                        <li value="2">
+                                                            <p>Open Project Organizer &gt; Targets.</p>
+                                                        </li>
+                                                        <li value="3">
+                                                            <p>Double-click HTML5 SKP Help (Primary) .</p>
+                                                        </li>
+                                                        <li value="4">
+                                                            <p>Click Publishing tab.</p>
+                                                        </li>
+                                                        <li value="5">
+                                                            <p>Select the Destination being updated: HTML5 IGC.</p>
+                                                        </li>
+                                                        <li value="6">
+                                                            <p>Click the Edit Destination button; a new tab opens.</p>
+                                                        </li>
+                                                        <li value="7">
+                                                            <p>Click the … button to edit the Directory.</p>
+                                                        </li>
+                                                        <li value="8">
+                                                            <p>Select the destination folder: IGCHelp.</p>
+                                                        </li>
+                                                        <li value="9">
+                                                            <p>Click OK and close the tab.</p>
+                                                        </li>
+                                                        <li value="10">
+                                                            <p>Click the Publish button on the topic toolbar of the Target Editor tab.</p>
+                                                        </li>
+                                                        <li value="11">
+                                                            <p>Close the HTML5 SKP  topic.</p>
+                                                        </li>
+                                                        <li value="12">
+                                                            <p>Close Flare.</p>
+                                                        </li>
+                                                        <li value="13">
+                                                            <p>Return to the Git folder in Windows Explorder, navigate to the IGCHelp folder and open the html file to confirm changes.</p>
+                                                        </li>
+                                                    </ol>
+                                                    <p>Proceed with committing changes in GitHub (git add., git commit, give push origin and create a pull request).</p>
                                                 </div>
                                                 <div id="feedback-survey">
                                                     <div class="feedback-question">
