@@ -11,7 +11,7 @@
         <link rel="icon" sizes="32x32" href="../../Skins/Favicons/favicon-32x32.png" />
         <link rel="icon" sizes="16x16" href="../../Skins/Favicons/favicon-16x16.png" />
         <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" /><title data-title="BOA Help">Prepare SST What's New Topic for Release</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" /><title data-title="BOA Help">Update Static Guidance</title>
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <!-- Scripts for menu modal dropdown, popup modals, and back-to-top button. -->
         <link href="../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
@@ -195,80 +195,140 @@
                                                 <br />
                                                 <br />
                                                 <div role="main" id="mc-main-content">
-                                                    <h1>Prepare SST What's New Topic for Release</h1>
-                                                    <p>When all content is finalized for a release (as in PM has approved all content and it has been added to the Flare project by the Technical Writers and peer reviewed), a Technical Writer reviews the entire What’s New topic before the SST is released.</p>
-                                                    <p>NOTE: The SKT has a What's New topic that is not released in a pdf version, and is updated according to deployments in the cloud. </p>
-                                                    <p>The What’s New topic is often the first one the user sees and must be free of grammar issues, typos, and broken links. This help topic is used as the basis for the release notes, a secured PDF that is also distributed with each SST release. Refer to <a href="BOADocProcess_PrepareReleaseNotes.html">Prepare Release Notes</a> for more information.</p>
-                                                    <p>The single, version-specific What’s New topic is formatted with condition tags in Flare. Two versions of the What’s New topic are created from this topic: one for the Syniti Solutions version of the help and one for the SAP Accelerators version.</p>
-                                                    <h2 id="update-release-date">Update Release Date</h2>
-                                                    <p>The official release date is listed at the top of the What’s New topic. Update this with the release date, which also matches the release date in the Version History of the installation manuals.</p>
-                                                    <h2 id="review-structure-of-release-notes">Review Structure of Release Notes</h2>
-                                                    <p>Content is organized into these sections.</p>
+                                                    <h1>Update Static Guidance</h1>
+                                                    <p>PM and the Documentation Team determine when static guidance should be added or updated.</p>
+                                                    <p>To update static guidance:</p>
+                                                    <ol>
+                                                        <li value="1">
+                                                            <p>Create a JIRA ticket (typically on the DocTeam ToDos board, but sometimes Jon Green creates static guidance tickets on the Kyber board) to track the work to update the static guidance.</p>
+                                                        </li>
+                                                        <li value="2">
+                                                            <p>Pull down the master branch from ui-component-libs repo.</p>
+                                                        </li>
+                                                        <li value="3">
+                                                            <p>Create a new branch, using the Jira ticket number as a name.</p>
+                                                        </li>
+                                                        <li value="4">
+                                                            <p>Navigate to this file: ui-guidance-libs/projects/ui-component-libs/src/lib/guidance/constants/static-guidance.ts.</p>
+                                                            <p class="note"><b>NOTE</b>: Open with Atom or Visual Studio Code.</p>
+                                                        </li>
+                                                        <li value="5">
+                                                            <p>Update the descriptionText as needed, save and close the file.</p>
+                                                        </li>
+                                                        <li value="6">
+                                                            <p>Navigate to the file ui-component-libs/projects/ui-commponent libs/package.json.</p>
+                                                        </li>
+                                                        <li value="7">
+                                                            <p>Increment the third decimal place by 1 for version (ex: 1.1.14 to 1.1.15).</p>
+                                                        </li>
+                                                    </ol>
+                                                    <p>
+                                                        <img src="../Resources/Images/increment.PNG" />
+                                                    </p>
+                                                    <ol data-mc-continue="true">
+                                                        <li value="8">
+                                                            <p>Save and push your repo to the ui-component-libs repo.</p>
+                                                        </li>
+                                                        <li value="9">
+                                                            <p>Open a PR to merge it to master.</p>
+                                                        </li>
+                                                        <li value="10">
+                                                            <p>Ask the App Engineering Group to review the PR.</p>
+                                                        </li>
+                                                        <li value="11">
+                                                            <p>Set the ticket to Code Review, if applicable.</p>
+                                                        </li>
+                                                        <li value="12">
+                                                            <p>Once the changes have passed code review, send the PR to your team’s QE (Karen Dunson) for testing.</p>
+                                                        </li>
+                                                        <li value="13">
+                                                            <p>When the dev and QE resources have both approved the PRs, merge the PRs to master.</p>
+                                                        </li>
+                                                        <li value="14">
+                                                            <p>Notify Nathan Sweezeythat changes are ready to be deployed - we’re working to automate this process, but for now there’s still a little bit of manual intervention left</p>
+                                                        </li>
+                                                        <li value="15">
+                                                            <p>After the changes have been deployed to dev, and have been tested, Nathan Sweezeycan handle the process of moving the changes to preview and/or production</p>
+                                                        </li>
+                                                    </ol>
+                                                    <h2>Identifying apps/services in ui-guidance-libs</h2>
+                                                    <p>In each of our projects that need to support contextual guidance, they'll have a file in the app/models folder named guidancecontext.ts. Looking at the appcontext value on line 11 will show what context value the specific application is passing into the guidance component, which is what's used to look up the static guidance.</p>
+                                                    <p>Here is a list of the front end services and the pages for which they display guidance:</p>
                                                     <ul>
-                                                        <li>New Features</li>
-                                                        <li>Enhancements</li>
-                                                        <li>Resolved Issues</li>
-                                                        <li>Known Issues</li>
-                                                        <li>Enhancement Requests from Users</li>
+                                                        <li>
+                                                            <p>dione (anything that starts with admin.syniti.com/)</p>
+                                                            <ul>
+                                                                <li>
+                                                                    <p>About Me</p>
+                                                                </li>
+                                                                <li>
+                                                                    <p>Accounts</p>
+                                                                </li>
+                                                                <li>
+                                                                    <p>Sites</p>
+                                                                </li>
+                                                                <li>
+                                                                    <p>Stacks</p>
+                                                                </li>
+                                                            </ul>
+                                                        </li>
                                                     </ul>
-                                                    <p>These headings display as links at the start of the What’s New topic. Not every release will have content in each of these sections. Remove (or add, as needed) these links at the start of the What’s New topic, depending on that version’s contents.</p>
-                                                    <p>Each section (New Features, Enhancements, etc.) is divided into subsections based on product name and component. Review the headings and structure in the What’s New topic, confirming that condition tags are applied correctly as noted in the next sections.</p>
-                                                    <h3 id="product-names-and-their-components-for-the-sap-accelerators-version">Product names and their components for the SAP Accelerators version</h3>
-                                                    <p><strong>Advanced Data Migration (ADM)</strong>
-                                                    </p>
-                                                    <p>This section includes: - Console - Target Design - Construct - Map - Transform - SQL AutoGen - Data Services AutoGen</p>
-                                                    <p><strong>Information Steward Accelerator</strong> - ISA NOTE: All content, including the heading, must have the ISA CT applied.</p>
-                                                    <p> <strong>Mass Maintenance</strong></p>
-                                                    <p><strong>Data Quality</strong> NOTE: Data Quality is delivered with SAP Accelerators; however, it is not included in the release notes. Mark it with the dspConduct CT in the Whats New topic.</p>
-                                                    <p><strong>Syniti Data Replication</strong>
-                                                    </p>
-                                                    <p><strong>Data Stewardship Platform (DSP)</strong>  - Assemble - Automate - Collect - Common - Integrate -Promote - Online Help - Syniti Connect - Add Ons - System Administration - WebApp Development</p>
-                                                    <h3 id="product-names-and-their-components-for-the-syniti-solutions-version">Product Names and their components for the Syniti Solutions version</h3>
-                                                    <p><strong>Advanced Data Migration</strong>
-                                                    </p>
-                                                    <p>This section includes: - Console - Target Design - Construct - Map - Transform - SQL AutoGen - Data Services AutoGen</p>
-                                                    <p>NOTE: The following are stand-alone components (as in, they are not a subsection of a product name).</p>
-                                                    <p><strong>Mass Maintenance</strong>
-                                                    </p>
-                                                    <p><strong>Data Quality</strong>
-                                                    </p>
-                                                    <p><strong>Master Data Management</strong> NOTE: This heading and its content must have the dspConduct CT applied.</p>
-                                                    <p><strong>Syniti Data Replication</strong>
-                                                    </p>
-                                                    <p><strong>Data Stewardship Platform (DSP)</strong> is included in both versions**  Assemble - Automate - Collect - Common - Integrate - Promote - Online Help - Add Ons - System Administration - WebApp Development</p>
-                                                    <p>NOTE: Any updates to the WebApp Development topics must be noted in the Sys Admin What’s New/Release notes.</p>
-                                                    <h3 id="review-content-of-new-features-section">Review Content of New Features Section</h3>
-                                                    <p>This section describes major features that are introduced with the version such as a new WebApp, or a feature in an existing WebApp that has not been available before. These may be described in JIRA with an issue type of Story or Epic.</p>
-                                                    <p>If a component has multiple new features, use a bulleted list. If there is only one new feature, do not use a bulleted list.</p>
-                                                    <p>Each new feature contains a link to the help topic(s) that describe it.</p>
-                                                    <h3 id="review-content-of-enhancements-section">Review Content of Enhancements Section</h3>
-                                                    <p>This section contains minor updates (often described in a JIRA issue type of Story).</p>
-                                                    <p>If a component has multiple enhancements, use a bulleted list. If there is only one enhancement, do not use a bulleted list.</p>
-                                                    <p>Each new enhancement contains a link to the help topic(s) that describe it.</p>
-                                                    <h3 id="review-resolved-issues-section">Review Resolved Issues Section</h3>
-                                                    <p>This section describes resolutions to customer issues.</p>
-                                                    <p>NOTE: QE Bugs that were introduced with the current (not yet released) version are not included in the Resolved Issues section. For example, if QE discovers a bug with a new feature that is being released with the current version, do not include that bug in the release notes.</p>
-                                                    <p>Resolved issues are described in JIRA issues that match one or more of the following:</p>
                                                     <ul>
-                                                        <li>Were entered by the support team</li>
-                                                        <li>Contain links to a Zendesk customer ticket</li>
-                                                        <li>Mention a customer in the comments</li>
-                                                        <li>Were entered by PM as an internally reported Bug.</li>
+                                                        <li>
+                                                            <p>enceladus (anything that starts with knowledge.syniti.com/bulk)</p>
+                                                            <ul>
+                                                                <li>
+                                                                    <p>Bulk Update</p>
+                                                                </li>
+                                                                <li>
+                                                                    <p>Search</p>
+                                                                </li>
+                                                            </ul>
+                                                        </li>
                                                     </ul>
-                                                    <p>Each issue description contains this information:</p>
                                                     <ul>
-                                                        <li>The nature of the issue, in other words, what was broken.</li>
-                                                        <li>What was done to fix it, if the fix is visible to the user. Back end updates, such as those related to stored procedures, tables, or views are not included.</li>
-                                                        <li>How the product functions with the fix</li>
-                                                        <li>At the end of the description add a reference to the JIRA issue number enclosed in brackets for example, [DSP-1234]</li>
+                                                        <li>
+                                                            <p>firewatch-ui (anything that starts with dm.syniti.com/)</p>
+                                                            <ul>
+                                                                <li>
+                                                                    <p>Migration dashboards</p>
+                                                                </li>
+                                                                <li>
+                                                                    <p>Though this one doesn’t really have static guidance right now so probably isn’t super relevant, but is technically one of our UI apps.</p>
+                                                                </li>
+                                                            </ul>
+                                                        </li>
                                                     </ul>
-                                                    <h3 id="enhancement-requests-from-users">Enhancement Requests from Users</h3>
-                                                    <p>Enhancement Requests from Users are described in JIRA issues that:</p>
-                                                    <p> - Have the label DSP Enhancement Request </p>
-                                                    <p>- Have the label IdeasPortal </p>
-                                                    <p>- Are the result of online help feedback</p>
-                                                    <p>Each Enhancement Request contains a link to the help topic(s) that describe it.</p>
-                                                    <p>After the What’s New topic has been reviewed, refer to <a href="BOADocProcess_PrepareReleaseNotes.html">Prepare Release Notes</a> for more information.</p>
+                                                    <ul>
+                                                        <li>
+                                                            <p>kubernao (anything that starts with knowledge.syniti.com/categories)</p>
+                                                            <ul>
+                                                                <li>
+                                                                    <p>Category Admin</p>
+                                                                </li>
+                                                            </ul>
+                                                        </li>
+                                                    </ul>
+                                                    <ul>
+                                                        <li>
+                                                            <p>Phoebe</p>
+                                                            <ul>
+                                                                <li>
+                                                                    <p>Strategy</p>
+                                                                </li>
+                                                            </ul>
+                                                        </li>
+                                                    </ul>
+                                                    <ul>
+                                                        <li>
+                                                            <p>tethys (anything that starts with knowledge.syniti.com/uploads)</p>
+                                                            <ul>
+                                                                <li>
+                                                                    <p>Remote Uploads</p>
+                                                                </li>
+                                                            </ul>
+                                                        </li>
+                                                    </ul>
                                                 </div>
                                                 <div id="feedback-survey">
                                                     <div class="feedback-question">
