@@ -1,0 +1,95 @@
+<h2 id="general">General</h2>
+<ul>
+<li>Do not use special characters in Flare file names (ok to use in topic title and TOC).</li>
+<li>Link to only the first reference of a page, unless there is a â€œView the field description for XXX pageâ€ reference, then you only need that reference linked.</li>
+<li>Look in the xml markup and remove CDATA tags: {% include image.html file=â€œcdataTags.pngâ€ alt=â€œCDATA tags in markup.â€ caption=â€œCDATA tags in markup.â€ %}</li>
+<li>Italicize:
+<ul>
+<li>Page names (the <em>Targets</em> page)</li>
+<li><em>Vertical</em> View as a page (not icon)</li>
+<li><em>Horizontal</em> View</li>
+<li><em>Navigation</em> pane</li>
+<li>Manual titles (<em>BackOffice Associates Solutions Installation and Upgrade Manual</em>)</li>
+<li>The link the field descriptions in steps (<em>View the field descriptions for the Targets page</em>).</li>
+</ul></li>
+<li>Bold:
+<ul>
+<li>UI objects mentioned in numbered steps</li>
+<li>Specific text that must be entered in a field (Enter <strong>MM01</strong> in the <strong>TARGET TABLE</strong> field)</li>
+<li><strong>NOTE:</strong> (bold colon after word)</li>
+<li><strong>Vertical View</strong> as a clickable icon (Click <strong>Vertical View</strong> toâ€¦)</li>
+<li>Do not bold the names of UI elements (icons, etc.) outside of steps except when you are making an imperative statement. An imperative statement is â€œclick the XXX iconâ€¦select Xxxx from the listbox.â€</li>
+</ul></li>
+</ul>
+<h2 id="for-use-cases">For Use Cases</h2>
+<ul>
+<li><p>H1 for topic title.</p></li>
+<li><p>H2 for any sections</p></li>
+<li><p>H3 for any subsections</p></li>
+<li><p>Use the p.note style for notes included in paragraphs</p></li>
+<li><p>Before beginning navigation steps, mention the component in which the task is being performed (To [perform an action] in Map:)</p></li>
+<li><p>When presenting two different options in numbered steps, use â€œORâ€ on a separate line:</p>
+<p>Click <strong>Save</strong>.</p>
+<p>OR</p>
+<p>Click <strong>Cancel</strong>.</p></li>
+<li><p><strong>List boxes:</strong> Select a Role ID to [perform some action]. Options are:</p>
+<ul>
+<li><strong>Value 1</strong> â€” Description 1</li>
+<li><strong>Value 2</strong> â€” Description 2</li>
+</ul></li>
+<li><p><strong>Text boxes:</strong> Begin a step that describes a text box field that allows data entry with â€œEnter the value. . .â€ or â€œEnter text. . .â€ in XX field.</p></li>
+<li><p><strong>Check boxes:</strong> Write a step describing a check box as â€œClick the [ check box name ] to enable it. . .â€</p></li>
+<li><p><strong>Menu navigation:</strong> Select <strong>Configuration > Data Sources</strong> in the <em>Navigation</em> pane.</p></li>
+<li><p><strong>Icons:</strong> use definitive article and call it an icon (for example, Click the <strong>Tables</strong> icon).</p></li>
+<li><p><strong>Vertical View as a clickable icon:</strong> no definitive article, not called an icon (for example, Click <strong>Vertical View</strong>).</p></li>
+<li><p><strong>Buttons:</strong> do not use definitive article or call it a button</p></li>
+</ul>
+<h2 id="for-field-descriptions">For Field Descriptions</h2>
+<ul>
+<li><p>H1 for the page titled</p></li>
+<li><p>H2 for Vertical view and Tab names.</p></li>
+<li><p>< p > is used for text that is not in a table, not bulleted, and not a note</p></li>
+<li><p>Apply the div.use div to the <strong>Use this page to</strong> section</p></li>
+<li><p>Numbered steps are only used for page navigation; no numbered steps in the description of a field</p></li>
+<li><p>Apply fielddescription.css table stylesheet</p></li>
+<li><p>Use p.TableColumn style for the first row and the left column in table</p></li>
+<li><p>Use p.TableText for others rows</p></li>
+<li><p>Use p.TableNote for notes</p></li>
+<li><p>For describing section headings that are collapsible in the DSP, merge the cells to create a single-celled row across the table and format the section heading in bold.</p></li>
+<li><p>The word tab is never capitalized in titles of <em>Vertical</em> View tabs.</p></li>
+<li><p>Descriptions explain each field in â€œDisplayâ€ mode, not when a user adds or edits information. Include information specific to adding and editing in the use case, not in the field description. If information essential to adding and editing must be included, clarify it with â€œWhen addingâ€¦â€ or â€œWhen editing. . .â€</p></li>
+<li><p>When possible, include where (include the page name if on a page other than the current page) and when (during which task) the data in a field is entered for display fields. For example, Integrate > Template page: Template name field - Displays the unique name of the template entered when the template was added.</p></li>
+<li><p>If the page has a HV aAdd links within the topic for the Page name H and Page Name V as well</p></li>
+</ul>
+<h2 id="for-knowledge-base-articles">For Knowledge Base Articles</h2>
+<ul>
+<li><p>Must have overview paragraph at top of article</p></li>
+<li><p>Images must have 1px black border</p></li>
+<li><p>If the Help provides more information, reference it as:</p>
+<ul>
+<li>Refer to [topic name] in the {product} {System Administration} Help for more information.</li>
+</ul></li>
+<li><p>If KB provides more information, reference it as:</p>
+<ul>
+<li>Refer to [ KB Article name ] in the Knowledge Base for more information.</li>
+</ul></li>
+</ul>
+<h2 id="terms-to-watch-out-for">Terms to Watch Out For</h2>
+<ul>
+<li><p>auto-generated <strong>NOT</strong> autogenerated, auto generated</p></li>
+<li><p>check box <strong>NOT</strong> checkbox</p></li>
+<li><p>check list <strong>NOT</strong> checklist</p></li>
+<li><p>data source <strong>NOT</strong> Data Source, DataSource, Datasource, datasource</p></li>
+<li><p>dimmed <strong>NOT</strong> dithered</p></li>
+<li><p>double-click <strong>NOT</strong> double click</p></li>
+<li><p>list box <strong>NOT</strong> listbox</p></li>
+<li><p>log in (v) <strong>NOT</strong> login, log-in</p></li>
+<li><p>login (n) <strong>NOT</strong> log-in, log in</p></li>
+<li><p>Org Units <strong>NOT</strong> Orgunits, OrgUnits, org units</p></li>
+<li><p>set up (v) <strong>NOT</strong> setup</p></li>
+<li><p>setup (n) <strong>NOT</strong> set up</p></li>
+<li><p>toolbar <strong>NOT</strong> tool bar</p></li>
+<li><p>WebApp <strong>NOT</strong> Web App, web app, webapp, Webapp</p></li>
+<li><p>WHERE clause <strong>NOT</strong> Where Clause, where clause, WHERE Clause, WHERE CLAUSE</p></li>
+<li><p>workflow <strong>NOT</strong> Workflow, work flow</p></li>
+</ul>
