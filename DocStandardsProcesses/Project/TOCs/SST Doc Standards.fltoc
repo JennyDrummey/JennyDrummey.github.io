@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="Doc Standards"
+    Link="/Content/SSTDocStandards/BOADocStandards_Overview.html"></TocEntry>
+  <TocEntry
+    Title="SST Standards"
+    Link="/Content/SSTDocStandards/BOADocStandards_OnlineGenGuidelines.html">
+    <TocEntry
+      Title="Use Case Guidelines"
+      Link="/Content/SSTDocStandards/BOADocStandards_UCGuidelines.html" />
+    <TocEntry
+      Title="Page Description Guidelines"
+      Link="/Content/SSTDocStandards/BOADocStandards_FDGuidelines.html" />
+    <TocEntry
+      Title="Dashboard Guidelines"
+      Link="/Content/SSTDocStandards/BOADocStandards_DashGuidelines.html"></TocEntry>
+    <TocEntry
+      Title="SST UI Terms"
+      Link="/Content/SSTDocStandards/BOADocStandards_UITerms.html"></TocEntry>
+    <TocEntry
+      Title="SST Specific Terms"
+      Link="/Content/SSTDocStandards/BOADocStandards_CompNamesTerms.html" />
+  </TocEntry>
+  <TocEntry
+    Title="SKT Standards"
+    Link="/Content/SKTDocStandards/IGCDocStandards_genWritingStyle.html">
+    <TocEntry
+      Title="Use Case Example"
+      Link="/Content/SKTDocStandards/IGCDocStandards_useCase.html"></TocEntry>
+    <TocEntry
+      Title="What's New Standards"
+      Link="/Content/SKTDocStandards/IGCDocStandards_enhancements.html" />
+    <TocEntry
+      Title="SKT Styles"
+      Link="/Content/SKTDocStandards/IGCDocStandards_styles.html"></TocEntry>
+    <TocEntry
+      Title="SKT Sprcific Terms"
+      Link="/Content/SKTDocStandards/IGCDocStandards_wordChoice.html"></TocEntry>
+    <TocEntry
+      Title="SKT Notifications and Messaging"
+      Link="/Content/SKTDocStandards/IGCDocStandards_notifications.html" />
+  </TocEntry>
+  <TocEntry
+    Title="KB Article Standards"
+    Link="/Content/SSTDocStandards/BOADocStandards_KBGenGuidelines.html"></TocEntry>
+  <TocEntry
+    Title="General Standards">
+    <TocEntry
+      Title="Writing Guidelines &amp; Terminology"
+      Link="/Content/SSTDocStandards/BOADocStandards_GuidelinesTerms.html"></TocEntry>
+    <TocEntry
+      Title="Usage Distionary"
+      Link="/Content/SSTDocStandards/BOADocStandards_UsageDictionary.html"></TocEntry>
+  </TocEntry>
+  <TocEntry
+    Title="Multimedia">
+    <TocEntry
+      Title="Images"
+      Link="/Content/SKTDocStandards/IGCDocStandards_screenShots.html"></TocEntry>
+    <TocEntry
+      Title="Video Standards, Processes and Scripts"
+      Link="/Content/SKTDocStandards/IGCDocStandards_video.html" />
+  </TocEntry>
+</CatapultToc>

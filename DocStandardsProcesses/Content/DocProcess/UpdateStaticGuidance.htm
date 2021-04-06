@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('../Resources/MasterPages/DocProcess.flmsp');">
+    <head>
+    </head>
+    <body>
+        <h1>Update Static Guidance</h1>
+        <p>PM and the Documentation Team determine when static guidance should be added or updated.</p>
+        <p>To update static guidance:</p>
+        <ol>
+            <li>
+                <p>Create a JIRA ticket (typically on the DocTeam ToDos board, but sometimes Jon Green creates static guidance tickets on the Kyber board) to track the work to update the static guidance.</p>
+            </li>
+            <li>
+                <p>Pull down the master branch from ui-component-libs repo.</p>
+            </li>
+            <li>
+                <p>Create a new branch, using the Jira ticket number as a name.</p>
+            </li>
+            <li>
+                <p>Navigate to this file: ui-guidance-libs/projects/ui-component-libs/src/lib/guidance/constants/static-guidance.ts.</p>
+                <p class="note"><b>NOTE</b>: Open with Atom or Visual Studio Code.</p>
+            </li>
+            <li>
+                <p>Update the descriptionText as needed, save and close the file.</p>
+            </li>
+            <li>
+                <p>Navigate to the file ui-component-libs/projects/ui-commponent libs/package.json.</p>
+            </li>
+            <li>
+                <p>Increment the third decimal place by 1 for version (ex: 1.1.14 to 1.1.15).</p>
+            </li>
+        </ol>
+        <p>
+            <img src="../Resources/Images/increment.PNG" />
+        </p>
+        <ol MadCap:continue="true">
+            <li>
+                <p>Save and push your repo to the ui-component-libs repo.</p>
+            </li>
+            <li>
+                <p>Open a PR to merge it to master.</p>
+            </li>
+            <li>
+                <p>Ask the App Engineering Group to review the PR.</p>
+            </li>
+            <li>
+                <p>Set the ticket to Code Review, if applicable.</p>
+            </li>
+            <li>
+                <p>Once the changes have passed code review, send the PR to your team’s QE (Karen Dunson) for testing.</p>
+            </li>
+            <li>
+                <p>When the dev and QE resources have both approved the PRs, merge the PRs to master.</p>
+            </li>
+            <li>
+                <p>Notify Nathan Sweezeythat changes are ready to be deployed - we’re working to automate this process, but for now there’s still a little bit of manual intervention left</p>
+            </li>
+            <li>
+                <p>After the changes have been deployed to dev, and have been tested, Nathan Sweezeycan handle the process of moving the changes to preview and/or production</p>
+            </li>
+        </ol>
+        <h2>Identifying apps/services in ui-guidance-libs</h2>
+        <p>In each of our projects that need to support contextual guidance, they'll have a file in the app/models folder named guidancecontext.ts. Looking at the appcontext value on line 11 will show what context value the specific application is passing into the guidance component, which is what's used to look up the static guidance.</p>
+        <p>Here is a list of the front end services and the pages for which they display guidance:</p>
+        <ul>
+            <li>
+                <p>dione (anything that starts with admin.syniti.com/)</p>
+                <ul>
+                    <li>
+                        <p>About Me</p>
+                    </li>
+                    <li>
+                        <p>Accounts</p>
+                    </li>
+                    <li>
+                        <p>Sites</p>
+                    </li>
+                    <li>
+                        <p>Stacks</p>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+        <ul>
+            <li>
+                <p>enceladus (anything that starts with knowledge.syniti.com/bulk)</p>
+                <ul>
+                    <li>
+                        <p>Bulk Update</p>
+                    </li>
+                    <li>
+                        <p>Search</p>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+        <ul>
+            <li>
+                <p>firewatch-ui (anything that starts with dm.syniti.com/)</p>
+                <ul>
+                    <li>
+                        <p>Migration dashboards</p>
+                    </li>
+                    <li>
+                        <p>Though this one doesn’t really have static guidance right now so probably isn’t super relevant, but is technically one of our UI apps.</p>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+        <ul>
+            <li>
+                <p>kubernao (anything that starts with knowledge.syniti.com/categories)</p>
+                <ul>
+                    <li>
+                        <p>Category Admin</p>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+        <ul>
+            <li>
+                <p>Phoebe</p>
+                <ul>
+                    <li>
+                        <p>Strategy</p>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+        <ul>
+            <li>
+                <p>tethys (anything that starts with knowledge.syniti.com/uploads)</p>
+                <ul>
+                    <li>
+                        <p>Remote Uploads</p>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </body>
+</html>

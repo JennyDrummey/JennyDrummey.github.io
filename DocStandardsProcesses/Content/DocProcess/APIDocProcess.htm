@@ -1,0 +1,346 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('../Resources/MasterPages/DocProcess.flmsp');">
+    <head>
+        <link href="../Resources/TableStylesheets/fielddescription.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <h1>API Doc Process</h1>
+        <h2>API Documentation Files</h2>
+        <p>The following files are included in this API documentation process:</p>
+        <table style="mc-table-style: url('../Resources/TableStylesheets/fielddescription.css');" class="TableStyle-fielddescription" cellspacing="0">
+            <tbody>
+                <tr class="TableStyle-fielddescription-Body-Body1">
+                    <td class="TableStyle-fielddescription-BodyE-Column1-Body1" role="rowheader">
+                        <p>File</p>
+                    </td>
+                    <td class="TableStyle-fielddescription-BodyE-Column2-Body1">
+                        <p>Purpose</p>
+                    </td>
+                    <td class="TableStyle-fielddescription-BodyD-Column2-Body1">
+                        <p>Updated By</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-fielddescription-Body-Body1">
+                    <td class="TableStyle-fielddescription-BodyE-Column1-Body1" role="rowheader">
+                        <p>API</p>
+                    </td>
+                    <td class="TableStyle-fielddescription-BodyE-Column2-Body1">
+                        <p>All the code and stuff for the API&#160;</p>
+                    </td>
+                    <td class="TableStyle-fielddescription-BodyD-Column2-Body1">
+                        <p>Dev</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-fielddescription-Body-Body1">
+                    <td class="TableStyle-fielddescription-BodyE-Column1-Body1" role="rowheader">
+                        <p>Swagger Document JSON file</p>
+                    </td>
+                    <td class="TableStyle-fielddescription-BodyE-Column2-Body1">
+                        <p>Lives in starfish and houses all the documentation for the API. Super technical file.&#160;</p>
+                    </td>
+                    <td class="TableStyle-fielddescription-BodyD-Column2-Body1">
+                        <p>Dev and Doc Team</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-fielddescription-Body-Body1">
+                    <td class="TableStyle-fielddescription-BodyB-Column1-Body1" role="rowheader">
+                        <p>SwaggerHub file</p>
+                    </td>
+                    <td class="TableStyle-fielddescription-BodyB-Column2-Body1">
+                        <p>The customer-facing API documentation, which is simply a copy/paste of the Swagger Document JSON file</p>
+                    </td>
+                    <td class="TableStyle-fielddescription-BodyA-Column2-Body1">
+                        <p>Doc Team</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <h2>Roles &amp; Responsibilities</h2>
+        <p>The following table outlines the key players and their responsibilities within the API documentation process:</p>
+        <table style="mc-table-style: url('../Resources/TableStylesheets/fielddescription.css');" class="TableStyle-fielddescription" cellspacing="0">
+            <tbody>
+                <tr class="TableStyle-fielddescription-Body-Body1">
+                    <td class="TableStyle-fielddescription-BodyE-Column1-Body1" role="rowheader">
+                        <p>Role</p>
+                    </td>
+                    <td class="TableStyle-fielddescription-BodyD-Column2-Body1">
+                        <p>Responsibilities&#160;</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-fielddescription-Body-Body1">
+                    <td class="TableStyle-fielddescription-BodyE-Column1-Body1" role="rowheader">
+                        <p>PM (Andrew Smith)</p>
+                    </td>
+                    <td class="TableStyle-fielddescription-BodyD-Column2-Body1">Oversees API developmentDecides when the Swagger Document is to be deployed</td>
+                </tr>
+                <tr class="TableStyle-fielddescription-Body-Body1">
+                    <td class="TableStyle-fielddescription-BodyE-Column1-Body1" role="rowheader">
+                        <p>Dev (Rob Reed)</p>
+                    </td>
+                    <td class="TableStyle-fielddescription-BodyD-Column2-Body1">Owner of the API and the Swagger DocumentUpdates the Swagger Document as they update the API</td>
+                </tr>
+                <tr class="TableStyle-fielddescription-Body-Body1">
+                    <td class="TableStyle-fielddescription-BodyB-Column1-Body1" role="rowheader">
+                        <p>Doc Team</p>
+                    </td>
+                    <td class="TableStyle-fielddescription-BodyA-Column2-Body1">Reviews Description and Summary fields to verify they are written in plain language and not technical.Updates starfish if edits are neededUpdates the customer-facing SwaggerHub document&#160;</td>
+                </tr>
+            </tbody>
+        </table>
+        <h2>Process Flow</h2>
+        <ol>
+            <li>
+                <p>Dev makes changes to the API and the Swagger Document.</p>
+                <ol style="list-style-type: lower-alpha;">
+                    <li>
+                        <p>If the change requires a Doc Team review, Dev @mentions the writer assigned to the mission in the ticket. If the change isn’t tied to a mission, @mention the Doc Team and they will figure out who will review.</p>
+                    </li>
+                    <li>
+                        <p>If the change does not require a Doc Team review, Dev sets the “Documentation Status” on the ticket to “Not Required.”</p>
+                        <p class="note"><b>NOTE</b>: Not all changes to the API will result in a change to the Swagger Document that requires a Doc Team review.</p>
+                    </li>
+                </ol>
+            </li>
+            <li>
+                <p>Doc Team <a href="#Review">reviews API descriptions and summary fields</a>.</p>
+                <ol style="list-style-type: lower-alpha;">
+                    <li>
+                        <p>If everything looks good, notify Dev that no changes are needed.</p>
+                    </li>
+                    <li>
+                        <p>If edits are required, <a href="#Update">update the swagger document in starfish’s develop branch</a>.</p>
+                    </li>
+                </ol>
+            </li>
+            <li>
+                <p>PM/Dev post a notification in the #skt_api Slack channel that the API has been deployed.</p>
+            </li>
+            <li>
+                <p>Doc Team <a href="#Make">makes the Swagger Document visible for customers in SwaggerHu</a>b.</p>
+            </li>
+        </ol>
+        <h2>Doc Team Steps</h2>
+        <h3><a name="Review"></a>Review API Descriptions &amp; Summary Fields</h3>
+        <p>The Doc Team’s responsibilities include reviewing and updating the Description and Summary fields within the Swagger Document JSON file. If they aren’t clear to us, they won’t be clear to customers.</p>
+        <p>Look at the diffs in the PR to see what changes were made. When reviewing the description and summary fields, it’s helpful to view the API in a Swagger Editor.</p>
+        <p>To view the API in a Swagger Editor:</p>
+        <ol>
+            <li>
+                <p>Open the PR.</p>
+            </li>
+            <li>
+                <p>Click the Files Changed tab.</p>
+            </li>
+            <li>
+                <p>Search for “skt_api” to locate the file</p>
+            </li>
+        </ol>
+        <p>
+            <img src="../Resources/Images/searchapi.png" />
+        </p>
+        <ol MadCap:continue="true">
+            <li>
+                <p>Note the new description(s) added</p>
+            </li>
+        </ol>
+        <p>
+            <img src="../Resources/Images/notedesc.png" />
+        </p>
+        <ol MadCap:continue="true">
+            <li>
+                <p>Click the ellipses and select <b>View File</b>.</p>
+            </li>
+        </ol>
+        <p>
+            <img src="../Resources/Images/ViewImage.png" />
+        </p>
+        <ol MadCap:continue="true">
+            <li>
+                <p>Click <b>Raw</b>.</p>
+            </li>
+        </ol>
+        <p>
+            <img src="../Resources/Images/raw.png" />
+        </p>
+        <p>&#160;</p>
+        <ol MadCap:continue="true">
+            <li>
+                <p>Copy all the content.</p>
+            </li>
+            <li>
+                <p>Open the <a href="https://editor.swagger.io/" target="_blank">Swagger Editor</a> and paste the contents. Review the changes that were identified when viewing the diffs of the PR.</p>
+            </li>
+        </ol>
+        <p>
+            <img src="../Resources/Images/paste.png" />
+        </p>
+        <ol MadCap:continue="true">
+            <li>
+                <p>If you have edits, create a PR by making a branch off of develop. Add Rob as a Reviewer. Follow the steps <a href="#Update">Update the swagger document in starfish’s develop branch</a></p>
+            </li>
+            <li>
+                <p>If you don’t have edits, give a thumbs up or a comment to Rob in the PR or comment in the Jira ticket (if one is associated with this work).</p>
+            </li>
+        </ol>
+        <h3><a name="Update"></a>Update the swagger document in starfish’s develop branch</h3>
+        <p>Any updates to descriptions or summary fields must be made to the SwaggerDoc in starfish’s development branch.</p>
+        <p>To update the Swagger document in starfish’s develop  branch:</p>
+        <ol>
+            <li>
+                <p>Ensure that the swagger doc file is not being worked on by posting in the #skt_api channel in slack and asking to work on the Swagger doc.</p>
+            </li>
+            <li>
+                <p>Get confirmation from Rob/Dennis/etc that you can begin work.</p>
+            </li>
+            <li>
+                <p>Open a GitBash window for starfish.</p>
+            </li>
+            <li>
+                <p>Enter <b>git checkout develop</b></p>
+            </li>
+            <li>
+                <p>Enter <b>git pull origin develop</b></p>
+            </li>
+            <li>
+                <p>Enter <b>git checkout -b DescriptiveBranchName</b></p>
+            </li>
+            <li>
+                <p>In File Explorer, navigate to <b>starfish &gt; docs</b>.</p>
+            </li>
+            <li>
+                <p>Open <b>skt_api_v#.json</b> in Visual Studio Code (or your favorite code editor).</p>
+            </li>
+            <li>
+                <p>Make updates and save in your code editor.</p>
+            </li>
+            <li>
+                <p>In GitBash, enter <b>git status</b> to see the changes you made.</p>
+            </li>
+            <li>
+                <p>Enter <b>git add skt_api_v#.json</b></p>
+            </li>
+        </ol>
+        <p><b>NOTE</b>: Match the file structure you see in your GitBash window after you enter “git status.”</p>
+        <p>
+            <img src="../Resources/Images/filestruc.png" />
+        </p>
+        <ol MadCap:continue="true">
+            <li>
+                <p>Enter <b>git commit -m “Descriptive message of what you changed without special characters that is shorter than this message here”</b></p>
+            </li>
+            <li>
+                <p>Push your changes to the remote by entering the command <b>git push origin DescriptiveBranchName</b>.</p>
+            </li>
+            <li>
+                <p>Create a PR for starfish in GitHub to merge your changes to develop.</p>
+            </li>
+            <li>
+                <p>Assign dev resources for review.</p>
+            </li>
+            <li>
+                <p>Devops will collect a group of PRs and merge them into master. They will post a message about your updates that are to be merged to master in the #platform channel in Slack before merging them.</p>
+            </li>
+            <li>
+                <p>When you see the message in #platform about your updates, add a ‘Thumbs Up’ emoji to the thread to show your approval of the merge to master.</p>
+                <p class="note"><b>NOTE</b>: Steps 15 and 16 are part of a WIP process, so they’re subject to change.</p>
+            </li>
+            <li>
+                <p>If your changes are part of a group of updates that are ready for customer eyes, follow the steps in the section Make Swagger Document Visible for Customers in SwaggerHub. Coordinate with the Doc Team on who will update the SwaggerDoc since many tech writers may have PRs that were merged to master. Every update we publish sends out a notification to our subscribers in SwaggerHub.</p>
+            </li>
+        </ol>
+        <h3><a name="Make"></a>Make Swagger Document Visible for Customers in SwaggerHub</h3>
+        <p>Once updates are finalized and merged to master:</p>
+        <ol>
+            <li>
+                <p>Available doc resource logs in to <a href="https://app.swaggerhub.com/" target="_blank">SwaggerHub</a> with these credentials:</p>
+                <ul>
+                    <li>
+                        <p>Username: SynitiOne</p>
+                    </li>
+                    <li>
+                        <p>PW: DocT3amI$thebest!</p>
+                    </li>
+                    <li>
+                        <p>Email address: synitiapidocs@gmail.com</p>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <p>Click the <b>Syniti Knowledge Tier API</b> link to open the JSON file in SwaggerHub.</p>
+            </li>
+        </ol>
+        <p>
+            <img src="../Resources/Images/openjson.PNG" />
+        </p>
+        <ol MadCap:continue="true">
+            <li>
+                <p>Enter <b>Ctrl+a</b> and then <b>Ctrl+c</b> to copy the entire contents of the file.</p>
+            </li>
+            <li>
+                <p>Enter <b>Ctrl+v</b> to paste the existing contents of the SwaggerHub hosted file into a blank file in your code editor.</p>
+                <p class="note"><b>NOTE</b>: The current version of SwaggerHub that we use doesn’t allow for us to roll back to a previous version, so if you think you might need to roll back your updates to the SwaggerHub-hosted document, copying and pasting the existing version into a local copy for yourself will make it easier to roll changes back.</p>
+            </li>
+            <li>
+                <p>Open a GitBash window for starfish.</p>
+            </li>
+            <li>
+                <p>Enter <b>git checkout master</b></p>
+            </li>
+            <li>
+                <p>Enter <b>git pull origin master</b></p>
+            </li>
+            <li>
+                <p>In File Explorer, navigate to <b>starfish &gt; docs.</b></p>
+            </li>
+            <li>
+                <p>Open <b>skt_api_v#.json</b> in Visual Studio Code (or your favorite code editor).</p>
+            </li>
+            <li>
+                <p>Enter <b>Ctrl+a</b> to select the entire contents of the file.</p>
+            </li>
+            <li>
+                <p>Enter <b>Ctrl+c</b> to copy the contents of the JSON file in starfish/docs/SKT_API.</p>
+            </li>
+            <li>
+                <p>Enter <b>Ctrl+</b>v to paste the contents into the SwaggerHub UI.</p>
+            </li>
+            <li>
+                <p>Click <b>Save</b>.</p>
+            </li>
+        </ol>
+        <p>
+            <img src="../Resources/Images/save.png" />
+        </p>
+        <p class="note"><b>NOTE</b>: The button becomes active once changes have been made. Any changes made to the file can be reverted. To revert to a previous save:</p>
+        <ul>
+            <li>
+                <p class="note">Click the ▿ next to the Save button.</p>
+            </li>
+            <li>
+                <p>Select Revert to Last Saved.</p>
+            </li>
+        </ul>
+        <ol MadCap:continue="true">
+            <li>
+                <p>Comment on the starfish PR that the JSON file has been updated in SwaggerHub and give your approval on the PR.</p>
+            </li>
+            <li>
+                <p>If endpoints are added, add those endpoints to the list in this topic: <a href="https://skthelp.syniti.com/ExportAssets.htm" target="_blank">https://skthelp.syniti.com/ExportAssets.htm</a></p>
+            </li>
+            <li>
+                <p>If the version of the API is updated, update the url for the API document:</p>
+            </li>
+        </ol>
+        <p>Topic: <a href="https://skthelp.syniti.com/TechnicalDocs/SktApi.htm" target="_blank">https://skthelp.syniti.com/TechnicalDocs/SktApi.htm</a></p>
+        <p>URL: <a href="https://app.swaggerhub.com/apis/Syniti2/syniti-knowledge_tier_api/" target="_blank">https://app.swaggerhub.com/apis/Syniti2/syniti-knowledge_tier_api</a>/</p>
+        <p>
+            <img src="../Resources/Images/updateversion.png" />
+        </p>
+        <ol MadCap:continue="true">
+            <li>
+                <p>Write an Enhancement release note to let customers know what has been added to the API. If there is a version change, include the updated URL in the release note.</p>
+            </li>
+        </ol>
+        <p>&#160;</p>
+    </body>
+</html>

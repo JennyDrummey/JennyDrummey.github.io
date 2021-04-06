@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<UrlList>
+    <Url Source="Resources/Images/updateversion.png" />
+    <Url Source="Resources/Images/save.png" />
+    <Url Source="Resources/Images/openjson.PNG" />
+    <Url Source="Resources/Images/filestruc.png" />
+    <Url Source="Resources/Images/paste.png" />
+    <Url Source="Resources/Images/raw.png" />
+    <Url Source="Resources/Images/ViewImage.png" />
+    <Url Source="Resources/Images/notedesc.png" />
+    <Url Source="Resources/Images/searchapi.png" />
+    <Url Source="Resources/Images/increment.PNG" />
+    <Url Source="Resources/Images/gitBashHere.png" />
+    <Url Source="Resources/Images/tabbedVV2.png" />
+    <Url Source="Resources/Images/tabbedVV1.png" />
+    <Url Source="Resources/Images/objectsV.png" />
+    <Url Source="Resources/Images/objectsH.png" />
+    <Url Source="Resources/Images/pageDescription.png" />
+    <Url Source="Resources/Images/mergedTableCell.png" />
+    <Url Source="Resources/Images/createGroup.png" />
+    <Url Source="Resources/Images/useThisTo.png" />
+    <Url Source="Resources/Images/complexusecase.png" />
+</UrlList>

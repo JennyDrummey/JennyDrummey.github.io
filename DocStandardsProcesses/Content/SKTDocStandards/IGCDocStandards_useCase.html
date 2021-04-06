@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('..\Resources\MasterPages\DocStandards.flmsp');">
+    <head><title></title>
+        <link href="../Resources/Stylesheets/newDefault.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h1>SKT Use Case Example</h1>
+        <h1 id="sponsors">Sponsors</h1>
+        <h2 id="sponsor-assets">Sponsor assets</h2>
+        <p>Sponsors review assets through their lifecycle to ensure that assets are as valuable to the organization as possible. When users update assets, the Syniti Knowledge Tier notifies the sponsors assigned to those assets. Sponsors can either endorse or contest the asset on the <em>asset detail</em> page after each update. If more than half of the assigned sponsors endorse an asset, the asset is accepted.</p>
+        <p>If any user edits an asset that is in Review or Accepted status, the asset is moved to Contested status. Once the endorsement threshold is met, which is when the majority of sponsors have endorsed the asset, the asset is then moved to an Accepted status. The action taken by each sponsor is indicated in the Sponsors panel on the <em>asset detail</em> page.</p>
+        <p>Sponsorship statuses are:</p>
+        <ul>
+            <li>
+                <p><strong>Candidate—</strong> Asset has not been moved to Review. Details are still being defined.</p>
+            </li>
+            <li>
+                <p><strong>Review—</strong> Asset is under review by sponsors. All sponsors and assignees are notified when the asset is in review.</p>
+            </li>
+            <li>
+                <p><strong>Accepted—</strong> Endorsement threshold met and the asset is accepted. All sponsors are notified when the asset is accepted.</p>
+            </li>
+        </ul>
+        <p>Sponsors can perform the following actions for assets:</p>
+        <ul>
+            <li>
+                <p><strong>Endorse—</strong> Click <strong>Endorse</strong> in the endorsement notification.</p>
+            </li>
+            <li>
+                <p><strong>Contest—</strong>
+                </p>
+                <ol type="1">
+                    <li>
+                        <p>Click <strong>Contest</strong> in the endorsement notification.</p>
+                    </li>
+                    <li>
+                        <p>Enter a comment explaining contestation; this field is required.</p>
+                    </li>
+                    <li>
+                        <p>Click <strong>Done.</strong></p>
+                        <p>{% include note.html content=“This changes the asset’s status back to Candidate. A sponsor must start the process over by sending the asset for review.” %}</p>
+                    </li>
+                </ol>
+            </li>
+            <li>
+                <p><strong>Send for Review—</strong> Click <strong>Send for Review</strong> in the sponsorship status area.</p>
+            </li>
+        </ul>
+        <p>To start the endorsement process, click the <strong>Send For Review</strong> button in the <em>Status</em> panel.</p>
+        <h2 id="add-sponsors-to-assets">Add sponsors to assets</h2>
+        <p>To add sponsors to an asset:</p>
+        <ol type="1">
+            <li>
+                <p>Click the <strong>Plus(+)</strong> icon next to Sponsors.</p>
+                <p>{% include note.html content=“If there are already existing sponsors assigned to an asset, the + icon displays as the Edit icon.” %}</p>
+            </li>
+            <li>
+                <p>Select one or more users in the <strong>Add Sponsors</strong> pane.</p>
+            </li>
+            <li>
+                <p>Click <strong>Ok;</strong> the Add Sponsors pane closes.</p>
+            </li>
+            <li>
+                <p>Click <strong>Save.</strong></p>
+            </li>
+        </ol>
+        <p>To remove sponsors from an asset:</p>
+        <ol type="1">
+            <li>
+                <p>Click the <strong>Edit</strong> icon.</p>
+            </li>
+            <li>
+                <p>Click the <strong>x</strong> icon next to the user name(s) in the Add Sponsors pane to remove the users from the selection list.</p>
+            </li>
+            <li>
+                <p>Click <strong>Ok;</strong> the Add Sponsors pane closes.</p>
+            </li>
+            <li>
+                <p>Click <strong>Save.</strong></p>
+            </li>
+        </ol>
+        <h2 id="contest-assets-as-a-non-sponsor">Contest assets as a non-sponsor</h2>
+        <p>Users that are not assigned as sponsors can contest assets that they think should be improved. If an Accepted asset is contested, it is moved back to Candidate status and must be re-endorsed by the asset’s sponsors. When assets are contested, all sponsors and assignees are notified by email (if allowed by their individual user settings). Refer to <strong>Sponsor Assets</strong> for more information.</p>
+        <p>To contest an asset:</p>
+        <ol type="1">
+            <li>
+                <p>Click the <strong>…</strong> icon for the asset.</p>
+            </li>
+            <li>
+                <p>Click <strong>Contest [ Asset ].</strong></p>
+            </li>
+            <li>
+                <p>Enter a comment explaining contestation; this field is required.</p>
+            </li>
+            <li>
+                <p>Click <strong>Done.</strong></p>
+            </li>
+        </ol>
+    </body>
+</html>

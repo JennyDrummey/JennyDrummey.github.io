@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileLinkSet
+  FileSearchable="true"
+  MasterPage="file:///C:/Users/Jenny Drummey/git/doc-standards-processes/Flare/DocStandardsProcesses/Content/Resources/MasterPages/topNav/glossary.flmsp"
+  OnlyLocalStylesheets="false"
+  FileTimeEstimate="0"
+  FilePriority="0">
+  <Links>
+    <Link
+      Url="Content/Resources/MasterPages/topNav/glossary.flmsp" />
+    <Link
+      Url="Content/Resources/Stylesheets/listnav.css" />
+    <Link
+      Url="Project/ConditionTagSets/Primary.flcts" />
+    <Link
+      Url="Content/Resources/Scripts/jquery-listnav.min.js" />
+    <Link
+      Url="Content/Resources/Scripts/jquery-listnav.js" />
+  </Links>
+  <LongLinks>
+    <Link
+      Url="Content/Resources/MasterPages/topNav/glossary.flmsp" />
+    <Link
+      Url="Content/Resources/Stylesheets/listnav.css" />
+    <Link
+      Url="Project/ConditionTagSets/Primary.flcts" />
+    <Link
+      Url="Content/Resources/Scripts/jquery-listnav.min.js" />
+    <Link
+      Url="Content/Resources/Scripts/jquery-listnav.js" />
+  </LongLinks>
+  <Anchors />
+  <Keywords />
+  <Concepts />
+  <ConceptControlNames />
+  <IndexControlNames />
+  <Variables />
+  <FileConditions />
+  <FileTags />
+  <AllConditions>
+    <Condition
+      Tag="Primary.ISA" />
+    <Condition
+      Tag="Primary.dspConduct" />
+  </AllConditions>
+  <Stylesheets>
+    <Url
+      Source="Content/Resources/Stylesheets/listnav.css" />
+  </Stylesheets>
+</CatapultFileLinkSet>

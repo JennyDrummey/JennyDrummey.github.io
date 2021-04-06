@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('..\Resources\MasterPages\DocProcess.flmsp');">
+    <head><title></title>
+        <link href="../Resources/Stylesheets/newDefault.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h1>Check Latest SST Build for Development and Document Changes</h1>
+        <ul>
+            <li>
+                <p>Development Changes - Tickets may describe a change that you need to see in the product in order to get a full understanding.</p>
+            </li>
+            <li>
+                <p>Document Changes - If new GUIDs were added, log in to the SST to verify the page-to-help link is correct.</p>
+            </li>
+        </ul>
+        <p>Prerequisites: You will need a log in to jenkins and access to the appropriate development Slack channel. </p>
+        <p>Note: Refer to <a href="https://jenkins.io/doc/pipeline/tour/getting-started/">Jenkin’s online resources</a> to learn more.</p>
+        <p>Add yourself to the Slack channel for the latest development cycle. For example, the Slack channel for DSP 7.0.7 is #707dev.</p>
+        <p>Note: When Jenkins runs the QE tests, results are posted to this channel.</p>
+        <p>To check the latest build for development changes:</p>
+        <ol>
+            <li>
+                <p>Navigate to the dev channel in Slack.</p>
+            </li>
+        </ol>
+        <p>
+            <img src="../Resources/Images/CheckBuild1.png" />
+        </p>
+        <p>Jenkins message in Slack</p>
+        <ol MadCap:continue="true">
+            <li>
+                <p>Locate the most recent automated test results in the channel. The title in Slack is RunBuild Test; the Cucumber report opens.</p>
+            </li>
+        </ol>
+        <p>Note: Do not click the link with ‘BuildOnly’ in the title.</p>
+        <p>Note: Jenkins publishes two different kinds of notes to the Dev channel. Make sure to click the link after Test results can be found at:. You may have to log in to Jenkins before proceeding.</p>
+        <ol MadCap:continue="true">
+            <li>
+                <p>Note the Jenkins build date</p>
+            </li>
+        </ol>
+        <p>
+            <img src="../Resources/Images/CheckBuild2.png" />
+        </p>
+        <p>Note the build date.</p>
+        <ol MadCap:continue="true">
+            <li>
+                <p>Open the Jira ticket that documents the change you are trying to view in the DSP.</p>
+            </li>
+            <li>
+                <p>Open the GitHub pull request link listed in the GITHUB DEV PR field.</p>
+            </li>
+            <li>
+                <p>Check to see if the pull request has been merged.</p>
+            </li>
+        </ol>
+        <p>a. If it has not been merged, check back later.</p>
+        <p>b. If it has been merged, proceed to the next step in this process.</p>
+        <p>Note the date of the latest merge. Hover over the time frame to see the date details.</p>
+        <p>
+            <img src="../Resources/Images/CheckBuild3.png" />
+        </p>
+        <p>Note the latest merge date</p>
+        <p>a. If the latest merge date is after the Jenkins test build, the changes are not in development. Check the Dev Slack channel in a day or so for the latest build.</p>
+        <p>b. If the latest merge date is before the Jenkins test build, the changes are in development. Proceed to the next step in this process.</p>
+        <p>Return to Jenkins and click App Site URL to open the latest build site.</p>
+        <p>Log in to the app site using credentials supplied by QE.</p>
+        <p>Note: Depending on your settings, the administrator login credentials may be saved. Click inside the username field. If the administrator user name displays, click it and the password field automatically populates.</p>
+        <p>View changes outlined in the Jira ticket description.</p>
+        <h2>To check the latest build for document changes:</h2>
+        <ol>
+            <li>
+                <p>Log in to Jenkins to build the DSPDocDev site.</p>
+            </li>
+            <li>
+                <p>Click the DSPDocs link.</p>
+            </li>
+        </ol>
+        <p>
+            <img src="../Resources/Images/DocChanges1.png" />
+        </p>
+        <p>Location of the DSPDocs link</p>
+        <p>Locate the DSPDocDev row and click the Schedule a Build icon.</p>
+        <p>
+            <img src="../Resources/Images/DocChanges2.png" />
+        </p>
+        <p>Location of the Schedule a Build icon</p>
+        <ol MadCap:continue="true">
+            <li>
+                <p>Enter the version number without periods in the VERSION field.</p>
+            </li>
+        </ol>
+        <p>
+            <img src="../Resources/Images/DocChanges3.png" />
+        </p>
+        <p>Where to enter the VERSION number</p>
+        <p>Do not change the remaining fields.</p>
+        <ol MadCap:continue="true">
+            <li>
+                <p>Click Build. The online help for the development site builds. View the progress in the Build History window.</p>
+            </li>
+        </ol>
+        <ol MadCap:continue="true">
+            <li>
+                <p>Navigate to the Dev channel in Slack once the build completes.</p>
+            </li>
+        </ol>
+        <p>Note: Refer to Prerequisites on how to gain access to the dev channel in Slack.</p>
+        <p>
+            <img src="../Resources/Images/DocChanges4.png" />
+        </p>
+        <p>Jenkins message in Slack</p>
+        <ol MadCap:continue="true">
+            <li>
+                <p>Click the most recent Jenkins test result link with BuildDeployTest in the title to view the latest build; the Cucumber report displays.</p>
+            </li>
+        </ol>
+        <p>Note: Do not click the link with BuildOnly in the title.</p>
+        <p>Note: Jenkins publishes two different kinds of notes to the Dev channel. You may have to log into Jenkins before proceeding.</p>
+        <ol MadCap:continue="true">
+            <li>
+                <p>Log in to the DSP and view the online help.</p>
+            </li>
+        </ol>
+    </body>
+</html>

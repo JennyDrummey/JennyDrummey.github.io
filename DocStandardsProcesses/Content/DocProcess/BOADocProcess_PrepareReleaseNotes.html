@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('..\Resources\MasterPages\DocProcess.flmsp');">
+    <head><title></title>
+        <link href="../Resources/Stylesheets/newDefault.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h1>Prepare SST Release Notes</h1>
+        <p>NOTE: The Syniti Solutions release notes are produced every time there is a release of the SST. The SAP Accelerators release notes are produced when the version of the SST will go through the SAP PQ process.</p>
+        <p>The content of the What’s New topic in the help is prepared as a Word document and distributed as a secured PDF via the support site. It is stored in a Published folder, along with the Installation and Configuration manuals, for each released version of the SST.</p>
+        <p>As the content in the release notes is based on the finalized content of the What’s New topic in the help, ensure the steps to review and prepare the content have been completed. Refer to <a href="BOADocProcess_PrepareWhatsNew.html">Prepare What’s New Topic for Release</a> for more information.</p>
+        <p>To create the Word version of the release notes:</p>
+        <ol type="1">
+            <li>
+                <p>Open the last published release notes document in Word. Published documents are stored in Sharepoint <a href="https://boaweb.sharepoint.com/:f:/s/ProductDocumentation/EhnmYMRGJB1ElIZ5AQ9JlcABT5kbNgKa9Ghe-RSDn0R_Jg?e=Xqma77">here</a>.</p>
+            </li>
+            <li>
+                <p>Save the release notes document with the updated version number locally.</p>
+            </li>
+            <li>
+                <p>Open the Document Properties and update the Category to update the version number in the title page and footers. NOTE: If you are running the Office 360 version of Word, access Document Properties via File &gt; Info &gt; Properties &gt; Advanced Properties and click the Summary tab in the dialogue box to access Category.</p>
+            </li>
+            <li>
+                <p>Update the Software Release Date on the cover page.</p>
+            </li>
+            <li>
+                <p>Replace the content of the release notes with the content from the What’s New topic.</p>
+            </li>
+            <li>
+                <p>Format the Release Notes in Word using the following styles: Body Style, and Headings 1, 2 and 3.</p>
+            </li>
+            <li>
+                <p>Add hyperlinks from the release notes to the referenced help topics .NOTE: In the release notes, add <strong>in the online help</strong> to references. For example, in the What’s New topic: Refer to Add a Request for more information. In the release notes: Refer to Add a Request in the online help for more information.</p>
+                <p>NOTE: Add a hyperlink from the reference in the release notes to the topic in the correct version of help (Syniti Solutions v. SAP Accelerators and version number). Use Word’s Add Hyperlink feature, and be sure to link to the production site, not the development site.</p>
+            </li>
+            <li>
+                <p>Update the TOC in Word. Click in the TOC. Press F9. Select Update entire table in Update Table of Contents dialogue box.</p>
+            </li>
+            <li>
+                <p>Upload the release notes Word document to the appropriate version folder in the Published folder on Sharepoint.</p>
+            </li>
+            <li>
+                <p>Create a Jira ticket for the release notes, and link it to the ticket for the installation manuals.</p>
+            </li>
+            <li>
+                <p>Add a link to the ticket to the Word draft of the release notes.</p>
+            </li>
+            <li>
+                <p>Assign the ticket to PM for review by assigning the Documentation Status of Review and mentioning the PM in the comments.</p>
+            </li>
+            <li>
+                <p>After PM approves the document, create the PDF following the steps in <a href="BOADocProcess_Create_pdf.html">Convert Word to PDF</a> topic.</p>
+            </li>
+            <li>
+                <p>Save the Word and PDF to the correct version folder in the <a href="https://boaweb.sharepoint.com/:f:/s/ProductDocumentation/EhnmYMRGJB1ElIZ5AQ9JlcABT5kbNgKa9Ghe-RSDn0R_Jg?e=9WLvFs">Published</a> folder on SharePoint</p>
+            </li>
+            <li>
+                <p>Send a link to the secured PDF to support.</p>
+            </li>
+            <li>
+                <p>Close the Jira ticket related to the release notes and change the Documentation Status to Doc Done.</p>
+            </li>
+            <li>
+                <p>Apply any changes from PM’s review to the What’s New topic.</p>
+            </li>
+        </ol>
+        <p>IMPORTANT: If changes are made to the install manuals, tell Support that new versions are available.</p>
+        <h2 id="compare-content-in-word-whats-new-topic-v.-release-notes">Compare Content in Word (What’s New topic v. Release Notes)</h2>
+        <p>NOTE: These steps are optional and intended for situations where multiple updates must be made to the What’s New topic/release notes document after the release notes document has been finalized.</p>
+        <p>The Release Notes document and the What’s New topic in the help are updated frequently during final review prior to help delivery. Compare the content to ensure that it is identical, if needed.</p>
+        <p>The results of a compare can show discrepancies that are easy to miss with a side-by-side review.</p>
+        <p>NOTE: The ‘Refer to . . .’ references are different. In the Release Notes, they include ‘in the online help.</p>
+        <p>To compare Release Notes and What’s New content after significant updates:</p>
+        <ol type="1">
+            <li>
+                <p>Save the Release Notes document with " _compare" appended to the file name.</p>
+            </li>
+            <li>
+                <p>Generate a Word document from Flare with the What’s New topic (select the appropriate Condition Build Expression)</p>
+            </li>
+            <li>
+                <p>In both documents, delete the cover page, toc, and introduction section. Also delete the headings. (You just need the text to compare). Save the changes.</p>
+            </li>
+            <li>
+                <p>Open one of the documents in Word. (It does not matter which one)</p>
+            </li>
+            <li>
+                <p>On the <strong>Review</strong> tab, click <strong>Compare</strong> and select <strong>Compare two versions of a document</strong>.</p>
+            </li>
+            <li>
+                <p>In the <strong>Compare Documents</strong> window, browse to and select your <strong>Original</strong> and <strong>Revised</strong> documents. (Release notes can be the original or the What’s New; it does not matter).</p>
+            </li>
+            <li>
+                <p>Click <strong>More</strong>, and then select/deselect the options as needed to match what is shown in the following screen shot:</p>
+            </li>
+            <li>
+                <p>Click <strong>OK</strong>.</p>
+            </li>
+            <li>
+                <p>Save the resulting Word document.</p>
+            </li>
+        </ol>
+    </body>
+</html>

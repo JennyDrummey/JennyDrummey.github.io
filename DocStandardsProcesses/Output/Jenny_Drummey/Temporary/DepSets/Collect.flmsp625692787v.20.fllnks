@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileLinkSet
+  FileTitle="DSP Help"
+  FileSearchable="true"
+  OnlyLocalStylesheets="false"
+  FileTimeEstimate="0"
+  FilePriority="0">
+  <Links>
+    <Link
+      Url="https://fonts.googleapis.com/css" />
+    <Link
+      Url="Content/Stylesheets/newDefault.css" />
+    <Link
+      Url="https://www.googletagmanager.com/gtag/js" />
+    <Link
+      Url="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.6.15/browser-polyfill.min.js" />
+    <Link
+      Url="Content/Scripts/modal.js" />
+    <Link
+      Url="Content/Scripts/custom.js" />
+    <Link
+      Url="Content/Scripts/feedback.js" />
+    <Link
+      Url="mailto:Helpfeedback@syniti.com?subject=Feedback" />
+    <Link
+      Url="Project/Skins/ContextMenu.flskn" />
+    <Link
+      Url="Project/TOCs/Collect.fltoc" />
+    <Link
+      Url="Project/ConditionTagSets/Primary.flcts" />
+    <Link
+      Url="https://support.syniti.com/access/unauthenticated" />
+    <Link
+      Url="http://launchpad.support.sap.com/" />
+    <Link
+      Url="Ideas_Portal.htm" />
+    <Link
+      Url="https://www.syniti.com/support/education/" />
+    <Link
+      Url="glossary.htm" />
+    <Link
+      Url="When_to_request_a_new_product_license.htm" />
+    <Link
+      Url="http://support.syniti.com/hc/en-us" />
+    <Link
+      Url="Data_Insiders_Community.htm" />
+    <Link
+      Url="Content/Images/topNav/SynitiGradientLogo.png" />
+    <Link
+      Url="Content/Snippets/CopyrightFooter.flsnp" />
+    <Link
+      Url="https://www.syniti.com/privacy-policy/" />
+    <Link
+      Url="https://www.syniti.com/trademarks/" />
+    <Link
+      Url="https://www.syniti.com/terms-of-use/" />
+  </Links>
+  <LongLinks>
+    <Link
+      Url="https://fonts.googleapis.com/css?family=Roboto" />
+    <Link
+      Url="Content/Stylesheets/newDefault.css" />
+    <Link
+      Url="https://www.googletagmanager.com/gtag/js?id=UA-121391607-4" />
+    <Link
+      Url="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.6.15/browser-polyfill.min.js" />
+    <Link
+      Url="Content/Scripts/modal.js" />
+    <Link
+      Url="Content/Scripts/custom.js" />
+    <Link
+      Url="Content/Scripts/feedback.js" />
+    <Link
+      Url="mailto:Helpfeedback@syniti.com?subject=Feedback" />
+    <Link
+      Url="Project/Skins/ContextMenu.flskn" />
+    <Link
+      Url="Project/TOCs/Collect.fltoc" />
+    <Link
+      Url="Project/ConditionTagSets/Primary.flcts" />
+    <Link
+      Url="https://support.syniti.com/access/unauthenticated?return_to=https%3A%2F%2Fbackofficeassociates.zendesk.com%2Fagent%2Fdashboard" />
+    <Link
+      Url="http://launchpad.support.sap.com/" />
+    <Link
+      Url="Ideas_Portal.htm" />
+    <Link
+      Url="https://www.syniti.com/support/education/" />
+    <Link
+      Url="glossary.htm" />
+    <Link
+      Url="When_to_request_a_new_product_license.htm" />
+    <Link
+      Url="http://support.syniti.com/hc/en-us" />
+    <Link
+      Url="Data_Insiders_Community.htm" />
+    <Link
+      Url="Content/Images/topNav/SynitiGradientLogo.png" />
+    <Link
+      Url="Content/Snippets/CopyrightFooter.flsnp" />
+    <Link
+      Url="https://www.syniti.com/privacy-policy/" />
+    <Link
+      Url="https://www.syniti.com/trademarks/" />
+    <Link
+      Url="https://www.syniti.com/terms-of-use/" />
+  </LongLinks>
+  <Anchors />
+  <Keywords />
+  <Concepts />
+  <ConceptControlNames />
+  <IndexControlNames />
+  <Variables />
+  <FileConditions />
+  <FileTags />
+  <AllConditions>
+    <Condition
+      Tag="Primary.dspConduct" />
+    <Condition
+      Tag="Primary.ISA" />
+  </AllConditions>
+  <Stylesheets>
+    <Url
+      Source="https://fonts.googleapis.com/css?family=Roboto" />
+    <Url
+      Source="Content/Stylesheets/newDefault.css" />
+  </Stylesheets>
+</CatapultFileLinkSet>

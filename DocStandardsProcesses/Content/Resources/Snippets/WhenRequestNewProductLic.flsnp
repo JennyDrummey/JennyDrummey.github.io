@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <p>Because licenses are tied to a hardware ID, any hardware change can invalidate your current license. If this occurs, Stewardship Tier will display the warning below and you will have 14 days to contact the licensing team to obtain a new license before Stewardship Tier will no longer be accessible. If you have purchased a Syniti Knowledge Tier license, you must obtain a new Cloud Key as well. Contact <a href="http://support.boaweb.com/" MadCap:conditions="Primary.dspConduct">BOA Support</a><MadCap:conditionalText MadCap:conditions="Primary.ISA"><a href="http://launchpad.support.sap.com/">SAP Support</a> using component XX-PART-BOA</MadCap:conditionalText> when planning updates to hardware.</p>
+        <p>
+            <img src="../Images/NOTI.png" />
+        </p>
+    </body>
+</html>

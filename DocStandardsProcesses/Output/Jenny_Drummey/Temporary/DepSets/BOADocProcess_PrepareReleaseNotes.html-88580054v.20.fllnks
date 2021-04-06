@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileLinkSet
+  FileTitle=""
+  FileSearchable="true"
+  OnlyLocalStylesheets="false"
+  FileTimeEstimate="0"
+  FilePriority="0">
+  <Links>
+    <Link
+      Url="Content/Resources/Stylesheets/newDefault.css" />
+    <Link
+      Url="Content/SSTDocProcess/BOADocProcess_PrepareWhatsNew" />
+    <Link
+      Url="https://boaweb.sharepoint.com/:f:/s/ProductDocumentation/EhnmYMRGJB1ElIZ5AQ9JlcABT5kbNgKa9Ghe-RSDn0R_Jg" />
+    <Link
+      Url="Content/SSTDocProcess/BOADocProcess_Create_pdf" />
+    <Link
+      Url="https://boaweb.sharepoint.com/:f:/s/ProductDocumentation/EsCjDSg_bUBKqAVAbYyuUdMBoU_F_o8iSpxd-1BBN4sODA" />
+  </Links>
+  <LongLinks>
+    <Link
+      Url="Content/Resources/Stylesheets/newDefault.css" />
+    <Link
+      Url="Content/SSTDocProcess/BOADocProcess_PrepareWhatsNew" />
+    <Link
+      Url="https://boaweb.sharepoint.com/:f:/s/ProductDocumentation/EhnmYMRGJB1ElIZ5AQ9JlcABT5kbNgKa9Ghe-RSDn0R_Jg?e=Xqma77" />
+    <Link
+      Url="Content/SSTDocProcess/BOADocProcess_Create_pdf" />
+    <Link
+      Url="https://boaweb.sharepoint.com/:f:/s/ProductDocumentation/EhnmYMRGJB1ElIZ5AQ9JlcABT5kbNgKa9Ghe-RSDn0R_Jg?e=9WLvFs" />
+    <Link
+      Url="https://boaweb.sharepoint.com/:f:/s/ProductDocumentation/EsCjDSg_bUBKqAVAbYyuUdMBoU_F_o8iSpxd-1BBN4sODA?e=RIuUCu" />
+  </LongLinks>
+  <Anchors />
+  <Keywords />
+  <Concepts />
+  <ConceptControlNames />
+  <IndexControlNames />
+  <Variables />
+  <FileConditions />
+  <FileTags />
+  <AllConditions />
+  <Stylesheets>
+    <Url
+      Source="Content/Resources/Stylesheets/newDefault.css" />
+  </Stylesheets>
+</CatapultFileLinkSet>

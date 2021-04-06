@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('../Resources/MasterPages/DocProcess.flmsp');">
+    <head>
+    </head>
+    <body>
+        <h1>Publish SKT Help</h1>
+        <p>SKT Help updates can be published anytime and do not require a jenkins build. When a ticket on the Kyber board reaches Done status, it is deployed and the related documentation should be published.</p>
+        <p>To publish Help:</p>
+        <ol>
+            <li>
+                <p>Prepare the help content as described in the  Documentation Process Overview. Only content approved by a PM&#160;or Dev should be added to the help. </p>
+            </li>
+            <li>
+                <p>Inform the Doc Team in the doc_checkouts Slack channel that you are going to check out the Help.</p>
+            </li>
+            <li>
+                <p><a href="#Synchron">Synchronize your local repo develop branch with the remote develop branch and create a new branch.</a>
+                </p>
+            </li>
+            <li>
+                <p>Make updates and note them in your <a href="BOADocProcess_Workflow_Approved.html#Author">Author Notes</a>. </p>
+            </li>
+            <li>
+                <p><a href="#Build">Build and Publish</a> the target.</p>
+            </li>
+            <li>
+                <p>Commit updates locally and push to remote.</p>
+            </li>
+            <li>
+                <p>Merge your changes to the develop branch. This will automatically start a jenkins job that will copy the updated help system to the dev environment.</p>
+            </li>
+            <li>
+                <p>When the changes are available on the develop site, ask for a peer review. </p>
+            </li>
+        </ol>
+        <h2><a name="Synchron"></a>Synchronize your local repo develop branch with the remote develop branch and create a new branch</h2>
+        <p>Right-click your local repo folder and select Git Bash Here from the dropdown menu to open the command prompt at that location.</p>
+        <ol>
+            <li>
+                <p>Review the current branch, which appears in parenthesis at the end of the line. If you are not currently in the develop branch, switch to the develop branch by entering the git command git checkout develop.</p>
+            </li>
+            <li>
+                <p>Enter the git command git pull origin develop to synchronize your local copy of the develop branch with the remote copy.</p>
+            </li>
+        </ol>
+        <p>Note: You MUST perform these steps before you make updates to ensure you are working in the latest copy of the develop branch.</p>
+        <ol MadCap:continue="true">
+            <li>
+                <p>Enter git command git checkout -b BranchName to create a personal branch in which to make edits, where BranchName is a brief description of the branch.</p>
+            </li>
+            <li>
+                <p>Open the SKP help project in Flare and make updates.</p>
+            </li>
+            <li>
+                <p>Save your changes, and Build and Publish Target.</p>
+            </li>
+            <li>
+                <p>In File Explorer, verify your updates are appearing correctly in the correct publish folder (IGCHelp or IGCWhatsNew)</p>
+            </li>
+            <li>
+                <p>Close Flare and Help output.</p>
+            </li>
+        </ol>
+        <h2>Commit updates locally and push to remote</h2>
+        <ol>
+            <li>
+                <p>Return to Git Bash or open a new session.</p>
+            </li>
+            <li>
+                <p>Navigate to your repo, and make sure you are in the correct branch. It is in parenthesis after your prompt.</p>
+            </li>
+            <li>
+                <p>Enter the git command git status to see all of the changes you have made.</p>
+                <p>Note: All of the updated files’ paths will appear in red.</p>
+                <p>Note: If you do not see them, you may have forgotten to save or you are in the wrong branch.</p>
+            </li>
+            <li>
+                <p>Enter the git command git add . to stage your updates for commit.</p>
+                <p>Note: The file paths change from red to green after you stage them. Include the space and the period.</p>
+            </li>
+            <li>
+                <p>Enter the git the command git commit -m "commit message" to commit staged updates.</p>
+                <p>Note: Do not use special characters, like apostrophes, in message.</p>
+            </li>
+            <li>
+                <p>Enter the git the command git push origin BranchName to push your updates to the remote repo.</p>
+            </li>
+            <li>
+                <p>Create pull request to merge BranchName into develop.</p>
+            </li>
+            <li>
+                <p>Message peer reviewer in Slack with link to PR in GitHub.</p>
+            </li>
+        </ol>
+        <h2>Perform SKT Help Peer Review</h2>
+        <p>Follow the steps listed <a href="BOADocProcess_Workflow_PeerReview.html">here</a>. </p>
+        <h2><a name="Build"></a>Build and Publish Target</h2>
+        <p>To build and publish a target in Flare:</p>
+        <ol>
+            <li>
+                <p>Open Flare, click the down arrow on the Build Primary button and select either HTML5 SKP Help.</p>
+            </li>
+            <li>
+                <p>Open Project Organizer &gt; Targets.</p>
+            </li>
+            <li>
+                <p>Double-click HTML5 SKP Help (Primary) .</p>
+            </li>
+            <li>
+                <p>Click Publishing tab.</p>
+            </li>
+            <li>
+                <p>Select the Destination being updated: HTML5 IGC.</p>
+            </li>
+            <li>
+                <p>Click the Edit Destination button; a new tab opens.</p>
+            </li>
+            <li>
+                <p>Click the … button to edit the Directory.</p>
+            </li>
+            <li>
+                <p>Select the destination folder: IGCHelp.</p>
+            </li>
+            <li>
+                <p>Click OK and close the tab.</p>
+            </li>
+            <li>
+                <p>Click the Publish button on the topic toolbar of the Target Editor tab.</p>
+            </li>
+            <li>
+                <p>Close the HTML5 SKP  topic.</p>
+            </li>
+            <li>
+                <p>Close Flare.</p>
+            </li>
+            <li>
+                <p>Return to the Git folder in Windows Explorder, navigate to the IGCHelp folder and open the html file to confirm changes.</p>
+            </li>
+        </ol>
+        <p>Proceed with committing changes in GitHub (git add., git commit, give push origin and create a pull request).</p>
+    </body>
+</html>

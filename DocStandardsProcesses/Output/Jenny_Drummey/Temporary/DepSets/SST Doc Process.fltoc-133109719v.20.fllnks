@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileLinkSet
+  FileSearchable="false"
+  OnlyLocalStylesheets="false"
+  FileTimeEstimate="0"
+  FilePriority="0">
+  <Links>
+    <Link
+      Url="Content/SSTDocProcess/BOADocProcess_DocUpdatesTable.html" />
+    <Link
+      Url="Content/SSTDocProcess/BOADocProcess_FlareLicenseUpgradeProcess.html" />
+    <Link
+      Url="Content/SSTDocProcess/BOADocProcess_ProjDocRoles.html" />
+    <Link
+      Url="Content/SSTDocProcess/BOADocProcess_SrcsOnlineHelp.html" />
+    <Link
+      Url="Content/SSTDocProcess/BOADocProcess_Workflow_StatusField.html" />
+    <Link
+      Url="Content/SSTDocProcess/BOADocProcess_Workflow_NotStarted.html" />
+    <Link
+      Url="Content/SSTDocProcess/BOADocProcess_Workflow_InProcess.html" />
+    <Link
+      Url="Content/SSTDocProcess/BOADocProcess_Workflow_Review.html" />
+    <Link
+      Url="Content/SSTDocProcess/BOADocProcess_Workflow_Approved.html" />
+    <Link
+      Url="Content/SSTDocProcess/BOADocProcess_Workflow_PeerReview.html" />
+  </Links>
+  <LongLinks />
+  <Anchors />
+  <Keywords />
+  <Concepts />
+  <ConceptControlNames />
+  <IndexControlNames />
+  <Variables />
+  <FileConditions />
+  <FileTags />
+  <AllConditions />
+  <Stylesheets />
+</CatapultFileLinkSet>

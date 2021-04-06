@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('..\Resources\MasterPages\DocProcess.flmsp');">
+    <head>
+        <link href="../Resources/Stylesheets/Styles.css" rel="stylesheet" type="text/css" />
+        <link href="../Resources/Stylesheets/newDefault.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h1>GitHub Initial Setup</h1>
+        <h2>Git Bash Set Up</h2>
+        <ol type="1">
+            <li>Install Git Bash by downloading from here: <a href="https://git-scm.com/">https://git-scm.com/</a></li>
+            <li>Follow these steps to set up Git Bash for the first time: <a href="https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup">https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup</a></li>
+            <li>Follow these steps to auto launch the ssh-agent: <a href="https://docs.google.com/document/d/1_uwCLQY9dEiQ_E27a-BjgMdNv6eZbAG64M29NIyp8ng/edit?usp=sharing">https://docs.google.com/document/d/1_uwCLQY9dEiQ_E27a-BjgMdNv6eZbAG64M29NIyp8ng/edit?usp=sharing</a></li>
+        </ol>
+        <h2><a name="Clone_BackOffice/dsp-docs_repo_to_local"></a>Clone BackOffice/dsp-docs repo to local</h2>
+        <p>Prior to doing any work, you need to obtain a copy of the BackOfficeAssoc dsp-docs repository for your local computer.</p>
+        <p>
+To clone the BOA dsp-docs repo to your laptop: </p>
+        <p>1. In GitHub, go to the BackOfficeAssoc account.</p>
+        <p> 2. Find the BackOfficeAssoc/dsp-docs repo. </p>
+        <p>3. In the BackOfficeAssoc/dsp-docs repo, click the <strong>Clone or download</strong> button. Once you click it, it will reveal a URL that you need to copy and paste into your command line in the next step. Click the copy to clipboard button to the right of the url to copy it. </p>
+        <p>NOTE: There are various options for cloning. We will be doing the clone from the command line, so simply copy the SSH URL shown.</p>
+        <p>4. Open Git Bash and navigate to the directory that you wish to download to.
+</p>
+        <div class="alert alert-info" data-markdown="span" role="alert"><b>Note:</b> The repository will be cloned into a new directory below the one you specify, with the same name as the repository, ex. <code class="highlighter-rouge">C:\heathercloward\github\dsp-docs</code>.
+</div>
+        <p>Alternatively, in Windows Explorer, you can right-click in a folder and select **Git Bash Here** from the dropdown menu to open the command prompt at that location.
+			
+        </p>
+        <ol start="5" type="1">
+            <li>Run the git clone command using the SSH URL from step 3.
+<div class="alert alert-info" data-markdown="span" role="alert"> <b>Note:</b> It should look like: <code class="highlighter-rouge">git clone git@github.com:BackOfficeAssoc/dsp-docs.git</code>.
+</div></li>
+            <li>Switch into your new directory by entering the git command <code>cd dsp-docs</code><div class="alert alert-info" data-markdown="span" role="alert"><b>Note:</b> You will know you are in the correct directory by the command prompt, ex. <code class="highlighter-rouge">Documents/GitHub/dsp-docs (develop)</code> shows repo name and branch name.
+</div></li>
+            <li>Fetch the develop branch so that you have it in your local repo by entering the git command <code>git fetch origin develop</code>.</li>
+        </ol>
+        <p>NOTE: Any branch you do not have on your local that exists on the remote can be created in this way. IMPORTANT All release branches should be based on the develop branch.</p>
+    </body>
+</html>

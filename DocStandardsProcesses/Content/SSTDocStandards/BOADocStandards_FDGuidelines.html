@@ -1,0 +1,435 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('..\Resources\MasterPages\DocStandards.flmsp');">
+    <head>
+        <link href="../Resources/TableStylesheets/fielddescription.css" rel="stylesheet" MadCap:stylesheetType="table" /><title></title>
+        <link href="../Resources/Stylesheets/newDefault.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h1>SST Page Description Guidelines</h1>
+        <h2>Application of Styles</h2>
+        <p>When applying a style, it may be necessary to clear a style or remove attributes from a style so that text is formatted correctly. Clear the style by highlighting the text (click the style block in the XML Editor), and then on the Home tab, in the Font group, click the <strong>Unformat</strong> icon.</p>
+        <p><strong>h1</strong>
+        </p>
+        <p>All page description topics start with h1.</p>
+        <p><strong>h2</strong>
+        </p>
+        <p>If the topic has <em>Horizontal</em> and <em>Vertical</em> views, format the page name V in h2.</p>
+        <p><strong>p</strong>
+        </p>
+        <p>Use the (paragraph style) for text that is not in a table, is not bulleted, and is not a note. Use the paragraph style for bookmark links to the <em>Vertical</em> and <em>Horizontal</em> View pages.</p>
+        <p><strong>div.use</strong>
+        </p>
+        <p>Apply the div.use class to the, Use this page to section in each page description.</p>
+        <p>
+            <img src="../Resources/Images/useThisTo.png" />
+        </p>
+        <p>Select either the single line, or the line with the bullets if the page is used in multiple use cases. On the home tab, in the Paragraph group, click the Group icon and select div.use from the list.</p>
+        <p>
+            <img src="../Resources/Images/createGroup.png" />
+        </p>
+        <h3 id="bullets">Bullets</h3>
+        <p>When describing a list of options, such as values in a list box, use bullets and bold the option name. Bold only the first word when the bulleted items are followed by an explanation.</p>
+        <p>For example:</p>
+        <p>Options are:</p>
+        <ul>
+            <li>
+                <p><strong>First option</strong>—Description</p>
+            </li>
+            <li>
+                <p><strong>Second option</strong>—Description</p>
+            </li>
+            <li>
+                <p><strong>Third option</strong>  —Description</p>
+            </li>
+        </ul>
+        <h3 id="numbered-steps">Numbered Steps</h3>
+        <p>Numbered steps are used in the navigation section of PD topics. Begin the section with To access this page and add the steps from the use case to navigate to the page. Use the same numbered list formatting as in a Use Case.</p>
+        <h3 id="tables">Tables</h3>
+        <p>The fielddescription.css table stylesheet is used for format tables. The left column is 200px and the right column is 550px. Refer to section [Format Tables in Topics][BOADocProcess_UpdateOnlineHelp.html#formattables] for more information.</p>
+        <p>Use the p.TableColumn style for the first row and the left column in the table. Use p.TableText for other rows.</p>
+        <p>Use the p.TableNote style for adding notes to tables.</p>
+        <p>On the Home tab, in the Paragraph group, use the Bulleted List option to format all bullets.</p>
+        <p>In the Help topic, include the collapsible section headings from the SST's <em>Vertical</em> View in a merged cell in the FD table (do not make the headings collapsible in the Help topic). Format the heading using the p.TableColumn style and merge the cells.</p>
+        <p>See the Basic Data row below for an example. {</p>
+        <p>
+            <img src="../Resources/Images/mergedTableCell.png" />
+        </p>
+        <h2 id="character-styles">Character Styles</h2>
+        <p><strong>Italics</strong>
+        </p>
+        <p>Use italics for:</p>
+        <ul>
+            <li>Page names (e.g., the <em>Targets</em> page)</li>
+            <li><em>Vertical</em> View</li>
+            <li><em>Horizontal</em> View</li>
+            <li><em>Navigation</em> pane</li>
+            <li>The title of a manual (e.g., <em>Syniti Solutions installation and Upgrade Manual</em>)</li>
+        </ul>
+        <p><strong>Bold</strong>
+        </p>
+        <p>Use bold for:</p>
+        <ul>
+            <li>The word <strong>NOTE</strong>.</li>
+            <li>The name of an option in a bulleted list. Refer to <a href="#bullets">Bullets</a> for more information.</li>
+            <li>UI elements included in an imperative sentence</li>
+        </ul>
+        <h2 id="references-to-use-cases">References to Use Cases</h2>
+        <p>Every page descriptions topic must reference a use case and provide a link to it.</p>
+        <p>In rare cases where no use case is needed, include information about how a page is used. For example, the Process Area Launch page in Map does not require a use case. It contains the text: Use this page to access the pages as described below. </p>
+        <p>NOTE: When adding a use case, add a link to that new use case from the page description topic.</p>
+        <h2 id="page-description-topics">Page Description topics</h2>
+        <ul>
+            <li>All page description topics are the first item in the componentâ€™s use case menu.</li>
+            <li>The topics are named [Component Name] Page Descriptions.</li>
+            <li>The topics contains an alphabetized hyperinked list of all pages in the componenet</li>
+        </ul>
+        <h2 id="page-descriptions-topics-with-one-view-structure">Page Descriptions Topics with One View Structure</h2>
+        <p>If a page does not have a <em>Vertical</em> View, organize the page descriptions topic in this order:</p>
+        <ol type="1">
+            <li>Name of page (h1)</li>
+            <li>References to use cases that use the page. Use the standard text: â€œUse this page toâ€ (p) (apply div.use to this line and any bullets that follow it - see <a href="#application-of-styles">Application of Styles</a> ).</li>
+            <li>Use case one (Bullet)</li>
+            <li>Use case two (Bullet)</li>
+            <li>Navigation to page using numbered steps. Use the standard text (To access this page. . . "(p)</li>
+            <li>Table </li>
+        </ol>
+        <p>
+            <img src="../Resources/Images/pageDescription.png" />
+        </p>
+        <h2 id="field-descriptions-topics-with-horizontal-and-vertical-view-structure">Field Descriptions Topics with <em>Horizontal</em> and <em>Vertical</em> View Structure</h2>
+        <p>If a page has a <em>Horizontal</em> and <em>Vertical</em> View, the topic contains the descriptions for both the <em>Horizontal</em> and <em>Vertical</em> views.</p>
+        <p>Present content in this order:</p>
+        <ol type="1">
+            <li>Name of page H (h1)</li>
+            <li>Page name V (p) (hyperlink to page name V bookmark)</li>
+            <li>Use this page to (p) (apply div.use to this line and any bullets that follow it - see <a href="#application-of-styles">Application of Styles</a> ).</li>
+            <li>Use case one (Bullet)</li>
+            <li>Use case two (Bullet)</li>
+            <li>Navigation to page using numbered steps Use the standard text (To access this page. . . "(p)</li>
+            <li>Table</li>
+            <li>Page Name V (h2) (bookmark linked to Page Name V at top of topic and to TOC page for Page Name V</li>
+            <li>Page name H (p) (hyperlink to page name H bookmark)</li>
+            <li>Use this page to (p) (apply div.use)</li>
+            <li>Use case one (Bullet) Include only if VV is specifically used in use case.</li>
+            <li>Use case two (Bullet) Include only if VV is specifically used in use case.</li>
+            <li>Table</li>
+        </ol>
+        <p>
+            <img src="../Resources/Images/objectsH.png" />
+        </p>
+        <p>
+            <img src="../Resources/Images/objectsV.png" />
+        </p>
+        <h3 id="references-to-use-cases-for-vertical-view">References to use cases for <em>Vertical</em> View</h3>
+        <p>Include references to use cases that mention the <em>Vertical</em> View specifically. Do not duplicate the list of use cases from the <em>Horizontal</em> View (unless the same use cases use both views).</p>
+        <h2 id="field-descriptions-with-a-tabbed-vertical-layout">Field Descriptions with a Tabbed Vertical Layout</h2>
+        <p>Some <em>Vertical</em> Views contain tabs to separate content. Use the following guidelines when formatting field descriptions for a tabbed vertical layout in Flare.</p>
+        <p>Include the field descriptions for all tabs in one topic under the <em>Vertical</em> View.</p>
+        <p>Present content in this format:</p>
+        <ol type="1">
+            <li>Page Name V (All tabs) (h2)</li>
+            <li>Page Name H (p) (link to top of page)</li>
+            <li>This page contains the following tabs: (p) (apply div.use to this and following bullets)</li>
+            <li>General tab (Bullet, include the word tab)</li>
+            <li>Advanced tab (Bullet, include the word tab)</li>
+            <li>General tab (h2)</li>
+            <li>Use this tab to: (p) (div.use)</li>
+            <li>Use case one (Bullet) Include only if the tab is specifically used in use case.</li>
+            <li>Use case one (Bullet) Include only if the tab is specifically used in use case.</li>
+            <li>Table</li>
+            <li>Advanced tab(h2)</li>
+            <li>Use this tab to: (p) (div.use)</li>
+            <li>Use case one (Bullet) Include only if the tab is specifically used in use case.</li>
+            <li>Use case one (Bullet) Include only if the tab is specifically used in use case.</li>
+            <li>Table</li>
+        </ol>
+        <p>The following image includes a tabbed vertical layout screen shot and an example of how to format the content:</p>
+        <p>
+            <img src="../Resources/Images/tabbedVV1.png" />
+        </p>
+        <p>&#160;</p>
+        <p>
+            <img src="../Resources/Images/tabbedVV2.png" />
+        </p>
+        <h3 id="references-to-use-cases-for-tabbed-layouts-in-vertical-view">References to use cases for Tabbed Layouts in Vertical View</h3>
+        <p>Include references to use cases that mention the tab specifically. Do not duplicate the list of use cases from the <em>Horizontal</em> View (unless the same use cases use both views).</p>
+        <h2 id="tables-1">Tables</h2>
+        <p>Include a two-column table for page descriptions</p>
+        <ul>
+            <li>Name the column headings: <strong>Field</strong> and <strong>Description</strong>.</li>
+            <li>Apply the fielddescription.css table style to all tables.</li>
+            <li>Do not include standard fields such as edit, status, and delete in page descriptions.</li>
+        </ul>
+        <p>Refer to the section [Format Tables in Topics][BOADocProcess_UpdateOnlineHelp.html#formattables] for more information.</p>
+        <h2 id="page-descriptions-content">Page Descriptions Content</h2>
+        <ul>
+            <li>
+                <p>Verify the accuracy and completeness of field names in the product. When verifying names, review the labels on the fields. The field name must match the label name exactly, including capitalization and spacing.</p>
+            </li>
+            <li>
+                <p>Alert Development if any spelling errors and inconsistencies are found.</p>
+            </li>
+            <li>
+                <p>Ideally, a field that appears on multiple pages in the product has the same basic description on each page. If possible, reuse the description of a field.</p>
+            </li>
+            <li>
+                <p>The description of a field never contains numbered steps.</p>
+            </li>
+            <li>
+                <p>When possible, include where (include the page name if on a page other than the current page) and when (during which task) the data in a field is entered for display fields.</p>
+                <p>NOTE: For example: On the Integrate &gt; template page: Template name field - Displays the unique name of the template entered when the template was added.</p>
+            </li>
+            <li>
+                <p>Descriptions explain each field in Display  mode, not when a user adds or edits information. Include information specific to adding and editing in the use case, not in the page description. If information essential to adding and editing must be included, clarify it with When adding or When editing. . .</p>
+            </li>
+            <li>
+                <p>Begin the description of a button or icon that opens a page with Click to open the X page to add, edit and delete </p>
+            </li>
+            <li>
+                <p>Begin the description of a text box with Displays. . .</p>
+            </li>
+            <li>
+                <p>Begin a description of a check box with the words If checked, . .and describe the setting. Follow by a sentence that begins If unchecked, . .if this functionality merits clarification.</p>
+            </li>
+            <li>
+                <p>In most cases, it is unnecessary to include that a field is required because required fields are indicated in the user interface. Include a note in the description if a special circumstance requires that a field be completed.</p>
+            </li>
+            <li>
+                <p>When describing a list box, include the source of the values, if applicable.</p>
+            </li>
+            <li>
+                <p>When describing a list box or check box on the HV, confirm that selections from those elements do not affect the fields that display on the VV. Those fields must also be documented.</p>
+            </li>
+            <li>
+                <p>Every field on a page must have a description, even if the field is not used in the product for the current release. There are two reasons why a field/page is not used:</p>
+                <ul>
+                    <li>It is no longer used in the product but has not yet been hidden from the UI. In this case, use the standard This field/page is not used.</li>
+                    <li>It is under development, and the feature will be used in an upcoming release. In this case, use This field/page is not currently used, but will be activated in a future release.</li>
+                </ul>
+            </li>
+        </ul>
+        <h2 id="guidelines-for-improving-page-descriptions">Guidelines for Improving Page Descriptions</h2>
+        <ul>
+            <li>
+                <p>Describe where data in a field comes from and why/how it is used</p>
+            </li>
+            <li>
+                <p>Indicate if the field is not used or deprecated</p>
+            </li>
+            <li>
+                <p>Whenever possible, add links to use cases in descriptions to provide more information on how and when fields are used.</p>
+            </li>
+            <li>
+                <p>Whenever a page is mentioned, hyperlink the page name to the corresponding page description topic.</p>
+            </li>
+            <li>
+                <p>Review the use case describing the page. Content from the use case can be used to clarify the descriptions of the field (and vice versa).</p>
+            </li>
+            <li>
+                <p>The descriptions of the same field in <em>Horizontal</em> and <em>Vertical</em> View have the same descriptions (except in rare cases).</p>
+            </li>
+            <li>
+                <p>Avoid providing a field description that repeats the field name and nothing else. For example, include more information in a description of the Target field then Displays the name of the target. For example, you can write for Name (as in the Target;s Name)</p>
+                <p>| <strong>NAME</strong> | Displays the Target name, which is the table name with tt appended to the front.|</p>
+            </li>
+        </ul>
+        <h2 id="field-types-guidelines-and-examples">Field Types Guidelines and Examples</h2>
+        <table style="mc-table-style: url('../Resources/TableStylesheets/fielddescription.css');" class="TableStyle-fielddescription" cellspacing="0">
+            <colgroup>
+                <col width="20%" />
+                <col width="20%" />
+                <col width="20%" />
+                <col width="20%" />
+                <col width="20%" />
+            </colgroup>
+            <thead>
+                <tr class="TableStyle-fielddescription-Head-Header1">
+                    <th class="TableStyle-fielddescription-HeadE-Column1-Header1">
+Field Type
+</th>
+                    <th class="TableStyle-fielddescription-HeadE-Column2-Header1">
+Example in UI
+</th>
+                    <th class="TableStyle-fielddescription-HeadE-Column2-Header1">
+Guidelines
+</th>
+                    <th class="TableStyle-fielddescription-HeadE-Column2-Header1">
+Snippet
+</th>
+                    <th class="TableStyle-fielddescription-HeadD-Column2-Header1">
+Example
+</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-fielddescription-Body-Body1">
+                    <td class="TableStyle-fielddescription-BodyE-Column1-Body1" role="rowheader">
+List box: Value stored in database and cannot be updated by the user.
+</td>
+                    <td class="TableStyle-fielddescription-BodyE-Column2-Body1">
+Admin &gt; Data Sources &gt; DATA SOURCE TYPE
+</td>
+                    <td class="TableStyle-fielddescription-BodyE-Column2-Body1">
+Include a list of each delivered option, and description of when/why/how to use each option if relevant.
+</td>
+                    <td class="TableStyle-fielddescription-BodyE-Column2-Body1">
+                    </td>
+                    <td class="TableStyle-fielddescription-BodyD-Column2-Body1"> </td>
+                </tr>
+                <tr class="TableStyle-fielddescription-Body-Body1">
+                    <td class="TableStyle-fielddescription-BodyE-Column1-Body1" role="rowheader">
+Any check box that is named â€œDSP Suppliedâ€ ALWAYS USE THE SNIPPET HERE FOR THIS CHECK BOX. It is available as a snippet in Flare.
+</td>
+                    <td class="TableStyle-fielddescription-BodyE-Column2-Body1"> </td>
+                    <td class="TableStyle-fielddescription-BodyE-Column2-Body1"> </td>
+                    <td class="TableStyle-fielddescription-BodyE-Column2-Body1">
+If checked, this content is installed with the platform and cannot be edited. If unchecked, the content was added by a user or process. NOTE: This is a display-only check box. It cannot be updated.
+</td>
+                    <td class="TableStyle-fielddescription-BodyD-Column2-Body1">
+                    </td>
+                </tr>
+                <tr class="TableStyle-fielddescription-Body-Body1">
+                    <td class="TableStyle-fielddescription-BodyE-Column1-Body1" role="rowheader">
+List box: Value created in SQL server as a view/rule/report etc.
+</td>
+                    <td class="TableStyle-fielddescription-BodyE-Column2-Body1">
+Transform &gt; Targets &gt; Reports &gt; TARGET REPORT
+</td>
+                    <td class="TableStyle-fielddescription-BodyE-Column2-Body1">
+State that the options are a result of views/stored procedures/etc added in SQL
+</td>
+                    <td class="TableStyle-fielddescription-BodyE-Column2-Body1"> </td>
+                    <td class="TableStyle-fielddescription-BodyD-Column2-Body1">
+Target source reports are managed in SQL.
+</td>
+                </tr>
+                <tr class="TableStyle-fielddescription-Body-Body1">
+                    <td class="TableStyle-fielddescription-BodyE-Column1-Body1" role="rowheader">
+Combo box
+</td>
+                    <td class="TableStyle-fielddescription-BodyE-Column2-Body1">
+Console &gt; Process Areas &gt; PROCESS AREA ID
+</td>
+                    <td class="TableStyle-fielddescription-BodyE-Column2-Body1">
+Include a link to the use case that describes adding the object displayed in the combo box.
+</td>
+                    <td class="TableStyle-fielddescription-BodyE-Column2-Body1"> </td>
+                    <td class="TableStyle-fielddescription-BodyD-Column2-Body1">
+Select an option in the PROCESS AREA ID combo box, or click the + sign to add an option. Refer to Add a Process Area for more information.
+</td>
+                </tr>
+                <tr class="TableStyle-fielddescription-Body-Body1">
+                    <td class="TableStyle-fielddescription-BodyE-Column1-Body1" role="rowheader">
+Icon that performs an action when clicked (executes a process, generates a report etc.)
+</td>
+                    <td class="TableStyle-fielddescription-BodyE-Column2-Body1">
+Transform &gt; Targets &gt; Process
+</td>
+                    <td class="TableStyle-fielddescription-BodyE-Column2-Body1">
+Describe scenarios that cause the icon to be disabled if any. State the action performed and/or why it is performed.
+</td>
+                    <td class="TableStyle-fielddescription-BodyE-Column2-Body1"> </td>
+                    <td class="TableStyle-fielddescription-BodyD-Column2-Body1">
+Click the Process icon to process the report in the background. NOTE: This icon is dimmed if the reportâ€™s status is Inactive.
+</td>
+                </tr>
+                <tr class="TableStyle-fielddescription-Body-Body1">
+                    <td class="TableStyle-fielddescription-BodyE-Column1-Body1" role="rowheader">
+Icon that opens a page when clicked
+</td>
+                    <td class="TableStyle-fielddescription-BodyE-Column2-Body1">
+Collect &gt; Tables &gt; Indices
+</td>
+                    <td class="TableStyle-fielddescription-BodyE-Column2-Body1">
+Describe scenarios that cause the icon to be disabled, if any. Describe the purpose of the count shown on the icon. State the page name that opens and what can be done on the page.
+</td>
+                    <td class="TableStyle-fielddescription-BodyE-Column2-Body1"> </td>
+                    <td class="TableStyle-fielddescription-BodyD-Column2-Body1">
+Click to open the Table (Indices) page to register indices to table. The count on the icon is the total number of indices registered to the selected table.
+</td>
+                </tr>
+                <tr class="TableStyle-fielddescription-Body-Body1">
+                    <td class="TableStyle-fielddescription-BodyE-Column1-Body1" role="rowheader">
+Check box that can be selected.
+</td>
+                    <td class="TableStyle-fielddescription-BodyE-Column2-Body1">
+Console &gt; Advanced Configuration &gt; Parameters &gt; Map &gt; Objects Required
+</td>
+                    <td class="TableStyle-fielddescription-BodyE-Column2-Body1">
+Explain what effect checked /unchecked has, including the name of the page affected.
+</td>
+                    <td class="TableStyle-fielddescription-BodyE-Column2-Body1"> </td>
+                    <td class="TableStyle-fielddescription-BodyD-Column2-Body1">
+If checked, the Objects icon displays on the Process Area Launch page in Map and a user can perform Object Design. The Object Design phase is not required. (Object Design is used when the target system is SAP only.) If unchecked, the Objects icon does not display on the Process Area Launch page in Map. This setting is checked or unchecked for the entire site, and cannot be set for a specific data migration project. It is checked by default.
+</td>
+                </tr>
+                <tr class="TableStyle-fielddescription-Body-Body1">
+                    <td class="TableStyle-fielddescription-BodyE-Column1-Body1" role="rowheader">
+Text field with user entered text (such as Comment fields)
+</td>
+                    <td class="TableStyle-fielddescription-BodyE-Column2-Body1">
+Console &gt; Waves &gt; Process Areas &gt; Objects &gt; Vertical View &gt; Comment
+</td>
+                    <td class="TableStyle-fielddescription-BodyE-Column2-Body1">
+Make it clear that information in this field is entered by a user.
+</td>
+                    <td class="TableStyle-fielddescription-BodyE-Column2-Body1">
+This field contains user-entered text for documentation purposes and is not validated.
+</td>
+                    <td class="TableStyle-fielddescription-BodyD-Column2-Body1">
+Displays user-entered comments about the target that were entered on the Object: Target pageâ€™s Vertical View in the Comment field. This field stores free-form text and is not validated.
+</td>
+                </tr>
+                <tr class="TableStyle-fielddescription-Body-Body1">
+                    <td class="TableStyle-fielddescription-BodyE-Column1-Body1" role="rowheader">
+Display only field: Field cannot be edited on the page
+</td>
+                    <td class="TableStyle-fielddescription-BodyE-Column2-Body1">
+Common &gt; Analyze &gt; DATA SOURCE ID
+</td>
+                    <td class="TableStyle-fielddescription-BodyE-Column2-Body1">
+Include whether this data is stored in the database and canâ€™t be updated OR include page this data is entered on. Use â€œThis field is populated by the systemâ€ to describe fields of this type. If applicable, add the condition under which the field is populated. Example from the field descriptions for the AutoGen BODS Requests page for the field REQUEST CREATE DATE: â€ Displays the date the AutoGen request was created. This field is populated by the system when an AutoGen request is created and indicates that the request package is ready to be automatically or manually.
+</td>
+                    <td class="TableStyle-fielddescription-BodyE-Column2-Body1">
+These values are stored in the database and cannot be updated through the UI.
+</td>
+                    <td class="TableStyle-fielddescription-BodyD-Column2-Body1">
+Displays unique ID for the data source being analyzed. Data Sources are registered in the platform in Admin &gt; Data Sources.
+</td>
+                </tr>
+                <tr class="TableStyle-fielddescription-Body-Body1">
+                    <td class="TableStyle-fielddescription-BodyE-Column1-Body1" role="rowheader">
+Text field that must be updated at client site
+</td>
+                    <td class="TableStyle-fielddescription-BodyE-Column2-Body1">
+Console &gt; Advanced Configuration &gt; Parameters &gt; General tab &gt; Email From field
+</td>
+                    <td class="TableStyle-fielddescription-BodyE-Column2-Body1">
+Include how/why the field is used and that it must be updated.
+</td>
+                    <td class="TableStyle-fielddescription-BodyE-Column2-Body1">
+This field must be updated at the clientâ€™s site.
+</td>
+                    <td class="TableStyle-fielddescription-BodyD-Column2-Body1">
+Displays the email address that sends workflow emails from dspMigrateâ„¢. This field must be updated at the clientâ€™s site.
+</td>
+                </tr>
+                <tr class="TableStyle-fielddescription-Body-Body1">
+                    <td class="TableStyle-fielddescription-BodyB-Column1-Body1" role="rowheader">
+Field with text that displays as a link
+</td>
+                    <td class="TableStyle-fielddescription-BodyB-Column2-Body1">
+Integrate &gt; Categories &gt; Processes &gt; Templates &gt; Template ID
+</td>
+                    <td class="TableStyle-fielddescription-BodyB-Column2-Body1">
+Page that opens when a user clicks the link. What action can be performed on that page when it is accessed that way.
+</td>
+                    <td class="TableStyle-fielddescription-BodyB-Column2-Body1"> </td>
+                    <td class="TableStyle-fielddescription-BodyA-Column2-Body1">
+Click the template name to open the Template page to view or edit information about the selected template.
+</td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

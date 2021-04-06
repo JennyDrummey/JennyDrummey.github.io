@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="Doc Process"
+    Link="/Content/DocProcess/BOADocProcess_DocUpdatesTable.html"></TocEntry>
+  <TocEntry
+    Title="Doc Standards"
+    Link="/Content/SSTDocStandards/BOADocStandards_Overview.html" />
+</CatapultToc>

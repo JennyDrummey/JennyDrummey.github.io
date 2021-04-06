@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="../Stylesheets/newDefault.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <p class="footer"><MadCap:variable name="Primary.et." /> BackOffice Associates, LLC d/b/a Syniti. and/or its affiliates. All rights reserved. </p>
+        <p class="footer">Names appearing on the Site may be trademarks of their respective owners.</p>
+    </body>
+</html>

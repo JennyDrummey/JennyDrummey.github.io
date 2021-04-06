@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('..\Resources\MasterPages\DocStandards.flmsp');">
+    <head>
+        <link href="../Resources/TableStylesheets/fielddescription.css" rel="stylesheet" MadCap:stylesheetType="table" /><title></title>
+        <link href="../Resources/Stylesheets/newDefault.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h1>SST Help General Guidelines</h1>
+        <h2>Access to Online Help from within a Component</h2>
+        <p>In SST, each page in the component has a Help icon (?). A field description topic for the page displays when the user clicks the icon.</p>
+        <p>The field description displays a link to the use case(s) that use the page.</p>
+        <h2>Page v. Topic</h2>
+        <p>For online documentation standards, use the following terms.</p>
+        <p>A page is a page in the BackOffice Associates product.</p>
+        <p>A topic is a topic in the online help.</p>
+        <h2>Topic Types</h2>
+        <p>The following documentation types are used in the SST online help:</p>
+        <ul>
+            <li>
+                <p>Overview – Describes an overall process or general information about its subtopics.</p>
+            </li>
+            <li>
+                <p>Use case – Describes a set of tasks, each with its own steps, that allows a user and a system to perform a goal. Refer to <a href="BOADocStandards_UCGuidelines.html">Use Case Guidelines</a> for more information.</p>
+            </li>
+            <li>
+                <p>Page description – Contains navigation steps to the associated DSP page and a table that lists every visible field along with a description. Refer to <a href="BOADocStandards_FDGuidelines.html">Page Descriptions Guidelines</a>.</p>
+            </li>
+        </ul>
+        <h2>Configuration and System Administration Tasks</h2>
+        <p>Some tasks, such as configuration tasks, may be performed in a different component than the one being described. For example, the user performs configuration tasks in Common that apply to other components, such as Collect and Integrate. In this case, the Integrate help contains a link to the relevant section in the Common help.</p>
+        <p>Describe the System Administration tasks that apply across components in the System Administration help. For example, objects in components can be moved via the CTS process using Sys Admin pages. Security for all components is described in the Security section.</p>
+        <h2>Flare File Names</h2>
+        <p>When Flare compiles file names, it embeds the entire file path string in the file name. If the file path string and file name combine into more than 99 characters, it will cause issues when recycling old checkout folders. Name file names and folders using as few characters as possible.</p>
+        <table style="mc-table-style: url('../Resources/TableStylesheets/fielddescription.css');" class="TableStyle-fielddescription" cellspacing="0">
+            <col style="width: 411px;" class="TableStyle-fielddescription-Column-Column1" />
+            <col class="TableStyle-fielddescription-Column-Column2" />
+            <thead>
+                <tr class="TableStyle-fielddescription-Head-Header1">
+                    <th class="TableStyle-fielddescription-HeadE-Column1-Header1">are File Name</th>
+                    <th class="TableStyle-fielddescription-HeadD-Column2-Header1">Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-fielddescription-Body-Body1">
+                    <td class="TableStyle-fielddescription-BodyE-Column1-Body1" role="rowheader">[Project Name].flprj</td>
+                    <td class="TableStyle-fielddescription-BodyD-Column2-Body1">Name of Flare project file, created by Flare when the project is created.</td>
+                </tr>
+                <tr class="TableStyle-fielddescription-Body-Body1">
+                    <td class="TableStyle-fielddescription-BodyE-Column1-Body1" role="rowheader">[ProductName].flmsp</td>
+                    <td class="TableStyle-fielddescription-BodyD-Column2-Body1">Name of Flare master pages.Master page types include:Use CasesPage DescriptionsConfigurationTipsGlossary</td>
+                </tr>
+                <tr class="TableStyle-fielddescription-Body-Body1">
+                    <td class="TableStyle-fielddescription-BodyE-Column1-Body1" role="rowheader">newdefault.css– stylesheet for topic content for topnavdefault.css– contains no content, but needed so that Flare does not display errorsStylesforHomePage.css- stylesheet for the home or index page which has a different layout than the topic pages.fileddescrition.css– stylesheet for formatting table (grid style, column size, etc); located in the tablestyles folder.masterpagetable.css– stylesheet for formatting the master page footer table.threecolumns.css– stylesheet for formattting special three column tables that appear in use cases.</td>
+                    <td class="TableStyle-fielddescription-BodyD-Column2-Body1">Stylesheets in Flare that contains all styles for the online help topics.</td>
+                </tr>
+                <tr class="TableStyle-fielddescription-Body-Body1">
+                    <td class="TableStyle-fielddescription-BodyE-Column1-Body1" role="rowheader">HTML5- Top NavigationSearch ResultsTripane FaviconContextMenu</td>
+                    <td class="TableStyle-fielddescription-BodyD-Column2-Body1">Skins in Flare used to style the Help system output by Flare.</td>
+                </tr>
+                <tr class="TableStyle-fielddescription-Body-Body1">
+                    <td class="TableStyle-fielddescription-BodyE-Column1-Body1" role="rowheader">HTML5 Full.fltarHTML5 Solex.fltar</td>
+                    <td class="TableStyle-fielddescription-BodyD-Column2-Body1">Targets in Flare used to build Help system outputs.</td>
+                </tr>
+                <tr class="TableStyle-fielddescription-Body-Body1">
+                    <td class="TableStyle-fielddescription-BodyB-Column1-Body1" role="rowheader">BSSCDefault.h</td>
+                    <td class="TableStyle-fielddescription-BodyA-Column2-Body1">Header file in Flare that is included in the Help output to allow Context-sensitive help to work.</td>
+                </tr>
+            </tbody>
+        </table>
+        <h2>Extra Paragraphs/Blank Lines</h2>
+        <p>Remove blank lines. Make sure that there are no extra blank lines at the end of topics. Leaving extra blank lines at the end of a topic affects the spacing in the printed documents.</p>
+        <p>Never add a blank paragraph to adjust spacing (or use the space bar to adjust indents.) Instead, make sure to apply the styles from the style sheet correctly.</p>
+        <p>Don’t use soft returns by pressing Shift+Enter.</p>
+        <h2>Page Names Hyperlink to Field Descriptions Topic</h2>
+        <p>Whenever a product page is referenced in a use case, add a hyperlink to the first reference only, but not if there is also a View the field description for the XXXxxx page link to the page in the use case.</p>
+        <p>For a page description topic, references must always have a hyperlink to the PD topic for a page. But don't link twice in the same paragraph or field description.</p>
+        <h2>Standard Use Cases for Each SST Component</h2>
+        <p>Every component has the following use case topics:</p>
+        <ul>
+            <li>
+                <p>[Component] Overview – Provides a description of the component, such as its primary function, how it fits into the solution. This topic displays when a user clicks the component name button at the top of a topic, or when a user clicks the component name button on the home page.</p>
+            </li>
+            <li>
+                <p>Setup and Configuration for [Component] – Part of the Overview. Provides the setup steps that are required before using the component.</p>
+            </li>
+            <li>
+                <p>Set up Security for [Component Name] – provides steps to set up security to be able to use the component. Contained in the Configuration section.</p>
+            </li>
+        </ul>
+        <h2>Use of Special Characters in .htm File Names</h2>
+        <p>When creating a topic, remove special characters from the .htm page name that Flare creates. The title in the TOC and the topic title in the topic pane can use special characters. The .htm file name cannot. Special characters include:</p>
+        <ul>
+            <li>
+                <p># pound</p>
+            </li>
+            <li>
+                <p>&lt; left angle bracket</p>
+            </li>
+            <li>
+                <p>$ dollar sign</p>
+            </li>
+            <li>
+                <p>+ plus sign</p>
+            </li>
+            <li>
+                <p>@ at sign</p>
+            </li>
+            <li>
+                <p>\% percent</p>
+            </li>
+            <li>
+                <p>&gt; right angle bracket</p>
+            </li>
+            <li>
+                <p>! exclamation point</p>
+            </li>
+            <li>
+                <p>? question mark</p>
+            </li>
+            <li>
+                <p>\ back slash</p>
+            </li>
+            <li>
+                <p>&amp; ampersand</p>
+            </li>
+            <li>
+                <p>* asterisk</p>
+            </li>
+            <li>
+                <p>’ single quotes</p>
+            </li>
+            <li>
+                <p>| pipe</p>
+            </li>
+            <li>
+                <p>/ forward slash</p>
+            </li>
+            <li>
+                <p>{ left bracket</p>
+            </li>
+            <li>
+                <p>} right bracket</p>
+            </li>
+            <li>
+                <p>” double quotes</p>
+            </li>
+            <li>
+                <p>= equal sign</p>
+            </li>
+            <li>
+                <p>: colon</p>
+            </li>
+            <li>
+                <p>™ trademark symbol</p>
+            </li>
+            <li>
+                <p>® Registered sign</p>
+            </li>
+            <li>
+                <p>© copyright symbol</p>
+            </li>
+        </ul>
+        <p>Special characters are allowed in TOC topic title and the h1 for a topic as in the example below.</p>
+        <p>
+            <img src="../Resources/Images/spChTopicTitle.png" />
+        </p>
+        <p>The special characters are allowed in TOC and topic names.</p>
+        <p>
+            <img src="../Resources/Images/spChFileName.png" />
+        </p>
+        <p>Special characters (in this case ®) are not included in filename.</p>
+        <h2>Use of Snippets and Pop-ups</h2>
+        <p>Pop-ups allow users to reference a single source for content that is frequently referenced.</p>
+        <p>Pop-ups open in a separate window accessed when a user clicks a link in help.</p>
+        <p>Refer to the section <a href="../DocProcess/BOADocProcess_UpdateOnlineHelp.html#Add3">Add Pop-ups for Frequently Referenced Content</a> in the Syniti Documentation Process document for more information.</p>
+        <p>Snippets allow a user to set up static content that can be reused across the Flare project. A snippet represents content that does not change and this content appears in a topic (and not as a separate pop-up).</p>
+        <p>For example, the snippet for Add mode is:</p>
+        <p>If no records exist, the page displays in add mode. Otherwise, click Add.</p>
+        <p>Refer to the section <a href="../DocProcess/BOADocProcess_UpdateOnlineHelp.html#Add4">Add and Insert Snippets</a> in the Syniti Documentation Process document for information about how to add a snippet to a project and insert a snippet into a topic.</p>
+        <h2>Use of Notes</h2>
+        <p>In use cases and page descriptions, a note can be used to</p>
+        <ul>
+            <li>
+                <p>Point out an exception to a process</p>
+            </li>
+            <li>
+                <p>Explain ancillary information to the topic at hand. This information could be how the task performed in the use case affects pages, fields, or processes outside of that topic’s focus.</p>
+            </li>
+            <li>
+                <p>Provide a tip or warning</p>
+            </li>
+        </ul>
+        <p>Evaluate the content of notes for inclusion in the general narrative. If it’s possible to add the information into the general flow of information, do not add a note.</p>
+        <p>Do not add any other words before the word NOTE, like IMPORTANT NOTE.</p>
+    </body>
+</html>

@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('..\Resources\MasterPages\DocStandards.flmsp');">
+    <head><title></title>
+        <link href="../Resources/Stylesheets/newDefault.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h1>SST Use Case Guidelines</h1>
+        <h2 id="application-of-styles">Application of Styles</h2>
+        <p>When applying a style in Flare, it may be necessary to clear a style or remove attributes from a style so that text is formatted correctly. Clear the style by highlighting the text (click the style block in the XML Editor), and then on the Home tab, in the Font group, click the <strong>Unformat</strong> icon.</p>
+        <p><strong>h1</strong>
+        </p>
+        <p>All topics start with an h1 style.</p>
+        <p><strong>h2</strong>
+        </p>
+        <p>Format the title of sections in topics in h2.</p>
+        <p><strong>h3</strong>
+        </p>
+        <p>Use h3 when sub sections within a topic need a heading.</p>
+        <p>p</p>
+        <p>Use the p (paragraph) style for text that is not in a table, is not bulleted or numbered, and is not a note.</p>
+        <h3 id="bullets">Bullets</h3>
+        <p>Use bullets to present a list of information.</p>
+        <p>Use the Bullets option in Flare for bulleted lists.</p>
+        <p>Bulleted lists must include at least two items and have a parallel structure. Refer to <a href="#list-boxes-in-use-cases">List Boxes in Use Cases</a> for more information.</p>
+        <h3 id="numbered-steps">Numbered Steps</h3>
+        <p>Use numbered steps when describing a detailed, sequential process. Refer to <a href="#numbered-steps-in-use-cases">Use of Numbered Steps in Use Cases</a> for more information.</p>
+        <h3 id="tables">Tables</h3>
+        <p>Use the Table Column style for the first row and the left column in all tables. Use Table Text for all other columns.</p>
+        <p>Apply the fielddescripion stylesheet to field description tables to set column width and grid lines.</p>
+        <p>Refer to [Format Tables in Topics][BOADocProcess_UpdateOnlineHelp.html#formattables] in the Syniti Documentation Process document for more information.</p>
+        <p>Use the Table Note style for adding notes to tables.</p>
+        <h3 id="note">NOTE</h3>
+        <p>Use the p.note style for notes included in paragraphs.</p>
+        <p>To add a note in numbered steps, make the note a paragraph item (CTRL+;). Apply a p.note style. Refer to <a href="#numbered-steps-in-use-cases">Use of Numbered Steps in Use Cases</a> for more information.</p>
+        <p>Bold the colon after the word NOTE:</p>
+        <h2 id="character-styles">Character Styles</h2>
+        <p><strong>Italics</strong>
+        </p>
+        <p>In use cases, use italics for:</p>
+        <ul>
+            <li>Page names (e.g., the <em>Targets</em> page)</li>
+            <li><em>Vertical</em> View (unless referring to the clickable icon)</li>
+            <li><em>Horizontal</em> View</li>
+            <li><em>Navigation</em> pane</li>
+            <li>Manual titles (e.g., <em>Syniti Solutions Installation and Upgrade Guide</em>)</li>
+            <li>The link to field descriptions in steps <em>View the field descriptions for the Targets page</em>)</li>
+        </ul>
+        <p><strong>Bold</strong>
+        </p>
+        <p>Use bold for:</p>
+        <ul>
+            <li>Options in list boxes. Refer to <a href="#list-boxes-in-use-cases">List Boxes in Use Cases</a> for more information.</li>
+            <li><strong>Vertical View</strong> when it is being described as a clickable icon.</li>
+            <li>Use bold if specific text is entered in a field in numbered steps. For example, Enter <strong>MM01</strong> in the <strong>TARGET TABLE</strong> field.</li>
+            <li>The word <strong>NOTE</strong>:</li>
+            <li>The names of UI elements in steps. For example: Select an option in the <strong>TABLE NAME</strong> list box.</li>
+            <li>Punctuation that follows bolded text, as in <strong>NOTE:</strong>.</li>
+        </ul>
+        <p>NOTE: Do not bold the names of UI elements (icons, etc.) outside of steps except when you are <strong>making an imperative statement</strong> (whether inside or outside of a step). An imperative statement is Click the XXX icon. Select Xxxx from the listbox).</p>
+        <h2 id="references-to-page-descriptions">References to Page Descriptions</h2>
+        <p>In use case steps, include a link to a field description after the Click Add or Click Edit step. Italicize the reference and do not use a period.</p>
+        <p><em>View the field description for the Targets page</em>
+        </p>
+        <p>Add a hyperlink to this text that is linked to the field descriptions page.</p>
+        <h2 id="references-to-other-use-cases">References to Other Use Cases</h2>
+        <p>Use the following standard text:</p>
+        <p>Refer to [Use case name] for more information.</p>
+        <p>Add references as relevant to avoid repeating content and to ensure consistency in information.</p>
+        <h2 id="simple-use-case-structure-and-content">Simple Use Case Structure and Content</h2>
+        <p>A simple use case can be described in one topic.</p>
+        <p>The heading text is the name of the use case topic. The name begins with a verb, for example, Add a Template to a Process.</p>
+        <p>The use case answers the following questions:</p>
+        <ul>
+            <li>Who: Who (i.e., what type of user such as Administrator or Business user) performs the use case.</li>
+            <li>What: What is accomplished with this use case.</li>
+            <li>Why: Why does the user perform this task. Is it a configuration task? Does it cause data to display on a report? Does it allow other tasks to be performed?</li>
+            <li>How: How is the task performed (i.e., what are the steps)?</li>
+        </ul>
+        <p>A use case defines any unfamiliar terms as needed. If these terms are used throughout help, add a glossary entry for them.</p>
+        <h3 id="navigation-in-dspmigrate-steps">Navigation in dspMigrate steps</h3>
+        <ul>
+            <li>
+                <p>Write the steps with the assumption that the user is already working in dspMigrate.</p>
+            </li>
+            <li>
+                <p>Use this format for the  line above the steps: <br />To [perform an action] in Map:</p>
+            </li>
+            <li>
+                <p>Do not include the component name in the Navigation steps, e.g., perform an action: <br />Click Map &gt; XXX.</p>
+            </li>
+        </ul>
+        <h3 id="simple-use-case-examples">Simple Use Case Examples</h3>
+        <p>
+            <img src="../Resources/Images/simpleUC.png" />
+        </p>
+        <h2 id="complex-use-case-structure">Complex Use Case Structure</h2>
+        <p>A complex use case spans multiple topics or includes all sections in one topic with a hyperlinked list linked to bookmarks in the topic, and describes a set of subtasks that must be performed to accomplish the overall goal of the complex use case. These subtasks may or may not have to be performed in order.</p>
+        <p>The first topic in the complex use case provides an overview of the complex use case with links to subtasks. either in separate topics if there are over 7, or in the same topic if there are under 7 subtasks.</p>
+        <p>Each subtask in a complex use case contains the same content as a simple use case (as in, the who, what, why, and how).</p>
+        <p>Additionally, make the order of subtasks or the relationship of subtasks in the complex use case clear using prerequisites and next steps.</p>
+        <h2 id="prerequisites-and-next-steps">Prerequisites and Next Steps</h2>
+        <p>Use Prerequisites and Next steps in complex use cases when these use cases are spread across multiple topics.</p>
+        <p>Prerequisites are use cases that must be performed before the current use case can be completed. Describe these prerequisites at the topic's start.</p>
+        <p>If applicable, a use case topic includes links to next steps, which are the task(s) performed after the current use case. Include the next steps at the end of the topic.</p>
+        <p>If the complex use case is in one topics, add the Continue with text, but leave out the prerequisite text.</p>
+        <p>An example:</p>
+        <p>
+            <img src="../Resources/Images/complexUC.png" />
+        </p>
+        <p>The following is an example of the introductory topic for a complex use case.</p>
+        <p>
+            <img src="../Resources/Images/complexusecase.png" />
+        </p>
+        <h2 id="numbered-steps-in-use-cases">Numbered Steps in Use Cases</h2>
+        <ul>
+            <li>Use numbered steps when describing a sequential process.</li>
+            <li>Include at least two steps.</li>
+            <li>Define one action in each numbered step (if the word and is used, it can probably be another step).</li>
+            <li>Begin all numbered steps with a present tense action verb.</li>
+            <li>Precede each set of numbered steps with a line that explains what the steps accomplish. Start this line with the word To and end with a colon.</li>
+            <li>Use the p (paragraph) for the To  line.</li>
+        </ul>
+        <h2 id="list-boxes-in-use-cases">List Boxes in Use Cases</h2>
+        <p>Begin a step that describes a list box with the words Select a [name of field] to . . .</p>
+        <p>When describing list boxes, follow the step with the text: Values are:  Insert a bulleted list with each value as a separate bullet. Bold the value name. Follow it with an em dash. The shortcut for em dash is Alt+0151. The numbers must be typed on the numeric keypad. Follow the em dash with the value;s definition. Do not add spaces on either side of the em dash.</p>
+        <p>For example:</p>
+        <p>Select a role from the <strong>Role ID</strong> list box. Options are:</p>
+        <ul>
+            <li><strong>Value 1</strong>—Description 1</li>
+            <li><strong>Value 2</strong>—Description 2</li>
+        </ul>
+        <p>Define each list box value.</p>
+        <p>Do not bold list box names outside of steps, except when used in the imperative (click the <strong>XXX</strong> list box to select a value.) Follow the list box name with the words list box.</p>
+        <h2 id="text-boxes-in-use-cases">Text Boxes in Use Cases</h2>
+        <p>Begin a step that describes a text box field that allows data entry with Enter the value. . .or Enter text. . </p>
+        <p>Do not bold text box names outside of steps, unless used in an imperative statement. Follow the text box name with the word field.</p>
+        <p>For example:</p>
+        <p>Enter a unique name in the <strong>Customer Name</strong> field.</p>
+        <h2 id="check-boxes-in-use-cases">Check Boxes in Use Cases</h2>
+        <p>Write a step describing a check box as Click the [check box name] to check it. . . then provide additional information about what enabling the feature does. Provide information about what disabling the feature does too, if necessary.</p>
+        <p>Do not bold check box names outside of steps, unless used in an imperative statement. Follow the check box name with the words check box.</p>
+        <p>Use check and uncheck not enable and disable.</p>
+        <h2 id="menu-navigation-in-use-cases">Menu Navigation in Use Cases</h2>
+        <p>When writing steps, use this standard to describe access to items on a menu:</p>
+        <p>Select <strong>Configuration &gt; Data Sources</strong> in the <em>Navigation</em> pane.</p>
+        <h2 id="icons-in-use-cases">Icons in Use Cases</h2>
+        <p>In steps, use:</p>
+        <p>Click the [icon name] icon</p>
+        <p>instead of only the icon name.</p>
+        <p>For example:</p>
+        <p>Click the <strong>Tables</strong> icon.</p>
+        <p>Not</p>
+        <p>Click <strong>Tables</strong>.</p>
+        <p>NOTE: the Vertical View icon is referred to as Vertical View, without an definitive article or the word icon.</p>
+        <p>&#160;</p>
+    </body>
+</html>

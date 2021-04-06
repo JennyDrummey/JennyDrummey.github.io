@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="MadCap HTML5 Target"
+  Type="WebHelp2"
+  Destinations=""
+  GlossaryTermConversion="marked"
+  MasterPage="/Content/Resources/MasterPages/DocProcess.flmsp"
+  DefaultUrl="/Content/DocProcess/BOADocProcess_DSPDocOverview.html"
+  ShowMadCapBacklink="true"
+  MasterStylesheet="/Content/Resources/Stylesheets/newDefault.css"
+  Skin="/Project/Skins/HTML5 - Top Navigationdocproc.flskn"
+  MasterToc="/Project/TOCs/TopNav.fltoc"
+  MobileBreakpoint="761"
+  OutputFile="index"
+  MenuSkin="/Project/Skins/SideMenu.flskn"
+  SearchResultsSkin="/Project/Skins/SearchResults.flskn"
+  MasterStylesheetOverride="true"
+  DisableAutoSync="true">
+  <PrintedOutput
+    CollapseMargins="true"
+    GenerateTOCProxy="true"
+    GenerateIndexProxy="true"
+    GenerateGlossaryProxy="true"
+    OutputFormat="doc" />
+  <Destinations>
+    <Destination
+      Publish="true" />
+  </Destinations>
+</CatapultTarget>

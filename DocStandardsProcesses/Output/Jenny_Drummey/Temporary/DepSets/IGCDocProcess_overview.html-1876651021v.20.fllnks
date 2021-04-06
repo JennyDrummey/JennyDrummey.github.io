@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileLinkSet
+  FileSearchable="true"
+  OnlyLocalStylesheets="false"
+  FileTimeEstimate="0"
+  FilePriority="0">
+  <Links>
+    <Link
+      Url="Content/SKTDocProcess/IGCDocProcess_overview.html" />
+    <Link
+      Url="Content/SKTDocProcess/IGCDocProcess_jiraWorkflow.html" />
+    <Link
+      Url="Content/SKTDocProcess/IGCDocProcess_publishHelp.html" />
+  </Links>
+  <LongLinks>
+    <Link
+      Url="Content/SKTDocProcess/IGCDocProcess_overview.html#skp-schedule" />
+    <Link
+      Url="Content/SKTDocProcess/IGCDocProcess_overview.html#what-to-document" />
+    <Link
+      Url="Content/SKTDocProcess/IGCDocProcess_overview.html#ticket-only-requires-release-notes" />
+    <Link
+      Url="Content/SKTDocProcess/IGCDocProcess_overview.html#ticket-requires-release-notes-and-changes-to-online-help" />
+    <Link
+      Url="Content/SKTDocProcess/IGCDocProcess_jiraWorkflow.html#featureflag" />
+    <Link
+      Url="Content/SKTDocProcess/IGCDocProcess_overview.html#report-a-bug" />
+    <Link
+      Url="Content/SKTDocProcess/IGCDocProcess_publishHelp.html" />
+  </LongLinks>
+  <Anchors />
+  <Keywords />
+  <Concepts />
+  <ConceptControlNames />
+  <IndexControlNames />
+  <Variables />
+  <FileConditions />
+  <FileTags />
+  <AllConditions />
+  <Stylesheets />
+</CatapultFileLinkSet>

@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('..\Resources\MasterPages\DocProcess.flmsp');">
+    <head>
+        <link href="../Resources/Stylesheets/Styles.css" rel="stylesheet" type="text/css" />
+        <link href="../Resources/Stylesheets/newDefault.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h1>Preparing Documents for Importation into Flare</h1>
+        <h2>Convert Direct Formatting to Character/Span Styles</h2>
+        <p>When you are importing manuals and other Word documents into Flare, the formatting doesn’t always transfer appropriately. When creating Word documents, all formatting should be done through Styles. Not even a single symbol should be bolded via the formatting ribbon. If you directly format any piece of text in Word, the directly formatted text will be cleared of all formatting upon importation and you will have to reformat it in Flare.</p>
+        <p>If you are working with documents that someone else has formatted or if you forget to follow best practices, you can fix the directly formatted elements in your Word document quickly and easily before you import it into Flare.</p>
+        <h3 id="view-direct-formatting">View Direct Formatting</h3>
+        <p>To change your settings to view direct formatting:</p>
+        <ol type="1">
+            <li>
+                <p>Open the desired document in Microsoft Word.</p>
+            </li>
+            <li>
+                <p>Click <strong>File</strong> from the top nav bar and select <strong>Options &gt; Advanced</strong>.</p>
+            </li>
+            <li>
+                <p>Under the <strong>Editing</strong> section, make sure the <strong>Keep track of formatting</strong> checkbox is checked.</p>
+            </li>
+            <li>
+                <p>Click the <strong>OK</strong> button.</p>
+            </li>
+        </ol>
+        <h3 id="convert-inline-styles-to-character-styles">Convert Inline Styles to Character Styles</h3>
+        <p>To convert directly formatted text to a Character Style:</p>
+        <ol type="1">
+            <li>
+                <p>Click inside of a word or highlight a phrase that has been directly formatted.</p>
+            </li>
+            <li>
+                <p>Press <strong>Ctrl + Shift + Alt + S</strong> to pull up the Styles window.</p>
+            </li>
+            <li>
+                <p>Click the <strong>Style Inspector</strong> icon at the bottom of the Styles window.</p>
+            </li>
+            <li>
+                <p>In the Style Inspector dialog, under <strong>Text Level formatting</strong>, hover over the top text box. A drop-down arrow is displayed.</p>
+            </li>
+            <li>
+                <p>Click the drop-down arrow and select <strong>Select All XXX Instance(s).</strong> All instances of the same text level formatting within that Style of Paragraph formatting will be selected.</p>
+            </li>
+            <li>
+                <p>Click the <strong>New Style</strong> icon.</p>
+            </li>
+            <li>
+                <p>Name the new Style something that you will easily recognize and be able to map once you import into Flare.</p>
+            </li>
+        </ol>
+        <p>NOTE: A good naming convention is to name the Style by its Paragraph and Character characteristics. The Paragraph style that passes its inheritances down to the subsequent Paragraph and Character styles should be listed first.</p>
+        <ol type="1">
+            <li>
+                <p>Select <strong>Character</strong> from the Style type drown-down list.</p>
+            </li>
+            <li>
+                <p>Click the <strong>OK</strong> button. All of your directly formatted characters within that Paragraph style now belong to a Character style.</p>
+            </li>
+            <li>
+                <p>Repeat steps 1-9 for every instance of directly formatted text for each Paragraph style (numbered lists, bulleted lists, body paragraphs, notes, etc.).</p>
+            </li>
+            <li>
+                <p>Save your document and indicate that it is a version that has been formatted for importation.</p>
+            </li>
+        </ol>
+    </body>
+</html>

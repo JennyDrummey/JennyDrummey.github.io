@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="Doc Process Overview"
+    Link="/Content/DocProcess/BOADocProcess_DSPDocOverview.html" />
+  <TocEntry
+    Title="Documentation Updates by Release Type"
+    Link="/Content/DocProcess/BOADocProcess_DocUpdatesTable.html" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"></TocEntry>
+  <TocEntry
+    Title="Flare Licensing and Upgrade Process"
+    Link="/Content/DocProcess/BOADocProcess_FlareLicenseUpgradeProcess.html" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"></TocEntry>
+  <TocEntry
+    Title="Project Documentation Roles"
+    Link="/Content/DocProcess/BOADocProcess_ProjDocRoles.html" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+  <TocEntry
+    Title="Sources for Online Help Content"
+    Link="/Content/DocProcess/BOADocProcess_SrcsOnlineHelp.html" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"></TocEntry>
+  <TocEntry
+    Title="Workflow - Status Field"
+    Link="/Content/DocProcess/BOADocProcess_Workflow_StatusField.html" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+  <TocEntry
+    Title="Workflow - Not Started"
+    Link="/Content/DocProcess/BOADocProcess_Workflow_NotStarted.html" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"></TocEntry>
+  <TocEntry
+    Title="Workflow - Not Required"
+    Link="/Content/DocProcess/WorfkflowNotRequired.htm" />
+  <TocEntry
+    Title="Workflow - In Process"
+    Link="/Content/DocProcess/BOADocProcess_Workflow_InProcess.html" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+  <TocEntry
+    Title="Workflow - Review"
+    Link="/Content/DocProcess/BOADocProcess_Workflow_Review.html" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+  <TocEntry
+    Title="Workflow - Approved"
+    Link="/Content/DocProcess/BOADocProcess_Workflow_Approved.html" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+  <TocEntry
+    Title="Workflow - Peer Review"
+    Link="/Content/DocProcess/BOADocProcess_Workflow_PeerReview.html" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"></TocEntry>
+  <TocEntry
+    Title="Workflow - Doc Done"
+    Link="/Content/DocProcess/BOADocProcess_Workflow_DocDone.html"></TocEntry>
+  <TocEntry
+    Title="Update Help on Dev and Prod Sites"
+    Link="/Content/DocProcess/BOADocProcess_Update_Help_on_Dev_and_Prod_Sites.html"></TocEntry>
+  <TocEntry
+    Title="Update Online Help in Flare"
+    Link="/Content/DocProcess/BOADocProcess_UpdateOnlineHelp.html"></TocEntry>
+  <TocEntry
+    Title="Publish SKT Help"
+    Link="/Content/DocProcess/Publish_SKT_Help.htm" />
+  <TocEntry
+    Title="Build Help Targets"
+    Link="/Content/DocProcess/BOADocProcess_BuildHelpTargets.html"></TocEntry>
+  <TocEntry
+    Title="Check Latest Build for Changes"
+    Link="/Content/DocProcess/BOADocProcess_ChecklistGenOnlineHelp.html"></TocEntry>
+  <TocEntry
+    Title="Update Project for a New SST Version"
+    Link="/Content/DocProcess/BOADocProcess _UpdateFlareProjectNewVersion.html"></TocEntry>
+  <TocEntry
+    Title="Prepare SST What's New Topic for Release"
+    Link="/Content/DocProcess/BOADocProcess_PrepareWhatsNew.html"></TocEntry>
+  <TocEntry
+    Title="Prepare SST Release Notes"
+    Link="/Content/DocProcess/BOADocProcess_PrepareReleaseNotes.html"></TocEntry>
+  <TocEntry
+    Title="Checklist Generate Help for Release"
+    Link="/Content/DocProcess/BOADocProcess_CheckLlistForGeneratingHelp.htm"></TocEntry>
+  <TocEntry
+    Title="Add  Feedback into the Help"
+    Link="/Content/DocProcess/BOADocProcess_IncorpFeedbackPrint.html"></TocEntry>
+  <TocEntry
+    Title="Source Files for Manuals and Help"
+    Link="/Content/DocProcess/BOADocProcess_SrcFiles.html"></TocEntry>
+  <TocEntry
+    Title="Update Static Guidance"
+    Link="/Content/DocProcess/UpdateStaticGuidance.htm"></TocEntry>
+  <TocEntry
+    Title="API Documentation Process"
+    Link="/Content/DocProcess/APIDocProcess.htm" />
+  <TocEntry
+    Title="Unifying KB Articles and Help"
+    Link="/Content/DocProcess/BOADocProcess_UnifyKBArticles.html"></TocEntry>
+  <TocEntry
+    Title="Check List Add New Component"
+    Link="/Content/DocProcess/BOADocProcess_CLAddNewComponent.html"></TocEntry>
+  <TocEntry
+    Title="Install Manual Process"
+    Link="/Content/DocProcess/BOADocProcess_InstallManualProcess.html" />
+  <TocEntry
+    Title="Flare Extras">
+    <TocEntry
+      Title="Condition Tags Used in the Project File"
+      Link="/Content/DocProcess/BOADocProcess_CondTags.html" />
+    <TocEntry
+      Title="Alias File Value Range"
+      Link="/Content/DocProcess/BOADocProcess_AliasValueRange.html"></TocEntry>
+    <TocEntry
+      Title="Preparing Documents for Importation into Flare"
+      Link="/Content/DocProcess/BOADocProcess_PrepareFlareImport.html"></TocEntry>
+    <TocEntry
+      Title="Importing Manuals into Flare"
+      Link="/Content/DocProcess/BOADocProcess_FlareImport.html" />
+    <TocEntry
+      Title="Search and Replace Code within Tags in Flare"
+      Link="/Content/DocProcess/SearchReplaceTags.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="Source Control">
+    <TocEntry
+      Title="Git Resources"
+      Link="/Content/DocProcess/BOADocProcess_GitResources.html" />
+    <TocEntry
+      Title="GitHub Initial Setup"
+      Link="/Content/DocProcess/BOADocProcess_GitInitSetup.html" />
+  </TocEntry>
+  <TocEntry
+    Title="KB Articles and Data Insiders">
+    <TocEntry
+      Title="Add Posts to the Data Insiders Community"
+      Link="/Content/DocProcess/BOADocProcess_DIPosts.html"></TocEntry>
+    <TocEntry
+      Title="Add Articles to the Knowledge Base"
+      Link="/Content/DocProcess/BOADocProcess_KnowledgeBaseArt.html"></TocEntry>
+  </TocEntry>
+</CatapultToc>
