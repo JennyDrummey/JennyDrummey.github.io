@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileLinkSet
+  FileSearchable="true"
+  MasterPage="file:///C:/Users/Caroline St John/DocStandardsProcesses/DocStandardsProcesses/Content/Resources/MasterPages/DocProcess.flmsp"
+  OnlyLocalStylesheets="false"
+  FileTimeEstimate="0"
+  FilePriority="0">
+  <Links>
+    <Link
+      Url="Content/Resources/MasterPages/DocProcess.flmsp" />
+    <Link
+      Url="Content/Resources/Stylesheets/Styles.css" />
+    <Link
+      Url="Content/Resources/Stylesheets/newDefault.css" />
+    <Link
+      Url="https://git-scm.com/" />
+    <Link
+      Url="https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup" />
+    <Link
+      Url="https://docs.google.com/document/d/1_uwCLQY9dEiQ_E27a-BjgMdNv6eZbAG64M29NIyp8ng/edit" />
+  </Links>
+  <LongLinks>
+    <Link
+      Url="Content/Resources/MasterPages/DocProcess.flmsp" />
+    <Link
+      Url="Content/Resources/Stylesheets/Styles.css" />
+    <Link
+      Url="Content/Resources/Stylesheets/newDefault.css" />
+    <Link
+      Url="https://git-scm.com/" />
+    <Link
+      Url="https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup" />
+    <Link
+      Url="https://docs.google.com/document/d/1_uwCLQY9dEiQ_E27a-BjgMdNv6eZbAG64M29NIyp8ng/edit?usp=sharing" />
+  </LongLinks>
+  <Anchors>
+    <Anchor
+      Name="Clone_BackOffice/dsp-docs_repo_to_local" />
+  </Anchors>
+  <Keywords />
+  <Concepts />
+  <ConceptControlNames />
+  <IndexControlNames />
+  <Variables />
+  <FileConditions />
+  <FileTags />
+  <AllConditions />
+  <Stylesheets>
+    <Url
+      Source="Content/Resources/Stylesheets/Styles.css" />
+    <Url
+      Source="Content/Resources/Stylesheets/newDefault.css" />
+  </Stylesheets>
+</CatapultFileLinkSet>
