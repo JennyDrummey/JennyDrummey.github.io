@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileLinkSet
+  FileTitle=""
+  FileSearchable="true"
+  MasterPage="file:///C:/Users/Jenny Drummey/git/JennyDrummey.github.io/DocStandardsProcesses/Content/Resources/MasterPages/DocStandards.flmsp"
+  OnlyLocalStylesheets="false"
+  FileTimeEstimate="0"
+  FilePriority="0">
+  <Links>
+    <Link
+      Url="Content/Resources/MasterPages/DocStandards.flmsp" />
+    <Link
+      Url="Content/Resources/TableStylesheets/fielddescription.css" />
+    <Link
+      Url="Content/Resources/Stylesheets/newDefault.css" />
+    <Link
+      Url="Content/Resources/Images/useThisTo.png" />
+    <Link
+      Url="Content/Resources/Images/createGroup.png" />
+    <Link
+      Url="Content/Resources/Images/mergedTableCell.png" />
+    <Link
+      Url="Content/SSTDocStandards/BOADocStandards_FDGuidelines.html" />
+    <Link
+      Url="Content/Resources/Images/pageDescription.png" />
+    <Link
+      Url="Content/Resources/Images/objectsH.png" />
+    <Link
+      Url="Content/Resources/Images/objectsV.png" />
+    <Link
+      Url="Content/Resources/Images/tabbedVV1.png" />
+    <Link
+      Url="Content/Resources/Images/tabbedVV2.png" />
+  </Links>
+  <LongLinks>
+    <Link
+      Url="Content/Resources/MasterPages/DocStandards.flmsp" />
+    <Link
+      Url="Content/Resources/TableStylesheets/fielddescription.css" />
+    <Link
+      Url="Content/Resources/Stylesheets/newDefault.css" />
+    <Link
+      Url="Content/Resources/Images/useThisTo.png" />
+    <Link
+      Url="Content/Resources/Images/createGroup.png" />
+    <Link
+      Url="Content/Resources/Images/mergedTableCell.png" />
+    <Link
+      Url="Content/SSTDocStandards/BOADocStandards_FDGuidelines.html#bullets" />
+    <Link
+      Url="Content/SSTDocStandards/BOADocStandards_FDGuidelines.html#application-of-styles" />
+    <Link
+      Url="Content/Resources/Images/pageDescription.png" />
+    <Link
+      Url="Content/Resources/Images/objectsH.png" />
+    <Link
+      Url="Content/Resources/Images/objectsV.png" />
+    <Link
+      Url="Content/Resources/Images/tabbedVV1.png" />
+    <Link
+      Url="Content/Resources/Images/tabbedVV2.png" />
+  </LongLinks>
+  <Anchors />
+  <Keywords />
+  <Concepts />
+  <ConceptControlNames />
+  <IndexControlNames />
+  <Variables />
+  <FileConditions />
+  <FileTags />
+  <AllConditions />
+  <Stylesheets>
+    <Url
+      Source="Content/Resources/TableStylesheets/fielddescription.css" />
+    <Url
+      Source="Content/Resources/Stylesheets/newDefault.css" />
+  </Stylesheets>
+</CatapultFileLinkSet>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <CatapultVariableSet>
   <Variable
     Comment=""
@@ -19,4 +19,10 @@
     Name="CityStateZip"
     Comment=""
     EvaluatedDefinition="La Jolla, CA 92037">La Jolla, CA 92037</Variable>
+  <Variable
+    Name="BuildDate"
+    Comment=""
+    Type="DateTime"
+    LastUpdated="2021-04-28T14:20:14.6943736-04:00"
+    EvaluatedDefinition="MM dd yyyy hh mm">MM dd yyyy hh mm</Variable>
 </CatapultVariableSet>

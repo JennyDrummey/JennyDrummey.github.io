@@ -1,3 +1,4 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <CatapultUser
-  PrimaryTarget="/Project/Targets/HTML5.fltar" />
+  PrimaryTarget="/Project/Targets/HTML5.fltar"
+  ImageFolder="C:\Users\Jenny Drummey\git\JennyDrummey.github.io\DocStandardsProcesses\Content\Resources\Images\" />
