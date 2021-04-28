@@ -1,5 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <UrlList>
+    <Url Source="Resources/Images/CopyHelp.png" />
+    <Url Source="Resources/Images/PasteHelpSysstem.png" />
     <Url Source="Resources/Images/updateversion.png" />
     <Url Source="Resources/Images/save.png" />
     <Url Source="Resources/Images/openjson.PNG" />
@@ -18,6 +20,4 @@
     <Url Source="Resources/Images/pageDescription.png" />
     <Url Source="Resources/Images/mergedTableCell.png" />
     <Url Source="Resources/Images/createGroup.png" />
-    <Url Source="Resources/Images/useThisTo.png" />
-    <Url Source="Resources/Images/complexusecase.png" />
 </UrlList>

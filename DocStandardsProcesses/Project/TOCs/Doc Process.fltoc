@@ -3,7 +3,7 @@
   Version="1">
   <TocEntry
     Title="Doc Process Overview"
-    Link="/Content/DocProcess/BOADocProcess_DSPDocOverview.html" />
+    Link="/Content/DocProcess/BOADocProcess_DSPDocOverview.html"></TocEntry>
   <TocEntry
     Title="Documentation Updates by Release Type"
     Link="/Content/DocProcess/BOADocProcess_DocUpdatesTable.html" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"></TocEntry>
@@ -124,4 +124,7 @@
       Title="Add Articles to the Knowledge Base"
       Link="/Content/DocProcess/BOADocProcess_KnowledgeBaseArt.html"></TocEntry>
   </TocEntry>
+  <TocEntry
+    Title="Update the Standards and Processes"
+    Link="/Content/DocProcess/BOADocProcess_Update_Doc_Process_Standards.htm" />
 </CatapultToc>
