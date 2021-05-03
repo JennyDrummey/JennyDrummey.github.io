@@ -13,10 +13,6 @@
     <Link
       Url="Content/DocProcess/BOADocProcess_Workflow_Approved.html" />
     <Link
-      Url="Content/Resources/Images/image1.png" />
-    <Link
-      Url="Content/Resources/Images/image.png" />
-    <Link
       Url="Content/DocProcess/BOADocProcess_Workflow_PeerReview.html" />
   </Links>
   <LongLinks>
@@ -27,21 +23,13 @@
     <Link
       Url="Content/DocProcess/BOADocProcess_Workflow_Approved.html#Author" />
     <Link
-      Url="Content/DocProcess/Publish_SKT_Help.htm#Add" />
-    <Link
       Url="Content/DocProcess/Publish_SKT_Help.htm#Build" />
-    <Link
-      Url="Content/Resources/Images/image1.png" />
-    <Link
-      Url="Content/Resources/Images/image.png" />
     <Link
       Url="Content/DocProcess/BOADocProcess_Workflow_PeerReview.html" />
   </LongLinks>
   <Anchors>
     <Anchor
       Name="Synchron" />
-    <Anchor
-      Name="Add" />
     <Anchor
       Name="Build" />
   </Anchors>
