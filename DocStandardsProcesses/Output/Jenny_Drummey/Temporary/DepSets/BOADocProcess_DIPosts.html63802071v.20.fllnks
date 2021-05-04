@@ -45,7 +45,10 @@
     <Link
       Url="Content/Resources/Images/DIAnswered.png" />
   </LongLinks>
-  <Anchors />
+  <Anchors>
+    <Anchor
+      Name="Review" />
+  </Anchors>
   <Keywords />
   <Concepts />
   <ConceptControlNames />
