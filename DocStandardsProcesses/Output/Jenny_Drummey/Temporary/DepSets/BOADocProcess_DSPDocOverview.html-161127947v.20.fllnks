@@ -12,6 +12,34 @@
     <Link
       Url="Content/Resources/Stylesheets/newDefault.css" />
     <Link
+      Url="Content/DocProcess/BOADocProcess_DSPDocOverview.html" />
+    <Link
+      Url="Content/DocProcess/BOADocProcess_KnowledgeBaseArt.html" />
+    <Link
+      Url="Content/DocProcess/BOADocProcess_DIPosts.html" />
+    <Link
+      Url="Content/DocProcess/BOADocProcess_Workflow_StatusField.html" />
+    <Link
+      Url="Content/DocProcess/BOADocProcess_Workflow_NotStarted.html" />
+    <Link
+      Url="Content/DocProcess/BOADocProcess_Workflow_InProcess.html" />
+    <Link
+      Url="Content/DocProcess/BOADocProcess_Workflow_Review.html" />
+    <Link
+      Url="Content/DocProcess/BOADocProcess_Workflow_Approved.html" />
+    <Link
+      Url="Content/DocProcess/BOADocProcess_UpdateOnlineHelp.html" />
+    <Link
+      Url="Content/DocProcess/BOADocProcess_Update_Help_on_Dev_and_Prod_Sites.html" />
+    <Link
+      Url="Content/DocProcess/BOADocProcess_Workflow_PeerReview.html" />
+    <Link
+      Url="Content/DocProcess/BOADocProcess_Workflow_DocDone.html" />
+    <Link
+      Url="Content/DocProcess/Publish_SKT_Help.htm" />
+    <Link
+      Url="Content/DocProcess/BOADocProcess_Update_Doc_Process_Standards.htm" />
+    <Link
       Url="Project/VariableSets/General.flvar" />
   </Links>
   <LongLinks>
@@ -20,9 +48,54 @@
     <Link
       Url="Content/Resources/Stylesheets/newDefault.css" />
     <Link
+      Url="Content/DocProcess/BOADocProcess_DSPDocOverview.html#Update" />
+    <Link
+      Url="Content/DocProcess/BOADocProcess_DSPDocOverview.html#Update2" />
+    <Link
+      Url="Content/DocProcess/BOADocProcess_DSPDocOverview.html#Update3" />
+    <Link
+      Url="Content/DocProcess/BOADocProcess_DSPDocOverview.html#Update4" />
+    <Link
+      Url="Content/DocProcess/BOADocProcess_KnowledgeBaseArt.html" />
+    <Link
+      Url="Content/DocProcess/BOADocProcess_DIPosts.html" />
+    <Link
+      Url="Content/DocProcess/BOADocProcess_DIPosts.html#Review" />
+    <Link
+      Url="Content/DocProcess/BOADocProcess_Workflow_StatusField.html" />
+    <Link
+      Url="Content/DocProcess/BOADocProcess_Workflow_NotStarted.html" />
+    <Link
+      Url="Content/DocProcess/BOADocProcess_Workflow_InProcess.html" />
+    <Link
+      Url="Content/DocProcess/BOADocProcess_Workflow_Review.html" />
+    <Link
+      Url="Content/DocProcess/BOADocProcess_Workflow_Approved.html" />
+    <Link
+      Url="Content/DocProcess/BOADocProcess_UpdateOnlineHelp.html" />
+    <Link
+      Url="Content/DocProcess/BOADocProcess_Update_Help_on_Dev_and_Prod_Sites.html" />
+    <Link
+      Url="Content/DocProcess/BOADocProcess_Workflow_PeerReview.html" />
+    <Link
+      Url="Content/DocProcess/BOADocProcess_Workflow_DocDone.html" />
+    <Link
+      Url="Content/DocProcess/Publish_SKT_Help.htm" />
+    <Link
+      Url="Content/DocProcess/BOADocProcess_Update_Doc_Process_Standards.htm" />
+    <Link
       Url="Project/VariableSets/General.flvar" />
   </LongLinks>
-  <Anchors />
+  <Anchors>
+    <Anchor
+      Name="Update" />
+    <Anchor
+      Name="Update2" />
+    <Anchor
+      Name="Update3" />
+    <Anchor
+      Name="Update4" />
+  </Anchors>
   <Keywords />
   <Concepts />
   <ConceptControlNames />
