@@ -4,8 +4,26 @@
   OnlyLocalStylesheets="false"
   FileTimeEstimate="0"
   FilePriority="0">
-  <Links />
-  <LongLinks />
+  <Links>
+    <Link
+      Url="Content/Resources/Images/OpeningClosingVideoSlide.png" />
+    <Link
+      Url="Content/Resources/Images/Syniti_Logo_RGB_DarkIndigo (1).svg" />
+    <Link
+      Url="Content/Resources/Images/DI-Banner (1).svg" />
+    <Link
+      Url="Content/Resources/Images/DI-Banner2.svg" />
+  </Links>
+  <LongLinks>
+    <Link
+      Url="Content/Resources/Images/OpeningClosingVideoSlide.png" />
+    <Link
+      Url="Content/Resources/Images/Syniti_Logo_RGB_DarkIndigo (1).svg" />
+    <Link
+      Url="Content/Resources/Images/DI-Banner (1).svg" />
+    <Link
+      Url="Content/Resources/Images/DI-Banner2.svg" />
+  </LongLinks>
   <Anchors />
   <Keywords />
   <Concepts />
