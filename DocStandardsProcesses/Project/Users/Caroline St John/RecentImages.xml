@@ -1,5 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <UrlList>
+    <Url Source="Resources/Images/DI-Banner2.svg" />
+    <Url Source="Resources/Images/OpeningClosingVideoSlide.png" />
+    <Url Source="Resources/Images/DI-Banner (1).svg" />
+    <Url Source="Resources/Images/Syniti_Logo_RGB_DarkIndigo (1).svg" />
     <Url Source="Resources/Images/FindElements1.png" />
     <Url Source="Resources/Images/FindElements.png" />
 </UrlList>
