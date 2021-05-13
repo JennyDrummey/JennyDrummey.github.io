@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <RecentLinks>
     <Dialog Name="B3.XmlMdiEditorKit.ImageGeneralDialogPage">
-        <Link Value="C:\Users\Caroline St John\doc-standards-processes\Flare\DocStandardsProcesses\Content\Resources\Images\FindElements1.png" />
+        <Link Value="C:\Users\Caroline St John\DocStandardsProcesses\DocStandardsProcesses\Content\Resources\Images\DI-Banner2.svg" />
     </Dialog>
+    <Dialog Name="B3.XmlTextKit.InsertHyperlinkDialog" />
 </RecentLinks>

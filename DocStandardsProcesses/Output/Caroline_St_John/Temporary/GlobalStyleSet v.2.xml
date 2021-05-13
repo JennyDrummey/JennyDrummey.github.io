@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <CatapultGlobalStyleCache
-  SavedSource="file:///C:/Users/Caroline St John/doc-standards-processes/Flare/DocStandardsProcesses/Output/Caroline_St_John/Temporary/GlobalStyleSet v.2.xml">
+  SavedSource="file:///C:/Users/Caroline St John/DocStandardsProcesses/DocStandardsProcesses/Output/Caroline_St_John/Temporary/GlobalStyleSet v.2.xml">
   <Media>
     <Medium
       Name="only screen and (max-width: 1279px)" />
@@ -690,10 +690,10 @@
     <Url
       Source="Resources/TableStylesheets/threecolumn.css" />
     <Url
-      Source="../../../../../../Program Files/MadCap Software/MadCap Flare 16/Flare.app/Resources/Schemas/xhtml.css" />
+      Source="../../../../../Program Files/MadCap Software/MadCap Flare 17/Flare.app/Resources/Schemas/xhtml.css" />
     <Url
-      Source="../../../../../../Program Files/MadCap Software/MadCap Flare 16/Flare.app/Resources/Schemas/MadCapEditor.css" />
+      Source="../../../../../Program Files/MadCap Software/MadCap Flare 17/Flare.app/Resources/Schemas/MadCapEditor.css" />
     <Url
-      Source="../../../../../../Program Files/MadCap Software/MadCap Flare 16/Flare.app/Resources/Schemas/MadCapEditorFlare.css" />
+      Source="../../../../../Program Files/MadCap Software/MadCap Flare 17/Flare.app/Resources/Schemas/MadCapEditorFlare.css" />
   </SourceUrls>
 </CatapultGlobalStyleCache>
