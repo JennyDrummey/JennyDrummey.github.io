@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileLinkSet
+  FileTitle=""
+  FileSearchable="true"
+  MasterPage="file:///C:/Users/Elizabeth Warden/Documents/Git/JennyDrummey.github.io/DocStandardsProcesses/Content/Resources/MasterPages/DocProcess.flmsp"
+  OnlyLocalStylesheets="false"
+  FileTimeEstimate="0"
+  FilePriority="0">
+  <Links>
+    <Link
+      Url="Content/Resources/MasterPages/DocProcess.flmsp" />
+    <Link
+      Url="Content/Resources/Stylesheets/newDefault.css" />
+    <Link
+      Url="Content/DocProcess/BOADocProcess_PrepareWhatsNew.html" />
+    <Link
+      Url="https://boaweb.sharepoint.com/:f:/s/ProductDocumentation/EhnmYMRGJB1ElIZ5AQ9JlcABT5kbNgKa9Ghe-RSDn0R_Jg" />
+    <Link
+      Url="Content/DocProcess/BOADocProcess_Create_pdf.html" />
+  </Links>
+  <LongLinks>
+    <Link
+      Url="Content/Resources/MasterPages/DocProcess.flmsp" />
+    <Link
+      Url="Content/Resources/Stylesheets/newDefault.css" />
+    <Link
+      Url="Content/DocProcess/BOADocProcess_PrepareWhatsNew.html" />
+    <Link
+      Url="https://boaweb.sharepoint.com/:f:/s/ProductDocumentation/EhnmYMRGJB1ElIZ5AQ9JlcABT5kbNgKa9Ghe-RSDn0R_Jg?e=Xqma77" />
+    <Link
+      Url="Content/DocProcess/BOADocProcess_Create_pdf.html" />
+    <Link
+      Url="https://boaweb.sharepoint.com/:f:/s/ProductDocumentation/EhnmYMRGJB1ElIZ5AQ9JlcABT5kbNgKa9Ghe-RSDn0R_Jg?e=9WLvFs" />
+  </LongLinks>
+  <Anchors />
+  <Keywords />
+  <Concepts />
+  <ConceptControlNames />
+  <IndexControlNames />
+  <Variables />
+  <FileConditions />
+  <FileTags />
+  <AllConditions />
+  <Stylesheets>
+    <Url
+      Source="Content/Resources/Stylesheets/newDefault.css" />
+  </Stylesheets>
+</CatapultFileLinkSet>

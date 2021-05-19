@@ -18,30 +18,41 @@
             </li>
             <li>
                 <p>Navigate to this file: <a href="https://github.com/BackOfficeAssoc/ui-component-libs/blob/master/projects/ui-component-libs/src/lib/guidance/constants/static-guidance.ts file.">https://github.com/BackOfficeAssoc/ui-component-libs/blob/master/projects/ui-component-libs/src/lib/guidance/constants/static-guidance.ts</a>.</p>
-                <p class="note"><b>NOTE</b>: Open with Atom or Visual Studio Code.</p>
+                <p class="note"><b>NOTE:</b> Open with Atom or Visual Studio Code.</p>
             </li>
             <li>
                 <p>Update the descriptionText as needed, save and close the file.</p>
             </li>
             <li>
-                <p>Navigate to the file ui-component-libs/projects/ui-commponent libs/package.json.</p>
+                <p>Navigate to the file <span style="font-family: Consolas;">ui-component-libs/projects/ui-commponent libs/package.json</span>.</p>
             </li>
             <li>
-                <p>Increment the third decimal place by 1 for version (ex: 1.1.14 to 1.1.15).</p>
+                <p>Increment the third decimal place by 1 for version (e.g.: 1.1.14 to 1.1.15).</p>
             </li>
         </ol>
         <p>
-            <img src="../Resources/Images/increment.PNG" />
+            <img src="../Resources/Images/increment.PNG" style="border:1px solid black" />
         </p>
+        <p class="note"><b>NOTE: </b>only update the version number once during a round of updates. If you go back and forth with a reviewer, do not update the version number each time. </p>
         <ol MadCap:continue="true">
             <li>
                 <p>Save and push your repo to the ui-component-libs repo.</p>
+                <p><b>NOTE:</b> When staging files to commit, only add the 2 files that were changed: <span style="font-family: Consolas;">static-guidance.ts</span> and <span style="font-family: Consolas;">package.json</span>. Do <b>NOT </b>perform a <span style="font-family: Consolas;">git add . </span></p>
             </li>
             <li>
                 <p>Open a PR to merge it to master.</p>
             </li>
             <li>
-                <p>Ask the App Engineering Group to review the PR.</p>
+                <p>Ask for a review from the following groups:</p>
+                <ul>
+                    <li>
+                        <p><b>App Engineering—</b>performs a technical review on things like predicates, page properties and missing quotes/commas. They may also review the package dependency updates</p>
+                    </li>
+                    <li>
+                        <p><b>Doc Team or BA—</b>performs a textual content review</p>
+                    </li>
+                </ul>
+                <p>Ask the App Engineering Group to review the PR</p>
             </li>
             <li>
                 <p>Set the ticket to Code Review, if applicable.</p>
