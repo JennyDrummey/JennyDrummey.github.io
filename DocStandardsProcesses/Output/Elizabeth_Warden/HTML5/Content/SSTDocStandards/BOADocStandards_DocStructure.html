@@ -1,0 +1,193 @@
+<p>{% include note.html content=Ã¢â‚¬Å“All manuals are generated from a Flare project, and the templates and formatting used have been standardized in the targets. This section describes how the Word document, output from the target for each manual, is formatted, and can be used as a reference.Ã¢â‚¬Â %}</p>
+<p>A typical manual has four main sections: Cover Page, Table of Contents, Manual Body and the Version History page. The templates contain the formatting and layout for these four sections.</p>
+<h2 id="use-document-properties-panel">Use Document Properties panel</h2>
+<p>Access the Document Properties panel and complete the fields as indicated to populate the template for manual. Refer to Update Document Properties [BOADocProcess_DevManuals.html#updatedocprop] for more information.</p>
+<h2 id="cover-page">Cover Page</h2>
+<p>The cover page contains the required BOA logo, document title, and product version. The Release Notes contain the release date, but the manuals do not. The cover page contains the following information:</p>
+<ul>
+<li><p><strong>Title</strong> Ã¢â‚¬â€œ Name of the manual.</p></li>
+<li><p><strong>Product</strong> Ã¢â‚¬â€œ Application for which the manual is being written. The proper product name must be used with assigned trademarks. View the current list of trademarks at [<a href="http://www.boaweb.com/trademarks/">http://www.boaweb.com/trademarks/</a>.</p></li>
+<li><p><strong>Address/contact information</strong> {% include note.html content=Ã¢â‚¬Å“Title and product are added on the Document Properties panel.Ã¢â‚¬Â %}</p></li>
+</ul>
+<h2 id="version-history-page">Version History Page</h2>
+<p>Include all changes made to the installation manuals on the <em>Version History</em> page.</p>
+<table>
+<colgroup>
+<col width="10%" />
+<col width="10%" />
+<col width="40%" />
+<col width="40%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>
+Revision Release Date
+</th>
+<th>
+Associated Release Version
+</th>
+<th>
+Revision Description
+</th>
+<th>
+Associated JIRA Tickets
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+4/18/2018
+</td>
+<td>
+6.7
+</td>
+<td>
+All currently supported versions of SQL Server work with their associated SQL 2012 Client Tools or SQL 2014/2016 Integration Services. Updated the <i>Web Server</i> section of this document.
+</td>
+<td>
+DSP-9412Ã¢â‚¬â€œSSIS only works when 2012 SQL Client Tools is installed.
+</td>
+</tr>
+</tbody>
+</table>
+<p>Add a new record to the Version History table when updating the document.</p>
+<h2 id="table-of-contents">Table of Contents</h2>
+<p>The Table of Contents lists each topic heading and its page number. The template is designed to display three style levels: Heading 1, Heading 2 and Heading 3. Once the body of the manual is created or any changes are made, the Table of Contents must be updated. The header includes product, document title and version.</p>
+<p>To update the Table of Contents:</p>
+<ol type="1">
+<li>Right-click anywhere on the Table of Contents page.</li>
+<li>Click <strong>Update Field or press F9</strong>; a pop-up displays.</li>
+<li>Click <strong>Update</strong> <strong>entire table</strong> option.</li>
+<li>Click <strong>OK</strong> button; the entire table updates.</li>
+</ol>
+<h2 id="footers">Footers</h2>
+<p>Footers must be created using the Header and Footer Insert options in Word. To create or edit a header/footer in Word:</p>
+<ol type="1">
+<li>Select the <strong>Insert</strong> tab on the navigation bar above the ribbon.</li>
+<li>Click <strong>Footer</strong> on the ribbon.</li>
+<li>Click <strong>Edit Footer</strong>. The footer editor will then display at the bottom of the page.</li>
+<li>When finished with edits, click <strong>Close Header and Footer</strong> icon on the ribbon. {% include note.html content=Ã¢â‚¬Å“As of 7/5/2017, the footer in our printed documents are as follows in the screenshots below:Ã¢â‚¬Â %} {% include image.html file=Ã¢â‚¬Å“coverPageFooter.pngÃ¢â‚¬Â alt=Ã¢â‚¬Å“Cover Page FooterÃ¢â‚¬Â caption=Ã¢â‚¬Å“Cover Page FooterÃ¢â‚¬Â %} {% include image.html file=Ã¢â‚¬Å“documentBodyFooter.pngÃ¢â‚¬Â alt=Ã¢â‚¬Å“Document Body FooterÃ¢â‚¬Â caption=Ã¢â‚¬Å“Document Body FooterÃ¢â‚¬Â %} {% include note.html content=Ã¢â‚¬ËœThe text in the footer has been updated with our copyright policies and reads: Ã¢â‚¬Å“Copyright Ã‚Â© 2019 BackOffice Associates, LLC d/b/a Syniti.Ã‚Â  All rights reserved. Ã‚Â This document contains confidential and proprietary information and reproduction is prohibited unless authorized by BackOffice AssociatesÃ‚Â®. Ã‚Â Other names appearing on the Site may be trademarks of their respective owners.Ã¢â‚¬ÂÃ¢â‚¬â„¢ %}</li>
+</ol>
+<h2 id="document-body">Document Body</h2>
+<p>The document body contains the bulk of the information. Depending on the detail of the content, it can be broken out into three levels of headings, Heading 1, Heading 2 and Heading 3. Pre-defined formatting styles have been created in the Manual template and style set for headings, text, bullets, numbered steps, tables, notes, screen shots, etc. All styles can be applied by clicking a style on the Quick Styles Gallery. Refer to [Styles][BOADocStandards_PrintStyles] for detailed explanation of the Styles font and spacing.</p>
+<h2 id="heading-1">Heading 1</h2>
+<p>Heading 1 is the first level of detail in the document body and is always followed with a summary of the section. Multiple Heading 1s can exist in a document.</p>
+<h2 id="heading-2">Heading 2</h2>
+<p>Heading 2 is the second level of detail in the manual body and is a sub-section of a Heading 1 section. It is not necessary to include summary text under Heading 2 unless further explanation is necessary.</p>
+<h2 id="heading-3">Heading 3</h2>
+<p>Heading 3 is the third level of detail in the manual body and is a sub-section of a Heading 2 section. It is not necessary to include summary text under Heading 3 unless further explanation is necessary.</p>
+<h2 id="bullets">Bullets</h2>
+<p>Use bullets to present a list of information. Do not use bullets if describing a sequential process or steps a user needs to complete in the application. If stating a thought or item, the first word is bolded followed by an en dash. There are always at least two items bulleted when using bullets. <strong>List Bullet</strong> Style contains the standard formatting for bullets.</p>
+<p>Begin each bulleted item with the same structure, e.g., a present tense verb or a noun.</p>
+<h2 id="numbered-steps">Numbered Steps</h2>
+<p>Use numbered steps when describing a sequential process or steps a user needs to complete in the application. Include one action for each step. Each set of numbered steps must be preceded by a line that explains what the steps accomplish. Start the line with the word Ã¢â‚¬Å“ToÃ¢â‚¬Â and end with a colon. There must be at least two steps when numbering steps. If listing options after a numbered step, use the <strong>Indented Bullet</strong> Style.</p>
+<h2 id="tables">Tables</h2>
+<p>Use a table to organize information, where applicable. The column headings and the first column (if appropriate) are bolded. For the rest of the table text, use plain text, not bolded or italicized. Refer to [Styles][BOADocStandards_PrintStyles] for more information about table styles.</p>
+<h3 id="table-stylesheets">Table Stylesheets</h3>
+Use the following table stylesheets:
+<table>
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>
+Table
+</th>
+<th>
+Stylesheet
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+Cover page
+</td>
+<td>
+CoverPageTable.css
+</td>
+</tr>
+<tr>
+<td>
+Recovery Model and Backup Recommendations
+</td>
+<td>
+SRHSRecoveryModelTable.css
+</td>
+</tr>
+<tr>
+<td>
+All other tables
+</td>
+<td>
+basictable.css
+</td>
+</tr>
+</tbody>
+</table>
+<p>To create a table:</p>
+<ol type="1">
+<li><p>Enter column headings separated by tabs.</p></li>
+<li><p>Highlight all column headings, the first row.</p></li>
+<li><p>Click <strong>Insert</strong> tab.</p></li>
+<li><p>Click Table Grid.</p></li>
+<li><p>Select Convert Text to Table.</p></li>
+<li><p>Select <strong>Tabs.</strong></p></li>
+<li><p>Click <strong>OK</strong>.</p></li>
+<li><p>Highlight the column heading row.</p></li>
+<li><p>Select the <strong>Home</strong> tab.</p></li>
+<li><p>Select <strong>Table</strong> <strong>Column</strong> from the Style Gallery.</p></li>
+<li><p>Highlight the second row.</p></li>
+<li><p>Select <strong>Table</strong> <strong>Text</strong> from the Style Gallery.</p></li>
+<li><p>Click <strong>Tab</strong> key from the last column to add another row.</p></li>
+<li><p>Repeat as needed.</p></li>
+<li><p>Enter text. {% include note.html content=Ã¢â‚¬Å“If bulleting two or more items within a table, highlight the text or the cell and apply the style Bullet Table. Apply the Table Text style to table content and the Table Column style to the table heading.Ã¢â‚¬Â %}</p>
+<table>
+<colgroup>
+<col width="30%" />
+<col width="35%" />
+<col width="35%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>
+<p>Column Heading</p>
+</th>
+<th>
+<p>Column Heading</p>
+</th>
+<th>
+<p>Column Heading</p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Table</p>
+</td>
+<td>
+<p>Content</p>
+<ul>
+<li>
+<p>Bulleted Items</p>
+</li>
+<li>
+<p>Bulleted Items</p>
+</li>
+<li>
+<p>Bulleted Items</p>
+</li>
+</ul>
+</td>
+<td>
+<p>Content</p>
+</td>
+</tr>
+</tbody>
+</table></li>
+</ol>
+<p>{% include links.html %}</p>
