@@ -12,6 +12,8 @@
     <Url
       Source="When_to_request_a_new_product_license.htm" />
     <Url
+      Source="DocProcess/AdditionalDocTeamTasks.html" />
+    <Url
       Source="DocProcess/APIDocProcess.htm" />
     <Url
       Source="DocProcess/BOADocProcess _UpdateFlareProjectNewVersion.html" />
@@ -94,13 +96,23 @@
     <Url
       Source="DocProcess/CheckLatestBuild.html" />
     <Url
+      Source="DocProcess/KnowledgeTierOnly.html" />
+    <Url
       Source="DocProcess/Publish_SKT_Help.htm" />
     <Url
       Source="DocProcess/SearchReplaceTags.htm" />
     <Url
+      Source="DocProcess/StewardshipTierOnly.html" />
+    <Url
+      Source="DocProcess/UpdateOnlineHelp.html" />
+    <Url
       Source="DocProcess/UpdateStaticGuidance.htm" />
     <Url
+      Source="DocProcess/UseGIFsInOnlineHelp.html" />
+    <Url
       Source="DocProcess/WorfkflowNotRequired.htm" />
+    <Url
+      Source="DocProcess/WriteInlineHelp.html" />
     <Url
       Source="Resources/Images/addYourReview.png" />
     <Url
@@ -353,6 +365,10 @@
       Source="Resources/Images/unlinkedTopicsTOC.png" />
     <Url
       Source="Resources/Images/updateversion.png" />
+    <Url
+      Source="Resources/Images/UseGifExample1.gif" />
+    <Url
+      Source="Resources/Images/UseGifExample2.gif" />
     <Url
       Source="Resources/Images/useThisTo.png" />
     <Url
