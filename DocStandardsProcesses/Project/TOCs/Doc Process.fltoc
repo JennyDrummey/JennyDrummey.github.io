@@ -105,6 +105,9 @@
       Title="Unifying KB Articles and Help"
       Link="/Content/DocProcess/BOADocProcess_UnifyKBArticles.html"></TocEntry>
     <TocEntry
+      Title="Post an Article to Syniti Connect"
+      Link="/Content/DocProcess/PostAnArticleToSynitiConnect.html" />
+    <TocEntry
       Title="Use GIFs in Online Help"
       Link="/Content/DocProcess/UseGIFsInOnlineHelp.html" />
   </TocEntry>

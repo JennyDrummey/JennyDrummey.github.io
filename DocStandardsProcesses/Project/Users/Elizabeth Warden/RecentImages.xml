@@ -1,5 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <UrlList>
+    <Url Source="Resources/Images/PostArticleToSC4.png" />
+    <Url Source="Resources/Images/PostArticleToSC3.png" />
+    <Url Source="Resources/Images/PostArticleToSC2.png" />
+    <Url Source="Resources/Images/PostArticleToSC1.png" />
     <Url Source="Resources/Images/UseGifExample2.gif" />
     <Url Source="Resources/Images/UseGifExample1.gif" />
 </UrlList>
