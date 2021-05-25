@@ -5,20 +5,39 @@
     </head>
     <body>
         <h1>Workflow - Peer Review</h1>
-        <ol MadCap:continue="true">
+        <p>After your content has been approved and added to the dev site following the steps in the Approved topic, ask for a Peer Review by posting an @doc message in the #doc_checkouts Slack channel Include a link to your Author’s Notes.  .</p>
+        <p>As a peer reviewer:</p>
+        <ol>
             <li>
-                <p>Peer reviewer adds feedback  to the Author Notes document comparing the changes in that document with the dev environment. </p>
+                <p>Reply to the author’s request for a peer review as a thread to the post in the #doc_checkouts channel.</p>
+            </li>
+            <li>
+                <p>View the documentation changes on the dev environment.</p>
+            </li>
+            <li>
+                <p>Read for typos and clear language, confirm that standards are applied, and test links and steps, if applicable. Review <a href="BOADocProcess_UpdateOnlineHelp.html#Checklis">Check List for adding a Use Case</a> and <a href="BOADocProcess_UpdateOnlineHelp.html#Checklis2">Check List for Adding Field Descriptions</a> for more information. </p>
+            </li>
+            <li>
+                <p>Make any edits or feedback in the Author’s Notes.</p>
+            </li>
+            <li>
+                <p>Post to the thread in the #doc_checkouts Slack channel that you have completed your peer review.</p>
             </li>
         </ol>
-        <p>The Peer Reviewers reads for typos, clear language and confirms that standards are applied. They also test links in the document and, if possible, test the steps as well. Review <a href="BOADocProcess_UpdateOnlineHelp.html#Checklis">Check List for adding a Use Case</a> and <a href="BOADocProcess_UpdateOnlineHelp.html#Checklis2">Check List for Adding Field Descriptions</a> for more information. </p>
-        <ol MadCap:continue="true">
+        <p>As the author:</p>
+        <ol>
             <li>
-                <p>As a result of that feedback, the Author makes the updates and merges this branch to the develop_nnn/develop/Staginginnn branch, and builds in jenkins in the dev environment (and prod environment as needed).</p>
+                <p>Once the peer reviewer has provided feedback, make applicable changes to <span style="font-family: Consolas;">&lt;YourBranchName&gt;</span>, merge to develop_nnn/develop/Staginginnn branch, and build in Jenkins in the dev environment (and prod environment as needed).</p>
             </li>
             <li>
-                <p>Author posts in the doc_checkouts channel that the changes are complete.</p>
+                <p>Reply to the thread in the #doc_checkout Slack channel that dev has been updated.</p>
+            </li>
+            <li>
+                <p>Update the documentation status of each Jira ticket in the Author’s Notes to Doc Done.</p>
             </li>
         </ol>
-        <p>Note: Use the @doc command in Slack to call attention to questions or feedback needed.</p>
+        <p>&#160;</p>
+        <p>&#160;</p>
+        <p>&#160;</p>
     </body>
 </html>

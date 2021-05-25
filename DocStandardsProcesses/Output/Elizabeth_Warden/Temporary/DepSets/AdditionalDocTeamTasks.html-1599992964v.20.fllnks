@@ -20,6 +20,8 @@
     <Link
       Url="Content/DocProcess/BOADocProcess_UnifyKBArticles.html" />
     <Link
+      Url="Content/DocProcess/PostAnArticleToSynitiConnect.html" />
+    <Link
       Url="Content/DocProcess/UseGIFsInOnlineHelp.html" />
   </Links>
   <LongLinks>
@@ -35,6 +37,8 @@
       Url="Content/DocProcess/APIDocProcess.htm" />
     <Link
       Url="Content/DocProcess/BOADocProcess_UnifyKBArticles.html" />
+    <Link
+      Url="Content/DocProcess/PostAnArticleToSynitiConnect.html" />
     <Link
       Url="Content/DocProcess/UseGIFsInOnlineHelp.html" />
   </LongLinks>

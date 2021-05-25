@@ -9,6 +9,8 @@
     <Link
       Url="Content/Resources/MasterPages/DocProcess.flmsp" />
     <Link
+      Url="Content/DocProcess/BOADocProcess_DSPDocOverview.html" />
+    <Link
       Url="Content/DocProcess/Publish_SKT_Help.htm" />
     <Link
       Url="Content/DocProcess/BOADocProcess_Workflow_Approved.html" />
@@ -22,6 +24,8 @@
   <LongLinks>
     <Link
       Url="Content/Resources/MasterPages/DocProcess.flmsp" />
+    <Link
+      Url="Content/DocProcess/BOADocProcess_DSPDocOverview.html" />
     <Link
       Url="Content/DocProcess/Publish_SKT_Help.htm#Synchron" />
     <Link
