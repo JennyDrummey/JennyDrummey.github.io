@@ -16,9 +16,13 @@
     <Link
       Url="Content/DocProcess/Publish_SKT_Help.htm" />
     <Link
+      Url="Content/DocProcess/BOADocProcess_Add_Topics_to_the_TOC.html" />
+    <Link
       Url="Content/SSTDocStandards/BOADocStandards_Overview.html" />
     <Link
       Url="Content/DocProcess/BOADocProcess_AliasValueRange.html" />
+    <Link
+      Url="Content/DocProcess/BOADocProcess_BuildHelpTargets.html" />
     <Link
       Url="Content/DocProcess/BOADocProcess_CondTags.html" />
     <Link
@@ -43,8 +47,6 @@
       Url="Content/Resources/Images/siteToolbar.png" />
     <Link
       Url="Content/Resources/Images/technicalTab.png" />
-    <Link
-      Url="Content/DocProcess/BOADocProcess_ChecklistGenOnlineHelp.html" />
     <Link
       Url="Content/Resources/Images/concepts.png" />
     <Link
@@ -96,9 +98,13 @@
     <Link
       Url="Content/DocProcess/Publish_SKT_Help.htm#Publish" />
     <Link
+      Url="Content/DocProcess/BOADocProcess_Add_Topics_to_the_TOC.html" />
+    <Link
       Url="Content/SSTDocStandards/BOADocStandards_Overview.html" />
     <Link
       Url="Content/DocProcess/BOADocProcess_AliasValueRange.html" />
+    <Link
+      Url="Content/DocProcess/BOADocProcess_BuildHelpTargets.html" />
     <Link
       Url="Content/DocProcess/BOADocProcess_CondTags.html" />
     <Link
@@ -123,8 +129,6 @@
       Url="Content/Resources/Images/siteToolbar.png" />
     <Link
       Url="Content/Resources/Images/technicalTab.png" />
-    <Link
-      Url="Content/DocProcess/BOADocProcess_ChecklistGenOnlineHelp.html" />
     <Link
       Url="Content/Resources/Images/concepts.png" />
     <Link
@@ -174,10 +178,7 @@
   <Concepts />
   <ConceptControlNames />
   <IndexControlNames />
-  <Variables>
-    <Variable
-      Name="System.LinkedTitle" />
-  </Variables>
+  <Variables />
   <FileConditions />
   <FileTags />
   <AllConditions />

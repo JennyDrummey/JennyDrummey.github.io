@@ -15,7 +15,7 @@
   OutputFile="index"
   MenuSkin="/Project/Skins/SideMenu.flskn"
   SearchResultsSkin="/Project/Skins/SearchResults.flskn"
-  MasterStylesheetOverride="true"
+  MasterStylesheetOverride="false"
   DisableAutoSync="true">
   <PrintedOutput
     CollapseMargins="true"

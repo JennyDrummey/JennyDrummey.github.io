@@ -12,17 +12,17 @@
     <Link
       Url="Content/Resources/Stylesheets/newDefault.css" />
     <Link
-      Url="Content/DocProcess/BOADocProcess_PrepareWhatsNew.html" />
-    <Link
-      Url="Content/DocProcess/BOADocProcess_PrepareReleaseNotes.html" />
-    <Link
       Url="Content/DocProcess/BOADocProcess_InstallManualProcess.html" />
     <Link
       Url="Content/DocProcess/BOADocProcess_UpdateOnlineHelp.html" />
     <Link
+      Url="Content/DocProcess/BOADocProcess_Update_Help_on_Dev_and_Prod_Sites.html" />
+    <Link
       Url="Content/DocProcess/BOADocProcess_GitInitSetup.html" />
     <Link
       Url="Content/Resources/Images/gitBashHere.png" />
+    <Link
+      Url="https://boaweb.sharepoint.com/sites/ProductDocumentation/Shared Documents/Forms/AllItems.aspx" />
     <Link
       Url="Content/DocProcess/BOADocProcess_Workflow_InProcess.html" />
     <Link
@@ -33,10 +33,6 @@
       Url="Content/Resources/MasterPages/DocProcess.flmsp" />
     <Link
       Url="Content/Resources/Stylesheets/newDefault.css" />
-    <Link
-      Url="Content/DocProcess/BOADocProcess_PrepareWhatsNew.html" />
-    <Link
-      Url="Content/DocProcess/BOADocProcess_PrepareReleaseNotes.html" />
     <Link
       Url="Content/DocProcess/BOADocProcess_InstallManualProcess.html#Synchronize_your_master_branch_with_the_BackOfficeAssoc_GitHub_Repo" />
     <Link
@@ -52,11 +48,15 @@
     <Link
       Url="Content/DocProcess/BOADocProcess_UpdateOnlineHelp.html" />
     <Link
+      Url="Content/DocProcess/BOADocProcess_Update_Help_on_Dev_and_Prod_Sites.html#Update" />
+    <Link
       Url="Content/DocProcess/BOADocProcess_GitInitSetup.html#Clone_BackOffice/dsp-docs_repo_to_local" />
     <Link
       Url="Content/Resources/Images/gitBashHere.png" />
     <Link
       Url="Content/DocProcess/BOADocProcess_InstallManualProcess.html#clone-the-dsp-install-manuals-repo" />
+    <Link
+      Url="https://boaweb.sharepoint.com/sites/ProductDocumentation/Shared Documents/Forms/AllItems.aspx?id=%2Fsites%2FProductDocumentation%2FShared%20Documents%2FProduct%20Documentation%2FPublished" />
     <Link
       Url="Content/DocProcess/BOADocProcess_Workflow_InProcess.html" />
     <Link
@@ -67,8 +67,6 @@
       Name="Clone_the_dsp-install-manuals_repo" />
     <Anchor
       Name="Synchronize_your_master_branch_with_the_BackOfficeAssoc_GitHub_Repo" />
-    <Anchor
-      Name="Create_a_branch_for_your_updates_based_on_the_master_branch" />
     <Anchor
       Name="Create_a_Release_Folder_on_SharePoint" />
     <Anchor

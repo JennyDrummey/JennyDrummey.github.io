@@ -24,7 +24,6 @@
         <link href="../../Skins/Fluid/Stylesheets/Styles.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
         <link href="../../Skins/Fluid/Stylesheets/Tablet.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
         <link href="../../Skins/Fluid/Stylesheets/Mobile.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
-        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css" />
         <link href="../Resources/Stylesheets/newDefault.css" rel="stylesheet" type="text/css" />
         <style>/*&lt;meta /&gt;*/
 
@@ -202,7 +201,7 @@
                                                     <p>The field description displays a link to the use case(s) that use the page.</p>
                                                     <h2>Page v. Topic</h2>
                                                     <p>For online documentation standards, use the following terms.</p>
-                                                    <p>A page is a page in the BackOffice Associates product.</p>
+                                                    <p>A page is a page in the Syniti product.</p>
                                                     <p>A topic is a topic in the online help.</p>
                                                     <h2>Topic Types</h2>
                                                     <p>The following documentation types are used in the SST online help:</p>
@@ -214,7 +213,7 @@
                                                             <p>Use case – Describes a set of tasks, each with its own steps, that allows a user and a system to perform a goal. Refer to <a href="BOADocStandards_UCGuidelines.html">Use Case Guidelines</a> for more information.</p>
                                                         </li>
                                                         <li>
-                                                            <p>Page description – Contains navigation steps to the associated DSP page and a table that lists every visible field along with a description. Refer to <a href="BOADocStandards_FDGuidelines.html">Page Descriptions Guidelines</a>.</p>
+                                                            <p>Page description – Contains navigation steps to the associated SST page and a table that lists every visible field along with a description. Refer to <a href="BOADocStandards_FDGuidelines.html">Page Descriptions Guidelines</a>.</p>
                                                         </li>
                                                     </ul>
                                                     <h2>Configuration and System Administration Tasks</h2>
@@ -241,7 +240,28 @@
                                                                 <td class="TableStyle-fielddescription-BodyD-Column2-Body1">Name of Flare master pages.Master page types include:Use CasesPage DescriptionsConfigurationTipsGlossary</td>
                                                             </tr>
                                                             <tr class="TableStyle-fielddescription-Body-Body1">
-                                                                <td class="TableStyle-fielddescription-BodyE-Column1-Body1" role="rowheader">newdefault.css– stylesheet for topic content for topnavdefault.css– contains no content, but needed so that Flare does not display errorsStylesforHomePage.css- stylesheet for the home or index page which has a different layout than the topic pages.fileddescrition.css– stylesheet for formatting table (grid style, column size, etc); located in the tablestyles folder.masterpagetable.css– stylesheet for formatting the master page footer table.threecolumns.css– stylesheet for formattting special three column tables that appear in use cases.</td>
+                                                                <td class="TableStyle-fielddescription-BodyE-Column1-Body1" role="rowheader">
+                                                                    <ul>
+                                                                        <li>
+                                                                            <p role="rowheader">newdefault.css– stylesheet for topic content for topnav</p>
+                                                                        </li>
+                                                                        <li>
+                                                                            <p role="rowheader">default.css– contains no content, but needed so that Flare does not display errors</p>
+                                                                        </li>
+                                                                        <li>
+                                                                            <p role="rowheader">StylesforHomePage.css- stylesheet for the home or index page which has a different layout than the topic pages.</p>
+                                                                        </li>
+                                                                        <li>
+                                                                            <p role="rowheader">fileddescrition.css– stylesheet for formatting table (grid style, column size, etc); located in the tablestyles folder.</p>
+                                                                        </li>
+                                                                        <li>
+                                                                            <p role="rowheader">masterpagetable.css– stylesheet for formatting the master page footer table.</p>
+                                                                        </li>
+                                                                        <li>
+                                                                            <p role="rowheader">threecolumns.css– stylesheet for formattting special three column tables that appear in use cases.</p>
+                                                                        </li>
+                                                                    </ul>
+                                                                </td>
                                                                 <td class="TableStyle-fielddescription-BodyD-Column2-Body1">Stylesheets in Flare that contains all styles for the online help topics.</td>
                                                             </tr>
                                                             <tr class="TableStyle-fielddescription-Body-Body1">
@@ -265,17 +285,17 @@
                                                     <h2>Page Names Hyperlink to Field Descriptions Topic</h2>
                                                     <p>Whenever a product page is referenced in a use case, add a hyperlink to the first reference only, but not if there is also a View the field description for the XXXxxx page link to the page in the use case.</p>
                                                     <p>For a page description topic, references must always have a hyperlink to the PD topic for a page. But don't link twice in the same paragraph or field description.</p>
-                                                    <h2>Standard Use Cases for Each SST Component</h2>
-                                                    <p>Every component has the following use case topics:</p>
+                                                    <h2>Standard Sections for a SST Component</h2>
+                                                    <p>Every component has the following  topics:</p>
                                                     <ul>
                                                         <li>
-                                                            <p>[Component] Overview – Provides a description of the component, such as its primary function, how it fits into the solution. This topic displays when a user clicks the component name button at the top of a topic, or when a user clicks the component name button on the home page.</p>
+                                                            <p>[Component] Overview – Provides a description of the component, such as its primary function, how it fits into the solution. This topic displays when a user clicks the component name button at the top of a topic, or when a user clicks the component name button on the home page. Stored in t he root of the component's folder in Content Explorer.</p>
                                                         </li>
                                                         <li>
-                                                            <p>Setup and Configuration for [Component] – Part of the Overview. Provides the setup steps that are required before using the component.</p>
+                                                            <p>Setup and Configuration for [Component] – Provides the setup steps that are required before using the component. Topics for this section display at the bottom of the component overview page, and at the top of the right menu. </p>
                                                         </li>
                                                         <li>
-                                                            <p>Set up Security for [Component Name] – provides steps to set up security to be able to use the component. Contained in the Configuration section.</p>
+                                                            <p>Set up Security for [Component Name] – Provides steps to set up security to be able to use the component. Added as a subsection of the Setup and Configuration section.</p>
                                                         </li>
                                                     </ul>
                                                     <h2>Use of Special Characters in .htm File Names</h2>

@@ -24,7 +24,6 @@
         <link href="../../Skins/Fluid/Stylesheets/Styles.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
         <link href="../../Skins/Fluid/Stylesheets/Tablet.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
         <link href="../../Skins/Fluid/Stylesheets/Mobile.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
-        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css" />
         <link href="../Resources/Stylesheets/newDefault.css" rel="stylesheet" type="text/css" />
         <style>/*&lt;meta /&gt;*/
 
@@ -234,14 +233,29 @@
                                                         </li>
                                                     </ul>
                                                     <h3 id="numbered-steps">Numbered Steps</h3>
-                                                    <p>Numbered steps are used in the navigation section of PD topics. Begin the section with To access this page and add the steps from the use case to navigate to the page. Use the same numbered list formatting as in a Use Case.</p>
+                                                    <p>Numbered steps are used in the navigation section of PD topics. Begin the section with "To access this page" and add the steps from the use case to navigate to the page. Use the same numbered list formatting as in a Use Case.</p>
                                                     <h3 id="tables">Tables</h3>
-                                                    <p>The fielddescription.css table stylesheet is used for format tables. The left column is 200px and the right column is 550px. Refer to section [Format Tables in Topics][BOADocProcess_UpdateOnlineHelp.html#formattables] for more information.</p>
-                                                    <p>Use the p.TableColumn style for the first row and the left column in the table. Use p.TableText for other rows.</p>
-                                                    <p>Use the p.TableNote style for adding notes to tables.</p>
-                                                    <p>On the Home tab, in the Paragraph group, use the Bulleted List option to format all bullets.</p>
-                                                    <p>In the Help topic, include the collapsible section headings from the SST's <em>Vertical</em> View in a merged cell in the FD table (do not make the headings collapsible in the Help topic). Format the heading using the p.TableColumn style and merge the cells.</p>
-                                                    <p>See the Basic Data row below for an example. {</p>
+                                                    <p>The fielddescription.css table stylesheet is used for format tables. The left column is 200px and the right column is 550px. Refer to section <a href="../DocProcess/BOADocProcess_UpdateOnlineHelp.html#Format">Format Tables</a> or more information.</p>
+                                                    <p>Other notes about table standards are:</p>
+                                                    <ul>
+                                                        <li>
+                                                            <p>Use the p.TableColumn style for the first row and the left column in the table. Use p.TableText for other rows.</p>
+                                                        </li>
+                                                        <li>
+                                                            <p>Use the p.TableNote style for adding notes to tables.</p>
+                                                        </li>
+                                                        <li>
+                                                            <p>On the <b>Home</b> tab, in the <b>Paragraph</b> group, use the Bulleted List option to format all bullets.</p>
+                                                        </li>
+                                                        <li>
+                                                            <p>In the Help topic, include the collapsible section headings from the SST's <em>Vertical</em> View in a merged cell in the FD table (do not make the headings collapsible in the Help topic). Format the heading using the p.TableColumn style and merge the cells.</p>
+                                                            <p>See the Basic Data row below for an example. </p>
+                                                            <p>
+                                                                <img src="../Resources/Images/mergedTableCell.png" />
+                                                            </p>
+                                                        </li>
+                                                    </ul>
+                                                    <p>See the Basic Data row below for an example. </p>
                                                     <p>
                                                         <img src="../Resources/Images/mergedTableCell.png" />
                                                     </p>
@@ -267,18 +281,19 @@
                                                     <h2 id="references-to-use-cases">References to Use Cases</h2>
                                                     <p>Every page descriptions topic must reference a use case and provide a link to it.</p>
                                                     <p>In rare cases where no use case is needed, include information about how a page is used. For example, the Process Area Launch page in Map does not require a use case. It contains the text: Use this page to access the pages as described below. </p>
-                                                    <p>NOTE: When adding a use case, add a link to that new use case from the page description topic.</p>
+                                                    <p class="note"><b>NOTE</b>: When adding a use case, add a link to that new use case from the page description topic.</p>
                                                     <h2 id="page-description-topics">Page Description topics</h2>
                                                     <ul>
-                                                        <li>All page description topics are the first item in the componentâ€™s use case menu.</li>
+                                                        <li>Each component has a page descriptions topic accessible in the Content Explorer (PageDesc/&lt;componentname&gt; Page Descriptions) that serves as a TOC for all the component's pages. </li>
+                                                        <li>The component page description topic display below the Setup and Configuration section in the right side TOC</li>
                                                         <li>The topics are named [Component Name] Page Descriptions.</li>
-                                                        <li>The topics contains an alphabetized hyperinked list of all pages in the componenet</li>
+                                                        <li>The topics contains an alphabetized hyperinked list of all pages in the component</li>
                                                     </ul>
                                                     <h2 id="page-descriptions-topics-with-one-view-structure">Page Descriptions Topics with One View Structure</h2>
                                                     <p>If a page does not have a <em>Vertical</em> View, organize the page descriptions topic in this order:</p>
                                                     <ol type="1">
                                                         <li value="1">Name of page (h1)</li>
-                                                        <li value="2">References to use cases that use the page. Use the standard text: â€œUse this page toâ€ (p) (apply div.use to this line and any bullets that follow it - see <a href="#application-of-styles">Application of Styles</a> ).</li>
+                                                        <li value="2">References to use cases that use the page. Use the standard text: "Use this page to" (apply div.use to this line and any bullets that follow it - see <a href="#application-of-styles">Application of Styles</a>).</li>
                                                         <li value="3">Use case one (Bullet)</li>
                                                         <li value="4">Use case two (Bullet)</li>
                                                         <li value="5">Navigation to page using numbered steps. Use the standard text (To access this page. . . "(p)</li>
@@ -293,7 +308,7 @@
                                                     <ol type="1">
                                                         <li value="1">Name of page H (h1)</li>
                                                         <li value="2">Page name V (p) (hyperlink to page name V bookmark)</li>
-                                                        <li value="3">Use this page to (p) (apply div.use to this line and any bullets that follow it - see <a href="#application-of-styles">Application of Styles</a> ).</li>
+                                                        <li value="3">Use this page to (p) (apply div.use to this line and any bullets that follow it - see <a href="#application-of-styles">Application of Styles</a>).</li>
                                                         <li value="4">Use case one (Bullet)</li>
                                                         <li value="5">Use case two (Bullet)</li>
                                                         <li value="6">Navigation to page using numbered steps Use the standard text (To access this page. . . "(p)</li>
@@ -368,7 +383,7 @@
                                                         </li>
                                                         <li>
                                                             <p>When possible, include where (include the page name if on a page other than the current page) and when (during which task) the data in a field is entered for display fields.</p>
-                                                            <p>NOTE: For example: On the Integrate &gt; template page: Template name field - Displays the unique name of the template entered when the template was added.</p>
+                                                            <p class="note"><b>NOTE</b>: For example: On the Integrate &gt; template page: Template name field - Displays the unique name of the template entered when the template was added.</p>
                                                         </li>
                                                         <li>
                                                             <p>Descriptions explain each field in Display  mode, not when a user adds or edits information. Include information specific to adding and editing in the use case, not in the page description. If information essential to adding and editing must be included, clarify it with When adding or When editing. . .</p>

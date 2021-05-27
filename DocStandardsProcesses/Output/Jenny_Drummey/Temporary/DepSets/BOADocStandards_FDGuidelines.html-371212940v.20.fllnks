@@ -18,6 +18,8 @@
     <Link
       Url="Content/Resources/Images/createGroup.png" />
     <Link
+      Url="Content/DocProcess/BOADocProcess_UpdateOnlineHelp.html" />
+    <Link
       Url="Content/Resources/Images/mergedTableCell.png" />
     <Link
       Url="Content/SSTDocStandards/BOADocStandards_FDGuidelines.html" />
@@ -43,6 +45,8 @@
       Url="Content/Resources/Images/useThisTo.png" />
     <Link
       Url="Content/Resources/Images/createGroup.png" />
+    <Link
+      Url="Content/DocProcess/BOADocProcess_UpdateOnlineHelp.html#Format" />
     <Link
       Url="Content/Resources/Images/mergedTableCell.png" />
     <Link

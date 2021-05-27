@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileLinkSet
+  FileSearchable="false"
+  OnlyLocalStylesheets="false"
+  FileTimeEstimate="0"
+  FilePriority="0">
+  <Links>
+    <Link
+      Url="Content/SSTDocStandards/BOADocStandards_Overview.html" />
+    <Link
+      Url="Content/SSTDocStandards/BOADocStandards_OnlineGenGuidelines.html" />
+    <Link
+      Url="Content/SSTDocStandards/BOADocStandards_UCGuidelines.html" />
+    <Link
+      Url="Content/SSTDocStandards/BOADocStandards_FDGuidelines.html" />
+    <Link
+      Url="Content/SSTDocStandards/BOADocStandards_DashGuidelines.html" />
+    <Link
+      Url="Content/SSTDocStandards/BOADocStandards_UITerms.html" />
+    <Link
+      Url="Content/SSTDocStandards/BOADocStandards_CompNamesTerms.html" />
+    <Link
+      Url="Content/SKTDocStandards/IGCDocStandards_genWritingStyle.html" />
+    <Link
+      Url="Content/SKTDocStandards/IGCDocStandards_useCase.html" />
+    <Link
+      Url="Content/SKTDocStandards/IGCDocStandards_enhancements.html" />
+    <Link
+      Url="Content/SKTDocStandards/IGCDocStandards_styles.html" />
+    <Link
+      Url="Content/SKTDocStandards/IGCDocStandards_wordChoice.html" />
+    <Link
+      Url="Content/SKTDocStandards/IGCDocStandards_notifications.html" />
+    <Link
+      Url="Content/SSTDocStandards/BOADocStandards_KBGenGuidelines.html" />
+    <Link
+      Url="Content/SSTDocStandards/BOADocStandards_GuidelinesTerms.html" />
+    <Link
+      Url="Content/SSTDocStandards/BOADocStandards_UsageDictionary.html" />
+    <Link
+      Url="Content/SKTDocStandards/ProductNames.htm" />
+    <Link
+      Url="Content/SKTDocStandards/IGCDocStandards_screenShots.html" />
+    <Link
+      Url="Content/SKTDocStandards/IGCDocStandards_video.html" />
+  </Links>
+  <LongLinks />
+  <Anchors />
+  <Keywords />
+  <Concepts />
+  <ConceptControlNames />
+  <IndexControlNames />
+  <Variables />
+  <FileConditions />
+  <FileTags />
+  <AllConditions />
+  <Stylesheets />
+</CatapultFileLinkSet>

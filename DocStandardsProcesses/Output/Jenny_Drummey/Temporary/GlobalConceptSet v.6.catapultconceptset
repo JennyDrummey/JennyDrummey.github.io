@@ -1,0 +1,765 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultGlobalConceptSet
+  SavedSource="file:///C:/Users/Jenny Drummey/git/JennyDrummey.github.io/DocStandardsProcesses/Output/Jenny_Drummey/Temporary/GlobalConceptSet v.6.catapultconceptset">
+  <Concepts />
+  <SourceUrls>
+    <Url
+      Source="Data_Insiders_Community.htm" />
+    <Url
+      Source="glossary.htm" />
+    <Url
+      Source="Ideas_Portal.htm" />
+    <Url
+      Source="When_to_request_a_new_product_license.htm" />
+    <Url
+      Source="DocProcess/AdditionalDocTeamTasks.html" />
+    <Url
+      Source="DocProcess/APIDocProcess.htm" />
+    <Url
+      Source="DocProcess/BOADocProcess _UpdateFlareProjectNewVersion.html" />
+    <Url
+      Source="DocProcess/BOADocProcess_Add_Topics_to_the_TOC.html" />
+    <Url
+      Source="DocProcess/BOADocProcess_AliasValueRange.html" />
+    <Url
+      Source="DocProcess/BOADocProcess_BuildHelpTargets.html" />
+    <Url
+      Source="DocProcess/BOADocProcess_ChecklistGenOnlineHelp.html" />
+    <Url
+      Source="DocProcess/BOADocProcess_CheckLlistForGeneratingHelp.htm" />
+    <Url
+      Source="DocProcess/BOADocProcess_CLAddNewComponent.html" />
+    <Url
+      Source="DocProcess/BOADocProcess_CLDSPStandards.html" />
+    <Url
+      Source="DocProcess/BOADocProcess_CLDSPWorkflow.html" />
+    <Url
+      Source="DocProcess/BOADocProcess_CondTags.html" />
+    <Url
+      Source="DocProcess/BOADocProcess_Create_pdf.html" />
+    <Url
+      Source="DocProcess/BOADocProcess_DIPosts.html" />
+    <Url
+      Source="DocProcess/BOADocProcess_DocUpdatesTable.html" />
+    <Url
+      Source="DocProcess/BOADocProcess_DSPDocOverview.html" />
+    <Url
+      Source="DocProcess/BOADocProcess_DSPDocWorkflow.html" />
+    <Url
+      Source="DocProcess/BOADocProcess_FlareImport.html" />
+    <Url
+      Source="DocProcess/BOADocProcess_FlareLicenseUpgradeProcess.html" />
+    <Url
+      Source="DocProcess/BOADocProcess_GitInitSetup.html" />
+    <Url
+      Source="DocProcess/BOADocProcess_GitResources.html" />
+    <Url
+      Source="DocProcess/BOADocProcess_IncorpFeedback.html" />
+    <Url
+      Source="DocProcess/BOADocProcess_IncorpFeedbackPrint.html" />
+    <Url
+      Source="DocProcess/BOADocProcess_InstallManualProcess.html" />
+    <Url
+      Source="DocProcess/BOADocProcess_KnowledgeBaseArt.html" />
+    <Url
+      Source="DocProcess/BOADocProcess_PrepareFlareImport.html" />
+    <Url
+      Source="DocProcess/BOADocProcess_PrepareReleaseNotes.html" />
+    <Url
+      Source="DocProcess/BOADocProcess_PrepareWhatsNew.html" />
+    <Url
+      Source="DocProcess/BOADocProcess_ProjDocRoles.html" />
+    <Url
+      Source="DocProcess/BOADocProcess_SrcFiles.html" />
+    <Url
+      Source="DocProcess/BOADocProcess_SrcsOnlineHelp.html" />
+    <Url
+      Source="DocProcess/BOADocProcess_UnifyKBArticles.html" />
+    <Url
+      Source="DocProcess/BOADocProcess_UpdateOnlineHelp.html" />
+    <Url
+      Source="DocProcess/BOADocProcess_Update_Doc_Process_Standards.htm" />
+    <Url
+      Source="DocProcess/BOADocProcess_Update_Help_on_Dev_and_Prod_Sites.html" />
+    <Url
+      Source="DocProcess/BOADocProcess_Workflow_Approved.html" />
+    <Url
+      Source="DocProcess/BOADocProcess_Workflow_DocDone.html" />
+    <Url
+      Source="DocProcess/BOADocProcess_Workflow_InProcess.html" />
+    <Url
+      Source="DocProcess/BOADocProcess_Workflow_NotStarted.html" />
+    <Url
+      Source="DocProcess/BOADocProcess_Workflow_PeerReview.html" />
+    <Url
+      Source="DocProcess/BOADocProcess_Workflow_Review.html" />
+    <Url
+      Source="DocProcess/BOADocProcess_Workflow_StatusField.html" />
+    <Url
+      Source="DocProcess/CheckLatestBuild.html" />
+    <Url
+      Source="DocProcess/KnowledgeTierOnly.html" />
+    <Url
+      Source="DocProcess/PostAnArticleToSynitiConnect.html" />
+    <Url
+      Source="DocProcess/Publish_SKT_Help.htm" />
+    <Url
+      Source="DocProcess/SearchReplaceTags.htm" />
+    <Url
+      Source="DocProcess/StewardshipTierOnly.html" />
+    <Url
+      Source="DocProcess/UpdateOnlineHelp.html" />
+    <Url
+      Source="DocProcess/UpdateStaticGuidance.htm" />
+    <Url
+      Source="DocProcess/UseGIFsInOnlineHelp.html" />
+    <Url
+      Source="DocProcess/WorfkflowNotRequired.htm" />
+    <Url
+      Source="DocProcess/WriteInlineHelp.html" />
+    <Url
+      Source="Resources/Images/addYourReview.png" />
+    <Url
+      Source="Resources/Images/androidsdkmanagericon.png" />
+    <Url
+      Source="Resources/Images/assocConcepts.png" />
+    <Url
+      Source="Resources/Images/authorizegithubscreen2.png" />
+    <Url
+      Source="Resources/Images/authorizeongithub.png" />
+    <Url
+      Source="Resources/Images/avoidXMLErrors.png" />
+    <Url
+      Source="Resources/Images/BOA_Logo-223x50-Blue.png" />
+    <Url
+      Source="Resources/Images/BuildandPublishTarget1.png" />
+    <Url
+      Source="Resources/Images/BuildandPublishTarget2.png" />
+    <Url
+      Source="Resources/Images/buttons.png" />
+    <Url
+      Source="Resources/Images/cdataTags.png" />
+    <Url
+      Source="Resources/Images/CheckBuild1.png" />
+    <Url
+      Source="Resources/Images/CheckBuild2.png" />
+    <Url
+      Source="Resources/Images/CheckBuild3.png" />
+    <Url
+      Source="Resources/Images/CheckBuild4.png" />
+    <Url
+      Source="Resources/Images/CheckJenkins1.png" />
+    <Url
+      Source="Resources/Images/codeExe.png" />
+    <Url
+      Source="Resources/Images/commitGhpages.png" />
+    <Url
+      Source="Resources/Images/company_logo.png" />
+    <Url
+      Source="Resources/Images/company_logo_big.png" />
+    <Url
+      Source="Resources/Images/complexUC.png" />
+    <Url
+      Source="Resources/Images/complexUCIntro.png" />
+    <Url
+      Source="Resources/Images/complexusecase.png" />
+    <Url
+      Source="Resources/Images/concepts.png" />
+    <Url
+      Source="Resources/Images/conceptsList.png" />
+    <Url
+      Source="Resources/Images/conceptsNodeList.png" />
+    <Url
+      Source="Resources/Images/CopyHelp.png" />
+    <Url
+      Source="Resources/Images/copyPopup.png" />
+    <Url
+      Source="Resources/Images/coverPageFooter.png" />
+    <Url
+      Source="Resources/Images/createGroup.png" />
+    <Url
+      Source="Resources/Images/DI-Banner (1).svg" />
+    <Url
+      Source="Resources/Images/DI-Banner2.svg" />
+    <Url
+      Source="Resources/Images/DIAnswered.png" />
+    <Url
+      Source="Resources/Images/DIEdit.png" />
+    <Url
+      Source="Resources/Images/DIEdit2.png" />
+    <Url
+      Source="Resources/Images/DIPostUpvote.png" />
+    <Url
+      Source="Resources/Images/disableHyperV.png" />
+    <Url
+      Source="Resources/Images/DITopicLB.png" />
+    <Url
+      Source="Resources/Images/DocChanges1.png" />
+    <Url
+      Source="Resources/Images/DocChanges2.png" />
+    <Url
+      Source="Resources/Images/DocChanges3.png" />
+    <Url
+      Source="Resources/Images/DocChanges4.png" />
+    <Url
+      Source="Resources/Images/documentBodyFooter.png" />
+    <Url
+      Source="Resources/Images/documentProps.png" />
+    <Url
+      Source="Resources/Images/editBranch.png" />
+    <Url
+      Source="Resources/Images/editMeButton.png" />
+    <Url
+      Source="Resources/Images/favicon.ico" />
+    <Url
+      Source="Resources/Images/favicon.png" />
+    <Url
+      Source="Resources/Images/filestruc.png" />
+    <Url
+      Source="Resources/Images/FindElements.png" />
+    <Url
+      Source="Resources/Images/FindElements1.png" />
+    <Url
+      Source="Resources/Images/FindElementsOptions.png" />
+    <Url
+      Source="Resources/Images/FindElementsSearchReplaceFlare.png" />
+    <Url
+      Source="Resources/Images/gitBashHere.png" />
+    <Url
+      Source="Resources/Images/githubPR.png" />
+    <Url
+      Source="Resources/Images/helpapi-01.png" />
+    <Url
+      Source="Resources/Images/helpapi.svg" />
+    <Url
+      Source="Resources/Images/Hero-Image.png" />
+    <Url
+      Source="Resources/Images/Icon-Checkbox.png" />
+    <Url
+      Source="Resources/Images/Icon-Download.png" />
+    <Url
+      Source="Resources/Images/Icon-Forum.png" />
+    <Url
+      Source="Resources/Images/Icon-Gears.png" />
+    <Url
+      Source="Resources/Images/Icon-PDFs.png" />
+    <Url
+      Source="Resources/Images/Icon-Popular-Topics.png" />
+    <Url
+      Source="Resources/Images/Icon-Video-Top.png" />
+    <Url
+      Source="Resources/Images/Icon-Videos.png" />
+    <Url
+      Source="Resources/Images/icons.png" />
+    <Url
+      Source="Resources/Images/igcHelpLinks.png" />
+    <Url
+      Source="Resources/Images/illustratoroptions.png" />
+    <Url
+      Source="Resources/Images/image.png" />
+    <Url
+      Source="Resources/Images/image1.png" />
+    <Url
+      Source="Resources/Images/increment.PNG" />
+    <Url
+      Source="Resources/Images/insertId.png" />
+    <Url
+      Source="Resources/Images/itermexample.png" />
+    <Url
+      Source="Resources/Images/jekyll.png" />
+    <Url
+      Source="Resources/Images/jiraExtLink.png" />
+    <Url
+      Source="Resources/Images/jiraExtLink2.png" />
+    <Url
+      Source="Resources/Images/killalljekyll.png" />
+    <Url
+      Source="Resources/Images/liningup.png" />
+    <Url
+      Source="Resources/Images/Logo.png" />
+    <Url
+      Source="Resources/Images/manyUls.png" />
+    <Url
+      Source="Resources/Images/markAsResolved.png" />
+    <Url
+      Source="Resources/Images/mergeConflicts.png" />
+    <Url
+      Source="Resources/Images/mergedTableCell.png" />
+    <Url
+      Source="Resources/Images/Minus.png" />
+    <Url
+      Source="Resources/Images/modCondExpIcon.png" />
+    <Url
+      Source="Resources/Images/nestedLists.png" />
+    <Url
+      Source="Resources/Images/notedesc.png" />
+    <Url
+      Source="Resources/Images/objectsH.png" />
+    <Url
+      Source="Resources/Images/objectsV.png" />
+    <Url
+      Source="Resources/Images/oneUl.png" />
+    <Url
+      Source="Resources/Images/OpeningClosingVideoSlide.png" />
+    <Url
+      Source="Resources/Images/openjson.PNG" />
+    <Url
+      Source="Resources/Images/pageDescription.png" />
+    <Url
+      Source="Resources/Images/paste.png" />
+    <Url
+      Source="Resources/Images/PasteHelpSysstem.png" />
+    <Url
+      Source="Resources/Images/pcaption.png" />
+    <Url
+      Source="Resources/Images/PeerReviewEdits1.png" />
+    <Url
+      Source="Resources/Images/PeerReviewEdits2.png" />
+    <Url
+      Source="Resources/Images/pencilIcon.png" />
+    <Url
+      Source="Resources/Images/Plus.png" />
+    <Url
+      Source="Resources/Images/popup.png" />
+    <Url
+      Source="Resources/Images/popupClass.png" />
+    <Url
+      Source="Resources/Images/popupCode.png" />
+    <Url
+      Source="Resources/Images/popupObject.png" />
+    <Url
+      Source="Resources/Images/PostArticleToSC1.png" />
+    <Url
+      Source="Resources/Images/PostArticleToSC2.png" />
+    <Url
+      Source="Resources/Images/PostArticleToSC3.png" />
+    <Url
+      Source="Resources/Images/PostArticleToSC4.png" />
+    <Url
+      Source="Resources/Images/prBranchName.png" />
+    <Url
+      Source="Resources/Images/previewChanges.png" />
+    <Url
+      Source="Resources/Images/prevVersionLinks.png" />
+    <Url
+      Source="Resources/Images/raw.png" />
+    <Url
+      Source="Resources/Images/save.png" />
+    <Url
+      Source="Resources/Images/searchableCB.png" />
+    <Url
+      Source="Resources/Images/searchapi.png" />
+    <Url
+      Source="Resources/Images/simpleUC.png" />
+    <Url
+      Source="Resources/Images/siteToolbar.png" />
+    <Url
+      Source="Resources/Images/smartPaste.png" />
+    <Url
+      Source="Resources/Images/smartPasteMenu.png" />
+    <Url
+      Source="Resources/Images/spChFileName.png" />
+    <Url
+      Source="Resources/Images/spChTopicTitle.png" />
+    <Url
+      Source="Resources/Images/SSTTOC.png" />
+    <Url
+      Source="Resources/Images/SynitiGradientLogo.png" />
+    <Url
+      Source="Resources/Images/Syniti_Logo_RGB_DarkIndigo (1).svg" />
+    <Url
+      Source="Resources/Images/tabbedVV1.png" />
+    <Url
+      Source="Resources/Images/tabbedVV2.png" />
+    <Url
+      Source="Resources/Images/technicalTab.png" />
+    <Url
+      Source="Resources/Images/textEditorTab.png" />
+    <Url
+      Source="Resources/Images/unlinkedTopicsTOC.png" />
+    <Url
+      Source="Resources/Images/updateversion.png" />
+    <Url
+      Source="Resources/Images/UseGifExample1.gif" />
+    <Url
+      Source="Resources/Images/UseGifExample2.gif" />
+    <Url
+      Source="Resources/Images/useThisTo.png" />
+    <Url
+      Source="Resources/Images/ViewImage.png" />
+    <Url
+      Source="Resources/Images/wordStyleGallery.png" />
+    <Url
+      Source="Resources/Images/workflowarrow.png" />
+    <Url
+      Source="Resources/Images/topNav/arrow-down-gray.png" />
+    <Url
+      Source="Resources/Images/topNav/arrow-right-gray.png" />
+    <Url
+      Source="Resources/Images/topNav/BOA_DSP_LogoC-5405.svg" />
+    <Url
+      Source="Resources/Images/topNav/BOA_Logo-223x50-Blue.png" />
+    <Url
+      Source="Resources/Images/topNav/Clouds.jpg" />
+    <Url
+      Source="Resources/Images/topNav/DI_Community-Website5.svg" />
+    <Url
+      Source="Resources/Images/topNav/Syniti.Gradient.svg" />
+    <Url
+      Source="Resources/Images/topNav/SynitiGradientLogo.png" />
+    <Url
+      Source="Resources/Images/topNav/white-magnifying-glass.svg" />
+    <Url
+      Source="Resources/Images/topNav/whitefilter.svg" />
+    <Url
+      Source="Resources/MasterPages/DocProcess.flmsp" />
+    <Url
+      Source="Resources/MasterPages/DocStandards.flmsp" />
+    <Url
+      Source="Resources/MasterPages/topNav/glossary.flmsp" />
+    <Url
+      Source="Resources/Scripts/custom.js" />
+    <Url
+      Source="Resources/Scripts/feedback.js" />
+    <Url
+      Source="Resources/Scripts/jquery-listnav.js" />
+    <Url
+      Source="Resources/Scripts/jquery-listnav.min.js" />
+    <Url
+      Source="Resources/Scripts/modal.js" />
+    <Url
+      Source="Resources/Scripts/package-lock.json" />
+    <Url
+      Source="Resources/Scripts/node_modules/jquery/AUTHORS.txt" />
+    <Url
+      Source="Resources/Scripts/node_modules/jquery/bower.json" />
+    <Url
+      Source="Resources/Scripts/node_modules/jquery/LICENSE.txt" />
+    <Url
+      Source="Resources/Scripts/node_modules/jquery/package.json" />
+    <Url
+      Source="Resources/Scripts/node_modules/jquery/README.md" />
+    <Url
+      Source="Resources/Scripts/node_modules/jquery/dist/core.js" />
+    <Url
+      Source="Resources/Scripts/node_modules/jquery/dist/jquery.js" />
+    <Url
+      Source="Resources/Scripts/node_modules/jquery/dist/jquery.min.js" />
+    <Url
+      Source="Resources/Scripts/node_modules/jquery/dist/jquery.min.map" />
+    <Url
+      Source="Resources/Scripts/node_modules/jquery/dist/jquery.slim.js" />
+    <Url
+      Source="Resources/Scripts/node_modules/jquery/dist/jquery.slim.min.js" />
+    <Url
+      Source="Resources/Scripts/node_modules/jquery/dist/jquery.slim.min.map" />
+    <Url
+      Source="Resources/Scripts/node_modules/jquery/external/sizzle/LICENSE.txt" />
+    <Url
+      Source="Resources/Scripts/node_modules/jquery/external/sizzle/dist/sizzle.js" />
+    <Url
+      Source="Resources/Scripts/node_modules/jquery/external/sizzle/dist/sizzle.min.js" />
+    <Url
+      Source="Resources/Scripts/node_modules/jquery/external/sizzle/dist/sizzle.min.map" />
+    <Url
+      Source="Resources/Scripts/node_modules/jquery/src/.eslintrc.json" />
+    <Url
+      Source="Resources/Scripts/node_modules/jquery/src/ajax.js" />
+    <Url
+      Source="Resources/Scripts/node_modules/jquery/src/attributes.js" />
+    <Url
+      Source="Resources/Scripts/node_modules/jquery/src/callbacks.js" />
+    <Url
+      Source="Resources/Scripts/node_modules/jquery/src/core.js" />
+    <Url
+      Source="Resources/Scripts/node_modules/jquery/src/css.js" />
+    <Url
+      Source="Resources/Scripts/node_modules/jquery/src/data.js" />
+    <Url
+      Source="Resources/Scripts/node_modules/jquery/src/deferred.js" />
+    <Url
+      Source="Resources/Scripts/node_modules/jquery/src/deprecated.js" />
+    <Url
+      Source="Resources/Scripts/node_modules/jquery/src/dimensions.js" />
+    <Url
+      Source="Resources/Scripts/node_modules/jquery/src/effects.js" />
+    <Url
+      Source="Resources/Scripts/node_modules/jquery/src/event.js" />
+    <Url
+      Source="Resources/Scripts/node_modules/jquery/src/jquery.js" />
+    <Url
+      Source="Resources/Scripts/node_modules/jquery/src/manipulation.js" />
+    <Url
+      Source="Resources/Scripts/node_modules/jquery/src/offset.js" />
+    <Url
+      Source="Resources/Scripts/node_modules/jquery/src/queue.js" />
+    <Url
+      Source="Resources/Scripts/node_modules/jquery/src/selector-native.js" />
+    <Url
+      Source="Resources/Scripts/node_modules/jquery/src/selector-sizzle.js" />
+    <Url
+      Source="Resources/Scripts/node_modules/jquery/src/selector.js" />
+    <Url
+      Source="Resources/Scripts/node_modules/jquery/src/serialize.js" />
+    <Url
+      Source="Resources/Scripts/node_modules/jquery/src/traversing.js" />
+    <Url
+      Source="Resources/Scripts/node_modules/jquery/src/wrap.js" />
+    <Url
+      Source="Resources/Scripts/node_modules/jquery/src/ajax/jsonp.js" />
+    <Url
+      Source="Resources/Scripts/node_modules/jquery/src/ajax/load.js" />
+    <Url
+      Source="Resources/Scripts/node_modules/jquery/src/ajax/parseXML.js" />
+    <Url
+      Source="Resources/Scripts/node_modules/jquery/src/ajax/script.js" />
+    <Url
+      Source="Resources/Scripts/node_modules/jquery/src/ajax/xhr.js" />
+    <Url
+      Source="Resources/Scripts/node_modules/jquery/src/ajax/var/location.js" />
+    <Url
+      Source="Resources/Scripts/node_modules/jquery/src/ajax/var/nonce.js" />
+    <Url
+      Source="Resources/Scripts/node_modules/jquery/src/ajax/var/rquery.js" />
+    <Url
+      Source="Resources/Scripts/node_modules/jquery/src/attributes/attr.js" />
+    <Url
+      Source="Resources/Scripts/node_modules/jquery/src/attributes/classes.js" />
+    <Url
+      Source="Resources/Scripts/node_modules/jquery/src/attributes/prop.js" />
+    <Url
+      Source="Resources/Scripts/node_modules/jquery/src/attributes/support.js" />
+    <Url
+      Source="Resources/Scripts/node_modules/jquery/src/attributes/val.js" />
+    <Url
+      Source="Resources/Scripts/node_modules/jquery/src/core/access.js" />
+    <Url
+      Source="Resources/Scripts/node_modules/jquery/src/core/camelCase.js" />
+    <Url
+      Source="Resources/Scripts/node_modules/jquery/src/core/DOMEval.js" />
+    <Url
+      Source="Resources/Scripts/node_modules/jquery/src/core/init.js" />
+    <Url
+      Source="Resources/Scripts/node_modules/jquery/src/core/isAttached.js" />
+    <Url
+      Source="Resources/Scripts/node_modules/jquery/src/core/nodeName.js" />
+    <Url
+      Source="Resources/Scripts/node_modules/jquery/src/core/parseHTML.js" />
+    <Url
+      Source="Resources/Scripts/node_modules/jquery/src/core/ready-no-deferred.js" />
+    <Url
+      Source="Resources/Scripts/node_modules/jquery/src/core/ready.js" />
+    <Url
+      Source="Resources/Scripts/node_modules/jquery/src/core/readyException.js" />
+    <Url
+      Source="Resources/Scripts/node_modules/jquery/src/core/stripAndCollapse.js" />
+    <Url
+      Source="Resources/Scripts/node_modules/jquery/src/core/support.js" />
+    <Url
+      Source="Resources/Scripts/node_modules/jquery/src/core/toType.js" />
+    <Url
+      Source="Resources/Scripts/node_modules/jquery/src/core/var/rsingleTag.js" />
+    <Url
+      Source="Resources/Scripts/node_modules/jquery/src/css/addGetHookIf.js" />
+    <Url
+      Source="Resources/Scripts/node_modules/jquery/src/css/adjustCSS.js" />
+    <Url
+      Source="Resources/Scripts/node_modules/jquery/src/css/curCSS.js" />
+    <Url
+      Source="Resources/Scripts/node_modules/jquery/src/css/finalPropName.js" />
+    <Url
+      Source="Resources/Scripts/node_modules/jquery/src/css/hiddenVisibleSelectors.js" />
+    <Url
+      Source="Resources/Scripts/node_modules/jquery/src/css/showHide.js" />
+    <Url
+      Source="Resources/Scripts/node_modules/jquery/src/css/support.js" />
+    <Url
+      Source="Resources/Scripts/node_modules/jquery/src/css/var/cssExpand.js" />
+    <Url
+      Source="Resources/Scripts/node_modules/jquery/src/css/var/getStyles.js" />
+    <Url
+      Source="Resources/Scripts/node_modules/jquery/src/css/var/isHiddenWithinTree.js" />
+    <Url
+      Source="Resources/Scripts/node_modules/jquery/src/css/var/rboxStyle.js" />
+    <Url
+      Source="Resources/Scripts/node_modules/jquery/src/css/var/rnumnonpx.js" />
+    <Url
+      Source="Resources/Scripts/node_modules/jquery/src/css/var/swap.js" />
+    <Url
+      Source="Resources/Scripts/node_modules/jquery/src/data/Data.js" />
+    <Url
+      Source="Resources/Scripts/node_modules/jquery/src/data/var/acceptData.js" />
+    <Url
+      Source="Resources/Scripts/node_modules/jquery/src/data/var/dataPriv.js" />
+    <Url
+      Source="Resources/Scripts/node_modules/jquery/src/data/var/dataUser.js" />
+    <Url
+      Source="Resources/Scripts/node_modules/jquery/src/deferred/exceptionHook.js" />
+    <Url
+      Source="Resources/Scripts/node_modules/jquery/src/effects/animatedSelector.js" />
+    <Url
+      Source="Resources/Scripts/node_modules/jquery/src/effects/Tween.js" />
+    <Url
+      Source="Resources/Scripts/node_modules/jquery/src/event/ajax.js" />
+    <Url
+      Source="Resources/Scripts/node_modules/jquery/src/event/alias.js" />
+    <Url
+      Source="Resources/Scripts/node_modules/jquery/src/event/focusin.js" />
+    <Url
+      Source="Resources/Scripts/node_modules/jquery/src/event/support.js" />
+    <Url
+      Source="Resources/Scripts/node_modules/jquery/src/event/trigger.js" />
+    <Url
+      Source="Resources/Scripts/node_modules/jquery/src/exports/amd.js" />
+    <Url
+      Source="Resources/Scripts/node_modules/jquery/src/exports/global.js" />
+    <Url
+      Source="Resources/Scripts/node_modules/jquery/src/manipulation/buildFragment.js" />
+    <Url
+      Source="Resources/Scripts/node_modules/jquery/src/manipulation/getAll.js" />
+    <Url
+      Source="Resources/Scripts/node_modules/jquery/src/manipulation/setGlobalEval.js" />
+    <Url
+      Source="Resources/Scripts/node_modules/jquery/src/manipulation/support.js" />
+    <Url
+      Source="Resources/Scripts/node_modules/jquery/src/manipulation/wrapMap.js" />
+    <Url
+      Source="Resources/Scripts/node_modules/jquery/src/manipulation/_evalUrl.js" />
+    <Url
+      Source="Resources/Scripts/node_modules/jquery/src/manipulation/var/rscriptType.js" />
+    <Url
+      Source="Resources/Scripts/node_modules/jquery/src/manipulation/var/rtagName.js" />
+    <Url
+      Source="Resources/Scripts/node_modules/jquery/src/queue/delay.js" />
+    <Url
+      Source="Resources/Scripts/node_modules/jquery/src/traversing/findFilter.js" />
+    <Url
+      Source="Resources/Scripts/node_modules/jquery/src/traversing/var/dir.js" />
+    <Url
+      Source="Resources/Scripts/node_modules/jquery/src/traversing/var/rneedsContext.js" />
+    <Url
+      Source="Resources/Scripts/node_modules/jquery/src/traversing/var/siblings.js" />
+    <Url
+      Source="Resources/Scripts/node_modules/jquery/src/var/arr.js" />
+    <Url
+      Source="Resources/Scripts/node_modules/jquery/src/var/class2type.js" />
+    <Url
+      Source="Resources/Scripts/node_modules/jquery/src/var/concat.js" />
+    <Url
+      Source="Resources/Scripts/node_modules/jquery/src/var/document.js" />
+    <Url
+      Source="Resources/Scripts/node_modules/jquery/src/var/documentElement.js" />
+    <Url
+      Source="Resources/Scripts/node_modules/jquery/src/var/fnToString.js" />
+    <Url
+      Source="Resources/Scripts/node_modules/jquery/src/var/getProto.js" />
+    <Url
+      Source="Resources/Scripts/node_modules/jquery/src/var/hasOwn.js" />
+    <Url
+      Source="Resources/Scripts/node_modules/jquery/src/var/indexOf.js" />
+    <Url
+      Source="Resources/Scripts/node_modules/jquery/src/var/isFunction.js" />
+    <Url
+      Source="Resources/Scripts/node_modules/jquery/src/var/isWindow.js" />
+    <Url
+      Source="Resources/Scripts/node_modules/jquery/src/var/ObjectFunctionString.js" />
+    <Url
+      Source="Resources/Scripts/node_modules/jquery/src/var/pnum.js" />
+    <Url
+      Source="Resources/Scripts/node_modules/jquery/src/var/push.js" />
+    <Url
+      Source="Resources/Scripts/node_modules/jquery/src/var/rcheckableType.js" />
+    <Url
+      Source="Resources/Scripts/node_modules/jquery/src/var/rcssNum.js" />
+    <Url
+      Source="Resources/Scripts/node_modules/jquery/src/var/rnothtmlwhite.js" />
+    <Url
+      Source="Resources/Scripts/node_modules/jquery/src/var/slice.js" />
+    <Url
+      Source="Resources/Scripts/node_modules/jquery/src/var/support.js" />
+    <Url
+      Source="Resources/Scripts/node_modules/jquery/src/var/toString.js" />
+    <Url
+      Source="Resources/Snippets/CopyrightFooter.flsnp" />
+    <Url
+      Source="Resources/Snippets/WhenRequestNewProductLic.flsnp" />
+    <Url
+      Source="Resources/Stylesheets/default.css" />
+    <Url
+      Source="Resources/Stylesheets/listnav.css" />
+    <Url
+      Source="Resources/Stylesheets/newDefault.css" />
+    <Url
+      Source="Resources/Stylesheets/Styles.css" />
+    <Url
+      Source="Resources/TableStyles/Alternate-Row-Color.css" />
+    <Url
+      Source="Resources/TableStylesheets/fielddescription.css" />
+    <Url
+      Source="Resources/TableStylesheets/masterpagetable.css" />
+    <Url
+      Source="Resources/TableStylesheets/threecolumn.css" />
+    <Url
+      Source="SKTDocStandards/IGCDocStandards_BrandCollateral.htm" />
+    <Url
+      Source="SKTDocStandards/IGCDocStandards_bugFixes.html" />
+    <Url
+      Source="SKTDocStandards/IGCDocStandards_enhancements.html" />
+    <Url
+      Source="SKTDocStandards/IGCDocStandards_genWritingStyle.html" />
+    <Url
+      Source="SKTDocStandards/IGCDocStandards_gifs.html" />
+    <Url
+      Source="SKTDocStandards/IGCDocStandards_notifications.html" />
+    <Url
+      Source="SKTDocStandards/IGCDocStandards_screenShots.html" />
+    <Url
+      Source="SKTDocStandards/IGCDocStandards_styles.html" />
+    <Url
+      Source="SKTDocStandards/IGCDocStandards_styleToneLong.html" />
+    <Url
+      Source="SKTDocStandards/IGCDocStandards_styleToneShort.html" />
+    <Url
+      Source="SKTDocStandards/IGCDocStandards_uiTerms.html" />
+    <Url
+      Source="SKTDocStandards/IGCDocStandards_useCase.html" />
+    <Url
+      Source="SKTDocStandards/IGCDocStandards_video.html" />
+    <Url
+      Source="SKTDocStandards/IGCDocStandards_welcome.html" />
+    <Url
+      Source="SKTDocStandards/IGCDocStandards_wordChoice.html" />
+    <Url
+      Source="SSTDocStandards/BOADocStandards_CompNamesTerms.html" />
+    <Url
+      Source="SSTDocStandards/BOADocStandards_DashGuidelines.html" />
+    <Url
+      Source="SSTDocStandards/BOADocStandards_DocStructure.html" />
+    <Url
+      Source="SSTDocStandards/BOADocStandards_FDGuidelines.html" />
+    <Url
+      Source="SSTDocStandards/BOADocStandards_Graphics.html" />
+    <Url
+      Source="SSTDocStandards/BOADocStandards_GuidelinesTerms.html" />
+    <Url
+      Source="SSTDocStandards/BOADocStandards_KBGenGuidelines.html" />
+    <Url
+      Source="SSTDocStandards/BOADocStandards_OnlineGenGuidelines.html" />
+    <Url
+      Source="SSTDocStandards/BOADocStandards_Overview.html" />
+    <Url
+      Source="SSTDocStandards/BOADocStandards_PDOverview.html" />
+    <Url
+      Source="SSTDocStandards/BOADocStandards_PrintStyles.html" />
+    <Url
+      Source="SSTDocStandards/BOADocStandards_ScreenCaptions.html" />
+    <Url
+      Source="SSTDocStandards/BOADocStandards_UCGuidelines.html" />
+    <Url
+      Source="SSTDocStandards/BOADocStandards_UITerms.html" />
+    <Url
+      Source="SSTDocStandards/BOADocStandards_UsageDictionary.html" />
+  </SourceUrls>
+  <UsedUrls />
+  <UsedConceptControlUrls />
+</CatapultGlobalConceptSet>

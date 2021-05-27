@@ -4,8 +4,32 @@
   OnlyLocalStylesheets="false"
   FileTimeEstimate="0"
   FilePriority="0">
-  <Links />
-  <LongLinks />
+  <Links>
+    <Link
+      Url="Content/Resources/MasterPages/DocProcess.flmsp" />
+    <Link
+      Url="Content/Resources/Stylesheets/newDefault.css" />
+    <Link
+      Url="Content/DocProcess/" />
+  </Links>
+  <LongLinks>
+    <Link
+      Url="Content/Resources/MasterPages/DocProcess.flmsp" />
+    <Link
+      Url="Content/Resources/Stylesheets/newDefault.css" />
+    <Link
+      Url="Content/DocProcess#synchronize-your-release-branch-with-the-backofficeassoc-github-repo" />
+    <Link
+      Url="Content/DocProcess#create-a-branch-for-your-updates-based-on-the-release-branch" />
+    <Link
+      Url="Content/DocProcess#commitlocally" />
+    <Link
+      Url="Content/DocProcess#open-a-pull-request-for-a-peer-reviewer-to-review-your-work" />
+    <Link
+      Url="Content/DocProcess#resolving-metadata-merge-conflicts-in-github" />
+    <Link
+      Url="Content/DocProcess#review-pm-reviews-and-approves-documentation" />
+  </LongLinks>
   <Anchors />
   <Keywords />
   <Concepts />

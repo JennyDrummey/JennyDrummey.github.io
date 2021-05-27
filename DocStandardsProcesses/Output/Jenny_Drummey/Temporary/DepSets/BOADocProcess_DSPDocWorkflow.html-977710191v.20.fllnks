@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileLinkSet
+  FileSearchable="true"
+  OnlyLocalStylesheets="false"
+  FileTimeEstimate="0"
+  FilePriority="0">
+  <Links>
+    <Link
+      Url="Resources/MasterPages/DocProcess.flmsp" />
+    <Link
+      Url="Resources/Stylesheets/newDefault.css" />
+    <Link
+      Url="Content/" />
+  </Links>
+  <LongLinks>
+    <Link
+      Url="Resources/MasterPages/DocProcess.flmsp" />
+    <Link
+      Url="Resources/Stylesheets/newDefault.css" />
+    <Link
+      Url="Content#synchronize-your-release-branch-with-the-backofficeassoc-github-repo" />
+    <Link
+      Url="Content#create-a-branch-for-your-updates-based-on-the-release-branch" />
+    <Link
+      Url="Content#commitlocally" />
+    <Link
+      Url="Content#open-a-pull-request-for-a-peer-reviewer-to-review-your-work" />
+    <Link
+      Url="Content#resolving-metadata-merge-conflicts-in-github" />
+    <Link
+      Url="Content#review-pm-reviews-and-approves-documentation" />
+  </LongLinks>
+  <Anchors />
+  <Keywords />
+  <Concepts />
+  <ConceptControlNames />
+  <IndexControlNames />
+  <Variables />
+  <FileConditions />
+  <FileTags />
+  <AllConditions />
+  <Stylesheets />
+</CatapultFileLinkSet>

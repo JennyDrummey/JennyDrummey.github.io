@@ -24,7 +24,6 @@
         <link href="../../Skins/Fluid/Stylesheets/Styles.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
         <link href="../../Skins/Fluid/Stylesheets/Tablet.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
         <link href="../../Skins/Fluid/Stylesheets/Mobile.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
-        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css" />
         <link href="../Resources/Stylesheets/newDefault.css" rel="stylesheet" type="text/css" />
         <style>/*&lt;meta /&gt;*/
 
@@ -44,7 +43,6 @@
 }
 
 </style>
-        <link href="../Resources/Stylesheets/Styles.css" rel="stylesheet" type="text/css" />
         <link rel="apple-touch-icon" sizes="180x180" href="../../Skins/Favicons/apple-touch-icon.png" />
         <link rel="shortcut icon" href="../../Skins/Favicons/favicon-32x32.png" />
         <link rel="icon" sizes="96x96" href="../../Skins/Favicons/favicon-96x96.png" />
@@ -202,10 +200,10 @@
                                                     <p>Complete the following tasks in Flare prior to generating Help for a product release.</p>
                                                     <ol>
                                                         <li value="1">
-                                                            <p>On the Analysis tab, click the Links group and select Broken Bookmarks, and resolve any bookmark issues. Then select Broken Links and resolve any hyperlink issues.</p>
+                                                            <p>On the <b>Analysis</b> tab, click the <b>Links</b> group and select <b>Broken Bookmarks</b>, and resolve any bookmark issues. Then select <b>Broken Links</b> and resolve any hyperlink issues.</p>
                                                         </li>
                                                     </ol>
-                                                    <p>Note: Flare scans the database for issues during this task and displays text that says Scanning while doing so. Ensure the scan is complete before preceding to the next step. When the scan is complete, the message found no entries displays.</p>
+                                                    <p class="note"><b>NOTE</b>: Flare scans the database for issues during this task and displays text that says Scanning while doing so. Ensure the scan is complete before preceding to the next step. When the scan is complete, the message found no entries displays.</p>
                                                     <ol data-mc-continue="true">
                                                         <li value="2">
                                                             <p>To verify that all topics have need Condition Tags have them applied, do the following:</p>
@@ -213,7 +211,7 @@
                                                     </ol>
                                                     <ul>
                                                         <li>
-                                                            <p>On the View tab, in the Explorer group, select File List. Sort the file list on the second column with colored squares, which indicate a CT has been applied to that topic. For those uncolored squares (those topics that do not have a CT applied, evaluate if the page needs a CT applied. Only .htm files need master pages applied.</p>
+                                                            <p>On the <b>View</b> tab, in the Explorer group, select <b>File List</b>. Sort the file list on the second column with colored squares, which indicate a CT has been applied to that topic. For those uncolored squares (those topics that do not have a CT applied, evaluate if the page needs a CT applied. Only .htm files need master pages applied.</p>
                                                         </li>
                                                     </ul>
                                                     <ol data-mc-continue="true">
@@ -226,7 +224,7 @@
                                                             <p>Open the Project Organizer pod.</p>
                                                         </li>
                                                         <li>
-                                                            <p>In the Advanced folder, open the alias file.</p>
+                                                            <p>In the <b>Advanced</b> folder, open the alias file.</p>
                                                         </li>
                                                         <li>
                                                             <p>If a warning message displays, navigate to the issue in the alias file and resolve it.</p>
@@ -238,8 +236,8 @@
                                                         <img src="../Resources/Images/unlinkedTopicsTOC.png" />
                                                     </p>
                                                     <p>Unlinked topics icon in Flare</p>
-                                                    <p>Note: The popup topics and the What’s New topics for previous releases are always going to be on this report but do not need to be added to the TOC.</p>
-                                                    <p>Note: The report engine topics are being researched in DSP-4753 and are not an issue when generating the Help.</p>
+                                                    <p class="note"><b>NOTE</b>: The popup topics and the What’s New topics for previous releases are always going to be on this report but do not need to be added to the TOC.</p>
+                                                    <p class="note"><b>NOTE</b>: The report engine topics are being researched in DSP-4753 and are not an issue when generating the Help.</p>
                                                     <h2>Review the Generated Help System</h2>
                                                     <p>Once Help is generated for a release, complete the following checks in the online Help system.</p>
                                                     <ol>
@@ -276,19 +274,19 @@
                                                     <p>To update the index.htm page:</p>
                                                     <ol>
                                                         <li value="1">
-                                                            <p>Open the DSPLandingPage folder in the Root of the dsp-docs directory.</p>
+                                                            <p>Open the <b>DSPLandingPage</b> folder in the Root of the dsp-docs directory.</p>
                                                         </li>
                                                         <li value="2">
-                                                            <p>Open index.html in a text editor like VS Code or Atom.</p>
+                                                            <p>Open <b>index.html</b> in a text editor like VS Code or Atom.</p>
                                                         </li>
                                                         <li value="3">
-                                                            <p>Around lines 68 and 86, you will see the general links to the What’s New page and the Help. Add links to the new release in the same format as the prior release.</p>
+                                                            <p>Around lines 68 and 86, you will see the general links to the What’s New page and the Help. Add links to the new release in the same format as the prior release. Test the link once it has been added to the file to ensure it works.</p>
                                                         </li>
                                                         <li value="4">
-                                                            <p>Around lines 111 and 130, you will see the solex links to the What’s New page and the Help. Add links to the new release in the same format as the prior release.</p>
+                                                            <p>Around lines 111 and 130, you will see the solex links to the What’s New page and the Help. Add links to the new release in the same format as the prior release. Test the link once it has been added to the file to ensure it works.</p>
+                                                            <p class="note"><b>NOTE</b>: Not every release is sent to SAP. There are releases of Syniti help without corresponding SAP help releases.</p>
                                                         </li>
                                                     </ol>
-                                                    <p>Note: Not every release is sent to SAP. There are releases of Syniti help without corresponding SAP help releases.</p>
                                                     <ol data-mc-continue="true">
                                                         <li value="5">
                                                             <p>Build the help targets in Flare.</p>

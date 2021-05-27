@@ -22,7 +22,12 @@
     <Link
       Url="Content/DocProcess/BOADocProcess_BuildHelpTargets.html" />
   </LongLinks>
-  <Anchors />
+  <Anchors>
+    <Anchor
+      Name="top" />
+    <Anchor
+      Name="Update" />
+  </Anchors>
   <Keywords />
   <Concepts />
   <ConceptControlNames />
