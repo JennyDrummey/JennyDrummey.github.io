@@ -53,6 +53,9 @@
     <TocEntry
       Title="Usage Distionary"
       Link="/Content/SSTDocStandards/BOADocStandards_UsageDictionary.html"></TocEntry>
+    <TocEntry
+      Title="Product Names"
+      Link="/Content/SKTDocStandards/ProductNames.htm" />
   </TocEntry>
   <TocEntry
     Title="Multimedia">

@@ -55,9 +55,9 @@
           <Property
             Name="FontFamily">'Roboto', Helvetica, Arial, sans-serif</Property>
           <Property
-            Name="PaddingRight">5px</Property>
-          <Property
             Name="PaddingLeft">350px</Property>
+          <Property
+            Name="PaddingRight">5px</Property>
         </Properties>
         <Classes>
           <StyleClass

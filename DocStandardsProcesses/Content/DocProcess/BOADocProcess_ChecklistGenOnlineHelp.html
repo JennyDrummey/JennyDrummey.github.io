@@ -14,36 +14,36 @@
             </li>
         </ul>
         <p>Prerequisites: You will need a log in to Jenkins and access to the appropriate development Slack channel. </p>
-        <p><b>NOTE: </b>Refer to <a href="https://jenkins.io/doc/pipeline/tour/getting-started/">Jenkin’s online resources</a> to learn more.</p>
+        <p class="note"><b>NOTE: </b>Refer to <a href="https://jenkins.io/doc/pipeline/tour/getting-started/">Jenkin’s online resources</a> to learn more.</p>
         <p>Add yourself to the Slack channel for the latest development cycle. For example, the Slack channel for DSP 7.0.7 is #707dev.</p>
-        <p><b>NOTE:</b> When Jenkins runs the QE tests, results are posted to this channel.</p>
+        <p class="note"><b>NOTE:</b> When Jenkins runs the QE tests, results are posted to this channel.</p>
         <p>To check the latest build for development changes:</p>
         <ol>
             <li>
                 <p>Navigate to the #nnndev channel in Slack where "nnn" is the release version. </p>
+                <p>
+                    <img src="../Resources/Images/CheckBuild1.png" />
+                </p>
             </li>
         </ol>
-        <p>
-            <img src="../Resources/Images/CheckBuild1.png" />
-        </p>
         <ol MadCap:continue="true">
             <li>
                 <p>Locate the most recent automated test results in the channel. The title in Slack is RunBuild Test; the Cucumber report opens.</p>
+                <p class="note"><b>NOTE:</b> Do not click the link with ‘BuildOnly’ in the title.</p>
+                <p class="note"><b>NOTE:</b> Jenkins publishes two different kinds of notes to the Dev channel. Make sure to click the link after Test results can be found at:. You may have to log in to Jenkins before proceeding.</p>
             </li>
         </ol>
-        <p><b>NOTE:</b> Do not click the link with ‘BuildOnly’ in the title.</p>
-        <p class="note"><b>NOTE:</b> Jenkins publishes two different kinds of notes to the Dev channel. Make sure to click the link after Test results can be found at:. You may have to log in to Jenkins before proceeding.</p>
         <ol MadCap:continue="true">
             <li>
                 <p>Note the Jenkins build date</p>
+                <p>
+                    <img src="../Resources/Images/CheckBuild2.png" />
+                </p>
             </li>
         </ol>
-        <p>
-            <img src="../Resources/Images/CheckBuild2.png" />
-        </p>
         <ol MadCap:continue="true">
             <li>
-                <p>Open the Jira ticket that documents the change you are trying to view in the DSP.</p>
+                <p>Open the Jira ticket that documents the change you are trying to view in the SST.</p>
             </li>
             <li>
                 <p>Open the GitHub pull request link listed in the GITHUB DEV PR field.</p>
@@ -57,11 +57,11 @@
         <ol MadCap:continue="true">
             <li>
                 <p>Note the date of the latest merge. Hover over the time frame to see the date details.</p>
+                <p>
+                    <img src="../Resources/Images/CheckBuild3.png" />
+                </p>
             </li>
         </ol>
-        <p>
-            <img src="../Resources/Images/CheckBuild3.png" />
-        </p>
         <p style="text-indent: 0.5in;">a. If the latest merge date is after the Jenkins test build, the changes are not in development. Check the Dev Slack channel in a day or so for the latest build.</p>
         <p style="text-indent: 0.5in;">b. If the latest merge date is before the Jenkins test build, the changes are in development. Proceed to the next step in this process.</p>
         <ol MadCap:continue="true">
@@ -70,9 +70,9 @@
             </li>
             <li>
                 <p>Log in to the app site using credentials supplied by QE.</p>
+                <p class="note"><b>NOTE:</b> Depending on your settings, the administrator login credentials may be saved. Click inside the username field. If the administrator user name displays, click it and the password field automatically populates.</p>
             </li>
         </ol>
-        <p class="note"><b>NOTE:</b> Depending on your settings, the administrator login credentials may be saved. Click inside the username field. If the administrator user name displays, click it and the password field automatically populates.</p>
         <ol MadCap:continue="true">
             <li>
                 <p>View changes outlined in the Jira ticket description.</p>
@@ -115,23 +115,18 @@
             <li>
                 <p>Click <b>Build</b>. The online help for the development site builds. View the progress in the Build History window.</p>
             </li>
-        </ol>
-        <ol MadCap:continue="true">
+            <p>
+                <img src="../Resources/Images/DocChanges4.png" />
+            </p>
             <li>
                 <p>Navigate to the Dev channel in Slack once the build completes.</p>
             </li>
-        </ol>
-        <p><b>NOTE:</b> Refer to Prerequisites on how to gain access to the #nnndev channel in Slack.</p>
-        <p>
-            <img src="../Resources/Images/DocChanges4.png" />
-        </p>
-        <ol MadCap:continue="true">
             <li>
                 <p>Click the most recent Jenkins test result link with BuildDeployTest in the title to view the latest build; the Cucumber report displays.</p>
-            </li>
-        </ol>
-        <p><b>NOTE:</b> Do not click the link with BuildOnly in the title.</p>
-        <p><b>NOTE: </b>Jenkins publishes two different kinds of notes to the Dev channel. You may have to log into Jenkins before proceeding.</p>
+            
+        <p class="note"><b>NOTE:</b> Do not click the link with BuildOnly in the title.</p>
+			<p class="note"><b>NOTE: </b>Jenkins publishes two different kinds of notes to the Dev channel. You may have to log into Jenkins before proceeding.</p></li>
+		</ol>
         <ol MadCap:continue="true">
             <li>
                 <p>Log in to the Stewardship Tier and view the online help.</p>

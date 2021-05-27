@@ -29,7 +29,7 @@
             <li style="font-style: italic;">SAP Accelerators by Syniti Software Requirements and Hardware Sizing Guide (always updated)</li>
         </ul>
         <h4 id="sap-advanced-data-migration-by-syniti-cloud-edition">SAP Advanced Data Migration by Syniti, cloud edition</h4>
-        <p>NOTE: The most recent PQ did not require us to produce these manuals. We may have to do so n the future. Formerly the Cloud SKU, this item has passed the PQ Process and is on the price list as of November 2019. Cloud edition users will always be new installs, and on prem users will not update to cloud. We do not need to provide the security migration documents prepared for the 7.1 release for this product.</p>
+        <p class="note"><b>NOTE</b>: The most recent PQ did not require us to produce these manuals. We may have to do so n the future. Formerly the Cloud SKU, this item has passed the PQ Process and is on the price list as of November 2019. Cloud edition users will always be new installs, and on prem users will not update to cloud. We do not need to provide the security migration documents prepared for the 7.1 release for this product.</p>
         <ul>
             <li style="font-style: italic;">SAP Advanced Data Migration by Syniti, cloud edition Configuration Guide</li>
             <li style="font-style: italic;">SAP Advanced Data Migration by Syniti, cloud edition Implementation Quick Start Guide</li>
@@ -37,7 +37,6 @@
             <li style="font-style: italic;">SAP Advanced Data Migration by Syniti, cloud edition Security and Data Privacy</li>
             <li style="font-style: italic;">SAP Advanced Data Migration by Syniti, cloud edition Software Requirements and Hardware Sizing Guide</li>
         </ul>
-        <p>The doc team also creates a secured pdf of the release notes for each release. For instructions on updating release notes, refer to <a href="BOADocProcess_PrepareWhatsNew.html">Prepare What’s New topic</a> and <a href="BOADocProcess_PrepareReleaseNotes.html">Prepare Release Notes</a>.</p>
         <h3 id="sources-of-content">Sources of Content</h3>
         <p>Changes to the Installation Manuals are tracked in Jira. Sources of changes include:  </p>
         <ul>
@@ -51,61 +50,82 @@
                 <p>Support emails</p>
             </li>
         </ul>
-        <h3 id="organization-of-the-installmanuals-flare-project">Organization of the InstallManuals Flare Project</h3>
+        <h3 id="organization-of-the-installmanuals-flare-project">Organization of the Install Manuals Flare Project</h3>
         <p>The project is organized by manual. Several sections are used across multiple manuals, with conditional tags applied. </p>
         <p>The Version History topic (Appendix A for the Installation Manual and the SRHS Guide) is updated for each manual with all updates made to the manual in the release. Appendix A is not delivered with the final system, it is used so that the documentation team can track changes for each version. The most recent entry is at the top.</p>
         <h3 id="update-the-installation-manuals">Update the Installation Manuals</h3>
         <p>The following steps describe the collaboration, review, approval and final formatting process to get the Installation Manuals ready to publish for each software release.</p>
         <p>Members of the Documentation Team take turns updating the Manuals for each release.</p>
         <p>Follow these steps to update the install manuals: </p>
-        <p>1. <a href="#Synchronize_your_master_branch_with_the_BackOfficeAssoc_GitHub_Repo">The Tech Writer synchronizes their local master branch with the BackOfficeAssoc dsp-install-manuals master branch</a>. NOTE: If you do not have a local copy of the install manuals on your laptop, see <a href="#Clone_the_dsp-install-manuals_repo">Clone the dsp-install-manuals repo</a>.</p>
-        <p>2. <a href="#Create_a_branch_for_your_updates_based_on_the_master_branch">The TW creates a new Staging branch based on the Master branch in the dsp-install-manuals repo</a>. </p>
-        <p>3. <a href="#Create_a_Release_Folder_on_SharePoint">The TW creates a release folder on SharePoint in the Published folder for the current release, creates new Word docs for review with the updated version number in the file titles</a>. NOTE: Ensure Track Changes is turned on for this version so that reviewers can find updates easily. The TW will include a link to this folder in the next step when they create the Jira ticket.</p>
-        <p>4. <a href="#Create_a_JIRA_Ticket_for_the_Manuals">The TW creates a Jira ticket in the DSP70 project for updating the manuals for this release</a>. </p>
-        <p>5. <a href="#nk_Tickets_Related_to_Manuals_to_JIRA_Epic">The TW links all tickets that describe updates to manuals to this ticket to track the updates</a>. </p>
-        <p>6. The TW and contributors review and update the manuals in Sharepoint in the Published folder and Flare as needed. If major changes have been made to the Installation Manuals, Support will test these steps. </p>
-        <p>7. Once the collaboration is complete and the content is final, the approver sets the <strong>Documentation Status</strong> field to of the installation manual Jira issue to <strong>Approved</strong>. </p>
-        <p>8. The TW makes the changes in the Stangingnnn branch of the Flare project. Refer to <a href="BOADocProcess_UpdateOnlineHelp.html">Update Online Help</a> for more information. After all changes are made, the TW builds the project in the dev environment in Jenkins.</p>
-        <p>9. The TW sets the <strong>Documentation Status</strong> field of the installation manual Jira issue to <strong>Peer Review</strong> and requests a peer review from another tech writer on the team in the doc_checkouts Slack channel. </p>
-        <p> 10. After peer review is complete, if needed,the Author updates the Falre project and builds the install manuals Flare project in dev/prod. </p>
-        <p> 11.  The TW sends notification that the final manuals are ready to Support with a link to the production version  and then closes the Jira ticket. </p>
-        <p>IMPORTANT: The master branch must be updated with the latest changes at the close of each release, and a new Staging branch must be created at the beginning of every release cycle from the master branch by the Tech Writer who is handling the manuals that release cycle. Sometimes customers need manuals specific to the version of SST that they are running, so the Staging branches must not be updated or deleted once they have been merged into the master branch.</p>
+        <ol>
+            <li>
+                <p><a href="#Synchronize_your_master_branch_with_the_BackOfficeAssoc_GitHub_Repo">The Tech Writer synchronizes their local current releases branch with the BackOfficeAssoc dsp-install-manuals branch</a>. </p>
+                <p class="note"><b>NOTE</b>: If you do not have a local copy of the install manuals on your laptop, see <a href="#Clone_the_dsp-install-manuals_repo">Clone the dsp-install-manual</a></p>
+            </li>
+            <li>
+                <p>
+                    <p><a href="#Create_a_branch_for_your_updates_based_on_the_master_branch">The TW creates a new Staging branch based on the latest Staging branch in the dsp-install-manuals repo</a>. </p>
+                </p>
+            </li>
+            <li>
+                <p><a href="#Create_a_Release_Folder_on_SharePoint">The TW creates a release folder on SharePoint in the Published folder for the current release, creates new Word docs for review with the updated version number in the file titles</a>. </p>
+                <p class="note"><b>NOTE</b>: Ensure Track Changes is turned on for this version so that reviewers can find updates easily. The TW will include a link to this folder in the next step when they create the Jira ticket.</p>
+            </li>
+            <li>
+                <p><a href="#Create_a_JIRA_Ticket_for_the_Manuals">The TW creates a Jira ticket in the DSP70 project for updating the manuals for this release</a>. </p>
+            </li>
+            <li>
+                <p><a href="#nk_Tickets_Related_to_Manuals_to_JIRA_Epic">The TW links all tickets that describe updates to manuals to this ticket to track the updates</a>. </p>
+            </li>
+            <li>
+                <p>The TW and contributors review and update the manuals in Sharepoint in the Published folder and Flare as needed. If major changes have been made to the Installation Manuals, Support will test these steps. </p>
+            </li>
+            <li>
+                <p>Once the collaboration is complete and the content is final, the approver sets the <strong>Documentation Status</strong> field to of the installation manual Jira issue to <strong>Approved</strong>. </p>
+            </li>
+            <li>
+                <p>The TW makes the changes in the Stangingnnn branch of the Flare project. Refer to <a href="BOADocProcess_UpdateOnlineHelp.html">Update Online Help</a> for more information. After all changes are made, the TW <a href="BOADocProcess_Update_Help_on_Dev_and_Prod_Sites.html#Update">builds the project</a> in the dev environment in Jenkins.</p>
+            </li>
+            <li>
+                <p>The TW sets the <strong>Documentation Status</strong> field of the installation manual Jira issue to <strong>Peer Review</strong> and requests a peer review from another tech writer on the team in the doc_checkouts Slack channel. </p>
+            </li>
+            <li>
+                <p> After peer review is complete, if needed ,the Author updates the Falre project and builds the install manuals Flare project in dev/prod. </p>
+            </li>
+            <li>
+                <p> The TW sends notification that the final manuals are ready to Support with a link to the production version  and then closes the Jira ticket. </p>
+            </li>
+        </ol>
         <h3 id="clone-the-dsp-install-manuals-repo"><a name="Clone_the_dsp-install-manuals_repo"></a>Clone the dsp-install-manuals repo</h3>
-        <p>To clone the dsp-install-manuals repo, follow the instructions <a href="BOADocProcess_GitInitSetup.html#Clone_BackOffice/dsp-docs_repo_to_local">here</a>, but all Staging branches should be based on the <strong>Master</strong> branch from this repo.</p>
+        <p>To clone the dsp-install-manuals repo, follow the instructions <a href="BOADocProcess_GitInitSetup.html#Clone_BackOffice/dsp-docs_repo_to_local">here</a>.</p>
         <h3 id="synchronize-your-master-branch-with-the-backofficeassoc-github-repo"><a name="Synchronize_your_master_branch_with_the_BackOfficeAssoc_GitHub_Repo"></a>Synchronize your master branch with the BackOfficeAssoc GitHub Repo</h3>
-        <p>WARNING: You <strong>MUST</strong> perform these steps each time you checkout a branch to ensure you are working in the latest copy of the master branch.</p>
+        <p class="note"><b>NOTE</b>: You <strong>MUST</strong> perform these steps each time you checkout a branch to ensure you are working in the latest copy of the master branch.</p>
         <ol type="1">
-            <li>In Windows-Explorer, right-click on your dsp-install-manuals local folder and select <strong>Git Bash Here</strong>.</li>
+            <li>In Windows-Explorer, right-click your <b>dsp-install-manuals</b> local folder and select <strong>Git Bash Here</strong>.
+        <p><img src="../Resources/Images/gitBashHere.png" /></p><p class="note"><b>NOTE</b>: If you do not have a local dsp-install-manuals repo, see <a href="#clone-the-dsp-install-manuals-repo">Clone the dsp-install-manuals repo</a> for instructions.</p></li>
         </ol>
-        <p>
-            <img src="../Resources/Images/gitBashHere.png" />
-        </p>
-        <p>NOTE: If you do not have a local dsp-install-manuals repo, see <a href="#clone-the-dsp-install-manuals-repo">Clone the dsp-install-manuals repo</a> for instructions.</p>
         <ol type="1" MadCap:continue="true">
-            <li>Switch to the master branch.
-<div class="alert alert-info" data-markdown="span" role="alert"> <b>Note:</b> The git command to switch to the master branch is <code class="highlighter-rouge">git checkout master</code>.
-</div></li>
-            <li>Enter the git command, <code>git pull origin master</code> TIP: If at this point you wish to see a list of branches that are available in your local repo, enter the command <code>git branch</code>. All of the available local branches are listed.</li>
-        </ol>
-        <h3 id="create-a-branch-for-your-updates-based-on-the-master-branch"><a name="Create_a_branch_for_your_updates_based_on_the_master_branch"></a>Create a branch for your updates based on the master branch</h3>
-        <ol type="1">
-            <li>Navigate to the master branch in Git Bash if you are not already in it. IMPORTANT: Make sure you synchronize your Master branch before completing step 2.</li>
-            <li>Enter the command <code>git checkout -b &lt;new branch name&gt;</code> NOTE: Name the branch after the release number. Use the naming convention StagingNNN (NNN is the release number).</li>
+            <li>Switch to the Stagingnnn branch where nnn is the latest release, by entering <code class="highlighter-rouge">g<b>it checkout Stagingnnn</b></code>.
+</li>
+            <li>Enter the git command, <code style="font-weight: bold;">git pull origin Stagingnnn</code> </li>
+            <li>Enter the command <code style="font-weight: bold;">git checkout -b &lt;Stagingyyy where yyy is the new SST version name&gt;</code> </li>
             <li>Open the project in Flare and update the DSPVersion variable to the current release version.</li>
-            <li>Enter the command <code>git add .</code>.</li>
-            <li>Enter the command <code>git commit -m " &lt;commit message&gt;"</code>.</li>
-            <li>Enter the command <code>git push origin &lt;new branch name&gt;</code>.</li>
+            <li>Save and close Flare, and return to the git bash window.</li>
+            <li>Enter the command <code style="font-weight: bold;">git add .</code>.</li>
+            <li>Enter the command <code style="font-weight: bold;">git commit -m "&lt;your commit message&gt;"</code>.</li>
+            <li>Enter the command <code style="font-weight: bold;">git push origin &lt;new branch name&gt;</code>.</li>
         </ol>
         <h3 id="create-a-release-folder-on-sharepoint"><a name="Create_a_Release_Folder_on_SharePoint"></a>Create a Release Folder on SharePoint</h3>
         <ol type="1">
-            <li>Navigate to the <strong>Product Documentation &gt; Published</strong> folder.</li>
+            <li>Navigate to the <strong>Product Documentation &gt; Published</strong> folder located <a href="https://boaweb.sharepoint.com/sites/ProductDocumentation/Shared Documents/Forms/AllItems.aspx?id=%2Fsites%2FProductDocumentation%2FShared%20Documents%2FProduct%20Documentation%2FPublished" target="_blank">here</a>.</li>
             <li>Click <strong>+New</strong> and select <strong>Folder</strong>.</li>
             <li>Enter the release number into the <strong>Folder Name</strong> field.</li>
             <li>Click <strong>Create</strong>.</li>
             <li>Open the prior version folder and select the Word files of the different manuals.</li>
             <li>Click <strong>Copy to</strong> and select the new release folder you just created.</li>
             <li>Update the titles of the manuals to reflect the new release number.</li>
-            <li>Open the new manuals and accept all changes made in the previous versions. NOTE:&#160;You caould also create a new version of the Word document for any of the guides in Flare. Set the correct TOC for hte print version (the one in the archive) folder and the Word targets will still work).</li>
+            <li>Open the new manuals and accept all changes made in the previous versions. </li>
+            <p class="note"><b>NOTE</b>:&#160;You could also create a new version of the Word document for any of the guides in Flare. Set the correct TOC for the print version (the one in the archive folder) and the Word targets will still work).</p>
             <li>Ensure Track Changes is on in the Word document to record updates.</li>
         </ol>
         <h3 id="create-a-jira-ticket-for-the-manuals"><a name="Create_a_JIRA_Ticket_for_the_Manuals"></a>Create a JIRA Ticket for the Manuals</h3>
@@ -125,9 +145,7 @@
         <h3 id="make-updates-in-flare">Make Updates in Flare</h3>
         <p>After the manual content is reviewed and finalized make  updates in Flare. Follow the instructions in the topics <a href="BOADocProcess_Workflow_InProcess.html">Work Flow In Process</a> and <a href="BOADocProcess_UpdateOnlineHelp.html">Update Online Help</a>.</p>
         <p>Document all updates in the <strong>Version History - Install</strong> and the <strong>Version History - SRHS</strong> topics (located in the Content folder). While these topics are no longer included in the final manuals, we track our changes for internal purposes.</p>
-        <p>NOTE: Do NOT merge changes into the <strong>master</strong> branch without having another writer review the Pull Request.</p>
         <h3 id="update-the-targets-for-the-manuals">Update the Targets for the Manuals</h3>
-        <p>UPDATE THESE TARGET NAMES ONCE THEY ARE FINALIZED.</p>
         <table>
             <thead>
                 <tr class="header">

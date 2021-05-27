@@ -24,7 +24,6 @@
         <link href="../../Skins/Fluid/Stylesheets/Styles.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
         <link href="../../Skins/Fluid/Stylesheets/Tablet.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
         <link href="../../Skins/Fluid/Stylesheets/Mobile.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
-        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css" />
         <link href="../Resources/Stylesheets/newDefault.css" rel="stylesheet" type="text/css" />
         <style>/*&lt;meta /&gt;*/
 
@@ -196,133 +195,143 @@
                                                 <br />
                                                 <div role="main" id="mc-main-content">
                                                     <h1>Workflow - Approved</h1>
-                                                    <p>Note: All Documentation Team members belong to the doc_checkouts Slack channel, where we post information about what is being worked on and what needs review. Use the @doc command for feedback, calls for help on peer review  or anything else.</p>
-                                                    <p>Authors work in Flare on a group of tickets at a time or a chunk of content at a time. You can decide how to group them. You may want to add all content for an Epic, or all of your assigned tickets for a release. It’s up to you.</p>
-                                                    <p>Authors are responsible for producing Author Notes for the content.</p>
-                                                    <p>Authors are responsible for content getting to the dev environment for testing for the Peer Review.</p>
+                                                    <p>Content should be approved by PM/Dev/Product before it's added to any of the projects.</p>
+                                                    <p class="note"><b>NOTE: </b>All Documentation Team members belong to the doc_checkouts Slack channel, where we post information about what is being worked on and what needs review. Use the @doc command to notify the team that you are checking out a branch and to request a peer review. </p>
+                                                    <p>TWs add approved content in Flare and are responsible for producing <a href="#Author">Author Notes</a> for the content.</p>
+                                                    <p>TWS also stage content in a dev environment for the Tech Writer Peer Review.</p>
+                                                    <p>At a high level, to add approved content to the Flare projects for SST, SKT and the Installation Guides:</p>
                                                     <ol>
                                                         <li value="1">
                                                             <p>The Author posts in the Slack doc_checkouts channel when checking out a branch.</p>
                                                         </li>
                                                     </ol>
-                                                    <p>Note: Include the name of the project and the name of the branch you are working in in this post. Use the @doc command in Slack to call attention to questions and feedback needed.</p>
+                                                    <p class="note"><b>NOTE: </b>Include the name of the project and the name of the branch you are working in in this post. Use the @doc command in Slack to call attention to questions and feedback needed.</p>
                                                     <ol data-mc-continue="true">
                                                         <li value="2">
-                                                            <p>Author checks out their own branch to add content.</p>
+                                                            <p><a href="#Author2">TW checks out their own branch to add content on a local branch and makes changes</a>
+                                                            </p>
                                                         </li>
                                                         <li value="3">
-                                                            <p>Author pushes update to the repo and merges that branch to develop_nnn (SST) , develop (SKT) or Stagingnnn (Install Manuals).</p>
+                                                            <p><a href="#Author3">TW pushes their local branch to the appropriate github repo and merges that branch to develop_nnn (SST) , develop (SKT) or Stagingnnn (Install Manuals)</a>.</p>
                                                         </li>
                                                         <li value="4">
-                                                            <p>Author builds the help in jenkins so that it is accessible on the dev site.</p>
+                                                            <p><a href="BOADocProcess_Update_Help_on_Dev_and_Prod_Sites.html#top">Author builds the help in jenkins so that it is accessible on the dev site</a>.</p>
+                                                            <p class="note"><b>NOTE:</b> For SKT help, pushing content to develop automatically starts a build to push the new content to the dev site. There is no need to access jenkins when updating SKT help.</p>
                                                         </li>
                                                     </ol>
-                                                    <p>Note: For SKT help, pushing content to develop automatically starts a build to push the new content to the dev site. There is no need to access jenkins when updating SKT help.</p>
-                                                    <p>Note: This content is to be formatted correctly and written to standards with no typos. The content is to be pushed to the repo correctly in github following the documented steps.</p>
                                                     <ol data-mc-continue="true">
                                                         <li value="5">
-                                                            <p>Author posts in the doc_checkouts Slack discussion channel when they have merged the PR to develop_nnn/develop/Staginginnn, and built in jenkins so that the content is ready to be viewed by the team on the dev site.</p>
+                                                            <p>Author posts in the doc_checkouts Slack discussion channel when they have merged the PR to develop_nnn/develop/Staginginnn, and built in jenkins so that the content is  on the dev site ready to be peer reviewed by a Doc Team member..</p>
+                                                            <p class="note"><b>NOTE: </b>Include a link to the Author Notes in this post. Use the @doc command in Slack to call attention to questions and feedback needed.</p>
                                                         </li>
                                                     </ol>
-                                                    <p>Note: Include a link to the Author Notes in this post. Use the @doc command in Slack to call attention to questions and feedback needed.</p>
-                                                    <p>Note: After the PR has been merged, another Author can check out the Flare project and add a chunk of content.</p>
-                                                    <h2>Author checks out branch to add content</h2>
-                                                    <p>Important: <a href="BOADocProcess_GitInitSetup.html">GitHub Initial Setup</a> contains the initial configuration and setup steps for Git and GitHub. These steps must be performed by a new employee.</p>
-                                                    <p>Important: Always use Git Bash. Do not use the GitHub Desktop application.</p>
-                                                    <p>Warning: You MUST perform these steps each time you checkout a branch to ensure you are working in the latest copy of the release branch.</p>
+                                                    <h2><a name="Author2"></a>Author checks out branch to add content</h2>
+                                                    <p class="note"><b>NOTE</b>: If you are a new employee or setting up a new laptop, consult <a href="BOADocProcess_GitInitSetup.html">GitHub Initial Setup</a> for initial configuration and setup steps for Git and GitHub. </p>
+                                                    <p class="note"><b>NOTE</b>: Always use Git Bash. Do not use the GitHub Desktop application.</p>
+                                                    <p class="note"><b>NOTE</b>: You MUST perform these steps each time you checkout a branch to ensure you are working in the latest copy of the release branch.</p>
                                                     <ol>
                                                         <li value="1">
-                                                            <p>In Windows-Explorer, right-click your local repo folder and select Git Bash Here.</p>
+                                                            <p>In Windows-Explorer, right-click your local repo folder and select <b>Git Bash Here</b>.</p>
                                                             <p>
                                                                 <img src="../Resources/Images/gitBashHere.png" />
                                                             </p>
+                                                            <p>Right-click menu with Git Bash Here option</p>
                                                         </li>
                                                     </ol>
-                                                    <p>Right-click menu with Git Bash Here option</p>
                                                     <ol data-mc-continue="true">
                                                         <li value="2">
-                                                            <p>Enter the git command git checkout releasebranchname, e.g., git checkout develop_71</p>
+                                                            <p>Enter the git command <span style="font-family: Consolas; font-weight: bold;">git checkout &lt;release branch name&gt;</span>, e.g., SST: develop_nnn, SKT develop, Install Manual Stagingnnn.</p>
                                                         </li>
                                                         <li value="3">
-                                                            <p>Enter the git command, git pull origin &lt;release branch name&gt;</p>
+                                                            <p>Enter the git command, <span style="font-family: Consolas; font-weight: bold;">git pull origin &lt;same release branch name&gt;</span></p>
+                                                            <p class="note"><b>NOTE</b>: If at this point you wish to see a list of branches that are available in your local repo, enter the command <span style="font-family: Consolas; font-weight: bold;">git branch</span>. All of the available local branches are listed.</p>
+                                                            <p class="note"><b>NOTE</b>: If you are working on a big project where you perform several checkins before opening a Pull Request, use the following commands each time you begin work: <span style="font-family: Consolas;">git status &lt;your branch name&gt;</span> then <span style="font-family: Consolas;">git checkout &lt;your branch name&gt;</span> then <span style="font-family: Consolas;">git pull origin &lt;your branch name&gt;</span></p>
                                                         </li>
                                                     </ol>
-                                                    <p>Tip: If at this point you wish to see a list of branches that are available in your local repo, enter the command git branch. All of the available local branches are listed.</p>
-                                                    <p>Tip: If you are working on a big project where you perform several checkins before opening a Pull Request, use the following commands each time you begin work: git status &lt;your branch name&gt; then git checkout &lt;your branch name&gt; then git pull origin &lt;your branch name&gt;</p>
                                                     <ol data-mc-continue="true">
                                                         <li value="4">
-                                                            <p>Enter the command git checkout -b &lt;new branch name&gt;</p>
+                                                            <p>Enter the command <span style="font-family: Consolas; font-weight: bold;">git checkout -b &lt;new branch name&gt;</span></p>
+                                                            <p class="note"><b>NOTE:</b> Name the branch after the JIRA ticket number if applicable. Use the naming convention DSP-NNNN. If changes are not related to a Jira ticket, give the branch a meaningful name, such as ‘releasenotesupdates’.</p>
                                                         </li>
                                                     </ol>
-                                                    <p>Note: Name the branch after the JIRA ticket number if applicable. Use the naming convention DSP-NNNN. If changes are not related to a Jira ticket, give the branch a meaningful name, such as ‘releasenotesupdates’.</p>
                                                     <ol data-mc-continue="true">
                                                         <li value="5">
-                                                            <p>Open the project in Flare and make your updates. Your updates are saved in the newbranchname.</p>
+                                                            <p>Open the project in Flare and make your updates. Your updates are saved in the <span style="font-family: Consolas;">&lt;new branch name&gt;</span>.</p>
                                                         </li>
                                                         <li value="6">
                                                             <p>When you finish your updates, save your changes and close Flare.</p>
+                                                            <p><b>NOTE</b>: Refer to <a href="BOADocProcess_UpdateOnlineHelp.html">Update Online Help in Flare</a> for steps on working in Flare.</p>
                                                         </li>
                                                     </ol>
-                                                    <p>NOTE: Refer to <a href="BOADocProcess_UpdateOnlineHelp.html">Update Online Help in Flare</a> for steps on working in Flare.</p>
-                                                    <h2>Author Pushes Updates to github Repo and Merges Content to develop_nnn/develop/Stagingnnn</h2>
+                                                    <h2><a name="Author3"></a>Author Pushes Updates to github Repo and Merges Content to develop_nnn/develop/Stagingnnn</h2>
+                                                    <p>After finishing your changes in Flare, commit them to the remote repo for the project following these steps:</p>
                                                     <ol>
                                                         <li value="1">
-                                                            <p>Return to Git Bash or open a new session.</p>
-                                                        </li>
-                                                        <li value="2">
-                                                            <p>Navigate to your repo, and make sure you are in the correct branch. It is in parenthesis after your prompt.</p>
-                                                        </li>
-                                                        <li value="3">
-                                                            <p>Enter the git command git status to see all of the changes you have made.</p>
+                                                            <p>In Windows-Explorer, right-click your local repo folder and select <b>Git Bash Here</b>.</p>
+                                                            <p>
+                                                                <img src="../Resources/Images/gitBashHere.png" />
+                                                            </p>
+                                                            <p>Right-click menu with Git Bash Here option</p>
                                                         </li>
                                                     </ol>
-                                                    <p>Note: If you do not see your changes, you may have forgotten to save or you are in the wrong branch.</p>
+                                                    <ol data-mc-continue="true">
+                                                        <li value="2">
+                                                            <p>Enter the git command <span style="font-family: Consolas; font-weight: bold;">git status</span> to see all of the changes you have made.</p>
+                                                            <p><b>NOTE:</b> If you do not see your changes, you may have forgotten to save or you are in the wrong branch.</p>
+                                                        </li>
+                                                    </ol>
+                                                    <ol data-mc-continue="true">
+                                                        <li value="3">
+                                                            <p>Stage the updates for commit by entering the git command <span style="font-family: Consolas; font-weight: bold;">git add .</span></p>
+                                                            <p><b>NOTE</b>: Include the period in the command.</p>
+                                                            <p><b>NOTE</b>: Comments change from red to green after you stage them.</p>
+                                                        </li>
+                                                    </ol>
                                                     <ol data-mc-continue="true">
                                                         <li value="4">
-                                                            <p>Stage the updates for commit by entering the git command git add .</p>
+                                                            <p>Commit staged updates by entering the command <span style="font-family: Consolas; font-weight: bold;">git commit -m "&lt;commit message that informs everyone what you have done&gt;"</span></p>
+                                                            <p><b>NOTE:</b> Do not use special characters in message.</p>
                                                         </li>
                                                     </ol>
-                                                    <p>Note: Include the period in the command.</p>
-                                                    <p>Tip: Comments change from red to green after you stage them.</p>
                                                     <ol data-mc-continue="true">
                                                         <li value="5">
-                                                            <p>Commit staged updates by entering the command git commit -m "&lt;commit message that informs everyone what you have done&gt;"</p>
+                                                            <p>Push your changes to the remote by entering the command <span style="font-family: Consolas; font-weight: bold;">git push origin &lt;new branch name&gt;</span>.</p>
                                                         </li>
-                                                    </ol>
-                                                    <p>Note: Do not use special characters in message.</p>
-                                                    <ol data-mc-continue="true">
                                                         <li value="6">
-                                                            <p>Push your changes to the remote by entering the command git push origin &lt;new branch name&gt;.</p>
+                                                            <p>Go to GitHub.com and access the appropriate repo.</p>
                                                         </li>
                                                         <li value="7">
-                                                            <p>Go to GitHub.com and click the Compare and pull request button next to your recently pushed branch.</p>
+                                                            <p>Click the <b>Compare and pull request</b> button next to your recently pushed branch.</p>
                                                         </li>
                                                         <li value="8">
-                                                            <p>Make sure the base is the current release branch you are working in (develop_nnn) and compare is your new branch name.</p>
+                                                            <p>Make sure the <b>base</b> is the current release branch you are working in (SST: develop_nnn, SKT: develop, Install Manual: Stagingnnn) and <b>compare</b> is your new branch name.</p>
+                                                            <p>
+                                                                <img src="../Resources/Images/githubPR.png" />
+                                                            </p>
                                                         </li>
                                                     </ol>
-                                                    <p>
-                                                        <img src="../Resources/Images/githubPR.png" />
-                                                    </p>
                                                     <ol data-mc-continue="true">
                                                         <li value="9">
                                                             <p>Add link to Author Notes in the description of the PR.</p>
                                                         </li>
                                                         <li value="10">
-                                                            <p>Click the Create pull request button.</p>
+                                                            <p>Click the <b>Create pull request</b> button.</p>
                                                         </li>
                                                         <li value="11">
-                                                            <p>Merge the pull request to the develop_nnn/develop/Stagingnnn branch and build in the dev environment in jenkins. Refer to <a href="BOADocProcess_Update_Help_on_Dev_and_Prod_Sites.html">Update Help on the Dev and Prod Sites</a> for steps for working in Jenkins. </p>
+                                                            <p>Click the <b>Merge</b> then <b>Confirm Merge</b> buttons. </p>
                                                         </li>
                                                         <li value="12">
-                                                            <p>Add the Pull Request URL to the Jira ticket and the Author Notes.</p>
+                                                            <p>Build SST help and the Installation Manuals in the dev environment in jenkins. Refer to <a href="BOADocProcess_Update_Help_on_Dev_and_Prod_Sites.html">Update Help on the Dev and Prod Sites</a> for steps for working in Jenkins. SKT automatically pushes help to the dev environment when you push to the develop branch. </p>
                                                         </li>
                                                         <li value="13">
                                                             <p>Update the Documentation Status on the JIRA tickets associated with the work to Peer Review.</p>
                                                         </li>
+                                                        <li value="14">
+                                                            <p>Notify the doc team that you are ready for a peer review by posting an @doc message in the #doc_checkouts Slack channel. Include a link to your Author's Notes. </p>
+                                                        </li>
                                                     </ol>
                                                     <h2><a name="Author"></a>Author Notes</h2>
-                                                    <p>Note: Author Notes should only contain approved content or formatting fixes/help housekeeping that does not require approval.</p>
+                                                    <p class="note"><b>NOTE: </b>Author Notes should only contain approved content or formatting fixes/help housekeeping that does not require approval.</p>
                                                     <p>Author Notes must contain:</p>
                                                     <ul>
                                                         <li>
@@ -338,7 +347,7 @@
                                                             <p>Simple, clear and easy to follow content describing the work done for the ticket.</p>
                                                         </li>
                                                     </ul>
-                                                    <p>Note: Author Notes must not contain explanations or background for tickets, contents, or troubleshooting. If you find a “gotcha” or a tip, share it in a slack channel so we can all learn from it, and add it to the standards/processes if it’s relevant.</p>
+                                                    <p class="note"><b>NOTE:</b>  Author Notes must not contain explanations or background for tickets, contents, or troubleshooting. If you find a “gotcha” or a tip, share it in a slack channel so we can all learn from it, and add it to the standards/processes if it’s relevant.</p>
                                                 </div>
                                                 <div id="feedback-survey">
                                                     <div class="feedback-question">

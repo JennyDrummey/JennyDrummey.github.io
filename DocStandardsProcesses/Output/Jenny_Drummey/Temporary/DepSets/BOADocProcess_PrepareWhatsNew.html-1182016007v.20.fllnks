@@ -11,16 +11,12 @@
       Url="Content/Resources/MasterPages/DocProcess.flmsp" />
     <Link
       Url="Content/Resources/Stylesheets/newDefault.css" />
-    <Link
-      Url="Content/DocProcess/BOADocProcess_PrepareReleaseNotes.html" />
   </Links>
   <LongLinks>
     <Link
       Url="Content/Resources/MasterPages/DocProcess.flmsp" />
     <Link
       Url="Content/Resources/Stylesheets/newDefault.css" />
-    <Link
-      Url="Content/DocProcess/BOADocProcess_PrepareReleaseNotes.html" />
   </LongLinks>
   <Anchors />
   <Keywords />

@@ -4,14 +4,15 @@
         <link href="../Resources/Stylesheets/newDefault.css" rel="stylesheet" type="text/css" />
     </head>
     <body>
-        <h1>Update Help on Dev and Prod Sites </h1>
-        <p>The dev site is for Tech Writers to test that the online help works. The prod site is the site that users access directly from the product when they click the ? on any page.</p>
-        <p>The process for updating help is the same for the product help (in the dps-docs repo) and the installation manuals/Requiements/SAP Config guides (stored in the dsp-install-manuals). </p>
+        <h1><a name="top"></a>Update Help on Dev and Prod Sites </h1>
+        <p>The dev site is for Tech Writers to test that the online help works. The prod site is the site that users access directly from the product, either when they click the ? on any page or a link on a product page.</p>
+        <p>The process for updating the help on the dev and prod sites is the same for updating help is the same for the product help (stored in the dps-docs repo) and the installation manuals/Requiements/SAP Config guides (stored in the dsp-install-manuals repo). </p>
         <p>Each SST release has a branch in the dsp-docs repo with the naming convention develop_nnn, where nnn is the release number (develop_701, for example). After a pull request is merged to the branch develop_nnn, a Technical Writer can then log in to Jenkins and build the help on the dev site, prod site, or both.</p>
-        <p>Each SST release has a branch in the dsp-install-manuals repo with the naming convention Stagingnnn, where nnn is the release number (Stagini701, for example). After a pull request is merged to the branch develop_nnn fo Stagingnnn, a Technical Writer can then log in to Jenkins and build the help on the dev site, prod site, or both.</p>
+        <p>Each SST release has a branch in the dsp-install-manuals repo with the naming convention Stagingnnn, where nnn is the release number (Stagini701, for example). After a pull request is merged to the branch develop_nnn to Stagingnnn, a Technical Writer can then log in to Jenkins and build the help on the dev site, prod site, or both.</p>
         <p>When jenkins builds help for these versions, it copies the output to a site accessed by a specific URL.</p>
-        <p>Tip: You must <a href="BOADocProcess_BuildHelpTargets.html">Build and Publish Help Targets</a> in Flare before building in Jenkins for the SKT  </p>
+        <p class="note"><b>NOTE</b>: You must <a href="BOADocProcess_BuildHelpTargets.html">Build and Publish Help Targets</a> in Flare before building in Jenkins for the SKT  </p>
         <h2>SST Domain for DSP Versions 7.0-7.0.5</h2>
+        <p>The initial help was hosted on a boaweb.com domain. We have to keep these versions of help available for users of these older versions of the product.</p>
         <p>The dev site for the full version:</p>
         <p>https://dsphelpdev.boaweb.com/nnn/general/Home.htm</p>
         <p>The dev site for the solex version:</p>
@@ -21,40 +22,40 @@
         <p>When a user clicks the ? in the DSP for the solex version of 7.0-7.0.5, it takes them to this URL for the prod solex help:</p>
         <p>https://dsphelp.boaweb.com/nnn/solex/Home.htm</p>
         <h2>SST Versions 7.0.6 and Later</h2>
-        <p>For version 7.0.6 and later of DSP, help is located at these addresses.</p>
-        <p>Dev Full</p>
+        <p>For version 7.0.6 and later of SST, help is located at these addresses.</p>
+        <p style="font-weight: bold;">Dev Full</p>
         <p>https://dsphelpdev.syniti.com/nnn/general/Home.htm</p>
-        <p>Dev Solex</p>
+        <p style="font-weight: bold;">Dev Solex</p>
         <p>https://dsphelpdev.syniti.com/nnn/solex/Home.htm</p>
-        <p>When a user clicks the ? in the DSP for the full version of DSP 7.0.6 and later, it takes them to this production URL:</p>
+        <p style="font-weight: bold;">Prod Full</p>
         <p>https://dsphelp.syniti.com/nnn/general/Home.htm</p>
-        <p>When a user clicks the ? in the DSP for the solex version of DSP 7.0.6 and later, it takes them to this production URL:</p>
+        <p style="font-weight: bold;">Prod Solex</p>
         <p>https://dsphelp.syniti.com/nnn/solex/Home.htm</p>
         <h2>SKT Domains</h2>
-        <p>Dev version:</p>
+        <p style="font-weight: bold;">Dev version:</p>
         <p>https://skthelpdev.syniti.com/Welcome.htm</p>
-        <p>Prod version</p>
+        <p style="font-weight: bold;">Prod version</p>
         <p>https://skthelp.syniti.com/Welcome.htm</p>
         <h2>Syniti Guides</h2>
-        <p>Full Dev version</p>
+        <p style="font-weight: bold;">Full Dev version</p>
         <p>https://dsphelpdev.syniti.com/nnn/general-install/Home.htm</p>
-        <p>Full Prod version</p>
+        <p style="font-weight: bold;">Full Prod version</p>
         <p>https://dsphelp.syniti.com/nnn/general-install/Home.htm</p>
-        <p>Solex Dev Version</p>
+        <p style="font-weight: bold;">Solex Dev Version</p>
         <p>https://dsphelpdev.syniti.com/nnn/solex-install/05%20SAP%20Quick%20Start%20Guide/SAPQuickStartGuide.htm#</p>
-        <p>Solex Prod Version</p>
+        <p style="font-weight: bold;">Solex Prod Version</p>
         <p>https://dsphelp.syniti.com/nnn/solex-install/05%20SAP%20Quick%20Start%20Guide/SAPQuickStartGuide.htm#</p>
-        <h2>Update the Help on the Dev and Prod Sites</h2>
+        <h2><a name="Update"></a>Update the Help on the Dev and Prod Sites</h2>
         <p>To update the help on the sites for SST and the Syniti Guides:</p>
         <ol>
             <li>
                 <p>Log in to Jenkins.</p>
             </li>
             <li>
-                <p>In the Name column, click DSPDocs.</p>
+                <p>In the Name column, click <b>DSPDocs</b>.</p>
             </li>
             <li>
-                <p>Click the Schedule a Build with parameters for [Target Name] icon for either </p>
+                <p>Click the <b>Schedule a Build with parameters for [Target Name]</b> icon for either </p>
                 <ul>
                     <li>
                         <p>DSPDocDev </p>
@@ -69,18 +70,18 @@
                         <p>DSPDocProd-Installs</p>
                     </li>
                 </ul>
+                <p class="note"><b>NOTE</b>: If you are updating a version of the help that has already been released, build the help in dev then in prod. If you are updating a version of the help that has not yet been released, build in dev as needed.</p>
             </li>
         </ol>
-        <p>Note: If you are updating a version of the help that has already been released, build the help in dev then in prod. If you are updating a version of the help that has not yet been released, build in dev as needed.</p>
         <ol MadCap:continue="true">
             <li>
-                <p>Enter the version number in the VERSION field.</p>
+                <p>Enter the version number in the <b>VERSION</b> field.</p>
             </li>
             <li>
-                <p>Click Build. The build status displays in the left column under Build History.</p>
+                <p>Click <b>Build</b>. The build status displays in the left column under Build History.</p>
             </li>
             <li>
-                <p>Open an incognito window in Chrome to view the help to confirm your updates are on the site.</p>
+                <p>After the build completes, open an incognito window in Chrome to view the help to confirm your updates are on the site.</p>
             </li>
         </ol>
         <p>To update the sites for the SKT you do not use Jenkins. Instead, you push content to two different repositories:</p>

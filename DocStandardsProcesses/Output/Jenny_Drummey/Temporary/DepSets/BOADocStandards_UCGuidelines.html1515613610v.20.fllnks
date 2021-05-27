@@ -14,6 +14,8 @@
     <Link
       Url="Content/SSTDocStandards/BOADocStandards_UCGuidelines.html" />
     <Link
+      Url="Content/DocProcess/BOADocProcess_UpdateOnlineHelp.html" />
+    <Link
       Url="Content/Resources/Images/simpleUC.png" />
     <Link
       Url="Content/Resources/Images/complexUC.png" />
@@ -29,6 +31,8 @@
       Url="Content/SSTDocStandards/BOADocStandards_UCGuidelines.html#list-boxes-in-use-cases" />
     <Link
       Url="Content/SSTDocStandards/BOADocStandards_UCGuidelines.html#numbered-steps-in-use-cases" />
+    <Link
+      Url="Content/DocProcess/BOADocProcess_UpdateOnlineHelp.html#Format" />
     <Link
       Url="Content/Resources/Images/simpleUC.png" />
     <Link

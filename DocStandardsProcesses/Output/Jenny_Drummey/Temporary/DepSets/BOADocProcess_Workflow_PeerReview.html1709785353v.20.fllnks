@@ -12,6 +12,8 @@
     <Link
       Url="Content/Resources/Stylesheets/newDefault.css" />
     <Link
+      Url="Content/DocProcess/BOADocProcess_Workflow_Approved.html" />
+    <Link
       Url="Content/DocProcess/BOADocProcess_UpdateOnlineHelp.html" />
   </Links>
   <LongLinks>
@@ -19,6 +21,8 @@
       Url="Content/Resources/MasterPages/DocProcess.flmsp" />
     <Link
       Url="Content/Resources/Stylesheets/newDefault.css" />
+    <Link
+      Url="Content/DocProcess/BOADocProcess_Workflow_Approved.html" />
     <Link
       Url="Content/DocProcess/BOADocProcess_UpdateOnlineHelp.html#Checklis" />
     <Link

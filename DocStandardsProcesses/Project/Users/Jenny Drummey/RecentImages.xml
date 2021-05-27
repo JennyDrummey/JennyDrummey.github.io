@@ -1,5 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <UrlList>
+    <Url Source="Resources/Images/SSTTOC.png" />
     <Url Source="Resources/Images/image1.png" />
     <Url Source="Resources/Images/image.png" />
     <Url Source="Resources/Images/CopyHelp.png" />
@@ -19,5 +20,4 @@
     <Url Source="Resources/Images/tabbedVV1.png" />
     <Url Source="Resources/Images/objectsV.png" />
     <Url Source="Resources/Images/objectsH.png" />
-    <Url Source="Resources/Images/pageDescription.png" />
 </UrlList>

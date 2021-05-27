@@ -13,6 +13,8 @@
       Url="Content/Resources/TableStylesheets/fielddescription.css" />
     <Link
       Url="Content/Resources/Stylesheets/newDefault.css" />
+    <Link
+      Url="https://dsphelpdev.syniti.com/744/general/DSP_Navigation.htm" />
   </Links>
   <LongLinks>
     <Link
@@ -21,6 +23,8 @@
       Url="Content/Resources/TableStylesheets/fielddescription.css" />
     <Link
       Url="Content/Resources/Stylesheets/newDefault.css" />
+    <Link
+      Url="https://dsphelpdev.syniti.com/744/general/DSP_Navigation.htm" />
   </LongLinks>
   <Anchors />
   <Keywords />

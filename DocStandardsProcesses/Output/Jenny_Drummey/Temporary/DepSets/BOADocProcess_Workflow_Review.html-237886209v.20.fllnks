@@ -11,12 +11,20 @@
       Url="Content/Resources/MasterPages/DocProcess.flmsp" />
     <Link
       Url="Content/Resources/Stylesheets/newDefault.css" />
+    <Link
+      Url="Content/DocProcess/BOADocProcess_Workflow_Approved.html" />
+    <Link
+      Url="Content/DocProcess/BOADocProcess_Workflow_InProcess.html" />
   </Links>
   <LongLinks>
     <Link
       Url="Content/Resources/MasterPages/DocProcess.flmsp" />
     <Link
       Url="Content/Resources/Stylesheets/newDefault.css" />
+    <Link
+      Url="Content/DocProcess/BOADocProcess_Workflow_Approved.html" />
+    <Link
+      Url="Content/DocProcess/BOADocProcess_Workflow_InProcess.html" />
   </LongLinks>
   <Anchors />
   <Keywords />

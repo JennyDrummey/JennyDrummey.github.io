@@ -18,7 +18,7 @@
     Title="Update Online Help"
     Link="/Content/DocProcess/UpdateOnlineHelp.html">
     <TocEntry
-      Title="Workflow - Status Field"
+      Title="Dcumentation Status Field"
       Link="/Content/DocProcess/BOADocProcess_Workflow_StatusField.html" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
     <TocEntry
       Title="Workflow - Not Started"
@@ -57,9 +57,6 @@
     <TocEntry
       Title="Prepare SST What's New Topic for Release"
       Link="/Content/DocProcess/BOADocProcess_PrepareWhatsNew.html"></TocEntry>
-    <TocEntry
-      Title="Prepare SST Release Notes"
-      Link="/Content/DocProcess/BOADocProcess_PrepareReleaseNotes.html"></TocEntry>
     <TocEntry
       Title="Build Help Targets"
       Link="/Content/DocProcess/BOADocProcess_BuildHelpTargets.html"></TocEntry>

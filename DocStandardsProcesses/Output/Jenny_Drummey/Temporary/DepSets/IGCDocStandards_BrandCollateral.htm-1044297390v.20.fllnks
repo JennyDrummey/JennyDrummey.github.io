@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileLinkSet
+  FileSearchable="true"
+  OnlyLocalStylesheets="false"
+  FileTimeEstimate="0"
+  FilePriority="0">
+  <Links>
+    <Link
+      Url="Content/Resources/Images/OpeningClosingVideoSlide.png" />
+    <Link
+      Url="Content/Resources/Images/Syniti_Logo_RGB_DarkIndigo (1).svg" />
+    <Link
+      Url="Content/Resources/Images/DI-Banner (1).svg" />
+    <Link
+      Url="Content/Resources/Images/DI-Banner2.svg" />
+  </Links>
+  <LongLinks>
+    <Link
+      Url="Content/Resources/Images/OpeningClosingVideoSlide.png" />
+    <Link
+      Url="Content/Resources/Images/Syniti_Logo_RGB_DarkIndigo (1).svg" />
+    <Link
+      Url="Content/Resources/Images/DI-Banner (1).svg" />
+    <Link
+      Url="Content/Resources/Images/DI-Banner2.svg" />
+  </LongLinks>
+  <Anchors />
+  <Keywords />
+  <Concepts />
+  <ConceptControlNames />
+  <IndexControlNames />
+  <Variables />
+  <FileConditions />
+  <FileTags />
+  <AllConditions />
+  <Stylesheets />
+</CatapultFileLinkSet>
