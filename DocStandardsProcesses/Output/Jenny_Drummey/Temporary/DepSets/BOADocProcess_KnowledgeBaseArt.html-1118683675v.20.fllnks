@@ -13,7 +13,11 @@
     <Link
       Url="Content/Resources/Stylesheets/newDefault.css" />
     <Link
+      Url="Content/SSTDocStandards/BOADocStandards_KBGenGuidelines.html" />
+    <Link
       Url="https://www.rapidtables.com/web/html/link/html-anchor-link.html" />
+    <Link
+      Url="https://www.thesitewizard.com/css/hanging-indents.shtml" />
   </Links>
   <LongLinks>
     <Link
@@ -23,7 +27,11 @@
     <Link
       Url="Content/Resources/Stylesheets/newDefault.css" />
     <Link
+      Url="Content/SSTDocStandards/BOADocStandards_KBGenGuidelines.html" />
+    <Link
       Url="https://www.rapidtables.com/web/html/link/html-anchor-link.html#same-page" />
+    <Link
+      Url="https://www.thesitewizard.com/css/hanging-indents.shtml" />
   </LongLinks>
   <Anchors />
   <Keywords />

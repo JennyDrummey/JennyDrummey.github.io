@@ -249,23 +249,23 @@
                                                     <p>Follow these steps to update the install manuals: </p>
                                                     <ol>
                                                         <li value="1">
-                                                            <p><a href="#Synchronize_your_master_branch_with_the_BackOfficeAssoc_GitHub_Repo">The Tech Writer synchronizes their local current releases branch with the BackOfficeAssoc dsp-install-manuals branch</a>. </p>
-                                                            <p class="note"><b>NOTE</b>: If you do not have a local copy of the install manuals on your laptop, see <a href="#Clone_the_dsp-install-manuals_repo">Clone the dsp-install-manual</a></p>
+                                                            <p><a href="#Synchronize_your_master_branch_with_the_BackOfficeAssoc_GitHub_Repo" target="_blank" rel="noopener noreferrer">The Tech Writer synchronizes their local current releases branch with the BackOfficeAssoc dsp-install-manuals branch</a>. </p>
+                                                            <p class="note"><b>NOTE</b>: If you do not have a local copy of the install manuals on your laptop, see <a href="#Clone_the_dsp-install-manuals_repo" target="_blank" rel="noopener noreferrer">Clone the dsp-install-manual</a></p>
                                                         </li>
                                                         <li value="2">
                                                             <p>
-                                                                <p><a href="#Create_a_branch_for_your_updates_based_on_the_master_branch">The TW creates a new Staging branch based on the latest Staging branch in the dsp-install-manuals repo</a>. </p>
+                                                                <p><a href="#Create_a_branch_for_your_updates_based_on_the_master_branch" target="_blank" rel="noopener noreferrer">The TW creates a new Staging branch based on the latest Staging branch in the dsp-install-manuals repo</a>. </p>
                                                             </p>
                                                         </li>
                                                         <li value="3">
-                                                            <p><a href="#Create_a_Release_Folder_on_SharePoint">The TW creates a release folder on SharePoint in the Published folder for the current release, creates new Word docs for review with the updated version number in the file titles</a>. </p>
+                                                            <p><a href="#Create_a_Release_Folder_on_SharePoint" target="_blank" rel="noopener noreferrer">The TW creates a release folder on SharePoint in the Published folder for the current release, creates new Word docs for review with the updated version number in the file titles</a>. </p>
                                                             <p class="note"><b>NOTE</b>: Ensure Track Changes is turned on for this version so that reviewers can find updates easily. The TW will include a link to this folder in the next step when they create the Jira ticket.</p>
                                                         </li>
                                                         <li value="4">
-                                                            <p><a href="#Create_a_JIRA_Ticket_for_the_Manuals">The TW creates a Jira ticket in the DSP70 project for updating the manuals for this release</a>. </p>
+                                                            <p><a href="#Create_a_JIRA_Ticket_for_the_Manuals" target="_blank" rel="noopener noreferrer">The TW creates a Jira ticket in the DSP70 project for updating the manuals for this release</a>. </p>
                                                         </li>
                                                         <li value="5">
-                                                            <p><a href="#nk_Tickets_Related_to_Manuals_to_JIRA_Epic">The TW links all tickets that describe updates to manuals to this ticket to track the updates</a>. </p>
+                                                            <p><a href="#nk_Tickets_Related_to_Manuals_to_JIRA_Epic" target="_blank" rel="noopener noreferrer">The TW links all tickets that describe updates to manuals to this ticket to track the updates</a>. </p>
                                                         </li>
                                                         <li value="6">
                                                             <p>The TW and contributors review and update the manuals in Sharepoint in the Published folder and Flare as needed. If major changes have been made to the Installation Manuals, Support will test these steps. </p>
@@ -274,7 +274,7 @@
                                                             <p>Once the collaboration is complete and the content is final, the approver sets the <strong>Documentation Status</strong> field to of the installation manual Jira issue to <strong>Approved</strong>. </p>
                                                         </li>
                                                         <li value="8">
-                                                            <p>The TW makes the changes in the Stangingnnn branch of the Flare project. Refer to <a href="BOADocProcess_UpdateOnlineHelp.html">Update Online Help</a> for more information. After all changes are made, the TW <a href="BOADocProcess_Update_Help_on_Dev_and_Prod_Sites.html#Update">builds the project</a> in the dev environment in Jenkins.</p>
+                                                            <p>The TW makes the changes in the Stangingnnn branch of the Flare project. Refer to <a href="BOADocProcess_UpdateOnlineHelp.html" target="_blank" rel="noopener noreferrer">Update Online Help</a> for more information. After all changes are made, the TW <a href="BOADocProcess_Update_Help_on_Dev_and_Prod_Sites.html#Update" target="_blank" rel="noopener noreferrer">builds the project</a> in the dev environment in Jenkins.</p>
                                                         </li>
                                                         <li value="9">
                                                             <p>The TW sets the <strong>Documentation Status</strong> field of the installation manual Jira issue to <strong>Peer Review</strong> and requests a peer review from another tech writer on the team in the doc_checkouts Slack channel. </p>
@@ -287,12 +287,12 @@
                                                         </li>
                                                     </ol>
                                                     <h3 id="clone-the-dsp-install-manuals-repo"><a name="Clone_the_dsp-install-manuals_repo"></a>Clone the dsp-install-manuals repo</h3>
-                                                    <p>To clone the dsp-install-manuals repo, follow the instructions <a href="BOADocProcess_GitInitSetup.html#Clone_BackOffice/dsp-docs_repo_to_local">here</a>.</p>
+                                                    <p>To clone the dsp-install-manuals repo, follow the instructions <a href="BOADocProcess_GitInitSetup.html#Clone_BackOffice/dsp-docs_repo_to_local" target="_blank" rel="noopener noreferrer">here</a>.</p>
                                                     <h3 id="synchronize-your-master-branch-with-the-backofficeassoc-github-repo"><a name="Synchronize_your_master_branch_with_the_BackOfficeAssoc_GitHub_Repo"></a>Synchronize your master branch with the BackOfficeAssoc GitHub Repo</h3>
                                                     <p class="note"><b>NOTE</b>: You <strong>MUST</strong> perform these steps each time you checkout a branch to ensure you are working in the latest copy of the master branch.</p>
                                                     <ol type="1">
                                                         <li value="1">In Windows-Explorer, right-click your <b>dsp-install-manuals</b> local folder and select <strong>Git Bash Here</strong>.
-        <p><img src="../Resources/Images/gitBashHere.png" /></p><p class="note"><b>NOTE</b>: If you do not have a local dsp-install-manuals repo, see <a href="#clone-the-dsp-install-manuals-repo">Clone the dsp-install-manuals repo</a> for instructions.</p></li>
+        <p><img src="../Resources/Images/gitBashHere.png" /></p><p class="note"><b>NOTE</b>: If you do not have a local dsp-install-manuals repo, see <a href="#clone-the-dsp-install-manuals-repo" target="_blank" rel="noopener noreferrer">Clone the dsp-install-manuals repo</a> for instructions.</p></li>
                                                     </ol>
                                                     <ol type="1" data-mc-continue="true">
                                                         <li value="2">Switch to the Stagingnnn branch where nnn is the latest release, by entering <code class="highlighter-rouge">g<b>it checkout Stagingnnn</b></code>.
@@ -307,7 +307,7 @@
                                                     </ol>
                                                     <h3 id="create-a-release-folder-on-sharepoint"><a name="Create_a_Release_Folder_on_SharePoint"></a>Create a Release Folder on SharePoint</h3>
                                                     <ol type="1">
-                                                        <li value="1">Navigate to the <strong>Product Documentation &gt; Published</strong> folder located <a href="https://boaweb.sharepoint.com/sites/ProductDocumentation/Shared Documents/Forms/AllItems.aspx?id=%2Fsites%2FProductDocumentation%2FShared%20Documents%2FProduct%20Documentation%2FPublished" target="_blank">here</a>.</li>
+                                                        <li value="1">Navigate to the <strong>Product Documentation &gt; Published</strong> folder located <a href="https://boaweb.sharepoint.com/sites/ProductDocumentation/Shared Documents/Forms/AllItems.aspx?id=%2Fsites%2FProductDocumentation%2FShared%20Documents%2FProduct%20Documentation%2FPublished" target="_blank" rel="noopener noreferrer">here</a>.</li>
                                                         <li value="2">Click <strong>+New</strong> and select <strong>Folder</strong>.</li>
                                                         <li value="3">Enter the release number into the <strong>Folder Name</strong> field.</li>
                                                         <li value="4">Click <strong>Create</strong>.</li>
@@ -333,7 +333,7 @@
                                                     <h3 id="link-tickets-related-to-manuals-to-jira-epic"><a name="nk_Tickets_Related_to_Manuals_to_JIRA_Epic"></a>Link Tickets Related to Manuals to JIRA Epic</h3>
                                                     <p>Add links to the epic to any tickets that affect the installation manual.</p>
                                                     <h3 id="make-updates-in-flare">Make Updates in Flare</h3>
-                                                    <p>After the manual content is reviewed and finalized make  updates in Flare. Follow the instructions in the topics <a href="BOADocProcess_Workflow_InProcess.html">Work Flow In Process</a> and <a href="BOADocProcess_UpdateOnlineHelp.html">Update Online Help</a>.</p>
+                                                    <p>After the manual content is reviewed and finalized make  updates in Flare. Follow the instructions in the topics <a href="BOADocProcess_Workflow_InProcess.html" target="_blank" rel="noopener noreferrer">Work Flow In Process</a> and <a href="BOADocProcess_UpdateOnlineHelp.html" target="_blank" rel="noopener noreferrer">Update Online Help</a>.</p>
                                                     <p>Document all updates in the <strong>Version History - Install</strong> and the <strong>Version History - SRHS</strong> topics (located in the Content folder). While these topics are no longer included in the final manuals, we track our changes for internal purposes.</p>
                                                     <h3 id="update-the-targets-for-the-manuals">Update the Targets for the Manuals</h3>
                                                     <table>
@@ -397,7 +397,7 @@
                                                         </li>
                                                     </ol>
                                                     <h3 id="perform-peer-review-of-installation-manuals">Perform Peer Review of Installation Manuals</h3>
-                                                    <p>Follow the steps <a href="BOADocProcess_Workflow_PeerReview.html">here</a>. </p>
+                                                    <p>Follow the steps <a href="BOADocProcess_Workflow_PeerReview.html" target="_blank" rel="noopener noreferrer">here</a>. </p>
                                                     <h3 id="updating-the-sap-operations-guide">Updating the SAP Operations Guide</h3>
                                                     <p>This manual contains diagrams created in PowerPoint in the section Technical System Landscape. These diagrams are stored in the Published folder (Level_2_Slide_Box_ACMAndISA.pptx) along with the other files. When producing the final version of the Ops guide, pdf the slides and insert them into the pdf of the ops guide.</p>
                                                 </div>
@@ -430,7 +430,7 @@
                                                                 </p>
                                                                 <p class="feedbackW">Want to tell us more?</p>
                                                                 <p>Send an email to our authors to leave your feedback.</p>
-                                                                <p><a href="mailto:Helpfeedback@syniti.com?subject=Feedback" id="feedbackEmailLink">Email us</a>
+                                                                <p><a href="mailto:Helpfeedback@syniti.com?subject=Feedback" id="feedbackEmailLink" target="_blank" rel="noopener noreferrer">Email us</a>
                                                                 </p>
                                                             </div>
                                                         </div>
@@ -469,26 +469,26 @@
                                             </div>
                                             <div>
                                                 <h5>Get in Touch</h5>
-                                                <p class="footer"><a href="https://support.syniti.com/access/unauthenticated?return_to=https%3A%2F%2Fbackofficeassociates.zendesk.com%2Fagent%2Fdashboard" target="_blank" data-mc-conditions="Primary.dspConduct">Contact Support</a>
+                                                <p class="footer"><a href="https://support.syniti.com/access/unauthenticated?return_to=https%3A%2F%2Fbackofficeassociates.zendesk.com%2Fagent%2Fdashboard" target="_blank" rel="noopener noreferrer" data-mc-conditions="Primary.dspConduct">Contact Support</a>
                                                 </p>
-                                                <p class="footer"><a href="http://launchpad.support.sap.com/" data-mc-conditions="Primary.ISA">SAP Support (Use component XX-PART-BOA)</a>
+                                                <p class="footer"><a href="http://launchpad.support.sap.com/" target="_blank" rel="noopener noreferrer" data-mc-conditions="Primary.ISA">SAP Support (Use component XX-PART-BOA)</a>
                                                 </p>
-                                                <p class="footer"><a href="../Ideas_Portal.htm">Access Product Ideas Portal</a>
+                                                <p class="footer"><a href="../Ideas_Portal.htm" target="_blank" rel="noopener noreferrer">Access Product Ideas Portal</a>
                                                 </p>
-                                                <p class="footer"><a href="https://www.syniti.com/support/education/" target="_blank">Request Product Training</a>
+                                                <p class="footer"><a href="https://www.syniti.com/support/education/" target="_blank" rel="noopener noreferrer">Request Product Training</a>
                                                 </p>
                                                 <h5>Related Content</h5>
-                                                <p class="footer"><a href="../glossary.htm" target="_blank">Glossary</a>
+                                                <p class="footer"><a href="../glossary.htm" target="_blank" rel="noopener noreferrer">Glossary</a>
                                                 </p>
-                                                <p class="footer"><a href="../When_to_request_a_new_product_license.htm">Product Licenses</a>
+                                                <p class="footer"><a href="../When_to_request_a_new_product_license.htm" target="_blank" rel="noopener noreferrer">Product Licenses</a>
                                                 </p>
-                                                <p class="footer"><a href="http://support.syniti.com/hc/en-us" target="_blank" data-mc-conditions="Primary.dspConduct">Knowledge Base</a>
+                                                <p class="footer"><a href="http://support.syniti.com/hc/en-us" target="_blank" rel="noopener noreferrer" data-mc-conditions="Primary.dspConduct">Knowledge Base</a>
                                                 </p>
                                             </div>
                                             <div>
                                                 <p class="footer" id="di">&#160;
 					</p>
-                                                <p class="btn more"><a href="../Data_Insiders_Community.htm" target="_blank">Learn More</a>
+                                                <p class="btn more"><a href="../Data_Insiders_Community.htm" target="_blank" rel="noopener noreferrer">Learn More</a>
                                                 </p>
                                             </div>
                                             <div>
@@ -506,15 +506,15 @@
                                                 <p>&#160;</p>
                                             </div>
                                             <div>
-                                                <p class="footer bottom"><a href="https://www.syniti.com/privacy-policy/">Privacy Policy</a>
+                                                <p class="footer bottom"><a href="https://www.syniti.com/privacy-policy/" target="_blank" rel="noopener noreferrer">Privacy Policy</a>
                                                 </p>
                                             </div>
                                             <div>
-                                                <p class="footer bottom"><a href="https://www.syniti.com/trademarks/">Trademarks</a>
+                                                <p class="footer bottom"><a href="https://www.syniti.com/trademarks/" target="_blank" rel="noopener noreferrer">Trademarks</a>
                                                 </p>
                                             </div>
                                             <div>
-                                                <p class="footer bottom"><a href="https://www.syniti.com/terms-of-use/">Terms of Use</a>
+                                                <p class="footer bottom"><a href="https://www.syniti.com/terms-of-use/" target="_blank" rel="noopener noreferrer">Terms of Use</a>
                                                 </p>
                                             </div>
                                         </div>

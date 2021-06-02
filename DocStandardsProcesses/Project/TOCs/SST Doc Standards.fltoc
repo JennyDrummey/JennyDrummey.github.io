@@ -2,41 +2,41 @@
 <CatapultToc
   Version="1">
   <TocEntry
-    Title="Doc Standards"
+    Title="Doc Standards Overview"
     Link="/Content/SSTDocStandards/BOADocStandards_Overview.html"></TocEntry>
   <TocEntry
-    Title="SST Standards"
+    Title="SST Help General Guidelines"
     Link="/Content/SSTDocStandards/BOADocStandards_OnlineGenGuidelines.html">
     <TocEntry
-      Title="Use Case Guidelines"
+      Title="SST Use Case Guidelines"
       Link="/Content/SSTDocStandards/BOADocStandards_UCGuidelines.html" />
     <TocEntry
-      Title="Page Description Guidelines"
+      Title="SST Page Description Guidelines"
       Link="/Content/SSTDocStandards/BOADocStandards_FDGuidelines.html" />
     <TocEntry
-      Title="Dashboard Guidelines"
+      Title="SST Dashboard Guidelines"
       Link="/Content/SSTDocStandards/BOADocStandards_DashGuidelines.html"></TocEntry>
     <TocEntry
       Title="SST UI Terms"
       Link="/Content/SSTDocStandards/BOADocStandards_UITerms.html"></TocEntry>
     <TocEntry
-      Title="SST Specific Terms"
+      Title="SST Terms"
       Link="/Content/SSTDocStandards/BOADocStandards_CompNamesTerms.html" />
   </TocEntry>
   <TocEntry
-    Title="SKT Standards"
+    Title="SKT Help Standards"
     Link="/Content/SKTDocStandards/IGCDocStandards_genWritingStyle.html">
     <TocEntry
-      Title="Use Case Example"
+      Title="SKT Use Case Example"
       Link="/Content/SKTDocStandards/IGCDocStandards_useCase.html"></TocEntry>
     <TocEntry
-      Title="What's New Standards"
+      Title="SKT What's New Standards"
       Link="/Content/SKTDocStandards/IGCDocStandards_enhancements.html" />
     <TocEntry
       Title="SKT Styles"
       Link="/Content/SKTDocStandards/IGCDocStandards_styles.html"></TocEntry>
     <TocEntry
-      Title="SKT Specific Terms"
+      Title="UI Terms for the SKT"
       Link="/Content/SKTDocStandards/IGCDocStandards_wordChoice.html"></TocEntry>
     <TocEntry
       Title="SKT Notifications and Messaging"
