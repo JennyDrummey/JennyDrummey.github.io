@@ -1,6 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('..\Resources\MasterPages\DocProcess.flmsp');">
-    <head><title></title>
+    <head>
+        <title>
+        </title>
         <link href="../Resources/Stylesheets/newDefault.css" rel="stylesheet" type="text/css" />
     </head>
     <body>
@@ -11,11 +13,13 @@
         <p>The Full version contains Master Data Management, but not ISA. The following Installation Manuals in a Flare project are updated for each release <em>if there are changes to be made.</em> </p>
         <ul>
             <li>
-                <p><i>Syniti Solutions Installation and Upgrade Manual </i>
+                <p>
+                    <i>Syniti Solutions Installation and Upgrade Manual </i>
                 </p>
             </li>
             <li>
-                <p><i>Syniti Solutions Software Requirements and Hardware Sizing Guide</i>.</p>
+                <p>
+                    <i>Syniti Solutions Software Requirements and Hardware Sizing Guide</i>.</p>
             </li>
         </ul>
         <h3 id="manuals-to-update-for-sap-pq">Manuals to Update for SAP PQ</h3>
@@ -29,7 +33,8 @@
             <li style="font-style: italic;">SAP Accelerators by Syniti Software Requirements and Hardware Sizing Guide (always updated)</li>
         </ul>
         <h4 id="sap-advanced-data-migration-by-syniti-cloud-edition">SAP Advanced Data Migration by Syniti, cloud edition</h4>
-        <p class="note"><b>NOTE</b>: The most recent PQ did not require us to produce these manuals. We may have to do so n the future. Formerly the Cloud SKU, this item has passed the PQ Process and is on the price list as of November 2019. Cloud edition users will always be new installs, and on prem users will not update to cloud. We do not need to provide the security migration documents prepared for the 7.1 release for this product.</p>
+        <p class="note">
+            <b>NOTE</b>: The most recent PQ did not require us to produce these manuals. We may have to do so n the future. Formerly the Cloud SKU, this item has passed the PQ Process and is on the price list as of November 2019. Cloud edition users will always be new installs, and on prem users will not update to cloud. We do not need to provide the security migration documents prepared for the 7.1 release for this product.</p>
         <ul>
             <li style="font-style: italic;">SAP Advanced Data Migration by Syniti, cloud edition Configuration Guide</li>
             <li style="font-style: italic;">SAP Advanced Data Migration by Syniti, cloud edition Implementation Quick Start Guide</li>
@@ -59,23 +64,30 @@
         <p>Follow these steps to update the install manuals: </p>
         <ol>
             <li>
-                <p><a href="#Synchronize_your_master_branch_with_the_BackOfficeAssoc_GitHub_Repo">The Tech Writer synchronizes their local current releases branch with the BackOfficeAssoc dsp-install-manuals branch</a>. </p>
-                <p class="note"><b>NOTE</b>: If you do not have a local copy of the install manuals on your laptop, see <a href="#Clone_the_dsp-install-manuals_repo">Clone the dsp-install-manual</a></p>
+                <p>
+                    <a href="#Synchronize_your_master_branch_with_the_BackOfficeAssoc_GitHub_Repo" target="_blank" rel="noopener noreferrer">The Tech Writer synchronizes their local current releases branch with the BackOfficeAssoc dsp-install-manuals branch</a>. </p>
+                <p class="note">
+                    <b>NOTE</b>: If you do not have a local copy of the install manuals on your laptop, see <a href="#Clone_the_dsp-install-manuals_repo" target="_blank" rel="noopener noreferrer">Clone the dsp-install-manual</a></p>
             </li>
             <li>
                 <p>
-                    <p><a href="#Create_a_branch_for_your_updates_based_on_the_master_branch">The TW creates a new Staging branch based on the latest Staging branch in the dsp-install-manuals repo</a>. </p>
+                    <p>
+                        <a href="#Create_a_branch_for_your_updates_based_on_the_master_branch" target="_blank" rel="noopener noreferrer">The TW creates a new Staging branch based on the latest Staging branch in the dsp-install-manuals repo</a>. </p>
                 </p>
             </li>
             <li>
-                <p><a href="#Create_a_Release_Folder_on_SharePoint">The TW creates a release folder on SharePoint in the Published folder for the current release, creates new Word docs for review with the updated version number in the file titles</a>. </p>
-                <p class="note"><b>NOTE</b>: Ensure Track Changes is turned on for this version so that reviewers can find updates easily. The TW will include a link to this folder in the next step when they create the Jira ticket.</p>
+                <p>
+                    <a href="#Create_a_Release_Folder_on_SharePoint" target="_blank" rel="noopener noreferrer">The TW creates a release folder on SharePoint in the Published folder for the current release, creates new Word docs for review with the updated version number in the file titles</a>. </p>
+                <p class="note">
+                    <b>NOTE</b>: Ensure Track Changes is turned on for this version so that reviewers can find updates easily. The TW will include a link to this folder in the next step when they create the Jira ticket.</p>
             </li>
             <li>
-                <p><a href="#Create_a_JIRA_Ticket_for_the_Manuals">The TW creates a Jira ticket in the DSP70 project for updating the manuals for this release</a>. </p>
+                <p>
+                    <a href="#Create_a_JIRA_Ticket_for_the_Manuals" target="_blank" rel="noopener noreferrer">The TW creates a Jira ticket in the DSP70 project for updating the manuals for this release</a>. </p>
             </li>
             <li>
-                <p><a href="#nk_Tickets_Related_to_Manuals_to_JIRA_Epic">The TW links all tickets that describe updates to manuals to this ticket to track the updates</a>. </p>
+                <p>
+                    <a href="#nk_Tickets_Related_to_Manuals_to_JIRA_Epic" target="_blank" rel="noopener noreferrer">The TW links all tickets that describe updates to manuals to this ticket to track the updates</a>. </p>
             </li>
             <li>
                 <p>The TW and contributors review and update the manuals in Sharepoint in the Published folder and Flare as needed. If major changes have been made to the Installation Manuals, Support will test these steps. </p>
@@ -84,7 +96,7 @@
                 <p>Once the collaboration is complete and the content is final, the approver sets the <strong>Documentation Status</strong> field to of the installation manual Jira issue to <strong>Approved</strong>. </p>
             </li>
             <li>
-                <p>The TW makes the changes in the Stangingnnn branch of the Flare project. Refer to <a href="BOADocProcess_UpdateOnlineHelp.html">Update Online Help</a> for more information. After all changes are made, the TW <a href="BOADocProcess_Update_Help_on_Dev_and_Prod_Sites.html#Update">builds the project</a> in the dev environment in Jenkins.</p>
+                <p>The TW makes the changes in the Stangingnnn branch of the Flare project. Refer to <a href="BOADocProcess_UpdateOnlineHelp.html" target="_blank" rel="noopener noreferrer">Update Online Help</a> for more information. After all changes are made, the TW <a href="BOADocProcess_Update_Help_on_Dev_and_Prod_Sites.html#Update" target="_blank" rel="noopener noreferrer">builds the project</a> in the dev environment in Jenkins.</p>
             </li>
             <li>
                 <p>The TW sets the <strong>Documentation Status</strong> field of the installation manual Jira issue to <strong>Peer Review</strong> and requests a peer review from another tech writer on the team in the doc_checkouts Slack channel. </p>
@@ -96,13 +108,18 @@
                 <p> The TW sends notification that the final manuals are ready to Support with a link to the production version  and then closes the Jira ticket. </p>
             </li>
         </ol>
-        <h3 id="clone-the-dsp-install-manuals-repo"><a name="Clone_the_dsp-install-manuals_repo"></a>Clone the dsp-install-manuals repo</h3>
-        <p>To clone the dsp-install-manuals repo, follow the instructions <a href="BOADocProcess_GitInitSetup.html#Clone_BackOffice/dsp-docs_repo_to_local">here</a>.</p>
-        <h3 id="synchronize-your-master-branch-with-the-backofficeassoc-github-repo"><a name="Synchronize_your_master_branch_with_the_BackOfficeAssoc_GitHub_Repo"></a>Synchronize your master branch with the BackOfficeAssoc GitHub Repo</h3>
-        <p class="note"><b>NOTE</b>: You <strong>MUST</strong> perform these steps each time you checkout a branch to ensure you are working in the latest copy of the master branch.</p>
+        <h3 id="clone-the-dsp-install-manuals-repo">
+            <a name="Clone_the_dsp-install-manuals_repo">
+            </a>Clone the dsp-install-manuals repo</h3>
+        <p>To clone the dsp-install-manuals repo, follow the instructions <a href="BOADocProcess_GitInitSetup.html#Clone_BackOffice/dsp-docs_repo_to_local" target="_blank" rel="noopener noreferrer">here</a>.</p>
+        <h3 id="synchronize-your-master-branch-with-the-backofficeassoc-github-repo">
+            <a name="Synchronize_your_master_branch_with_the_BackOfficeAssoc_GitHub_Repo">
+            </a>Synchronize your master branch with the BackOfficeAssoc GitHub Repo</h3>
+        <p class="note">
+            <b>NOTE</b>: You <strong>MUST</strong> perform these steps each time you checkout a branch to ensure you are working in the latest copy of the master branch.</p>
         <ol type="1">
             <li>In Windows-Explorer, right-click your <b>dsp-install-manuals</b> local folder and select <strong>Git Bash Here</strong>.
-        <p><img src="../Resources/Images/gitBashHere.png" /></p><p class="note"><b>NOTE</b>: If you do not have a local dsp-install-manuals repo, see <a href="#clone-the-dsp-install-manuals-repo">Clone the dsp-install-manuals repo</a> for instructions.</p></li>
+        <p><img src="../Resources/Images/gitBashHere.png" /></p><p class="note"><b>NOTE</b>: If you do not have a local dsp-install-manuals repo, see <a href="#clone-the-dsp-install-manuals-repo" target="_blank" rel="noopener noreferrer">Clone the dsp-install-manuals repo</a> for instructions.</p></li>
         </ol>
         <ol type="1" MadCap:continue="true">
             <li>Switch to the Stagingnnn branch where nnn is the latest release, by entering <code class="highlighter-rouge">g<b>it checkout Stagingnnn</b></code>.
@@ -115,9 +132,11 @@
             <li>Enter the command <code style="font-weight: bold;">git commit -m "&lt;your commit message&gt;"</code>.</li>
             <li>Enter the command <code style="font-weight: bold;">git push origin &lt;new branch name&gt;</code>.</li>
         </ol>
-        <h3 id="create-a-release-folder-on-sharepoint"><a name="Create_a_Release_Folder_on_SharePoint"></a>Create a Release Folder on SharePoint</h3>
+        <h3 id="create-a-release-folder-on-sharepoint">
+            <a name="Create_a_Release_Folder_on_SharePoint">
+            </a>Create a Release Folder on SharePoint</h3>
         <ol type="1">
-            <li>Navigate to the <strong>Product Documentation &gt; Published</strong> folder located <a href="https://boaweb.sharepoint.com/sites/ProductDocumentation/Shared Documents/Forms/AllItems.aspx?id=%2Fsites%2FProductDocumentation%2FShared%20Documents%2FProduct%20Documentation%2FPublished" target="_blank">here</a>.</li>
+            <li>Navigate to the <strong>Product Documentation &gt; Published</strong> folder located <a href="https://boaweb.sharepoint.com/sites/ProductDocumentation/Shared Documents/Forms/AllItems.aspx?id=%2Fsites%2FProductDocumentation%2FShared%20Documents%2FProduct%20Documentation%2FPublished" target="_blank" rel="noopener noreferrer">here</a>.</li>
             <li>Click <strong>+New</strong> and select <strong>Folder</strong>.</li>
             <li>Enter the release number into the <strong>Folder Name</strong> field.</li>
             <li>Click <strong>Create</strong>.</li>
@@ -125,10 +144,13 @@
             <li>Click <strong>Copy to</strong> and select the new release folder you just created.</li>
             <li>Update the titles of the manuals to reflect the new release number.</li>
             <li>Open the new manuals and accept all changes made in the previous versions. </li>
-            <p class="note"><b>NOTE</b>:&#160;You could also create a new version of the Word document for any of the guides in Flare. Set the correct TOC for the print version (the one in the archive folder) and the Word targets will still work).</p>
+            <p class="note">
+                <b>NOTE</b>:&#160;You could also create a new version of the Word document for any of the guides in Flare. Set the correct TOC for the print version (the one in the archive folder) and the Word targets will still work).</p>
             <li>Ensure Track Changes is on in the Word document to record updates.</li>
         </ol>
-        <h3 id="create-a-jira-ticket-for-the-manuals"><a name="Create_a_JIRA_Ticket_for_the_Manuals"></a>Create a JIRA Ticket for the Manuals</h3>
+        <h3 id="create-a-jira-ticket-for-the-manuals">
+            <a name="Create_a_JIRA_Ticket_for_the_Manuals">
+            </a>Create a JIRA Ticket for the Manuals</h3>
         <ol type="1">
             <li>In JIRA click the plus sign on the left side of the <strong>System Dashboard</strong>.</li>
             <li>Select the DSP70 project from the <strong>Project</strong> dropdown.</li>
@@ -140,10 +162,12 @@
             <li>Add the <strong>Assignee</strong>, as yourself.</li>
             <li>Click <strong>Update</strong>.</li>
         </ol>
-        <h3 id="link-tickets-related-to-manuals-to-jira-epic"><a name="nk_Tickets_Related_to_Manuals_to_JIRA_Epic"></a>Link Tickets Related to Manuals to JIRA Epic</h3>
+        <h3 id="link-tickets-related-to-manuals-to-jira-epic">
+            <a name="nk_Tickets_Related_to_Manuals_to_JIRA_Epic">
+            </a>Link Tickets Related to Manuals to JIRA Epic</h3>
         <p>Add links to the epic to any tickets that affect the installation manual.</p>
         <h3 id="make-updates-in-flare">Make Updates in Flare</h3>
-        <p>After the manual content is reviewed and finalized make  updates in Flare. Follow the instructions in the topics <a href="BOADocProcess_Workflow_InProcess.html">Work Flow In Process</a> and <a href="BOADocProcess_UpdateOnlineHelp.html">Update Online Help</a>.</p>
+        <p>After the manual content is reviewed and finalized make  updates in Flare. Follow the instructions in the topics <a href="BOADocProcess_Workflow_InProcess.html" target="_blank" rel="noopener noreferrer">Work Flow In Process</a> and <a href="BOADocProcess_UpdateOnlineHelp.html" target="_blank" rel="noopener noreferrer">Update Online Help</a>.</p>
         <p>Document all updates in the <strong>Version History - Install</strong> and the <strong>Version History - SRHS</strong> topics (located in the Content folder). While these topics are no longer included in the final manuals, we track our changes for internal purposes.</p>
         <h3 id="update-the-targets-for-the-manuals">Update the Targets for the Manuals</h3>
         <table>
@@ -207,7 +231,7 @@
             </li>
         </ol>
         <h3 id="perform-peer-review-of-installation-manuals">Perform Peer Review of Installation Manuals</h3>
-        <p>Follow the steps <a href="BOADocProcess_Workflow_PeerReview.html">here</a>. </p>
+        <p>Follow the steps <a href="BOADocProcess_Workflow_PeerReview.html" target="_blank" rel="noopener noreferrer">here</a>. </p>
         <h3 id="updating-the-sap-operations-guide">Updating the SAP Operations Guide</h3>
         <p>This manual contains diagrams created in PowerPoint in the section Technical System Landscape. These diagrams are stored in the Published folder (Level_2_Slide_Box_ACMAndISA.pptx) along with the other files. When producing the final version of the Ops guide, pdf the slides and insert them into the pdf of the ops guide.</p>
     </body>
