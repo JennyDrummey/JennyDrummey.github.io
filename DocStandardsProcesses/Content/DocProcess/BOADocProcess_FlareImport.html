@@ -23,42 +23,52 @@
         <p>1. Find the desired stylesheet/page layout in Windows File Exporer and copy the folder. </p>
         <p>2. Select the Flare project and open the <strong>Content &gt; Resources &gt; Stylesheets</strong> folder in Windows File Exporer and paste in your stylesheet. </p>
         <p>3. Open the <strong>Content &gt; Resources &gt; PageLayouts</strong> folder in Windows File Explorer and paste in your page layouts. TIP: Depending on your project you may also want to add the Title, Document History and Table of Contents topics from the Content folder. </p>
-        <p class="note"><b>TIP:</b> Flare separates table styles into a separate stylesheet and it is assigned its own folder. If you have table styles, separate them from your stylesheet into a new document and paste it into the <strong>Tablestyles</strong> folder.</p>
+        <p class="note">
+            <b>TIP:</b> Flare separates table styles into a separate stylesheet and it is assigned its own folder. If you have table styles, separate them from your stylesheet into a new document and paste it into the <strong>Tablestyles</strong> folder.</p>
         <p> 4. Open the Flare project. </p>
         <p>5. Click <strong>Project</strong> in the top nav menu.</p>
         <p> 6. Click <strong>Project Properties</strong> on the ribbon. </p>
         <p>7. Select the main stylesheet you just added in the Master Stylesheet list box. </p>
-        <p class="note"><b>NOTE: </b>You do not want to add a Master Page Layout because page layout changes based on what is on the page.</p>
+        <p class="note">
+            <b>NOTE: </b>You do not want to add a Master Page Layout because page layout changes based on what is on the page.</p>
         <h2 id="part-ii-import-word-files-and-map-styles">Part II: Import Word Files and Map Styles</h2>
         <h3 id="import-word-file">Import Word File</h3>
         <p>To import a word file into Flare: </p>
         <p>1. Click on the <strong>Project Organizer</strong> tab. </p>
         <p>2. Right-click the <strong>Imports</strong> folder and select <strong>Add MS Word Import File . . .</strong> </p>
         <p>3. Enter a name for the import in the <strong>File Name</strong> field. </p>
-        <p class="note"><b>TIP:</b> For example, Integrate – I would recommend adding the name of the manual here as each content folder will contain topic files for that manual.</p>
+        <p class="note">
+            <b>TIP:</b> For example, Integrate – I would recommend adding the name of the manual here as each content folder will contain topic files for that manual.</p>
         <p>4. Click <strong>Add</strong>.</p>
         <h3 id="map-styles">Map Styles</h3>
         <p>To map styles in import file in Flare: </p>
         <p>1. Uncheck the <strong>Link Generated Files to Source Files</strong> checkbox at the bottom of the page on the <strong>Source Files</strong> tab. </p>
-        <p class="note"><b style="color: #ff4500;">IMPORTANT:</b> The reason you are doing this is you don’t want to be connected to the Word document anymore. If you make changes going further, you will make those changes in Flare, not Word.</p>
+        <p class="note">
+            <b style="color: #ff4500;">IMPORTANT:</b> The reason you are doing this is you don’t want to be connected to the Word document anymore. If you make changes going further, you will make those changes in Flare, not Word.</p>
         <p> 2. Click the green <strong>+</strong> icon.</p>
         <p> 3. Find the Word file you want to import in Windows File Explorer. </p>
         <p>4. Click <strong>Open</strong>. </p>
         <p>5. Click the <strong>New TopicStyles</strong> tab. </p>
         <p>6. Select the style you want to separate topics by on the left side. </p>
-        <p class="note"><b>TIP:</b> For example: I separated the topics by the Exercise style. For a more granular breakup, you can separate topics by more than one style type. The style is often H1 since we want fewer larger topics versus several smaller topics. </p>
-        <p class="note"><b style="color: #ff4500;">IMPORTANT:</b> If you break up your topic by more than one style, you must set up your Outline style and your auto-numbering differently than what is demonstrated in the original steps.</p>
+        <p class="note">
+            <b>TIP:</b> For example: I separated the topics by the Exercise style. For a more granular breakup, you can separate topics by more than one style type. The style is often H1 since we want fewer larger topics versus several smaller topics. </p>
+        <p class="note">
+            <b style="color: #ff4500;">IMPORTANT:</b> If you break up your topic by more than one style, you must set up your Outline style and your auto-numbering differently than what is demonstrated in the original steps.</p>
         <p> 7. Click the <strong>arrow</strong> pointing right to add the style. You will see it populate the text area after you click.</p>
         <p> 8. Click the <strong>Stylesheet</strong> tab. </p>
         <p>9. Select the stylesheet you want to use by clicking the <strong>Stylesheet</strong> button. This is most likely <strong>default.css</strong>. </p>
         <p>10. Find the stylesheet we already pasted into the <strong>Stylesheet</strong> folder. </p>
         <p>11. Click the <strong>Don’t Preserve MS Word Styles</strong> option under <strong>Source Styles</strong>. </p>
-        <p class="note"><b>NOTE: </b>The reason we are not preserving these styles is we are going to convert the Word styles to normal CSS styles. You will not lose all the work you have done to apply styles to your Word document.</p>
+        <p class="note">
+            <b>NOTE: </b>The reason we are not preserving these styles is we are going to convert the Word styles to normal CSS styles. You will not lose all the work you have done to apply styles to your Word document.</p>
         <p>12. Click the <strong>Paragraph Styles</strong> tab.</p>
-        <p class="note"><b>TIP:</b> On the left side you will see a list of all the <strong>MS Word Styles</strong> and on the right side you will see a list of the <strong>Flare Styles</strong> from the stylesheet we selected.</p>
+        <p class="note">
+            <b>TIP:</b> On the left side you will see a list of all the <strong>MS Word Styles</strong> and on the right side you will see a list of the <strong>Flare Styles</strong> from the stylesheet we selected.</p>
         <p>13. Select an <strong>MS</strong> <strong>Word Style</strong> on the left and select the corresponding <strong>Flare Style</strong> on the right. </p>
         <p>14. Click the <strong>Map</strong> button to map the styles. </p>
-        <p>15. Do this for the remainder of the styles. For multi-level lists, remove the formatting during the import process and re-structure manually in Flare.</p><pre xml:space="preserve"><code>|---------------+------------------|
+        <p>15. Do this for the remainder of the styles. For multi-level lists, remove the formatting during the import process and re-structure manually in Flare.</p>
+        <pre xml:space="preserve">
+            <code>|---------------+------------------|
 Word Style | Flare Style
 |:--------------|:-----------------|
 | \[Basic Paragraph\] |  p.footertitle |
@@ -77,7 +87,8 @@ Word Style | Flare Style
 | TOC 2               |  p.TOC2        |
 | Version Number      |  p.version     |
 |---------------+------------------|
-NOTE: Make sure you have added the character styles for all bold and italicized words for these styles to be displayed -- *See [Preparing Documents for Importation into Flare][BOADocProcess_PrepareFlareImport] for more information on this step." %}</code></pre>
+NOTE: Make sure you have added the character styles for all bold and italicized words for these styles to be displayed -- *See [Preparing Documents for Importation into Flare][BOADocProcess_PrepareFlareImport] for more information on this step." %}</code>
+        </pre>
         <ol start="19" type="1">
             <li>
                 <p>Click the <strong>Save All</strong> icon in top left corner.</p>
@@ -89,24 +100,29 @@ NOTE: Make sure you have added the character styles for all bold and italicized 
                 <p>Click <strong>Accept</strong>.</p>
             </li>
         </ol>
-        <p class="note"><b>NOTE: </b>The Word import process does not maintain in-line formatting (i.e., bold or italics in numbered steps or bullet lists. Use the Flare ribbon to format bullets.</p>
+        <p class="note">
+            <b>NOTE: </b>The Word import process does not maintain in-line formatting (i.e., bold or italics in numbered steps or bullet lists. Use the Flare ribbon to format bullets.</p>
         <h2 id="part-iii-organize-content-and-clean-up-styles">Part III: Organize Content and Clean Up Styles</h2>
         <h3 id="organize-content">Organize Content</h3>
         <p>To organize content: </p>
         <p>1. Open the Flare project. </p>
         <p>2. Open the folder with the topics you imported from the Word file. It will be named what you named your import file.</p>
         <p>3. View your topics and make sure they are divided the way you want them to be divided .</p>
-        <p class="note"><b>NOTE:</b> When you imported the Word document, you listed the heading levels which would break up the document into topics. Wherever that style was located in the Word document, Flare started a new Topic. However, in some instances, topics were created by default, like files that do not have that style. Flare does a pretty good job here, but you want to go through and make sure all of your content is divided the way you wanted it to be divided. See where each topic begins and ends and if it isn’t to your liking, cut and paste content where it should be and create/delete topics as needed.</p>
+        <p class="note">
+            <b>NOTE:</b> When you imported the Word document, you listed the heading levels which would break up the document into topics. Wherever that style was located in the Word document, Flare started a new Topic. However, in some instances, topics were created by default, like files that do not have that style. Flare does a pretty good job here, but you want to go through and make sure all of your content is divided the way you wanted it to be divided. See where each topic begins and ends and if it isn’t to your liking, cut and paste content where it should be and create/delete topics as needed.</p>
         <p>3. You will also want to take a look at your images to make sure there are no duplicates.</p>
-        <p class="note"><b> TIP:</b> You may also want to organize them by type/content sections into different folders. By default Flare names all images by the title of the topic they are in, and then adds numbers, which is not necessarily the best way to organize your images. WARNING: When you do all of this reorganizing, you are changing file paths so Flare will ask you if you want to update the links. Make sure you say <strong>yes</strong> to that or your images and files will not be connected properly.</p>
+        <p class="note">
+            <b> TIP:</b> You may also want to organize them by type/content sections into different folders. By default Flare names all images by the title of the topic they are in, and then adds numbers, which is not necessarily the best way to organize your images. WARNING: When you do all of this reorganizing, you are changing file paths so Flare will ask you if you want to update the links. Make sure you say <strong>yes</strong> to that or your images and files will not be connected properly.</p>
         <h3 id="clean-up-styles">Clean up Styles</h3>
         <p>To clean up styles: </p>
         <p>1. Open the first topic in your document.</p>
         <p>2. Check to make sure styles have been applied properly by using the cursor to click the text and looking in the <strong>Styles</strong> panel to see what style has been applied. </p>
-        <p class="note"><b>NOTE: </b>To open <strong>Styles</strong> panel, click <strong>Home</strong> in top nav menu and select <strong>Style Window</strong> from the ribbon.</p>
+        <p class="note">
+            <b>NOTE: </b>To open <strong>Styles</strong> panel, click <strong>Home</strong> in top nav menu and select <strong>Style Window</strong> from the ribbon.</p>
         <p>3. Specific issues that need addressing: </p>
         <p>* <strong>Delete Example and Outline numbers</strong> – to be replaced with auto styles. The Flare styles already have Exercise and outline numbers as part of the style. So those words/numbers will need to be removed. </p>
-        <p class="note"><b>TIP: </b>It will seem like all of the Exercises are Exercise 1 in the project. Once the document is produced though these numbers will populate correctly once you have formatted your TOC appropriately.</p>
+        <p class="note">
+            <b>TIP: </b>It will seem like all of the Exercises are Exercise 1 in the project. Once the document is produced though these numbers will populate correctly once you have formatted your TOC appropriately.</p>
         <p>* <strong>Make sure all li’s are contained in a single ol or ul</strong> – To make them under one ul or ol, you can do this in the code or you can highlight the entire set of li’s, then click the bullets button on the ribbon 3 times, until they are all under one li.</p>
         <p>
             <img src="../Resources/Images/manyUls.png" />
@@ -125,7 +141,8 @@ NOTE: Make sure you have added the character styles for all bold and italicized 
         <p>
             <img src="../Resources/Images/nestedLists.png" />
         </p>
-        <p><strong>Notes issues:</strong> Again because of the difference in how Word and Flare handle lists your notes will need to be reformatted to look they way they should. To put Note elements between ordered list items within the same li: </p>
+        <p>
+            <strong>Notes issues:</strong> Again because of the difference in how Word and Flare handle lists your notes will need to be reformatted to look they way they should. To put Note elements between ordered list items within the same li: </p>
         <p>1. Place cursor after the period of the last li before the note.</p>
         <p> 2. Hold down the Control key and click the semicolon key then hit enter key. </p>
         <p>3. Either drag and drop the Note into the new space or copy and paste. </p>
@@ -140,7 +157,8 @@ NOTE: Make sure you have added the character styles for all bold and italicized 
         <p>2. Look for any elements that have a "style" attribute within them.
       </p>
         <p>3. Remove the style element. </p>
-        <p><b style="color: #ff4500;">IMPORTANT:</b> There is one exception to this rule -- do not remove the style inserted for the square bullet list items.        </p>
+        <p>
+            <b style="color: #ff4500;">IMPORTANT:</b> There is one exception to this rule -- do not remove the style inserted for the square bullet list items.        </p>
         <h2 id="part-iv-updateclean-up-the-toc">Part IV: Update/Clean up the TOC</h2>
         <p>Updating/ cleaning up the TOC requires two steps. First, you need to link the topics and bookmarks to the headings and subheadings in your TOC. Then you need to set up the auto numbers so that they populate correctly.</p>
         <h3 id="update-links">Update Links</h3>
@@ -148,11 +166,13 @@ NOTE: Make sure you have added the character styles for all bold and italicized 
         <ol type="1">
             <li>Open the TOC by clicking the <strong>Project Organizer</strong> tab, then opening the <strong>TOCs</strong> folder. </li>
         </ol>
-        <p class="note"><b>TIP: </b>There should be two TOCs – one came in with the Word import and the other is a Master TOC that is the default.</p>
+        <p class="note">
+            <b>TIP: </b>There should be two TOCs – one came in with the Word import and the other is a Master TOC that is the default.</p>
         <ol type="1" MadCap:continue="true">
             <li>Open the word import TOC by double-clicking it. </li>
         </ol>
-        <p class="note"><b>TIP:</b> You should see several books listed with the title of the main headings in your import. When you click on the books you will see the subheadings listed.</p>
+        <p class="note">
+            <b>TIP:</b> You should see several books listed with the title of the main headings in your import. When you click on the books you will see the subheadings listed.</p>
         <ol type="1" MadCap:continue="true">
             <li>Add topics to the TOC in the proper order by clicking on the <strong>Content Explorer</strong> tab, then selecting the topics and dragging them over to the TOC’s open pane.</li>
             <li>For each main heading/book, you need to link it to a topic. Do this by right-clicking the book and selecting <strong>Link to Topic</strong>. Then select the topic that corresponds to the book title. Do this for all of the books.</li>
@@ -160,7 +180,7 @@ NOTE: Make sure you have added the character styles for all bold and italicized 
         </ol>
         <h3 id="update-autonumbering">Update Autonumbering</h3>
         <p>To set up the auto numbers so that they populate correctly:</p>
-        <p>NOTE: “If you set up your topics to be separated by more than one style, see section <a href="#Update_AutoNumbering_-_Granular_Topics">To set up auto numbers so that they populate correctly for granular topics</a>.</p>
+        <p>NOTE: “If you set up your topics to be separated by more than one style, see section <a href="#Update_AutoNumbering_-_Granular_Topics" target="_blank" rel="noopener noreferrer">To set up auto numbers so that they populate correctly for granular topics</a>.</p>
         <ol>
             <li>
                 <p>Open Flare project.</p>
@@ -207,7 +227,8 @@ NOTE: Make sure you have added the character styles for all bold and italicized 
                     </li>
                     <li>
                         <p>Enter an '<b>i</b>' in the text box and select <b>roman(I, ii, iii)</b> from the <b>Format</b> list box. </p>
-                        <p><b>NOTE:</b> "This is where you are setting up the type of numbers you want for the remainder of your front pages.        </p>
+                        <p>
+                            <b>NOTE:</b> "This is where you are setting up the type of numbers you want for the remainder of your front pages.        </p>
                     </li>
                 </ul>
             </li>
@@ -222,7 +243,9 @@ NOTE: Make sure you have added the character styles for all bold and italicized 
             <li>For all subsequent books/topics/headings:
 <ul><li>Create a break by selecting <strong>Chapter Break</strong> from the <strong>Break Type</strong> list box. {% include note.html content=“The reason you need a Chapter break here is so that the Exercise and Outline numbers will now increment as the next chapter.” %}</li><li>Select the <strong>/title</strong> page layout from the <strong>Page Layout</strong> list box.</li><li>Select <strong>Normal</strong> from the <strong>Page Type</strong> list box.</li><li>Leave <strong>Chapter File Name</strong> as <strong>(default).</strong></li><li>Select <strong>Disabled</strong> from the <strong>Auto-end on ‘left’ page</strong> list box.</li><li>Select <strong>Increment number</strong> for the <strong>Page Number</strong> section.</li><li>Click on the <strong>Auto-Numbers</strong> tab.</li><li>Select <strong>Increment number</strong> for the <strong>Chapter Number</strong>.</li><li>You want these to increment so that all of your Exercises and Outline numbers are not 1.</li></ul></li>
         </ol>
-        <h3 id="update-autonumbering---granular-topics"><a name="Update_AutoNumbering_-_Granular_Topics"></a>Update AutoNumbering - Granular Topics</h3>
+        <h3 id="update-autonumbering---granular-topics">
+            <a name="Update_AutoNumbering_-_Granular_Topics">
+            </a>Update AutoNumbering - Granular Topics</h3>
         <p>To set up auto numbers so that they populate correctly for granular topics:</p>
         <ol type="1">
             <li>Open Flare project.</li>
@@ -236,12 +259,14 @@ NOTE: Make sure you have added the character styles for all bold and italicized 
             <li>For the <strong>Document History</strong> page:
 <ul><li>Create a break by selecting <strong>Page Layout Break</strong> from the <strong>Break Type</strong> list box. NOTE: The reason this is a page layout break and not a chapter break is that we want the numbering to continue here and not restart.</li><li>Select the <strong>/title</strong> page layout from the <strong>Page Layout</strong> list box.</li><li>Select <strong>First</strong> from the <strong>Page Type</strong> list box.</li><li>Select <strong>Disabled</strong> from the <strong>Auto-end on ‘left’ page</strong> list box.</li></ul></li>
         </ol>
-        <p class="note"><b>NOTE:</b> The default for the page numbering is for it to increment, which you want at this point so you do not need to specify the page number type here.</p>
+        <p class="note">
+            <b>NOTE:</b> The default for the page numbering is for it to increment, which you want at this point so you do not need to specify the page number type here.</p>
         <ol type="1" MadCap:continue="true">
             <li>For the <strong>Table of Contents</strong> page:
 <ul><li>Create a break by selecting <strong>Page Layout Break</strong> from the <strong>Break Type</strong> list box. </li><li>NOTE: The reason this is a page layout break and not a chapter break is that we want the numbering to continue here and not restart.</li><li>Select the <strong>/TableOfContents</strong> page layout from the <strong>Page Layout</strong> list box.</li><li>Select <strong>First</strong> from the <strong>Page Type</strong> list box.</li><li>Select <strong>Disabled</strong> from the <strong>Auto-end on ‘left’ page</strong> list box. </li></ul></li>
         </ol>
-        <p class="note"><b>NOTE: </b>The default for the page numbering is for it to increment, which you want at this point so you do not need to specify the page number type here.</p>
+        <p class="note">
+            <b>NOTE: </b>The default for the page numbering is for it to increment, which you want at this point so you do not need to specify the page number type here.</p>
         <ol type="1" MadCap:continue="true">
             <li>For the <strong>Exercise</strong> headings:
 <ul><li>Create a break by selecting <strong>Chapter Break</strong> from the <strong>Break Type</strong> list box.</li><li>Select the <strong>/title</strong> page layout from the <strong>Page Layout</strong> list box.</li><li>Select <strong>Normal</strong> from the <strong>Page Type</strong> list box.</li><li>Leave <strong>Chapter File Name</strong> as <strong>(default).</strong></li><li>Select <strong>Disabled</strong> from the <strong>Auto-end on ‘left’ page</strong> list box.</li><li>Select <strong>Reset to</strong> in the <strong>Page Number</strong> section of the window.</li><li>Enter a ‘<strong>1</strong>’ in the text box and select <strong>decimal (1, 2, 3)</strong> from the Format list box.</li><li>Click on the <strong>Auto-Numbers</strong> tab.</li><li>Select <strong>Reset to</strong> for <strong>Chapter Number</strong>.</li><li>Enter a ‘<strong>1</strong>’ in the text box and select <strong>decimal (1, 2, 3)</strong> from the Format list box.</li></ul></li>
@@ -251,7 +276,8 @@ NOTE: Make sure you have added the character styles for all bold and italicized 
             <li>For subsequent <strong>Outline</strong> headings (For example. 1.2, 1.3, 2.2, 2.3):
 <ul><li>Create a break by selecting <strong>Page Layout Break</strong> from the <strong>Break Type</strong> list box.</li><li>Select the <strong>/title</strong> page layout from the <strong>Page Layout</strong> list box.</li><li>Select <strong>Normal</strong> from the <strong>Page Type</strong> list box.</li><li>Leave <strong>Chapter File Name</strong> as <strong>(default).</strong></li><li>Select <strong>Disabled</strong> from the <strong>Auto-end on ‘left’ page</strong> list box.</li><li>Leave <strong>Page Number</strong> set to <strong>Increment number</strong>.</li><li>Check the <strong>Start a new section</strong> check box in the <strong>Section Break</strong> area of the window.</li><li>Leave the list box selection as <strong>(default).</strong></li><li>Click on the <strong>Auto-Numbers</strong> tab.</li><li>Leave <strong>Chapter Number</strong> set to <strong>Increment</strong>.</li><li>Leave <strong>Chapter Number</strong> set to <strong>Increment</strong>. </li></ul></li>
         </ol>
-        <p class="note"><b>NOTE:</b> The values in the Auto-Numbers tab are automatic and you shouldn’t need to change anything; however, if the auto-numbering is not populating correctly, you may need to ensure this tab displays these settings.</p>
+        <p class="note">
+            <b>NOTE:</b> The values in the Auto-Numbers tab are automatic and you shouldn’t need to change anything; however, if the auto-numbering is not populating correctly, you may need to ensure this tab displays these settings.</p>
         <h2 id="part-v-set-up-the-target">Part V: Set up the Target</h2>
         <p>To set up the target:</p>
         <ol type="1">
@@ -263,13 +289,15 @@ NOTE: Make sure you have added the character styles for all bold and italicized 
             <li>Select your TOC in the <strong>Master TOC</strong> list box.</li>
             <li>Leave the <strong>Master Page Layout</strong> as <strong>(default)</strong>. </li>
         </ol>
-        <p class="note"><b>NOTE:</b> You set up the appropriate layouts in the TOC already. If you select something else here it will override what you have already entered. Not all of your layouts will be the same.</p>
+        <p class="note">
+            <b>NOTE:</b> You set up the appropriate layouts in the TOC already. If you select something else here it will override what you have already entered. Not all of your layouts will be the same.</p>
         <ol type="1" MadCap:continue="true">
             <li>Select your stylesheet from the <strong>Master Stylesheet</strong> list box.</li>
             <li>Do not worry about the rest of the inputs here.</li>
             <li>Select the <strong>Variables</strong> tab.</li>
         </ol>
-        <p class="note"><b> NOTE:</b> The Variables tab will input the variables inserted on the title page with whatever inputs you put here. This way you can use the same Title page layout for many different documents, but just create new targets for them.</p>
+        <p class="note">
+            <b> NOTE:</b> The Variables tab will input the variables inserted on the title page with whatever inputs you put here. This way you can use the same Title page layout for many different documents, but just create new targets for them.</p>
         <ol type="1" MadCap:continue="true">
             <li>Enter the <strong>Product Name</strong> into the text box.</li>
             <li>Enter the <strong>Release Date</strong> into the text box.</li>
@@ -277,7 +305,8 @@ NOTE: Make sure you have added the character styles for all bold and italicized 
             <li>Click the <strong>Advanced</strong> tab.</li>
             <li>Uncheck the <strong>Generate TOC Proxy</strong>, <strong>Generate Index Proxy</strong>, and <strong>Generate Glossary Proxy</strong> checkboxes</li>
         </ol>
-        <p class="note"><b>NOTE:</b> You don’t need Flare to create these because we have already created them and put them into our TOC. If we do not uncheck these boxes you will end up with multiple.</p>
+        <p class="note">
+            <b>NOTE:</b> You don’t need Flare to create these because we have already created them and put them into our TOC. If we do not uncheck these boxes you will end up with multiple.</p>
         <ol type="1" MadCap:continue="true">
             <li>Check the <strong>Use TOC depth for heading levels</strong> checkbox.</li>
             <li>Click the <strong>Save</strong> button.</li>

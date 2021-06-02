@@ -1,7 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('../Resources/MasterPages/DocProcess.flmsp');">
-    <head>
-    </head>
+    <head />
     <body>
         <h1>Update Static Guidance</h1>
         <p>PM and the Documentation Team determine when static guidance should be added or updated.</p>
@@ -17,8 +16,9 @@
                 <p>Create a new branch, using the Jira ticket number as a name.</p>
             </li>
             <li>
-                <p>Navigate to this file: <a href="https://github.com/BackOfficeAssoc/ui-component-libs/blob/master/projects/ui-component-libs/src/lib/guidance/constants/static-guidance.ts file.">https://github.com/BackOfficeAssoc/ui-component-libs/blob/master/projects/ui-component-libs/src/lib/guidance/constants/static-guidance.ts</a>.</p>
-                <p class="note"><b>NOTE:</b> Open with Atom or Visual Studio Code.</p>
+                <p>Navigate to this file: <a href="https://github.com/BackOfficeAssoc/ui-component-libs/blob/master/projects/ui-component-libs/src/lib/guidance/constants/static-guidance.ts file." target="_blank" rel="noopener noreferrer">https://github.com/BackOfficeAssoc/ui-component-libs/blob/master/projects/ui-component-libs/src/lib/guidance/constants/static-guidance.ts</a>.</p>
+                <p class="note">
+                    <b>NOTE:</b> Open with Atom or Visual Studio Code.</p>
             </li>
             <li>
                 <p>Update the descriptionText as needed, save and close the file.</p>
@@ -33,11 +33,13 @@
         <p>
             <img src="../Resources/Images/increment.PNG" style="border:1px solid black" />
         </p>
-        <p class="note"><b>NOTE: </b>only update the version number once during a round of updates. If you go back and forth with a reviewer, do not update the version number each time. </p>
+        <p class="note">
+            <b>NOTE: </b>only update the version number once during a round of updates. If you go back and forth with a reviewer, do not update the version number each time. </p>
         <ol MadCap:continue="true">
             <li>
                 <p>Save and push your repo to the ui-component-libs repo.</p>
-                <p><b>NOTE:</b> When staging files to commit, only add the 2 files that were changed: <span style="font-family: Consolas;">static-guidance.ts</span> and <span style="font-family: Consolas;">package.json</span>. Do <b>NOT </b>perform a <span style="font-family: Consolas;">git add . </span></p>
+                <p>
+                    <b>NOTE:</b> When staging files to commit, only add the 2 files that were changed: <span style="font-family: Consolas;">static-guidance.ts</span> and <span style="font-family: Consolas;">package.json</span>. Do <b>NOT </b>perform a <span style="font-family: Consolas;">git add . </span></p>
             </li>
             <li>
                 <p>Open a PR to merge it to master.</p>
@@ -46,10 +48,12 @@
                 <p>Ask for a review from the following groups:</p>
                 <ul>
                     <li>
-                        <p><b>App Engineering—</b>performs a technical review on things like predicates, page properties and missing quotes/commas. They may also review the package dependency updates</p>
+                        <p>
+                            <b>App Engineering—</b>performs a technical review on things like predicates, page properties and missing quotes/commas. They may also review the package dependency updates</p>
                     </li>
                     <li>
-                        <p><b>Doc Team or BA—</b>performs a textual content review</p>
+                        <p>
+                            <b>Doc Team or BA—</b>performs a textual content review</p>
                     </li>
                 </ul>
                 <p>Ask the App Engineering Group to review the PR</p>

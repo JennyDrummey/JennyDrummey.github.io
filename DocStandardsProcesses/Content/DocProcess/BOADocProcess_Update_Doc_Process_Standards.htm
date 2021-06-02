@@ -1,21 +1,23 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
-    <head>
-    </head>
+    <head />
     <body>
         <h1>Update the Doc Team's Process and Standards</h1>
-        <p class="note"><b>NOTE</b>: You must be set as a collaborator on the JennyDrummey.github.io repo to access this project. </p>
+        <p class="note">
+            <b>NOTE</b>: You must be set as a collaborator on the JennyDrummey.github.io repo to access this project. </p>
         <p>To update this help system (first time only), you must first clone the following repo: https://github.com/JennyDrummey/JennyDrummey.github.io.git</p>
-        <p class="note"><b>NOTE</b>: <a href="BOADocProcess_GitInitSetup.html">GitHub Initial Setup</a> contains the initial configuration and setup steps for Git and GitHub. These steps must be performed by a new employee.</p>
-        <p class="note"><b>NOTE</b>: Always use Git Bash. Do not use the GitHub Desktop application.</p>
-        <p class="note"><b>NOTE</b>: You MUST perform these steps each time you checkout a branch to ensure you are working in the latest copy of the release branch.</p>
+        <p class="note">
+            <b>NOTE</b>: <a href="BOADocProcess_GitInitSetup.html" target="_blank" rel="noopener noreferrer">GitHub Initial Setup</a> contains the initial configuration and setup steps for Git and GitHub. These steps must be performed by a new employee.</p>
+        <p class="note">
+            <b>NOTE</b>: Always use Git Bash. Do not use the GitHub Desktop application.</p>
+        <p class="note">
+            <b>NOTE</b>: You MUST perform these steps each time you checkout a branch to ensure you are working in the latest copy of the release branch.</p>
         <p class="note">To update the process and standards:</p>
         <ol>
             <li>
                 <p>In Windows-Explorer, right-click your local repo folder and select <b>Git Bash Here</b>.</p>
                 <p>
-                    <img src="../Resources/Images/gitBashHere.png">
-                    </img>
+                    <img src="../Resources/Images/gitBashHere.png" />
                 </p>
             </li>
         </ol>
@@ -26,20 +28,24 @@
             </li>
             <li>
                 <p>Enter the git command <b>git pull origin main</b></p>
-                <p class="note"><b>NOTE</b>: If at this point you wish to see a list of branches that are available in your local repo, enter the command git branch. All of the available local branches are listed.</p>
-                <p class="note"><b>NOTE</b>: If you are working on a big project where you perform several checkins before opening a Pull Request, use the following commands each time you begin work: git status &lt;your branch name&gt; then git checkout &lt;your branch name&gt; then git pull origin &lt;your branch name&gt;</p>
+                <p class="note">
+                    <b>NOTE</b>: If at this point you wish to see a list of branches that are available in your local repo, enter the command git branch. All of the available local branches are listed.</p>
+                <p class="note">
+                    <b>NOTE</b>: If you are working on a big project where you perform several checkins before opening a Pull Request, use the following commands each time you begin work: git status &lt;your branch name&gt; then git checkout &lt;your branch name&gt; then git pull origin &lt;your branch name&gt;</p>
             </li>
         </ol>
         <ol MadCap:continue="true">
             <li>
                 <p>Enter the command <b>git checkout -b &lt;new branch name&gt;</b></p>
-                <p class="note"><b>NOTE</b>: Name the branch after the JIRA ticket number if applicable. Use the naming convention DTNNNN. If changes are not related to a Jira ticket, give the branch a meaningful name, such as ‘releasenotesupdates’.</p>
+                <p class="note">
+                    <b>NOTE</b>: Name the branch after the JIRA ticket number if applicable. Use the naming convention DTNNNN. If changes are not related to a Jira ticket, give the branch a meaningful name, such as ‘releasenotesupdates’.</p>
             </li>
         </ol>
         <ol MadCap:continue="true">
             <li>
                 <p>Open the project in Flare and make your updates. Your updates are saved in the newbranchname.</p>
-                <p class="note"><b>NOTE</b>: Refer to <a href="BOADocProcess_UpdateOnlineHelp.html">Update Online Help in Flare</a> for steps on working in Flare.</p>
+                <p class="note">
+                    <b>NOTE</b>: Refer to <a href="BOADocProcess_UpdateOnlineHelp.html" target="_blank" rel="noopener noreferrer">Update Online Help in Flare</a> for steps on working in Flare.</p>
             </li>
         </ol>
         <ol MadCap:continue="true">
@@ -74,16 +80,20 @@
             </li>
             <li>
                 <p>Enter the git command <b>git status</b> to see all of the changes you have made.</p>
-                <p class="note"><b>NOTE</b>: If you do not see your changes, you may have forgotten to save or you are in the wrong branch.</p>
+                <p class="note">
+                    <b>NOTE</b>: If you do not see your changes, you may have forgotten to save or you are in the wrong branch.</p>
             </li>
             <li>
                 <p>Stage the updates for commit by entering the git command <b>git add .</b></p>
-                <p class="note"><b>NOTE</b>: Include the period in the command.</p>
-                <p class="note"><b>NOTE</b>: Comments change from red to green after you stage them.</p>
+                <p class="note">
+                    <b>NOTE</b>: Include the period in the command.</p>
+                <p class="note">
+                    <b>NOTE</b>: Comments change from red to green after you stage them.</p>
             </li>
             <li>
                 <p>Commit staged updates by entering the command <b>git commit -m "&lt;commit message that informs everyone what you have done&gt;"</b></p>
-                <p class="note"><b>NOTE</b>: Do not use special characters in message.</p>
+                <p class="note">
+                    <b>NOTE</b>: Do not use special characters in message.</p>
             </li>
             <li>
                 <p>Push your changes to the remote by entering the command &gt;<b>git push origin &lt;new branch name&gt;</b></p>
@@ -101,7 +111,7 @@
                 <p>Scroll down and click the <b>Merge</b> button and the <b>Confirm Merge</b> button. </p>
             </li>
         </ol>
-        <p>Once merged, the changes display at <a href="https://jennydrummey.github.io./Content/DocProcess/BOADocProcess_DSPDocOverview.html" target="_blank">https://jennydrummey.github.io./Content/DocProcess/BOADocProcess_DSPDocOverview.html</a></p>
+        <p>Once merged, the changes display at <a href="https://jennydrummey.github.io./Content/DocProcess/BOADocProcess_DSPDocOverview.html" target="_blank" rel="noopener noreferrer">https://jennydrummey.github.io./Content/DocProcess/BOADocProcess_DSPDocOverview.html</a></p>
         <p>&#160;</p>
     </body>
 </html>
