@@ -67,7 +67,7 @@
       Title="Checklist Generate Help for Release"
       Link="/Content/DocProcess/BOADocProcess_CheckLlistForGeneratingHelp.htm"></TocEntry>
     <TocEntry
-      Title="Check List Add New Component"
+      Title="Checklist Add New SST Component"
       Link="/Content/DocProcess/BOADocProcess_CLAddNewComponent.html"></TocEntry>
   </TocEntry>
   <TocEntry
@@ -93,7 +93,7 @@
     Title="Additional Doc Team Tasks"
     Link="/Content/DocProcess/AdditionalDocTeamTasks.html">
     <TocEntry
-      Title="Add  Feedback into the Help"
+      Title="Add User Feedback to the Help"
       Link="/Content/DocProcess/BOADocProcess_IncorpFeedbackPrint.html"></TocEntry>
     <TocEntry
       Title="API Documentation Process"
