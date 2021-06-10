@@ -5,41 +5,99 @@
         <link href="../Resources/Stylesheets/newDefault.css" rel="stylesheet" type="text/css" />
     </head>
     <body>
-        <h1>GitHub Initial Setup</h1>
+        <h1>Documentation Team Initial Setup</h1>
+        <p>This topic lists tasks for new Doc team members.</p>
         <h2>Git Bash Set Up</h2>
+        <p>This is a one-time set up, unless you change laptops.</p>
         <ol type="1">
             <li>Install Git Bash by downloading from here: <a href="https://git-scm.com/" target="_blank" rel="noopener noreferrer">https://git-scm.com/</a></li>
             <li>Follow these steps to set up Git Bash for the first time: <a href="https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup" target="_blank" rel="noopener noreferrer">https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup</a></li>
-            <li>Follow these steps to auto launch the ssh-agent: <a href="https://docs.google.com/document/d/1_uwCLQY9dEiQ_E27a-BjgMdNv6eZbAG64M29NIyp8ng/edit?usp=sharing" target="_blank" rel="noopener noreferrer">https://docs.google.com/document/d/1_uwCLQY9dEiQ_E27a-BjgMdNv6eZbAG64M29NIyp8ng/edit?usp=sharing</a></li>
         </ol>
-        <h2>
-            <a name="Clone_BackOffice/dsp-docs_repo_to_local">
-            </a>Clone BackOffice/dsp-docs repo to local</h2>
-        <p>Prior to doing any work, you need to obtain a copy of the BackOfficeAssoc dsp-docs repository for your local computer.</p>
-        <p>
-To clone the BOA dsp-docs repo to your laptop: </p>
-        <p>1. In GitHub, go to the BackOfficeAssoc account.</p>
-        <p> 2. Find the BackOfficeAssoc/dsp-docs repo. </p>
-        <p>3. In the BackOfficeAssoc/dsp-docs repo, click the <strong>Clone or download</strong> button. Once you click it, it will reveal a URL that you need to copy and paste into your command line in the next step. Click the copy to clipboard button to the right of the url to copy it. </p>
-        <p class="note">
-            <b>NOTE</b>: There are various options for cloning. We will be doing the clone from the command line, so simply copy the SSH URL shown.</p>
-        <p>4. Open Git Bash and navigate to the directory that you wish to download to.
-</p>
-        <p class="note" data-markdown="span" role="alert">
-            <b>NOTE:</b> The repository will be cloned into a new directory below the one you specify, with the same name as the repository, ex. <code class="highlighter-rouge">C:\heathercloward\github\dsp-docs</code>.
-</p>
-        <p>Alternatively, in Windows Explorer, you can right-click in a folder and select **Git Bash Here** from the dropdown menu to open the command prompt at that location.
-			
+        <h2><a name="SSH"></a>SSH Authentication Set Up</h2>
+        <p>This is a one-time set up, unless you change laptops. You must have a GitHub account for this to work. </p>
+        <p>We connect to the GitHub repos using SSH Authentication. Follow these steps to set it up.</p>
+        <p>On this page:</p>
+        <p><a href="https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent">Generating a new SSH key and adding it to the ssh-agent - GitHub Docs</a>
         </p>
-        <ol start="5" type="1">
-            <li>Run the git clone command using the SSH URL from step 3.
-<div class="alert alert-info" data-markdown="span" role="alert"> <b>Note:</b> It should look like: <code class="highlighter-rouge">git clone git@github.com:BackOfficeAssoc/dsp-docs.git</code>.
-</div></li>
-            <li>Switch into your new directory by entering the git command <code>cd dsp-docs</code><p class="note" data-markdown="span" role="alert"><b>NOTE:</b> You will know you are in the correct directory by the command prompt, ex. <code class="highlighter-rouge">Documents/GitHub/dsp-docs (develop)</code> shows repo name and branch name.
-</p></li>
-            <li>Fetch the develop branch so that you have it in your local repo by entering the git command <code>git fetch origin develop</code>.</li>
+        <p>Perform the steps in these sections:</p>
+        <ol>
+            <li>
+                <p><a href="https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent#generating-a-new-ssh-key">Generating a new SSH key - GitHub Docs</a>
+                </p>
+            </li>
+            <li>
+                <p><a href="https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent#adding-your-ssh-key-to-the-ssh-agent">Adding the key  to the ssh-agent - GitHub Docs</a>
+                </p>
+            </li>
         </ol>
-        <p class="note">
-            <b>NOTE</b>: Any branch you do not have on your local that exists on the remote can be created in this way. </p>
+        <p>Perform all the steps in these topics:</p>
+        <ol MadCap:continue="true">
+            <li>
+                <p><a href="https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account">Adding a new SSH key to your GitHub account - GitHub Docs</a>
+                </p>
+            </li>
+            <li>
+                <p><a href="https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh/testing-your-ssh-connection">Testing your SSH connection - GitHub Docs</a>
+                </p>
+            </li>
+        </ol>
+        <p>Perform the steps in this googledoc:</p>
+        <ol MadCap:continue="true">
+            <li>
+                <p><a href="https://docs.google.com/document/d/1_uwCLQY9dEiQ_E27a-BjgMdNv6eZbAG64M29NIyp8ng/edit?usp=sharing">Set up an auto-launch of the ssh agent</a>
+                </p>
+            </li>
+        </ol>
+        <h2><a name="Clone_BackOffice/dsp-docs_repo_to_local"></a>Initial Clone of Project Files</h2>
+        <p class="note">:<b>NOTE</b> You only perform these steps one time when you set up your repo for each project. After you have it cloned locally, you will use pulling and pushing to move your changes to remote branches.</p>
+        <p>Prior to doing any work, you need to obtain a copy of the BackOfficeAssoc dsp-docs repository for your local computer. This repo is the source control for the SST online help Flare project. The SKT help and the Installation Manuals are also stored in github as Flare projects and the process to clone these three projects is the same (though the underlying folder structure is not).</p>
+        <p>
+To clone the BOA dsp-docs repo (SST online help) to your laptop: </p>
+        <ol>
+            <li>
+                <p>In GitHub, go to the dsp-docs repo <a href="https://github.com/BackOfficeAssoc/dsp-docs">here.</a></p>
+            </li>
+        </ol>
+        <p class="note"><b>NOTE</b>: The SKT repo is <a href="https://github.com/BackOfficeAssoc/igc-help">here</a> (you can follow these steps using “igc-help” in place of “dsp-docs”). The Install Manual repo is <a href="https://github.com/BackOfficeAssoc/dsp-install-manuals">here</a> (you can follow these steps using “dsp-install-manuals” in place of “dsp-docs”):</p>
+        <ol MadCap:continue="true">
+            <li>
+                <p> Click the <b>Code</b> button.</p>
+            </li>
+            <li>
+                <p>Under <b>Clone</b>, select the <b>SSH</b> tab.</p>
+            </li>
+            <li>
+                <p>Click the <b>Copied</b> icon to the right of the url text box to copy the URL to the clipboard.<img src="../Resources/Images/WRch9WocxzCBKvF9iOma6qg4HYTtFdLo3iF6pUtROSEHZPiWHAnfdHfAUU8vM8LdxZJ2sOpWuIptGqnbN7S2Xd2Vw9nFruGdOifTay9F.png" /></p>
+                <p class="note"><b>NOTE</b>: Ensure you are cloning using SSH, and not HTTPS (the default active tab).</p>
+            </li>
+        </ol>
+        <ol MadCap:continue="true">
+            <li>
+                <p>In Windows Explorer, right-click the default git location to clone repos (Users &gt; [your user name] &gt; git) and select <b>Git Bash Here</b>.</p>
+                <p>
+                    <img src="../Resources/Images/k1nkI-rGdF9R_Rhdfp9zPtzxfvwxAGyXG8Wfi6BqGVUTgwU1-pjp5ZUAKxNLI2H8V83PGpvfVcD2UNhJGp3z3ZGTfRU_kf9anofjdZRl.png" />
+                </p>
+                <p class="note"><b>NOTE:</b> The repository will be cloned into a new directory below the one you specify, with the same name as the repository. For example, following these steps, your dsp-docs repo is cloned to. C:\Users\[your user name]\git\dsp-docs.</p>
+                <p class="note"><b>NOTE:</b> If you have set up SSH Authentication, you may need to enter your passphrase when the bash window opens. Refer to <a href="#SSH">Set Up SSH Authentication</a> for more information.</p>
+            </li>
+        </ol>
+        <ol MadCap:continue="true">
+            <li>
+                <p>Enter <b>git clone</b> then right-click and select <b>Paste</b>.</p>
+            </li>
+        </ol>
+        <p class="note"><b>NOTE</b>: The result should look like this:</p>
+        <p>git clone git@github.com:BackOfficeAssoc/dsp-docs.git</p>
+        <ol MadCap:continue="true">
+            <li>
+                <p>Press <b>Enter</b> to clone the repo locally.</p>
+            </li>
+            <li>
+                <p>Enter the command <b>cd dsp-docs</b> to switch into the newly cloned repo’s directory.</p>
+            </li>
+        </ol>
+        <p class="note"><b>NOTE:</b> The command prompt displays the repo and branch name , ex. Documents/GitHub/dsp-docs (develop) shows repo name of dsp-docs and branch name of develop.</p>
+        <p class="note">Refer to <a href="BOADocProcess_Workflow_Approved.html#Author2">Author Checks Out Branch to Add Content</a> for more information about working in git.</p>
+        <p class="note">&#160;</p>
     </body>
 </html>
