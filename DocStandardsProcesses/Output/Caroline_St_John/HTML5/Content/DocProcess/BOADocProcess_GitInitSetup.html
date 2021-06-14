@@ -24,7 +24,6 @@
         <link href="../../Skins/Fluid/Stylesheets/Styles.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
         <link href="../../Skins/Fluid/Stylesheets/Tablet.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
         <link href="../../Skins/Fluid/Stylesheets/Mobile.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
-        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css" />
         <link href="../Resources/Stylesheets/newDefault.css" rel="stylesheet" type="text/css" />
         <style>/*&lt;meta /&gt;*/
 
@@ -44,7 +43,6 @@
 }
 
 </style>
-        <link href="../Resources/Stylesheets/Styles.css" rel="stylesheet" type="text/css" />
         <link rel="apple-touch-icon" sizes="180x180" href="../../Skins/Favicons/apple-touch-icon.png" />
         <link rel="shortcut icon" href="../../Skins/Favicons/favicon-32x32.png" />
         <link rel="icon" sizes="96x96" href="../../Skins/Favicons/favicon-96x96.png" />
@@ -199,9 +197,9 @@
                                                     <h1>GitHub Initial Setup</h1>
                                                     <h2>Git Bash Set Up</h2>
                                                     <ol type="1">
-                                                        <li value="1">Install Git Bash by downloading from here: <a href="https://git-scm.com/">https://git-scm.com/</a></li>
-                                                        <li value="2">Follow these steps to set up Git Bash for the first time: <a href="https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup">https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup</a></li>
-                                                        <li value="3">Follow these steps to auto launch the ssh-agent: <a href="https://docs.google.com/document/d/1_uwCLQY9dEiQ_E27a-BjgMdNv6eZbAG64M29NIyp8ng/edit?usp=sharing">https://docs.google.com/document/d/1_uwCLQY9dEiQ_E27a-BjgMdNv6eZbAG64M29NIyp8ng/edit?usp=sharing</a></li>
+                                                        <li value="1">Install Git Bash by downloading from here: <a href="https://git-scm.com/" target="_blank" rel="noopener noreferrer">https://git-scm.com/</a></li>
+                                                        <li value="2">Follow these steps to set up Git Bash for the first time: <a href="https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup" target="_blank" rel="noopener noreferrer">https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup</a></li>
+                                                        <li value="3">Follow these steps to auto launch the ssh-agent: <a href="https://docs.google.com/document/d/11tQ601_woUizRWog2CLqFah8Wg9A4TomwbsS_KCbc8E/edit?usp=sharing" target="_blank" rel="noopener noreferrer">https://docs.google.com/document/d/11tQ601_woUizRWog2CLqFah8Wg9A4TomwbsS_KCbc8E/edit?usp=sharing</a></li>
                                                     </ol>
                                                     <h2><a name="Clone_BackOffice/dsp-docs_repo_to_local"></a>Clone BackOffice/dsp-docs repo to local</h2>
                                                     <p>Prior to doing any work, you need to obtain a copy of the BackOfficeAssoc dsp-docs repository for your local computer.</p>
@@ -210,11 +208,11 @@ To clone the BOA dsp-docs repo to your laptop: </p>
                                                     <p>1. In GitHub, go to the BackOfficeAssoc account.</p>
                                                     <p> 2. Find the BackOfficeAssoc/dsp-docs repo. </p>
                                                     <p>3. In the BackOfficeAssoc/dsp-docs repo, click the <strong>Clone or download</strong> button. Once you click it, it will reveal a URL that you need to copy and paste into your command line in the next step. Click the copy to clipboard button to the right of the url to copy it. </p>
-                                                    <p>NOTE: There are various options for cloning. We will be doing the clone from the command line, so simply copy the SSH URL shown.</p>
+                                                    <p class="note"><b>NOTE</b>: There are various options for cloning. We will be doing the clone from the command line, so simply copy the SSH URL shown.</p>
                                                     <p>4. Open Git Bash and navigate to the directory that you wish to download to.
 </p>
-                                                    <div class="alert alert-info" data-markdown="span" role="alert"><b>Note:</b> The repository will be cloned into a new directory below the one you specify, with the same name as the repository, ex. <code class="highlighter-rouge">C:\heathercloward\github\dsp-docs</code>.
-</div>
+                                                    <p class="note" data-markdown="span" role="alert"><b>NOTE:</b> The repository will be cloned into a new directory below the one you specify, with the same name as the repository, ex. <code class="highlighter-rouge">C:\heathercloward\github\dsp-docs</code>.
+</p>
                                                     <p>Alternatively, in Windows Explorer, you can right-click in a folder and select **Git Bash Here** from the dropdown menu to open the command prompt at that location.
 			
         </p>
@@ -222,11 +220,11 @@ To clone the BOA dsp-docs repo to your laptop: </p>
                                                         <li value="5">Run the git clone command using the SSH URL from step 3.
 <div class="alert alert-info" data-markdown="span" role="alert"> <b>Note:</b> It should look like: <code class="highlighter-rouge">git clone git@github.com:BackOfficeAssoc/dsp-docs.git</code>.
 </div></li>
-                                                        <li value="6">Switch into your new directory by entering the git command <code>cd dsp-docs</code><div class="alert alert-info" data-markdown="span" role="alert"><b>Note:</b> You will know you are in the correct directory by the command prompt, ex. <code class="highlighter-rouge">Documents/GitHub/dsp-docs (develop)</code> shows repo name and branch name.
-</div></li>
+                                                        <li value="6">Switch into your new directory by entering the git command <code>cd dsp-docs</code><p class="note" data-markdown="span" role="alert"><b>NOTE:</b> You will know you are in the correct directory by the command prompt, ex. <code class="highlighter-rouge">Documents/GitHub/dsp-docs (develop)</code> shows repo name and branch name.
+</p></li>
                                                         <li value="7">Fetch the develop branch so that you have it in your local repo by entering the git command <code>git fetch origin develop</code>.</li>
                                                     </ol>
-                                                    <p>NOTE: Any branch you do not have on your local that exists on the remote can be created in this way. IMPORTANT All release branches should be based on the develop branch.</p>
+                                                    <p class="note"><b>NOTE</b>: Any branch you do not have on your local that exists on the remote can be created in this way. </p>
                                                 </div>
                                                 <div id="feedback-survey">
                                                     <div class="feedback-question">
@@ -257,7 +255,7 @@ To clone the BOA dsp-docs repo to your laptop: </p>
                                                                 </p>
                                                                 <p class="feedbackW">Want to tell us more?</p>
                                                                 <p>Send an email to our authors to leave your feedback.</p>
-                                                                <p><a href="mailto:Helpfeedback@syniti.com?subject=Feedback" id="feedbackEmailLink">Email us</a>
+                                                                <p><a href="mailto:Helpfeedback@syniti.com?subject=Feedback" id="feedbackEmailLink" target="_blank" rel="noopener noreferrer">Email us</a>
                                                                 </p>
                                                             </div>
                                                         </div>
@@ -296,26 +294,26 @@ To clone the BOA dsp-docs repo to your laptop: </p>
                                             </div>
                                             <div>
                                                 <h5>Get in Touch</h5>
-                                                <p class="footer"><a href="https://support.syniti.com/access/unauthenticated?return_to=https%3A%2F%2Fbackofficeassociates.zendesk.com%2Fagent%2Fdashboard" target="_blank" data-mc-conditions="Primary.dspConduct">Contact Support</a>
+                                                <p class="footer"><a href="https://support.syniti.com/access/unauthenticated?return_to=https%3A%2F%2Fbackofficeassociates.zendesk.com%2Fagent%2Fdashboard" target="_blank" rel="noopener noreferrer" data-mc-conditions="Primary.dspConduct">Contact Support</a>
                                                 </p>
-                                                <p class="footer"><a href="http://launchpad.support.sap.com/" data-mc-conditions="Primary.ISA">SAP Support (Use component XX-PART-BOA)</a>
+                                                <p class="footer"><a href="http://launchpad.support.sap.com/" target="_blank" rel="noopener noreferrer" data-mc-conditions="Primary.ISA">SAP Support (Use component XX-PART-BOA)</a>
                                                 </p>
-                                                <p class="footer"><a href="../Ideas_Portal.htm">Access Product Ideas Portal</a>
+                                                <p class="footer"><a href="../Ideas_Portal.htm" target="_blank" rel="noopener noreferrer">Access Product Ideas Portal</a>
                                                 </p>
-                                                <p class="footer"><a href="https://www.syniti.com/support/education/" target="_blank">Request Product Training</a>
+                                                <p class="footer"><a href="https://www.syniti.com/support/education/" target="_blank" rel="noopener noreferrer">Request Product Training</a>
                                                 </p>
                                                 <h5>Related Content</h5>
-                                                <p class="footer"><a href="../glossary.htm" target="_blank">Glossary</a>
+                                                <p class="footer"><a href="../glossary.htm" target="_blank" rel="noopener noreferrer">Glossary</a>
                                                 </p>
-                                                <p class="footer"><a href="../When_to_request_a_new_product_license.htm">Product Licenses</a>
+                                                <p class="footer"><a href="../When_to_request_a_new_product_license.htm" target="_blank" rel="noopener noreferrer">Product Licenses</a>
                                                 </p>
-                                                <p class="footer"><a href="http://support.syniti.com/hc/en-us" target="_blank" data-mc-conditions="Primary.dspConduct">Knowledge Base</a>
+                                                <p class="footer"><a href="http://support.syniti.com/hc/en-us" target="_blank" rel="noopener noreferrer" data-mc-conditions="Primary.dspConduct">Knowledge Base</a>
                                                 </p>
                                             </div>
                                             <div>
                                                 <p class="footer" id="di">&#160;
 					</p>
-                                                <p class="btn more"><a href="../Data_Insiders_Community.htm" target="_blank">Learn More</a>
+                                                <p class="btn more"><a href="../Data_Insiders_Community.htm" target="_blank" rel="noopener noreferrer">Learn More</a>
                                                 </p>
                                             </div>
                                             <div>
@@ -333,15 +331,15 @@ To clone the BOA dsp-docs repo to your laptop: </p>
                                                 <p>&#160;</p>
                                             </div>
                                             <div>
-                                                <p class="footer bottom"><a href="https://www.syniti.com/privacy-policy/">Privacy Policy</a>
+                                                <p class="footer bottom"><a href="https://www.syniti.com/privacy-policy/" target="_blank" rel="noopener noreferrer">Privacy Policy</a>
                                                 </p>
                                             </div>
                                             <div>
-                                                <p class="footer bottom"><a href="https://www.syniti.com/trademarks/">Trademarks</a>
+                                                <p class="footer bottom"><a href="https://www.syniti.com/trademarks/" target="_blank" rel="noopener noreferrer">Trademarks</a>
                                                 </p>
                                             </div>
                                             <div>
-                                                <p class="footer bottom"><a href="https://www.syniti.com/terms-of-use/">Terms of Use</a>
+                                                <p class="footer bottom"><a href="https://www.syniti.com/terms-of-use/" target="_blank" rel="noopener noreferrer">Terms of Use</a>
                                                 </p>
                                             </div>
                                         </div>

@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileLinkSet
+  FileSearchable="true"
+  MasterPage="file:///C:/Users/Caroline St John/OneDrive/Documents/GitHub/JennyDrummey.github.io/DocStandardsProcesses/Content/Resources/MasterPages/DocProcess.flmsp"
+  OnlyLocalStylesheets="false"
+  FileTimeEstimate="0"
+  FilePriority="0">
+  <Links>
+    <Link
+      Url="Content/Resources/MasterPages/DocProcess.flmsp" />
+    <Link
+      Url="Content/Resources/Stylesheets/Styles.css" />
+    <Link
+      Url="Content/Resources/Stylesheets/newDefault.css" />
+    <Link
+      Url="Content/DocProcess/BOADocProcess _UpdateFlareProjectNewVersion.html" />
+    <Link
+      Url="Content/DocProcess/BOADocProcess_PrepareWhatsNew.html" />
+    <Link
+      Url="Content/DocProcess/BOADocProcess_PrepareReleaseNotes.html" />
+    <Link
+      Url="Content/DocProcess/BOADocProcess_BuildHelpTargets.html" />
+    <Link
+      Url="Content/DocProcess/BOADocProcess_ChecklistGenOnlineHelp.html" />
+    <Link
+      Url="Content/DocProcess/BOADocProcess_CheckLlistForGeneratingHelp.htm" />
+    <Link
+      Url="Content/DocProcess/BOADocProcess_CLAddNewComponent.html" />
+  </Links>
+  <LongLinks>
+    <Link
+      Url="Content/Resources/MasterPages/DocProcess.flmsp" />
+    <Link
+      Url="Content/Resources/Stylesheets/Styles.css" />
+    <Link
+      Url="Content/Resources/Stylesheets/newDefault.css" />
+    <Link
+      Url="Content/DocProcess/BOADocProcess _UpdateFlareProjectNewVersion.html" />
+    <Link
+      Url="Content/DocProcess/BOADocProcess_PrepareWhatsNew.html" />
+    <Link
+      Url="Content/DocProcess/BOADocProcess_PrepareReleaseNotes.html" />
+    <Link
+      Url="Content/DocProcess/BOADocProcess_BuildHelpTargets.html" />
+    <Link
+      Url="Content/DocProcess/BOADocProcess_ChecklistGenOnlineHelp.html" />
+    <Link
+      Url="Content/DocProcess/BOADocProcess_CheckLlistForGeneratingHelp.htm" />
+    <Link
+      Url="Content/DocProcess/BOADocProcess_CLAddNewComponent.html" />
+  </LongLinks>
+  <Anchors />
+  <Keywords />
+  <Concepts />
+  <ConceptControlNames />
+  <IndexControlNames />
+  <Variables />
+  <FileConditions />
+  <FileTags />
+  <AllConditions />
+  <Stylesheets>
+    <Url
+      Source="Content/Resources/Stylesheets/Styles.css" />
+    <Url
+      Source="Content/Resources/Stylesheets/newDefault.css" />
+  </Stylesheets>
+</CatapultFileLinkSet>
