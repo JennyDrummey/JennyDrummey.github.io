@@ -24,7 +24,6 @@
         <link href="../../Skins/Fluid/Stylesheets/Styles.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
         <link href="../../Skins/Fluid/Stylesheets/Tablet.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
         <link href="../../Skins/Fluid/Stylesheets/Mobile.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
-        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css" />
         <link href="../Resources/Stylesheets/newDefault.css" rel="stylesheet" type="text/css" />
         <style>/*&lt;meta /&gt;*/
 
@@ -206,10 +205,10 @@
                                                                     <p>File</p>
                                                                 </td>
                                                                 <td class="TableStyle-fielddescription-BodyE-Column2-Body1">
-                                                                    <p>Purpose</p>
+                                                                    <p class="TableColumn">Purpose</p>
                                                                 </td>
                                                                 <td class="TableStyle-fielddescription-BodyD-Column2-Body1">
-                                                                    <p>Updated By</p>
+                                                                    <p class="TableColumn">Updated By</p>
                                                                 </td>
                                                             </tr>
                                                             <tr class="TableStyle-fielddescription-Body-Body1">
@@ -263,19 +262,49 @@
                                                                 <td class="TableStyle-fielddescription-BodyE-Column1-Body1" role="rowheader">
                                                                     <p>PM (Andrew Smith)</p>
                                                                 </td>
-                                                                <td class="TableStyle-fielddescription-BodyD-Column2-Body1">Oversees API developmentDecides when the Swagger Document is to be deployed</td>
+                                                                <td class="TableStyle-fielddescription-BodyD-Column2-Body1">
+                                                                    <ul>
+                                                                        <li>
+                                                                            <p>Oversees API development</p>
+                                                                        </li>
+                                                                        <li>
+                                                                            <p>Decides when the Swagger Document is to be deployed</p>
+                                                                        </li>
+                                                                    </ul>
+                                                                </td>
                                                             </tr>
                                                             <tr class="TableStyle-fielddescription-Body-Body1">
                                                                 <td class="TableStyle-fielddescription-BodyE-Column1-Body1" role="rowheader">
                                                                     <p>Dev (Rob Reed)</p>
                                                                 </td>
-                                                                <td class="TableStyle-fielddescription-BodyD-Column2-Body1">Owner of the API and the Swagger DocumentUpdates the Swagger Document as they update the API</td>
+                                                                <td class="TableStyle-fielddescription-BodyD-Column2-Body1">
+                                                                    <ul>
+                                                                        <li>
+                                                                            <p>Owner of the API and the Swagger Document</p>
+                                                                        </li>
+                                                                        <li>
+                                                                            <p>Updates the Swagger Document as they update the API</p>
+                                                                        </li>
+                                                                    </ul>
+                                                                </td>
                                                             </tr>
                                                             <tr class="TableStyle-fielddescription-Body-Body1">
                                                                 <td class="TableStyle-fielddescription-BodyB-Column1-Body1" role="rowheader">
                                                                     <p>Doc Team</p>
                                                                 </td>
-                                                                <td class="TableStyle-fielddescription-BodyA-Column2-Body1">Reviews Description and Summary fields to verify they are written in plain language and not technical.Updates starfish if edits are neededUpdates the customer-facing SwaggerHub document&#160;</td>
+                                                                <td class="TableStyle-fielddescription-BodyA-Column2-Body1">
+                                                                    <ul>
+                                                                        <li>
+                                                                            <p>Reviews Description and Summary fields to verify they are written in plain language and not technical.</p>
+                                                                        </li>
+                                                                        <li>
+                                                                            <p>Updates starfish if edits are needed</p>
+                                                                        </li>
+                                                                        <li>
+                                                                            <p>Updates the customer-facing SwaggerHub document&#160;</p>
+                                                                        </li>
+                                                                    </ul>
+                                                                </td>
                                                             </tr>
                                                         </tbody>
                                                     </table>
@@ -294,13 +323,13 @@
                                                             </ol>
                                                         </li>
                                                         <li value="2">
-                                                            <p>Doc Team <a href="#Review">reviews API descriptions and summary fields</a>.</p>
+                                                            <p>Doc Team <a href="#Review" target="_blank" rel="noopener noreferrer">reviews API descriptions and summary fields</a>.</p>
                                                             <ol style="list-style-type: lower-alpha;">
                                                                 <li value="1">
                                                                     <p>If everything looks good, notify Dev that no changes are needed.</p>
                                                                 </li>
                                                                 <li value="2">
-                                                                    <p>If edits are required, <a href="#Update">update the swagger document in starfish’s develop branch</a>.</p>
+                                                                    <p>If edits are required, <a href="#Update" target="_blank" rel="noopener noreferrer">update the swagger document in starfish’s develop branch</a>.</p>
                                                                 </li>
                                                             </ol>
                                                         </li>
@@ -308,7 +337,7 @@
                                                             <p>PM/Dev post a notification in the #skt_api Slack channel that the API has been deployed.</p>
                                                         </li>
                                                         <li value="4">
-                                                            <p>Doc Team <a href="#Make">makes the Swagger Document visible for customers in SwaggerHu</a>b.</p>
+                                                            <p>Doc Team <a href="#Make" target="_blank" rel="noopener noreferrer">makes the Swagger Document visible for customers in SwaggerHub</a>.</p>
                                                         </li>
                                                     </ol>
                                                     <h2>Doc Team Steps</h2>
@@ -328,7 +357,7 @@
                                                         </li>
                                                     </ol>
                                                     <p>
-                                                        <img src="../Resources/Images/searchapi.png" />
+                                                        <img src="../Resources/Images/searchapi.png" style="border: 1px solid black;" />
                                                     </p>
                                                     <ol data-mc-continue="true">
                                                         <li value="4">
@@ -336,7 +365,7 @@
                                                         </li>
                                                     </ol>
                                                     <p>
-                                                        <img src="../Resources/Images/notedesc.png" />
+                                                        <img src="../Resources/Images/notedesc.png" style="border: 1px solid black;" />
                                                     </p>
                                                     <ol data-mc-continue="true">
                                                         <li value="5">
@@ -344,7 +373,7 @@
                                                         </li>
                                                     </ol>
                                                     <p>
-                                                        <img src="../Resources/Images/ViewImage.png" />
+                                                        <img src="../Resources/Images/ViewImage.png" style="border: 1px solid black;" />
                                                     </p>
                                                     <ol data-mc-continue="true">
                                                         <li value="6">
@@ -352,23 +381,22 @@
                                                         </li>
                                                     </ol>
                                                     <p>
-                                                        <img src="../Resources/Images/raw.png" />
+                                                        <img src="../Resources/Images/raw.png" style="border: 1px solid black;" />
                                                     </p>
-                                                    <p>&#160;</p>
                                                     <ol data-mc-continue="true">
                                                         <li value="7">
                                                             <p>Copy all the content.</p>
                                                         </li>
                                                         <li value="8">
-                                                            <p>Open the <a href="https://editor.swagger.io/" target="_blank">Swagger Editor</a> and paste the contents. Review the changes that were identified when viewing the diffs of the PR.</p>
+                                                            <p>Open the <a href="https://editor.swagger.io/" target="_blank" rel="noopener noreferrer">Swagger Editor</a> and paste the contents. Review the changes that were identified when viewing the diffs of the PR.</p>
                                                         </li>
                                                     </ol>
                                                     <p>
-                                                        <img src="../Resources/Images/paste.png" />
+                                                        <img src="../Resources/Images/paste.png" style="border: 1px solid black;" />
                                                     </p>
                                                     <ol data-mc-continue="true">
                                                         <li value="9">
-                                                            <p>If you have edits, create a PR by making a branch off of develop. Add Rob as a Reviewer. Follow the steps <a href="#Update">Update the swagger document in starfish’s develop branch</a></p>
+                                                            <p>If you have edits, create a PR by making a branch off of develop. Add Rob as a Reviewer. Follow the steps <a href="#Update" target="_blank" rel="noopener noreferrer">Update the swagger document in starfish’s develop branch</a></p>
                                                         </li>
                                                         <li value="10">
                                                             <p>If you don’t have edits, give a thumbs up or a comment to Rob in the PR or comment in the Jira ticket (if one is associated with this work).</p>
@@ -414,7 +442,7 @@
                                                     </ol>
                                                     <p><b>NOTE</b>: Match the file structure you see in your GitBash window after you enter “git status.”</p>
                                                     <p>
-                                                        <img src="../Resources/Images/filestruc.png" />
+                                                        <img src="../Resources/Images/filestruc.png" style="border: 1px solid black;" />
                                                     </p>
                                                     <ol data-mc-continue="true">
                                                         <li value="12">
@@ -444,25 +472,14 @@
                                                     <p>Once updates are finalized and merged to master:</p>
                                                     <ol>
                                                         <li value="1">
-                                                            <p>Available doc resource logs in to <a href="https://app.swaggerhub.com/" target="_blank">SwaggerHub</a> with these credentials:</p>
-                                                            <ul>
-                                                                <li>
-                                                                    <p>Username: SynitiOne</p>
-                                                                </li>
-                                                                <li>
-                                                                    <p>PW: DocT3amI$thebest!</p>
-                                                                </li>
-                                                                <li>
-                                                                    <p>Email address: synitiapidocs@gmail.com</p>
-                                                                </li>
-                                                            </ul>
+                                                            <p>Available doc resource logs in to <a href="https://app.swaggerhub.com/" target="_blank" rel="noopener noreferrer">SwaggerHub</a> with secured credentials.</p>
                                                         </li>
                                                         <li value="2">
                                                             <p>Click the <b>Syniti Knowledge Tier API</b> link to open the JSON file in SwaggerHub.</p>
                                                         </li>
                                                     </ol>
                                                     <p>
-                                                        <img src="../Resources/Images/openjson.PNG" />
+                                                        <img src="../Resources/Images/openjson.PNG" style="border: 1px solid black;" />
                                                     </p>
                                                     <ol data-mc-continue="true">
                                                         <li value="3">
@@ -494,14 +511,14 @@
                                                             <p>Enter <b>Ctrl+c</b> to copy the contents of the JSON file in starfish/docs/SKT_API.</p>
                                                         </li>
                                                         <li value="12">
-                                                            <p>Enter <b>Ctrl+</b>v to paste the contents into the SwaggerHub UI.</p>
+                                                            <p>Enter <b>Ctrl+v</b> to paste the contents into the SwaggerHub UI.</p>
                                                         </li>
                                                         <li value="13">
                                                             <p>Click <b>Save</b>.</p>
                                                         </li>
                                                     </ol>
                                                     <p>
-                                                        <img src="../Resources/Images/save.png" />
+                                                        <img src="../Resources/Images/save.png" style="border: 1px solid black;" />
                                                     </p>
                                                     <p class="note"><b>NOTE</b>: The button becomes active once changes have been made. Any changes made to the file can be reverted. To revert to a previous save:</p>
                                                     <ul>
@@ -517,16 +534,16 @@
                                                             <p>Comment on the starfish PR that the JSON file has been updated in SwaggerHub and give your approval on the PR.</p>
                                                         </li>
                                                         <li value="15">
-                                                            <p>If endpoints are added, add those endpoints to the list in this topic: <a href="https://skthelp.syniti.com/ExportAssets.htm" target="_blank">https://skthelp.syniti.com/ExportAssets.htm</a></p>
+                                                            <p>If endpoints are added, add those endpoints to the list in this topic: <a href="https://skthelp.syniti.com/ExportAssets.htm" target="_blank" rel="noopener noreferrer">https://skthelp.syniti.com/ExportAssets.htm</a></p>
                                                         </li>
                                                         <li value="16">
                                                             <p>If the version of the API is updated, update the url for the API document:</p>
                                                         </li>
                                                     </ol>
-                                                    <p>Topic: <a href="https://skthelp.syniti.com/TechnicalDocs/SktApi.htm" target="_blank">https://skthelp.syniti.com/TechnicalDocs/SktApi.htm</a></p>
-                                                    <p>URL: <a href="https://app.swaggerhub.com/apis/Syniti2/syniti-knowledge_tier_api/" target="_blank">https://app.swaggerhub.com/apis/Syniti2/syniti-knowledge_tier_api</a>/</p>
+                                                    <p>Topic: <a href="https://skthelp.syniti.com/TechnicalDocs/SktApi.htm" target="_blank" rel="noopener noreferrer">https://skthelp.syniti.com/TechnicalDocs/SktApi.htm</a></p>
+                                                    <p>URL: <a href="https://app.swaggerhub.com/apis/Syniti2/syniti-knowledge_tier_api/" target="_blank" rel="noopener noreferrer">https://app.swaggerhub.com/apis/Syniti2/syniti-knowledge_tier_api</a>/</p>
                                                     <p>
-                                                        <img src="../Resources/Images/updateversion.png" />
+                                                        <img src="../Resources/Images/updateversion.png" style="border: 1px solid black;" />
                                                     </p>
                                                     <ol data-mc-continue="true">
                                                         <li value="17">
@@ -564,7 +581,7 @@
                                                                 </p>
                                                                 <p class="feedbackW">Want to tell us more?</p>
                                                                 <p>Send an email to our authors to leave your feedback.</p>
-                                                                <p><a href="mailto:Helpfeedback@syniti.com?subject=Feedback" id="feedbackEmailLink">Email us</a>
+                                                                <p><a href="mailto:Helpfeedback@syniti.com?subject=Feedback" id="feedbackEmailLink" target="_blank" rel="noopener noreferrer">Email us</a>
                                                                 </p>
                                                             </div>
                                                         </div>
@@ -603,26 +620,26 @@
                                             </div>
                                             <div>
                                                 <h5>Get in Touch</h5>
-                                                <p class="footer"><a href="https://support.syniti.com/access/unauthenticated?return_to=https%3A%2F%2Fbackofficeassociates.zendesk.com%2Fagent%2Fdashboard" target="_blank" data-mc-conditions="Primary.dspConduct">Contact Support</a>
+                                                <p class="footer"><a href="https://support.syniti.com/access/unauthenticated?return_to=https%3A%2F%2Fbackofficeassociates.zendesk.com%2Fagent%2Fdashboard" target="_blank" rel="noopener noreferrer" data-mc-conditions="Primary.dspConduct">Contact Support</a>
                                                 </p>
-                                                <p class="footer"><a href="http://launchpad.support.sap.com/" data-mc-conditions="Primary.ISA">SAP Support (Use component XX-PART-BOA)</a>
+                                                <p class="footer"><a href="http://launchpad.support.sap.com/" target="_blank" rel="noopener noreferrer" data-mc-conditions="Primary.ISA">SAP Support (Use component XX-PART-BOA)</a>
                                                 </p>
-                                                <p class="footer"><a href="../Ideas_Portal.htm">Access Product Ideas Portal</a>
+                                                <p class="footer"><a href="../Ideas_Portal.htm" target="_blank" rel="noopener noreferrer">Access Product Ideas Portal</a>
                                                 </p>
-                                                <p class="footer"><a href="https://www.syniti.com/support/education/" target="_blank">Request Product Training</a>
+                                                <p class="footer"><a href="https://www.syniti.com/support/education/" target="_blank" rel="noopener noreferrer">Request Product Training</a>
                                                 </p>
                                                 <h5>Related Content</h5>
-                                                <p class="footer"><a href="../glossary.htm" target="_blank">Glossary</a>
+                                                <p class="footer"><a href="../glossary.htm" target="_blank" rel="noopener noreferrer">Glossary</a>
                                                 </p>
-                                                <p class="footer"><a href="../When_to_request_a_new_product_license.htm">Product Licenses</a>
+                                                <p class="footer"><a href="../When_to_request_a_new_product_license.htm" target="_blank" rel="noopener noreferrer">Product Licenses</a>
                                                 </p>
-                                                <p class="footer"><a href="http://support.syniti.com/hc/en-us" target="_blank" data-mc-conditions="Primary.dspConduct">Knowledge Base</a>
+                                                <p class="footer"><a href="http://support.syniti.com/hc/en-us" target="_blank" rel="noopener noreferrer" data-mc-conditions="Primary.dspConduct">Knowledge Base</a>
                                                 </p>
                                             </div>
                                             <div>
                                                 <p class="footer" id="di">&#160;
 					</p>
-                                                <p class="btn more"><a href="../Data_Insiders_Community.htm" target="_blank">Learn More</a>
+                                                <p class="btn more"><a href="../Data_Insiders_Community.htm" target="_blank" rel="noopener noreferrer">Learn More</a>
                                                 </p>
                                             </div>
                                             <div>
@@ -640,15 +657,15 @@
                                                 <p>&#160;</p>
                                             </div>
                                             <div>
-                                                <p class="footer bottom"><a href="https://www.syniti.com/privacy-policy/">Privacy Policy</a>
+                                                <p class="footer bottom"><a href="https://www.syniti.com/privacy-policy/" target="_blank" rel="noopener noreferrer">Privacy Policy</a>
                                                 </p>
                                             </div>
                                             <div>
-                                                <p class="footer bottom"><a href="https://www.syniti.com/trademarks/">Trademarks</a>
+                                                <p class="footer bottom"><a href="https://www.syniti.com/trademarks/" target="_blank" rel="noopener noreferrer">Trademarks</a>
                                                 </p>
                                             </div>
                                             <div>
-                                                <p class="footer bottom"><a href="https://www.syniti.com/terms-of-use/">Terms of Use</a>
+                                                <p class="footer bottom"><a href="https://www.syniti.com/terms-of-use/" target="_blank" rel="noopener noreferrer">Terms of Use</a>
                                                 </p>
                                             </div>
                                         </div>
