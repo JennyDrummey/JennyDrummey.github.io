@@ -24,7 +24,6 @@
         <link href="../../Skins/Fluid/Stylesheets/Styles.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
         <link href="../../Skins/Fluid/Stylesheets/Tablet.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
         <link href="../../Skins/Fluid/Stylesheets/Mobile.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
-        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css" />
         <link href="../Resources/Stylesheets/newDefault.css" rel="stylesheet" type="text/css" />
         <style>/*&lt;meta /&gt;*/
 
@@ -198,119 +197,129 @@
                                                     <h1>Check Latest SST Build for Development and Document Changes</h1>
                                                     <ul>
                                                         <li>
-                                                            <p>Development Changes - Tickets may describe a change that you need to see in the product in order to get a full understanding.</p>
+                                                            <p>Development Changes—Tickets may describe a change that you need to see in the product in order to get a full understanding.</p>
                                                         </li>
                                                         <li>
-                                                            <p>Document Changes - If new GUIDs were added, log in to the SST to verify the page-to-help link is correct.</p>
+                                                            <p>Document Changes—If new GUIDs were added, log in to the SST to verify the page-to-help link is correct.</p>
                                                         </li>
                                                     </ul>
-                                                    <p>Prerequisites: You will need a log in to jenkins and access to the appropriate development Slack channel. </p>
-                                                    <p>Note: Refer to <a href="https://jenkins.io/doc/pipeline/tour/getting-started/">Jenkin’s online resources</a> to learn more.</p>
+                                                    <p>Prerequisites: You will need a log in to Jenkins and access to the appropriate development Slack channel. </p>
+                                                    <p class="note"><b>NOTE: </b>Refer to <a href="https://jenkins.io/doc/pipeline/tour/getting-started/" target="_blank" rel="noopener noreferrer">Jenkin’s online resources</a> to learn more.</p>
                                                     <p>Add yourself to the Slack channel for the latest development cycle. For example, the Slack channel for DSP 7.0.7 is #707dev.</p>
-                                                    <p>Note: When Jenkins runs the QE tests, results are posted to this channel.</p>
+                                                    <p class="note"><b>NOTE:</b> When Jenkins runs the QE tests, results are posted to this channel.</p>
                                                     <p>To check the latest build for development changes:</p>
                                                     <ol>
                                                         <li value="1">
-                                                            <p>Navigate to the dev channel in Slack.</p>
+                                                            <p>Navigate to the #nnndev channel in Slack where "nnn" is the release version. </p>
+                                                            <p>
+                                                                <img src="../Resources/Images/CheckBuild1.png" />
+                                                            </p>
                                                         </li>
                                                     </ol>
-                                                    <p>
-                                                        <img src="../Resources/Images/CheckBuild1.png" />
-                                                    </p>
-                                                    <p>Jenkins message in Slack</p>
                                                     <ol data-mc-continue="true">
                                                         <li value="2">
                                                             <p>Locate the most recent automated test results in the channel. The title in Slack is RunBuild Test; the Cucumber report opens.</p>
+                                                            <p class="note"><b>NOTE:</b> Do not click the link with ‘BuildOnly’ in the title.</p>
+                                                            <p class="note"><b>NOTE:</b> Jenkins publishes two different kinds of notes to the Dev channel. Make sure to click the link after Test results can be found at:. You may have to log in to Jenkins before proceeding.</p>
                                                         </li>
                                                     </ol>
-                                                    <p>Note: Do not click the link with ‘BuildOnly’ in the title.</p>
-                                                    <p>Note: Jenkins publishes two different kinds of notes to the Dev channel. Make sure to click the link after Test results can be found at:. You may have to log in to Jenkins before proceeding.</p>
                                                     <ol data-mc-continue="true">
                                                         <li value="3">
                                                             <p>Note the Jenkins build date</p>
+                                                            <p>
+                                                                <img src="../Resources/Images/CheckBuild2.png" />
+                                                            </p>
                                                         </li>
                                                     </ol>
-                                                    <p>
-                                                        <img src="../Resources/Images/CheckBuild2.png" />
-                                                    </p>
-                                                    <p>Note the build date.</p>
                                                     <ol data-mc-continue="true">
                                                         <li value="4">
-                                                            <p>Open the Jira ticket that documents the change you are trying to view in the DSP.</p>
+                                                            <p>Open the Jira ticket that documents the change you are trying to view in the SST.</p>
                                                         </li>
                                                         <li value="5">
                                                             <p>Open the GitHub pull request link listed in the GITHUB DEV PR field.</p>
                                                         </li>
                                                         <li value="6">
                                                             <p>Check to see if the pull request has been merged.</p>
+                                                            <p>a. If it has not been merged, check back later.</p>
+                                                            <p>b. If it has been merged, proceed to the next step in this process.</p>
                                                         </li>
                                                     </ol>
-                                                    <p>a. If it has not been merged, check back later.</p>
-                                                    <p>b. If it has been merged, proceed to the next step in this process.</p>
-                                                    <p>Note the date of the latest merge. Hover over the time frame to see the date details.</p>
-                                                    <p>
-                                                        <img src="../Resources/Images/CheckBuild3.png" />
-                                                    </p>
-                                                    <p>Note the latest merge date</p>
-                                                    <p>a. If the latest merge date is after the Jenkins test build, the changes are not in development. Check the Dev Slack channel in a day or so for the latest build.</p>
-                                                    <p>b. If the latest merge date is before the Jenkins test build, the changes are in development. Proceed to the next step in this process.</p>
-                                                    <p>Return to Jenkins and click App Site URL to open the latest build site.</p>
-                                                    <p>Log in to the app site using credentials supplied by QE.</p>
-                                                    <p>Note: Depending on your settings, the administrator login credentials may be saved. Click inside the username field. If the administrator user name displays, click it and the password field automatically populates.</p>
-                                                    <p>View changes outlined in the Jira ticket description.</p>
+                                                    <ol data-mc-continue="true">
+                                                        <li value="7">
+                                                            <p>Note the date of the latest merge. Hover over the time frame to see the date details.</p>
+                                                            <p>
+                                                                <img src="../Resources/Images/CheckBuild3.png" />
+                                                            </p>
+                                                        </li>
+                                                    </ol>
+                                                    <p style="text-indent: 0.5in;">a. If the latest merge date is after the Jenkins test build, the changes are not in development. Check the Dev Slack channel in a day or so for the latest build.</p>
+                                                    <p style="text-indent: 0.5in;">b. If the latest merge date is before the Jenkins test build, the changes are in development. Proceed to the next step in this process.</p>
+                                                    <ol data-mc-continue="true">
+                                                        <li value="8">
+                                                            <p>Return to Jenkins and click App Site URL to open the latest build site.</p>
+                                                        </li>
+                                                        <li value="9">
+                                                            <p>Log in to the app site using credentials supplied by QE.</p>
+                                                            <p class="note"><b>NOTE:</b> Depending on your settings, the administrator login credentials may be saved. Click inside the username field. If the administrator user name displays, click it and the password field automatically populates.</p>
+                                                        </li>
+                                                    </ol>
+                                                    <ol data-mc-continue="true">
+                                                        <li value="10">
+                                                            <p>View changes outlined in the Jira ticket description.</p>
+                                                        </li>
+                                                    </ol>
                                                     <h2>To check the latest build for document changes:</h2>
                                                     <ol>
                                                         <li value="1">
                                                             <p>Log in to Jenkins to build the DSPDocDev site.</p>
                                                         </li>
                                                         <li value="2">
-                                                            <p>Click the DSPDocs link.</p>
+                                                            <p>Click the <b>DSPDocs </b>link.</p>
                                                         </li>
                                                     </ol>
                                                     <p>
                                                         <img src="../Resources/Images/DocChanges1.png" />
                                                     </p>
-                                                    <p>Location of the DSPDocs link</p>
-                                                    <p>Locate the DSPDocDev row and click the Schedule a Build icon.</p>
+                                                    <ol data-mc-continue="true">
+                                                        <li value="3">
+                                                            <p>Locate the DSPDocDev row and click the <b>Schedule a Build </b>icon.</p>
+                                                        </li>
+                                                    </ol>
                                                     <p>
                                                         <img src="../Resources/Images/DocChanges2.png" />
                                                     </p>
-                                                    <p>Location of the Schedule a Build icon</p>
                                                     <ol data-mc-continue="true">
-                                                        <li value="3">
-                                                            <p>Enter the version number without periods in the VERSION field.</p>
+                                                        <li value="4">
+                                                            <p>Enter the version number without periods in the <b>VERSION </b>field.</p>
                                                         </li>
                                                     </ol>
                                                     <p>
                                                         <img src="../Resources/Images/DocChanges3.png" />
                                                     </p>
-                                                    <p>Where to enter the VERSION number</p>
-                                                    <p>Do not change the remaining fields.</p>
-                                                    <ol data-mc-continue="true">
-                                                        <li value="4">
-                                                            <p>Click Build. The online help for the development site builds. View the progress in the Build History window.</p>
-                                                        </li>
-                                                    </ol>
                                                     <ol data-mc-continue="true">
                                                         <li value="5">
-                                                            <p>Navigate to the Dev channel in Slack once the build completes.</p>
+                                                            <p>Do not change the remaining fields.</p>
                                                         </li>
                                                     </ol>
-                                                    <p>Note: Refer to Prerequisites on how to gain access to the dev channel in Slack.</p>
-                                                    <p>
-                                                        <img src="../Resources/Images/DocChanges4.png" />
-                                                    </p>
-                                                    <p>Jenkins message in Slack</p>
                                                     <ol data-mc-continue="true">
                                                         <li value="6">
+                                                            <p>Click <b>Build</b>. The online help for the development site builds. View the progress in the Build History window.</p>
+                                                        </li>
+                                                        <p>
+                                                            <img src="../Resources/Images/DocChanges4.png" />
+                                                        </p>
+                                                        <li value="7">
+                                                            <p>Navigate to the Dev channel in Slack once the build completes.</p>
+                                                        </li>
+                                                        <li value="8">
                                                             <p>Click the most recent Jenkins test result link with BuildDeployTest in the title to view the latest build; the Cucumber report displays.</p>
+                                                            <p class="note"><b>NOTE:</b> Do not click the link with BuildOnly in the title.</p>
+                                                            <p class="note"><b>NOTE: </b>Jenkins publishes two different kinds of notes to the Dev channel. You may have to log into Jenkins before proceeding.</p>
                                                         </li>
                                                     </ol>
-                                                    <p>Note: Do not click the link with BuildOnly in the title.</p>
-                                                    <p>Note: Jenkins publishes two different kinds of notes to the Dev channel. You may have to log into Jenkins before proceeding.</p>
                                                     <ol data-mc-continue="true">
-                                                        <li value="7">
-                                                            <p>Log in to the DSP and view the online help.</p>
+                                                        <li value="9">
+                                                            <p>Log in to the Stewardship Tier and view the online help.</p>
                                                         </li>
                                                     </ol>
                                                 </div>
@@ -343,7 +352,7 @@
                                                                 </p>
                                                                 <p class="feedbackW">Want to tell us more?</p>
                                                                 <p>Send an email to our authors to leave your feedback.</p>
-                                                                <p><a href="mailto:Helpfeedback@syniti.com?subject=Feedback" id="feedbackEmailLink">Email us</a>
+                                                                <p><a href="mailto:Helpfeedback@syniti.com?subject=Feedback" id="feedbackEmailLink" target="_blank" rel="noopener noreferrer">Email us</a>
                                                                 </p>
                                                             </div>
                                                         </div>
@@ -382,26 +391,26 @@
                                             </div>
                                             <div>
                                                 <h5>Get in Touch</h5>
-                                                <p class="footer"><a href="https://support.syniti.com/access/unauthenticated?return_to=https%3A%2F%2Fbackofficeassociates.zendesk.com%2Fagent%2Fdashboard" target="_blank" data-mc-conditions="Primary.dspConduct">Contact Support</a>
+                                                <p class="footer"><a href="https://support.syniti.com/access/unauthenticated?return_to=https%3A%2F%2Fbackofficeassociates.zendesk.com%2Fagent%2Fdashboard" target="_blank" rel="noopener noreferrer" data-mc-conditions="Primary.dspConduct">Contact Support</a>
                                                 </p>
-                                                <p class="footer"><a href="http://launchpad.support.sap.com/" data-mc-conditions="Primary.ISA">SAP Support (Use component XX-PART-BOA)</a>
+                                                <p class="footer"><a href="http://launchpad.support.sap.com/" target="_blank" rel="noopener noreferrer" data-mc-conditions="Primary.ISA">SAP Support (Use component XX-PART-BOA)</a>
                                                 </p>
-                                                <p class="footer"><a href="../Ideas_Portal.htm">Access Product Ideas Portal</a>
+                                                <p class="footer"><a href="../Ideas_Portal.htm" target="_blank" rel="noopener noreferrer">Access Product Ideas Portal</a>
                                                 </p>
-                                                <p class="footer"><a href="https://www.syniti.com/support/education/" target="_blank">Request Product Training</a>
+                                                <p class="footer"><a href="https://www.syniti.com/support/education/" target="_blank" rel="noopener noreferrer">Request Product Training</a>
                                                 </p>
                                                 <h5>Related Content</h5>
-                                                <p class="footer"><a href="../glossary.htm" target="_blank">Glossary</a>
+                                                <p class="footer"><a href="../glossary.htm" target="_blank" rel="noopener noreferrer">Glossary</a>
                                                 </p>
-                                                <p class="footer"><a href="../When_to_request_a_new_product_license.htm">Product Licenses</a>
+                                                <p class="footer"><a href="../When_to_request_a_new_product_license.htm" target="_blank" rel="noopener noreferrer">Product Licenses</a>
                                                 </p>
-                                                <p class="footer"><a href="http://support.syniti.com/hc/en-us" target="_blank" data-mc-conditions="Primary.dspConduct">Knowledge Base</a>
+                                                <p class="footer"><a href="http://support.syniti.com/hc/en-us" target="_blank" rel="noopener noreferrer" data-mc-conditions="Primary.dspConduct">Knowledge Base</a>
                                                 </p>
                                             </div>
                                             <div>
                                                 <p class="footer" id="di">&#160;
 					</p>
-                                                <p class="btn more"><a href="../Data_Insiders_Community.htm" target="_blank">Learn More</a>
+                                                <p class="btn more"><a href="../Data_Insiders_Community.htm" target="_blank" rel="noopener noreferrer">Learn More</a>
                                                 </p>
                                             </div>
                                             <div>
@@ -419,15 +428,15 @@
                                                 <p>&#160;</p>
                                             </div>
                                             <div>
-                                                <p class="footer bottom"><a href="https://www.syniti.com/privacy-policy/">Privacy Policy</a>
+                                                <p class="footer bottom"><a href="https://www.syniti.com/privacy-policy/" target="_blank" rel="noopener noreferrer">Privacy Policy</a>
                                                 </p>
                                             </div>
                                             <div>
-                                                <p class="footer bottom"><a href="https://www.syniti.com/trademarks/">Trademarks</a>
+                                                <p class="footer bottom"><a href="https://www.syniti.com/trademarks/" target="_blank" rel="noopener noreferrer">Trademarks</a>
                                                 </p>
                                             </div>
                                             <div>
-                                                <p class="footer bottom"><a href="https://www.syniti.com/terms-of-use/">Terms of Use</a>
+                                                <p class="footer bottom"><a href="https://www.syniti.com/terms-of-use/" target="_blank" rel="noopener noreferrer">Terms of Use</a>
                                                 </p>
                                             </div>
                                         </div>

@@ -24,7 +24,6 @@
         <link href="../../Skins/Fluid/Stylesheets/Styles.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
         <link href="../../Skins/Fluid/Stylesheets/Tablet.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
         <link href="../../Skins/Fluid/Stylesheets/Mobile.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
-        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css" />
         <link href="../Resources/Stylesheets/newDefault.css" rel="stylesheet" type="text/css" />
         <style>/*&lt;meta /&gt;*/
 
@@ -200,21 +199,21 @@
                                                     <p>To publish Help:</p>
                                                     <ol>
                                                         <li value="1">
-                                                            <p>Prepare the help content as described in the  Documentation Process Overview. Only content approved by a PM&#160;or Dev should be added to the help. </p>
+                                                            <p>Prepare the help content as described in the  <a href="BOADocProcess_DSPDocOverview.html" target="_blank" rel="noopener noreferrer">Documentation Process Overview</a>. Only content approved by a PM&#160;or Dev should be added to the help. </p>
                                                         </li>
                                                         <li value="2">
                                                             <p>Inform the Doc Team in the doc_checkouts Slack channel that you are going to check out the Help.</p>
                                                         </li>
                                                         <li value="3">
-                                                            <p><a href="#Synchron">Synchronize your local repo develop branch with the remote develop branch and create a new branch.</a>
+                                                            <p><a href="#Synchron" target="_blank" rel="noopener noreferrer">Synchronize your local repo develop branch with the remote develop branch and create a new branch.</a>
                                                             </p>
                                                         </li>
                                                         <li value="4">
-                                                            <p>Make updates and note them in your <a href="BOADocProcess_Workflow_Approved.html#Author">Author Notes</a>. </p>
-                                                            <p class="note"><b>NOTE</b>: If you are making changes to the What's New topic and they are the first changes made in a month, you must <a href="#Add">add that month to the drop-down list that displays on the What's New page</a>. </p>
+                                                            <p>Make updates and note them in your <a href="BOADocProcess_Workflow_Approved.html#Author" target="_blank" rel="noopener noreferrer">Author Notes</a>. </p>
+                                                            <p class="note"><b>NOTE</b>: If you are making changes to the What's New topic and they are the first changes made in a month, you must <a href="#Add" target="_blank" rel="noopener noreferrer">add that month to the drop-down list that displays on the What's New page</a>. </p>
                                                         </li>
                                                         <li value="5">
-                                                            <p><a href="#Build">Build and Publish</a> the target.</p>
+                                                            <p><a href="#Build" target="_blank" rel="noopener noreferrer">Build and Publish</a> the target.</p>
                                                         </li>
                                                         <li value="6">
                                                             <p>Commit updates locally and push to remote.</p>
@@ -230,22 +229,22 @@
                                                         </li>
                                                     </ol>
                                                     <h2><a name="Synchron"></a>Synchronize your local repo develop branch with the remote develop branch and create a new branch</h2>
-                                                    <p>Right-click your local repo folder and select Git Bash Here from the dropdown menu to open the command prompt at that location.</p>
                                                     <ol>
                                                         <li value="1">
-                                                            <p>Review the current branch, which appears in parenthesis at the end of the line. If you are not currently in the develop branch, switch to the develop branch by entering the git command git checkout develop.</p>
+                                                            <p>Right-click your local repo folder and select <b>Git Bash Here</b> from the dropdown menu to open the command prompt at that location.</p>
                                                         </li>
                                                         <li value="2">
-                                                            <p>Enter the git command git pull origin develop to synchronize your local copy of the develop branch with the remote copy.</p>
+                                                            <p>Review the current branch, which appears in parenthesis at the end of the line. If you are not currently in the develop branch, switch to the develop branch by entering the git command <b>git checkout develop</b>.</p>
                                                         </li>
-                                                    </ol>
-                                                    <p>Note: You MUST perform these steps before you make updates to ensure you are working in the latest copy of the develop branch.</p>
-                                                    <ol data-mc-continue="true">
                                                         <li value="3">
-                                                            <p>Enter git command git checkout -b BranchName to create a personal branch in which to make edits, where BranchName is a brief description of the branch.</p>
+                                                            <p>Enter the git command <b>git pull origin develop</b> to synchronize your local copy of the develop branch with the remote copy.</p>
+                                                            <p class="note"><b>NOTE:</b> You MUST perform these steps before you make updates to ensure you are working in the latest copy of the develop branch.</p>
                                                         </li>
-                                                        <li value="4">
-                                                            <p>Open the SKP help project in Flare and make updates.</p>
+                                                        <li value="4"> Enter git command <span style="font-family: Consolas; font-weight: bold;">git checkout -b BranchName</span> to create a personal branch in which to make edits, where <span style="font-family: Consolas;">BranchName</span> is a brief description of the branch.</li>
+                                                    </ol>
+                                                    <ol data-mc-continue="true">
+                                                        <li value="5">
+                                                            <p>Open the SKT help project in Flare and make updates.</p>
                                                         </li>
                                                     </ol>
                                                     <h2><a name="Add"></a>Add Month to the Drop-down List on the What's New Page</h2>
@@ -277,19 +276,19 @@
                                                     <p>To build and publish a target in Flare:</p>
                                                     <ol>
                                                         <li value="1">
-                                                            <p>Open Flare, click the down arrow on the Build Primary button and select HTML5 SKP Help.</p>
+                                                            <p>Open Flare, click the down arrow on the <b>Build Primary</b> button and select <b>HTML5 SKT Help</b>.</p>
                                                         </li>
                                                         <li value="2">
                                                             <p>Open <b>Project Organizer &gt; Targets</b>.</p>
                                                         </li>
                                                         <li value="3">
-                                                            <p>Double-click <b>HTML5 SKP Help (Primary)</b> .</p>
+                                                            <p>Double-click <b>HTML5 SKT Help (Primary)</b> .</p>
                                                         </li>
                                                         <li value="4">
                                                             <p>Click <b>Publishing</b> tab.</p>
                                                         </li>
                                                         <li value="5">
-                                                            <p>Select the Destination being updated: <b>HTML5 IGC</b>.</p>
+                                                            <p>Select the Destination being updated: <b>HTML5 SKT</b>.</p>
                                                         </li>
                                                         <li value="6">
                                                             <p>Click the <b>Edit Destination</b> button; a new tab opens.</p>
@@ -299,21 +298,16 @@
                                                         </li>
                                                         <li value="8">
                                                             <p>Select the destination folder<b>: IGCHelp</b>.</p>
+                                                            <p class="note"><b>NOTE:</b> You must select your own IGCHelp output folder. For example, ~/CarolineStJohn/IGCHelp...</p>
                                                         </li>
                                                         <li value="9">
                                                             <p>Click <b>Save</b>. </p>
                                                         </li>
                                                         <li value="10">
-                                                            <p>Click <b>OK</b> to the error message that displays and close the tab.</p>
+                                                            <p>Click <b>OK</b> to the warning message that displays and close the tab.</p>
                                                         </li>
                                                         <li value="11">
                                                             <p>Click the <b>Publish</b> button on the topic toolbar of the Target Editor tab.</p>
-                                                        </li>
-                                                        <li value="12">
-                                                            <p>Close the HTML5 SKP  topic.</p>
-                                                        </li>
-                                                        <li value="13">
-                                                            <p>Close Flare.</p>
                                                         </li>
                                                     </ol>
                                                     <p>Proceed with committing changes in GitHub (git add., git commit, give push origin and create a pull request).</p>
@@ -326,20 +320,20 @@
                                                             <p>Navigate to your repo, and make sure you are in the correct branch. It is in parenthesis after your prompt.</p>
                                                         </li>
                                                         <li value="3">
-                                                            <p>Enter the git command git status to see all of the changes you have made.</p>
-                                                            <p>Note: All of the updated files’ paths will appear in red.</p>
-                                                            <p>Note: If you do not see them, you may have forgotten to save or you are in the wrong branch.</p>
+                                                            <p>Enter the git command <span style="font-family: Consolas; font-weight: bold;">git status</span> to see all of the changes you have made.</p>
+                                                            <p class="note"><b>NOTE:</b> All of the updated files’ paths will appear in red.</p>
+                                                            <p class="note"><b>NOTE:</b> If you do not see them, you may have forgotten to save or you are in the wrong branch.</p>
                                                         </li>
                                                         <li value="4">
-                                                            <p>Enter the git command git add . to stage your updates for commit.</p>
-                                                            <p>Note: The file paths change from red to green after you stage them. Include the space and the period.</p>
+                                                            <p>Enter the git command <span style="font-family: Consolas; font-weight: bold;">git add .</span> to stage your updates for commit.</p>
+                                                            <p class="note"><b>NOTE:</b> The file paths change from red to green after you stage them. Include the space and the period.</p>
                                                         </li>
                                                         <li value="5">
-                                                            <p>Enter the git the command git commit -m "commit message" to commit staged updates.</p>
-                                                            <p>Note: Do not use special characters, like apostrophes, in message.</p>
+                                                            <p>Enter the git the command <span style="font-family: Consolas; font-weight: bold;">git commit -m "commit message"</span> to commit staged updates.</p>
+                                                            <p class="note"><b>NOTE:</b> Do not use special characters, like apostrophes, in message.</p>
                                                         </li>
                                                         <li value="6">
-                                                            <p>Enter the git git push origin BranchName to push your updates to the remote repo.</p>
+                                                            <p>Enter the git command <span style="font-family: Consolas;">git push origin BranchName</span> to push your updates to the remote repo.</p>
                                                         </li>
                                                         <li value="7">
                                                             <p>Create pull request to merge BranchName into develop.</p>
@@ -349,7 +343,7 @@
                                                         </li>
                                                     </ol>
                                                     <h2>Perform SKT Help Peer Review</h2>
-                                                    <p>Follow the steps listed <a href="BOADocProcess_Workflow_PeerReview.html">here</a>. </p>
+                                                    <p>Follow the steps listed <a href="BOADocProcess_Workflow_PeerReview.html" target="_blank" rel="noopener noreferrer">here</a>. </p>
                                                 </div>
                                                 <div id="feedback-survey">
                                                     <div class="feedback-question">
@@ -380,7 +374,7 @@
                                                                 </p>
                                                                 <p class="feedbackW">Want to tell us more?</p>
                                                                 <p>Send an email to our authors to leave your feedback.</p>
-                                                                <p><a href="mailto:Helpfeedback@syniti.com?subject=Feedback" id="feedbackEmailLink">Email us</a>
+                                                                <p><a href="mailto:Helpfeedback@syniti.com?subject=Feedback" id="feedbackEmailLink" target="_blank" rel="noopener noreferrer">Email us</a>
                                                                 </p>
                                                             </div>
                                                         </div>
@@ -419,26 +413,26 @@
                                             </div>
                                             <div>
                                                 <h5>Get in Touch</h5>
-                                                <p class="footer"><a href="https://support.syniti.com/access/unauthenticated?return_to=https%3A%2F%2Fbackofficeassociates.zendesk.com%2Fagent%2Fdashboard" target="_blank" data-mc-conditions="Primary.dspConduct">Contact Support</a>
+                                                <p class="footer"><a href="https://support.syniti.com/access/unauthenticated?return_to=https%3A%2F%2Fbackofficeassociates.zendesk.com%2Fagent%2Fdashboard" target="_blank" rel="noopener noreferrer" data-mc-conditions="Primary.dspConduct">Contact Support</a>
                                                 </p>
-                                                <p class="footer"><a href="http://launchpad.support.sap.com/" data-mc-conditions="Primary.ISA">SAP Support (Use component XX-PART-BOA)</a>
+                                                <p class="footer"><a href="http://launchpad.support.sap.com/" target="_blank" rel="noopener noreferrer" data-mc-conditions="Primary.ISA">SAP Support (Use component XX-PART-BOA)</a>
                                                 </p>
-                                                <p class="footer"><a href="../Ideas_Portal.htm">Access Product Ideas Portal</a>
+                                                <p class="footer"><a href="../Ideas_Portal.htm" target="_blank" rel="noopener noreferrer">Access Product Ideas Portal</a>
                                                 </p>
-                                                <p class="footer"><a href="https://www.syniti.com/support/education/" target="_blank">Request Product Training</a>
+                                                <p class="footer"><a href="https://www.syniti.com/support/education/" target="_blank" rel="noopener noreferrer">Request Product Training</a>
                                                 </p>
                                                 <h5>Related Content</h5>
-                                                <p class="footer"><a href="../glossary.htm" target="_blank">Glossary</a>
+                                                <p class="footer"><a href="../glossary.htm" target="_blank" rel="noopener noreferrer">Glossary</a>
                                                 </p>
-                                                <p class="footer"><a href="../When_to_request_a_new_product_license.htm">Product Licenses</a>
+                                                <p class="footer"><a href="../When_to_request_a_new_product_license.htm" target="_blank" rel="noopener noreferrer">Product Licenses</a>
                                                 </p>
-                                                <p class="footer"><a href="http://support.syniti.com/hc/en-us" target="_blank" data-mc-conditions="Primary.dspConduct">Knowledge Base</a>
+                                                <p class="footer"><a href="http://support.syniti.com/hc/en-us" target="_blank" rel="noopener noreferrer" data-mc-conditions="Primary.dspConduct">Knowledge Base</a>
                                                 </p>
                                             </div>
                                             <div>
                                                 <p class="footer" id="di">&#160;
 					</p>
-                                                <p class="btn more"><a href="../Data_Insiders_Community.htm" target="_blank">Learn More</a>
+                                                <p class="btn more"><a href="../Data_Insiders_Community.htm" target="_blank" rel="noopener noreferrer">Learn More</a>
                                                 </p>
                                             </div>
                                             <div>
@@ -456,15 +450,15 @@
                                                 <p>&#160;</p>
                                             </div>
                                             <div>
-                                                <p class="footer bottom"><a href="https://www.syniti.com/privacy-policy/">Privacy Policy</a>
+                                                <p class="footer bottom"><a href="https://www.syniti.com/privacy-policy/" target="_blank" rel="noopener noreferrer">Privacy Policy</a>
                                                 </p>
                                             </div>
                                             <div>
-                                                <p class="footer bottom"><a href="https://www.syniti.com/trademarks/">Trademarks</a>
+                                                <p class="footer bottom"><a href="https://www.syniti.com/trademarks/" target="_blank" rel="noopener noreferrer">Trademarks</a>
                                                 </p>
                                             </div>
                                             <div>
-                                                <p class="footer bottom"><a href="https://www.syniti.com/terms-of-use/">Terms of Use</a>
+                                                <p class="footer bottom"><a href="https://www.syniti.com/terms-of-use/" target="_blank" rel="noopener noreferrer">Terms of Use</a>
                                                 </p>
                                             </div>
                                         </div>
