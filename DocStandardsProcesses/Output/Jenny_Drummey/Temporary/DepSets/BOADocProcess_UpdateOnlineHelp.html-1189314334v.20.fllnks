@@ -22,6 +22,8 @@
     <Link
       Url="Content/DocProcess/BOADocProcess_AliasValueRange.html" />
     <Link
+      Url="Content/Resources/Snippets/ExternalLinks.flsnp" />
+    <Link
       Url="Content/DocProcess/BOADocProcess_BuildHelpTargets.html" />
     <Link
       Url="Content/DocProcess/BOADocProcess_CondTags.html" />
@@ -103,6 +105,8 @@
       Url="Content/SSTDocStandards/BOADocStandards_Overview.html" />
     <Link
       Url="Content/DocProcess/BOADocProcess_AliasValueRange.html" />
+    <Link
+      Url="Content/Resources/Snippets/ExternalLinks.flsnp" />
     <Link
       Url="Content/DocProcess/BOADocProcess_BuildHelpTargets.html" />
     <Link

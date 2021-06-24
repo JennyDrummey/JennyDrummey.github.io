@@ -24,6 +24,8 @@
     <Link
       Url="Content/SSTDocStandards/BOADocStandards_FDGuidelines.html" />
     <Link
+      Url="Content/Resources/Snippets/ExternalLinks.flsnp" />
+    <Link
       Url="Content/Resources/Images/pageDescription.png" />
     <Link
       Url="Content/Resources/Images/objectsH.png" />
@@ -51,6 +53,8 @@
       Url="Content/Resources/Images/mergedTableCell.png" />
     <Link
       Url="Content/SSTDocStandards/BOADocStandards_FDGuidelines.html#bullets" />
+    <Link
+      Url="Content/Resources/Snippets/ExternalLinks.flsnp" />
     <Link
       Url="Content/SSTDocStandards/BOADocStandards_FDGuidelines.html#application-of-styles" />
     <Link
