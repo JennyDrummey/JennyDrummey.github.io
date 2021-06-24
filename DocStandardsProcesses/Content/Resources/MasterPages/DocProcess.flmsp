@@ -2,20 +2,10 @@
 <html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
     <head>
         <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <title data-title="BOA Help">DSP Help</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" /><title data-title="BOA Help">DSP Help</title>
         <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css" />
         <link href="../../Resources/Stylesheets/newDefault.css" rel="stylesheet" type="text/css" />
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-121391607-4">
-        </script>
-        <script>
-			window.dataLayer = window.dataLayer || [];
-			function gtag(){dataLayer.push(arguments);}
-			gtag('js', new Date());
-
-			gtag('config', 'UA-121391607-4', {'anonymize_ip':true});
-		</script>
+        
         <!-- Scripts for menu modal dropdown, popup modals, and back-to-top button. -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.6.15/browser-polyfill.min.js">
         </script>
@@ -82,13 +72,11 @@
                                     </p>
                                 </div>
                                 <div class="feedback-reason no-thanks">
-                                    <p class="feedback-question">
-                                        <b>Thanks for your feedback.</b>
+                                    <p class="feedback-question"><b>Thanks for your feedback.</b>
                                     </p>
                                     <p class="feedbackW">Want to tell us more?</p>
                                     <p>Send an email to our authors to leave your feedback.</p>
-                                    <p>
-                                        <a href="mailto:Helpfeedback@syniti.com?subject=Feedback" id="feedbackEmailLink" target="_blank" rel="noopener noreferrer">Email us</a>
+                                    <p><a href="mailto:Helpfeedback@syniti.com?subject=Feedback" id="feedbackEmailLink" target="_blank" rel="noopener noreferrer">Email us</a>
                                     </p>
                                 </div>
                             </div>
@@ -126,34 +114,26 @@
                 </div>
                 <div>
                     <h5>Get in Touch</h5>
-                    <p class="footer">
-                        <a href="https://support.syniti.com/access/unauthenticated?return_to=https%3A%2F%2Fbackofficeassociates.zendesk.com%2Fagent%2Fdashboard" target="_blank" MadCap:conditions="Primary.dspConduct" rel="noopener noreferrer">Contact Support</a>
+                    <p class="footer"><a href="https://support.syniti.com/access/unauthenticated?return_to=https%3A%2F%2Fbackofficeassociates.zendesk.com%2Fagent%2Fdashboard" target="_blank" MadCap:conditions="Primary.dspConduct" rel="noopener noreferrer">Contact Support</a>
                     </p>
-                    <p class="footer">
-                        <a href="http://launchpad.support.sap.com/" MadCap:conditions="Primary.ISA" target="_blank" rel="noopener noreferrer">SAP Support (Use component XX-PART-BOA)</a>
+                    <p class="footer"><a href="http://launchpad.support.sap.com/" MadCap:conditions="Primary.ISA" target="_blank" rel="noopener noreferrer">SAP Support (Use component XX-PART-BOA)</a>
                     </p>
-                    <p class="footer">
-                        <a href="../../Ideas_Portal.htm" target="_blank" rel="noopener noreferrer">Access Product Ideas Portal</a>
+                    <p class="footer"><a href="../../Ideas_Portal.htm" target="_blank" rel="noopener noreferrer">Access Product Ideas Portal</a>
                     </p>
-                    <p class="footer">
-                        <a href="https://www.syniti.com/support/education/" target="_blank" rel="noopener noreferrer">Request Product Training</a>
+                    <p class="footer"><a href="https://www.syniti.com/support/education/" target="_blank" rel="noopener noreferrer">Request Product Training</a>
                     </p>
                     <h5>Related Content</h5>
-                    <p class="footer">
-                        <a href="../../glossary.htm" target="_blank" rel="noopener noreferrer">Glossary</a>
+                    <p class="footer"><a href="../../glossary.htm" target="_blank" rel="noopener noreferrer">Glossary</a>
                     </p>
-                    <p class="footer">
-                        <a href="../../When_to_request_a_new_product_license.htm" target="_blank" rel="noopener noreferrer">Product Licenses</a>
+                    <p class="footer"><a href="../../When_to_request_a_new_product_license.htm" target="_blank" rel="noopener noreferrer">Product Licenses</a>
                     </p>
-                    <p class="footer">
-                        <a href="http://support.syniti.com/hc/en-us" target="_blank" MadCap:conditions="Primary.dspConduct" rel="noopener noreferrer">Knowledge Base</a>
+                    <p class="footer"><a href="http://support.syniti.com/hc/en-us" target="_blank" MadCap:conditions="Primary.dspConduct" rel="noopener noreferrer">Knowledge Base</a>
                     </p>
                 </div>
                 <div>
                     <p class="footer" id="di">&#160;
 					</p>
-                    <p class="btn more">
-                        <a href="../../Data_Insiders_Community.htm" target="_blank" rel="noopener noreferrer">Learn More</a>
+                    <p class="btn more"><a href="../../Data_Insiders_Community.htm" target="_blank" rel="noopener noreferrer">Learn More</a>
                     </p>
                 </div>
                 <div>
@@ -170,18 +150,15 @@
                     <p>&#160;</p>
                 </div>
                 <div>
-                    <p class="footer bottom">
-                        <a href="https://www.syniti.com/privacy-policy/" target="_blank" rel="noopener noreferrer">Privacy Policy</a>
+                    <p class="footer bottom"><a href="https://www.syniti.com/privacy-policy/" target="_blank" rel="noopener noreferrer">Privacy Policy</a>
                     </p>
                 </div>
                 <div>
-                    <p class="footer bottom">
-                        <a href="https://www.syniti.com/trademarks/" target="_blank" rel="noopener noreferrer">Trademarks</a>
+                    <p class="footer bottom"><a href="https://www.syniti.com/trademarks/" target="_blank" rel="noopener noreferrer">Trademarks</a>
                     </p>
                 </div>
                 <div>
-                    <p class="footer bottom">
-                        <a href="https://www.syniti.com/terms-of-use/" target="_blank" rel="noopener noreferrer">Terms of Use</a>
+                    <p class="footer bottom"><a href="https://www.syniti.com/terms-of-use/" target="_blank" rel="noopener noreferrer">Terms of Use</a>
                     </p>
                 </div>
             </div>

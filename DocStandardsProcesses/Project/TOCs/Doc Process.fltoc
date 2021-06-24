@@ -52,9 +52,6 @@
     Title="Stewardship Tier Only"
     Link="/Content/DocProcess/StewardshipTierOnly.html">
     <TocEntry
-      Title="Update Project for a New SST Version"
-      Link="/Content/DocProcess/BOADocProcess _UpdateFlareProjectNewVersion.html"></TocEntry>
-    <TocEntry
       Title="Prepare SST What's New Topic for Release"
       Link="/Content/DocProcess/BOADocProcess_PrepareWhatsNew.html"></TocEntry>
     <TocEntry
@@ -69,6 +66,12 @@
     <TocEntry
       Title="Checklist Add New SST Component"
       Link="/Content/DocProcess/BOADocProcess_CLAddNewComponent.html"></TocEntry>
+    <TocEntry
+      Title="Update Project for a New SST Version"
+      Link="/Content/DocProcess/BOADocProcess _UpdateFlareProjectNewVersion.html"></TocEntry>
+    <TocEntry
+      Title="Add Duplicate Links for Solex Versions"
+      Link="/Content/DocProcess/AddDuplicateLinksforSolex.htm" />
   </TocEntry>
   <TocEntry
     Title="Knowledge Tier Only"
