@@ -3,6 +3,6 @@
     <head>
     </head>
     <body>
-        <p><b>NOTE:</b> All hyperlinks are external links and must contain the following code: </p><pre>target="blank" rel="noopener noreferrer"</pre>
+        <p><b>NOTE:</b> All hyperlinks are external links and must contain the following code: </p><pre xml:space="preserve">target="_blank" rel="noopener noreferrer"</pre>
     </body>
 </html>
