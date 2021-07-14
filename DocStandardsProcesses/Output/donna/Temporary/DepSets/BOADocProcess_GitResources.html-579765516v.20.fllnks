@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileLinkSet
+  FileSearchable="true"
+  MasterPage="file:///C:/Users/donna/JennyDrummey.github.io/DocStandardsProcesses/Content/Resources/MasterPages/DocProcess.flmsp"
+  OnlyLocalStylesheets="false"
+  FileTimeEstimate="0"
+  FilePriority="0">
+  <Links>
+    <Link
+      Url="Content/Resources/MasterPages/DocProcess.flmsp" />
+    <Link
+      Url="Content/Resources/Stylesheets/Styles.css" />
+    <Link
+      Url="Content/Resources/Stylesheets/newDefault.css" />
+    <Link
+      Url="https://www.youtube.com/watch" />
+    <Link
+      Url="https://www.youtube.com/playlist" />
+    <Link
+      Url="https://mva.microsoft.com/en-US/training-courses/github-for-windows-users-16749" />
+    <Link
+      Url="https://github.com/BackOfficeAssoc/sandbox/blob/master/git.md" />
+    <Link
+      Url="https://git-scm.com/book/en/v1/Git-Tools-Stashing" />
+    <Link
+      Url="https://gitforwindows.org/" />
+  </Links>
+  <LongLinks>
+    <Link
+      Url="Content/Resources/MasterPages/DocProcess.flmsp" />
+    <Link
+      Url="Content/Resources/Stylesheets/Styles.css" />
+    <Link
+      Url="Content/Resources/Stylesheets/newDefault.css" />
+    <Link
+      Url="https://www.youtube.com/watch?list=PLWKjhJtqVAbkFiqHnNaxpOPhh9tSWMXIF&amp;v=vR-y_2zWrIE" />
+    <Link
+      Url="https://www.youtube.com/watch?v=vR-y_2zWrIE&amp;index=2&amp;list=PLWKjhJtqVAbkFiqHnNaxpOPhh9tSWMXIF&amp;t=0s" />
+    <Link
+      Url="https://www.youtube.com/watch?v=2GO1a1vgNrc&amp;list=PLWKjhJtqVAbkFiqHnNaxpOPhh9tSWMXIF&amp;index=2" />
+    <Link
+      Url="https://www.youtube.com/watch?v=09wR8kYT3t8&amp;index=4&amp;list=PLWKjhJtqVAbkFiqHnNaxpOPhh9tSWMXIF" />
+    <Link
+      Url="https://www.youtube.com/watch?v=JXM7MO2GgGg&amp;list=PLWKjhJtqVAbkFiqHnNaxpOPhh9tSWMXIF&amp;index=6" />
+    <Link
+      Url="https://www.youtube.com/watch?v=tYOl25gyuvk&amp;index=8&amp;list=PLWKjhJtqVAbkFiqHnNaxpOPhh9tSWMXIF" />
+    <Link
+      Url="https://www.youtube.com/watch?v=sfT0WrChMrM&amp;list=PLWKjhJtqVAbkFiqHnNaxpOPhh9tSWMXIF&amp;index=9" />
+    <Link
+      Url="https://www.youtube.com/watch?v=XiFYShmnI4k&amp;list=PLWKjhJtqVAbkFiqHnNaxpOPhh9tSWMXIF&amp;index=11" />
+    <Link
+      Url="https://www.youtube.com/playlist?list=PLqGj3iMvMa4LFz8DZ0t-89twnelpT4Ilw" />
+    <Link
+      Url="https://www.youtube.com/watch?v=1h9_cB9mPT8&amp;list=PLqGj3iMvMa4LFz8DZ0t-89twnelpT4Ilw&amp;index=2&amp;t=0s" />
+    <Link
+      Url="https://www.youtube.com/watch?v=_ALeswWzpBo&amp;list=PLqGj3iMvMa4LFz8DZ0t-89twnelpT4Ilw&amp;index=2" />
+    <Link
+      Url="https://mva.microsoft.com/en-US/training-courses/github-for-windows-users-16749?l=8MGXzodxC_5206218965" />
+    <Link
+      Url="https://github.com/BackOfficeAssoc/sandbox/blob/master/git.md" />
+    <Link
+      Url="https://git-scm.com/book/en/v1/Git-Tools-Stashing" />
+    <Link
+      Url="https://gitforwindows.org/" />
+  </LongLinks>
+  <Anchors />
+  <Keywords />
+  <Concepts />
+  <ConceptControlNames />
+  <IndexControlNames />
+  <Variables />
+  <FileConditions />
+  <FileTags />
+  <AllConditions />
+  <Stylesheets>
+    <Url
+      Source="Content/Resources/Stylesheets/Styles.css" />
+    <Url
+      Source="Content/Resources/Stylesheets/newDefault.css" />
+  </Stylesheets>
+</CatapultFileLinkSet>
