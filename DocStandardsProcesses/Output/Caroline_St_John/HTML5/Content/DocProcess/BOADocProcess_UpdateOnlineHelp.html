@@ -12,7 +12,6 @@
         <link rel="icon" sizes="16x16" href="../../Skins/Favicons/favicon-16x16.png" />
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" /><title data-title="BOA Help">Update Online Help in Flare</title>
-        <!-- Global site tag (gtag.js) - Google Analytics -->
         <!-- Scripts for menu modal dropdown, popup modals, and back-to-top button. -->
         <link href="../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
         <link href="../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
@@ -60,15 +59,6 @@
         </script>
         <script src="../../Resources/Scripts/MadCapAll.js" type="text/javascript" defer="defer">
         </script>
-        <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-121391607-4">
-        </script>
-        <script>/* <![CDATA[ */
-			window.dataLayer = window.dataLayer || [];
-			function gtag(){dataLayer.push(arguments);}
-			gtag('js', new Date());
-
-			gtag('config', 'UA-121391607-4', {'anonymize_ip':true});
-		/* ]]> */</script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.6.15/browser-polyfill.min.js">
         </script>
         <script type="text/javascript" src="../Resources/Scripts/modal.js">
@@ -441,12 +431,13 @@
                                                     <p class="note"><b>NOTE</b>: When adding the Map ID, update the Alias File Value field to the appropriate range for the component. Refer to <a href="BOADocProcess_AliasValueRange.html" target="_blank" rel="noopener noreferrer">Alias Value Range</a> for the alias file value ranges by component.</p>
                                                     <ol data-mc-continue="true">
                                                         <li value="11">
-                                                            <p>Add the page hyperlink to the component’s Page Descriptions page.</p>
+                                                            <p>Add the page hyperlink to the component’s Page Descriptions page as an external link.</p>
                                                         </li>
                                                     </ol>
+                                                    <p><b>NOTE:</b> All hyperlinks are external links and must contain the following code: </p><pre xml:space="preserve">target="_blank" rel="noopener noreferrer"</pre>
                                                     <h2><a name="Editing"></a>Editing content already in Help to send for Review</h2>
                                                     <p>When existing Help content needs to be updated, cut and paste content into a Google document. Then, , turn on Suggesting Mode to indicated the edits. </p>
-                                                    <p>If you n eed a large section of help content, you can build a TOC and generate a Word document, then copy the contents of that Word doc into a googledoc. </p>
+                                                    <p>If you need a large section of help content, you can build a TOC and generate a Word document, then copy the contents of that Word doc into a googledoc. </p>
                                                     <p>To generate a Word document from Flare:</p>
                                                     <ol>
                                                         <li value="1">
@@ -617,7 +608,7 @@
                                                             </ul>
                                                         </li>
                                                         <li>
-                                                            <p>Installation Guides master pages are based on the name of the guide.</p>
+                                                            <p>Installation Guides master pages are based on the name of the guide. However, the single topic Installation and the single topic Update guide use a master page called Headiings.</p>
                                                         </li>
                                                     </ul>
                                                     <h2><a name="Format"></a>Format Tables in Topics</h2>
