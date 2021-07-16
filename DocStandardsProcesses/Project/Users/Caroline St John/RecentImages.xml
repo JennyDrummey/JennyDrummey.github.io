@@ -1,5 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <UrlList>
+    <Url Source="Resources/Images/RootFile1.png" />
+    <Url Source="Resources/Images/HTML5file.png" />
     <Url Source="Resources/Images/DI-Banner2.svg" />
     <Url Source="Resources/Images/OpeningClosingVideoSlide.png" />
     <Url Source="Resources/Images/DI-Banner (1).svg" />
