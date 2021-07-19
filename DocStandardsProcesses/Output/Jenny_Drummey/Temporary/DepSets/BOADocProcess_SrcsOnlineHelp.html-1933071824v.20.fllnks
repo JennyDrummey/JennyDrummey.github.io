@@ -11,12 +11,18 @@
       Url="Content/Resources/MasterPages/DocProcess.flmsp" />
     <Link
       Url="Content/Resources/Stylesheets/newDefault.css" />
+    <Link
+      Url="https://entota.atlassian.net/secure/RapidBoard.jspa" />
   </Links>
   <LongLinks>
     <Link
       Url="Content/Resources/MasterPages/DocProcess.flmsp" />
     <Link
       Url="Content/Resources/Stylesheets/newDefault.css" />
+    <Link
+      Url="https://entota.atlassian.net/secure/RapidBoard.jspa?rapidView=153" />
+    <Link
+      Url="https://entota.atlassian.net/secure/RapidBoard.jspa?rapidView=165" />
   </LongLinks>
   <Anchors />
   <Keywords />
