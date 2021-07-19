@@ -30,9 +30,9 @@
     <Link
       Url="Content/Resources/Stylesheets/newDefault.css" />
     <Link
-      Url="Content/SSTDocStandards/BOADocStandards_UCGuidelines.html#list-boxes-in-use-cases" />
+      Url="Content/SSTDocStandards/BOADocStandards_UCGuidelines.html#List" />
     <Link
-      Url="Content/SSTDocStandards/BOADocStandards_UCGuidelines.html#numbered-steps-in-use-cases" />
+      Url="Content/SSTDocStandards/BOADocStandards_UCGuidelines.html#Numbered" />
     <Link
       Url="Content/DocProcess/BOADocProcess_UpdateOnlineHelp.html#Format" />
     <Link
@@ -44,7 +44,12 @@
     <Link
       Url="Content/Resources/Images/complexusecase.png" />
   </LongLinks>
-  <Anchors />
+  <Anchors>
+    <Anchor
+      Name="Numbered" />
+    <Anchor
+      Name="List" />
+  </Anchors>
   <Keywords />
   <Concepts />
   <ConceptControlNames />

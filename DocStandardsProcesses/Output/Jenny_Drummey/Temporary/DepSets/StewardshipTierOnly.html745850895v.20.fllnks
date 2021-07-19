@@ -13,7 +13,7 @@
     <Link
       Url="Content/Resources/Stylesheets/newDefault.css" />
     <Link
-      Url="Content/DocProcess/BOADocProcess _UpdateFlareProjectNewVersion.html" />
+      Url="Content/DocProcess/BOADocProcess_UpdateFlareProjectNewVersion.html" />
     <Link
       Url="Content/DocProcess/BOADocProcess_PrepareWhatsNew.html" />
     <Link
@@ -35,7 +35,7 @@
     <Link
       Url="Content/Resources/Stylesheets/newDefault.css" />
     <Link
-      Url="Content/DocProcess/BOADocProcess _UpdateFlareProjectNewVersion.html" />
+      Url="Content/DocProcess/BOADocProcess_UpdateFlareProjectNewVersion.html" />
     <Link
       Url="Content/DocProcess/BOADocProcess_PrepareWhatsNew.html" />
     <Link

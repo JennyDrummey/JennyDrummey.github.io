@@ -3,7 +3,7 @@
     <head />
     <body>
         <h1>Publish SKT Help</h1>
-        <p>SKT Help updates can be published anytime and do not require a jenkins build. When a ticket on the Kyber board reaches the Prod swimlane,  it is deployed and the related documentation should be published.</p>
+        <p>SKT Help updates can be published anytime and do not require a jenkins build. When a ticket on the Syniti Knowledge Tier (Kyb) board reaches the Prod swimlane,  it is deployed and the related documentation should be published.</p>
         <p>To publish Help:</p>
         <ol>
             <li>
@@ -13,18 +13,15 @@
                 <p>Inform the Doc Team in the doc_checkouts Slack channel that you are going to check out the Help.</p>
             </li>
             <li>
-                <p>
-                    <a href="#Synchron" target="_blank" rel="noopener noreferrer">Synchronize your local repo develop branch with the remote develop branch and create a new branch.</a>
+                <p><a href="#Synchron" target="_blank" rel="noopener noreferrer">Synchronize your local repo develop branch with the remote develop branch and create a new branch.</a>
                 </p>
             </li>
             <li>
                 <p>Make updates and note them in your <a href="BOADocProcess_Workflow_Approved.html#Author" target="_blank" rel="noopener noreferrer">Author Notes</a>. </p>
-                <p class="note">
-                    <b>NOTE</b>: If you are making changes to the What's New topic and they are the first changes made in a month, you must <a href="#Add" target="_blank" rel="noopener noreferrer">add that month to the drop-down list that displays on the What's New page</a>. </p>
+                <p class="note"><b>NOTE</b>: If you are making changes to the What's New topic and they are the first changes made in a month, you must <a href="#Add" target="_blank" rel="noopener noreferrer">add that month to the drop-down list that displays on the What's New page</a>. </p>
             </li>
             <li>
-                <p>
-                    <a href="#Build" target="_blank" rel="noopener noreferrer">Build and Publish</a> the target.</p>
+                <p><a href="#Build" target="_blank" rel="noopener noreferrer">Build and Publish</a> the target.</p>
             </li>
             <li>
                 <p>Commit updates locally and push to remote.</p>
@@ -39,9 +36,7 @@
                 <p>When the peer review is complete, merge the develop branch to the master branch to push the changes to the prod environment. </p>
             </li>
         </ol>
-        <h2>
-            <a name="Synchron">
-            </a>Synchronize your local repo develop branch with the remote develop branch and create a new branch</h2>
+        <h2><a name="Synchron"></a>Synchronize your local repo develop branch with the remote develop branch and create a new branch</h2>
         <ol>
             <li>
                 <p>Right-click your local repo folder and select <b>Git Bash Here</b> from the dropdown menu to open the command prompt at that location.</p>
@@ -51,8 +46,7 @@
             </li>
             <li>
                 <p>Enter the git command <b>git pull origin develop</b> to synchronize your local copy of the develop branch with the remote copy.</p>
-                <p class="note">
-                    <b>NOTE:</b> You MUST perform these steps before you make updates to ensure you are working in the latest copy of the develop branch.</p>
+                <p class="note"><b>NOTE:</b> You MUST perform these steps before you make updates to ensure you are working in the latest copy of the develop branch.</p>
             </li>
             <li> Enter git command <span style="font-family: Consolas; font-weight: bold;">git checkout -b BranchName</span> to create a personal branch in which to make edits, where <span style="font-family: Consolas;">BranchName</span> is a brief description of the branch.</li>
         </ol>
@@ -61,9 +55,7 @@
                 <p>Open the SKT help project in Flare and make updates.</p>
             </li>
         </ol>
-        <h2>
-            <a name="Add">
-            </a>Add Month to the Drop-down List on the What's New Page</h2>
+        <h2><a name="Add"></a>Add Month to the Drop-down List on the What's New Page</h2>
         <p>If you are adding content to the What's New topic at the start of a new month, you must update the month option in the menu. </p>
         <p>
             <img src="../Resources/Images/image1.png" />
@@ -88,9 +80,7 @@
                 <p>Click <b>Save</b>. </p>
             </li>
         </ol>
-        <h2>
-            <a name="Build">
-            </a>Build and Publish Target</h2>
+        <h2><a name="Build"></a>Build and Publish Target</h2>
         <p>To build and publish a target in Flare:</p>
         <ol>
             <li>
@@ -116,8 +106,7 @@
             </li>
             <li>
                 <p>Select the destination folder<b>: IGCHelp</b>.</p>
-                <p class="note">
-                    <b>NOTE:</b> You must select your own IGCHelp output folder. For example, ~/CarolineStJohn/IGCHelp...</p>
+                <p class="note"><b>NOTE:</b> You must select your own IGCHelp output folder. For example, ~/CarolineStJohn/IGCHelp...</p>
             </li>
             <li>
                 <p>Click <b>Save</b>. </p>
@@ -140,20 +129,16 @@
             </li>
             <li>
                 <p>Enter the git command <span style="font-family: Consolas; font-weight: bold;">git status</span> to see all of the changes you have made.</p>
-                <p class="note">
-                    <b>NOTE:</b> All of the updated files’ paths will appear in red.</p>
-                <p class="note">
-                    <b>NOTE:</b> If you do not see them, you may have forgotten to save or you are in the wrong branch.</p>
+                <p class="note"><b>NOTE:</b> All of the updated files’ paths will appear in red.</p>
+                <p class="note"><b>NOTE:</b> If you do not see them, you may have forgotten to save or you are in the wrong branch.</p>
             </li>
             <li>
                 <p>Enter the git command <span style="font-family: Consolas; font-weight: bold;">git add .</span> to stage your updates for commit.</p>
-                <p class="note">
-                    <b>NOTE:</b> The file paths change from red to green after you stage them. Include the space and the period.</p>
+                <p class="note"><b>NOTE:</b> The file paths change from red to green after you stage them. Include the space and the period.</p>
             </li>
             <li>
                 <p>Enter the git the command <span style="font-family: Consolas; font-weight: bold;">git commit -m "commit message"</span> to commit staged updates.</p>
-                <p class="note">
-                    <b>NOTE:</b> Do not use special characters, like apostrophes, in message.</p>
+                <p class="note"><b>NOTE:</b> Do not use special characters, like apostrophes, in message.</p>
             </li>
             <li>
                 <p>Enter the git command <span style="font-family: Consolas;">git push origin BranchName</span> to push your updates to the remote repo.</p>

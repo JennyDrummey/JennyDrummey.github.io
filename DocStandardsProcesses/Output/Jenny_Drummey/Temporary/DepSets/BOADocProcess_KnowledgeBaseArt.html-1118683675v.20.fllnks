@@ -33,7 +33,10 @@
     <Link
       Url="https://www.thesitewizard.com/css/hanging-indents.shtml" />
   </LongLinks>
-  <Anchors />
+  <Anchors>
+    <Anchor
+      Name="Format" />
+  </Anchors>
   <Keywords />
   <Concepts />
   <ConceptControlNames />
