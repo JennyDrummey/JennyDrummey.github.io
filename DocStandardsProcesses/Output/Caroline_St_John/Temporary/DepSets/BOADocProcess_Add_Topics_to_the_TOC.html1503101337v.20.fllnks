@@ -12,7 +12,7 @@
     <Link
       Url="Content/Resources/Stylesheets/newDefault.css" />
     <Link
-      Url="Content/DocProcess/BOADocProcess_Add_Topics_to_the_TOC.html" />
+      Url="Content/DocProcess/BOADocProcess_UpdateOnlineHelp.html" />
     <Link
       Url="Content/Resources/Images/SSTTOC.png" />
     <Link
@@ -24,7 +24,7 @@
     <Link
       Url="Content/Resources/Stylesheets/newDefault.css" />
     <Link
-      Url="Content/DocProcess/BOADocProcess_Add_Topics_to_the_TOC.html#Use" />
+      Url="Content/DocProcess/BOADocProcess_UpdateOnlineHelp.html#Use" />
     <Link
       Url="Content/Resources/Images/SSTTOC.png" />
     <Link
