@@ -14,6 +14,12 @@
     <Link
       Url="Content/DocProcess/BOADocProcess_DSPDocOverview.html" />
     <Link
+      Url="Content/DocProcess/UpdateStaticGuidance.htm" />
+    <Link
+      Url="Content/DocProcess/WriteInlineHelp.html" />
+    <Link
+      Url="Content/DocProcess/APIDocProcess.htm" />
+    <Link
       Url="Content/DocProcess/BOADocProcess_KnowledgeBaseArt.html" />
     <Link
       Url="Content/DocProcess/BOADocProcess_DIPosts.html" />
@@ -53,6 +59,12 @@
       Url="Content/DocProcess/BOADocProcess_DSPDocOverview.html#Update2" />
     <Link
       Url="Content/DocProcess/BOADocProcess_DSPDocOverview.html#Update3" />
+    <Link
+      Url="Content/DocProcess/UpdateStaticGuidance.htm" />
+    <Link
+      Url="Content/DocProcess/WriteInlineHelp.html" />
+    <Link
+      Url="Content/DocProcess/APIDocProcess.htm" />
     <Link
       Url="Content/DocProcess/BOADocProcess_DSPDocOverview.html#Update4" />
     <Link

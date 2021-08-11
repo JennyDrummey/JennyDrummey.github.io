@@ -12,7 +12,6 @@
         <link rel="icon" sizes="16x16" href="../../Skins/Favicons/favicon-16x16.png" />
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" /><title data-title="BOA Help">Update Online Help in Flare</title>
-        <!-- Global site tag (gtag.js) - Google Analytics -->
         <!-- Scripts for menu modal dropdown, popup modals, and back-to-top button. -->
         <link href="../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
         <link href="../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
@@ -24,18 +23,17 @@
         <link href="../../Skins/Fluid/Stylesheets/Styles.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
         <link href="../../Skins/Fluid/Stylesheets/Tablet.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
         <link href="../../Skins/Fluid/Stylesheets/Mobile.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
-        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css" />
         <link href="../Resources/Stylesheets/newDefault.css" rel="stylesheet" type="text/css" />
         <style>/*&lt;meta /&gt;*/
 
 .button.print-button
 {
-	-pie-background: url('../../Skins/Default/Stylesheets/Images/printer.png') no-repeat center center, linear-gradient(#ffffff, #ececec);
+	-pie-background: linear-gradient(#ffffff, #ececec);
 }
 
 .button.remove-highlight-button
 {
-	-pie-background: url('../../Skins/Default/Stylesheets/Images/highlight.png') no-repeat center center, linear-gradient(#ffffff, #ececec);
+	-pie-background: linear-gradient(#ffffff, #ececec);
 }
 
 .needs-pie
@@ -51,6 +49,8 @@
         <link rel="icon" sizes="16x16" href="../../Skins/Favicons/favicon-16x16.png" />
         <script src="../../Resources/Scripts/jquery.min.js" type="text/javascript">
         </script>
+        <script src="../../Resources/Scripts/purify.min.js" type="text/javascript" defer="defer">
+        </script>
         <script src="../../Resources/Scripts/require.min.js" type="text/javascript" defer="defer">
         </script>
         <script src="../../Resources/Scripts/require.config.js" type="text/javascript" defer="defer">
@@ -61,15 +61,6 @@
         </script>
         <script src="../../Resources/Scripts/MadCapAll.js" type="text/javascript" defer="defer">
         </script>
-        <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-121391607-4">
-        </script>
-        <script>/* <![CDATA[ */
-			window.dataLayer = window.dataLayer || [];
-			function gtag(){dataLayer.push(arguments);}
-			gtag('js', new Date());
-
-			gtag('config', 'UA-121391607-4', {'anonymize_ip':true});
-		/* ]]> */</script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.6.15/browser-polyfill.min.js">
         </script>
         <script type="text/javascript" src="../Resources/Scripts/modal.js">
@@ -184,10 +175,18 @@
                                                 <div class="buttons popup-container clearfix topicToolbarProxy mc-component nocontent" style="mc-topic-toolbar-items: Print RemoveHighlight;">
                                                     <div class="button-group-container-left">
                                                         <button class="button needs-pie print-button" title="Print">
-                                                            <img alt="Print" src="../../Skins/Default/Stylesheets/Images/transparent.gif" class="invisible-label" />
+                                                            <div>
+                                                                <div role="img" class="button-icon-wrapper" aria-label="Print">
+                                                                    <div class="button-icon"> </div>
+                                                                </div>
+                                                            </div>
                                                         </button>
                                                         <button class="button needs-pie remove-highlight-button" title="Remove Highlights">
-                                                            <img src="../../Skins/Default/Stylesheets/Images/transparent.gif" class="invisible-label" />
+                                                            <div>
+                                                                <div role="img" class="button-icon-wrapper">
+                                                                    <div class="button-icon"> </div>
+                                                                </div>
+                                                            </div>
                                                         </button>
                                                     </div>
                                                 </div>
@@ -196,78 +195,80 @@
                                                 <br />
                                                 <div role="main" id="mc-main-content">
                                                     <h1>Update Online Help in Flare</h1>
+                                                    <p>This sections in this topic describe how the Syniti Documentation Team uses Flare to create HTML5 help. </p>
+                                                    <p class="note"><b>NOTE</b>: All three hosted help systems (SST, SKT and Install Manual) use the same stylesheets (primarily newDeafult.css). </p>
                                                     <p>This topic contains:</p>
                                                     <ul>
                                                         <li>
-                                                            <p><a href="#Create">Create New Topic</a>
+                                                            <p><a href="#Create" target="_blank" rel="noopener noreferrer">Create New Topic</a>
                                                             </p>
                                                         </li>
                                                         <li>
-                                                            <p><a href="#Checklis">Checklist for Adding a Use Case</a>
+                                                            <p><a href="#Checklis" target="_blank" rel="noopener noreferrer">Checklist for Adding a Use Case</a>
                                                             </p>
                                                         </li>
                                                         <li>
-                                                            <p><a href="#Checklis2">Checklist for Adding a Field Description</a>
+                                                            <p><a href="#Checklis2" target="_blank" rel="noopener noreferrer">Checklist for Adding a Field Description</a>
                                                             </p>
                                                         </li>
                                                         <li>
-                                                            <p><a href="#Editing">Editing Content Already in Help to send for Review</a>
+                                                            <p><a href="#Editing" target="_blank" rel="noopener noreferrer">Editing Content Already in Help to send for Review</a>
                                                             </p>
                                                         </li>
                                                         <li>
-                                                            <p><a href="#Use">Use Condition Tags</a>
+                                                            <p><a href="#Use" target="_blank" rel="noopener noreferrer">Use Condition Tags</a>
                                                             </p>
                                                         </li>
                                                         <li>
-                                                            <p><a href="#Types">Types of Help Systems Output From Flare</a>
+                                                            <p><a href="#Types" target="_blank" rel="noopener noreferrer">Types of Help Systems Output From Flare</a>
                                                             </p>
                                                         </li>
                                                         <li>
-                                                            <p><a href="#Apply">Apply Condition Tag to a Topic</a>
+                                                            <p><a href="#Apply" target="_blank" rel="noopener noreferrer">Apply Condition Tag to a Topic</a>
                                                             </p>
                                                         </li>
                                                         <li>
-                                                            <p><a href="#Apply2">Apply Condition Tag to Content in a Topic</a>
+                                                            <p><a href="#Apply2" target="_blank" rel="noopener noreferrer">Apply Condition Tag to Content in a Topic</a>
                                                             </p>
                                                         </li>
                                                         <li>
-                                                            <p><a href="#Preview">Preview a Topic with a Condition Tag</a>
+                                                            <p><a href="#Preview" target="_blank" rel="noopener noreferrer">Preview a Topic with a Condition Tag</a>
                                                             </p>
                                                         </li>
                                                         <li>
-                                                            <p><a href="#Apply3">Apply the Master Page</a>
+                                                            <p><a href="#Apply3" target="_blank" rel="noopener noreferrer">Apply the Master Page</a>
                                                             </p>
                                                         </li>
                                                         <li>
-                                                            <p><a href="#Format">Format Tables in Topics</a>
+                                                            <p><a href="#Format" target="_blank" rel="noopener noreferrer">Format Tables in Topics</a>
                                                             </p>
                                                         </li>
                                                         <li>
-                                                            <p><a href="#Add3">Add Popups for Frequently Referenced Content</a>
+                                                            <p><a href="#Add3" target="_blank" rel="noopener noreferrer">Add Popups for Frequently Referenced Content</a>
                                                             </p>
                                                         </li>
                                                         <li>
-                                                            <p><a href="#Add4">Add and Insert Snippets for Static Content</a>
+                                                            <p><a href="#Add4" target="_blank" rel="noopener noreferrer">Add and Insert Snippets for Static Content</a>
                                                             </p>
                                                         </li>
                                                         <li>
-                                                            <p><a href="#Add5">Add Glossary Terms</a>
+                                                            <p><a href="#Add5" target="_blank" rel="noopener noreferrer">Add Glossary Terms</a>
                                                             </p>
                                                         </li>
                                                         <li>
-                                                            <p><a href="#Add2">Add Context Sensitive Help Links</a>
+                                                            <p><a href="#Add2" target="_blank" rel="noopener noreferrer">Add Context Sensitive Help Links</a>
                                                             </p>
                                                         </li>
                                                         <li>
-                                                            <p><a href="#Generate">Generate Map ID for a page</a>
+                                                            <p><a href="#Generate" target="_blank" rel="noopener noreferrer">Generate Map ID for a page</a>
                                                             </p>
                                                         </li>
                                                         <li>
-                                                            <p><a href="#Add">Add Concepts</a>
+                                                            <p><a href="#Add" target="_blank" rel="noopener noreferrer">Add Concepts</a>
                                                             </p>
                                                         </li>
                                                         <li>
-                                                            <p><a href="Publish_SKT_Help.htm#Publish">Publish Help Target (SKT Help only)</a>
+                                                            <p><a href="Publish_SKT_Help.htm">Publish Help Target (SKT Help only)</a>
                                                             </p>
                                                         </li>
                                                     </ul>
@@ -275,49 +276,37 @@
                                                     <p>To create a topic:</p>
                                                     <ol>
                                                         <li value="1">
-                                                            <p>In the Content Explorer pane, right-click the Content folder, and then select New &gt; Topic (or Ctrl+T).</p>
+                                                            <p>In the <b>Content Explorer</b> pane, right-click the <b>Content</b> folder, and then select <b>New &gt; Topic (or Ctrl+T)</b>.</p>
                                                         </li>
                                                         <li value="2">
-                                                            <p>Select NewTopic.htm under New from Template.</p>
+                                                            <p>Select <b>NewTopic.htm</b> under <b>New from Template</b>.</p>
                                                         </li>
                                                         <li value="3">
-                                                            <p>Enter the File Name using underscores, save the file to the correct path, (component name/Config, Page Desc or Use Cases) and then click Add.</p>
+                                                            <p>Enter the <b>File Name</b> using underscores, save the file to the correct <b>path</b> (the path is &lt;component name&gt;Config, &lt;component name&gt;Page Desc or&lt;component name&gt; Use Cases) and then click <b>Add</b>.</p>
+                                                            <p class="note"><b>NOTE</b>: When Flare compiles file names, it embeds the entire file path string in the file name. If the file path string and file name combine into more than 99 characters, it will cause issues when recycling old checkout folders. Name file names and folders using as few characters as possible.</p>
                                                         </li>
                                                     </ol>
-                                                    <p>Note: When Flare compiles file names, it embeds the entire file path string in the file name. If the file path string and file name combine into more than 99 characters, it will cause issues when recycling old checkout folders. Name file names and folders using as few characters as possible.</p>
                                                     <ol data-mc-continue="true">
                                                         <li value="4">
                                                             <p>Replace the default content in the topic with the new content.</p>
                                                         </li>
                                                         <li value="5">
-                                                            <p>Right-click anywhere in the topic, and then select Topic Properties from the drop-down.</p>
+                                                            <p>Right-click anywhere in the topic, and then select <b>Topic Properties</b> from the drop-down.</p>
                                                         </li>
                                                         <li value="6">
-                                                            <p>Set the appropriate master page depending on the component name. Refer to <a href="#Apply3">Apply the Master Page</a>.</p>
+                                                            <p>On the <b>Topic Properties</b> tab, set the appropriate master page by selecing it in the <b>Master Page</b> list box. Refer to <a href="#Apply3" target="_blank" rel="noopener noreferrer">Apply the Master Page</a>.</p>
                                                         </li>
                                                         <li value="7">
-                                                            <p>On the Conditional Text tab, select the condition tag to apply to the topic. Refer to <a href="#Use">Use Condition Tags</a>.</p>
+                                                            <p>On the <b>Conditional Text</b> tab, select the condition tag to apply to the topic. Refer to <a href="#Use" target="_blank" rel="noopener noreferrer">Use Condition Tags</a>.</p>
                                                         </li>
                                                         <li value="8">
-                                                            <p>Click OK.</p>
+                                                            <p>Click <b>OK</b>.</p>
                                                         </li>
                                                         <li value="9">
-                                                            <p>Open the appropriate TOC (Component name, TopNav). Drag and drop the topic from the Content Explorer pane to the appropriate location in the TOC.</p>
-                                                        </li>
-                                                        <li value="10">
-                                                            <p>Update the TOC Label to the title. There are two ways to do this. You can double-click the label in the TOC, delete what is there “[[[Missing Linked File System.LinkedTitle]]]”, and enter the title with spaces and proper capitalization or you can update it in the Properties dialog on the General tab.</p>
-                                                        </li>
-                                                        <li value="11">
-                                                            <p>Right-click the topic in the TOC and select Properties from the drop-down menu.</p>
-                                                        </li>
-                                                        <li value="12">
-                                                            <p>On the Conditional Text tab select the appropriate conditions for the topic in the TOC. Refer to <a href="#Use">Use Condition Tags</a> for more information about how condition tags are used to generate output.</p>
-                                                        </li>
-                                                        <li value="13">
-                                                            <p>Click OK.</p>
+                                                            <p>Add this new topic to the project's Table of Contents. Refer to <a href="BOADocProcess_Add_Topics_to_the_TOC.html" target="_blank" rel="noopener noreferrer">Add Topics to the TOC</a> for more information. </p>
                                                         </li>
                                                     </ol>
-                                                    <p>Tip: Refer to the following checklists for a complete list of possible updates.</p>
+                                                    <p>TRefer to the following checklists for a complete list of possible updates.</p>
                                                     <h2><a name="Checklis"></a>Checklist for Adding a Use Case</h2>
                                                     <ol>
                                                         <li value="1">
@@ -334,7 +323,7 @@
                                                     </ul>
                                                     <ol data-mc-continue="true">
                                                         <li value="2">
-                                                            <p>Add component name snippet to upper right of topic: See <a href="#Add4">Add and Insert Snippets for Static Content</a> for the steps for this process.</p>
+                                                            <p>Add component name snippet to upper right of topic: See <a href="#Add4" target="_blank" rel="noopener noreferrer">Add and Insert Snippets for Static Content</a> for the steps for this process.</p>
                                                         </li>
                                                         <li value="3">
                                                             <p>Add component Concept to the topic: This step ensures the topics is included in search results when a search filters is set.</p>
@@ -349,27 +338,28 @@
                                                         </li>
                                                         <li>
                                                             <p>Browse for, and then select the topic.</p>
-                                                        </li>
+                                                            <p class="note"><b>NOTE</b>: Refer to <a href="#Add" target="_blank" rel="noopener noreferrer">Add Concepts</a> for more information.</p> </li>
                                                     </ul>
-                                                    <p>Note: Refer to <a href="#Add">Add Concepts</a> for more information.</p>
+                                                    <p>NOTE: Refer to <a href="#Add" target="_blank" rel="noopener noreferrer">Add Concepts</a> for more information.</p>
                                                     <ol data-mc-continue="true">
                                                         <li value="4">
                                                             <p>Confirm links have been added: Including “Refer to” links and page name links.</p>
                                                         </li>
                                                         <li value="5">
                                                             <p>Add topic to the appropriate TOC: You can do this by dragging and dropping it.</p>
+                                                            <p><b>NOTE</b>: If the TOC label appears in blue, you must update it and change your Flare settings. By default Flare uses cross-references for links.  Refer to <a href="BOADocProcess_Add_Topics_to_the_TOC.html" target="_blank" rel="noopener noreferrer">Add Topics to the Table of Contents</a> for more information </p>
                                                         </li>
                                                     </ol>
-                                                    <p>Important: Make sure to update the TOC Label to the title, removing the default system variable. If the title in the TOC is blue you need to remove the variable. Refer to <a href="#Create">Create New Topic</a>, step 9 for more information.</p>
+                                                    <p><b>NOTE</b>: If the TOC label appears in blue, you must update it and change your Flare settings. By default Flare uses cross-references for links.  Refer to <a href="BOADocProcess_Add_Topics_to_the_TOC.html" target="_blank" rel="noopener noreferrer">Add Topics to the Table of Contents</a> for more information </p>
                                                     <ol data-mc-continue="true">
                                                         <li value="6">
-                                                            <p>Add component name CT to the topic in TOC: See <a href="#Use">Use Condition Tags</a> for the steps to complete this process.</p>
+                                                            <p>Add component name CT to the topic in TOC: See <a href="#Use" target="_blank" rel="noopener noreferrer">Use Condition Tags</a> for the steps to complete this process.</p>
                                                         </li>
                                                         <li value="7">
                                                             <p>Confirm proper CTs have been applied: This includes references to  ISA, Syniti Connect, and Master Data Management.Additionly omit any information about the Data Quality application from the solex version o the release notes/What's new topic .</p>
                                                         </li>
                                                         <li value="8">
-                                                            <p>Review formatting: Refer to the <a href="../SSTDocStandards/BOADocStandards_Overview.html">Syniti Documentation Standards</a> for more information.</p>
+                                                            <p>Review formatting: Refer to the <a href="../SSTDocStandards/BOADocStandards_Overview.html" target="_blank" rel="noopener noreferrer">Syniti Documentation Standards</a> for more information.</p>
                                                         </li>
                                                     </ol>
                                                     <h2><a name="Checklis2"></a>Checklist for Adding a Field Description (SST only)</h2>
@@ -388,7 +378,7 @@
                                                     </ul>
                                                     <ol data-mc-continue="true">
                                                         <li value="2">
-                                                            <p>Add component Concept to the topic: This ensures that the topics is included in search results when a search filters is set.</p>
+                                                            <p>Add component Concept to the topic: This ensures that the topics is included in search results when a search filters is set. Refer to <a href="#Add" target="_blank" rel="noopener noreferrer">Add Concepts</a> for more information..</p>
                                                         </li>
                                                     </ol>
                                                     <ul>
@@ -402,25 +392,24 @@
                                                             <p>Browse for, and then select the topic.</p>
                                                         </li>
                                                     </ul>
-                                                    <p>Tip: Refer to <a href="#Add">Add Concepts</a> for more information..</p>
                                                     <ol data-mc-continue="true">
                                                         <li value="3">
-                                                            <p>Add component name snippet to upper right of topic: See <a href="#Add4">Add and Insert Snippets for Static Content</a> for the steps for this process.</p>
+                                                            <p>Add component name snippet to upper right of topic: See <a href="#Add4" target="_blank" rel="noopener noreferrer">Add and Insert Snippets for Static Content</a> for the steps for this process.</p>
                                                         </li>
                                                         <li value="4">
                                                             <p>Confirm links have been added: This includes “Refer to” links and page name links.</p>
                                                         </li>
                                                         <li value="5">
                                                             <p>Add topic to the Component name TOC: This can be completed by dragging and dropping it.</p>
+                                                            <p class="note"><b>NOTE</b>: If the TOC label appears in blue, you must update it and change your Flare settings. By default Flare uses cross-references for links.  Refer to <a href="BOADocProcess_Add_Topics_to_the_TOC.html" target="_blank" rel="noopener noreferrer">Add Topics to the Table of Contents</a> for more information </p>
                                                         </li>
                                                     </ol>
-                                                    <p>Important: Make sure to update the TOC Label to the title, removing the default system variable. If the title in the TOC is blue you need to remove the variable. Right-click the title in the TOC and update the Label field.  Refer to <a href="#Create">Create New Topic</a>, step 9 for more information.</p>
                                                     <ol data-mc-continue="true">
                                                         <li value="6">
-                                                            <p>Add component name CT to the topic in TOC: Set the conditional tag in the topic and in the TOC. See <a href="#Use">Use Condition Tags</a> for the steps to complete this process</p>
+                                                            <p>Add component name CT to the topic in TOC: Set the conditional tag in the topic and in the TOC. See <a href="#Use" target="_blank" rel="noopener noreferrer">Use Condition Tags</a> for the steps to complete this process</p>
                                                         </li>
                                                         <li value="7">
-                                                            <p>Confirm proper CTs have been applied: : This includes references to  ISA, Syniti Connect, and Master Data Management.Additionly omit any information about the Data Quality application from the solex version o the release notes/What's new topic.</p>
+                                                            <p>Confirm proper CTs have been applied: : This includes references to  ISA, Syniti Connect, and Master Data Management.</p>
                                                         </li>
                                                         <li value="8">
                                                             <p>Review formatting:</p>
@@ -445,27 +434,30 @@
                                                             <p>Confirm Use this page to section: Make sure a reference to a topic that uses this page is included and is formatted with the div div.use (highlight the “Use this page to” section text, click the Create Group icon in the Paragraph section, select div.use and click Ok). These steps add a blue box around the text.</p>
                                                         </li>
                                                         <li value="10">
-                                                            <p>Add the Map ID: Indicate in the peer review that the link to the page needs to be checked on the test site. Refer to <a href="#Add2">Add Context-sensitive Help Links</a>.</p>
+                                                            <p>Add the Map ID: Indicate in the peer review that the link to the page needs to be checked on the test site. Refer to <a href="#Add2" target="_blank" rel="noopener noreferrer">Add Context-sensitive Help Links</a>.</p>
+                                                            <p class="note"><b>NOTE</b>: When adding the Map ID, update the Alias File Value field to the appropriate range for the component. Refer to <a href="BOADocProcess_AliasValueRange.html" target="_blank" rel="noopener noreferrer">Alias Value Range</a> for the alias file value ranges by component.</p>
                                                         </li>
                                                     </ol>
-                                                    <p>Note: When adding the Map ID, update the Alias File Value field to the appropriate range for the component. Refer to <a href="BOADocProcess_AliasValueRange.html">Alias Value Range</a> for the alias file value ranges by component.</p>
+                                                    <p class="note"><b>NOTE</b>: When adding the Map ID, update the Alias File Value field to the appropriate range for the component. Refer to <a href="BOADocProcess_AliasValueRange.html" target="_blank" rel="noopener noreferrer">Alias Value Range</a> for the alias file value ranges by component.</p>
                                                     <ol data-mc-continue="true">
                                                         <li value="11">
-                                                            <p>Add the page hyperlink to the component’s Page Descriptions page.</p>
+                                                            <p>Add the page hyperlink to the component’s Page Descriptions page as an external link.</p>
                                                         </li>
                                                     </ol>
+                                                    <p><b>NOTE:</b> All hyperlinks are external links and must contain the following code: </p><pre xml:space="preserve">target="_blank" rel="noopener noreferrer"</pre>
                                                     <h2><a name="Editing"></a>Editing content already in Help to send for Review</h2>
-                                                    <p>When existing Help content needs to be updated, generate a Word document containing the content from Flare or cut and paste content into a Google document. Then, once generated, turn on Track Changes and update the content as needed. Attach the updated Word document to the Jira ticket and send for review as noted in the following sections.</p>
+                                                    <p>When existing Help content needs to be updated, cut and paste content into a Google document. Then, , turn on Suggesting Mode to indicated the edits. </p>
+                                                    <p>If you need a large section of help content, you can build a TOC and generate a Word document, then copy the contents of that Word doc into a googledoc. </p>
                                                     <p>To generate a Word document from Flare:</p>
                                                     <ol>
                                                         <li value="1">
-                                                            <p>In the Project Organizer, open the TOCs folder.</p>
+                                                            <p>In the Project Organizer, open the <b>TOCs</b> folder.</p>
                                                         </li>
                                                         <li value="2">
                                                             <p>Create a new TOC in the TOCs folder and copy the TOC that includes the content you will be updating.</p>
                                                         </li>
                                                         <li value="3">
-                                                            <p>Open the PrintTOC.</p>
+                                                            <p>Open the <b>PrintTOC</b>.</p>
                                                         </li>
                                                         <li value="4">
                                                             <p>Click and hold the tab for the PrintTOC, and then drag it to float next to the Copy of ConsoleTOC”</p>
@@ -480,18 +472,16 @@
                                                             <p>Open the Target Folder, and then open the Word target.</p>
                                                         </li>
                                                         <li value="8">
-                                                            <p>On the General Tab, click the browse option next to Output Folder and select where you want Flare to generate the document (you can select your Desktop, for example).</p>
+                                                            <p>On the <i>General</i> Tab, click the browse option next to Output Folder and select where you want Flare to generate the document (you can select your Desktop, for example).</p>
                                                         </li>
                                                         <li value="9">
-                                                            <p>On the Variables tab, update the ComponentName variable as needed.</p>
+                                                            <p>On the <b>Variables</b> tab, update the <b>ComponentName variable</b> as needed.</p>
                                                         </li>
                                                         <li value="10">
-                                                            <p>Click Build.</p>
+                                                            <p>Click <b>Build</b>.</p>
                                                         </li>
                                                     </ol>
                                                     <p>The Word document is generated. You can open the document from the Builds pod, or click View in the Target editor.</p>
-                                                    <p>Tip: If you only have one or two topics to update you can just copy and paste the content into a Google document and include the link in the JIRA ticket.</p>
-                                                    <p>Note: Please delete the new TOC you created before you push your updates up to GitHub to avoid having many extra TOCs hanging around in the project.</p>
                                                     <h2><a name="Use"></a>Use Condition Tags</h2>
                                                     <p>Condition tags serve two purposes. A condition tag is applied to almost every topic in the Content Explorer in Flare to identify the specific component to which it belongs.</p>
                                                     <p>Condition tags are also used in an output Target to include/exclude entire topics or certain text in a topic from Help output. This allows generations of the two online help systems described in the next section. If a topic must be excluded from one of the Help systems, the condition tag also must be applied to the topic’s TOC link in the TOC.</p>
@@ -501,47 +491,47 @@
                                                             <p>For SST, two online help systems are output from Flare, Full and Solex.</p>
                                                         </li>
                                                     </ul>
-                                                    <p>The condition tags to be include or excluded in these outputs are configured in the Target used to build the output. Refer to Build Help Targets</p>
-                                                    <p>Refer to <a href="BOADocProcess_CondTags.html">Condition Tags Used in the Project File</a> for information about which condition tags are included/excluded for each help system.</p>
                                                     <ul>
                                                         <li>
                                                             <p>For SKT, one help system is built and published. </p>
                                                         </li>
                                                         <li>
-                                                            <p>For Syniti Guides, two sets of manuals are available online. </p>
+                                                            <p>For Syniti Guides, help systems are output from Flare, Full and Solex. </p>
                                                         </li>
                                                     </ul>
+                                                    <p>The condition tags to be included or excluded in these outputs are configured in the Target used to build the output. Refer to <a href="BOADocProcess_BuildHelpTargets.html" target="_blank" rel="noopener noreferrer">Build Help Targets</a>.</p>
+                                                    <p>Refer to <a href="BOADocProcess_CondTags.html" target="_blank" rel="noopener noreferrer">Condition Tags Used in the Project File</a> for information about which condition tags are included/excluded for each help system.</p>
                                                     <h2><a name="Apply"></a>Apply Condition Tag to a Topic</h2>
                                                     <p>A condition tag must be applied to almost every topic in the Content Explorer to identify the topic’s component. The condition tag must be applied to the topic’s link in the master TOC as well.</p>
-                                                    <p>Note: Content that displays in both versions of help does not have a CT. This includes DSP Navigation and How to Use Online Help topics, and other general topics.</p>
+                                                    <p class="note"><b>NOTE</b>: Content that displays in both versions of help does not have a CT. This includes DSP Navigation and How to Use Online Help topics, and other general topics.</p>
                                                     <p>To apply a condition tag to an entire topic:</p>
                                                     <ol>
                                                         <li value="1">
                                                             <p>Select the topic in the Content Explorer.</p>
                                                         </li>
                                                         <li value="2">
-                                                            <p>Right-click the topic and select Properties.</p>
+                                                            <p>Right-click the topic and select <b>Properties</b>.</p>
                                                         </li>
                                                         <li value="3">
-                                                            <p>In the topic Properties dialog, click the Conditional Text tab.</p>
+                                                            <p>In the topic Properties dialog, click the <b>Conditional Text</b> tab.</p>
                                                         </li>
                                                         <li value="4">
-                                                            <p>Click the check box next to the Condition Tag to apply it to the topic.</p>
+                                                            <p>Click the check box next to the <b>Condition Ta</b>g to apply it to the topic.</p>
                                                         </li>
                                                     </ol>
                                                     <p>To apply a condition tag to the topic’s link in the master TOC:</p>
                                                     <ol>
                                                         <li value="1">
-                                                            <p>Right-click the topic in Content Explorer and select Locate in TOC.</p>
+                                                            <p>Right-click the topic in Content Explorer and select <b>Locate in TOC</b>.</p>
                                                         </li>
                                                         <li value="2">
-                                                            <p>Select the correct TOC from the options. Then click Open.</p>
+                                                            <p>Select the correct TOC from the options. Then click <b>Open</b>.</p>
                                                         </li>
                                                         <li value="3">
-                                                            <p>Right-click the TOC link and select Properties.</p>
+                                                            <p>Right-click the TOC link and select <b>Properties</b>.</p>
                                                         </li>
                                                         <li value="4">
-                                                            <p>In the topic Properties dialog, click the Conditional Text tab.</p>
+                                                            <p>In the topic Properties dialog, click the <b>Conditional Text</b> tab.</p>
                                                         </li>
                                                         <li value="5">
                                                             <p>Click the check box next to the Condition Tag to apply to the topic.</p>
@@ -558,42 +548,79 @@
                                                             <p>Select the content.</p>
                                                         </li>
                                                         <li value="3">
-                                                            <p>Right-click and select Conditions from the drop-down.</p>
+                                                            <p>Right-click and select <b>Conditions</b> from the drop-down.</p>
                                                         </li>
                                                         <li value="4">
-                                                            <p>Click the check box next to the Condition Tag to apply it to the content.</p>
+                                                            <p>Click the check box next to the <b>Condition Tag</b> to apply it to the content.</p>
                                                         </li>
                                                     </ol>
-                                                    <p>Note: Once you have applied the condition tag, the text is highlighted in the topic to reflect that a conditional build tag is applied.</p>
+                                                    <p class="note"><b>NOTE</b>: Once you have applied the condition tag, the text is highlighted in the topic to reflect that a conditional build tag is applied.</p>
                                                     <h2><a name="Preview"></a>Preview a topic with a Condition Tag</h2>
                                                     <p>To see how the topic displays in online help when a condition tag is applied:</p>
                                                     <ol>
                                                         <li value="1">
-                                                            <p>Click the Preview icon in the topic toolbar.</p>
+                                                            <p>Click the <b>Preview</b> icon in the topic toolbar.</p>
+                                                            <p class="note"><b>NOTE</b>: You can also click the drop-down next to the icon to preview the topic with the condition tags as configured in a specific Target.</p>
                                                         </li>
                                                     </ol>
-                                                    <p>Note: You can also click the drop-down next to the icon to preview the topic with the condition tags as configured in a specific Target.</p>
+                                                    <p class="note">NOTE: You can also click the drop-down next to the icon to preview the topic with the condition tags as configured in a specific Target.</p>
                                                     <ol data-mc-continue="true">
                                                         <li value="2">
-                                                            <p>Click the Modify Conditional Expression The Modify Conditional Expression Icon icon and then select the condition tags to include or exclude in the preview.</p>
+                                                            <p>Click the <b>Modify Conditional Expression</b> icon and then select the condition tags to include or exclude in the preview.</p>
                                                         </li>
                                                     </ol>
-                                                    <p>Note: This only affects the preview, not the output. Condition tags to exclude content from output must be set in the Target.</p>
+                                                    <p class="note"><b>NOTE</b>: This only affects the preview, not the output. Condition tags to exclude content from output must be set in the Target.</p>
                                                     <p>To view a list of the topics and content to which a tag is applied:</p>
                                                     <ol>
                                                         <li value="1">
-                                                            <p>Click the View tab, and then select File List from the Explorer group.</p>
+                                                            <p>Click the <b>View</b> tab, and then select <b>File List</b> from the <b>Explorer</b> group.</p>
                                                         </li>
                                                         <li value="2">
-                                                            <p>Click the Conditions header to sort the list by condition tag name.</p>
+                                                            <p>Click the <b>Conditions</b> header to sort the list by condition tag name.</p>
                                                         </li>
                                                     </ol>
                                                     <h2><a name="Apply3"></a>Apply the Master Page</h2>
-                                                    <p>The master page applied to topics dictates which menu displays on the topic. Menus are component-specific.</p>
-                                                    <p>To apply the master page in Flare on the Topic Properties window, go the Topic Properties tab, in the Masterpage list box.</p>
-                                                    <p>SST master pages are based on component names.</p>
-                                                    <p>SKT master pages are . .. </p>
-                                                    <p>Installation Guides master pages are based on the name of the guide.</p>
+                                                    <p>The master page applied to topics dictates which menu displays in the right panel on the topic. Menus are component-specific.</p>
+                                                    <p>To apply a master page to a topic in Flare:</p>
+                                                    <ol>
+                                                        <li value="1">
+                                                            <p>Right-click in the topic and select <b>Topic Properties</b>.</p>
+                                                        </li>
+                                                        <li value="2">
+                                                            <p>Click the <b>Topic Properties</b> tab, </p>
+                                                        </li>
+                                                        <li value="3">
+                                                            <p>Select the master page in the <b>Master Page</b> list box.</p>
+                                                        </li>
+                                                        <li value="4">
+                                                            <p>Click <b>Save</b>. </p>
+                                                        </li>
+                                                    </ol>
+                                                    <ul>
+                                                        <li>
+                                                            <p>SST master pages are named based on component names (Map, Collect, etc).</p>
+                                                        </li>
+                                                        <li>
+                                                            <p>SKT master pages are named based on section of the help: </p>
+                                                            <ul>
+                                                                <li>
+                                                                    <p><b>DevDocs</b>—Content that is accessed under the Config Docs menu item</p>
+                                                                </li>
+                                                                <li>
+                                                                    <p><b>TopNav</b>—Standard help topics, not home page, not Config docs and not release notes (what's New)</p>
+                                                                </li>
+                                                                <li>
+                                                                    <p> <b>Home</b>—Home page </p>
+                                                                </li>
+                                                                <li>
+                                                                    <p><b>WhatsNew</b>—Release notes topics (SCReleasesxx.html)</p>
+                                                                </li>
+                                                            </ul>
+                                                        </li>
+                                                        <li>
+                                                            <p>Installation Guides master pages are based on the name of the guide. However, the single topic Installation and the single topic Update guide use a master page called Headiings.</p>
+                                                        </li>
+                                                    </ul>
                                                     <h2><a name="Format"></a>Format Tables in Topics</h2>
                                                     <p>Use the following steps to format tables in Flare topics when copying and pasting from Word:</p>
                                                     <ol>
@@ -601,27 +628,27 @@
                                                             <p>Copy the table in Word.</p>
                                                         </li>
                                                         <li value="2">
-                                                            <p>Paste the content into a Flare topic, and then select Paste Table from the Smart Paste drop-down.</p>
+                                                            <p>Paste the content into a Flare topic, and then select <b>Paste Table</b> from the Smart Paste drop-down.</p>
+                                                            <p>
+                                                                <img src="../Resources/Images/smartPaste.png" />
+                                                            </p>
+                                                            <p>Smart Paste Icon</p>
+                                                            <p>
+                                                                <img src="../Resources/Images/smartPasteMenu.png" />
+                                                            </p>
+                                                            <p>Smart Paste Menu</p>
                                                         </li>
                                                     </ol>
-                                                    <p>
-                                                        <img src="../Resources/Images/smartPaste.png" />
-                                                    </p>
-                                                    <p>Smart Paste Icon</p>
-                                                    <p>
-                                                        <img src="../Resources/Images/smartPasteMenu.png" />
-                                                    </p>
-                                                    <p>Smart Paste Menu</p>
                                                     <ol data-mc-continue="true">
                                                         <li value="3">
-                                                            <p>Right-click the Table block, select Table Properties, and then in the Table Style drop-down, select the fielddescription.</p>
+                                                            <p>Right-click the Table block, select <b>Table Properties</b>, and in the <b>Table Style</b> drop-down, select the <b>fielddescription</b>.</p>
                                                         </li>
                                                         <li value="4">
                                                             <p>To format the table text, click in a cell in the table and select the appropriate style from the Style drop-down.</p>
+                                                            <p class="note"><b>NOTE</b>: To format multiple cells at once, select and click the cells, right-click, then select Cell Content Style.</p>
+                                                            <p class="note"><b>NOTE</b>: You can also copy a table from an existing page description and edit its content. This process helps maintain the &lt;p&gt; tags.</p>
                                                         </li>
                                                     </ol>
-                                                    <p>Note: To format multiple cells at once, select and click the cells, right-click, then select Cell Content Style.</p>
-                                                    <p>Tip: You can also copy a table from an existing page description and edit its content. This process helps maintain the &lt;p&gt; tags.</p>
                                                     <h2><a name="Add3"></a>Add Popups for Frequently Referenced Content</h2>
                                                     <p>Some fields that have multiple options are referenced throughout the online help, such as Report Type. To maintain content in one location rather than repeating it every time the field is mentioned, add the content to the popups object in the custom.js file and add a link with the”popUpLink” class and appropriate id (the title of the content inserted as the key in the key value pair).</p>
                                                     <p>To view the popups that have already been created in the project, open the custom.js file and view the popups object.</p>
@@ -629,31 +656,31 @@
                                                         <img src="../Resources/Images/popupObject.png" />
                                                     </p>
                                                     <p>Popup object code</p>
-                                                    <p>Note: Since our popups are located in a Javascript file, use a code editor like Visual Studio Code when adding or updating the content.</p>
+                                                    <p class="note"><b>NOTE</b>: Since our popups are located in a Javascript file, use a code editor like Visual Studio Code when adding or updating the content.</p>
                                                     <p>To add a popup using Visual Studio Code and Flare:</p>
                                                     <ol>
                                                         <li value="1">
-                                                            <p>Refer to the section <a href="#Create">Create New Topic</a> and complete Steps 1-8.</p>
+                                                            <p>Refer to the section <a href="#Create" target="_blank" rel="noopener noreferrer">Create New Topic</a> and complete Steps 1-8.</p>
+                                                            <p class="note"><b>NOTE</b>: When creating this topic, enter the content of the popup only. Do not enter snippets, concepts, or CT tags. Affix the word Popup to the topic’s file name and make sure the Searchable checkbox has been disabled for the topic.</p>
+                                                            <p>
+                                                                <img src="../Resources/Images/searchableCB.png" />
+                                                            </p>
+                                                            <p>The Searchable Checkbox</p>
                                                         </li>
                                                     </ol>
-                                                    <p>Note: When creating this topic, enter the content of the popup only. Do not enter snippets, concepts, or CT tags. Affix the word Popup to the topic’s file name and make sure the Searchable checkbox has been disabled for the topic.</p>
-                                                    <p>
-                                                        <img src="../Resources/Images/searchableCB.png" />
-                                                    </p>
-                                                    <p>The Searchable Checkbox</p>
                                                     <ol data-mc-continue="true">
                                                         <li value="2">
                                                             <p>Right-click the custom.js file in the Content Explorer in Flare.</p>
                                                         </li>
                                                         <li value="3">
-                                                            <p>Select Open with and then Code.exe.</p>
+                                                            <p>Select <b>Open with</b> and then <b>Code.exe</b>.</p>
+                                                            <p class="note"><b>NOTE</b>: For code.exe to display in the list, associate the file type .js with Visual Studio Code in your Control Panel.</p>
+                                                            <p>
+                                                                <img src="../Resources/Images/codeExe.png" />
+                                                            </p>
+                                                            <p>Open with Menu with Code.exe displayed</p>
                                                         </li>
                                                     </ol>
-                                                    <p>Note: For code.exe to display in the list, associate the file type .js with Visual Studio Code in your Control Panel.</p>
-                                                    <p>
-                                                        <img src="../Resources/Images/codeExe.png" />
-                                                    </p>
-                                                    <p>Open with Menu with Code.exe displayed</p>
                                                     <ol data-mc-continue="true">
                                                         <li value="4">
                                                             <p>In Visual Studio Code, find the popups object at the bottom of the custom.js file.</p>
@@ -672,22 +699,22 @@
                                                         </li>
                                                         <li value="9">
                                                             <p>Copy the content of the popup.</p>
+                                                            <p class="note"><b>NOTE</b>: Do not include the xml declarations, head, or body tags.</p>
+                                                            <p>
+                                                                <img src="../Resources/Images/copyPopup.png" />
+                                                            </p>
+                                                            <p>What to copy from the Popup file in Flare</p>
                                                         </li>
                                                     </ol>
-                                                    <p>Note: Do not include the xml declarations, head, or body tags.</p>
-                                                    <p>
-                                                        <img src="../Resources/Images/copyPopup.png" />
-                                                    </p>
-                                                    <p>What to copy from the Popup file in Flare</p>
                                                     <ol data-mc-continue="true">
                                                         <li value="10">
                                                             <p>Back in Visual Studio Code, paste the html code between two backticks after the colon of the popup’s title.</p>
+                                                            <p>
+                                                                <img src="../Resources/Images/popupCode.png" />
+                                                            </p>
+                                                            <p>What final popup code should look like in VS</p>
                                                         </li>
                                                     </ol>
-                                                    <p>
-                                                        <img src="../Resources/Images/popupCode.png" />
-                                                    </p>
-                                                    <p>What final popup code should look like in VS</p>
                                                     <ol data-mc-continue="true">
                                                         <li value="11">
                                                             <p>Save your work in Visual Studio Code.</p>
@@ -700,21 +727,26 @@
                                                         </li>
                                                         <li value="14">
                                                             <p>Apply the .popUpLink class to the text using the Style window or manually in the html.</p>
+                                                            <p>
+                                                                <img src="../Resources/Images/popupClass.png" />
+                                                            </p>
+                                                            <p>Adding popup class with Flare GUI</p>
                                                         </li>
                                                     </ol>
-                                                    <p>
-                                                        <img src="../Resources/Images/popupClass.png" />
-                                                    </p>
-                                                    <p>Adding popup class with Flare GUI</p>
                                                     <ol data-mc-continue="true">
                                                         <li value="15">
-                                                            <p>Click the Text Editor tab for the topic.</p>
+                                                            <p>Click the <b>Text Editor</b> tab for the topic.</p>
                                                         </li>
                                                         <li value="16">
                                                             <p>After the popUpLink class enter the title for the popup as the id.</p>
+                                                            <p class="note"><b>NOTE</b>: The format for entering an id for a tag is id=”title” There are no spaces between id, the equals sign, or the quote marks. Be sure to enter the title exactly as it appears in the custom.js document (copy and paste it from the document to be sure).</p>
+                                                            <p>
+                                                                <img src="../Resources/Images/insertId.png" />
+                                                            </p>
+                                                            <p>How an id should appear in code</p>
                                                         </li>
                                                     </ol>
-                                                    <p>Note: The format for entering an id for a tag is id=”title” There are no spaces between id, the equals sign, or the quote marks. Be sure to enter the title exactly as it appears in the custom.js document (copy and paste it from the document to be sure).</p>
+                                                    <p class="note"><b>NOTE</b>: The format for entering an id for a tag is id=”title” There are no spaces between id, the equals sign, or the quote marks. Be sure to enter the title exactly as it appears in the custom.js document (copy and paste it from the document to be sure).</p>
                                                     <p>
                                                         <img src="../Resources/Images/insertId.png" />
                                                     </p>
@@ -727,27 +759,25 @@
                                                     <h2><a name="Add4"></a>Add and Insert Snippets for Static Content</h2>
                                                     <p>The component name for a topic is included as a snippet in the upper right of the topic file.</p>
                                                     <p>The component name is also styled as a button and used to navigate to the Overview section of each component.</p>
-                                                    <p>To add the component name snippet to a topic:</p>
+                                                    <p>To add the component name snippet to a topic, copy and paste it from another topic, or</p>
                                                     <ol>
                                                         <li value="1">
-                                                            <p>Copy and paste it from another topic, or</p>
-                                                        </li>
-                                                        <li value="2">
                                                             <p>Click in the topic where you want the snippet added.</p>
                                                         </li>
-                                                        <li value="3">
-                                                            <p>Select the Insert tab, click Snippet.</p>
+                                                        <li value="2">
+                                                            <p>Select the <b>Insert</b> tab, click <b>Snippet</b>.</p>
                                                         </li>
-                                                        <li value="4">
+                                                        <li value="3">
                                                             <p>Select the snippet file you want to add.</p>
                                                         </li>
-                                                        <li value="5">
-                                                            <p>Click OK.</p>
+                                                        <li value="4">
+                                                            <p>Click <b>OK</b>.</p>
                                                         </li>
                                                     </ol>
                                                     <h2><a name="Add5"></a>Add Glossary Terms</h2>
                                                     <p>Glossary terms are added to the glossary file in the SST Help project as new terms and concepts are added to the Help content. The glossary defines Syniti specific terms that those new to the products might not be familiar with. The terms must be relevant to customers who are using the products in the field. Terms specific to internal development processes do not need to be defined.</p>
-                                                    <p>Note: Do not define terms that are well defined elsewhere, for example by SAP or other industry standards, unless they have a very specific use or implementation in the products.</p>
+                                                    <p class="note"><b>NOTE</b>: Do not define terms that are well defined elsewhere, for example by SAP or other industry standards, unless they have a very specific use or implementation in the products.</p>
+                                                    <p class="note">To add a glossary term:</p>
                                                     <ol>
                                                         <li value="1">
                                                             <p>In the Content Explorer Pane, double-click the glossary topic in the Content folder.</p>
@@ -756,19 +786,19 @@
                                                             <p>In the glossary topic, add the new term maintaining proper formatting and the alphabetical order.</p>
                                                         </li>
                                                         <li value="3">
-                                                            <p>Click Save.</p>
+                                                            <p>Click <b>Save</b>.</p>
                                                         </li>
                                                     </ol>
                                                     <h2><a name="Add2"></a>Add Context-sensitive Help Links (SST only)</h2>
                                                     <p>When a user clicks the ? icon on any page in the product, the help system opens and displays the field description topic for that page. This is referred to as Context-sensitive Help.</p>
-                                                    <p>When documenting a new page, enter a Map ID that links the page with the topic name in Flare. The Map ID, coupled with an Alias Value in Flare, links a page in the product with a topic in the help file. In the SST implementation of online help, a Map ID is the GUID for a page.</p>
-                                                    <p>Each component has a range for an alias file Value. Refer to <a href="BOADocProcess_AliasValueRange.html">Alias File Value Range</a> to see a table of values by component.</p>
+                                                    <p>When documenting a new page that creates a Page Descriptions file, enter a Map ID that links the page with the topic name in Flare. The Map ID, coupled with an Alias Value in Flare, links a page in the product with a topic in the help file. In the SST implementation of online help, a Map ID is the GUID for a page.</p>
+                                                    <p>Each component has a range for an alias file Value. Refer to <a href="BOADocProcess_AliasValueRange.html" target="_blank" rel="noopener noreferrer">Alias File Value Range</a> to see a table of values by component.</p>
                                                     <p>If documenting a new component, a developer can send the Technical Writer the GUID for each page in the component.</p>
                                                     <p>GUIDs for individual pages are available in the Platform.</p>
                                                     <p>To get the GUID for any page:</p>
                                                     <ol>
                                                         <li value="1">
-                                                            <p>Click the Change Settings icon in the Site Toolbar.</p>
+                                                            <p>Click the <b>Change Settings</b> icon in the Site Toolbar.</p>
                                                         </li>
                                                     </ol>
                                                     <p>
@@ -777,7 +807,7 @@
                                                     <p>Change Settings menu in DSP</p>
                                                     <ol data-mc-continue="true">
                                                         <li value="2">
-                                                            <p>Select Technical Help and click the Technical tab.</p>
+                                                            <p>Select <b>Technical Help</b> and click the <b>Technical</b> tab.</p>
                                                         </li>
                                                     </ol>
                                                     <p>
@@ -786,7 +816,7 @@
                                                     <p>Technical tab in DSP</p>
                                                     <ol data-mc-continue="true">
                                                         <li value="3">
-                                                            <p>The GUID for the current page displays next to Page ID.</p>
+                                                            <p>The <b>GUID</b> for the current page displays next to <b>Page ID.</b></p>
                                                         </li>
                                                     </ol>
                                                     <p>To add Map IDs:</p>
@@ -795,25 +825,25 @@
                                                             <p>Convert the GUID to uppercase and replace hyphens with underscores.</p>
                                                         </li>
                                                         <li value="2">
-                                                            <p>In the Project Organizer, in the Advanced folder, open the BackOffice Associates Solutions alias file.</p>
+                                                            <p>In the Project Organizer, in the <b>Advanced</b> folder, open the BackOffice Associates Solutions alias file.</p>
                                                         </li>
                                                         <li value="3">
-                                                            <p>Click the Value field to sort the list on value to determine the next value to use based on the component of the topic being mapped. Refer to <a href="BOADocProcess_AliasValueRange.html">Alias File Value Range</a> for a list of alias file value ranges by component.</p>
+                                                            <p>Click the Value field to sort the list on value to determine the next value to use based on the component of the topic being mapped. Refer to <a href="BOADocProcess_AliasValueRange.html" target="_blank" rel="noopener noreferrer">Alias File Value Range</a> for a list of alias file value ranges by component.</p>
                                                         </li>
                                                         <li value="4">
-                                                            <p>Click Create a new identifier in the Alias Editor.</p>
+                                                            <p>Click <b>Create a new identifier</b> in the Alias Editor.</p>
                                                         </li>
                                                         <li value="5">
-                                                            <p>Enter the GUID for the page in the Identifier field.</p>
+                                                            <p>Enter the GUID for the page in the <b>Identifier</b> field.</p>
                                                         </li>
                                                         <li value="6">
                                                             <p>Press Enter on your keyboard.</p>
+                                                            <p class="note"><b>NOTE</b>: GUIDs must be uppercase and must contain underscores instead of hyphens.</p>
                                                         </li>
                                                     </ol>
-                                                    <p>Note: GUIDs must be uppercase and must contain underscores instead of hyphens.</p>
                                                     <ol data-mc-continue="true">
                                                         <li value="7">
-                                                            <p>Double-click the Value field to make it editable. Enter the next available value in the appropriate range in the Value field. Press Enter.</p>
+                                                            <p>Double-click the <b>Value</b> field to make it editable. Enter the next available value in the appropriate range in the Value field. Press Enter.</p>
                                                         </li>
                                                         <li value="8">
                                                             <p>Double-click the topic name that opens when the user clicks the ? on the GUID’s page in the Topics pane to assign it to Identifier.</p>
@@ -834,13 +864,12 @@
                                                             <p>Save and close BSSCDefault.h.</p>
                                                         </li>
                                                         <li value="5">
-                                                            <p>Reopen the alias file and map the topic. At this point, the topic has an orange icon. To map the topic, highlight the line in the “BackOffice Associates Solutions” file and double-click the topic in the Content Explorer. The topic is now mapped.</p>
+                                                            <p>Reopen the alias file and map the topic. At this point, the topic has an orange icon. To map the topic, highlight the line in the “BackOffice Associates Solutions” file and double-click the topic in the Content Explorer. The topic is now mapped..</p>
                                                         </li>
                                                     </ol>
-                                                    <p>Important: To test the GUID links to the correct page, merge the PR to the develop_XXX branch, build dev in Jenkins, pull up the Cucumber report, and click the Help icon for the new page in the DSP. Refer to <a href="BOADocProcess_ChecklistGenOnlineHelp.html">Check Latest Build</a> for detailed steps.</p>
                                                     <h2><a name="Add"></a>Add Concepts SST only)</h2>
                                                     <p>We apply Concepts to related topics to group them to create the search filter in help. We have added concepts for component names along with related subjects such as CTS or Bulk Execution.</p>
-                                                    <p>Note: You can copy and paste a concept from one topic to another instead of following the steps below. The Concept does not show up in the generated output.</p>
+                                                    <p class="note"><b>NOTE</b>: You can copy and paste a concept from one topic to another instead of following the steps below. The Concept does not show up in the generated output.</p>
                                                     <p>Adding concepts and search filters:</p>
                                                     <ol>
                                                         <li value="1">
@@ -853,19 +882,18 @@
                                                             <p>Enter your concept in the Concepts window in the Terms dialog and press Enter on your keyboard. The concept displays in the topic.</p>
                                                         </li>
                                                         <li value="4">
-                                                            <p>Click inside the topic and click Save to save the topic. The concept shows up in the Concepts list (below the terms box.)</p>
-                                                        </li>
+                                                            <p>Click inside the topic and click <b>Save</b> to save the topic. The concept shows up in the Concepts list (below the terms box.)</p>
+                                                            <p>
+                                                                <img src="../Resources/Images/concepts.png" />
+                                                            </p>
+                                                            <p>Concepts list in Flare</p>
+                                                            <p>Now that you have your concept in your Concepts list, you can drag and drop topics to the Concept.</p> </li>
                                                     </ol>
-                                                    <p>
-                                                        <img src="../Resources/Images/concepts.png" />
-                                                    </p>
-                                                    <p>Concepts list in Flare</p>
-                                                    <p>Now that you have your concept in your Concepts list, you can drag and drop topics to the Concept.</p>
-                                                    <ol>
-                                                        <li value="1">
+                                                    <ol data-mc-continue="true">
+                                                        <li value="5">
                                                             <p>Close the topic so that the TOC and Concepts window are side-by-side.</p>
                                                         </li>
-                                                        <li value="2">
+                                                        <li value="6">
                                                             <p>You can drag a folder or a single topic from the TOC to the concept in the Concepts list. You can also right-click on a concept in the list and browse for a topic (this works if you are only adding one or two topics). And you can drag and drop from the File List view as well.</p>
                                                         </li>
                                                     </ol>
@@ -873,37 +901,37 @@
                                                         <img src="../Resources/Images/conceptsList.png" />
                                                     </p>
                                                     <p>New concept added to Concepts list in Flare</p>
-                                                    <p>Note: If you drag a lot of topics from the TOC to the Concepts list, Flare has a lag, it won’t respond to mouse clicks, (because it is working in the background to add all of the topics) there will be a little screen flash when it’s done, and then you know the topics have been added. (This only happens when you add A LOT of topics.) Flare really should have a progress bar when that happens!</p>
-                                                    <p>Tip: You can expand the node in the Concepts list to see what topics are included.</p>
+                                                    <p class="note"><b>NOTE</b>: If you drag a lot of topics from the TOC to the Concepts list, Flare has a lag, it won’t respond to mouse clicks, (because it is working in the background to add all of the topics) there will be a little screen flash when it’s done, and then you know the topics have been added. (This only happens when you add A LOT of topics.) Flare really should have a progress bar when that happens!</p>
+                                                    <p class="note"><b>NOTE</b>: You can expand the node in the Concepts list to see what topics are included.</p>
                                                     <p>
                                                         <img src="../Resources/Images/conceptsNodeList.png" />
                                                     </p>
                                                     <p>Expanded node in Concepts list</p>
                                                     <p>Once you have the concepts added to the topics, you can add the filter for it to the Search Filters.</p>
-                                                    <p>Note: This has already been set up in the project. It is included as background information.</p>
+                                                    <p class="note"><b>NOTE</b>: This has already been set up in the project. It is included as background information.</p>
                                                     <p>To add concepts to Search Filters:</p>
                                                     <ol>
                                                         <li value="1">
-                                                            <p>Open the Search Filter file in the Advanced folder.</p>
+                                                            <p>Open the Search Filter file in the <b>Advanced</b> folder.</p>
                                                         </li>
                                                         <li value="2">
-                                                            <p>Click Plus to add the filter, and double-click in the Filter name field to give it a name.</p>
+                                                            <p>Click <b>Plus</b> to add the filter, and double-click in the <b>Filter name</b> field to give it a name.</p>
                                                         </li>
                                                     </ol>
-                                                    <p>Note: This is the name that shows up in the drop-down in the Output.</p>
+                                                    <p class="note"><b>NOTE</b>: This is the name that shows up in the drop-down in the Output.</p>
                                                     <ol data-mc-continue="true">
                                                         <li value="3">
                                                             <p>Press Enter on your keyboard.</p>
                                                         </li>
                                                         <li value="4">
-                                                            <p>Double-click in the Concepts field and associate the concept to the filter.</p>
+                                                            <p>Double-click in the <b>Concepts</b> field and associate the concept to the filter.</p>
                                                         </li>
                                                     </ol>
                                                     <p>
                                                         <img src="../Resources/Images/assocConcepts.png" />
                                                     </p>
                                                     <p>Associate concepts with filters</p>
-                                                    <p>Tip: When a user selects the filter in the output, Flare only searches within topics that have the concept.</p>
+                                                    <p><b>NOTE</b>: When a user selects the filter in the output, Flare only searches within topics that have the concept.</p>
                                                 </div>
                                                 <div id="feedback-survey">
                                                     <div class="feedback-question">
@@ -934,7 +962,7 @@
                                                                 </p>
                                                                 <p class="feedbackW">Want to tell us more?</p>
                                                                 <p>Send an email to our authors to leave your feedback.</p>
-                                                                <p><a href="mailto:Helpfeedback@syniti.com?subject=Feedback" id="feedbackEmailLink">Email us</a>
+                                                                <p><a href="mailto:Helpfeedback@syniti.com?subject=Feedback" id="feedbackEmailLink" target="_blank" rel="noopener noreferrer">Email us</a>
                                                                 </p>
                                                             </div>
                                                         </div>
@@ -973,26 +1001,26 @@
                                             </div>
                                             <div>
                                                 <h5>Get in Touch</h5>
-                                                <p class="footer"><a href="https://support.syniti.com/access/unauthenticated?return_to=https%3A%2F%2Fbackofficeassociates.zendesk.com%2Fagent%2Fdashboard" target="_blank" data-mc-conditions="Primary.dspConduct">Contact Support</a>
+                                                <p class="footer"><a href="https://support.syniti.com/access/unauthenticated?return_to=https%3A%2F%2Fbackofficeassociates.zendesk.com%2Fagent%2Fdashboard" target="_blank" rel="noopener noreferrer" data-mc-conditions="Primary.dspConduct">Contact Support</a>
                                                 </p>
-                                                <p class="footer"><a href="http://launchpad.support.sap.com/" data-mc-conditions="Primary.ISA">SAP Support (Use component XX-PART-BOA)</a>
+                                                <p class="footer"><a href="http://launchpad.support.sap.com/" target="_blank" rel="noopener noreferrer" data-mc-conditions="Primary.ISA">SAP Support (Use component XX-PART-BOA)</a>
                                                 </p>
-                                                <p class="footer"><a href="../Ideas_Portal.htm">Access Product Ideas Portal</a>
+                                                <p class="footer"><a href="../Ideas_Portal.htm" target="_blank" rel="noopener noreferrer">Access Product Ideas Portal</a>
                                                 </p>
-                                                <p class="footer"><a href="https://www.syniti.com/support/education/" target="_blank">Request Product Training</a>
+                                                <p class="footer"><a href="https://www.syniti.com/support/education/" target="_blank" rel="noopener noreferrer">Request Product Training</a>
                                                 </p>
                                                 <h5>Related Content</h5>
-                                                <p class="footer"><a href="../glossary.htm" target="_blank">Glossary</a>
+                                                <p class="footer"><a href="../glossary.htm" target="_blank" rel="noopener noreferrer">Glossary</a>
                                                 </p>
-                                                <p class="footer"><a href="../When_to_request_a_new_product_license.htm">Product Licenses</a>
+                                                <p class="footer"><a href="../When_to_request_a_new_product_license.htm" target="_blank" rel="noopener noreferrer">Product Licenses</a>
                                                 </p>
-                                                <p class="footer"><a href="http://support.syniti.com/hc/en-us" target="_blank" data-mc-conditions="Primary.dspConduct">Knowledge Base</a>
+                                                <p class="footer"><a href="http://support.syniti.com/hc/en-us" target="_blank" rel="noopener noreferrer" data-mc-conditions="Primary.dspConduct">Knowledge Base</a>
                                                 </p>
                                             </div>
                                             <div>
                                                 <p class="footer" id="di">&#160;
 					</p>
-                                                <p class="btn more"><a href="../Data_Insiders_Community.htm" target="_blank">Learn More</a>
+                                                <p class="btn more"><a href="../Data_Insiders_Community.htm" target="_blank" rel="noopener noreferrer">Learn More</a>
                                                 </p>
                                             </div>
                                             <div>
@@ -1010,15 +1038,15 @@
                                                 <p>&#160;</p>
                                             </div>
                                             <div>
-                                                <p class="footer bottom"><a href="https://www.syniti.com/privacy-policy/">Privacy Policy</a>
+                                                <p class="footer bottom"><a href="https://www.syniti.com/privacy-policy/" target="_blank" rel="noopener noreferrer">Privacy Policy</a>
                                                 </p>
                                             </div>
                                             <div>
-                                                <p class="footer bottom"><a href="https://www.syniti.com/trademarks/">Trademarks</a>
+                                                <p class="footer bottom"><a href="https://www.syniti.com/trademarks/" target="_blank" rel="noopener noreferrer">Trademarks</a>
                                                 </p>
                                             </div>
                                             <div>
-                                                <p class="footer bottom"><a href="https://www.syniti.com/terms-of-use/">Terms of Use</a>
+                                                <p class="footer bottom"><a href="https://www.syniti.com/terms-of-use/" target="_blank" rel="noopener noreferrer">Terms of Use</a>
                                                 </p>
                                             </div>
                                         </div>

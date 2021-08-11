@@ -12,7 +12,6 @@
         <link rel="icon" sizes="16x16" href="../../Skins/Favicons/favicon-16x16.png" />
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" /><title data-title="BOA Help">Writing Guidelines &amp; Terminology</title>
-        <!-- Global site tag (gtag.js) - Google Analytics -->
         <!-- Scripts for menu modal dropdown, popup modals, and back-to-top button. -->
         <link href="../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
         <link href="../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
@@ -24,18 +23,17 @@
         <link href="../../Skins/Fluid/Stylesheets/Styles.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
         <link href="../../Skins/Fluid/Stylesheets/Tablet.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
         <link href="../../Skins/Fluid/Stylesheets/Mobile.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
-        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css" />
         <link href="../Resources/Stylesheets/newDefault.css" rel="stylesheet" type="text/css" />
         <style>/*&lt;meta /&gt;*/
 
 .button.print-button
 {
-	-pie-background: url('../../Skins/Default/Stylesheets/Images/printer.png') no-repeat center center, linear-gradient(#ffffff, #ececec);
+	-pie-background: linear-gradient(#ffffff, #ececec);
 }
 
 .button.remove-highlight-button
 {
-	-pie-background: url('../../Skins/Default/Stylesheets/Images/highlight.png') no-repeat center center, linear-gradient(#ffffff, #ececec);
+	-pie-background: linear-gradient(#ffffff, #ececec);
 }
 
 .needs-pie
@@ -52,6 +50,8 @@
         <link rel="icon" sizes="16x16" href="../../Skins/Favicons/favicon-16x16.png" />
         <script src="../../Resources/Scripts/jquery.min.js" type="text/javascript">
         </script>
+        <script src="../../Resources/Scripts/purify.min.js" type="text/javascript" defer="defer">
+        </script>
         <script src="../../Resources/Scripts/require.min.js" type="text/javascript" defer="defer">
         </script>
         <script src="../../Resources/Scripts/require.config.js" type="text/javascript" defer="defer">
@@ -62,15 +62,6 @@
         </script>
         <script src="../../Resources/Scripts/MadCapAll.js" type="text/javascript" defer="defer">
         </script>
-        <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-121391607-4">
-        </script>
-        <script>/* <![CDATA[ */
-			window.dataLayer = window.dataLayer || [];
-			function gtag(){dataLayer.push(arguments);}
-			gtag('js', new Date());
-
-			gtag('config', 'UA-121391607-4', {'anonymize_ip':true});
-		/* ]]> */</script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.6.15/browser-polyfill.min.js">
         </script>
         <script type="text/javascript" src="../Resources/Scripts/modal.js">
@@ -185,10 +176,18 @@
                                                 <div class="buttons popup-container clearfix topicToolbarProxy mc-component nocontent" style="mc-topic-toolbar-items: Print RemoveHighlight;">
                                                     <div class="button-group-container-left">
                                                         <button class="button needs-pie print-button" title="Print">
-                                                            <img alt="Print" src="../../Skins/Default/Stylesheets/Images/transparent.gif" class="invisible-label" />
+                                                            <div>
+                                                                <div role="img" class="button-icon-wrapper" aria-label="Print">
+                                                                    <div class="button-icon"> </div>
+                                                                </div>
+                                                            </div>
                                                         </button>
                                                         <button class="button needs-pie remove-highlight-button" title="Remove Highlights">
-                                                            <img src="../../Skins/Default/Stylesheets/Images/transparent.gif" class="invisible-label" />
+                                                            <div>
+                                                                <div role="img" class="button-icon-wrapper">
+                                                                    <div class="button-icon"> </div>
+                                                                </div>
+                                                            </div>
                                                         </button>
                                                     </div>
                                                 </div>
@@ -198,6 +197,23 @@
                                                 <div role="main" id="mc-main-content">
                                                     <h1>Writing Guidelines &amp; Terminology</h1>
                                                     <p>The following table defines the basic standards implemented to ensure consistency throughout all documentation, both online and print, unless otherwise noted.</p>
+                                                    <p>Paragraphs have been added here so that the table is not hidden by the TOC on the right. </p>
+                                                    <p>&#160;</p>
+                                                    <p>&#160;</p>
+                                                    <p>&#160;</p>
+                                                    <p>&#160;</p>
+                                                    <p>&#160;</p>
+                                                    <p>&#160;</p>
+                                                    <p>&#160;</p>
+                                                    <p>&#160;</p>
+                                                    <p>&#160;</p>
+                                                    <p>&#160;</p>
+                                                    <p>&#160;</p>
+                                                    <p>&#160;</p>
+                                                    <p>&#160;</p>
+                                                    <p>&#160;</p>
+                                                    <p>&#160;</p>
+                                                    <p>&#160;</p>
                                                     <table style="mc-table-style: url('../Resources/TableStylesheets/fielddescription.css');" class="TableStyle-fielddescription" cellspacing="0">
                                                         <thead>
                                                             <tr class="TableStyle-fielddescription-Head-Header1">
@@ -509,7 +525,7 @@
                                                                             <p class="TableText">Use body style </p>
                                                                         </li>
                                                                         <li>
-                                                                            <p class="TableText">Use Consolas font</p>
+                                                                            <p class="TableText">Use pre style in Flare</p>
                                                                         </li>
                                                                         <li>
                                                                             <p class="TableText">Capitalize NULL</p>
@@ -780,7 +796,11 @@
                                                                     <p class="TableText">Fonts (Print)</p>
                                                                 </td>
                                                                 <td class="TableStyle-fielddescription-BodyE-Column2-Body1">
-                                                                    <p class="TableText">See the <a href="BOADocStandards_PrintStyles.html">Styles</a> page for more information.</p>
+                                                                    <p class="TableText">The Doc Team no longer produces a print version of the manuals and release notes.</p>
+                                                                    <p class="TableText">Once we get through the next PQ with SAP using the install manuals successfully online, I will remove print standards below. l</p>
+                                                                    <p class="TableText">&#160;</p>
+                                                                    <p class="TableText">&#160;</p>
+                                                                    <p class="TableText">&#160;</p>
                                                                 </td>
                                                                 <td class="TableStyle-fielddescription-BodyE-Column2-Body1">
                                                                     <p class="TableText">&#160;</p>
@@ -846,6 +866,27 @@
                                                             </tr>
                                                             <tr class="TableStyle-fielddescription-Body-Body1">
                                                                 <td class="TableStyle-fielddescription-BodyE-Column1-Body1" role="rowheader">
+                                                                    <p class="TableColumn" role="rowheader">Imperative Statements</p>
+                                                                </td>
+                                                                <td class="TableStyle-fielddescription-BodyE-Column2-Body1">
+                                                                    <ul>
+                                                                        <li>
+                                                                            <p class="TableText">All steps use imperative statements.</p>
+                                                                        </li>
+                                                                        <li>
+                                                                            <p>Imperative statements have the structure:"to do this thing, complete this step."</p>
+                                                                        </li>
+                                                                    </ul>
+                                                                </td>
+                                                                <td class="TableStyle-fielddescription-BodyE-Column2-Body1">
+                                                                    <p class="TableText">To copy the Tenant ID to your clipboard, click the Tenant name.</p>
+                                                                </td>
+                                                                <td class="TableStyle-fielddescription-BodyD-Column2-Body1">
+                                                                    <p>Click on the Tenant name to copy the Tenant ID to the clipboard.</p>
+                                                                </td>
+                                                            </tr>
+                                                            <tr class="TableStyle-fielddescription-Body-Body1">
+                                                                <td class="TableStyle-fielddescription-BodyE-Column1-Body1" role="rowheader">
                                                                     <p class="TableText">Links (Print)</p>
                                                                 </td>
                                                                 <td class="TableStyle-fielddescription-BodyE-Column2-Body1">
@@ -862,10 +903,10 @@
                                                                     </ul>
                                                                 </td>
                                                                 <td class="TableStyle-fielddescription-BodyE-Column2-Body1">
-                                                                    <p class="TableText">Refer to <i style="color: #0000ff;">Page Header</i> for detailed information. Go to <a href="http://www.syniti.com/">www.syniti.com</a>.</p>
+                                                                    <p class="TableText">Refer to <i style="color: #0000ff;">Page Header</i> for detailed information. Go to <a href="http://www.syniti.com/" target="_blank" rel="noopener noreferrer">www.syniti.com</a>.</p>
                                                                 </td>
                                                                 <td class="TableStyle-fielddescription-BodyD-Column2-Body1">
-                                                                    <p class="TableText">Refer to the <b>Page Header</b> section for detailed information. Go to <a href="http://www.syniti.com/">www.syniti.com</a></p>
+                                                                    <p class="TableText">Refer to the <b>Page Header</b> section for detailed information. Go to <a href="http://www.syniti.com/" target="_blank" rel="noopener noreferrer">www.syniti.com</a></p>
                                                                 </td>
                                                             </tr>
                                                             <tr class="TableStyle-fielddescription-Body-Body1">
@@ -1093,7 +1134,7 @@
                                                             </tr>
                                                             <tr class="TableStyle-fielddescription-Body-Body1">
                                                                 <td class="TableStyle-fielddescription-BodyE-Column1-Body1" role="rowheader">
-                                                                    <p class="TableText">Personal Pronouns/Subjects (Online Help)</p>
+                                                                    <p class="TableText">Personal Pronouns/Subjects (SST Online Help)</p>
                                                                 </td>
                                                                 <td class="TableStyle-fielddescription-BodyE-Column2-Body1">
                                                                     <p class="TableText">Do not use “you”, “he”, “she”, “they” etc. </p>
@@ -1503,7 +1544,7 @@
                                                                 </p>
                                                                 <p class="feedbackW">Want to tell us more?</p>
                                                                 <p>Send an email to our authors to leave your feedback.</p>
-                                                                <p><a href="mailto:Helpfeedback@syniti.com?subject=Feedback" id="feedbackEmailLink">Email us</a>
+                                                                <p><a href="mailto:Helpfeedback@syniti.com?subject=Feedback" id="feedbackEmailLink" target="_blank" rel="noopener noreferrer">Email us</a>
                                                                 </p>
                                                             </div>
                                                         </div>
@@ -1542,26 +1583,26 @@
                                             </div>
                                             <div>
                                                 <h5>Get in Touch</h5>
-                                                <p class="footer"><a href="https://support.syniti.com/access/unauthenticated?return_to=https%3A%2F%2Fbackofficeassociates.zendesk.com%2Fagent%2Fdashboard" target="_blank" data-mc-conditions="Primary.dspConduct">Contact Support</a>
+                                                <p class="footer"><a href="https://support.syniti.com/access/unauthenticated?return_to=https%3A%2F%2Fbackofficeassociates.zendesk.com%2Fagent%2Fdashboard" target="_blank" rel="noopener noreferrer" data-mc-conditions="Primary.dspConduct">Contact Support</a>
                                                 </p>
-                                                <p class="footer"><a href="http://launchpad.support.sap.com/" data-mc-conditions="Primary.ISA">SAP Support (Use component XX-PART-BOA)</a>
+                                                <p class="footer"><a href="http://launchpad.support.sap.com/" target="_blank" rel="noopener noreferrer" data-mc-conditions="Primary.ISA">SAP Support (Use component XX-PART-BOA)</a>
                                                 </p>
-                                                <p class="footer"><a href="../Ideas_Portal.htm">Access Product Ideas Portal</a>
+                                                <p class="footer"><a href="../Ideas_Portal.htm" target="_blank" rel="noopener noreferrer">Access Product Ideas Portal</a>
                                                 </p>
-                                                <p class="footer"><a href="https://www.syniti.com/support/education/" target="_blank">Request Product Training</a>
+                                                <p class="footer"><a href="https://www.syniti.com/support/education/" target="_blank" rel="noopener noreferrer">Request Product Training</a>
                                                 </p>
                                                 <h5>Related Content</h5>
-                                                <p class="footer"><a href="../glossary.htm" target="_blank">Glossary</a>
+                                                <p class="footer"><a href="../glossary.htm" target="_blank" rel="noopener noreferrer">Glossary</a>
                                                 </p>
-                                                <p class="footer"><a href="../When_to_request_a_new_product_license.htm">Product Licenses</a>
+                                                <p class="footer"><a href="../When_to_request_a_new_product_license.htm" target="_blank" rel="noopener noreferrer">Product Licenses</a>
                                                 </p>
-                                                <p class="footer"><a href="http://support.syniti.com/hc/en-us" target="_blank" data-mc-conditions="Primary.dspConduct">Knowledge Base</a>
+                                                <p class="footer"><a href="http://support.syniti.com/hc/en-us" target="_blank" rel="noopener noreferrer" data-mc-conditions="Primary.dspConduct">Knowledge Base</a>
                                                 </p>
                                             </div>
                                             <div>
                                                 <p class="footer" id="di">&#160;
 					</p>
-                                                <p class="btn more"><a href="../../Data_Insiders_Community.htm" target="_blank">Learn More</a>
+                                                <p class="btn more"><a href="../../Data_Insiders_Community.htm" target="_blank" rel="noopener noreferrer">Learn More</a>
                                                 </p>
                                             </div>
                                             <div>
@@ -1576,15 +1617,15 @@
                                                 <p>&#160;</p>
                                             </div>
                                             <div>
-                                                <p class="footer bottom"><a href="https://www.syniti.com/privacy-policy/">Privacy Policy</a>
+                                                <p class="footer bottom"><a href="https://www.syniti.com/privacy-policy/" target="_blank" rel="noopener noreferrer">Privacy Policy</a>
                                                 </p>
                                             </div>
                                             <div>
-                                                <p class="footer bottom"><a href="https://www.syniti.com/trademarks/">Trademarks</a>
+                                                <p class="footer bottom"><a href="https://www.syniti.com/trademarks/" target="_blank" rel="noopener noreferrer">Trademarks</a>
                                                 </p>
                                             </div>
                                             <div>
-                                                <p class="footer bottom"><a href="https://www.syniti.com/terms-of-use/">Terms of Use</a>
+                                                <p class="footer bottom"><a href="https://www.syniti.com/terms-of-use/" target="_blank" rel="noopener noreferrer">Terms of Use</a>
                                                 </p>
                                             </div>
                                         </div>

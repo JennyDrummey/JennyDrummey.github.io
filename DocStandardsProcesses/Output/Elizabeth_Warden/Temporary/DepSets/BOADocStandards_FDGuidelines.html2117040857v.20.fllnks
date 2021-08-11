@@ -18,9 +18,13 @@
     <Link
       Url="Content/Resources/Images/createGroup.png" />
     <Link
+      Url="Content/DocProcess/BOADocProcess_UpdateOnlineHelp.html" />
+    <Link
       Url="Content/Resources/Images/mergedTableCell.png" />
     <Link
       Url="Content/SSTDocStandards/BOADocStandards_FDGuidelines.html" />
+    <Link
+      Url="Content/Resources/Snippets/ExternalLinks.flsnp" />
     <Link
       Url="Content/Resources/Images/pageDescription.png" />
     <Link
@@ -44,11 +48,15 @@
     <Link
       Url="Content/Resources/Images/createGroup.png" />
     <Link
+      Url="Content/DocProcess/BOADocProcess_UpdateOnlineHelp.html#Format" />
+    <Link
       Url="Content/Resources/Images/mergedTableCell.png" />
     <Link
-      Url="Content/SSTDocStandards/BOADocStandards_FDGuidelines.html#bullets" />
+      Url="Content/SSTDocStandards/BOADocStandards_FDGuidelines.html#Bullets" />
     <Link
-      Url="Content/SSTDocStandards/BOADocStandards_FDGuidelines.html#application-of-styles" />
+      Url="Content/Resources/Snippets/ExternalLinks.flsnp" />
+    <Link
+      Url="Content/SSTDocStandards/BOADocStandards_FDGuidelines.html#Applicat" />
     <Link
       Url="Content/Resources/Images/pageDescription.png" />
     <Link
@@ -60,7 +68,12 @@
     <Link
       Url="Content/Resources/Images/tabbedVV2.png" />
   </LongLinks>
-  <Anchors />
+  <Anchors>
+    <Anchor
+      Name="Applicat" />
+    <Anchor
+      Name="Bullets" />
+  </Anchors>
   <Keywords />
   <Concepts />
   <ConceptControlNames />

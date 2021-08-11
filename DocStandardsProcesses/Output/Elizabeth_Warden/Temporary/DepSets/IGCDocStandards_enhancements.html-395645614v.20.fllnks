@@ -11,14 +11,25 @@
       Url="Content/Resources/MasterPages/DocStandards.flmsp" />
     <Link
       Url="Content/Resources/Stylesheets/newDefault.css" />
+    <Link
+      Url="Content/SKTDocStandards/IGCDocStandards_enhancements.html" />
   </Links>
   <LongLinks>
     <Link
       Url="Content/Resources/MasterPages/DocStandards.flmsp" />
     <Link
       Url="Content/Resources/Stylesheets/newDefault.css" />
+    <Link
+      Url="Content/SKTDocStandards/IGCDocStandards_enhancements.html#New" />
+    <Link
+      Url="Content/SKTDocStandards/IGCDocStandards_enhancements.html#Bug" />
   </LongLinks>
-  <Anchors />
+  <Anchors>
+    <Anchor
+      Name="New" />
+    <Anchor
+      Name="Bug" />
+  </Anchors>
   <Keywords />
   <Concepts />
   <ConceptControlNames />

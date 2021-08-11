@@ -1,15 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('..\Resources\MasterPages\DocProcess.flmsp');">
-    <head>
-        <title>
-        </title>
+    <head><title></title>
         <link href="../Resources/Stylesheets/newDefault.css" rel="stylesheet" type="text/css" />
     </head>
     <body>
         <h1>Workflow - Approved</h1>
         <p>Content should be approved by PM/Dev/Product before it's added to any of the projects.</p>
-        <p class="note">
-            <b>NOTE: </b>All Documentation Team members belong to the doc_checkouts Slack channel, where we post information about what is being worked on and what needs review. Use the @doc command to notify the team that you are checking out a branch and to request a peer review. </p>
+        <p class="note"><b>NOTE: </b>All Documentation Team members belong to the doc_checkouts Slack channel, where we post information about what is being worked on and what needs review. Use the @doc command to notify the team that you are checking out a branch and to request a peer review. </p>
         <p>TWs add approved content in Flare and are responsible for producing <a href="#Author" target="_blank" rel="noopener noreferrer">Author Notes</a> for the content.</p>
         <p>TWS also stage content in a dev environment for the Tech Writer Peer Review.</p>
         <p>At a high level, to add approved content to the Flare projects for SST, SKT and the Installation Guides:</p>
@@ -18,48 +15,38 @@
                 <p>The Author posts in the Slack doc_checkouts channel when checking out a branch.</p>
             </li>
         </ol>
-        <p class="note">
-            <b>NOTE: </b>Include the name of the project and the name of the branch you are working in in this post. Use the @doc command in Slack to call attention to questions and feedback needed.</p>
+        <p class="note"><b>NOTE: </b>Include the name of the project and the name of the branch you are working in in this post. Use the @doc command in Slack to call attention to questions and feedback needed.</p>
         <ol MadCap:continue="true">
             <li>
-                <p>
-                    <a href="#Author2" target="_blank" rel="noopener noreferrer">TW checks out their own branch to add content on a local branch and makes changes</a>
+                <p><a href="#Author2" target="_blank" rel="noopener noreferrer">TW checks out their own branch to add content on a local branch and makes changes</a>
                 </p>
             </li>
             <li>
-                <p>
-                    <a href="#Author3" target="_blank" rel="noopener noreferrer">TW pushes their local branch to the appropriate github repo and merges that branch to develop_nnn (SST) , develop (SKT) or Stagingnnn (Install Manuals)</a>.</p>
+                <p><a href="#Author3" target="_blank" rel="noopener noreferrer">TW pushes their local branch to the appropriate github repo and merges that branch to develop_nnn (SST) , develop (SKT) or Stagingnnn (Install Manuals)</a>.</p>
             </li>
             <li>
-                <p>
-                    <a href="BOADocProcess_Update_Help_on_Dev_and_Prod_Sites.html#top" target="_blank" rel="noopener noreferrer">Author builds the help in jenkins so that it is accessible on the dev site</a>.</p>
-                <p class="note">
-                    <b>NOTE:</b> For SKT help, pushing content to develop automatically starts a build to push the new content to the dev site. There is no need to access jenkins when updating SKT help.</p>
+                <p><a href="BOADocProcess_Update_Help_on_Dev_and_Prod_Sites.html#top" target="_blank" rel="noopener noreferrer">Author builds the help in jenkins so that it is accessible on the dev site</a>.</p>
+                <p class="note"><b>NOTE:</b> For SKT help, pushing content to develop automatically starts a build to push the new content to the dev site. There is no need to access jenkins when updating SKT help.</p>
             </li>
         </ol>
         <ol MadCap:continue="true">
             <li>
                 <p>Author posts in the doc_checkouts Slack discussion channel when they have merged the PR to develop_nnn/develop/Staginginnn, and built in jenkins so that the content is  on the dev site ready to be peer reviewed by a Doc Team member..</p>
-                <p class="note">
-                    <b>NOTE: </b>Include a link to the Author Notes in this post. Use the @doc command in Slack to call attention to questions and feedback needed.</p>
+                <p class="note"><b>NOTE: </b>Include a link to the Author Notes in this post. Use the @doc command in Slack to call attention to questions and feedback needed.</p>
             </li>
         </ol>
-        <h2>
-            <a name="Author2">
-            </a>Author checks out branch to add content</h2>
-        <p class="note">
-            <b>NOTE</b>: If you are a new employee or setting up a new laptop, consult <a href="BOADocProcess_GitInitSetup.html" target="_blank" rel="noopener noreferrer">GitHub Initial Setup</a> for initial configuration and setup steps for Git and GitHub. </p>
-        <p class="note">
-            <b>NOTE</b>: Always use Git Bash. Do not use the GitHub Desktop application.</p>
-        <p class="note">
-            <b>NOTE</b>: You MUST perform these steps each time you checkout a branch to ensure you are working in the latest copy of the release branch.</p>
+        <h2><a name="Author2"></a>Author checks out branch to add content</h2>
+        <p class="note"><b>NOTE</b>: If you are a new employee or setting up a new laptop, consult <a href="BOADocProcess_GitInitSetup.html" target="_blank" rel="noopener noreferrer">GitHub Initial Setup</a> for initial configuration and setup steps for Git and GitHub. </p>
+        <p class="note"><b>NOTE</b>: Always use Git Bash. Do not use the GitHub Desktop application.</p>
+        <p class="note"><b>NOTE</b>: You MUST perform these steps each time you checkout a branch to ensure you are working in the latest copy of the release branch.</p>
         <ol>
             <li>
                 <p>In Windows-Explorer, right-click your local repo folder and select <b>Git Bash Here</b>.</p>
                 <p>
                     <img src="../Resources/Images/gitBashHere.png" />
                 </p>
-                <p>Right-click menu with Git Bash Here option</p>
+                <p>Right-click menu with Git Bash Here option.</p>
+                <p class="note"><b>NOTE:</b> If pulling down a branch for the first time, enter the git command <b style="font-family: monospace;">git fetch origin &lt;release branch name&gt;</b>, then proceed with the following steps. </p>
             </li>
         </ol>
         <ol MadCap:continue="true">
@@ -68,17 +55,14 @@
             </li>
             <li>
                 <p>Enter the git command, <span style="font-family: Consolas; font-weight: bold;">git pull origin &lt;same release branch name&gt;</span></p>
-                <p class="note">
-                    <b>NOTE</b>: If at this point you wish to see a list of branches that are available in your local repo, enter the command <span style="font-family: Consolas; font-weight: bold;">git branch</span>. All of the available local branches are listed.</p>
-                <p class="note">
-                    <b>NOTE</b>: If you are working on a big project where you perform several checkins before opening a Pull Request, use the following commands each time you begin work: <span style="font-family: Consolas;">git status &lt;your branch name&gt;</span> then <span style="font-family: Consolas;">git checkout &lt;your branch name&gt;</span> then <span style="font-family: Consolas;">git pull origin &lt;your branch name&gt;</span></p>
+                <p class="note"><b>NOTE</b>: If at this point you wish to see a list of branches that are available in your local repo, enter the command <span style="font-family: Consolas; font-weight: bold;">git branch</span>. All of the available local branches are listed.</p>
+                <p class="note"><b>NOTE</b>: If you are working on a big project where you perform several checkins before opening a Pull Request, use the following commands each time you begin work: <span style="font-family: Consolas;">git status &lt;your branch name&gt;</span> then <span style="font-family: Consolas;">git checkout &lt;your branch name&gt;</span> then <span style="font-family: Consolas;">git pull origin &lt;your branch name&gt;</span></p>
             </li>
         </ol>
         <ol MadCap:continue="true">
             <li>
                 <p>Enter the command <span style="font-family: Consolas; font-weight: bold;">git checkout -b &lt;new branch name&gt;</span></p>
-                <p class="note">
-                    <b>NOTE:</b> Name the branch after the JIRA ticket number if applicable. Use the naming convention DSP-NNNN. If changes are not related to a Jira ticket, give the branch a meaningful name, such as ‘releasenotesupdates’.</p>
+                <p class="note"><b>NOTE:</b> Name the branch after the JIRA ticket number if applicable. Use the naming convention DSP-NNNN. If changes are not related to a Jira ticket, give the branch a meaningful name, such as ‘releasenotesupdates’.</p>
             </li>
         </ol>
         <ol MadCap:continue="true">
@@ -87,13 +71,10 @@
             </li>
             <li>
                 <p>When you finish your updates, save your changes and close Flare.</p>
-                <p>
-                    <b>NOTE</b>: Refer to <a href="BOADocProcess_UpdateOnlineHelp.html" target="_blank" rel="noopener noreferrer">Update Online Help in Flare</a> for steps on working in Flare.</p>
+                <p><b>NOTE</b>: Refer to <a href="BOADocProcess_UpdateOnlineHelp.html" target="_blank" rel="noopener noreferrer">Update Online Help in Flare</a> for steps on working in Flare.</p>
             </li>
         </ol>
-        <h2>
-            <a name="Author3">
-            </a>Author Pushes Updates to github Repo and Merges Content to develop_nnn/develop/Stagingnnn</h2>
+        <h2><a name="Author3"></a>Author Pushes Updates to github Repo and Merges Content to develop_nnn/develop/Stagingnnn</h2>
         <p>After finishing your changes in Flare, commit them to the remote repo for the project following these steps:</p>
         <ol>
             <li>
@@ -107,24 +88,20 @@
         <ol MadCap:continue="true">
             <li>
                 <p>Enter the git command <span style="font-family: Consolas; font-weight: bold;">git status</span> to see all of the changes you have made.</p>
-                <p>
-                    <b>NOTE:</b> If you do not see your changes, you may have forgotten to save or you are in the wrong branch.</p>
+                <p><b>NOTE:</b> If you do not see your changes, you may have forgotten to save or you are in the wrong branch.</p>
             </li>
         </ol>
         <ol MadCap:continue="true">
             <li>
                 <p>Stage the updates for commit by entering the git command <span style="font-family: Consolas; font-weight: bold;">git add .</span></p>
-                <p>
-                    <b>NOTE</b>: Include the period in the command.</p>
-                <p>
-                    <b>NOTE</b>: Comments change from red to green after you stage them.</p>
+                <p><b>NOTE</b>: Include the period in the command.</p>
+                <p><b>NOTE</b>: Comments change from red to green after you stage them.</p>
             </li>
         </ol>
         <ol MadCap:continue="true">
             <li>
                 <p>Commit staged updates by entering the command <span style="font-family: Consolas; font-weight: bold;">git commit -m "&lt;commit message that informs everyone what you have done&gt;"</span></p>
-                <p>
-                    <b>NOTE:</b> Do not use special characters in message.</p>
+                <p><b>NOTE:</b> Do not use special characters in message.</p>
             </li>
         </ol>
         <ol MadCap:continue="true">
@@ -164,11 +141,8 @@
                 <p>Notify the doc team that you are ready for a peer review by posting an @doc message in the #doc_checkouts Slack channel. Include a link to your Author's Notes. </p>
             </li>
         </ol>
-        <h2>
-            <a name="Author">
-            </a>Author Notes</h2>
-        <p class="note">
-            <b>NOTE: </b>Author Notes should only contain approved content or formatting fixes/help housekeeping that does not require approval.</p>
+        <h2><a name="Author"></a>Author Notes</h2>
+        <p class="note"><b>NOTE: </b>Author Notes should only contain approved content or formatting fixes/help housekeeping that does not require approval.</p>
         <p>Author Notes must contain:</p>
         <ul>
             <li>
@@ -184,7 +158,6 @@
                 <p>Simple, clear and easy to follow content describing the work done for the ticket.</p>
             </li>
         </ul>
-        <p class="note">
-            <b>NOTE:</b>  Author Notes must not contain explanations or background for tickets, contents, or troubleshooting. If you find a “gotcha” or a tip, share it in a slack channel so we can all learn from it, and add it to the standards/processes if it’s relevant.</p>
+        <p class="note"><b>NOTE:</b>  Author Notes must not contain explanations or background for tickets, contents, or troubleshooting. If you find a “gotcha” or a tip, share it in a slack channel so we can all learn from it, and add it to the standards/processes if it’s relevant.</p>
     </body>
 </html>
