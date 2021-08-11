@@ -14,8 +14,6 @@
     <Link
       Url="Content/Resources/Stylesheets/newDefault.css" />
     <Link
-      Url="Content/SSTDocStandards/BOADocStandards_PrintStyles.html" />
-    <Link
       Url="http://www.syniti.com/" />
   </Links>
   <LongLinks>
@@ -25,8 +23,6 @@
       Url="Content/Resources/TableStylesheets/fielddescription.css" />
     <Link
       Url="Content/Resources/Stylesheets/newDefault.css" />
-    <Link
-      Url="Content/SSTDocStandards/BOADocStandards_PrintStyles.html" />
     <Link
       Url="http://www.syniti.com/" />
   </LongLinks>

@@ -11,8 +11,7 @@
         <link rel="icon" sizes="32x32" href="../../Skins/Favicons/favicon-32x32.png" />
         <link rel="icon" sizes="16x16" href="../../Skins/Favicons/favicon-16x16.png" />
         <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" /><title data-title="BOA Help">GitHub Initial Setup</title>
-        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <meta name="viewport" content="width=device-width, initial-scale=1" /><title data-title="BOA Help">Documentation Team Initial Setup</title>
         <!-- Scripts for menu modal dropdown, popup modals, and back-to-top button. -->
         <link href="../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
         <link href="../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
@@ -24,18 +23,17 @@
         <link href="../../Skins/Fluid/Stylesheets/Styles.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
         <link href="../../Skins/Fluid/Stylesheets/Tablet.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
         <link href="../../Skins/Fluid/Stylesheets/Mobile.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
-        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css" />
         <link href="../Resources/Stylesheets/newDefault.css" rel="stylesheet" type="text/css" />
         <style>/*&lt;meta /&gt;*/
 
 .button.print-button
 {
-	-pie-background: url('../../Skins/Default/Stylesheets/Images/printer.png') no-repeat center center, linear-gradient(#ffffff, #ececec);
+	-pie-background: linear-gradient(#ffffff, #ececec);
 }
 
 .button.remove-highlight-button
 {
-	-pie-background: url('../../Skins/Default/Stylesheets/Images/highlight.png') no-repeat center center, linear-gradient(#ffffff, #ececec);
+	-pie-background: linear-gradient(#ffffff, #ececec);
 }
 
 .needs-pie
@@ -44,13 +42,14 @@
 }
 
 </style>
-        <link href="../Resources/Stylesheets/Styles.css" rel="stylesheet" type="text/css" />
         <link rel="apple-touch-icon" sizes="180x180" href="../../Skins/Favicons/apple-touch-icon.png" />
         <link rel="shortcut icon" href="../../Skins/Favicons/favicon-32x32.png" />
         <link rel="icon" sizes="96x96" href="../../Skins/Favicons/favicon-96x96.png" />
         <link rel="icon" sizes="32x32" href="../../Skins/Favicons/favicon-32x32.png" />
         <link rel="icon" sizes="16x16" href="../../Skins/Favicons/favicon-16x16.png" />
         <script src="../../Resources/Scripts/jquery.min.js" type="text/javascript">
+        </script>
+        <script src="../../Resources/Scripts/purify.min.js" type="text/javascript" defer="defer">
         </script>
         <script src="../../Resources/Scripts/require.min.js" type="text/javascript" defer="defer">
         </script>
@@ -62,15 +61,6 @@
         </script>
         <script src="../../Resources/Scripts/MadCapAll.js" type="text/javascript" defer="defer">
         </script>
-        <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-121391607-4">
-        </script>
-        <script>/* <![CDATA[ */
-			window.dataLayer = window.dataLayer || [];
-			function gtag(){dataLayer.push(arguments);}
-			gtag('js', new Date());
-
-			gtag('config', 'UA-121391607-4', {'anonymize_ip':true});
-		/* ]]> */</script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.6.15/browser-polyfill.min.js">
         </script>
         <script type="text/javascript" src="../Resources/Scripts/modal.js">
@@ -185,10 +175,18 @@
                                                 <div class="buttons popup-container clearfix topicToolbarProxy mc-component nocontent" style="mc-topic-toolbar-items: Print RemoveHighlight;">
                                                     <div class="button-group-container-left">
                                                         <button class="button needs-pie print-button" title="Print">
-                                                            <img alt="Print" src="../../Skins/Default/Stylesheets/Images/transparent.gif" class="invisible-label" />
+                                                            <div>
+                                                                <div role="img" class="button-icon-wrapper" aria-label="Print">
+                                                                    <div class="button-icon"> </div>
+                                                                </div>
+                                                            </div>
                                                         </button>
                                                         <button class="button needs-pie remove-highlight-button" title="Remove Highlights">
-                                                            <img src="../../Skins/Default/Stylesheets/Images/transparent.gif" class="invisible-label" />
+                                                            <div>
+                                                                <div role="img" class="button-icon-wrapper">
+                                                                    <div class="button-icon"> </div>
+                                                                </div>
+                                                            </div>
                                                         </button>
                                                     </div>
                                                 </div>
@@ -196,37 +194,106 @@
                                                 <br />
                                                 <br />
                                                 <div role="main" id="mc-main-content">
-                                                    <h1>GitHub Initial Setup</h1>
+                                                    <h1>Documentation Team Initial Setup</h1>
+                                                    <p>This topic lists tasks for new Doc team members.</p>
                                                     <h2>Git Bash Set Up</h2>
+                                                    <p>This is a one-time set up, unless you change laptops.</p>
                                                     <ol type="1">
-                                                        <li value="1">Install Git Bash by downloading from here: <a href="https://git-scm.com/">https://git-scm.com/</a></li>
-                                                        <li value="2">Follow these steps to set up Git Bash for the first time: <a href="https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup">https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup</a></li>
-                                                        <li value="3">Follow these steps to auto launch the ssh-agent: <a href="https://docs.google.com/document/d/1_uwCLQY9dEiQ_E27a-BjgMdNv6eZbAG64M29NIyp8ng/edit?usp=sharing">https://docs.google.com/document/d/1_uwCLQY9dEiQ_E27a-BjgMdNv6eZbAG64M29NIyp8ng/edit?usp=sharing</a></li>
+                                                        <li value="1">Install Git Bash by downloading from here: <a href="https://git-scm.com/" target="_blank" rel="noopener noreferrer">https://git-scm.com/</a></li>
+                                                        <li value="2">Follow these steps to set up Git Bash for the first time: <a href="https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup" target="_blank" rel="noopener noreferrer">https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup</a></li>
                                                     </ol>
-                                                    <h2><a name="Clone_BackOffice/dsp-docs_repo_to_local"></a>Clone BackOffice/dsp-docs repo to local</h2>
-                                                    <p>Prior to doing any work, you need to obtain a copy of the BackOfficeAssoc dsp-docs repository for your local computer.</p>
+                                                    <h2><a name="SSH"></a>SSH Authentication Set Up</h2>
+                                                    <p>This is a one-time set up, unless you change laptops. You must have a GitHub account for this to work. </p>
+                                                    <p>We connect to the GitHub repos using SSH Authentication. Follow these steps to set it up.</p>
+                                                    <p>On this page:</p>
+                                                    <p><a href="https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent">Generating a new SSH key and adding it to the ssh-agent - GitHub Docs</a>
+                                                    </p>
+                                                    <p>Perform the steps in these sections:</p>
+                                                    <ol>
+                                                        <li value="1">
+                                                            <p><a href="https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent#generating-a-new-ssh-key">Generating a new SSH key - GitHub Docs</a>
+                                                            </p>
+                                                        </li>
+                                                        <li value="2">
+                                                            <p><a href="https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent#adding-your-ssh-key-to-the-ssh-agent">Adding the key  to the ssh-agent - GitHub Docs</a>
+                                                            </p>
+                                                        </li>
+                                                    </ol>
+                                                    <p>Perform all the steps in these topics:</p>
+                                                    <ol data-mc-continue="true">
+                                                        <li value="3">
+                                                            <p><a href="https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account">Adding a new SSH key to your GitHub account - GitHub Docs</a>
+                                                            </p>
+                                                        </li>
+                                                        <li value="4">
+                                                            <p><a href="https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh/testing-your-ssh-connection">Testing your SSH connection - GitHub Docs</a>
+                                                            </p>
+                                                        </li>
+                                                    </ol>
+                                                    <p>Perform the steps in this googledoc:</p>
+                                                    <ol data-mc-continue="true">
+                                                        <li value="5">
+                                                            <p><a href="https://docs.google.com/document/d/11tQ601_woUizRWog2CLqFah8Wg9A4TomwbsS_KCbc8E/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Set up an auto-launch of the SSH agent</a>
+                                                            </p>
+                                                        </li>
+                                                    </ol>
+                                                    <p>If you're using an ED25519 SSH key, which is the latest standard for GitHub access, you may need to create a config file that tells your SSH agent which SSH key to use. </p>
+                                                    <ol data-mc-continue="true">
+                                                        <li value="6"><a href="https://docs.google.com/document/d/14-Uno8VtVW87u2j1aRmxA1uva-3eb9m2WZOOzjSwikY/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Set up config file for SSH agent</a>
+                                                        </li>
+                                                    </ol>
+                                                    <h2><a name="Clone_BackOffice/dsp-docs_repo_to_local"></a>Initial Clone of Project Files</h2>
+                                                    <p class="note">:<b>NOTE</b> You only perform these steps one time when you set up your repo for each project. After you have it cloned locally, you will use pulling and pushing to move your changes to remote branches.</p>
+                                                    <p>Prior to doing any work on the Stewardship Tier help, you must obtain a copy of the BackOfficeAssoc dsp-docs repository for your local computer. This repo is the source control for the SST online help Flare project. </p>
+                                                    <p>The SKT help and the Installation Manuals are also stored in github as Flare projects and the process to clone these three projects is the same (though the underlying folder structure is not).</p>
                                                     <p>
-To clone the BOA dsp-docs repo to your laptop: </p>
-                                                    <p>1. In GitHub, go to the BackOfficeAssoc account.</p>
-                                                    <p> 2. Find the BackOfficeAssoc/dsp-docs repo. </p>
-                                                    <p>3. In the BackOfficeAssoc/dsp-docs repo, click the <strong>Clone or download</strong> button. Once you click it, it will reveal a URL that you need to copy and paste into your command line in the next step. Click the copy to clipboard button to the right of the url to copy it. </p>
-                                                    <p>NOTE: There are various options for cloning. We will be doing the clone from the command line, so simply copy the SSH URL shown.</p>
-                                                    <p>4. Open Git Bash and navigate to the directory that you wish to download to.
-</p>
-                                                    <div class="alert alert-info" data-markdown="span" role="alert"><b>Note:</b> The repository will be cloned into a new directory below the one you specify, with the same name as the repository, ex. <code class="highlighter-rouge">C:\heathercloward\github\dsp-docs</code>.
-</div>
-                                                    <p>Alternatively, in Windows Explorer, you can right-click in a folder and select **Git Bash Here** from the dropdown menu to open the command prompt at that location.
-			
-        </p>
-                                                    <ol start="5" type="1">
-                                                        <li value="5">Run the git clone command using the SSH URL from step 3.
-<div class="alert alert-info" data-markdown="span" role="alert"> <b>Note:</b> It should look like: <code class="highlighter-rouge">git clone git@github.com:BackOfficeAssoc/dsp-docs.git</code>.
-</div></li>
-                                                        <li value="6">Switch into your new directory by entering the git command <code>cd dsp-docs</code><div class="alert alert-info" data-markdown="span" role="alert"><b>Note:</b> You will know you are in the correct directory by the command prompt, ex. <code class="highlighter-rouge">Documents/GitHub/dsp-docs (develop)</code> shows repo name and branch name.
-</div></li>
-                                                        <li value="7">Fetch the develop branch so that you have it in your local repo by entering the git command <code>git fetch origin develop</code>.</li>
+To clone the dsp-docs repo (SST online help) to your laptop: </p>
+                                                    <ol>
+                                                        <li value="1">
+                                                            <p>In GitHub, go to the dsp-docs repo <a href="https://github.com/BackOfficeAssoc/dsp-docs">here.</a></p>
+                                                        </li>
                                                     </ol>
-                                                    <p>NOTE: Any branch you do not have on your local that exists on the remote can be created in this way. IMPORTANT All release branches should be based on the develop branch.</p>
+                                                    <p class="note"><b>NOTE</b>: The SKT repo is <a href="https://github.com/BackOfficeAssoc/igc-help">here</a> (you can follow these steps using “igc-help” in place of “dsp-docs”). The Install Manual repo is <a href="https://github.com/BackOfficeAssoc/dsp-install-manuals">here</a> (you can follow these steps using “dsp-install-manuals” in place of “dsp-docs”):</p>
+                                                    <ol data-mc-continue="true">
+                                                        <li value="2">
+                                                            <p> Click the <b>Code</b> button.</p>
+                                                        </li>
+                                                        <li value="3">
+                                                            <p>Under <b>Clone</b>, select the <b>SSH</b> tab.</p>
+                                                        </li>
+                                                        <li value="4">
+                                                            <p>Click the <b>Copied</b> icon to the right of the url text box to copy the URL to the clipboard.<img src="../Resources/Images/WRch9WocxzCBKvF9iOma6qg4HYTtFdLo3iF6pUtROSEHZPiWHAnfdHfAUU8vM8LdxZJ2sOpWuIptGqnbN7S2Xd2Vw9nFruGdOifTay9F.png" /></p>
+                                                            <p class="note"><b>NOTE</b>: Ensure you are cloning using SSH, and not HTTPS (the default active tab).</p>
+                                                        </li>
+                                                    </ol>
+                                                    <ol data-mc-continue="true">
+                                                        <li value="5">
+                                                            <p>In Windows Explorer, right-click the default git location to clone repos and select <b>Git Bash Here</b>.</p>
+                                                            <p class="note"><b>NOTE:</b>&#160;These steps use the default location of Users &gt; Jenny Drummey &gt; git. </p>
+                                                            <p>
+                                                                <img src="../Resources/Images/k1nkI-rGdF9R_Rhdfp9zPtzxfvwxAGyXG8Wfi6BqGVUTgwU1-pjp5ZUAKxNLI2H8V83PGpvfVcD2UNhJGp3z3ZGTfRU_kf9anofjdZRl.png" />
+                                                            </p>
+                                                            <p class="note"><b>NOTE:</b> The repository will be cloned into a new directory below this default git folder location you specify, with the same name as the repository. For example, following these steps, your dsp-docs repo is cloned to. C:\Users\Jenny Drummey\git\dsp-docs.</p>
+                                                            <p class="note"><b>NOTE:</b> If you have set up SSH Authentication, you may need to enter your passphrase when the bash window opens. Refer to <a href="#SSH">Set Up SSH Authentication</a> for more information.</p>
+                                                        </li>
+                                                    </ol>
+                                                    <ol data-mc-continue="true">
+                                                        <li value="6">
+                                                            <p>Enter <b>git clone</b> then right-click and select <b>Paste</b>.</p>
+                                                        </li>
+                                                    </ol>
+                                                    <p class="note"><b>NOTE</b>: The result should look like this:</p>
+                                                    <p>git clone git@github.com:BackOfficeAssoc/dsp-docs.git</p>
+                                                    <ol data-mc-continue="true">
+                                                        <li value="7">
+                                                            <p>Press <b>Enter</b> to clone the repo locally.</p>
+                                                        </li>
+                                                        <li value="8">
+                                                            <p>Enter the command <b>cd dsp-docs</b> to switch into the newly cloned repo’s directory.</p>
+                                                        </li>
+                                                    </ol>
+                                                    <p class="note"><b>NOTE:</b> The command prompt displays the repo and branch name , ex. Documents/GitHub/dsp-docs (develop) shows repo name of dsp-docs and branch name of develop.</p>
+                                                    <p class="note">Refer to <a href="BOADocProcess_Workflow_Approved.html#Author2">Author Checks Out Branch to Add Content</a> for more information about working in git.</p>
                                                 </div>
                                                 <div id="feedback-survey">
                                                     <div class="feedback-question">
@@ -257,7 +324,7 @@ To clone the BOA dsp-docs repo to your laptop: </p>
                                                                 </p>
                                                                 <p class="feedbackW">Want to tell us more?</p>
                                                                 <p>Send an email to our authors to leave your feedback.</p>
-                                                                <p><a href="mailto:Helpfeedback@syniti.com?subject=Feedback" id="feedbackEmailLink">Email us</a>
+                                                                <p><a href="mailto:Helpfeedback@syniti.com?subject=Feedback" id="feedbackEmailLink" target="_blank" rel="noopener noreferrer">Email us</a>
                                                                 </p>
                                                             </div>
                                                         </div>
@@ -296,26 +363,26 @@ To clone the BOA dsp-docs repo to your laptop: </p>
                                             </div>
                                             <div>
                                                 <h5>Get in Touch</h5>
-                                                <p class="footer"><a href="https://support.syniti.com/access/unauthenticated?return_to=https%3A%2F%2Fbackofficeassociates.zendesk.com%2Fagent%2Fdashboard" target="_blank" data-mc-conditions="Primary.dspConduct">Contact Support</a>
+                                                <p class="footer"><a href="https://support.syniti.com/access/unauthenticated?return_to=https%3A%2F%2Fbackofficeassociates.zendesk.com%2Fagent%2Fdashboard" target="_blank" rel="noopener noreferrer" data-mc-conditions="Primary.dspConduct">Contact Support</a>
                                                 </p>
-                                                <p class="footer"><a href="http://launchpad.support.sap.com/" data-mc-conditions="Primary.ISA">SAP Support (Use component XX-PART-BOA)</a>
+                                                <p class="footer"><a href="http://launchpad.support.sap.com/" target="_blank" rel="noopener noreferrer" data-mc-conditions="Primary.ISA">SAP Support (Use component XX-PART-BOA)</a>
                                                 </p>
-                                                <p class="footer"><a href="../Ideas_Portal.htm">Access Product Ideas Portal</a>
+                                                <p class="footer"><a href="../Ideas_Portal.htm" target="_blank" rel="noopener noreferrer">Access Product Ideas Portal</a>
                                                 </p>
-                                                <p class="footer"><a href="https://www.syniti.com/support/education/" target="_blank">Request Product Training</a>
+                                                <p class="footer"><a href="https://www.syniti.com/support/education/" target="_blank" rel="noopener noreferrer">Request Product Training</a>
                                                 </p>
                                                 <h5>Related Content</h5>
-                                                <p class="footer"><a href="../glossary.htm" target="_blank">Glossary</a>
+                                                <p class="footer"><a href="../glossary.htm" target="_blank" rel="noopener noreferrer">Glossary</a>
                                                 </p>
-                                                <p class="footer"><a href="../When_to_request_a_new_product_license.htm">Product Licenses</a>
+                                                <p class="footer"><a href="../When_to_request_a_new_product_license.htm" target="_blank" rel="noopener noreferrer">Product Licenses</a>
                                                 </p>
-                                                <p class="footer"><a href="http://support.syniti.com/hc/en-us" target="_blank" data-mc-conditions="Primary.dspConduct">Knowledge Base</a>
+                                                <p class="footer"><a href="http://support.syniti.com/hc/en-us" target="_blank" rel="noopener noreferrer" data-mc-conditions="Primary.dspConduct">Knowledge Base</a>
                                                 </p>
                                             </div>
                                             <div>
                                                 <p class="footer" id="di">&#160;
 					</p>
-                                                <p class="btn more"><a href="../Data_Insiders_Community.htm" target="_blank">Learn More</a>
+                                                <p class="btn more"><a href="../Data_Insiders_Community.htm" target="_blank" rel="noopener noreferrer">Learn More</a>
                                                 </p>
                                             </div>
                                             <div>
@@ -333,15 +400,15 @@ To clone the BOA dsp-docs repo to your laptop: </p>
                                                 <p>&#160;</p>
                                             </div>
                                             <div>
-                                                <p class="footer bottom"><a href="https://www.syniti.com/privacy-policy/">Privacy Policy</a>
+                                                <p class="footer bottom"><a href="https://www.syniti.com/privacy-policy/" target="_blank" rel="noopener noreferrer">Privacy Policy</a>
                                                 </p>
                                             </div>
                                             <div>
-                                                <p class="footer bottom"><a href="https://www.syniti.com/trademarks/">Trademarks</a>
+                                                <p class="footer bottom"><a href="https://www.syniti.com/trademarks/" target="_blank" rel="noopener noreferrer">Trademarks</a>
                                                 </p>
                                             </div>
                                             <div>
-                                                <p class="footer bottom"><a href="https://www.syniti.com/terms-of-use/">Terms of Use</a>
+                                                <p class="footer bottom"><a href="https://www.syniti.com/terms-of-use/" target="_blank" rel="noopener noreferrer">Terms of Use</a>
                                                 </p>
                                             </div>
                                         </div>

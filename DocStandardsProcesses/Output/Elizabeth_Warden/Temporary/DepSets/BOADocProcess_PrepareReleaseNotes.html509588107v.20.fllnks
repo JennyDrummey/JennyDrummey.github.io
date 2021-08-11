@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <CatapultFileLinkSet
   FileTitle=""
-  FileSearchable="true"
+  FileSearchable="false"
   MasterPage="file:///C:/Users/Elizabeth Warden/Documents/Git/JennyDrummey.github.io/DocStandardsProcesses/Content/Resources/MasterPages/DocProcess.flmsp"
   OnlyLocalStylesheets="false"
   FileTimeEstimate="0"

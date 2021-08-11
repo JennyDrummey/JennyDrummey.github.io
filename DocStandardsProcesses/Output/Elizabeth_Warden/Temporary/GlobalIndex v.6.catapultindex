@@ -18,11 +18,13 @@
     <Url
       Source="When_to_request_a_new_product_license.htm" />
     <Url
+      Source="DocProcess/AddDuplicateLinksforSolex.htm" />
+    <Url
       Source="DocProcess/AdditionalDocTeamTasks.html" />
     <Url
       Source="DocProcess/APIDocProcess.htm" />
     <Url
-      Source="DocProcess/BOADocProcess _UpdateFlareProjectNewVersion.html" />
+      Source="DocProcess/BOADocProcess_Add_Topics_to_the_TOC.html" />
     <Url
       Source="DocProcess/BOADocProcess_AliasValueRange.html" />
     <Url
@@ -47,8 +49,6 @@
       Source="DocProcess/BOADocProcess_DocUpdatesTable.html" />
     <Url
       Source="DocProcess/BOADocProcess_DSPDocOverview.html" />
-    <Url
-      Source="DocProcess/BOADocProcess_DSPDocWorkflow.html" />
     <Url
       Source="DocProcess/BOADocProcess_FlareImport.html" />
     <Url
@@ -79,6 +79,8 @@
       Source="DocProcess/BOADocProcess_SrcsOnlineHelp.html" />
     <Url
       Source="DocProcess/BOADocProcess_UnifyKBArticles.html" />
+    <Url
+      Source="DocProcess/BOADocProcess_UpdateFlareProjectNewVersion.html" />
     <Url
       Source="DocProcess/BOADocProcess_UpdateOnlineHelp.html" />
     <Url
@@ -238,6 +240,8 @@
     <Url
       Source="Resources/Images/Hero-Image.png" />
     <Url
+      Source="Resources/Images/HTML5file.png" />
+    <Url
       Source="Resources/Images/Icon-Checkbox.png" />
     <Url
       Source="Resources/Images/Icon-Download.png" />
@@ -275,6 +279,8 @@
       Source="Resources/Images/jiraExtLink.png" />
     <Url
       Source="Resources/Images/jiraExtLink2.png" />
+    <Url
+      Source="Resources/Images/k1nkI-rGdF9R_Rhdfp9zPtzxfvwxAGyXG8Wfi6BqGVUTgwU1-pjp5ZUAKxNLI2H8V83PGpvfVcD2UNhJGp3z3ZGTfRU_kf9anofjdZRl.png" />
     <Url
       Source="Resources/Images/killalljekyll.png" />
     <Url
@@ -348,6 +354,16 @@
     <Url
       Source="Resources/Images/raw.png" />
     <Url
+      Source="Resources/Images/RootFile.png" />
+    <Url
+      Source="Resources/Images/RootFile1.png" />
+    <Url
+      Source="Resources/Images/S3Image1.png" />
+    <Url
+      Source="Resources/Images/S3Image2.png" />
+    <Url
+      Source="Resources/Images/S3Image3.png" />
+    <Url
       Source="Resources/Images/save.png" />
     <Url
       Source="Resources/Images/searchableCB.png" />
@@ -362,9 +378,13 @@
     <Url
       Source="Resources/Images/smartPasteMenu.png" />
     <Url
+      Source="Resources/Images/SolexDuplicateLinkExample.png" />
+    <Url
       Source="Resources/Images/spChFileName.png" />
     <Url
       Source="Resources/Images/spChTopicTitle.png" />
+    <Url
+      Source="Resources/Images/SSTTOC.png" />
     <Url
       Source="Resources/Images/SynitiGradientLogo.png" />
     <Url
@@ -393,6 +413,8 @@
       Source="Resources/Images/wordStyleGallery.png" />
     <Url
       Source="Resources/Images/workflowarrow.png" />
+    <Url
+      Source="Resources/Images/WRch9WocxzCBKvF9iOma6qg4HYTtFdLo3iF6pUtROSEHZPiWHAnfdHfAUU8vM8LdxZJ2sOpWuIptGqnbN7S2Xd2Vw9nFruGdOifTay9F.png" />
     <Url
       Source="Resources/Images/topNav/arrow-down-gray.png" />
     <Url
@@ -684,6 +706,8 @@
     <Url
       Source="Resources/Snippets/CopyrightFooter.flsnp" />
     <Url
+      Source="Resources/Snippets/ExternalLinks.flsnp" />
+    <Url
       Source="Resources/Snippets/WhenRequestNewProductLic.flsnp" />
     <Url
       Source="Resources/Stylesheets/default.css" />
@@ -722,8 +746,6 @@
     <Url
       Source="SKTDocStandards/IGCDocStandards_styleToneShort.html" />
     <Url
-      Source="SKTDocStandards/IGCDocStandards_uiTerms.html" />
-    <Url
       Source="SKTDocStandards/IGCDocStandards_useCase.html" />
     <Url
       Source="SKTDocStandards/IGCDocStandards_video.html" />
@@ -731,6 +753,8 @@
       Source="SKTDocStandards/IGCDocStandards_welcome.html" />
     <Url
       Source="SKTDocStandards/IGCDocStandards_wordChoice.html" />
+    <Url
+      Source="SKTDocStandards/ProductNames.htm" />
     <Url
       Source="SSTDocStandards/BOADocStandards_CompNamesTerms.html" />
     <Url
