@@ -430,6 +430,11 @@ a.glossaryTerm
 	opacity: 0;
 }
 
+.img
+{
+	max-width: 100%;
+}
+
 .MCWebHelpFramesetLink a
 {
 	
