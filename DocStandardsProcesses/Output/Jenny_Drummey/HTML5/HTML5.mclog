@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<MadCapLog Protocol="2" Description="MadCap Flare 2021 Generated HTML5.fltar" Date="2021-07-21T11:37:49.8836176-04:00">
+<MadCapLog Protocol="2" Description="MadCap Flare 2021 Generated HTML5.fltar" Date="2021-08-11T15:41:20.7471189-04:00">
     <Messages>Compiling target HTML5...
 Removing previously generated content...
 Loading skin info...
@@ -62,9 +62,6 @@ Missing snippet file: C:\Users\Jenny Drummey\git\JennyDrummey.github.io\DocStand
 Link points outside project file:///C:/Users/Jenny Drummey/git/JennyDrummey.github.io/DocStandardsProcesses/Data_Insiders_Community.htm
 Missing linked source file: C:\Users\Jenny Drummey\git\JennyDrummey.github.io\DocStandardsProcesses\Content\Images\topNav\SynitiGradientLogo.png
 Generated SSTDocStandards\BOADocStandards_FDGuidelines.html
-Processing topic: SSTDocStandards\BOADocStandards_DocStructure.html...
-Topic contains invalid XHTML.
-Generated SSTDocStandards\BOADocStandards_DocStructure.html
 Processing topic: DocProcess\KnowledgeTierOnly.html...
 Applying master page DocProcess.flmsp...
 Generated DocProcess\KnowledgeTierOnly.html
@@ -280,6 +277,9 @@ Missing snippet file: C:\Users\Jenny Drummey\git\JennyDrummey.github.io\DocStand
 Link points outside project file:///C:/Users/Jenny Drummey/git/JennyDrummey.github.io/DocStandardsProcesses/Data_Insiders_Community.htm
 Missing linked source file: C:\Users\Jenny Drummey\git\JennyDrummey.github.io\DocStandardsProcesses\Content\Images\topNav\SynitiGradientLogo.png
 Generated SKTDocStandards\IGCDocStandards_notifications.html
+Processing topic: TestTopic.htm...
+Applying master page DocProcess.flmsp...
+Generated TestTopic.htm
 Processing topic: SSTDocStandards\BOADocStandards_PDOverview.html...
 Applying master page DocStandards.flmsp...
 Missing snippet file: C:\Users\Jenny Drummey\git\JennyDrummey.github.io\DocStandardsProcesses\Content\Snippets\CopyrightFooter.flsnp
@@ -367,7 +367,7 @@ Generated Skins\Default\Stylesheets\TextEffects.micro-content.css
 Generated Skins\Default\Stylesheets\Topic.micro-content.css
 Generated index.htm
 Saving result set...
-Ignored Compiler Warnings: 179
+Ignored Compiler Warnings: 184
 Output generated in 13 second(s).
 
 Done
@@ -383,7 +383,6 @@ Saving log to "C:\Users\Jenny Drummey\git\JennyDrummey.github.io\DocStandardsPro
         <LogEntry File="../../../Content/Resources/MasterPages/DocStandards.flmsp" Message="Missing snippet file: C:\Users\Jenny Drummey\git\JennyDrummey.github.io\DocStandardsProcesses\Content\Snippets\CopyrightFooter.flsnp&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5" ErrorID="10055" />
         <LogEntry File="../../../Content/Resources/MasterPages/DocStandards.flmsp" Message="Link points outside project file:///C:/Users/Jenny Drummey/git/JennyDrummey.github.io/DocStandardsProcesses/Data_Insiders_Community.htm&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5" ErrorID="10056" />
         <LogEntry File="../../../Content/Resources/MasterPages/DocStandards.flmsp" Message="Missing linked source file: C:\Users\Jenny Drummey\git\JennyDrummey.github.io\DocStandardsProcesses\Content\Images\topNav\SynitiGradientLogo.png&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5" ErrorID="10001" />
-        <LogEntry File="../../../Content/SSTDocStandards/BOADocStandards_DocStructure.html" Message="Topic contains invalid XHTML.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5" ErrorID="20058" />
         <LogEntry File="../../../Content/SKTDocStandards/IGCDocStandards_styleToneLong.html" Message="Topic contains invalid XHTML.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5" ErrorID="20058" />
         <LogEntry File="../../../Content/DocProcess/BOADocProcess_CLDSPStandards.html" Message="Topic contains invalid XHTML.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5" ErrorID="20058" />
         <LogEntry File="../../../Content/Resources/MasterPages/DocStandards.flmsp" Message="Missing snippet file: C:\Users\Jenny Drummey\git\JennyDrummey.github.io\DocStandardsProcesses\Content\Snippets\CopyrightFooter.flsnp&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5" ErrorID="10055" />
