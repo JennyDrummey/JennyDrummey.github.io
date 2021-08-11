@@ -258,29 +258,28 @@
                                                             </p>
                                                         </li>
                                                         <li value="3">
-                                                            <p><a href="#Create_a_Release_Folder_on_SharePoint" target="_blank" rel="noopener noreferrer">The TW creates a release folder on SharePoint in the Published folder for the current release, creates new Word docs for review with the updated version number in the file titles</a>. </p>
-                                                            <p class="note"><b>NOTE</b>: Ensure Track Changes is turned on for this version so that reviewers can find updates easily. The TW will include a link to this folder in the next step when they create the Jira ticket.</p>
-                                                        </li>
-                                                        <li value="4">
                                                             <p><a href="#Create_a_JIRA_Ticket_for_the_Manuals" target="_blank" rel="noopener noreferrer">The TW creates a Jira ticket in the Syniti Stewardship Tier (DSP70)  project for updating the manuals for this release</a>. </p>
                                                         </li>
-                                                        <li value="5">
+                                                        <li value="4">
                                                             <p><a href="#nk_Tickets_Related_to_Manuals_to_JIRA_Epic" target="_blank" rel="noopener noreferrer">The TW links all tickets that describe updates to manuals to this ticket to track the updates</a>. </p>
                                                         </li>
+                                                        <li value="5">
+                                                            <p>The TW copies and pastes the sections that need updating into a Google doc, enables Suggestions and makes updates based on the tickets. </p>
+                                                        </li>
                                                         <li value="6">
-                                                            <p>The TW and contributors review and update the manuals in Sharepoint in the Published folder and Flare as needed. If major changes have been made to the Installation Manuals, Support will test these steps. </p>
+                                                            <p>The TW adds a link to the Google doc to the ticket, asks PM to review the changes and sets the Documentation Status to <b>Review</b>. </p>
                                                         </li>
                                                         <li value="7">
                                                             <p>Once the collaboration is complete and the content is final, the approver sets the <strong>Documentation Status</strong> field to of the installation manual Jira issue to <strong>Approved</strong>. </p>
                                                         </li>
                                                         <li value="8">
-                                                            <p>The TW makes the changes in the Stangingnnn branch of the Flare project. Refer to <a href="BOADocProcess_UpdateOnlineHelp.html" target="_blank" rel="noopener noreferrer">Update Online Help</a> for more information. After all changes are made, the TW <a href="BOADocProcess_Update_Help_on_Dev_and_Prod_Sites.html#Update" target="_blank" rel="noopener noreferrer">builds the project</a> in the dev environment in Jenkins.</p>
+                                                            <p>The TW <a href="#MakeUpdatesInFlare">makes the changes in the Stangingnnn branch of the Flare project</a>. Refer to <a href="BOADocProcess_UpdateOnlineHelp.html" target="_blank" rel="noopener noreferrer">Update Online Help</a> for more information. After all changes are made, the TW <a href="BOADocProcess_Update_Help_on_Dev_and_Prod_Sites.html#Update" target="_blank" rel="noopener noreferrer">builds the project</a> in the dev environment in Jenkins.</p>
                                                         </li>
                                                         <li value="9">
                                                             <p>The TW sets the <strong>Documentation Status</strong> field of the installation manual Jira issue to <strong>Peer Review</strong> and requests a peer review from another tech writer on the team in the doc_checkouts Slack channel. </p>
                                                         </li>
                                                         <li value="10">
-                                                            <p> After peer review is complete, if needed ,the Author updates the Falre project and builds the install manuals Flare project in dev/prod. </p>
+                                                            <p> After peer review is complete, if needed, the TW updates the Flare project and builds the install manuals Flare project in Dev and Prod environments in Jenkins. </p>
                                                         </li>
                                                         <li value="11">
                                                             <p> The TW sends notification that the final manuals are ready to Support with a link to the production version  and then closes the Jira ticket. </p>
@@ -292,7 +291,7 @@
                                                     <p class="note"><b>NOTE</b>: You <strong>MUST</strong> perform these steps each time you checkout a branch to ensure you are working in the latest copy of the master branch.</p>
                                                     <ol type="1">
                                                         <li value="1">In Windows-Explorer, right-click your <b>dsp-install-manuals</b> local folder and select <strong>Git Bash Here</strong>.
-        <p><img src="../Resources/Images/gitBashHere.png" /></p><p class="note"><b>NOTE</b>: If you do not have a local dsp-install-manuals repo, see the section <a href="BOADocProcess_GitInitSetup.html#Clone_BackOffice/dsp-docs_repo_to_local" target="_blank" rel="noopener noreferrer">Initial Clone of Project Files</a> for instructions.</p></li>
+        <p><img src="../Resources/Images/gitBashHere.png" /></p><p class="note"><b>NOTE</b>: If you do not have a local dsp-install-manuals repo, see the section <a href="BOADocProcess_GitInitSetup.html#Clone_BackOffice/dsp-docs_repo_to_local" target="_blank" rel="noopener noreferrer">Initial Clone of Project Files</a> for instructions.</p><p class="note"><b>NOTE: </b>If pulling down a branch for the first time, enter the git command <b style="font-family: monospace;">git fetch origin &lt;release branch name&gt;</b>, then proceeded with the following steps. </p></li>
                                                     </ol>
                                                     <ol type="1" data-mc-continue="true">
                                                         <li value="2">Switch to the Stagingnnn branch where nnn is the latest release, by entering <code class="highlighter-rouge">g<b>it checkout Stagingnnn</b></code>.
@@ -300,42 +299,32 @@
                                                         <li value="3">Enter the git command, <code style="font-weight: bold;">git pull origin Stagingnnn</code> </li>
                                                         <li value="4">Enter the command <code style="font-weight: bold;">git checkout -b &lt;Stagingyyy where yyy is the new SST version name&gt;</code> </li>
                                                         <li value="5">Open the project in Flare and update the DSPVersion variable to the current release version.</li>
-                                                        <li value="6">On the home page, add a link under the <b>Previous Versions</b> section and link to the current version.</li>
-                                                        <li value="7">Update the version number in the first TOC item for the Install, Update, and Requirements TOCs. </li>
+                                                        <li value="6">Open the <b>home.html</b> file and make the follow two updates:<ol type="1" style="list-style-type: lower-alpha;"><li value="1">Update the Installation, Upgrade and Requirement links to the new version number. </li><li value="2">Add a link under the <b>Previous Versions</b> section to the previous version of the Install manual. </li></ol></li>
+                                                        <li value="7">Update the version number in the first TOC item for the InstallHTML5, SRHS GuidesHTML5 and UpgradeHTML5 TOCs. </li>
                                                         <li value="8">Save and close Flare, and return to the git bash window.</li>
                                                         <li value="9">Enter the command <code style="font-weight: bold;">git add .</code>.</li>
                                                         <li value="10">Enter the command <code style="font-weight: bold;">git commit -m "&lt;your commit message&gt;"</code>.</li>
                                                         <li value="11">Enter the command <code style="font-weight: bold;">git push origin &lt;new branch name&gt;</code>.</li>
                                                     </ol>
-                                                    <h3 id="create-a-release-folder-on-sharepoint"><a name="Create_a_Release_Folder_on_SharePoint"></a>Create a Release Folder on SharePoint</h3>
-                                                    <ol type="1">
-                                                        <li value="1">Navigate to the <strong>Product Documentation &gt; Published</strong> folder located <a href="https://boaweb.sharepoint.com/sites/ProductDocumentation/Shared Documents/Forms/AllItems.aspx?id=%2Fsites%2FProductDocumentation%2FShared%20Documents%2FProduct%20Documentation%2FPublished" target="_blank" rel="noopener noreferrer">here</a>.</li>
-                                                        <li value="2">Click <strong>+New</strong> and select <strong>Folder</strong>.</li>
-                                                        <li value="3">Enter the release number into the <strong>Folder Name</strong> field.</li>
-                                                        <li value="4">Click <strong>Create</strong>.</li>
-                                                        <li value="5">Open the prior version folder and select the Word files of the different manuals.</li>
-                                                        <li value="6">Click <strong>Copy to</strong> and select the new release folder you just created.</li>
-                                                        <li value="7">Update the titles of the manuals to reflect the new release number.</li>
-                                                        <li value="8">Open the new manuals and accept all changes made in the previous versions. </li>
-                                                        <p class="note"><b>NOTE</b>:&#160;You could also create a new version of the Word document for any of the guides in Flare. Set the correct TOC for the print version (the one in the archive folder) and the Word targets will still work).</p>
-                                                        <li value="9">Ensure Track Changes is on in the Word document to record updates.</li>
-                                                    </ol>
                                                     <h3 id="create-a-jira-ticket-for-the-manuals"><a name="Create_a_JIRA_Ticket_for_the_Manuals"></a>Create a JIRA Ticket for the Manuals</h3>
                                                     <ol type="1">
-                                                        <li value="1">In JIRA click the plus sign on the left side of the <strong>System Dashboard</strong>.</li>
-                                                        <li value="2">Select the Syniti Stewardship Tier (DSP70)  project from the <strong>Project</strong> dropdown.</li>
-                                                        <li value="3">Select <strong>Epic</strong> from the <strong>Issue Type</strong> dropdown.</li>
-                                                        <li value="4">Enter an epic name in the <strong>Epic Name</strong> field. E.g. "Documentation for 7.0.1 Release (Manuals and Release Notes)".</li>
-                                                        <li value="5">Enter a summary in the <strong>Summary</strong> field. E.g. “Update manuals with changes for 7.0.1.”</li>
-                                                        <li value="6">Enter a description in the <strong>Description</strong> text box. E.g. “Word document links to the manuals with 7.0 updates. Link to Sharepoint folder.” NOTE: Make sure to include a link to the SharePoint folder that you created for this release.</li>
-                                                        <li value="7">Add the <strong>Fix Version</strong>, as the release number.</li>
-                                                        <li value="8">Add the <strong>Assignee</strong>, as yourself.</li>
-                                                        <li value="9">Click <strong>Update</strong>.</li>
+                                                        <li value="1">Log into JIRA. </li>
+                                                        <li value="2">Click the <b>Create </b>button on the top menu. </li>
+                                                        <li value="3">Select the <b>Syniti Stewardship Tier (DSP70) </b> project from the <strong>Project</strong> dropdown.</li>
+                                                        <li value="4">Select <strong>Document</strong> from the <strong>Issue Type</strong> dropdown.</li>
+                                                        <li value="5">Enter a name in the <strong>Summary</strong> field. E.g. "Update the Install and Upgrade Manuals for 7.4.6."</li>
+                                                        <li value="6">Enter a description in the <strong>Description</strong> text box. E.g. “Update the Install Manuals and SRHS&#160;Guides for the 7.4.6 release" and include a link to the Google doc.</li>
+                                                        <li value="7">Add the <strong>Fix Version</strong> as the release number.</li>
+                                                        <li value="8">Add the <strong>Assignee</strong> as yourself.</li>
+                                                        <li value="9">Click <strong>Create</strong>.</li>
                                                     </ol>
                                                     <h3 id="link-tickets-related-to-manuals-to-jira-epic"><a name="nk_Tickets_Related_to_Manuals_to_JIRA_Epic"></a>Link Tickets Related to Manuals to JIRA Epic</h3>
                                                     <p>Add links to the epic to any tickets that affect the installation manual.</p>
-                                                    <h3 id="make-updates-in-flare">Make Updates in Flare</h3>
-                                                    <p>After the manual content is reviewed and finalized make  updates in Flare. Follow the instructions in the topics <a href="BOADocProcess_Workflow_InProcess.html" target="_blank" rel="noopener noreferrer">Work Flow In Process</a> and <a href="BOADocProcess_UpdateOnlineHelp.html" target="_blank" rel="noopener noreferrer">Update Online Help</a>.</p>
+                                                    <p>
+                                                        <img src="../Resources/Images/LinkTicketsInJira.gif" />
+                                                    </p>
+                                                    <h3 id="make-updates-in-flare"><a name="MakeUpdatesInFlare"></a>Make Updates in Flare</h3>
+                                                    <p>After the manual content is reviewed and finalized, make  updates in Flare. Follow the instructions in the topics <a href="BOADocProcess_Workflow_InProcess.html" target="_blank" rel="noopener noreferrer">Work Flow In Process</a> and <a href="BOADocProcess_UpdateOnlineHelp.html" target="_blank" rel="noopener noreferrer">Update Online Help</a>.</p>
                                                     <p>Document all updates in the <strong>Version History - Install</strong> and the <strong>Version History - SRHS</strong> topics (located in the Content folder). While these topics are no longer included in the final manuals, we track our changes for internal purposes.</p>
                                                     <h3 id="update-the-targets-for-the-manuals">Update the Targets for the Manuals</h3>
                                                     <table>

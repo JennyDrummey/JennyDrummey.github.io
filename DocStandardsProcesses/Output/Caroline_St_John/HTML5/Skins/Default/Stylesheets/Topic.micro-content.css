@@ -430,6 +430,11 @@
 	opacity: 0;
 }
 
+.micro-response .img
+{
+	max-width: 100%;
+}
+
 .micro-response .MCWebHelpFramesetLink a
 {
 	

@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <CatapultGlobalStyleCache
-  SavedSource="file:///C:/Users/Caroline St John/DocStandardsProcesses/DocStandardsProcesses/Output/Caroline_St_John/Temporary/GlobalStyleSet v.2.xml">
+  SavedSource="file:///C:/Users/Caroline St John/JennyDrummey.github.io/DocStandardsProcesses/Output/Caroline_St_John/Temporary/GlobalStyleSet v.2.xml">
   <Media>
     <Medium
       Name="only screen and (max-width: 1279px)" />
@@ -487,7 +487,13 @@
     <Tag
       Name="MadCap|pageBreak" />
     <Tag
+      Name="iframe" />
+    <Tag
+      Name="MadCap|testResultsProxy" />
+    <Tag
       Name="MadCap|topicToolbarProxy" />
+    <Tag
+      Name="MadCap|eLearningToolbarProxy" />
     <Tag
       Name="MadCap|miniTocProxy" />
     <Tag
@@ -671,6 +677,18 @@
       Name="MadCap|codeSnippetBody" />
     <Tag
       Name="MadCap|equation" />
+    <Tag
+      Name="MadCap|question" />
+    <Tag
+      Name="MadCap|multipleChoice" />
+    <Tag
+      Name="MadCap|multipleChoiceItem" />
+    <Tag
+      Name="MadCap|correctFeedback" />
+    <Tag
+      Name="MadCap|incorrectFeedback" />
+    <Tag
+      Name="MadCap|submitQuestionButton" />
   </Map>
   <SourceUrls>
     <Url

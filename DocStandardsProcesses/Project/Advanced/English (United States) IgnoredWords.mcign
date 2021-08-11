@@ -1,5 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <IgnoredWordsDictionary>
     <Word Comment="">www.syniti.com</Word>
-    <Word>https://admin.syniti-dev.com</Word>
+    <Word Comment="">https://admin.syniti-dev.com</Word>
+    <Word>Clickable</Word>
 </IgnoredWordsDictionary>

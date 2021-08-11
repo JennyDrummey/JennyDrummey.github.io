@@ -22,7 +22,7 @@
     <Link
       Url="Content/Resources/Images/gitBashHere.png" />
     <Link
-      Url="https://boaweb.sharepoint.com/sites/ProductDocumentation/Shared Documents/Forms/AllItems.aspx" />
+      Url="Content/Resources/Images/LinkTicketsInJira.gif" />
     <Link
       Url="Content/DocProcess/BOADocProcess_Workflow_InProcess.html" />
     <Link
@@ -38,11 +38,11 @@
     <Link
       Url="Content/DocProcess/BOADocProcess_InstallManualProcess.html#Clone_the_dsp-install-manuals_repo" />
     <Link
-      Url="Content/DocProcess/BOADocProcess_InstallManualProcess.html#Create_a_Release_Folder_on_SharePoint" />
-    <Link
       Url="Content/DocProcess/BOADocProcess_InstallManualProcess.html#Create_a_JIRA_Ticket_for_the_Manuals" />
     <Link
       Url="Content/DocProcess/BOADocProcess_InstallManualProcess.html#nk_Tickets_Related_to_Manuals_to_JIRA_Epic" />
+    <Link
+      Url="Content/DocProcess/BOADocProcess_InstallManualProcess.html#MakeUpdatesInFlare" />
     <Link
       Url="Content/DocProcess/BOADocProcess_UpdateOnlineHelp.html" />
     <Link
@@ -52,7 +52,7 @@
     <Link
       Url="Content/Resources/Images/gitBashHere.png" />
     <Link
-      Url="https://boaweb.sharepoint.com/sites/ProductDocumentation/Shared Documents/Forms/AllItems.aspx?id=%2Fsites%2FProductDocumentation%2FShared%20Documents%2FProduct%20Documentation%2FPublished" />
+      Url="Content/Resources/Images/LinkTicketsInJira.gif" />
     <Link
       Url="Content/DocProcess/BOADocProcess_Workflow_InProcess.html" />
     <Link
@@ -64,11 +64,11 @@
     <Anchor
       Name="Synchronize_your_master_branch_with_the_BackOfficeAssoc_GitHub_Repo" />
     <Anchor
-      Name="Create_a_Release_Folder_on_SharePoint" />
-    <Anchor
       Name="Create_a_JIRA_Ticket_for_the_Manuals" />
     <Anchor
       Name="nk_Tickets_Related_to_Manuals_to_JIRA_Epic" />
+    <Anchor
+      Name="MakeUpdatesInFlare" />
   </Anchors>
   <Keywords />
   <Concepts />
