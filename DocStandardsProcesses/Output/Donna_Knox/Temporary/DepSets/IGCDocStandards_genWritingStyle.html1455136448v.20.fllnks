@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileLinkSet
+  FileTitle=""
+  FileSearchable="true"
+  MasterPage="file:///C:/Users/Donna Knox/git/JennyDrummey.github.io/DocStandardsProcesses/Content/Resources/MasterPages/DocStandards.flmsp"
+  OnlyLocalStylesheets="false"
+  FileTimeEstimate="0"
+  FilePriority="0">
+  <Links>
+    <Link
+      Url="Content/Resources/MasterPages/DocStandards.flmsp" />
+    <Link
+      Url="Content/Resources/Stylesheets/newDefault.css" />
+    <Link
+      Url="https://entota.atlassian.net/l/c/VY5ZBYMu" />
+    <Link
+      Url="https://boaweb.sharepoint.com/:p:/s/ProductDocumentation/EZ-oXh7MNDlPv9vYzvl_MiwB5r7n51VnmWXXy-CCBLsUzQ" />
+    <Link
+      Url="https://docs.google.com/document/d/1EmbrUBKvHjDLmhB7y6r3wVK0EHzozCiLumL8RQ18Q7Y/edit" />
+  </Links>
+  <LongLinks>
+    <Link
+      Url="Content/Resources/MasterPages/DocStandards.flmsp" />
+    <Link
+      Url="Content/Resources/Stylesheets/newDefault.css" />
+    <Link
+      Url="https://entota.atlassian.net/l/c/VY5ZBYMu" />
+    <Link
+      Url="https://boaweb.sharepoint.com/:p:/s/ProductDocumentation/EZ-oXh7MNDlPv9vYzvl_MiwB5r7n51VnmWXXy-CCBLsUzQ?e=CkAixe" />
+    <Link
+      Url="https://docs.google.com/document/d/1EmbrUBKvHjDLmhB7y6r3wVK0EHzozCiLumL8RQ18Q7Y/edit?usp=sharing" />
+  </LongLinks>
+  <Anchors />
+  <Keywords />
+  <Concepts />
+  <ConceptControlNames />
+  <IndexControlNames />
+  <Variables />
+  <FileConditions />
+  <FileTags />
+  <AllConditions />
+  <Stylesheets>
+    <Url
+      Source="Content/Resources/Stylesheets/newDefault.css" />
+  </Stylesheets>
+</CatapultFileLinkSet>
