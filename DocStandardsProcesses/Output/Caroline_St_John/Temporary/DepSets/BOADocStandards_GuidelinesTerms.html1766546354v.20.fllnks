@@ -14,6 +14,8 @@
     <Link
       Url="Content/Resources/Stylesheets/newDefault.css" />
     <Link
+      Url="Content/DocProcess/BOADocProcess_UpdateOnlineHelp.html" />
+    <Link
       Url="http://www.syniti.com/" />
   </Links>
   <LongLinks>
@@ -23,6 +25,8 @@
       Url="Content/Resources/TableStylesheets/fielddescription.css" />
     <Link
       Url="Content/Resources/Stylesheets/newDefault.css" />
+    <Link
+      Url="Content/DocProcess/BOADocProcess_UpdateOnlineHelp.html#Keep" />
     <Link
       Url="http://www.syniti.com/" />
   </LongLinks>

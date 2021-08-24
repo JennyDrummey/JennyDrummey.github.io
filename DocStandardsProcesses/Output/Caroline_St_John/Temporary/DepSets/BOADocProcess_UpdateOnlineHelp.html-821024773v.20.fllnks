@@ -92,6 +92,8 @@
     <Link
       Url="Content/DocProcess/BOADocProcess_UpdateOnlineHelp.html#Add5" />
     <Link
+      Url="Content/DocProcess/BOADocProcess_UpdateOnlineHelp.html#Keep" />
+    <Link
       Url="Content/DocProcess/BOADocProcess_UpdateOnlineHelp.html#Add2" />
     <Link
       Url="Content/DocProcess/BOADocProcess_UpdateOnlineHelp.html#Generate" />
@@ -171,6 +173,8 @@
       Name="Add4" />
     <Anchor
       Name="Add5" />
+    <Anchor
+      Name="Keep" />
     <Anchor
       Name="Add2" />
     <Anchor
