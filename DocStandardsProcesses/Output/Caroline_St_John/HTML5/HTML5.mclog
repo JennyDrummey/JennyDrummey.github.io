@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<MadCapLog Protocol="2" Description="MadCap Flare 2021 r2 Generated HTML5.fltar" Date="2021-08-11T13:51:14.6753712-04:00">
+<MadCapLog Protocol="2" Description="MadCap Flare 2021 r2 Generated HTML5.fltar" Date="2021-08-24T11:52:53.3584140-04:00">
     <Messages>Compiling target HTML5...
 Removing previously generated content...
 Loading skin info...
@@ -298,9 +298,6 @@ Missing snippet file: C:\Users\Caroline St John\JennyDrummey.github.io\DocStanda
 Link points outside project file:///C:/Users/Caroline St John/JennyDrummey.github.io/DocStandardsProcesses/Data_Insiders_Community.htm
 Missing linked source file: C:\Users\Caroline St John\JennyDrummey.github.io\DocStandardsProcesses\Content\Images\topNav\SynitiGradientLogo.png
 Generated SKTDocStandards\ProductNames.htm
-Processing topic: SSTDocStandards\BOADocStandards_DocStructure.html...
-Topic contains invalid XHTML.
-Generated SSTDocStandards\BOADocStandards_DocStructure.html
 Processing topic: DocProcess\CheckLatestBuild.html...
 Topic contains invalid XHTML.
 Generated DocProcess\CheckLatestBuild.html
@@ -371,7 +368,7 @@ Generated Skins\Default\Stylesheets\Topic.micro-content.css
 Generated index.htm
 Saving result set...
 Ignored Compiler Warnings: 184
-Output generated in 19 second(s).
+Output generated in 18 second(s).
 
 Done
 Saving log to "C:\Users\Caroline St John\JennyDrummey.github.io\DocStandardsProcesses\Output\Caroline_St_John\HTML5\HTML5.mclog"
@@ -443,7 +440,6 @@ Saving log to "C:\Users\Caroline St John\JennyDrummey.github.io\DocStandardsProc
         <LogEntry File="../../../Content/Resources/MasterPages/DocStandards.flmsp" Message="Missing snippet file: C:\Users\Caroline St John\JennyDrummey.github.io\DocStandardsProcesses\Content\Snippets\CopyrightFooter.flsnp&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5" ErrorID="10055" />
         <LogEntry File="../../../Content/Resources/MasterPages/DocStandards.flmsp" Message="Link points outside project file:///C:/Users/Caroline St John/JennyDrummey.github.io/DocStandardsProcesses/Data_Insiders_Community.htm&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5" ErrorID="10056" />
         <LogEntry File="../../../Content/Resources/MasterPages/DocStandards.flmsp" Message="Missing linked source file: C:\Users\Caroline St John\JennyDrummey.github.io\DocStandardsProcesses\Content\Images\topNav\SynitiGradientLogo.png&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5" ErrorID="10001" />
-        <LogEntry File="../../../Content/SSTDocStandards/BOADocStandards_DocStructure.html" Message="Topic contains invalid XHTML.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5" ErrorID="20058" />
         <LogEntry File="../../../Content/DocProcess/CheckLatestBuild.html" Message="Topic contains invalid XHTML.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5" ErrorID="20058" />
         <LogEntry File="../../../Content/SKTDocStandards/IGCDocStandards_gifs.html" Message="Topic contains invalid XHTML.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5" ErrorID="20058" />
         <LogEntry File="../../../Content/Resources/MasterPages/DocStandards.flmsp" Message="Missing snippet file: C:\Users\Caroline St John\JennyDrummey.github.io\DocStandardsProcesses\Content\Snippets\CopyrightFooter.flsnp&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5" ErrorID="10055" />
