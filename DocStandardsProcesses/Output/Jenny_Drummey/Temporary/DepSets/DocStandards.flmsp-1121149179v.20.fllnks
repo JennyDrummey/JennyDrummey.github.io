@@ -11,8 +11,6 @@
     <Link
       Url="Content/Resources/Stylesheets/newDefault.css" />
     <Link
-      Url="https://www.googletagmanager.com/gtag/js" />
-    <Link
       Url="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.6.15/browser-polyfill.min.js" />
     <Link
       Url="Content/Resources/Scripts/modal.js" />
@@ -60,8 +58,6 @@
       Url="https://fonts.googleapis.com/css?family=Roboto" />
     <Link
       Url="Content/Resources/Stylesheets/newDefault.css" />
-    <Link
-      Url="https://www.googletagmanager.com/gtag/js?id=UA-121391607-4" />
     <Link
       Url="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.6.15/browser-polyfill.min.js" />
     <Link

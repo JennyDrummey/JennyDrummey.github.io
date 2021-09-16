@@ -6,7 +6,7 @@
   FilePriority="0">
   <Links>
     <Link
-      Url="Content/DocProcess/BOADocProcess_DocUpdatesTable.html" />
+      Url="Content/DocProcess/BOADocProcess_DSPDocOverview.html" />
     <Link
       Url="Content/SSTDocStandards/BOADocStandards_Overview.html" />
   </Links>

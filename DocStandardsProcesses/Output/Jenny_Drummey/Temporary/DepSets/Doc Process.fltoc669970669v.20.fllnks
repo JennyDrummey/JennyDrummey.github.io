@@ -38,11 +38,7 @@
     <Link
       Url="Content/DocProcess/StewardshipTierOnly.html" />
     <Link
-      Url="Content/DocProcess/BOADocProcess _UpdateFlareProjectNewVersion.html" />
-    <Link
       Url="Content/DocProcess/BOADocProcess_PrepareWhatsNew.html" />
-    <Link
-      Url="Content/DocProcess/BOADocProcess_PrepareReleaseNotes.html" />
     <Link
       Url="Content/DocProcess/BOADocProcess_BuildHelpTargets.html" />
     <Link
@@ -51,6 +47,10 @@
       Url="Content/DocProcess/BOADocProcess_CheckLlistForGeneratingHelp.htm" />
     <Link
       Url="Content/DocProcess/BOADocProcess_CLAddNewComponent.html" />
+    <Link
+      Url="Content/DocProcess/BOADocProcess_UpdateFlareProjectNewVersion.html" />
+    <Link
+      Url="Content/DocProcess/AddDuplicateLinksforSolex.htm" />
     <Link
       Url="Content/DocProcess/KnowledgeTierOnly.html" />
     <Link
