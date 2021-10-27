@@ -1,15 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <UrlList>
-    <Url Source="Resources/Images/vercel2.png" />
+    <Url Source="Resources/Images/headercard.png" />
+    <Url Source="Resources/Images/number1.png" />
     <Url Source="Resources/Images/vercel1.png" />
+    <Url Source="Resources/Images/vercel2.png" />
+    <Url Source="Resources/Images/compareuiandcode.png" />
+    <Url Source="Resources/Images/RuleFormLink.png" />
+    <Url Source="Resources/Images/opennewfile.png" />
+    <Url Source="Resources/Images/SelectNewPages.png" />
+    <Url Source="Resources/Images/pagesfolder.png" />
     <Url Source="Resources/Images/number4.png" />
     <Url Source="Resources/Images/number3.png" />
     <Url Source="Resources/Images/number2.png" />
-    <Url Source="Resources/Images/number1.png" />
-    <Url Source="Resources/Images/compareuiandcode.png" />
-    <Url Source="Resources/Images/RuleFormLink.png" />
-    <Url Source="Resources/Images/SelectNewPages.png" />
-    <Url Source="Resources/Images/pagesfolder.png" />
     <Url Source="Resources/Images/LocateRulePage.png" />
     <Url Source="Resources/Images/SolexDuplicateLinkExample.png" />
     <Url Source="Resources/Images/WRch9WocxzCBKvF9iOma6qg4HYTtFdLo3iF6pUtROSEHZPiWHAnfdHfAUU8vM8LdxZJ2sOpWuIptGqnbN7S2Xd2Vw9nFruGdOifTay9F.png" />
@@ -18,6 +20,4 @@
     <Url Source="Resources/Images/image1.png" />
     <Url Source="Resources/Images/image.png" />
     <Url Source="Resources/Images/CopyHelp.png" />
-    <Url Source="Resources/Images/PasteHelpSysstem.png" />
-    <Url Source="Resources/Images/updateversion.png" />
 </UrlList>
