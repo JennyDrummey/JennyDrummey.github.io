@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-template-page: url('../Resources/MasterPages/DocProcess.flmsp');">
+    <head>
+    </head>
+    <body>
+        <h1>Add Inline Help</h1>
+        <p>The dev environment to view changes is <a href="https://login.syniti-dev.com/home">Home | Syniti Knowledge Tier (syniti-dev.com)</a></p>
+        <p>Use <a href="https://code.visualstudio.com/download">Visual Studio Code</a> to update these files.</p>
+        <p>Consider the size of the PR when updating inline help and restrict updates to one component or one page.</p>
+        <h2>Identify the Page to Update</h2>
+        <p>Every page in the application is its own file, with the name appended to the URL. In this example, the rules/new in the address bar indicates that the updates to inline text for the Rules page are made to a new file stored in the rules folder.</p>
+        <p>
+            <img src="../Resources/Images/LocateRulePage.png" />
+        </p>
+        <h2>Clone the Repo and Update the File</h2>
+        <p>The code for the inline help is stored in the skt-ui repo.</p>
+        <ol>
+            <li>
+                <p>Clone this repo locally using SSH.</p>
+                <p class="note"><b>NOTE:</b> When cloned, you are on the main branch by default. We cannot push directly to the main branch, but must have a PR reviewed prior to doing so.</p>
+            </li>
+            <li>
+                <p>Create a branch to work from.</p>
+            </li>
+            <li>Open the pages folder in Visual Studio Code.</li>
+        </ol>
+        <ol MadCap:continue="true">
+            <p>
+                <img src="../Resources/Images/pagesfolder.png" />
+            </p>
+            <li>
+                <p>Open the folder and text file corresponding to the page, as in the example below (new &gt; pages).</p>
+                <p>
+                    <img src="../Resources/Images/SelectNewPages.png" />
+                </p>
+            </li>
+            <li>
+                <p>Scroll down in the file below the breadcrumbs until you find the asset’s form. In this example, it is the rulesform.</p>
+                <p>
+                    <img src="../Resources/Images/RuleFormLink.png" />
+                </p>
+            </li>
+            <li>
+                <p>Click the link on the form to go one level deeper in the code.</p>
+            </li>
+            <li>
+                <p>Scroll down until the fields on the page display. See the example below for the UI and the location in the code to update.</p>
+            </li>
+            <li>
+                <p>Enter text that displays below the label (outside the text area) as the <b>description</b>.</p>
+            </li>
+            <li>
+                <p>Enter watermark text (inside the text area) as the <b>placeholder</b>.</p>
+                <p>
+                    <img src="../Resources/Images/compareuiandcode.png" />
+                </p>
+            </li>
+            <li>
+                <p>Save and close the file.</p>
+            </li>
+        </ol>
+        <p>If the URL ends with a number, as in this example, the steps to locate the file are different.</p>
+        <p>
+            <img src="../Resources/Images/number1.png" />
+        </p>
+        <ol>
+            <li>
+                <p>You locate the page in the pages/[id] folder, as in this example:</p>
+                <p>
+                    <img src="../Resources/Images/number2.png" />
+                </p>
+            </li>
+            <li>
+                <p>Under the version are the sections of the rules pages. The index.html displays as the Overview tab.</p>
+                <p>
+                    <img src="../Resources/Images/number3.png" />
+                </p>
+            </li>
+            <li>
+                <p>Access the index.html and scroll down to find the Rules page:</p>
+                <p>
+                    <img src="../Resources/Images/number4.png" />
+                </p>
+            </li>
+            <li>
+                <p>Edit the inline help as needed.</p>
+            </li>
+            <li>
+                <p>Commit the changed file.</p>
+            </li>
+        </ol>
+        <h2>Use Vercel to Share Updates Before Deploying</h2>
+        <p>There is only one branch, main, and it is in production, so peer reviews are vital.</p>
+        <p>Vercel automatically creates previews for every PR and every commit with a unique environment for all PRs.</p>
+        <p><b>NOTE:</b> The doc folks will need to create a vercel account to preview deployments. Instructions are in the PR.</p>
+        <p>Create the PR and ask for a review from a doc person using the vercel link. This link is a unique environment containing only the code from the PR.</p>
+        <p>
+            <img src="../Resources/Images/vercel1.png" />
+        </p>
+        <p>
+            <img src="../Resources/Images/vercel2.png" />
+        </p>
+        <p>Examples of these links are in the slack data-quality channel.</p>
+        <p>After the PR is approved, whoever entered it must push it to the main branch which releases the update to production.</p>
+    </body>
+</html>
