@@ -19,6 +19,8 @@
     <Link
       Url="Content/Resources/Images/SelectNewPages.png" />
     <Link
+      Url="Content/Resources/Images/opennewfile.png" />
+    <Link
       Url="Content/Resources/Images/RuleFormLink.png" />
     <Link
       Url="Content/Resources/Images/compareuiandcode.png" />
@@ -29,7 +31,7 @@
     <Link
       Url="Content/Resources/Images/number3.png" />
     <Link
-      Url="Content/Resources/Images/number4.png" />
+      Url="Content/Resources/Images/headercard.png" />
     <Link
       Url="Content/Resources/Images/vercel1.png" />
     <Link
@@ -49,6 +51,8 @@
     <Link
       Url="Content/Resources/Images/SelectNewPages.png" />
     <Link
+      Url="Content/Resources/Images/opennewfile.png" />
+    <Link
       Url="Content/Resources/Images/RuleFormLink.png" />
     <Link
       Url="Content/Resources/Images/compareuiandcode.png" />
@@ -59,7 +63,7 @@
     <Link
       Url="Content/Resources/Images/number3.png" />
     <Link
-      Url="Content/Resources/Images/number4.png" />
+      Url="Content/Resources/Images/headercard.png" />
     <Link
       Url="Content/Resources/Images/vercel1.png" />
     <Link
