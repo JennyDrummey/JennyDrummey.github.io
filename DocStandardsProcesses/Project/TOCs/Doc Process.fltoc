@@ -85,6 +85,9 @@
     <TocEntry
       Title="Update Static Guidance"
       Link="/Content/DocProcess/UpdateStaticGuidance.htm"></TocEntry>
+    <TocEntry
+      Title="Add Inline Help"
+      Link="/Content/DocProcess/Add_Inline_Help.htm" />
   </TocEntry>
   <TocEntry
     Title="Source Files for Manuals and Help"

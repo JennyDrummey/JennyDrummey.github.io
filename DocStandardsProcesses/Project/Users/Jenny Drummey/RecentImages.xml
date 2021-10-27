@@ -1,5 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <UrlList>
+    <Url Source="Resources/Images/vercel2.png" />
+    <Url Source="Resources/Images/vercel1.png" />
+    <Url Source="Resources/Images/number4.png" />
+    <Url Source="Resources/Images/number3.png" />
+    <Url Source="Resources/Images/number2.png" />
+    <Url Source="Resources/Images/number1.png" />
+    <Url Source="Resources/Images/compareuiandcode.png" />
+    <Url Source="Resources/Images/RuleFormLink.png" />
+    <Url Source="Resources/Images/SelectNewPages.png" />
+    <Url Source="Resources/Images/pagesfolder.png" />
+    <Url Source="Resources/Images/LocateRulePage.png" />
     <Url Source="Resources/Images/SolexDuplicateLinkExample.png" />
     <Url Source="Resources/Images/WRch9WocxzCBKvF9iOma6qg4HYTtFdLo3iF6pUtROSEHZPiWHAnfdHfAUU8vM8LdxZJ2sOpWuIptGqnbN7S2Xd2Vw9nFruGdOifTay9F.png" />
     <Url Source="Resources/Images/k1nkI-rGdF9R_Rhdfp9zPtzxfvwxAGyXG8Wfi6BqGVUTgwU1-pjp5ZUAKxNLI2H8V83PGpvfVcD2UNhJGp3z3ZGTfRU_kf9anofjdZRl.png" />
@@ -9,15 +20,4 @@
     <Url Source="Resources/Images/CopyHelp.png" />
     <Url Source="Resources/Images/PasteHelpSysstem.png" />
     <Url Source="Resources/Images/updateversion.png" />
-    <Url Source="Resources/Images/save.png" />
-    <Url Source="Resources/Images/openjson.PNG" />
-    <Url Source="Resources/Images/filestruc.png" />
-    <Url Source="Resources/Images/paste.png" />
-    <Url Source="Resources/Images/raw.png" />
-    <Url Source="Resources/Images/ViewImage.png" />
-    <Url Source="Resources/Images/notedesc.png" />
-    <Url Source="Resources/Images/searchapi.png" />
-    <Url Source="Resources/Images/increment.PNG" />
-    <Url Source="Resources/Images/gitBashHere.png" />
-    <Url Source="Resources/Images/tabbedVV2.png" />
 </UrlList>
