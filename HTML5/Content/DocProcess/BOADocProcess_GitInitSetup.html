@@ -28,12 +28,12 @@
 
 .button.print-button
 {
-	-pie-background: url('../../Skins/Default/Stylesheets/Images/printer.png') no-repeat center center, linear-gradient(#ffffff, #ececec);
+	-pie-background: linear-gradient(#ffffff, #ececec);
 }
 
 .button.remove-highlight-button
 {
-	-pie-background: url('../../Skins/Default/Stylesheets/Images/highlight.png') no-repeat center center, linear-gradient(#ffffff, #ececec);
+	-pie-background: linear-gradient(#ffffff, #ececec);
 }
 
 .needs-pie
@@ -48,6 +48,8 @@
         <link rel="icon" sizes="32x32" href="../../Skins/Favicons/favicon-32x32.png" />
         <link rel="icon" sizes="16x16" href="../../Skins/Favicons/favicon-16x16.png" />
         <script src="../../Resources/Scripts/jquery.min.js" type="text/javascript">
+        </script>
+        <script src="../../Resources/Scripts/purify.min.js" type="text/javascript" defer="defer">
         </script>
         <script src="../../Resources/Scripts/require.min.js" type="text/javascript" defer="defer">
         </script>
@@ -173,10 +175,18 @@
                                                 <div class="buttons popup-container clearfix topicToolbarProxy mc-component nocontent" style="mc-topic-toolbar-items: Print RemoveHighlight;">
                                                     <div class="button-group-container-left">
                                                         <button class="button needs-pie print-button" title="Print">
-                                                            <img alt="Print" src="../../Skins/Default/Stylesheets/Images/transparent.gif" class="invisible-label" />
+                                                            <div>
+                                                                <div role="img" class="button-icon-wrapper" aria-label="Print">
+                                                                    <div class="button-icon"> </div>
+                                                                </div>
+                                                            </div>
                                                         </button>
                                                         <button class="button needs-pie remove-highlight-button" title="Remove Highlights">
-                                                            <img src="../../Skins/Default/Stylesheets/Images/transparent.gif" class="invisible-label" />
+                                                            <div>
+                                                                <div role="img" class="button-icon-wrapper">
+                                                                    <div class="button-icon"> </div>
+                                                                </div>
+                                                            </div>
                                                         </button>
                                                     </div>
                                                 </div>
@@ -226,16 +236,18 @@
                                                             <p><a href="https://docs.google.com/document/d/11tQ601_woUizRWog2CLqFah8Wg9A4TomwbsS_KCbc8E/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Set up an auto-launch of the SSH agent</a>
                                                             </p>
                                                         </li>
-                                                        <p>If you're using an ED25519 SSH key, which is the latest standard for GitHub access, you may need to create a config file that tells your SSH agent which SSH key to use. </p>
+                                                    </ol>
+                                                    <p>If you're using an ED25519 SSH key, which is the latest standard for GitHub access, you may need to create a config file that tells your SSH agent which SSH key to use. </p>
+                                                    <ol data-mc-continue="true">
                                                         <li value="6"><a href="https://docs.google.com/document/d/14-Uno8VtVW87u2j1aRmxA1uva-3eb9m2WZOOzjSwikY/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Set up config file for SSH agent</a>
                                                         </li>
                                                     </ol>
-                                                    <p>&#160;</p>
                                                     <h2><a name="Clone_BackOffice/dsp-docs_repo_to_local"></a>Initial Clone of Project Files</h2>
                                                     <p class="note">:<b>NOTE</b> You only perform these steps one time when you set up your repo for each project. After you have it cloned locally, you will use pulling and pushing to move your changes to remote branches.</p>
-                                                    <p>Prior to doing any work, you need to obtain a copy of the BackOfficeAssoc dsp-docs repository for your local computer. This repo is the source control for the SST online help Flare project. The SKT help and the Installation Manuals are also stored in github as Flare projects and the process to clone these three projects is the same (though the underlying folder structure is not).</p>
+                                                    <p>Prior to doing any work on the Stewardship Tier help, you must obtain a copy of the BackOfficeAssoc dsp-docs repository for your local computer. This repo is the source control for the SST online help Flare project. </p>
+                                                    <p>The SKT help and the Installation Manuals are also stored in github as Flare projects and the process to clone these three projects is the same (though the underlying folder structure is not).</p>
                                                     <p>
-To clone the BOA dsp-docs repo (SST online help) to your laptop: </p>
+To clone the dsp-docs repo (SST online help) to your laptop: </p>
                                                     <ol>
                                                         <li value="1">
                                                             <p>In GitHub, go to the dsp-docs repo <a href="https://github.com/BackOfficeAssoc/dsp-docs">here.</a></p>
@@ -256,11 +268,12 @@ To clone the BOA dsp-docs repo (SST online help) to your laptop: </p>
                                                     </ol>
                                                     <ol data-mc-continue="true">
                                                         <li value="5">
-                                                            <p>In Windows Explorer, right-click the default git location to clone repos (Users &gt; [your user name] &gt; git) and select <b>Git Bash Here</b>.</p>
+                                                            <p>In Windows Explorer, right-click the default git location to clone repos and select <b>Git Bash Here</b>.</p>
+                                                            <p class="note"><b>NOTE:</b>&#160;These steps use the default location of Users &gt; Jenny Drummey &gt; git. </p>
                                                             <p>
                                                                 <img src="../Resources/Images/k1nkI-rGdF9R_Rhdfp9zPtzxfvwxAGyXG8Wfi6BqGVUTgwU1-pjp5ZUAKxNLI2H8V83PGpvfVcD2UNhJGp3z3ZGTfRU_kf9anofjdZRl.png" />
                                                             </p>
-                                                            <p class="note"><b>NOTE:</b> The repository will be cloned into a new directory below the one you specify, with the same name as the repository. For example, following these steps, your dsp-docs repo is cloned to. C:\Users\[your user name]\git\dsp-docs.</p>
+                                                            <p class="note"><b>NOTE:</b> The repository will be cloned into a new directory below this default git folder location you specify, with the same name as the repository. For example, following these steps, your dsp-docs repo is cloned to. C:\Users\Jenny Drummey\git\dsp-docs.</p>
                                                             <p class="note"><b>NOTE:</b> If you have set up SSH Authentication, you may need to enter your passphrase when the bash window opens. Refer to <a href="#SSH">Set Up SSH Authentication</a> for more information.</p>
                                                         </li>
                                                     </ol>
@@ -281,7 +294,6 @@ To clone the BOA dsp-docs repo (SST online help) to your laptop: </p>
                                                     </ol>
                                                     <p class="note"><b>NOTE:</b> The command prompt displays the repo and branch name , ex. Documents/GitHub/dsp-docs (develop) shows repo name of dsp-docs and branch name of develop.</p>
                                                     <p class="note">Refer to <a href="BOADocProcess_Workflow_Approved.html#Author2">Author Checks Out Branch to Add Content</a> for more information about working in git.</p>
-                                                    <p class="note">&#160;</p>
                                                 </div>
                                                 <div id="feedback-survey">
                                                     <div class="feedback-question">

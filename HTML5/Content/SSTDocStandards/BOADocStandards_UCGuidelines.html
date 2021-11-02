@@ -28,12 +28,12 @@
 
 .button.print-button
 {
-	-pie-background: url('../../Skins/Default/Stylesheets/Images/printer.png') no-repeat center center, linear-gradient(#ffffff, #ececec);
+	-pie-background: linear-gradient(#ffffff, #ececec);
 }
 
 .button.remove-highlight-button
 {
-	-pie-background: url('../../Skins/Default/Stylesheets/Images/highlight.png') no-repeat center center, linear-gradient(#ffffff, #ececec);
+	-pie-background: linear-gradient(#ffffff, #ececec);
 }
 
 .needs-pie
@@ -48,6 +48,8 @@
         <link rel="icon" sizes="32x32" href="../../Skins/Favicons/favicon-32x32.png" />
         <link rel="icon" sizes="16x16" href="../../Skins/Favicons/favicon-16x16.png" />
         <script src="../../Resources/Scripts/jquery.min.js" type="text/javascript">
+        </script>
+        <script src="../../Resources/Scripts/purify.min.js" type="text/javascript" defer="defer">
         </script>
         <script src="../../Resources/Scripts/require.min.js" type="text/javascript" defer="defer">
         </script>
@@ -173,10 +175,18 @@
                                                 <div class="buttons popup-container clearfix topicToolbarProxy mc-component nocontent" style="mc-topic-toolbar-items: Print RemoveHighlight;">
                                                     <div class="button-group-container-left">
                                                         <button class="button needs-pie print-button" title="Print">
-                                                            <img alt="Print" src="../../Skins/Default/Stylesheets/Images/transparent.gif" class="invisible-label" />
+                                                            <div>
+                                                                <div role="img" class="button-icon-wrapper" aria-label="Print">
+                                                                    <div class="button-icon"> </div>
+                                                                </div>
+                                                            </div>
                                                         </button>
                                                         <button class="button needs-pie remove-highlight-button" title="Remove Highlights">
-                                                            <img src="../../Skins/Default/Stylesheets/Images/transparent.gif" class="invisible-label" />
+                                                            <div>
+                                                                <div role="img" class="button-icon-wrapper">
+                                                                    <div class="button-icon"> </div>
+                                                                </div>
+                                                            </div>
                                                         </button>
                                                     </div>
                                                 </div>
@@ -201,9 +211,9 @@
                                                     <h3 id="bullets">Bullets</h3>
                                                     <p>Use bullets to present a list of information.</p>
                                                     <p>Use the Bullets option in Flare for bulleted lists.</p>
-                                                    <p>Bulleted lists must include at least two items and have a parallel structure. Refer to <a href="#list-boxes-in-use-cases" target="_blank" rel="noopener noreferrer">List Boxes in Use Cases</a> for more information.</p>
+                                                    <p>Bulleted lists must include at least two items and have a parallel structure. Refer to <a href="#List" target="_blank" rel="noopener noreferrer">List Boxes in Use Cases</a> for more information.</p>
                                                     <h3 id="numbered-steps">Numbered Steps</h3>
-                                                    <p>Use numbered steps when describing a detailed, sequential process. Refer to <a href="#numbered-steps-in-use-cases" target="_blank" rel="noopener noreferrer">Use of Numbered Steps in Use Cases</a> for more information.</p>
+                                                    <p>Use numbered steps when describing a detailed, sequential process. Refer to <a href="#Numbered" target="_blank" rel="noopener noreferrer">Use of Numbered Steps in Use Cases</a> for more information.</p>
                                                     <h3 id="tables">Tables</h3>
                                                     <p>Use the Table Column style for the first row and the left column in all tables. Use Table Text for all other columns.</p>
                                                     <p>Apply the fielddescripion stylesheet to field description tables to set column width and grid lines.</p>
@@ -211,7 +221,7 @@
                                                     <p>Use the Table Note style for adding notes to tables.</p>
                                                     <h3 id="note">NOTE</h3>
                                                     <p>Use the p.note style for notes included in paragraphs.</p>
-                                                    <p>To add a note in numbered steps, make the note a paragraph item (CTRL+;). Apply a p.note style. Refer to <a href="#numbered-steps-in-use-cases" target="_blank" rel="noopener noreferrer">Use of Numbered Steps in Use Cases</a> for more information.</p>
+                                                    <p>To add a note in numbered steps, make the note a paragraph item (CTRL+;). Apply a p.note style. Refer to <a href="#Numbered" target="_blank" rel="noopener noreferrer">Use of Numbered Steps in Use Cases</a> for more information.</p>
                                                     <p>Bold the colon after the word NOTE:</p>
                                                     <h2 id="character-styles">Character Styles</h2>
                                                     <p><strong>Italics</strong>
@@ -229,7 +239,7 @@
                                                     </p>
                                                     <p>Use bold for:</p>
                                                     <ul>
-                                                        <li>Options in list boxes. Refer to <a href="#list-boxes-in-use-cases" target="_blank" rel="noopener noreferrer">List Boxes in Use Cases</a> for more information.</li>
+                                                        <li>Options in list boxes. Refer to <a href="#List" target="_blank" rel="noopener noreferrer">List Boxes in Use Cases</a> for more information.</li>
                                                         <li><strong>Vertical View</strong> when it is being described as a clickable icon.</li>
                                                         <li>Use bold if specific text is entered in a field in numbered steps. For example, Enter <strong>MM01</strong> in the <strong>TARGET TABLE</strong> field.</li>
                                                         <li>The word <strong>NOTE</strong>:</li>
@@ -292,7 +302,7 @@
                                                     <p>
                                                         <img src="../Resources/Images/complexusecase.png" />
                                                     </p>
-                                                    <h2 id="numbered-steps-in-use-cases">Numbered Steps in Use Cases</h2>
+                                                    <h2 id="numbered-steps-in-use-cases"><a name="Numbered"></a>Numbered Steps in Use Cases</h2>
                                                     <ul>
                                                         <li>Use numbered steps when describing a sequential process.</li>
                                                         <li>Include at least two steps.</li>
@@ -300,8 +310,9 @@
                                                         <li>Begin all numbered steps with a present tense action verb.</li>
                                                         <li>Precede each set of numbered steps with a line that explains what the steps accomplish. Start this line with the word To and end with a colon.</li>
                                                         <li>Use the p (paragraph) for the To  line.</li>
+                                                        <li>Use lower-alpha list steps within numbered steps if needed. For example:<br /><p>1.</p><p style="text-indent: 0.5in;">a.</p><p style="text-indent: 0.5in;">b.</p><p>2.</p></li>
                                                     </ul>
-                                                    <h2 id="list-boxes-in-use-cases">List Boxes in Use Cases</h2>
+                                                    <h2 id="list-boxes-in-use-cases"><a name="List"></a>List Boxes in Use Cases</h2>
                                                     <p>Begin a step that describes a list box with the words Select a [name of field] to . . .</p>
                                                     <p>When describing list boxes, follow the step with the text: Values are:  Insert a bulleted list with each value as a separate bullet. Bold the value name. Follow it with an em dash. The shortcut for em dash is Alt+0151. The numbers must be typed on the numeric keypad. Follow the em dash with the value;s definition. Do not add spaces on either side of the em dash.</p>
                                                     <p>For example:</p>

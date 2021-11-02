@@ -28,12 +28,12 @@
 
 .button.print-button
 {
-	-pie-background: url('../../Skins/Default/Stylesheets/Images/printer.png') no-repeat center center, linear-gradient(#ffffff, #ececec);
+	-pie-background: linear-gradient(#ffffff, #ececec);
 }
 
 .button.remove-highlight-button
 {
-	-pie-background: url('../../Skins/Default/Stylesheets/Images/highlight.png') no-repeat center center, linear-gradient(#ffffff, #ececec);
+	-pie-background: linear-gradient(#ffffff, #ececec);
 }
 
 .needs-pie
@@ -49,6 +49,8 @@
         <link rel="icon" sizes="32x32" href="../../Skins/Favicons/favicon-32x32.png" />
         <link rel="icon" sizes="16x16" href="../../Skins/Favicons/favicon-16x16.png" />
         <script src="../../Resources/Scripts/jquery.min.js" type="text/javascript">
+        </script>
+        <script src="../../Resources/Scripts/purify.min.js" type="text/javascript" defer="defer">
         </script>
         <script src="../../Resources/Scripts/require.min.js" type="text/javascript" defer="defer">
         </script>
@@ -174,10 +176,18 @@
                                                 <div class="buttons popup-container clearfix topicToolbarProxy mc-component nocontent" style="mc-topic-toolbar-items: Print RemoveHighlight;">
                                                     <div class="button-group-container-left">
                                                         <button class="button needs-pie print-button" title="Print">
-                                                            <img alt="Print" src="../../Skins/Default/Stylesheets/Images/transparent.gif" class="invisible-label" />
+                                                            <div>
+                                                                <div role="img" class="button-icon-wrapper" aria-label="Print">
+                                                                    <div class="button-icon"> </div>
+                                                                </div>
+                                                            </div>
                                                         </button>
                                                         <button class="button needs-pie remove-highlight-button" title="Remove Highlights">
-                                                            <img src="../../Skins/Default/Stylesheets/Images/transparent.gif" class="invisible-label" />
+                                                            <div>
+                                                                <div role="img" class="button-icon-wrapper">
+                                                                    <div class="button-icon"> </div>
+                                                                </div>
+                                                            </div>
                                                         </button>
                                                     </div>
                                                 </div>
@@ -202,26 +212,26 @@
                                                             </tr>
                                                             <tr class="TableStyle-fielddescription-Body-Body1">
                                                                 <td class="TableStyle-fielddescription-BodyE-Column1-Body1" role="rowheader">
-                                                                    <p class="TableColumn" role="rowheader">Syniti Stewardship Tier (SST)</p>
+                                                                    <p class="TableColumn" role="rowheader">Stewardship Tier</p>
                                                                 </td>
                                                                 <td class="TableStyle-fielddescription-BodyD-Column2-Body1">
-                                                                    <p class="TableText">DSP, Data Stewardship Platform</p>
+                                                                    <p class="TableText">SST, DSP, Data Stewardship Platform</p>
                                                                 </td>
                                                             </tr>
                                                             <tr class="TableStyle-fielddescription-Body-Body1">
                                                                 <td class="TableStyle-fielddescription-BodyE-Column1-Body1" role="rowheader">
-                                                                    <p class="TableColumn">Syniti Knowledge Tier (SKT)</p>
+                                                                    <p class="TableColumn">Knowledge Tier</p>
                                                                 </td>
                                                                 <td class="TableStyle-fielddescription-BodyD-Column2-Body1">
-                                                                    <p class="TableText">SKP, Entota, IGC, Cloud</p>
+                                                                    <p class="TableText">SKT, Entota, IGC, Cloud</p>
                                                                 </td>
                                                             </tr>
                                                             <tr class="TableStyle-fielddescription-Body-Body1">
                                                                 <td class="TableStyle-fielddescription-BodyE-Column1-Body1" role="rowheader">
-                                                                    <p class="TableColumn">Syniti Advanced Data Migration (ADM)</p>
+                                                                    <p class="TableColumn">SAP Advanced Data Migration by Syniti</p>
                                                                 </td>
                                                                 <td class="TableStyle-fielddescription-BodyD-Column2-Body1">
-                                                                    <p class="TableText">dspMigrate</p>
+                                                                    <p class="TableText">SAP Accelerattors, dspMigrate</p>
                                                                 </td>
                                                             </tr>
                                                             <tr class="TableStyle-fielddescription-Body-Body1">
