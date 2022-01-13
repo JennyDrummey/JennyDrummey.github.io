@@ -1,5 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <UrlList>
+    <Url Source="Resources/Images/Variable-Target.png" />
+    <Url Source="Resources/Images/Variable.png" />
     <Url Source="Resources/Images/StaticGuidanceFlowDiagram.png" />
     <Url Source="Resources/Images/StagicGuidanceGauaStateRepo.png" />
     <Url Source="Resources/Images/StagicGuidanceCircleCI.png" />
