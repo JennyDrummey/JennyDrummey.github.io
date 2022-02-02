@@ -1,2 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<UrlList />
+<UrlList>
+    <Url Source="Resources/Images/SAPTransport_4.png" />
+    <Url Source="Resources/Images/SAPTransport_3.png" />
+    <Url Source="Resources/Images/SAPTransport_2.png" />
+    <Url Source="Resources/Images/SAPTransport_1.png" />
+</UrlList>

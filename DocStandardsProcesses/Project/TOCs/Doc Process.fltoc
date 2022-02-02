@@ -113,6 +113,9 @@
     <TocEntry
       Title="Use GIFs in Online Help"
       Link="/Content/DocProcess/UseGIFsInOnlineHelp.html" />
+    <TocEntry
+      Title="Maintenance of SST SAP Transport Documentation"
+      Link="/Content/DocProcess/MaintenanceOfSSTSAPTransports.htm" />
   </TocEntry>
   <TocEntry
     Title="Flare Extras">

@@ -23,6 +23,8 @@
       Url="Content/DocProcess/PostAnArticleToSynitiConnect.html" />
     <Link
       Url="Content/DocProcess/UseGIFsInOnlineHelp.html" />
+    <Link
+      Url="Content/DocProcess/MaintenanceOfSSTSAPTransports.htm" />
   </Links>
   <LongLinks>
     <Link
@@ -41,6 +43,8 @@
       Url="Content/DocProcess/PostAnArticleToSynitiConnect.html" />
     <Link
       Url="Content/DocProcess/UseGIFsInOnlineHelp.html" />
+    <Link
+      Url="Content/DocProcess/MaintenanceOfSSTSAPTransports.htm" />
   </LongLinks>
   <Anchors />
   <Keywords />
