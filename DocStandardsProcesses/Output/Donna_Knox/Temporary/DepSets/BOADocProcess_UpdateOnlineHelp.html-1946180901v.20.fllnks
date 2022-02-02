@@ -46,6 +46,8 @@
     <Link
       Url="Content/Resources/Images/insertId.png" />
     <Link
+      Url="Content/SSTDocStandards/BOADocStandards_SST_Snippets.html" />
+    <Link
       Url="Content/Resources/Images/siteToolbar.png" />
     <Link
       Url="Content/Resources/Images/technicalTab.png" />
@@ -131,6 +133,8 @@
       Url="Content/Resources/Images/popupClass.png" />
     <Link
       Url="Content/Resources/Images/insertId.png" />
+    <Link
+      Url="Content/SSTDocStandards/BOADocStandards_SST_Snippets.html" />
     <Link
       Url="Content/Resources/Images/siteToolbar.png" />
     <Link
