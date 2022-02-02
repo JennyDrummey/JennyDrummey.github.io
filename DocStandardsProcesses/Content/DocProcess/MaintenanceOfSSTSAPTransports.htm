@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('../Resources/MasterPages/DocProcess.flmsp');">
+    <head>
+        <link href="../Resources/TableStylesheets/threecolumn.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <h1>Maintenance of SST&#160;SAP&#160;Transports</h1>
+        <h2>Overview</h2>
+        <p>The Syniti Stewardship Tier (SST) on-site installations contain associated SAP Transports that help to build the system locally at client sites.  During the progression of versions for SST, additional transports that provide functions and programs to assist core SST functionality have been added.  These additional transports are considered supplementary while the core transports are the base by which the system is assembled.</p>
+        <p>&#160;</p>
+        <p>The list of overall transports had continued to grow and become more cumbersome for the project and the clients.  Therefore, from SST version 7.4.8 and forward this list will be split into 2 specific sets of transports:</p>
+        <ul>
+            <li>
+                <p>Core transports - Functions/programs required by SST to extract data via RFC and  load via BDC. These transports are distributed with the Stewardship Tier installation in versions 7.4.8 and later.</p>
+            </li>
+            <li>
+                <p>Supplementary transports - All other functions/programs of the installation. Users must contact support to get these.</p>
+            </li>
+        </ul>
+        <p>&#160;</p>
+        <p>This document provides the following details for maintaining SST SAP Transports:</p>
+        <ul>
+            <li>
+                <p><a href="#Storage">Storage location for these documents</a>
+                </p>
+            </li>
+            <li>
+                <p><a href="#Subject">Subject Matter Experts for these documents</a>
+                </p>
+            </li>
+            <li>
+                <p><a href="#Links">Provide links to associated support articles</a>
+                </p>
+            </li>
+            <li>
+                <p><a href="#Install">Install and Upgrade Manual maintenance for SAP Transports</a>
+                </p>
+            </li>
+        </ul>
+        <p>&#160;</p>
+        <h2><a name="Storage"></a>Storage Location for Documentation Related to SST SAP Transports</h2>
+        <p>The base documents are stored in Microsoft Word in Syniti Sharepoint in the  <a href="https://boaweb.sharepoint.com/:f:/s/ProductDocumentation/EhnmYMRGJB1ElIZ5AQ9JlcABT5kbNgKa9Ghe-RSDn0R_Jg?e=EfoYYl" target="_blank" rel="noopener noreferrer">Published folder</a>.</p>
+        <p>From this level the documents will be split in version dependent or Version Independent folders.</p>
+        <p>&#160;</p>
+        <h3>Technical Configuration Guides</h3>
+        <p>Installation and Security Guide documents are stored within this Sharepoint folder <a href="https://boaweb.sharepoint.com/:f:/s/ProductDocumentation/ElmYegfcZvdHsQnIWI5Eb_sB0F3vR8W-LBk8l8kjZA9y8w?e=QYgK0k" target="_blank" rel="noopener noreferrer">Technical Configuration Guides</a>.</p>
+        <p>There are both Word documents and Adobe PDF versions of each document stored as the base.  The PDF versions are then attached to KB Articles that provide details by version. </p>
+        <p>&#160;</p>
+        <p>The image below provides examples of files stored in this folder.</p>
+        <p>
+            <img src="../Resources/Images/SAPTransport_1.png" />
+        </p>
+        <h3>SAP Transports</h3>
+        <p>These documents are attached to the KB Articles for supporting documentation on SAP Transports for the version of SST.  The Syniti Sharepoint folders store Word and PDF files for each set of SAP Transports including, for example, SAP ECC Master Data Management Transports, or SAP S4HANA Master Data Management Transports.</p>
+        <p><a href="https://boaweb.sharepoint.com/:f:/s/ProductDocumentation/EgVEutcCQfRIkl_A8HxuoQYBSSFeSwkLtZLkltjYa33yRQ?e=ScPDX6">Syniti Transports 7.4.8</a>
+        </p>
+        <p>&#160;</p>
+        <p>The folders within this section list by version and within each folder are the documents for that particular version.  The image below provides examples of files stored in this folder.</p>
+        <p>
+            <img src="../Resources/Images/SAPTransport_2.png" />
+        </p>
+        <p>&#160;</p>
+        <h2><a name="Subject"></a>Subject Matter Experts</h2>
+        <p>Although the Technical Writers maintain  these documents as well as the Knowledge Base articles, there are a few subject matter experts who contribute to the versioning of this subject matter.</p>
+        <p>&#160;</p>
+        <p>The SMEs and responsibilities are listed below:</p>
+        <table style="width: 100%;mc-table-style: url('../Resources/TableStylesheets/threecolumn.css');" class="TableStyle-threecolumn" cellspacing="0">
+            <col style="width: 262px;" class="TableStyle-threecolumn-Column-Column1" />
+            <col style="width: 357px;" class="TableStyle-threecolumn-Column-Column1" />
+            <col class="TableStyle-threecolumn-Column-Column1" />
+            <tbody>
+                <tr class="TableStyle-threecolumn-Body-Body1">
+                    <td class="TableStyle-threecolumn-BodyE-Column1-Body1" style="font-weight: bold;">Subject Matter Expert</td>
+                    <td class="TableStyle-threecolumn-BodyE-Column1-Body1" style="font-weight: bold;">Role</td>
+                    <td class="TableStyle-threecolumn-BodyD-Column1-Body1" style="font-weight: bold;">Responsibilities</td>
+                </tr>
+                <tr class="TableStyle-threecolumn-Body-Body1">
+                    <td class="TableStyle-threecolumn-BodyE-Column1-Body1">Andrew Lund</td>
+                    <td class="TableStyle-threecolumn-BodyE-Column1-Body1">Expert on SST Installation processes</td>
+                    <td class="TableStyle-threecolumn-BodyD-Column1-Body1">Stakeholder for all SST Installation and Upgrades</td>
+                </tr>
+                <tr class="TableStyle-threecolumn-Body-Body1">
+                    <td class="TableStyle-threecolumn-BodyE-Column1-Body1">Ben Bauer</td>
+                    <td class="TableStyle-threecolumn-BodyE-Column1-Body1">Knowledge Base Articles</td>
+                    <td class="TableStyle-threecolumn-BodyD-Column1-Body1">Maintains the Zendesk Knowledge Based articles</td>
+                </tr>
+                <tr class="TableStyle-threecolumn-Body-Body1">
+                    <td class="TableStyle-threecolumn-BodyB-Column1-Body1">Felipe Peixoto</td>
+                    <td class="TableStyle-threecolumn-BodyB-Column1-Body1">Author</td>
+                    <td class="TableStyle-threecolumn-BodyA-Column1-Body1">Author of the 7.1 version of SAP Transports for Stewardship Tier</td>
+                </tr>
+            </tbody>
+        </table>
+        <p>&#160;</p>
+        <h2><a name="Links"></a>Links to Associated Support Articles</h2>
+        <p>Syniti Zendesk will store the online Knowledge Based articles for this subject matter.  The list of links to provide access to each of the articles relevant.</p>
+        <p>Within the Syniti Support site use pathway:</p>
+        <ol>
+            <li>
+                <p><a href="https://support.syniti.com/hc/en-us">Syniti Support</a>
+                </p>
+            </li>
+            <li>
+                <p><a href="https://support.syniti.com/hc/en-us/categories/115000075968-Product-Documentation">Product Documentation</a>
+                </p>
+            </li>
+            <li>
+                <p><a href="https://support.syniti.com/hc/en-us/sections/115003363127-Stewardship-Tier-Technical-Configuration-Guides">Stewardship Tier Technical Configuration Guides</a>
+                </p>
+            </li>
+        </ol>
+        <p>&#160;</p>
+        <p>Link to section for Technical Configuration Documents</p>
+        <blockquote>
+            <p><a href="https://support.syniti.com/hc/en-us/sections/115003363127-Stewardship-Tier-Technical-Configuration-Guides">Stewardship Tier Technical Configuration Guides – Syniti Support</a>
+            </p>
+            <p>&#160;</p>
+        </blockquote>
+        <p>Links to KB&#160;Support documents</p>
+        <blockquote>
+            <p><a href="https://support.syniti.com/hc/en-us/articles/4419116208919">SAP Transports for 7.4.8 and Above</a> </p>
+            <p>&#160;</p>
+            <p><a href="https://support.syniti.com/hc/en-us/articles/360039412394-SAP-Transports-for-7-1-through-7-4-7">SAP Transports for 7.1 through 7.4.7</a> </p>
+            <p>&#160;</p>
+            <p><a href="https://boaweb-my.sharepoint.com/:w:/r/personal/felipe_peixoto_syniti_com/_layouts/15/Doc.aspx?sourcedoc=%7B5D47A9FD-C524-4610-84BD-A5FD971890D3%7D&amp;file=SAP%20Transports%20for%20Stewardship%20Tier%207.1.docx&amp;wdLOR=cC3C01DBA-24F6-4FDE-8431-0A3660F4257F&amp;action=default&amp;mobileredirect=true">SAP Transports for Stewardship Tier Version 7.1</a> </p>
+        </blockquote>
+        <p>&#160;</p>
+        <h2><a name="Install"></a>Install and Upgrade Manual Maintenance</h2>
+        <p>In connection with changes that may affect the SST SAP Transports and documentation, there may be requirements to alter the Install or Upgrade Manuals that are a product of online help.  Within the section Install and Upgrade Supplemental Sections there is a section titled Import SAP Transports.</p>
+        <p>&#160;</p>
+        <p>Install and Upgrade Manual online help is maintained through the MadCap Flare project</p>
+        <p>The link for viewing development of this online help is (update the version in link) <a href="https://dsphelpdev.syniti.com/748/general-install/Home.htm">DSP Help Dev</a> </p>
+        <p>
+            <img src="../Resources/Images/SAPTransport_3.png" />
+        </p>
+        <p>&#160;</p>
+        <p>The details for this section may require changes based upon changes to the overall SST SAP Transports process.</p>
+        <p>
+            <img src="../Resources/Images/SAPTransport_4.png" />
+        </p>
+        <p>&#160;</p>
+    </body>
+</html>
