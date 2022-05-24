@@ -195,7 +195,7 @@
                                                 <br />
                                                 <div role="main" id="mc-main-content">
                                                     <h1>Workflow - Peer Review</h1>
-                                                    <p>After your content has been approved and added to the dev site following the steps in the <a href="BOADocProcess_Workflow_Approved.html" target="_blank" rel="noopener noreferrer">Workflow - Approved</a> topic, ask for a Peer Review by posting an @doc message in the #doc_checkouts Slack channel Include a link to your Author’s Notes.  .</p>
+                                                    <p>After your content has been approved and added to the dev site following the steps in the <a href="BOADocProcess_Workflow_Approved.html" target="_blank" rel="noopener noreferrer">Workflow - Approved</a> topic, ask for a Peer Review by posting an @doc message in the #doc_checkouts Slack channel Include a link to your Author’s Notes.</p>
                                                     <p>As a peer reviewer:</p>
                                                     <ol>
                                                         <li value="1">
@@ -217,12 +217,16 @@
                                                     <p>As the author:</p>
                                                     <ol>
                                                         <li value="1">
-                                                            <p>Once the peer reviewer has provided feedback, make applicable changes to <span style="font-family: Consolas;">&lt;YourBranchName&gt;</span>, merge to develop_nnn/develop/Staginginnn branch, and build in Jenkins in the dev environment (and prod environment as needed).</p>
+                                                            <p>Once the peer reviewer has provided feedback, make applicable changes to <span style="font-family: Consolas;">&lt;YourBranchName&gt;</span>, <a href="BOADocProcess_Workflow_Approved.html#Author3">merge to SST: develop_nnn/SKP: develop/Install Manual: Staginginnn branch</a>. </p>
                                                         </li>
                                                         <li value="2">
-                                                            <p>Reply to the thread in the #doc_checkout Slack channel that dev has been updated.</p>
+                                                            <p>SST requires a build in Jenkins in the dev environment (and prod environment as needed). Refer to <a href="BOADocProcess_Update_Help_on_Dev_and_Prod_Sites.html" target="_blank" rel="noopener noreferrer">Update Help on the Dev and Prod Sites</a> for steps for working in Jenkins.</p>
+                                                            <p class="note"><b>NOTE: </b>SKP has no manual build in Jenkins. Changes are automatically built in Jenkins and deployed to dev using a job called ‘CloudDocs’ (takes about 2-3 mins starting when the PR is merged). Refer to <a href="SKP_Help.htm#Merge" target="_blank" rel="noopener noreferrer">SKP&#160;Help</a> for steps to push help from dev to master within Github.com.</p>
                                                         </li>
                                                         <li value="3">
+                                                            <p>Reply to the thread in the #doc_checkout Slack channel that dev has been updated.</p>
+                                                        </li>
+                                                        <li value="4">
                                                             <p>Update the documentation status of each Jira ticket in the Author’s Notes to Doc Done.</p>
                                                         </li>
                                                     </ol>

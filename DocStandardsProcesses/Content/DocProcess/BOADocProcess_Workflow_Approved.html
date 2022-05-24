@@ -8,8 +8,8 @@
         <p>Content should be approved by PM/Dev/Product before it's added to any of the projects.</p>
         <p class="note"><b>NOTE: </b>All Documentation Team members belong to the doc_checkouts Slack channel, where we post information about what is being worked on and what needs review. Use the @doc command to notify the team that you are checking out a branch and to request a peer review. </p>
         <p>TWs add approved content in Flare and are responsible for producing <a href="#Author" target="_blank" rel="noopener noreferrer">Author Notes</a> for the content.</p>
-        <p>TWS also stage content in a dev environment for the Tech Writer Peer Review.</p>
-        <p>At a high level, to add approved content to the Flare projects for SST, SKT and the Installation Guides:</p>
+        <p>TWS also stages content in a dev environment for the Tech Writer Peer Review.</p>
+        <p>At a high level, to add approved content to the Flare projects for SST, SKP and the Installation Guides:</p>
         <ol>
             <li>
                 <p>The Author posts in the Slack doc_checkouts channel when checking out a branch.</p>
@@ -22,16 +22,16 @@
                 </p>
             </li>
             <li>
-                <p><a href="#Author3" target="_blank" rel="noopener noreferrer">TW pushes their local branch to the appropriate github repo and merges that branch to develop_nnn (SST) , develop (SKT) or Stagingnnn (Install Manuals)</a>.</p>
+                <p><a href="#Author3" target="_blank" rel="noopener noreferrer">TW pushes their local branch to the appropriate github repo and merges that branch to develop_nnn (SST) , develop (SKP) or Stagingnnn (Install Manuals)</a>.</p>
             </li>
             <li>
                 <p><a href="BOADocProcess_Update_Help_on_Dev_and_Prod_Sites.html#top" target="_blank" rel="noopener noreferrer">Author builds the help in jenkins so that it is accessible on the dev site</a>.</p>
-                <p class="note"><b>NOTE:</b> For SKT help, pushing content to develop automatically starts a build to push the new content to the dev site. There is no need to access jenkins when updating SKT help.</p>
+                <p class="note"><b>NOTE:</b> For SKP help, pushing content to develop automatically starts a build called ‘CloudDocsDev’ to push the new content to the dev site. There is no need to access jenkins when updating SKP help (unless to check for failure issues). Refer to <a href="SKP_Help.htm#Merge" target="_blank" rel="noopener noreferrer">SKP&#160;Help</a> for steps to push help from dev to master within Github.com.</p>
             </li>
         </ol>
         <ol MadCap:continue="true">
             <li>
-                <p>Author posts in the doc_checkouts Slack discussion channel when they have merged the PR to develop_nnn/develop/Staginginnn, and built in jenkins so that the content is  on the dev site ready to be peer reviewed by a Doc Team member..</p>
+                <p>Author posts in the doc_checkouts Slack discussion channel when they have merged the PR to develop_nnn/develop/Staginginnn, and built in jenkins so that the content is  on the dev site ready to be peer reviewed by a Doc Team member.</p>
                 <p class="note"><b>NOTE: </b>Include a link to the Author Notes in this post. Use the @doc command in Slack to call attention to questions and feedback needed.</p>
             </li>
         </ol>
@@ -46,17 +46,18 @@
                     <img src="../Resources/Images/gitBashHere.png" />
                 </p>
                 <p>Right-click menu with Git Bash Here option.</p>
-                <p class="note"><b>NOTE:</b> If pulling down a branch for the first time, enter the git command <b style="font-family: monospace;">git fetch origin &lt;release branch name&gt;</b>, then proceed with the following steps. </p>
+                <p class="note"><b>NOTE:</b> If pulling down a branch for the first time, enter the git command <span style="font-family: Consolas; font-weight: bold;">git fetch origin &lt;release branch name&gt;</span>, then proceed with the following steps. </p>
             </li>
         </ol>
         <ol MadCap:continue="true">
             <li>
-                <p>Enter the git command <span style="font-family: Consolas; font-weight: bold;">git checkout &lt;release branch name&gt;</span>, e.g., SST: develop_nnn, SKT develop, Install Manual Stagingnnn.</p>
+                <p>Enter the git command <span style="font-family: Consolas; font-weight: bold;">git checkout &lt;release branch name&gt;</span>, e.g., SST: develop_nnn, SKP develop, Install Manual Stagingnnn.</p>
             </li>
             <li>
                 <p>Enter the git command, <span style="font-family: Consolas; font-weight: bold;">git pull origin &lt;same release branch name&gt;</span></p>
                 <p class="note"><b>NOTE</b>: If at this point you wish to see a list of branches that are available in your local repo, enter the command <span style="font-family: Consolas; font-weight: bold;">git branch</span>. All of the available local branches are listed.</p>
-                <p class="note"><b>NOTE</b>: If you are working on a big project where you perform several checkins before opening a Pull Request, use the following commands each time you begin work: <span style="font-family: Consolas;">git status &lt;your branch name&gt;</span> then <span style="font-family: Consolas;">git checkout &lt;your branch name&gt;</span> then <span style="font-family: Consolas;">git pull origin &lt;your branch name&gt;</span></p>
+                <p class="note"><b>NOTE</b>: If you are working on a big project where you perform several checkins before opening a Pull Request, use the following commands each time you begin work: 
+                <ol><li><p class="note"><span style="font-family: Consolas; font-weight: bold;">git status &lt;your branch name&gt;</span> </p></li><li><p class="note"><span style="font-family: Consolas; font-weight: bold;">git checkout &lt;your branch name&gt;</span> </p></li><li><p class="note"><span style="font-family: Consolas; font-weight: bold;">git pull origin &lt;your branch name&gt;</span></p></li></ol></p>
             </li>
         </ol>
         <ol MadCap:continue="true">
@@ -71,7 +72,7 @@
             </li>
             <li>
                 <p>When you finish your updates, save your changes and close Flare.</p>
-                <p><b>NOTE</b>: Refer to <a href="BOADocProcess_UpdateOnlineHelp.html" target="_blank" rel="noopener noreferrer">Update Online Help in Flare</a> for steps on working in Flare.</p>
+                <p class="note"><b>NOTE</b>: Refer to <a href="BOADocProcess_UpdateOnlineHelp.html" target="_blank" rel="noopener noreferrer">Update Online Help in Flare</a> for steps on working in Flare.</p>
             </li>
         </ol>
         <h2><a name="Author3"></a>Author Pushes Updates to github Repo and Merges Content to develop_nnn/develop/Stagingnnn</h2>
@@ -88,20 +89,20 @@
         <ol MadCap:continue="true">
             <li>
                 <p>Enter the git command <span style="font-family: Consolas; font-weight: bold;">git status</span> to see all of the changes you have made.</p>
-                <p><b>NOTE:</b> If you do not see your changes, you may have forgotten to save or you are in the wrong branch.</p>
+                <p class="note"><b>NOTE</b>: If you do not see your changes, you may have forgotten to save or you are in the wrong branch.</p>
             </li>
         </ol>
         <ol MadCap:continue="true">
             <li>
                 <p>Stage the updates for commit by entering the git command <span style="font-family: Consolas; font-weight: bold;">git add .</span></p>
-                <p><b>NOTE</b>: Include the period in the command.</p>
-                <p><b>NOTE</b>: Comments change from red to green after you stage them.</p>
+                <p class="note"><b>NOTE</b>: Include the period in the command.</p>
+                <p class="note"><b>NOTE</b>: Comments change from red to green after they are staged.</p>
             </li>
         </ol>
         <ol MadCap:continue="true">
             <li>
                 <p>Commit staged updates by entering the command <span style="font-family: Consolas; font-weight: bold;">git commit -m "&lt;commit message that informs everyone what you have done&gt;"</span></p>
-                <p><b>NOTE:</b> Do not use special characters in message.</p>
+                <p class="note"><b>NOTE</b>: Do not use special characters in the message.</p>
             </li>
         </ol>
         <ol MadCap:continue="true">
@@ -115,7 +116,7 @@
                 <p>Click the <b>Compare and pull request</b> button next to your recently pushed branch.</p>
             </li>
             <li>
-                <p>Make sure the <b>base</b> is the current release branch you are working in (SST: develop_nnn, SKT: develop, Install Manual: Stagingnnn) and <b>compare</b> is your new branch name.</p>
+                <p>Make sure the <b>base</b> is the current release branch you are working in (SST: develop_nnn, SKP: develop, Install Manual: Stagingnnn) and <b>compare</b> is your new branch name.</p>
                 <p>
                     <img src="../Resources/Images/githubPR.png" />
                 </p>
@@ -123,7 +124,7 @@
         </ol>
         <ol MadCap:continue="true">
             <li>
-                <p>Add link to Author Notes in the description of the PR.</p>
+                <p>Add a link to Author Notes in the description of the PR.</p>
             </li>
             <li>
                 <p>Click the <b>Create pull request</b> button.</p>
@@ -132,7 +133,8 @@
                 <p>Click the <b>Merge</b> then <b>Confirm Merge</b> buttons. </p>
             </li>
             <li>
-                <p>Build SST help and the Installation Manuals in the dev environment in jenkins. Refer to <a href="BOADocProcess_Update_Help_on_Dev_and_Prod_Sites.html" target="_blank" rel="noopener noreferrer">Update Help on the Dev and Prod Sites</a> for steps for working in Jenkins. SKT automatically pushes help to the dev environment when you push to the develop branch. </p>
+                <p>Build SST help and the Installation Manuals in the dev environment in jenkins. Refer to <a href="BOADocProcess_Update_Help_on_Dev_and_Prod_Sites.html" target="_blank" rel="noopener noreferrer">Update Help on the Dev and Prod Sites</a> for steps for working in Jenkins. </p>
+                <p class="note"><b>NOTE</b>: For SKP help, pushing content to develop automatically starts a build called ‘CloudDocsDev’ to push the new content to the dev site. There is no need to access jenkins when updating SKP help (unless to check for failure issues). Refer to <a href="SKP_Help.htm#Merge" target="_blank" rel="noopener noreferrer">SKP&#160;Help</a> for steps to push help from dev to master within Github.com.</p>
             </li>
             <li>
                 <p>Update the Documentation Status on the JIRA tickets associated with the work to Peer Review.</p>
@@ -142,7 +144,7 @@
             </li>
         </ol>
         <h2><a name="Author"></a>Author Notes</h2>
-        <p class="note"><b>NOTE: </b>Author Notes should only contain approved content or formatting fixes/help housekeeping that does not require approval.</p>
+        <p class="note"><b>NOTE</b>: Author Notes should only contain approved content or formatting fixes/help housekeeping that does not require approval.</p>
         <p>Author Notes must contain:</p>
         <ul>
             <li>

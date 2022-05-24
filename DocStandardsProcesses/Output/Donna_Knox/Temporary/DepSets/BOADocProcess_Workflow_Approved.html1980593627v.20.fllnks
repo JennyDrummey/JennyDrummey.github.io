@@ -16,6 +16,8 @@
     <Link
       Url="Content/DocProcess/BOADocProcess_Update_Help_on_Dev_and_Prod_Sites.html" />
     <Link
+      Url="Content/DocProcess/SKP_Help.htm" />
+    <Link
       Url="Content/DocProcess/BOADocProcess_GitInitSetup.html" />
     <Link
       Url="Content/Resources/Images/gitBashHere.png" />
@@ -37,6 +39,8 @@
       Url="Content/DocProcess/BOADocProcess_Workflow_Approved.html#Author3" />
     <Link
       Url="Content/DocProcess/BOADocProcess_Update_Help_on_Dev_and_Prod_Sites.html#top" />
+    <Link
+      Url="Content/DocProcess/SKP_Help.htm#Merge" />
     <Link
       Url="Content/DocProcess/BOADocProcess_GitInitSetup.html" />
     <Link

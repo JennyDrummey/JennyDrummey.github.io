@@ -19,6 +19,12 @@
     <Link
       Url="Content/Resources/Images/image.png" />
     <Link
+      Url="Content/Resources/Images/GitHubBranches.png" />
+    <Link
+      Url="Content/Resources/Images/GitHubBranches2.png" />
+    <Link
+      Url="Content/Resources/Images/githubBranches3.png" />
+    <Link
       Url="Content/DocProcess/BOADocProcess_Workflow_PeerReview.html" />
   </Links>
   <LongLinks>
@@ -33,11 +39,23 @@
     <Link
       Url="Content/DocProcess/Publish_SKT_Help.htm#Add" />
     <Link
-      Url="Content/DocProcess/Publish_SKT_Help.htm#Build" />
+      Url="Content/DocProcess/Publish_SKT_Help.htm#Commit" />
+    <Link
+      Url="Content/DocProcess/BOADocProcess_Workflow_Approved.html#Author3" />
+    <Link
+      Url="Content/DocProcess/Publish_SKT_Help.htm#Merge" />
     <Link
       Url="Content/Resources/Images/image1.png" />
     <Link
       Url="Content/Resources/Images/image.png" />
+    <Link
+      Url="Content/DocProcess/BOADocProcess_Workflow_Approved.html#Author2" />
+    <Link
+      Url="Content/Resources/Images/GitHubBranches.png" />
+    <Link
+      Url="Content/Resources/Images/GitHubBranches2.png" />
+    <Link
+      Url="Content/Resources/Images/githubBranches3.png" />
     <Link
       Url="Content/DocProcess/BOADocProcess_Workflow_PeerReview.html" />
   </LongLinks>
@@ -48,6 +66,10 @@
       Name="Add" />
     <Anchor
       Name="Build" />
+    <Anchor
+      Name="Commit" />
+    <Anchor
+      Name="Merge" />
   </Anchors>
   <Keywords />
   <Concepts />
