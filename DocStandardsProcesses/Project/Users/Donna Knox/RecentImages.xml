@@ -1,12 +1,23 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <UrlList>
+    <Url Source="Resources/Images/InlineHelp17.png" />
+    <Url Source="Resources/Images/InlineHelp16.png" />
+    <Url Source="Resources/Images/InlineHelp15.png" />
+    <Url Source="Resources/Images/InlineHelp14.png" />
+    <Url Source="Resources/Images/InlineHelp13.png" />
+    <Url Source="Resources/Images/InlineHelp12.png" />
+    <Url Source="Resources/Images/InlineHelp11.png" />
+    <Url Source="Resources/Images/InlineHelp10.png" />
+    <Url Source="Resources/Images/InlineHelp9.png" />
+    <Url Source="Resources/Images/InlineHelp8.png" />
+    <Url Source="Resources/Images/InlineHelp7.png" />
+    <Url Source="Resources/Images/InlineHelp6.png" />
+    <Url Source="Resources/Images/InlineHelp5.png" />
+    <Url Source="Resources/Images/InlineHelp4.png" />
+    <Url Source="Resources/Images/InlineHelp3.png" />
+    <Url Source="Resources/Images/InlineHelp2.png" />
+    <Url Source="Resources/Images/InlineHelp1.png" />
     <Url Source="Resources/Images/githubMerge3.png" />
     <Url Source="Resources/Images/githubMerge2.png" />
     <Url Source="Resources/Images/GithubMerge1.png" />
-    <Url Source="Resources/Images/gitBashHere.png" />
-    <Url Source="Resources/Images/BuildTarget1.png" />
-    <Url Source="Resources/Images/SAPTransport_4.png" />
-    <Url Source="Resources/Images/SAPTransport_3.png" />
-    <Url Source="Resources/Images/SAPTransport_2.png" />
-    <Url Source="Resources/Images/SAPTransport_1.png" />
 </UrlList>
