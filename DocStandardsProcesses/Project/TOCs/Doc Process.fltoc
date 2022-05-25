@@ -18,7 +18,7 @@
     Title="Update Online Help"
     Link="/Content/DocProcess/UpdateOnlineHelp.html">
     <TocEntry
-      Title="Dcumentation Status Field"
+      Title="Documentation Status Field"
       Link="/Content/DocProcess/BOADocProcess_Workflow_StatusField.html" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
     <TocEntry
       Title="Workflow - Not Started"
@@ -77,8 +77,8 @@
     Title="Knowledge Tier Only"
     Link="/Content/DocProcess/KnowledgeTierOnly.html">
     <TocEntry
-      Title="Publish SKT Help"
-      Link="/Content/DocProcess/Publish_SKT_Help.htm"></TocEntry>
+      Title="SKP Help"
+      Link="/Content/DocProcess/SKP_Help.htm"></TocEntry>
     <TocEntry
       Title="Write In-line Help for the Knowledge Tier"
       Link="/Content/DocProcess/WriteInlineHelp.html" />

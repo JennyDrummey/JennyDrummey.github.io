@@ -2,7 +2,7 @@
 <html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
     <head />
     <body>
-        <p>Because licenses are tied to a hardware ID, any hardware change can invalidate your current license. If this occurs, Stewardship Tier will display the warning below and you will have 14 days to contact the licensing team to obtain a new license before Stewardship Tier will no longer be accessible. If you have purchased a Syniti Knowledge Tier license, you must obtain a new Cloud Key as well. Contact <a href="http://support.boaweb.com/" MadCap:conditions="Primary.dspConduct" target="_blank" rel="noopener noreferrer">BOA Support</a><MadCap:conditionalText MadCap:conditions="Primary.ISA"><a href="http://launchpad.support.sap.com/" target="_blank" rel="noopener noreferrer">SAP Support</a> using component XX-PART-BOA</MadCap:conditionalText> when planning updates to hardware.</p>
+        <p>Because licenses are tied to a hardware ID, any hardware change can invalidate your current license. If this occurs, Stewardship Tier will display the warning below and you will have 14 days to contact the licensing team to obtain a new license before Stewardship Tier will no longer be accessible. If you have purchased a Syniti Knowledge Platform license, you must obtain a new Cloud Key as well. Contact <a href="http://support.boaweb.com/" MadCap:conditions="Primary.dspConduct" target="_blank" rel="noopener noreferrer">BOA Support</a><MadCap:conditionalText MadCap:conditions="Primary.ISA"><a href="http://launchpad.support.sap.com/" target="_blank" rel="noopener noreferrer">SAP Support</a> using component XX-PART-BOA</MadCap:conditionalText> when planning updates to hardware.</p>
         <p>
             <img src="../Images/NOTI.png" />
         </p>
