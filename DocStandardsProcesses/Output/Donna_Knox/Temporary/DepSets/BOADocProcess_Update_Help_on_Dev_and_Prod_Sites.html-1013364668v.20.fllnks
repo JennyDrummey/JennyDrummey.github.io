@@ -12,7 +12,7 @@
     <Link
       Url="Content/Resources/Stylesheets/newDefault.css" />
     <Link
-      Url="Content/DocProcess/BOADocProcess_BuildHelpTargets.html" />
+      Url="Content/DocProcess/SKP_Help.htm" />
   </Links>
   <LongLinks>
     <Link
@@ -20,7 +20,7 @@
     <Link
       Url="Content/Resources/Stylesheets/newDefault.css" />
     <Link
-      Url="Content/DocProcess/BOADocProcess_BuildHelpTargets.html" />
+      Url="Content/DocProcess/SKP_Help.htm#Merge" />
   </LongLinks>
   <Anchors>
     <Anchor

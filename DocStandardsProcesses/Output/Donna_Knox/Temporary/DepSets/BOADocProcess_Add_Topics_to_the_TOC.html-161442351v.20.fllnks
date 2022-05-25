@@ -16,7 +16,7 @@
     <Link
       Url="Content/Resources/Images/SSTTOC.png" />
     <Link
-      Url="Content/DocProcess/Publish_SKT_Help.htm" />
+      Url="Content/DocProcess/SKP_Help.htm" />
   </Links>
   <LongLinks>
     <Link
@@ -28,7 +28,7 @@
     <Link
       Url="Content/Resources/Images/SSTTOC.png" />
     <Link
-      Url="Content/DocProcess/Publish_SKT_Help.htm#Add" />
+      Url="Content/DocProcess/SKP_Help.htm#Add" />
   </LongLinks>
   <Anchors />
   <Keywords />
