@@ -80,14 +80,14 @@
       Title="SKP Help"
       Link="/Content/DocProcess/SKP_Help.htm"></TocEntry>
     <TocEntry
-      Title="Write In-line Help for the Knowledge Tier"
-      Link="/Content/DocProcess/WriteInlineHelp.html" />
-    <TocEntry
       Title="Update Static Guidance"
       Link="/Content/DocProcess/UpdateStaticGuidance.htm"></TocEntry>
     <TocEntry
-      Title="Add Inline Help"
-      Link="/Content/DocProcess/Add_Inline_Help.htm" />
+      Title="Overview of In-Line Help"
+      Link="/Content/DocProcess/WriteInlineHelp.html" />
+    <TocEntry
+      Title="Add In-line and Page Level Help"
+      Link="/Content/DocProcess/Adding_Inline_and_PageLevel_Help.html" />
   </TocEntry>
   <TocEntry
     Title="Source Files for Manuals and Help"

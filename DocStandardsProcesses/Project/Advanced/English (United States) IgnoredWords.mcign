@@ -2,5 +2,6 @@
 <IgnoredWordsDictionary>
     <Word Comment="">www.syniti.com</Word>
     <Word Comment="">https://admin.syniti-dev.com</Word>
-    <Word>Clickable</Word>
+    <Word Comment="">Clickable</Word>
+    <Word>https://github.com/BackOfficeAssoc/skt-ui/blob/main/config%2Froutes.ts</Word>
 </IgnoredWordsDictionary>

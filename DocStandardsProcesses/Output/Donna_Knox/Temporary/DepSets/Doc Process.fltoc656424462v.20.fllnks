@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileLinkSet
+  FileSearchable="false"
+  OnlyLocalStylesheets="false"
+  FileTimeEstimate="0"
+  FilePriority="0">
+  <Links>
+    <Link
+      Url="Content/DocProcess/BOADocProcess_DSPDocOverview.html" />
+    <Link
+      Url="Content/DocProcess/BOADocProcess_DocUpdatesTable.html" />
+    <Link
+      Url="Content/DocProcess/BOADocProcess_ProjDocRoles.html" />
+    <Link
+      Url="Content/DocProcess/BOADocProcess_SrcsOnlineHelp.html" />
+    <Link
+      Url="Content/DocProcess/UpdateOnlineHelp.html" />
+    <Link
+      Url="Content/DocProcess/BOADocProcess_Workflow_StatusField.html" />
+    <Link
+      Url="Content/DocProcess/BOADocProcess_Workflow_NotStarted.html" />
+    <Link
+      Url="Content/DocProcess/WorfkflowNotRequired.htm" />
+    <Link
+      Url="Content/DocProcess/BOADocProcess_Workflow_InProcess.html" />
+    <Link
+      Url="Content/DocProcess/BOADocProcess_Workflow_Review.html" />
+    <Link
+      Url="Content/DocProcess/BOADocProcess_Workflow_Approved.html" />
+    <Link
+      Url="Content/DocProcess/BOADocProcess_Workflow_PeerReview.html" />
+    <Link
+      Url="Content/DocProcess/BOADocProcess_Workflow_DocDone.html" />
+    <Link
+      Url="Content/DocProcess/BOADocProcess_Update_Help_on_Dev_and_Prod_Sites.html" />
+    <Link
+      Url="Content/DocProcess/BOADocProcess_UpdateOnlineHelp.html" />
+    <Link
+      Url="Content/DocProcess/StewardshipTierOnly.html" />
+    <Link
+      Url="Content/DocProcess/BOADocProcess_PrepareWhatsNew.html" />
+    <Link
+      Url="Content/DocProcess/BOADocProcess_BuildHelpTargets.html" />
+    <Link
+      Url="Content/DocProcess/BOADocProcess_ChecklistGenOnlineHelp.html" />
+    <Link
+      Url="Content/DocProcess/BOADocProcess_CheckLlistForGeneratingHelp.htm" />
+    <Link
+      Url="Content/DocProcess/BOADocProcess_CLAddNewComponent.html" />
+    <Link
+      Url="Content/DocProcess/BOADocProcess_UpdateFlareProjectNewVersion.html" />
+    <Link
+      Url="Content/DocProcess/AddDuplicateLinksforSolex.htm" />
+    <Link
+      Url="Content/DocProcess/KnowledgeTierOnly.html" />
+    <Link
+      Url="Content/DocProcess/SKP_Help.htm" />
+    <Link
+      Url="Content/DocProcess/WriteInlineHelp.html" />
+    <Link
+      Url="Content/DocProcess/UpdateStaticGuidance.htm" />
+    <Link
+      Url="Content/DocProcess/Add_Inline_Help.htm" />
+    <Link
+      Url="Content/DocProcess/BOADocProcess_SrcFiles.html" />
+    <Link
+      Url="Content/DocProcess/BOADocProcess_InstallManualProcess.html" />
+    <Link
+      Url="Content/DocProcess/AdditionalDocTeamTasks.html" />
+    <Link
+      Url="Content/DocProcess/BOADocProcess_IncorpFeedbackPrint.html" />
+    <Link
+      Url="Content/DocProcess/APIDocProcess.htm" />
+    <Link
+      Url="Content/DocProcess/BOADocProcess_UnifyKBArticles.html" />
+    <Link
+      Url="Content/DocProcess/PostAnArticleToSynitiConnect.html" />
+    <Link
+      Url="Content/DocProcess/UseGIFsInOnlineHelp.html" />
+    <Link
+      Url="Content/DocProcess/MaintenanceOfSSTSAPTransports.htm" />
+    <Link
+      Url="Content/DocProcess/BOADocProcess_FlareLicenseUpgradeProcess.html" />
+    <Link
+      Url="Content/DocProcess/BOADocProcess_CondTags.html" />
+    <Link
+      Url="Content/DocProcess/BOADocProcess_AliasValueRange.html" />
+    <Link
+      Url="Content/DocProcess/BOADocProcess_PrepareFlareImport.html" />
+    <Link
+      Url="Content/DocProcess/BOADocProcess_FlareImport.html" />
+    <Link
+      Url="Content/DocProcess/SearchReplaceTags.htm" />
+    <Link
+      Url="Content/DocProcess/BOADocProcess_GitResources.html" />
+    <Link
+      Url="Content/DocProcess/BOADocProcess_GitInitSetup.html" />
+    <Link
+      Url="Content/DocProcess/BOADocProcess_DIPosts.html" />
+    <Link
+      Url="Content/DocProcess/BOADocProcess_KnowledgeBaseArt.html" />
+    <Link
+      Url="Content/DocProcess/BOADocProcess_Update_Doc_Process_Standards.htm" />
+  </Links>
+  <LongLinks />
+  <Anchors />
+  <Keywords />
+  <Concepts />
+  <ConceptControlNames />
+  <IndexControlNames />
+  <Variables />
+  <FileConditions />
+  <FileTags />
+  <AllConditions />
+  <Stylesheets />
+</CatapultFileLinkSet>
