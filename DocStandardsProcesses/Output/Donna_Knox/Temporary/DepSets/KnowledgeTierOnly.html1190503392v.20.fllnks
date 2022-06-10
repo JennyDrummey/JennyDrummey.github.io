@@ -15,9 +15,13 @@
     <Link
       Url="Content/DocProcess/SKP_Help.htm" />
     <Link
+      Url="Content/DocProcess/UpdateStaticGuidance.htm" />
+    <Link
       Url="Content/DocProcess/WriteInlineHelp.html" />
     <Link
-      Url="Content/DocProcess/UpdateStaticGuidance.htm" />
+      Url="Content/DocProcess/Adding_Inline_and_PageLevel_Help.html" />
+    <Link
+      Url="Content/DocProcess/Create Weekly SKP Release Notes .htm" />
   </Links>
   <LongLinks>
     <Link
@@ -29,9 +33,13 @@
     <Link
       Url="Content/DocProcess/SKP_Help.htm" />
     <Link
+      Url="Content/DocProcess/UpdateStaticGuidance.htm" />
+    <Link
       Url="Content/DocProcess/WriteInlineHelp.html" />
     <Link
-      Url="Content/DocProcess/UpdateStaticGuidance.htm" />
+      Url="Content/DocProcess/Adding_Inline_and_PageLevel_Help.html" />
+    <Link
+      Url="Content/DocProcess/Create Weekly SKP Release Notes .htm" />
   </LongLinks>
   <Anchors />
   <Keywords />
