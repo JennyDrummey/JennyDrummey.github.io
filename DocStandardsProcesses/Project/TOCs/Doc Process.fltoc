@@ -74,8 +74,8 @@
       Link="/Content/DocProcess/AddDuplicateLinksforSolex.htm" />
   </TocEntry>
   <TocEntry
-    Title="Knowledge Tier Only"
-    Link="/Content/DocProcess/KnowledgeTierOnly.html">
+    Title="Knowledge Platform Only"
+    Link="/Content/DocProcess/KnowledgePlatformOnly.html">
     <TocEntry
       Title="SKP Help"
       Link="/Content/DocProcess/SKP_Help.htm"></TocEntry>
