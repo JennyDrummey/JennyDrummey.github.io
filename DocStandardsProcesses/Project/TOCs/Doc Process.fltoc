@@ -88,6 +88,9 @@
     <TocEntry
       Title="Add In-line and Page Level Help"
       Link="/Content/DocProcess/Adding_Inline_and_PageLevel_Help.html" />
+    <TocEntry
+      Title="Create Weekly SKP Release Notes"
+      Link="/Content/DocProcess/Create Weekly SKP Release Notes .htm" />
   </TocEntry>
   <TocEntry
     Title="Source Files for Manuals and Help"
