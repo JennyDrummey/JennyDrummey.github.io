@@ -1,5 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <UrlList>
+    <Url Source="Resources/Images/WeeklySKPReleases_2.png" />
+    <Url Source="Resources/Images/WeeklySKPReleases_1.PNG" />
     <Url Source="Resources/Images/InlineHelp17.png" />
     <Url Source="Resources/Images/InlineHelp16.png" />
     <Url Source="Resources/Images/InlineHelp15.png" />
@@ -18,6 +20,4 @@
     <Url Source="Resources/Images/InlineHelp2.png" />
     <Url Source="Resources/Images/InlineHelp1.png" />
     <Url Source="Resources/Images/githubMerge3.png" />
-    <Url Source="Resources/Images/githubMerge2.png" />
-    <Url Source="Resources/Images/GithubMerge1.png" />
 </UrlList>

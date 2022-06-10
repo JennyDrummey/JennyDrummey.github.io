@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('../Resources/MasterPages/DocProcess.flmsp');">
+    <head />
+    <body>
+        <h1>Create Weekly SKP Release Notes</h1>
+        <p>Tech Writers and PM (Jon and Caroline) work together to create the weekly release notes for the SKP.</p>
+        <p>To start the process, on Thursday of each week, the Tech Writer runs a query as described below.</p>
+        <p>To create the release notes:</p>
+        <ol>
+            <li>
+                <p>Right-click the skt-ui folder for your local repo and select <b>Git Bash Here</b>.</p>
+                <p class="note"><b>NOTE</b>: If pulling down this branch for the first time, enter the git command <b>git fetch origin main</b>, then proceed with the following steps.</p>
+            </li>
+            <li>
+                <p>Enter the git command <b>git pull origin main</b></p>
+            </li>
+            <li>
+                <p>Run this command:</p>
+                <p><b>git log --pretty=format:%s --since="7 days ago" | cat</b>
+                </p>
+            </li>
+            <li>
+                <p>Highlight the text in the console, right-click and select <b>Copy</b>.</p>
+            </li>
+            <li>
+                <p>Create a google doc with the name <b>SKP Release Notes mm/dd/yy</b>.</p>
+            </li>
+            <li>
+                <p>Paste the console’s list of changes into this document.</p>
+            </li>
+            <li>
+                <p>Review the list of issues and highlight any you think could be excluded, including a comment asking if we can remove it.</p>
+                <p class="note"><b>NOTE</b>: If it’s not clear what work is associated with a PR from the name alone you may need to  copy the description from the PR,. See the steps for getting the description from the PR below.</p>
+            </li>
+            <li>
+                <p>Share a link to the google doc with the release notes for review to PM (Jon G/Andrew S)</p>
+            </li>
+            <li>
+                <p>PM returns the list of notes with a brief description.</p>
+            </li>
+            <li>
+                <p>Add the weekly updates to the SCReleases.htm file in the Flare project following these steps. Once published in Flare, post the release notes in the #skp_releases channel.</p>
+            </li>
+        </ol>
+        <h2>How to find PR descriptions</h2>
+        <p>In the skt-repo, click the Pull Requests tab, then click the Closed filter.</p>
+        <p>
+            <img src="../Resources/Images/WeeklySKPReleases_1.PNG" />
+        </p>
+        <p>Search on the PR number included in the release notes output.</p>
+        <p>
+            <img src="../Resources/Images/WeeklySKPReleases_2.png" />
+        </p>
+        <p>Information about the PR displays on the Conversation tab, including the summary/description.</p>
+        <p>&#160;</p>
+    </body>
+</html>
