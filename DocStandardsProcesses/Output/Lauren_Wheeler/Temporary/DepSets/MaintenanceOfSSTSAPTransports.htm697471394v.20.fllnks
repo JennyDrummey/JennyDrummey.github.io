@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileLinkSet
+  FileSearchable="true"
+  MasterPage="file:///C:/Users/Lauren Wheeler/Doc_Standards/JennyDrummey.github.io/DocStandardsProcesses/Content/Resources/MasterPages/DocProcess.flmsp"
+  OnlyLocalStylesheets="false"
+  FileTimeEstimate="0"
+  FilePriority="0">
+  <Links>
+    <Link
+      Url="Content/Resources/MasterPages/DocProcess.flmsp" />
+    <Link
+      Url="Content/Resources/TableStylesheets/threecolumn.css" />
+    <Link
+      Url="Content/DocProcess/MaintenanceOfSSTSAPTransports.htm" />
+    <Link
+      Url="https://boaweb.sharepoint.com/:f:/s/ProductDocumentation/EhnmYMRGJB1ElIZ5AQ9JlcABT5kbNgKa9Ghe-RSDn0R_Jg" />
+    <Link
+      Url="https://boaweb.sharepoint.com/:f:/s/ProductDocumentation/ElmYegfcZvdHsQnIWI5Eb_sB0F3vR8W-LBk8l8kjZA9y8w" />
+    <Link
+      Url="Content/Resources/Images/SAPTransport_1.png" />
+    <Link
+      Url="https://boaweb.sharepoint.com/:f:/s/ProductDocumentation/EgVEutcCQfRIkl_A8HxuoQYBSSFeSwkLtZLkltjYa33yRQ" />
+    <Link
+      Url="Content/Resources/Images/SAPTransport_2.png" />
+    <Link
+      Url="https://support.syniti.com/hc/en-us" />
+    <Link
+      Url="https://support.syniti.com/hc/en-us/categories/115000075968-Product-Documentation" />
+    <Link
+      Url="https://support.syniti.com/hc/en-us/sections/115003363127-Stewardship-Tier-Technical-Configuration-Guides" />
+    <Link
+      Url="https://support.syniti.com/hc/en-us/articles/4419116208919" />
+    <Link
+      Url="https://support.syniti.com/hc/en-us/articles/360039412394-SAP-Transports-for-7-1-through-7-4-7" />
+    <Link
+      Url="https://boaweb-my.sharepoint.com/:w:/r/personal/felipe_peixoto_syniti_com/_layouts/15/Doc.aspx" />
+    <Link
+      Url="https://dsphelpdev.syniti.com/748/general-install/Home.htm" />
+    <Link
+      Url="Content/Resources/Images/SAPTransport_3.png" />
+    <Link
+      Url="Content/Resources/Images/SAPTransport_4.png" />
+  </Links>
+  <LongLinks>
+    <Link
+      Url="Content/Resources/MasterPages/DocProcess.flmsp" />
+    <Link
+      Url="Content/Resources/TableStylesheets/threecolumn.css" />
+    <Link
+      Url="Content/DocProcess/MaintenanceOfSSTSAPTransports.htm#Storage" />
+    <Link
+      Url="Content/DocProcess/MaintenanceOfSSTSAPTransports.htm#Subject" />
+    <Link
+      Url="Content/DocProcess/MaintenanceOfSSTSAPTransports.htm#Links" />
+    <Link
+      Url="Content/DocProcess/MaintenanceOfSSTSAPTransports.htm#Install" />
+    <Link
+      Url="https://boaweb.sharepoint.com/:f:/s/ProductDocumentation/EhnmYMRGJB1ElIZ5AQ9JlcABT5kbNgKa9Ghe-RSDn0R_Jg?e=EfoYYl" />
+    <Link
+      Url="https://boaweb.sharepoint.com/:f:/s/ProductDocumentation/ElmYegfcZvdHsQnIWI5Eb_sB0F3vR8W-LBk8l8kjZA9y8w?e=QYgK0k" />
+    <Link
+      Url="Content/Resources/Images/SAPTransport_1.png" />
+    <Link
+      Url="https://boaweb.sharepoint.com/:f:/s/ProductDocumentation/EgVEutcCQfRIkl_A8HxuoQYBSSFeSwkLtZLkltjYa33yRQ?e=ScPDX6" />
+    <Link
+      Url="Content/Resources/Images/SAPTransport_2.png" />
+    <Link
+      Url="https://support.syniti.com/hc/en-us" />
+    <Link
+      Url="https://support.syniti.com/hc/en-us/categories/115000075968-Product-Documentation" />
+    <Link
+      Url="https://support.syniti.com/hc/en-us/sections/115003363127-Stewardship-Tier-Technical-Configuration-Guides" />
+    <Link
+      Url="https://support.syniti.com/hc/en-us/articles/4419116208919" />
+    <Link
+      Url="https://support.syniti.com/hc/en-us/articles/360039412394-SAP-Transports-for-7-1-through-7-4-7" />
+    <Link
+      Url="https://boaweb-my.sharepoint.com/:w:/r/personal/felipe_peixoto_syniti_com/_layouts/15/Doc.aspx?sourcedoc=%7B5D47A9FD-C524-4610-84BD-A5FD971890D3%7D&amp;file=SAP%20Transports%20for%20Stewardship%20Tier%207.1.docx&amp;wdLOR=cC3C01DBA-24F6-4FDE-8431-0A3660F4257F&amp;action=default&amp;mobileredirect=true" />
+    <Link
+      Url="https://dsphelpdev.syniti.com/748/general-install/Home.htm" />
+    <Link
+      Url="Content/Resources/Images/SAPTransport_3.png" />
+    <Link
+      Url="Content/Resources/Images/SAPTransport_4.png" />
+  </LongLinks>
+  <Anchors>
+    <Anchor
+      Name="Storage" />
+    <Anchor
+      Name="Subject" />
+    <Anchor
+      Name="Links" />
+    <Anchor
+      Name="Install" />
+  </Anchors>
+  <Keywords />
+  <Concepts />
+  <ConceptControlNames />
+  <IndexControlNames />
+  <Variables />
+  <FileConditions />
+  <FileTags />
+  <AllConditions />
+  <Stylesheets>
+    <Url
+      Source="Content/Resources/TableStylesheets/threecolumn.css" />
+  </Stylesheets>
+</CatapultFileLinkSet>

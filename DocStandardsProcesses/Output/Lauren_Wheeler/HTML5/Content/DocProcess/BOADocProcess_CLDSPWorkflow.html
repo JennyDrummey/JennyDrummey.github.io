@@ -1,0 +1,72 @@
+<h2 id="for-your-work">For Your Work</h2>
+<ul>
+<li>Start looking at ticket as soon as itâ€™s assigned.</li>
+<li>Start writing as soon as ticket has made it past Story Review.</li>
+<li>Change the <strong>Documentation Status</strong> field to <strong>In Process</strong>.</li>
+<li>Open Git Bash and get to work!</li>
+<li>git checkout origin <release branch name></li>
+<li>git pull origin <release branch name></li>
+<li>git checkout -b <new personal branch name></li>
+<li>Open up Flare and get to work!</li>
+<li>Check for spelling and grammar errors.</li>
+<li>Check that everything is written according to our standards.</li>
+<li>Test the links.</li>
+<li>Add appropriate Condition Tags.</li>
+<li>Add GUIDâ€™s to alias for new pages in the DSP (mostly Field Descriptions topics).</li>
+<li>Save and close the project.</li>
+<li>Open Git Bash in dsp-docs folder</li>
+<li>git status</li>
+<li>git add .</li>
+<li>git commit -m â€œ<description of what you changed and where without any special characters>â€</li>
+<li>git push origin <personal branch name></li>
+<li>Create pull request</li>
+<li>Write a descriptive message of what to review.</li>
+<li>Confirm the branch you are merging into is the current develop branch as in develop_712</li>
+<li>Update Doc Status on Jira ticket to Peer Review.</li>
+<li>Wait for reviewer to merge the PR.</li>
+<li>Change the status on the Jira ticket to Doc Done.</li>
+<li>Once itâ€™s merged then you can delete the local branch.</li>
+</ul>
+<h2 id="for-peer-reviewing">For Peer Reviewing</h2>
+<ul>
+<li>Receive pull request.</li>
+<li>See author of PR and the name of the branch they committed to the PR.</li>
+<li>Open Git Bash.</li>
+<li>git pull origin <release branch ex develop_712></li>
+<li>git checkout origin</li>
+<li>git fetch origin < branch name in pr></li>
+<li>git checkout <branch name in pr></li>
+<li>Open Flare and get to work!</li>
+<li>Review content for clarity.</li>
+<li>Test the steps.</li>
+<li>Check for spelling and grammar errors.</li>
+<li>Check that everything is written according to our standards.</li>
+<li>Test the links.</li>
+<li>If missing, add appropriate Condition Tags.</li>
+<li>If missing, add GUIDâ€™s to alias for new pages in the DSP (mostly Field Descriptions topics)</li>
+<li>Check to make sure the TOC label has been updated and is not a system variable.
+<div class="alert alert-info" data-markdown="span" role="alert">
+<i class="fa fa-info-circle"></i> <b>Note:</b> If the TOC title text is blue it is connected to a variable and needs to be updated.
+</div></li>
+<li>Save and close the project.</li>
+<li>git status
+<div class="alert alert-info" data-markdown="span" role="alert">
+<i class="fa fa-info-circle"></i> <b>Note:</b> This step is only necessary, if you have made an update during the peer review.
+</div></li>
+<li>git add .
+<div class="alert alert-info" data-markdown="span" role="alert">
+<i class="fa fa-info-circle"></i> <b>Note:</b> This step is only necessary, if you have made an update during the peer review.
+</div></li>
+<li>git commit -m â€œ<description of what you changed and where without any special characters>â€
+<div class="alert alert-info" data-markdown="span" role="alert">
+<i class="fa fa-info-circle"></i> <b>Note:</b> This step is only necessary, if you have made an update during the peer review.
+</div></li>
+<li>git push origin < writerâ€™s branch name >
+<div class="alert alert-info" data-markdown="span" role="alert">
+<i class="fa fa-info-circle"></i> <b>Note:</b> This step is only necessary, if you have made an update during the peer review.
+</div></li>
+<li>Merge PR.</li>
+<li>Confirm merge.</li>
+<li>Delete the branchname in pr in github and locally so things donâ€™t get cluttered.</li>
+<li>Update JIRA ticket to <strong>Doc Done</strong>,</li>
+</ul>
