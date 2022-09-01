@@ -9,19 +9,50 @@
     <Link
       Url="Content/Resources/MasterPages/DocProcess.flmsp" />
     <Link
+      Url="Content/DocProcess/Create Weekly SKP Release Notes .htm" />
+    <Link
+      Url="https://jennydrummey.github.io/Content/DocProcess/SKP_Help.htm" />
+    <Link
       Url="Content/Resources/Images/WeeklySKPReleases_1.PNG" />
     <Link
       Url="Content/Resources/Images/WeeklySKPReleases_2.png" />
+    <Link
+      Url="https://skthelp.syniti.com/SCReleases.htm" />
+    <Link
+      Url="Content/Resources/Images/SKPReleaseNotesExample.png" />
   </Links>
   <LongLinks>
     <Link
       Url="Content/Resources/MasterPages/DocProcess.flmsp" />
     <Link
+      Url="Content/DocProcess/Create Weekly SKP Release Notes .htm#find_PR" />
+    <Link
+      Url="Content/DocProcess/Create Weekly SKP Release Notes .htm#Std" />
+    <Link
+      Url="https://jennydrummey.github.io/Content/DocProcess/SKP_Help.htm" />
+    <Link
+      Url="Content/DocProcess/Create Weekly SKP Release Notes .htm#Example" />
+    <Link
+      Url="Content/DocProcess/Create Weekly SKP Release Notes .htm#Slack" />
+    <Link
       Url="Content/Resources/Images/WeeklySKPReleases_1.PNG" />
     <Link
       Url="Content/Resources/Images/WeeklySKPReleases_2.png" />
+    <Link
+      Url="https://skthelp.syniti.com/SCReleases.htm" />
+    <Link
+      Url="Content/Resources/Images/SKPReleaseNotesExample.png" />
   </LongLinks>
-  <Anchors />
+  <Anchors>
+    <Anchor
+      Name="find_PR" />
+    <Anchor
+      Name="Slack" />
+    <Anchor
+      Name="Std" />
+    <Anchor
+      Name="Example" />
+  </Anchors>
   <Keywords />
   <Concepts />
   <ConceptControlNames />
