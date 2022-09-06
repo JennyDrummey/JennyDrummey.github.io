@@ -3,21 +3,22 @@
     <head />
     <body>
         <h1>Create Weekly SKP Release Notes</h1>
-        <p>Tech Writers and PM (Jon, Emily,  and Caroline) work together to create the weekly release notes for Syniti Knowledge Platform (SKP).</p>
+        <p>Tech Writers and PM (Jon, Emily,  Andy and Caroline) work together to create the weekly release notes for Syniti Knowledge Platform (SKP).</p>
         <p class="note"><b>NOTE</b>: The weekly update is for these systems - SKP, Replicate, and Match (as of Oct ‘22). Both Construct and Migrate will produce monthly release notes per their cadence once they are active.</p>
+        <p class="note">At a high level, PM produces the bulk of the release notes by:</p>
         <ul>
             <li>
-                <p>The PM will pull the filtered list of PRs each week.</p>
+                <p>Pulling the filtered list of PRs each week from the skt-ui repo.</p>
             </li>
             <li>
-                <p>The PM will review the list and line through any not relevant.</p>
+                <p>Reviewing the list and, using track changes, deleting PRs that are not relevant.</p>
             </li>
             <li>
-                <p>The PM will provide details for the PRs where the provided descriptions are not enough.</p>
+                <p>Providing details for the PRs where the provided descriptions are not enough.</p>
             </li>
         </ul>
-        <p>To start the process, on Friday morning of each week, a query is run as described below.</p>
-        <p>To pull the filtered list of release notes::</p>
+        <p>To start the process, on Friday morning of each week, PM runs the query as described below.</p>
+        <p>As a PM, to produce the release notes: </p>
         <ol>
             <li>
                 <p>Right-click the skt-ui folder for your local repo and select <b>Git Bash Here</b>.</p>
@@ -30,7 +31,9 @@
                 <p>Run this command:</p>
                 <p><b>git log --pretty=format:%s --since="7 days ago" | cat</b>
                 </p>
-                <p>**Copy the line above, right click on Git Bash Here and paste, click enter.</p>
+            </li>
+            <li>
+                <p>Copy the line above, right click on Git Bash Here and paste, click enter.</p>
             </li>
             <li>
                 <p>Highlight the text in the console, right-click and select <b>Copy</b>.</p>
@@ -42,20 +45,23 @@
                 <p>Paste the console’s list of changes into this document.</p>
             </li>
             <li>
-                <p>Review the list of issues and line through any you think could be excluded.</p>
+                <p>Review the list of issues and, using track changes, delete any you think could be excluded.</p>
                 <p class="note"><b>NOTE</b>: If it’s not clear what work is associated with a PR from the name alone you may need to  copy the description from the PR. See the steps for <a href="#find_PR">getting the description from the PR</a> below.</p>
             </li>
             <li>
-                <p>Post a note in the Slack channel - # release notes to share the google doc link with all participants (Doc Team and Dylan and PM)</p>
+                <p>Post a note in the Slack channel #release-notes asking the oher PMs for review and feedback. </p>
             </li>
             <li>
-                <p>The PM makes changes to the google doc and posts a note in the same Slack channel - # release notes to show that it is complete and ready to load to the online help.</p>
+                <p>Once PM&#160;feedback has been incorporated, let the Tech Writers know in the #release-notes channel that they are ready to post.</p>
             </li>
             <li>
-                <p>Update the release notes to meet the <a href="#Std">standards listed below</a>.</p>
+                <p>The Technical Writer makes changes to the google doc following the <a href="#Std">standards listed below</a>.</p>
             </li>
             <li>
-                <p>Add the weekly updates to SCReleases.htm file in the Flare project igc-help <a href="https://jennydrummey.github.io/Content/DocProcess/SKP_Help.htm">following these steps</a>. Add a new month if needed. <a href="#Example">Examples are provided</a>.</p>
+                <p>The Tech Wriger posts a note in the  #release-notes channel to ask for peer review from other writers before adding the content to help. </p>
+            </li>
+            <li>
+                <p>After the peer review is done, the Technical Writer adds the weekly updates to SCReleases.htm file in the Flare project igc-help <a href="https://jennydrummey.github.io/Content/DocProcess/SKP_Help.htm">following these steps</a>. Add a new month if needed. <a href="#Example">Examples are provided</a>.</p>
             </li>
             <li>
                 <p>Once published in Flare, post the release notes in the #skp_releases channel. <a href="#Slack">Example provided below</a>.</p>

@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileLinkSet
+  FileSearchable="true"
+  MasterPage="file:///C:/Users/Jenny Drummey/git/JennyDrummey.github.io/DocStandardsProcesses/Content/Resources/MasterPages/DocProcess.flmsp"
+  OnlyLocalStylesheets="false"
+  FileTimeEstimate="0"
+  FilePriority="0">
+  <Links>
+    <Link
+      Url="Content/Resources/MasterPages/DocProcess.flmsp" />
+    <Link
+      Url="Content/Resources/Stylesheets/Styles.css" />
+    <Link
+      Url="Content/Resources/Stylesheets/newDefault.css" />
+    <Link
+      Url="Content/Resources/TableStylesheets/fielddescription.css" />
+    <Link
+      Url="Content/DocProcess/Adding_Inline_and_PageLevel_Help.html" />
+    <Link
+      Url="https://login.syniti-dev.com/home" />
+    <Link
+      Url="https://docs.google.com/document/d/10SzZFPtGuzsr-IUJiFkP590SowGlHxIVaqcP_e8Jbi0/edit" />
+    <Link
+      Url="https://entota.atlassian.net/wiki/spaces/SYNITI/pages/1406468543/In-line+Help+Standards" />
+    <Link
+      Url="https://github.com/BackOfficeAssoc/skt-ui/wiki/Localization" />
+    <Link
+      Url="Content/Resources/Images/InlineHelp1.png" />
+    <Link
+      Url="https://app.i18nexus.com/" />
+    <Link
+      Url="Content/Resources/Images/InlineHelp2.png" />
+    <Link
+      Url="Content/Resources/Images/InlineHelp3.png" />
+    <Link
+      Url="https://entota.atlassian.net/browse/KYB-3897" />
+    <Link
+      Url="https://entota.atlassian.net/browse/KYB-3845" />
+    <Link
+      Url="Content/Resources/Images/InlineHelp4.png" />
+    <Link
+      Url="Content/Resources/Images/InlineHelp5.png" />
+    <Link
+      Url="Content/Resources/Images/InlineHelp6.png" />
+    <Link
+      Url="Content/Resources/Images/InlineHelp7.png" />
+    <Link
+      Url="Content/Resources/Images/InlineHelp8.png" />
+    <Link
+      Url="Content/Resources/Images/InlineHelp9.png" />
+    <Link
+      Url="https://www.markdownguide.org/" />
+    <Link
+      Url="https://www.markdowntutorial.com/" />
+    <Link
+      Url="https://stackedit.io/app" />
+    <Link
+      Url="https://code.visualstudio.com/docs/languages/markdown" />
+    <Link
+      Url="Content/Resources/Images/InlineHelp10.png" />
+    <Link
+      Url="Content/Resources/Images/InlineHelp11.png" />
+    <Link
+      Url="https://github.com/BackOfficeAssoc/skt-ui/blob/main/config%2Froutes.ts" />
+    <Link
+      Url="Content/Resources/Images/InlineHelp12.png" />
+    <Link
+      Url="Content/Resources/Images/InlineHelp13.png" />
+    <Link
+      Url="Content/Resources/Images/InlineHelp14.png" />
+    <Link
+      Url="Content/Resources/Images/InlineHelp15.png" />
+    <Link
+      Url="Content/Resources/Images/InlineHelp16.png" />
+    <Link
+      Url="Content/Resources/Images/InlineHelp17.png" />
+  </Links>
+  <LongLinks>
+    <Link
+      Url="Content/Resources/MasterPages/DocProcess.flmsp" />
+    <Link
+      Url="Content/Resources/Stylesheets/Styles.css" />
+    <Link
+      Url="Content/Resources/Stylesheets/newDefault.css" />
+    <Link
+      Url="Content/Resources/TableStylesheets/fielddescription.css" />
+    <Link
+      Url="Content/DocProcess/Adding_Inline_and_PageLevel_Help.html#AddPageLevel" />
+    <Link
+      Url="Content/DocProcess/Adding_Inline_and_PageLevel_Help.html#AddInline" />
+    <Link
+      Url="https://login.syniti-dev.com/home" />
+    <Link
+      Url="https://docs.google.com/document/d/10SzZFPtGuzsr-IUJiFkP590SowGlHxIVaqcP_e8Jbi0/edit?usp=sharing" />
+    <Link
+      Url="https://entota.atlassian.net/wiki/spaces/SYNITI/pages/1406468543/In-line+Help+Standards" />
+    <Link
+      Url="https://github.com/BackOfficeAssoc/skt-ui/wiki/Localization" />
+    <Link
+      Url="Content/Resources/Images/InlineHelp1.png" />
+    <Link
+      Url="https://app.i18nexus.com/" />
+    <Link
+      Url="Content/Resources/Images/InlineHelp2.png" />
+    <Link
+      Url="https://github.com/BackOfficeAssoc/skt-ui/wiki/Localization#key-naming" />
+    <Link
+      Url="Content/Resources/Images/InlineHelp3.png" />
+    <Link
+      Url="https://entota.atlassian.net/browse/KYB-3897" />
+    <Link
+      Url="https://entota.atlassian.net/browse/KYB-3845" />
+    <Link
+      Url="Content/Resources/Images/InlineHelp4.png" />
+    <Link
+      Url="Content/Resources/Images/InlineHelp5.png" />
+    <Link
+      Url="Content/Resources/Images/InlineHelp6.png" />
+    <Link
+      Url="Content/Resources/Images/InlineHelp7.png" />
+    <Link
+      Url="Content/Resources/Images/InlineHelp8.png" />
+    <Link
+      Url="Content/Resources/Images/InlineHelp9.png" />
+    <Link
+      Url="https://www.markdownguide.org/" />
+    <Link
+      Url="https://www.markdowntutorial.com/" />
+    <Link
+      Url="https://stackedit.io/app#" />
+    <Link
+      Url="https://code.visualstudio.com/docs/languages/markdown" />
+    <Link
+      Url="Content/Resources/Images/InlineHelp10.png" />
+    <Link
+      Url="Content/Resources/Images/InlineHelp11.png" />
+    <Link
+      Url="https://github.com/BackOfficeAssoc/skt-ui/blob/main/config%2Froutes.ts" />
+    <Link
+      Url="Content/Resources/Images/InlineHelp12.png" />
+    <Link
+      Url="Content/Resources/Images/InlineHelp13.png" />
+    <Link
+      Url="Content/Resources/Images/InlineHelp14.png" />
+    <Link
+      Url="Content/Resources/Images/InlineHelp15.png" />
+    <Link
+      Url="Content/Resources/Images/InlineHelp16.png" />
+    <Link
+      Url="Content/DocProcess/Adding_Inline_and_PageLevel_Help.html#CreatePR" />
+    <Link
+      Url="Content/Resources/Images/InlineHelp17.png" />
+  </LongLinks>
+  <Anchors>
+    <Anchor
+      Name="AddInline" />
+    <Anchor
+      Name="Create" />
+    <Anchor
+      Name="CreatePR" />
+    <Anchor
+      Name="AddPageLevel" />
+  </Anchors>
+  <Keywords />
+  <Concepts />
+  <ConceptControlNames />
+  <IndexControlNames />
+  <Variables />
+  <FileConditions />
+  <FileTags />
+  <AllConditions />
+  <Stylesheets>
+    <Url
+      Source="Content/Resources/Stylesheets/Styles.css" />
+    <Url
+      Source="Content/Resources/Stylesheets/newDefault.css" />
+    <Url
+      Source="Content/Resources/TableStylesheets/fielddescription.css" />
+  </Stylesheets>
+</CatapultFileLinkSet>
