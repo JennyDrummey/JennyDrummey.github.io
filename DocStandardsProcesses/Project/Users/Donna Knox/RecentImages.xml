@@ -1,5 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <UrlList>
+    <Url Source="Resources/Images/DT1451_7.png" />
+    <Url Source="Resources/Images/DT1451_6.png" />
+    <Url Source="Resources/Images/DT1451_5.png" />
+    <Url Source="Resources/Images/DT1451_4.png" />
+    <Url Source="Resources/Images/DT1451_3.png" />
+    <Url Source="Resources/Images/DT1451_2.png" />
+    <Url Source="Resources/Images/DT1451_1.png" />
     <Url Source="Resources/Images/SKPReleaseNotesExample.png" />
     <Url Source="Resources/Images/WeeklySKPReleases_2.png" />
     <Url Source="Resources/Images/WeeklySKPReleases_1.PNG" />
@@ -13,11 +20,4 @@
     <Url Source="Resources/Images/InlineHelp10.png" />
     <Url Source="Resources/Images/InlineHelp9.png" />
     <Url Source="Resources/Images/InlineHelp8.png" />
-    <Url Source="Resources/Images/InlineHelp7.png" />
-    <Url Source="Resources/Images/InlineHelp6.png" />
-    <Url Source="Resources/Images/InlineHelp5.png" />
-    <Url Source="Resources/Images/InlineHelp4.png" />
-    <Url Source="Resources/Images/InlineHelp3.png" />
-    <Url Source="Resources/Images/InlineHelp2.png" />
-    <Url Source="Resources/Images/InlineHelp1.png" />
 </UrlList>
