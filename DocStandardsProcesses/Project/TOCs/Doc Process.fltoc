@@ -91,6 +91,9 @@
     <TocEntry
       Title="Create Weekly SKP Release Notes"
       Link="/Content/DocProcess/Create Weekly SKP Release Notes .htm" />
+    <TocEntry
+      Title="Create Monthly Construct and Migrate Release Notes"
+      Link="/Content/DocProcess/Create_Monthly_ConstructMigrate_Release_Notes .htm" />
   </TocEntry>
   <TocEntry
     Title="Source Files for Manuals and Help"
