@@ -5,13 +5,13 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <meta name="msapplication-config" content="../../Skins/Favicons/browserconfig.xml" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="apple-touch-icon" sizes="180x180" href="../../Skins/Favicons/apple-touch-icon.png" />
         <link rel="shortcut icon" href="../../Skins/Favicons/favicon-32x32.png" />
         <link rel="icon" sizes="96x96" href="../../Skins/Favicons/favicon-96x96.png" />
         <link rel="icon" sizes="32x32" href="../../Skins/Favicons/favicon-32x32.png" />
         <link rel="icon" sizes="16x16" href="../../Skins/Favicons/favicon-16x16.png" />
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" /><title data-title="BOA Help">Publish SKT Help</title>
+        <meta charset="utf-8" /><title data-title="BOA Help">SKP Help</title>
         <!-- Scripts for menu modal dropdown, popup modals, and back-to-top button. -->
         <link href="../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
         <link href="../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
@@ -19,10 +19,12 @@
         <link href="../../Skins/Default/Stylesheets/Components/Styles.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
         <link href="../../Skins/Default/Stylesheets/Components/Tablet.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
         <link href="../../Skins/Default/Stylesheets/Components/Mobile.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../Skins/Default/Stylesheets/Components/Print.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
         <link href="../../Skins/Fluid/Stylesheets/foundation.6.2.3.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
         <link href="../../Skins/Fluid/Stylesheets/Styles.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
         <link href="../../Skins/Fluid/Stylesheets/Tablet.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
         <link href="../../Skins/Fluid/Stylesheets/Mobile.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../Skins/Fluid/Stylesheets/Print.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
         <link href="../Resources/Stylesheets/newDefault.css" rel="stylesheet" type="text/css" />
         <style>/*&lt;meta /&gt;*/
 
@@ -194,9 +196,8 @@
                                                 <br />
                                                 <br />
                                                 <div role="main" id="mc-main-content">
-                                                    <h1>Publish SKT Help</h1>
-                                                    <p>SKT Help updates can be published anytime and do not require a jenkins build. When a ticket on the Syniti Knowledge Tier (Kyb) board reaches the Prod swimlane,  it is deployed and the related documentation should be published.</p>
-                                                    <p>To publish Help:</p>
+                                                    <h1>SKP Help</h1>
+                                                    <p>SKP Help is more dynamic as it is working in a cloud environment where the changes made to this system are made live and active each week.  There are no versions.  Most of documentation’s steps are exactly the same as for SST. The steps are listed below:</p>
                                                     <ol>
                                                         <li value="1">
                                                             <p>Prepare the help content as described in the  <a href="BOADocProcess_DSPDocOverview.html" target="_blank" rel="noopener noreferrer">Documentation Process Overview</a>. Only content approved by a PM&#160;or Dev should be added to the help. </p>
@@ -209,29 +210,30 @@
                                                             </p>
                                                         </li>
                                                         <li value="4">
-                                                            <p>Make updates and note them in your <a href="BOADocProcess_Workflow_Approved.html#Author" target="_blank" rel="noopener noreferrer">Author Notes</a>. </p>
+                                                            <p>Make updates within Flare and note them in your <a href="BOADocProcess_Workflow_Approved.html#Author" target="_blank" rel="noopener noreferrer">Author Notes</a>. </p>
                                                             <p class="note"><b>NOTE</b>: If you are making changes to the What's New topic and they are the first changes made in a month, you must <a href="#Add" target="_blank" rel="noopener noreferrer">add that month to the drop-down list that displays on the What's New page</a>. </p>
                                                         </li>
                                                         <li value="5">
-                                                            <p><a href="#Build" target="_blank" rel="noopener noreferrer">Build and Publish</a> the target.</p>
+                                                            <p><a href="#Commit" target="_blank" rel="noopener noreferrer">Commit updates locally and push to remote</a>.</p>
                                                         </li>
                                                         <li value="6">
-                                                            <p>Commit updates locally and push to remote.</p>
+                                                            <p><a href="BOADocProcess_Workflow_Approved.html#Author3" target="_blank" rel="noopener noreferrer">Merge your changes to the develop branch</a>. </p>
+                                                            <p class="note"><b>NOTE</b>: Pushing content to develop automatically starts a build in jenkins called ‘<b>CloudDocsDev</b>’ to build the new content in the dev site. There is no need to access jenkins when updating SKP help (unless to check for failure issues).</p>
                                                         </li>
                                                         <li value="7">
-                                                            <p>Merge your changes to the develop branch. This will automatically start a jenkins job that will copy the updated help system to the dev environment.</p>
-                                                        </li>
-                                                        <li value="8">
                                                             <p>When the changes are available on the develop site, ask for a peer review. </p>
                                                         </li>
-                                                        <li value="9">
-                                                            <p>When the peer review is complete, merge the develop branch to the master branch to push the changes to the prod environment. </p>
+                                                        <li value="8">
+                                                            <p>When the <a href="#PeerReview" target="_blank" rel="noopener noreferrer">peer review</a> is complete, <a href="#Merge">merge the develop branch to the master branch</a> to push the changes to the prod environment. </p>
                                                         </li>
                                                     </ol>
                                                     <h2><a name="Synchron"></a>Synchronize your local repo develop branch with the remote develop branch and create a new branch</h2>
                                                     <ol>
                                                         <li value="1">
-                                                            <p>Right-click your local repo folder and select <b>Git Bash Here</b> from the dropdown menu to open the command prompt at that location.</p>
+                                                            <p>Right-click your local repo folder and select <b>Git Bash Here</b> from the drop-down menu to open the command prompt at that location.</p>
+                                                            <p>
+                                                                <img src="../Resources/Images/gitBashHere.png" />
+                                                            </p>
                                                         </li>
                                                         <li value="2">
                                                             <p>Review the current branch, which appears in parenthesis at the end of the line. If you are not currently in the develop branch, switch to the develop branch by entering the git command <b>git checkout develop</b>.</p>
@@ -240,15 +242,15 @@
                                                             <p>Enter the git command <b>git pull origin develop</b> to synchronize your local copy of the develop branch with the remote copy.</p>
                                                             <p class="note"><b>NOTE:</b> You MUST perform these steps before you make updates to ensure you are working in the latest copy of the develop branch.</p>
                                                         </li>
-                                                        <li value="4"> Enter git command <span style="font-family: Consolas; font-weight: bold;">git checkout -b BranchName</span> to create a personal branch in which to make edits, where <span style="font-family: Consolas;">BranchName</span> is a brief description of the branch.</li>
+                                                        <li value="4"> Enter git command <span style="font-family: Consolas; font-weight: bold;">git checkout -b &lt;BranchName&gt;</span> to create a personal branch in which to make edits, where <span style="font-family: Consolas;">BranchName</span> is a brief description of the branch.</li>
                                                     </ol>
                                                     <ol data-mc-continue="true">
                                                         <li value="5">
-                                                            <p>Open the SKT help project in Flare and make updates.</p>
+                                                            <p>Open the SKP help project in Flare and make updates.</p>
                                                         </li>
                                                     </ol>
                                                     <h2><a name="Add"></a>Add Month to the Drop-down List on the What's New Page</h2>
-                                                    <p>If you are adding content to the What's New topic at the start of a new month, you must update the month option in the menu. </p>
+                                                    <p>If you are adding content to the What's New topic at the start of a new month, you must update the month option in the menu. Refer to <a href="Create Weekly SKP Release Notes .htm" target="_blank" rel="noopener noreferrer">Create Weekly SKP Release Notes</a> for the process to build out each week's notes. Paste them by Friday of each week into this What's New Page. </p>
                                                     <p>
                                                         <img src="../Resources/Images/image1.png" />
                                                     </p>
@@ -272,46 +274,21 @@
                                                             <p>Click <b>Save</b>. </p>
                                                         </li>
                                                     </ol>
-                                                    <h2><a name="Build"></a>Build and Publish Target</h2>
-                                                    <p>To build and publish a target in Flare:</p>
+                                                    <h2><a name="Build"></a>Build a Target</h2>
+                                                    <p>These steps will build out the target so that the documentation may be viewed as it will online in the dev or prod environments. A build may be run at any time, however, do not run a Publish as it will cause issues to the project.</p>
+                                                    <p>To build a target in Flare:</p>
                                                     <ol>
                                                         <li value="1">
-                                                            <p>Open Flare, click the down arrow on the <b>Build Primary</b> button and select <b>HTML5 SKT Help</b>.</p>
+                                                            <p>Within Flare, while viewing an open project, select the <b>Project</b> tab and click the down arrow on the <b>Build Primary</b> button to select <b>HTML5 SKT Help</b>.</p>
                                                         </li>
                                                         <li value="2">
-                                                            <p>Open <b>Project Organizer &gt; Targets</b>.</p>
-                                                        </li>
-                                                        <li value="3">
-                                                            <p>Double-click <b>HTML5 SKT Help (Primary)</b> .</p>
-                                                        </li>
-                                                        <li value="4">
-                                                            <p>Click <b>Publishing</b> tab.</p>
-                                                        </li>
-                                                        <li value="5">
-                                                            <p>Select the Destination being updated: <b>HTML5 SKT</b>.</p>
-                                                        </li>
-                                                        <li value="6">
-                                                            <p>Click the <b>Edit Destination</b> button; a new tab opens.</p>
-                                                        </li>
-                                                        <li value="7">
-                                                            <p>Click the <b>…</b> button to edit the Directory.</p>
-                                                        </li>
-                                                        <li value="8">
-                                                            <p>Select the destination folder<b>: IGCHelp</b>.</p>
-                                                            <p class="note"><b>NOTE:</b> You must select your own IGCHelp output folder. For example, ~/CarolineStJohn/IGCHelp...</p>
-                                                        </li>
-                                                        <li value="9">
-                                                            <p>Click <b>Save</b>. </p>
-                                                        </li>
-                                                        <li value="10">
-                                                            <p>Click <b>OK</b> to the warning message that displays and close the tab.</p>
-                                                        </li>
-                                                        <li value="11">
-                                                            <p>Click the <b>Publish</b> button on the topic toolbar of the Target Editor tab.</p>
+                                                            <p>A panel will display at screen bottom for this build showing the status and progression. Once complete, and successful, double click on the row to open for a view of the online help pages as they would display in a live setting.</p>
+                                                            <p>
+                                                                <img src="../Resources/Images/BuildTarget1.png" />
+                                                            </p>
                                                         </li>
                                                     </ol>
-                                                    <p>Proceed with committing changes in GitHub (git add., git commit, give push origin and create a pull request).</p>
-                                                    <h2>Commit updates locally and push to remote</h2>
+                                                    <h2><a name="Commit"></a>Commit updates locally and push to remote</h2>
                                                     <ol>
                                                         <li value="1">
                                                             <p>Return to Git Bash or open a new session.</p>
@@ -333,7 +310,7 @@
                                                             <p class="note"><b>NOTE:</b> Do not use special characters, like apostrophes, in message.</p>
                                                         </li>
                                                         <li value="6">
-                                                            <p>Enter the git command <span style="font-family: Consolas;">git push origin BranchName</span> to push your updates to the remote repo.</p>
+                                                            <p>Enter the git command <span style="font-family: Consolas; font-weight: bold;">git push origin &lt;BranchName&gt;</span> to push your updates to the remote repo.</p>
                                                         </li>
                                                         <li value="7">
                                                             <p>Create pull request to merge BranchName into develop.</p>
@@ -342,7 +319,32 @@
                                                             <p>Post to the doc_checkouts channel in Slack requesting a peer review. </p>
                                                         </li>
                                                     </ol>
-                                                    <h2>Perform SKT Help Peer Review</h2>
+                                                    <h2><a name="Merge"></a>Merge the Develop Branch to the Master Branch</h2>
+                                                    <ol>
+                                                        <li value="1">
+                                                            <p>Go to GitHub.com and access the appropriate repo.</p>
+                                                            <p>
+                                                                <img src="../Resources/Images/GithubMerge1.png" />
+                                                            </p>
+                                                        </li>
+                                                        <li value="2">
+                                                            <p>Within the Branches screen select the branch for master and click <b>New Pull Request</b> button.</p>
+                                                            <p>
+                                                                <img src="../Resources/Images/githubMerge2.png" />
+                                                            </p>
+                                                        </li>
+                                                        <li value="3">
+                                                            <p>The new pull request will default with the <b>base:</b> develop and the <b>compare:</b> master. Update both fields to base: master and compare:develop - in this way the develop is being pushed to the master as shown below.</p>
+                                                            <p>
+                                                                <img src="../Resources/Images/githubMerge3.png" />
+                                                            </p>
+                                                        </li>
+                                                        <li value="4">
+                                                            <p>Click the <b>Merge</b> then <b>Confirm Merge</b> buttons to complete this process. The master will now match the develop for igc-help project.</p>
+                                                            <p class="note"><b>NOTE</b>: Pushing content to master automatically starts a build in jenkins called ‘<b>CloudDocsProd</b>’ to build the new content in the prod site. There is no need to access jenkins when updating SKP help (unless to check for failure issues).</p>
+                                                        </li>
+                                                    </ol>
+                                                    <h2><a name="PeerReview"></a>Perform SKP Help Peer Review</h2>
                                                     <p>Follow the steps listed <a href="BOADocProcess_Workflow_PeerReview.html" target="_blank" rel="noopener noreferrer">here</a>. </p>
                                                 </div>
                                                 <div id="feedback-survey">

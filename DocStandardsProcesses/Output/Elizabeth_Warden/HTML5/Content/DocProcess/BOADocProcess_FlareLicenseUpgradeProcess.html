@@ -5,13 +5,13 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <meta name="msapplication-config" content="../../Skins/Favicons/browserconfig.xml" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="apple-touch-icon" sizes="180x180" href="../../Skins/Favicons/apple-touch-icon.png" />
         <link rel="shortcut icon" href="../../Skins/Favicons/favicon-32x32.png" />
         <link rel="icon" sizes="96x96" href="../../Skins/Favicons/favicon-96x96.png" />
         <link rel="icon" sizes="32x32" href="../../Skins/Favicons/favicon-32x32.png" />
         <link rel="icon" sizes="16x16" href="../../Skins/Favicons/favicon-16x16.png" />
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" /><title data-title="BOA Help">MadCap Flare Licensing and Upgrade Process</title>
+        <meta charset="utf-8" /><title data-title="BOA Help">MadCap Flare Licensing and Upgrade Process</title>
         <!-- Scripts for menu modal dropdown, popup modals, and back-to-top button. -->
         <link href="../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
         <link href="../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
@@ -19,10 +19,12 @@
         <link href="../../Skins/Default/Stylesheets/Components/Styles.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
         <link href="../../Skins/Default/Stylesheets/Components/Tablet.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
         <link href="../../Skins/Default/Stylesheets/Components/Mobile.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../Skins/Default/Stylesheets/Components/Print.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
         <link href="../../Skins/Fluid/Stylesheets/foundation.6.2.3.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
         <link href="../../Skins/Fluid/Stylesheets/Styles.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
         <link href="../../Skins/Fluid/Stylesheets/Tablet.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
         <link href="../../Skins/Fluid/Stylesheets/Mobile.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../Skins/Fluid/Stylesheets/Print.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
         <link href="../Resources/Stylesheets/newDefault.css" rel="stylesheet" type="text/css" />
         <style>/*&lt;meta /&gt;*/
 
@@ -197,31 +199,139 @@
                                                     <p>
                                                         <h1>MadCap Flare Licensing and Upgrade Process</h1>
                                                         <p class="note"><b>NOTE:</b> The Documentation Team uses Madcap Flare to generate the online Help for  Syniti products. Contact the Technical Writer Manager for the Flare license key to install or upgrade the software and the maintenance key to use to report problems with the Flare software.</p>
-                                                        <p>When upgrading the software, the Technical Writer Manager assigns one writer to upgrade and test the upgrade for Flare. The writer who tests the upgrade performs the following checks:</p>
-                                                        <ul>
-                                                            <li>
+                                                        <p class="note">When upgrading Flare, you must <a href="#UpgradeYourLocalVersion">upgrade your local version</a> and the <a href="#UpgradeFlareServer">upgrade the version on the Jenkins server</a>.</p>
+                                                        <h3><span class="H2"><a name="UpgradeYourLocalVersion"></a>Upgrade your local version </span>
+                                                        </h3>
+                                                        <p>When upgrading the software, the Technical Writer Manager assigns one writer to upgrade and test the upgrade for Flare. Upgrade your local version of Flare and perform the following checks:</p>
+                                                        <ol>
+                                                            <li value="1">
                                                                 <p>Build each Target in each Flare project to make sure there are no build errors.</p>
-                                                                <p class="note"><b>NOTE:</b> If there are build errors export the build log and report the issue to Flare support.</p>
                                                             </li>
-                                                        </ul>
-                                                        <ul>
-                                                            <li>
+                                                        </ol>
+                                                        <p class="note"><b>NOTE:</b> If there are build errors export the build log and report the issue to Flare support.</p>
+                                                        <ol data-mc-continue="true">
+                                                            <li value="2">
                                                                 <p>Check the output to make sure that the master pages are applied correctly.</p>
                                                             </li>
+                                                        </ol>
+                                                        <ol data-mc-continue="true">
+                                                            <li value="3">
+                                                                <p>Click on all clickable items and verify they work as expected (for example the arrow drop down menu next to the logo in the header).</p>
+                                                            </li>
+                                                            <li value="4">
+                                                                <p>Verify that the feedback link in the topic footer works.</p>
+                                                            </li>
+                                                            <li value="5">
+                                                                <p>Make sure the print and Remove Highlights icons in the Help toolbar work.</p>
+                                                            </li>
+                                                        </ol>
+                                                        <p>For the SST Help project if everything checks out, commit a build to source control and make sure that the Context Sensitive Help is working as expected in a test SST environment.</p>
+                                                        <p>Once the build is confirmed working in the SST test environment, notify the Documentation Team that they can upgrade.</p>
+                                                        <h3 class="masterpage" style="font-size: 1.5em;"><a name="UpgradeFlareServer"></a>Upgrade Flare on the Jenkins Server</h3>
+                                                        <p>Upgrading Flare on the Jenkins server requires an AWS VPN connection and a login to the remote desktop.</p>
+                                                        <h3 class="masterpage">Get the correct access</h3>
+                                                        <ul>
+                                                            <li>
+                                                                <p><b>AWS VPN—</b><a href="https://backofficeassociates.zendesk.com/agent/dashboard" target="_blank" rel="noopener noreferrer">Submit a ticket to Syniti Support</a> to request a connection to the AWS VPN. You will receive an email from CloudOps with instructions on what to download and how to connect. Run through these steps to ensure you can connect.</p>
+                                                            </li>
                                                         </ul>
                                                         <ul>
                                                             <li>
-                                                                <p>Click on all clickable items and verify they work as expected (for example the arrow drop down menu next to the logo in the header).</p>
-                                                            </li>
-                                                            <li>
-                                                                <p>Verify that the feedback link in the topic footer works.</p>
-                                                            </li>
-                                                            <li>
-                                                                <p>Make sure the print and Remove Highlights icons in the Help toolbar work.</p>
+                                                                <p><b>Remote Desktop—</b>Ask a member of the Doc Team to create you a login. Refer to <a href="#CreateRemoteDesktopUser">Create a User Account for the Remote Desktop</a> for details. Log into the Remote Desktop to ensure you can connect. IP Address of the server is <b>172.31.88.245</b></p>
                                                             </li>
                                                         </ul>
-                                                        <p>For the SST Help project if everything checks out, commit a build to source control and make sure that the Context Sensitive Help is working as expected in a test SST environment.</p>
-                                                        <p>Once the build is confirmed working in the SST test environment, notify the Documentation Team that they can upgrade.</p>
+                                                        <h3 class="masterpage">Perform the Flare upgrade</h3>
+                                                        <ol>
+                                                            <li value="1">
+                                                                <p><a href="https://backofficeassociates.zendesk.com/agent/dashboard" target="_blank" rel="noopener noreferrer">Submit a ticket to Syniti Support</a>, requesting CloudOps to take an AMI the Jenkins server before performing the Flare upgrade. Syniti Support will need the IP Address of the server to complete this request (172.31.88.245).</p>
+                                                                <p class="noteNumList"><b>NOTE:</b> An AMI is an image; we want to capture the state of the server prior to the upgrade for safety. If anything breaks, we can revert to a copy of the server beforehand.</p>
+                                                            </li>
+                                                        </ol>
+                                                        <ol data-mc-continue="true">
+                                                            <li value="2">
+                                                                <p>Wait for CloudOps to reply saying that the AMI finished.</p>
+                                                            </li>
+                                                            <li value="3">
+                                                                <p>Message the team to ensure no one is actively using Flare.</p>
+                                                            </li>
+                                                            <li value="4">
+                                                                <p>Connect to the AWS VPN. If the connection was correctly set up, this step is as simple as opening the AWS VPN Client and clicking <b>Connect</b>.</p>
+                                                                <p>
+                                                                    <img src="../Resources/Images/UpgradeFlareServer_AWS VPN.png" />
+                                                                </p>
+                                                            </li>
+                                                            <li value="5">
+                                                                <p>Log into the Remote Desktop. If the connection was correctly set up, this step is as simple as opening the Remote Desktop Connection and clicking <b>Connect</b>. If you did not save your login credentials, you will have to enter them before connecting.</p>
+                                                                <p>
+                                                                    <img src="../Resources/Images/UpgradeFlareServer_Remote Desktop.png" />
+                                                                </p>
+                                                            </li>
+                                                            <li value="6">
+                                                                <p>Open Flare and perform the upgrade.</p>
+                                                                <p class="noteNumList"><b>NOTE:</b> If downloads from the Flare website are blocked on the server, copy the Flare install .exe file from your local computer to the Jenkins server. Then, open and run the .exe file on the server to complete the install.</p>
+                                                            </li>
+                                                            <li value="7">
+                                                                <p>Reply in the Support ticket that the upgrade is complete and request another AMI of the server to capture the new version of Flare.</p>
+                                                            </li>
+                                                        </ol>
+                                                        <p>
+                                                            <h3 class="masterpage"><a name="CreateRemoteDesktopUser"></a>Create a User Account for the Remote Desktop</h3>
+                                                        </p>
+                                                        <p>For new team members, create a user account for the remote desktop.</p>
+                                                        <p>To create a user account for the remote desktop:</p>
+                                                        <ol>
+                                                            <li value="1">
+                                                                <p>Connect to the AWS VPN.</p>
+                                                            </li>
+                                                            <li value="2">
+                                                                <p>Log into the Remote Desktop.</p>
+                                                            </li>
+                                                            <li value="3">
+                                                                <p>Right-click Windows Start and select <b>Computer Managemen</b>t.</p>
+                                                            </li>
+                                                            <li value="4">
+                                                                <p>Expand <b>Local Users and Groups</b>.</p>
+                                                            </li>
+                                                            <li value="5">
+                                                                <p>Right-click <b>Users</b> and select <b>New User…</b></p>
+                                                            </li>
+                                                            <li value="6">
+                                                                <p>Enter a <b>User name</b> following the convention <b>FirstInitialLastName</b>, e.g., EWarden.</p>
+                                                            </li>
+                                                            <li value="7">
+                                                                <p>Enter any password (the user can change it at login). Feel free to use a <a href="https://www.lastpass.com/features/password-generator" target="_blank" rel="noopener noreferrer">password generato</a>r to take the guesswork out of the process.</p>
+                                                            </li>
+                                                            <li value="8">
+                                                                <p>Uncheck <b>User must change password at next logon</b> check box.</p>
+                                                            </li>
+                                                            <li value="9">
+                                                                <p>Check <b>Password never expires</b> check box.</p>
+                                                            </li>
+                                                            <li value="10">
+                                                                <p>Click <b>Create</b>.</p>
+                                                            </li>
+                                                            <li value="11">
+                                                                <p>Return to Computer Management.</p>
+                                                            </li>
+                                                            <li value="12">
+                                                                <p>Click <b>Groups</b>.</p>
+                                                            </li>
+                                                            <li value="13">
+                                                                <p>Right-click <b>Administrators</b> and select <b>Add to Group …</b></p>
+                                                            </li>
+                                                            <li value="14">
+                                                                <p>Click <b>Add</b>.</p>
+                                                                <p>
+                                                                    <img src="../Resources/Images/UpgradeFlareServer_Create Remote Desktop User.png" />
+                                                                </p>
+                                                            </li>
+                                                            <li value="15">
+                                                                <p>Enter the username in the <b>Enter the object names to select</b> text box and click <b>Check Names</b>. The new account name displays.</p>
+                                                            </li>
+                                                            <li value="16">
+                                                                <p>Click <b>OK</b>. The user has been created and added as an Administrator.</p>
+                                                            </li>
+                                                        </ol>
                                                     </p>
                                                 </div>
                                                 <div id="feedback-survey">

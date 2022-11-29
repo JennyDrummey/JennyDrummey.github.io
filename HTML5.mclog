@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<MadCapLog Protocol="2" Description="MadCap Flare 2022 Generated HTML5.fltar" Date="2022-10-07T15:14:58.1982872-05:00">
+<MadCapLog Protocol="2" Description="MadCap Flare 2022 r2 Generated HTML5.fltar" Date="2022-11-29T14:00:30.6692479-05:00">
     <Messages>Compiling target HTML5...
 Removing previously generated content...
 Loading skin info...
@@ -24,10 +24,10 @@ Processing sub-toc: Doc Process.fltoc...
 Generated DocProcess\BOADocProcess_DSPDocOverview.html
 Processing topic: SSTDocStandards\BOADocStandards_Overview.html...
 Applying template page DocStandards.flmsp...
-Missing snippet file: C:\Users\Donna Knox\git\JennyDrummey.github.io\DocStandardsProcesses\Content\Snippets\CopyrightFooter.flsnp
+Missing snippet file: C:\Users\Elizabeth Warden\Documents\Git\JennyDrummey.github.io\DocStandardsProcesses\Content\Snippets\CopyrightFooter.flsnp
 Processing sub-toc: SST Doc Standards.fltoc...
-Link points outside project file:///C:/Users/Donna Knox/git/JennyDrummey.github.io/DocStandardsProcesses/Data_Insiders_Community.htm
-Missing linked source file: C:\Users\Donna Knox\git\JennyDrummey.github.io\DocStandardsProcesses\Content\Images\topNav\SynitiGradientLogo.png
+Link points outside project file:///C:/Users/Elizabeth Warden/Documents/Git/JennyDrummey.github.io/DocStandardsProcesses/Data_Insiders_Community.htm
+Missing linked source file: C:\Users\Elizabeth Warden\Documents\Git\JennyDrummey.github.io\DocStandardsProcesses\Content\Images\topNav\SynitiGradientLogo.png
 Generated SSTDocStandards\BOADocStandards_Overview.html
 Processing topic: DocProcess\BOADocProcess_AliasValueRange.html...
 Applying template page DocProcess.flmsp...
@@ -37,15 +37,15 @@ Applying template page DocProcess.flmsp...
 Generated DocProcess\BOADocProcess_GitResources.html
 Processing topic: SSTDocStandards\BOADocStandards_PDOverview.html...
 Applying template page DocStandards.flmsp...
-Missing snippet file: C:\Users\Donna Knox\git\JennyDrummey.github.io\DocStandardsProcesses\Content\Snippets\CopyrightFooter.flsnp
-Link points outside project file:///C:/Users/Donna Knox/git/JennyDrummey.github.io/DocStandardsProcesses/Data_Insiders_Community.htm
-Missing linked source file: C:\Users\Donna Knox\git\JennyDrummey.github.io\DocStandardsProcesses\Content\Images\topNav\SynitiGradientLogo.png
+Missing snippet file: C:\Users\Elizabeth Warden\Documents\Git\JennyDrummey.github.io\DocStandardsProcesses\Content\Snippets\CopyrightFooter.flsnp
+Link points outside project file:///C:/Users/Elizabeth Warden/Documents/Git/JennyDrummey.github.io/DocStandardsProcesses/Data_Insiders_Community.htm
+Missing linked source file: C:\Users\Elizabeth Warden\Documents\Git\JennyDrummey.github.io\DocStandardsProcesses\Content\Images\topNav\SynitiGradientLogo.png
 Generated SSTDocStandards\BOADocStandards_PDOverview.html
 Processing topic: SSTDocStandards\BOADocStandards_GuidelinesTerms.html...
 Applying template page DocStandards.flmsp...
-Missing snippet file: C:\Users\Donna Knox\git\JennyDrummey.github.io\DocStandardsProcesses\Content\Snippets\CopyrightFooter.flsnp
-Link points outside project file:///C:/Users/Donna Knox/git/JennyDrummey.github.io/DocStandardsProcesses/Data_Insiders_Community.htm
-Missing linked source file: C:\Users\Donna Knox\git\JennyDrummey.github.io\DocStandardsProcesses\Content\Images\topNav\SynitiGradientLogo.png
+Missing snippet file: C:\Users\Elizabeth Warden\Documents\Git\JennyDrummey.github.io\DocStandardsProcesses\Content\Snippets\CopyrightFooter.flsnp
+Link points outside project file:///C:/Users/Elizabeth Warden/Documents/Git/JennyDrummey.github.io/DocStandardsProcesses/Data_Insiders_Community.htm
+Missing linked source file: C:\Users\Elizabeth Warden\Documents\Git\JennyDrummey.github.io\DocStandardsProcesses\Content\Images\topNav\SynitiGradientLogo.png
 Generated SSTDocStandards\BOADocStandards_GuidelinesTerms.html
 Processing topic: DocProcess\AdditionalDocTeamTasks.html...
 Applying template page DocProcess.flmsp...
@@ -55,27 +55,27 @@ Topic contains invalid XHTML.
 Generated SSTDocStandards\BOADocStandards_PrintStyles.html
 Processing topic: SSTDocStandards\BOADocStandards_DashGuidelines.html...
 Applying template page DocStandards.flmsp...
-Missing snippet file: C:\Users\Donna Knox\git\JennyDrummey.github.io\DocStandardsProcesses\Content\Snippets\CopyrightFooter.flsnp
-Link points outside project file:///C:/Users/Donna Knox/git/JennyDrummey.github.io/DocStandardsProcesses/Data_Insiders_Community.htm
-Missing linked source file: C:\Users\Donna Knox\git\JennyDrummey.github.io\DocStandardsProcesses\Content\Images\topNav\SynitiGradientLogo.png
+Missing snippet file: C:\Users\Elizabeth Warden\Documents\Git\JennyDrummey.github.io\DocStandardsProcesses\Content\Snippets\CopyrightFooter.flsnp
+Link points outside project file:///C:/Users/Elizabeth Warden/Documents/Git/JennyDrummey.github.io/DocStandardsProcesses/Data_Insiders_Community.htm
+Missing linked source file: C:\Users\Elizabeth Warden\Documents\Git\JennyDrummey.github.io\DocStandardsProcesses\Content\Images\topNav\SynitiGradientLogo.png
 Generated SSTDocStandards\BOADocStandards_DashGuidelines.html
 Processing topic: DocProcess\BOADocProcess_GitInitSetup.html...
 Applying template page DocProcess.flmsp...
 Generated DocProcess\BOADocProcess_GitInitSetup.html
 Processing topic: SKTDocStandards\IGCDocStandards_styles.html...
 Applying template page DocStandards.flmsp...
-Missing snippet file: C:\Users\Donna Knox\git\JennyDrummey.github.io\DocStandardsProcesses\Content\Snippets\CopyrightFooter.flsnp
-Link points outside project file:///C:/Users/Donna Knox/git/JennyDrummey.github.io/DocStandardsProcesses/Data_Insiders_Community.htm
-Missing linked source file: C:\Users\Donna Knox\git\JennyDrummey.github.io\DocStandardsProcesses\Content\Images\topNav\SynitiGradientLogo.png
+Missing snippet file: C:\Users\Elizabeth Warden\Documents\Git\JennyDrummey.github.io\DocStandardsProcesses\Content\Snippets\CopyrightFooter.flsnp
+Link points outside project file:///C:/Users/Elizabeth Warden/Documents/Git/JennyDrummey.github.io/DocStandardsProcesses/Data_Insiders_Community.htm
+Missing linked source file: C:\Users\Elizabeth Warden\Documents\Git\JennyDrummey.github.io\DocStandardsProcesses\Content\Images\topNav\SynitiGradientLogo.png
 Generated SKTDocStandards\IGCDocStandards_styles.html
 Processing topic: DocProcess\BOADocProcess_UpdateFlareProjectNewVersion.html...
 Applying template page DocProcess.flmsp...
 Generated DocProcess\BOADocProcess_UpdateFlareProjectNewVersion.html
 Processing topic: SSTDocStandards\BOADocStandards_FDGuidelines.html...
 Applying template page DocStandards.flmsp...
-Missing snippet file: C:\Users\Donna Knox\git\JennyDrummey.github.io\DocStandardsProcesses\Content\Snippets\CopyrightFooter.flsnp
-Link points outside project file:///C:/Users/Donna Knox/git/JennyDrummey.github.io/DocStandardsProcesses/Data_Insiders_Community.htm
-Missing linked source file: C:\Users\Donna Knox\git\JennyDrummey.github.io\DocStandardsProcesses\Content\Images\topNav\SynitiGradientLogo.png
+Missing snippet file: C:\Users\Elizabeth Warden\Documents\Git\JennyDrummey.github.io\DocStandardsProcesses\Content\Snippets\CopyrightFooter.flsnp
+Link points outside project file:///C:/Users/Elizabeth Warden/Documents/Git/JennyDrummey.github.io/DocStandardsProcesses/Data_Insiders_Community.htm
+Missing linked source file: C:\Users\Elizabeth Warden\Documents\Git\JennyDrummey.github.io\DocStandardsProcesses\Content\Images\topNav\SynitiGradientLogo.png
 Generated SSTDocStandards\BOADocStandards_FDGuidelines.html
 Processing topic: DocProcess\BOADocProcess_Update_Doc_Process_Standards.htm...
 Applying template page DocProcess.flmsp...
@@ -100,18 +100,18 @@ Applying template page DocProcess.flmsp...
 Generated DocProcess\BOADocProcess_Workflow_StatusField.html
 Processing topic: SKTDocStandards\IGCDocStandards_useCase.html...
 Applying template page DocStandards.flmsp...
-Missing snippet file: C:\Users\Donna Knox\git\JennyDrummey.github.io\DocStandardsProcesses\Content\Snippets\CopyrightFooter.flsnp
-Link points outside project file:///C:/Users/Donna Knox/git/JennyDrummey.github.io/DocStandardsProcesses/Data_Insiders_Community.htm
-Missing linked source file: C:\Users\Donna Knox\git\JennyDrummey.github.io\DocStandardsProcesses\Content\Images\topNav\SynitiGradientLogo.png
+Missing snippet file: C:\Users\Elizabeth Warden\Documents\Git\JennyDrummey.github.io\DocStandardsProcesses\Content\Snippets\CopyrightFooter.flsnp
+Link points outside project file:///C:/Users/Elizabeth Warden/Documents/Git/JennyDrummey.github.io/DocStandardsProcesses/Data_Insiders_Community.htm
+Missing linked source file: C:\Users\Elizabeth Warden\Documents\Git\JennyDrummey.github.io\DocStandardsProcesses\Content\Images\topNav\SynitiGradientLogo.png
 Generated SKTDocStandards\IGCDocStandards_useCase.html
 Processing topic: DocProcess\Add_Inline_Help.htm...
 Applying template page DocProcess.flmsp...
 Generated DocProcess\Add_Inline_Help.htm
 Processing topic: SSTDocStandards\BOADocStandards_UCGuidelines.html...
 Applying template page DocStandards.flmsp...
-Missing snippet file: C:\Users\Donna Knox\git\JennyDrummey.github.io\DocStandardsProcesses\Content\Snippets\CopyrightFooter.flsnp
-Link points outside project file:///C:/Users/Donna Knox/git/JennyDrummey.github.io/DocStandardsProcesses/Data_Insiders_Community.htm
-Missing linked source file: C:\Users\Donna Knox\git\JennyDrummey.github.io\DocStandardsProcesses\Content\Images\topNav\SynitiGradientLogo.png
+Missing snippet file: C:\Users\Elizabeth Warden\Documents\Git\JennyDrummey.github.io\DocStandardsProcesses\Content\Snippets\CopyrightFooter.flsnp
+Link points outside project file:///C:/Users/Elizabeth Warden/Documents/Git/JennyDrummey.github.io/DocStandardsProcesses/Data_Insiders_Community.htm
+Missing linked source file: C:\Users\Elizabeth Warden\Documents\Git\JennyDrummey.github.io\DocStandardsProcesses\Content\Images\topNav\SynitiGradientLogo.png
 Generated SSTDocStandards\BOADocStandards_UCGuidelines.html
 Processing topic: DocProcess\BOADocProcess_Update_Help_on_Dev_and_Prod_Sites.html...
 Applying template page DocProcess.flmsp...
@@ -121,9 +121,9 @@ Applying template page DocProcess.flmsp...
 Generated DocProcess\BOADocProcess_Workflow_Approved.html
 Processing topic: SSTDocStandards\BOADocStandards_UITerms.html...
 Applying template page DocStandards.flmsp...
-Missing snippet file: C:\Users\Donna Knox\git\JennyDrummey.github.io\DocStandardsProcesses\Content\Snippets\CopyrightFooter.flsnp
-Link points outside project file:///C:/Users/Donna Knox/git/JennyDrummey.github.io/DocStandardsProcesses/Data_Insiders_Community.htm
-Missing linked source file: C:\Users\Donna Knox\git\JennyDrummey.github.io\DocStandardsProcesses\Content\Images\topNav\SynitiGradientLogo.png
+Missing snippet file: C:\Users\Elizabeth Warden\Documents\Git\JennyDrummey.github.io\DocStandardsProcesses\Content\Snippets\CopyrightFooter.flsnp
+Link points outside project file:///C:/Users/Elizabeth Warden/Documents/Git/JennyDrummey.github.io/DocStandardsProcesses/Data_Insiders_Community.htm
+Missing linked source file: C:\Users\Elizabeth Warden\Documents\Git\JennyDrummey.github.io\DocStandardsProcesses\Content\Images\topNav\SynitiGradientLogo.png
 Generated SSTDocStandards\BOADocStandards_UITerms.html
 Processing topic: DocProcess\SKP_Help.htm...
 Applying template page DocProcess.flmsp...
@@ -139,9 +139,9 @@ Applying template page DocProcess.flmsp...
 Generated Ideas_Portal.htm
 Processing topic: SKTDocStandards\IGCDocStandards_screenShots.html...
 Applying template page DocStandards.flmsp...
-Missing snippet file: C:\Users\Donna Knox\git\JennyDrummey.github.io\DocStandardsProcesses\Content\Snippets\CopyrightFooter.flsnp
-Link points outside project file:///C:/Users/Donna Knox/git/JennyDrummey.github.io/DocStandardsProcesses/Data_Insiders_Community.htm
-Missing linked source file: C:\Users\Donna Knox\git\JennyDrummey.github.io\DocStandardsProcesses\Content\Images\topNav\SynitiGradientLogo.png
+Missing snippet file: C:\Users\Elizabeth Warden\Documents\Git\JennyDrummey.github.io\DocStandardsProcesses\Content\Snippets\CopyrightFooter.flsnp
+Link points outside project file:///C:/Users/Elizabeth Warden/Documents/Git/JennyDrummey.github.io/DocStandardsProcesses/Data_Insiders_Community.htm
+Missing linked source file: C:\Users\Elizabeth Warden\Documents\Git\JennyDrummey.github.io\DocStandardsProcesses\Content\Images\topNav\SynitiGradientLogo.png
 Generated SKTDocStandards\IGCDocStandards_screenShots.html
 Processing topic: DocProcess\BOADocProcess_SrcFiles.html...
 Applying template page DocProcess.flmsp...
@@ -153,7 +153,7 @@ Processing topic: DocProcess\BOADocProcess_Workflow_NotStarted.html...
 Applying template page DocProcess.flmsp...
 Generated DocProcess\BOADocProcess_Workflow_NotStarted.html
 Processing topic: When_to_request_a_new_product_license.htm...
-Link points outside project file:///C:/Users/Donna Knox/git/JennyDrummey.github.io/DocStandardsProcesses/Images/NOTI.png
+Link points outside project file:///C:/Users/Elizabeth Warden/Documents/Git/JennyDrummey.github.io/DocStandardsProcesses/Images/NOTI.png
 Applying template page DocProcess.flmsp...
 Generated When_to_request_a_new_product_license.htm
 Processing topic: DocProcess\WriteInlineHelp.html...
@@ -186,9 +186,9 @@ Applying template page DocProcess.flmsp...
 Generated DocProcess\BOADocProcess_PrepareReleaseNotes.html
 Processing topic: SKTDocStandards\IGCDocStandards_wordChoice.html...
 Applying template page DocStandards.flmsp...
-Missing snippet file: C:\Users\Donna Knox\git\JennyDrummey.github.io\DocStandardsProcesses\Content\Snippets\CopyrightFooter.flsnp
-Link points outside project file:///C:/Users/Donna Knox/git/JennyDrummey.github.io/DocStandardsProcesses/Data_Insiders_Community.htm
-Missing linked source file: C:\Users\Donna Knox\git\JennyDrummey.github.io\DocStandardsProcesses\Content\Images\topNav\SynitiGradientLogo.png
+Missing snippet file: C:\Users\Elizabeth Warden\Documents\Git\JennyDrummey.github.io\DocStandardsProcesses\Content\Snippets\CopyrightFooter.flsnp
+Link points outside project file:///C:/Users/Elizabeth Warden/Documents/Git/JennyDrummey.github.io/DocStandardsProcesses/Data_Insiders_Community.htm
+Missing linked source file: C:\Users\Elizabeth Warden\Documents\Git\JennyDrummey.github.io\DocStandardsProcesses\Content\Images\topNav\SynitiGradientLogo.png
 Generated SKTDocStandards\IGCDocStandards_wordChoice.html
 Processing topic: DocProcess\AddDuplicateLinksforSolex.htm...
 Applying template page DocProcess.flmsp...
@@ -198,18 +198,18 @@ Applying template page DocProcess.flmsp...
 Generated DocProcess\BOADocProcess_DIPosts.html
 Processing topic: SSTDocStandards\BOADocStandards_SST_Snippets.html...
 Applying template page DocStandards.flmsp...
-Missing snippet file: C:\Users\Donna Knox\git\JennyDrummey.github.io\DocStandardsProcesses\Content\Snippets\CopyrightFooter.flsnp
-Link points outside project file:///C:/Users/Donna Knox/git/JennyDrummey.github.io/DocStandardsProcesses/Data_Insiders_Community.htm
-Missing linked source file: C:\Users\Donna Knox\git\JennyDrummey.github.io\DocStandardsProcesses\Content\Images\topNav\SynitiGradientLogo.png
+Missing snippet file: C:\Users\Elizabeth Warden\Documents\Git\JennyDrummey.github.io\DocStandardsProcesses\Content\Snippets\CopyrightFooter.flsnp
+Link points outside project file:///C:/Users/Elizabeth Warden/Documents/Git/JennyDrummey.github.io/DocStandardsProcesses/Data_Insiders_Community.htm
+Missing linked source file: C:\Users\Elizabeth Warden\Documents\Git\JennyDrummey.github.io\DocStandardsProcesses\Content\Images\topNav\SynitiGradientLogo.png
 Generated SSTDocStandards\BOADocStandards_SST_Snippets.html
 Processing topic: DocProcess\BOADocProcess_CLAddNewComponent.html...
 Applying template page DocProcess.flmsp...
 Generated DocProcess\BOADocProcess_CLAddNewComponent.html
 Processing topic: SKTDocStandards\IGCDocStandards_video.html...
 Applying template page DocStandards.flmsp...
-Missing snippet file: C:\Users\Donna Knox\git\JennyDrummey.github.io\DocStandardsProcesses\Content\Snippets\CopyrightFooter.flsnp
-Link points outside project file:///C:/Users/Donna Knox/git/JennyDrummey.github.io/DocStandardsProcesses/Data_Insiders_Community.htm
-Missing linked source file: C:\Users\Donna Knox\git\JennyDrummey.github.io\DocStandardsProcesses\Content\Images\topNav\SynitiGradientLogo.png
+Missing snippet file: C:\Users\Elizabeth Warden\Documents\Git\JennyDrummey.github.io\DocStandardsProcesses\Content\Snippets\CopyrightFooter.flsnp
+Link points outside project file:///C:/Users/Elizabeth Warden/Documents/Git/JennyDrummey.github.io/DocStandardsProcesses/Data_Insiders_Community.htm
+Missing linked source file: C:\Users\Elizabeth Warden\Documents\Git\JennyDrummey.github.io\DocStandardsProcesses\Content\Images\topNav\SynitiGradientLogo.png
 Generated SKTDocStandards\IGCDocStandards_video.html
 Processing topic: DocProcess\BOADocProcess_PrepareWhatsNew.html...
 Applying template page DocProcess.flmsp...
@@ -219,9 +219,9 @@ Applying template page DocProcess.flmsp...
 Generated DocProcess\BOADocProcess_Add_Topics_to_the_TOC.html
 Processing topic: SSTDocStandards\BOADocStandards_KBGenGuidelines.html...
 Applying template page DocStandards.flmsp...
-Missing snippet file: C:\Users\Donna Knox\git\JennyDrummey.github.io\DocStandardsProcesses\Content\Snippets\CopyrightFooter.flsnp
-Link points outside project file:///C:/Users/Donna Knox/git/JennyDrummey.github.io/DocStandardsProcesses/Data_Insiders_Community.htm
-Missing linked source file: C:\Users\Donna Knox\git\JennyDrummey.github.io\DocStandardsProcesses\Content\Images\topNav\SynitiGradientLogo.png
+Missing snippet file: C:\Users\Elizabeth Warden\Documents\Git\JennyDrummey.github.io\DocStandardsProcesses\Content\Snippets\CopyrightFooter.flsnp
+Link points outside project file:///C:/Users/Elizabeth Warden/Documents/Git/JennyDrummey.github.io/DocStandardsProcesses/Data_Insiders_Community.htm
+Missing linked source file: C:\Users\Elizabeth Warden\Documents\Git\JennyDrummey.github.io\DocStandardsProcesses\Content\Images\topNav\SynitiGradientLogo.png
 Generated SSTDocStandards\BOADocStandards_KBGenGuidelines.html
 Processing topic: glossary.htm...
 Applying template page glossary.flmsp...
@@ -264,18 +264,18 @@ Applying template page DocProcess.flmsp...
 Generated DocProcess\BOADocProcess_UpdateOnlineHelp.html
 Processing topic: SKTDocStandards\IGCDocStandards_notifications.html...
 Applying template page DocStandards.flmsp...
-Missing snippet file: C:\Users\Donna Knox\git\JennyDrummey.github.io\DocStandardsProcesses\Content\Snippets\CopyrightFooter.flsnp
-Link points outside project file:///C:/Users/Donna Knox/git/JennyDrummey.github.io/DocStandardsProcesses/Data_Insiders_Community.htm
-Missing linked source file: C:\Users\Donna Knox\git\JennyDrummey.github.io\DocStandardsProcesses\Content\Images\topNav\SynitiGradientLogo.png
+Missing snippet file: C:\Users\Elizabeth Warden\Documents\Git\JennyDrummey.github.io\DocStandardsProcesses\Content\Snippets\CopyrightFooter.flsnp
+Link points outside project file:///C:/Users/Elizabeth Warden/Documents/Git/JennyDrummey.github.io/DocStandardsProcesses/Data_Insiders_Community.htm
+Missing linked source file: C:\Users\Elizabeth Warden\Documents\Git\JennyDrummey.github.io\DocStandardsProcesses\Content\Images\topNav\SynitiGradientLogo.png
 Generated SKTDocStandards\IGCDocStandards_notifications.html
 Processing topic: TestTopic.htm...
 Applying template page DocProcess.flmsp...
 Generated TestTopic.htm
 Processing topic: SKTDocStandards\IGCDocStandards_enhancements.html...
 Applying template page DocStandards.flmsp...
-Missing snippet file: C:\Users\Donna Knox\git\JennyDrummey.github.io\DocStandardsProcesses\Content\Snippets\CopyrightFooter.flsnp
-Link points outside project file:///C:/Users/Donna Knox/git/JennyDrummey.github.io/DocStandardsProcesses/Data_Insiders_Community.htm
-Missing linked source file: C:\Users\Donna Knox\git\JennyDrummey.github.io\DocStandardsProcesses\Content\Images\topNav\SynitiGradientLogo.png
+Missing snippet file: C:\Users\Elizabeth Warden\Documents\Git\JennyDrummey.github.io\DocStandardsProcesses\Content\Snippets\CopyrightFooter.flsnp
+Link points outside project file:///C:/Users/Elizabeth Warden/Documents/Git/JennyDrummey.github.io/DocStandardsProcesses/Data_Insiders_Community.htm
+Missing linked source file: C:\Users\Elizabeth Warden\Documents\Git\JennyDrummey.github.io\DocStandardsProcesses\Content\Images\topNav\SynitiGradientLogo.png
 Generated SKTDocStandards\IGCDocStandards_enhancements.html
 Processing topic: DocProcess\BOADocProcess_CheckLlistForGeneratingHelp.htm...
 Applying template page DocProcess.flmsp...
@@ -291,33 +291,33 @@ Applying template page DocProcess.flmsp...
 Generated DocProcess\BOADocProcess_FlareLicenseUpgradeProcess.html
 Processing topic: SSTDocStandards\BOADocStandards_UsageDictionary.html...
 Applying template page DocStandards.flmsp...
-Missing snippet file: C:\Users\Donna Knox\git\JennyDrummey.github.io\DocStandardsProcesses\Content\Snippets\CopyrightFooter.flsnp
-Link points outside project file:///C:/Users/Donna Knox/git/JennyDrummey.github.io/DocStandardsProcesses/Data_Insiders_Community.htm
-Missing linked source file: C:\Users\Donna Knox\git\JennyDrummey.github.io\DocStandardsProcesses\Content\Images\topNav\SynitiGradientLogo.png
+Missing snippet file: C:\Users\Elizabeth Warden\Documents\Git\JennyDrummey.github.io\DocStandardsProcesses\Content\Snippets\CopyrightFooter.flsnp
+Link points outside project file:///C:/Users/Elizabeth Warden/Documents/Git/JennyDrummey.github.io/DocStandardsProcesses/Data_Insiders_Community.htm
+Missing linked source file: C:\Users\Elizabeth Warden\Documents\Git\JennyDrummey.github.io\DocStandardsProcesses\Content\Images\topNav\SynitiGradientLogo.png
 Generated SSTDocStandards\BOADocStandards_UsageDictionary.html
 Processing topic: DocProcess\BOADocProcess_Workflow_PeerReview.html...
 Applying template page DocProcess.flmsp...
 Generated DocProcess\BOADocProcess_Workflow_PeerReview.html
 Processing topic: SKTDocStandards\IGCDocStandards_genWritingStyle.html...
 Applying template page DocStandards.flmsp...
-Missing snippet file: C:\Users\Donna Knox\git\JennyDrummey.github.io\DocStandardsProcesses\Content\Snippets\CopyrightFooter.flsnp
-Link points outside project file:///C:/Users/Donna Knox/git/JennyDrummey.github.io/DocStandardsProcesses/Data_Insiders_Community.htm
-Missing linked source file: C:\Users\Donna Knox\git\JennyDrummey.github.io\DocStandardsProcesses\Content\Images\topNav\SynitiGradientLogo.png
+Missing snippet file: C:\Users\Elizabeth Warden\Documents\Git\JennyDrummey.github.io\DocStandardsProcesses\Content\Snippets\CopyrightFooter.flsnp
+Link points outside project file:///C:/Users/Elizabeth Warden/Documents/Git/JennyDrummey.github.io/DocStandardsProcesses/Data_Insiders_Community.htm
+Missing linked source file: C:\Users\Elizabeth Warden\Documents\Git\JennyDrummey.github.io\DocStandardsProcesses\Content\Images\topNav\SynitiGradientLogo.png
 Generated SKTDocStandards\IGCDocStandards_genWritingStyle.html
 Processing topic: SSTDocStandards\BOADocStandards_CompNamesTerms.html...
 Applying template page DocStandards.flmsp...
-Missing snippet file: C:\Users\Donna Knox\git\JennyDrummey.github.io\DocStandardsProcesses\Content\Snippets\CopyrightFooter.flsnp
-Link points outside project file:///C:/Users/Donna Knox/git/JennyDrummey.github.io/DocStandardsProcesses/Data_Insiders_Community.htm
-Missing linked source file: C:\Users\Donna Knox\git\JennyDrummey.github.io\DocStandardsProcesses\Content\Images\topNav\SynitiGradientLogo.png
+Missing snippet file: C:\Users\Elizabeth Warden\Documents\Git\JennyDrummey.github.io\DocStandardsProcesses\Content\Snippets\CopyrightFooter.flsnp
+Link points outside project file:///C:/Users/Elizabeth Warden/Documents/Git/JennyDrummey.github.io/DocStandardsProcesses/Data_Insiders_Community.htm
+Missing linked source file: C:\Users\Elizabeth Warden\Documents\Git\JennyDrummey.github.io\DocStandardsProcesses\Content\Images\topNav\SynitiGradientLogo.png
 Generated SSTDocStandards\BOADocStandards_CompNamesTerms.html
 Processing topic: DocProcess\KnowledgePlatformOnly.html...
 Applying template page DocProcess.flmsp...
 Generated DocProcess\KnowledgePlatformOnly.html
 Processing topic: SKTDocStandards\ProductNames.htm...
 Applying template page DocStandards.flmsp...
-Missing snippet file: C:\Users\Donna Knox\git\JennyDrummey.github.io\DocStandardsProcesses\Content\Snippets\CopyrightFooter.flsnp
-Link points outside project file:///C:/Users/Donna Knox/git/JennyDrummey.github.io/DocStandardsProcesses/Data_Insiders_Community.htm
-Missing linked source file: C:\Users\Donna Knox\git\JennyDrummey.github.io\DocStandardsProcesses\Content\Images\topNav\SynitiGradientLogo.png
+Missing snippet file: C:\Users\Elizabeth Warden\Documents\Git\JennyDrummey.github.io\DocStandardsProcesses\Content\Snippets\CopyrightFooter.flsnp
+Link points outside project file:///C:/Users/Elizabeth Warden/Documents/Git/JennyDrummey.github.io/DocStandardsProcesses/Data_Insiders_Community.htm
+Missing linked source file: C:\Users\Elizabeth Warden\Documents\Git\JennyDrummey.github.io\DocStandardsProcesses\Content\Images\topNav\SynitiGradientLogo.png
 Generated SKTDocStandards\ProductNames.htm
 Processing topic: DocProcess\CheckLatestBuild.html...
 Topic contains invalid XHTML.
@@ -336,9 +336,9 @@ Applying template page DocProcess.flmsp...
 Generated DocProcess\WorfkflowNotRequired.htm
 Processing topic: SSTDocStandards\BOADocStandards_Graphics.html...
 Applying template page DocStandards.flmsp...
-Missing snippet file: C:\Users\Donna Knox\git\JennyDrummey.github.io\DocStandardsProcesses\Content\Snippets\CopyrightFooter.flsnp
-Link points outside project file:///C:/Users/Donna Knox/git/JennyDrummey.github.io/DocStandardsProcesses/Data_Insiders_Community.htm
-Missing linked source file: C:\Users\Donna Knox\git\JennyDrummey.github.io\DocStandardsProcesses\Content\Images\topNav\SynitiGradientLogo.png
+Missing snippet file: C:\Users\Elizabeth Warden\Documents\Git\JennyDrummey.github.io\DocStandardsProcesses\Content\Snippets\CopyrightFooter.flsnp
+Link points outside project file:///C:/Users/Elizabeth Warden/Documents/Git/JennyDrummey.github.io/DocStandardsProcesses/Data_Insiders_Community.htm
+Missing linked source file: C:\Users\Elizabeth Warden\Documents\Git\JennyDrummey.github.io\DocStandardsProcesses\Content\Images\topNav\SynitiGradientLogo.png
 Generated SSTDocStandards\BOADocStandards_Graphics.html
 Processing topic: DocProcess\BOADocProcess_Workflow_DocDone.html...
 Applying template page DocProcess.flmsp...
@@ -363,9 +363,9 @@ Applying template page DocProcess.flmsp...
 Generated DocProcess\BOADocProcess_UnifyKBArticles.html
 Processing topic: SSTDocStandards\BOADocStandards_OnlineGenGuidelines.html...
 Applying template page DocStandards.flmsp...
-Missing snippet file: C:\Users\Donna Knox\git\JennyDrummey.github.io\DocStandardsProcesses\Content\Snippets\CopyrightFooter.flsnp
-Link points outside project file:///C:/Users/Donna Knox/git/JennyDrummey.github.io/DocStandardsProcesses/Data_Insiders_Community.htm
-Missing linked source file: C:\Users\Donna Knox\git\JennyDrummey.github.io\DocStandardsProcesses\Content\Images\topNav\SynitiGradientLogo.png
+Missing snippet file: C:\Users\Elizabeth Warden\Documents\Git\JennyDrummey.github.io\DocStandardsProcesses\Content\Snippets\CopyrightFooter.flsnp
+Link points outside project file:///C:/Users/Elizabeth Warden/Documents/Git/JennyDrummey.github.io/DocStandardsProcesses/Data_Insiders_Community.htm
+Missing linked source file: C:\Users\Elizabeth Warden\Documents\Git\JennyDrummey.github.io\DocStandardsProcesses\Content\Images\topNav\SynitiGradientLogo.png
 Generated SSTDocStandards\BOADocStandards_OnlineGenGuidelines.html
 Generating micro content...
 Generating output skins...
@@ -389,90 +389,90 @@ Generated Skins\Default\Stylesheets\TextEffects.micro-content.css
 Generated Skins\Default\Stylesheets\Topic.micro-content.css
 Generated index.htm
 Saving result set...
-Ignored Compiler Warnings: 227
-Output generated in 18 second(s).
+Ignored Compiler Warnings: 230
+Output generated in 20 second(s).
 
 Done
-Saving log to "C:\Users\Donna Knox\git\JennyDrummey.github.io\DocStandardsProcesses\Output\Donna_Knox\HTML5\HTML5.mclog"
+Saving log to "C:\Users\Elizabeth Warden\Documents\Git\JennyDrummey.github.io\DocStandardsProcesses\Output\Elizabeth_Warden\HTML5\HTML5.mclog"
 </Messages>
     <Warnings>
-        <LogEntry File="../../../Content/Resources/MasterPages/DocStandards.flmsp" Message="Missing snippet file: C:\Users\Donna Knox\git\JennyDrummey.github.io\DocStandardsProcesses\Content\Snippets\CopyrightFooter.flsnp&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5" ErrorID="10055" />
-        <LogEntry File="../../../Content/Resources/MasterPages/DocStandards.flmsp" Message="Link points outside project file:///C:/Users/Donna Knox/git/JennyDrummey.github.io/DocStandardsProcesses/Data_Insiders_Community.htm&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5" ErrorID="10056" />
-        <LogEntry File="../../../Content/Resources/MasterPages/DocStandards.flmsp" Message="Missing linked source file: C:\Users\Donna Knox\git\JennyDrummey.github.io\DocStandardsProcesses\Content\Images\topNav\SynitiGradientLogo.png&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5" ErrorID="10001" />
-        <LogEntry File="../../../Content/Resources/MasterPages/DocStandards.flmsp" Message="Missing snippet file: C:\Users\Donna Knox\git\JennyDrummey.github.io\DocStandardsProcesses\Content\Snippets\CopyrightFooter.flsnp&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5" ErrorID="10055" />
-        <LogEntry File="../../../Content/Resources/MasterPages/DocStandards.flmsp" Message="Link points outside project file:///C:/Users/Donna Knox/git/JennyDrummey.github.io/DocStandardsProcesses/Data_Insiders_Community.htm&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5" ErrorID="10056" />
-        <LogEntry File="../../../Content/Resources/MasterPages/DocStandards.flmsp" Message="Missing linked source file: C:\Users\Donna Knox\git\JennyDrummey.github.io\DocStandardsProcesses\Content\Images\topNav\SynitiGradientLogo.png&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5" ErrorID="10001" />
-        <LogEntry File="../../../Content/Resources/MasterPages/DocStandards.flmsp" Message="Missing snippet file: C:\Users\Donna Knox\git\JennyDrummey.github.io\DocStandardsProcesses\Content\Snippets\CopyrightFooter.flsnp&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5" ErrorID="10055" />
-        <LogEntry File="../../../Content/Resources/MasterPages/DocStandards.flmsp" Message="Link points outside project file:///C:/Users/Donna Knox/git/JennyDrummey.github.io/DocStandardsProcesses/Data_Insiders_Community.htm&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5" ErrorID="10056" />
-        <LogEntry File="../../../Content/Resources/MasterPages/DocStandards.flmsp" Message="Missing linked source file: C:\Users\Donna Knox\git\JennyDrummey.github.io\DocStandardsProcesses\Content\Images\topNav\SynitiGradientLogo.png&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5" ErrorID="10001" />
+        <LogEntry File="../../../Content/Resources/MasterPages/DocStandards.flmsp" Message="Missing snippet file: C:\Users\Elizabeth Warden\Documents\Git\JennyDrummey.github.io\DocStandardsProcesses\Content\Snippets\CopyrightFooter.flsnp&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5" ErrorID="10055" />
+        <LogEntry File="../../../Content/Resources/MasterPages/DocStandards.flmsp" Message="Link points outside project file:///C:/Users/Elizabeth Warden/Documents/Git/JennyDrummey.github.io/DocStandardsProcesses/Data_Insiders_Community.htm&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5" ErrorID="10056" />
+        <LogEntry File="../../../Content/Resources/MasterPages/DocStandards.flmsp" Message="Missing linked source file: C:\Users\Elizabeth Warden\Documents\Git\JennyDrummey.github.io\DocStandardsProcesses\Content\Images\topNav\SynitiGradientLogo.png&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5" ErrorID="10001" />
+        <LogEntry File="../../../Content/Resources/MasterPages/DocStandards.flmsp" Message="Missing snippet file: C:\Users\Elizabeth Warden\Documents\Git\JennyDrummey.github.io\DocStandardsProcesses\Content\Snippets\CopyrightFooter.flsnp&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5" ErrorID="10055" />
+        <LogEntry File="../../../Content/Resources/MasterPages/DocStandards.flmsp" Message="Link points outside project file:///C:/Users/Elizabeth Warden/Documents/Git/JennyDrummey.github.io/DocStandardsProcesses/Data_Insiders_Community.htm&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5" ErrorID="10056" />
+        <LogEntry File="../../../Content/Resources/MasterPages/DocStandards.flmsp" Message="Missing linked source file: C:\Users\Elizabeth Warden\Documents\Git\JennyDrummey.github.io\DocStandardsProcesses\Content\Images\topNav\SynitiGradientLogo.png&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5" ErrorID="10001" />
+        <LogEntry File="../../../Content/Resources/MasterPages/DocStandards.flmsp" Message="Missing snippet file: C:\Users\Elizabeth Warden\Documents\Git\JennyDrummey.github.io\DocStandardsProcesses\Content\Snippets\CopyrightFooter.flsnp&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5" ErrorID="10055" />
+        <LogEntry File="../../../Content/Resources/MasterPages/DocStandards.flmsp" Message="Link points outside project file:///C:/Users/Elizabeth Warden/Documents/Git/JennyDrummey.github.io/DocStandardsProcesses/Data_Insiders_Community.htm&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5" ErrorID="10056" />
+        <LogEntry File="../../../Content/Resources/MasterPages/DocStandards.flmsp" Message="Missing linked source file: C:\Users\Elizabeth Warden\Documents\Git\JennyDrummey.github.io\DocStandardsProcesses\Content\Images\topNav\SynitiGradientLogo.png&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5" ErrorID="10001" />
         <LogEntry File="../../../Content/SSTDocStandards/BOADocStandards_PrintStyles.html" Message="Topic contains invalid XHTML.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5" ErrorID="20058" />
-        <LogEntry File="../../../Content/Resources/MasterPages/DocStandards.flmsp" Message="Missing snippet file: C:\Users\Donna Knox\git\JennyDrummey.github.io\DocStandardsProcesses\Content\Snippets\CopyrightFooter.flsnp&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5" ErrorID="10055" />
-        <LogEntry File="../../../Content/Resources/MasterPages/DocStandards.flmsp" Message="Link points outside project file:///C:/Users/Donna Knox/git/JennyDrummey.github.io/DocStandardsProcesses/Data_Insiders_Community.htm&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5" ErrorID="10056" />
-        <LogEntry File="../../../Content/Resources/MasterPages/DocStandards.flmsp" Message="Missing linked source file: C:\Users\Donna Knox\git\JennyDrummey.github.io\DocStandardsProcesses\Content\Images\topNav\SynitiGradientLogo.png&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5" ErrorID="10001" />
-        <LogEntry File="../../../Content/Resources/MasterPages/DocStandards.flmsp" Message="Missing snippet file: C:\Users\Donna Knox\git\JennyDrummey.github.io\DocStandardsProcesses\Content\Snippets\CopyrightFooter.flsnp&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5" ErrorID="10055" />
-        <LogEntry File="../../../Content/Resources/MasterPages/DocStandards.flmsp" Message="Link points outside project file:///C:/Users/Donna Knox/git/JennyDrummey.github.io/DocStandardsProcesses/Data_Insiders_Community.htm&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5" ErrorID="10056" />
-        <LogEntry File="../../../Content/Resources/MasterPages/DocStandards.flmsp" Message="Missing linked source file: C:\Users\Donna Knox\git\JennyDrummey.github.io\DocStandardsProcesses\Content\Images\topNav\SynitiGradientLogo.png&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5" ErrorID="10001" />
-        <LogEntry File="../../../Content/Resources/MasterPages/DocStandards.flmsp" Message="Missing snippet file: C:\Users\Donna Knox\git\JennyDrummey.github.io\DocStandardsProcesses\Content\Snippets\CopyrightFooter.flsnp&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5" ErrorID="10055" />
-        <LogEntry File="../../../Content/Resources/MasterPages/DocStandards.flmsp" Message="Link points outside project file:///C:/Users/Donna Knox/git/JennyDrummey.github.io/DocStandardsProcesses/Data_Insiders_Community.htm&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5" ErrorID="10056" />
-        <LogEntry File="../../../Content/Resources/MasterPages/DocStandards.flmsp" Message="Missing linked source file: C:\Users\Donna Knox\git\JennyDrummey.github.io\DocStandardsProcesses\Content\Images\topNav\SynitiGradientLogo.png&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5" ErrorID="10001" />
+        <LogEntry File="../../../Content/Resources/MasterPages/DocStandards.flmsp" Message="Missing snippet file: C:\Users\Elizabeth Warden\Documents\Git\JennyDrummey.github.io\DocStandardsProcesses\Content\Snippets\CopyrightFooter.flsnp&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5" ErrorID="10055" />
+        <LogEntry File="../../../Content/Resources/MasterPages/DocStandards.flmsp" Message="Link points outside project file:///C:/Users/Elizabeth Warden/Documents/Git/JennyDrummey.github.io/DocStandardsProcesses/Data_Insiders_Community.htm&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5" ErrorID="10056" />
+        <LogEntry File="../../../Content/Resources/MasterPages/DocStandards.flmsp" Message="Missing linked source file: C:\Users\Elizabeth Warden\Documents\Git\JennyDrummey.github.io\DocStandardsProcesses\Content\Images\topNav\SynitiGradientLogo.png&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5" ErrorID="10001" />
+        <LogEntry File="../../../Content/Resources/MasterPages/DocStandards.flmsp" Message="Missing snippet file: C:\Users\Elizabeth Warden\Documents\Git\JennyDrummey.github.io\DocStandardsProcesses\Content\Snippets\CopyrightFooter.flsnp&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5" ErrorID="10055" />
+        <LogEntry File="../../../Content/Resources/MasterPages/DocStandards.flmsp" Message="Link points outside project file:///C:/Users/Elizabeth Warden/Documents/Git/JennyDrummey.github.io/DocStandardsProcesses/Data_Insiders_Community.htm&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5" ErrorID="10056" />
+        <LogEntry File="../../../Content/Resources/MasterPages/DocStandards.flmsp" Message="Missing linked source file: C:\Users\Elizabeth Warden\Documents\Git\JennyDrummey.github.io\DocStandardsProcesses\Content\Images\topNav\SynitiGradientLogo.png&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5" ErrorID="10001" />
+        <LogEntry File="../../../Content/Resources/MasterPages/DocStandards.flmsp" Message="Missing snippet file: C:\Users\Elizabeth Warden\Documents\Git\JennyDrummey.github.io\DocStandardsProcesses\Content\Snippets\CopyrightFooter.flsnp&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5" ErrorID="10055" />
+        <LogEntry File="../../../Content/Resources/MasterPages/DocStandards.flmsp" Message="Link points outside project file:///C:/Users/Elizabeth Warden/Documents/Git/JennyDrummey.github.io/DocStandardsProcesses/Data_Insiders_Community.htm&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5" ErrorID="10056" />
+        <LogEntry File="../../../Content/Resources/MasterPages/DocStandards.flmsp" Message="Missing linked source file: C:\Users\Elizabeth Warden\Documents\Git\JennyDrummey.github.io\DocStandardsProcesses\Content\Images\topNav\SynitiGradientLogo.png&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5" ErrorID="10001" />
         <LogEntry File="../../../Content/SSTDocStandards/BOADocStandards_ScreenCaptions.html" Message="Topic contains invalid XHTML.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5" ErrorID="20058" />
         <LogEntry File="../../../Content/SKTDocStandards/IGCDocStandards_welcome.html" Message="Topic contains invalid XHTML.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5" ErrorID="20058" />
-        <LogEntry File="../../../Content/Resources/MasterPages/DocStandards.flmsp" Message="Missing snippet file: C:\Users\Donna Knox\git\JennyDrummey.github.io\DocStandardsProcesses\Content\Snippets\CopyrightFooter.flsnp&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5" ErrorID="10055" />
-        <LogEntry File="../../../Content/Resources/MasterPages/DocStandards.flmsp" Message="Link points outside project file:///C:/Users/Donna Knox/git/JennyDrummey.github.io/DocStandardsProcesses/Data_Insiders_Community.htm&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5" ErrorID="10056" />
-        <LogEntry File="../../../Content/Resources/MasterPages/DocStandards.flmsp" Message="Missing linked source file: C:\Users\Donna Knox\git\JennyDrummey.github.io\DocStandardsProcesses\Content\Images\topNav\SynitiGradientLogo.png&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5" ErrorID="10001" />
-        <LogEntry File="../../../Content/Resources/MasterPages/DocStandards.flmsp" Message="Missing snippet file: C:\Users\Donna Knox\git\JennyDrummey.github.io\DocStandardsProcesses\Content\Snippets\CopyrightFooter.flsnp&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5" ErrorID="10055" />
-        <LogEntry File="../../../Content/Resources/MasterPages/DocStandards.flmsp" Message="Link points outside project file:///C:/Users/Donna Knox/git/JennyDrummey.github.io/DocStandardsProcesses/Data_Insiders_Community.htm&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5" ErrorID="10056" />
-        <LogEntry File="../../../Content/Resources/MasterPages/DocStandards.flmsp" Message="Missing linked source file: C:\Users\Donna Knox\git\JennyDrummey.github.io\DocStandardsProcesses\Content\Images\topNav\SynitiGradientLogo.png&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5" ErrorID="10001" />
-        <LogEntry File="../../../Content/Resources/MasterPages/DocStandards.flmsp" Message="Missing snippet file: C:\Users\Donna Knox\git\JennyDrummey.github.io\DocStandardsProcesses\Content\Snippets\CopyrightFooter.flsnp&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5" ErrorID="10055" />
-        <LogEntry File="../../../Content/Resources/MasterPages/DocStandards.flmsp" Message="Link points outside project file:///C:/Users/Donna Knox/git/JennyDrummey.github.io/DocStandardsProcesses/Data_Insiders_Community.htm&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5" ErrorID="10056" />
-        <LogEntry File="../../../Content/Resources/MasterPages/DocStandards.flmsp" Message="Missing linked source file: C:\Users\Donna Knox\git\JennyDrummey.github.io\DocStandardsProcesses\Content\Images\topNav\SynitiGradientLogo.png&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5" ErrorID="10001" />
+        <LogEntry File="../../../Content/Resources/MasterPages/DocStandards.flmsp" Message="Missing snippet file: C:\Users\Elizabeth Warden\Documents\Git\JennyDrummey.github.io\DocStandardsProcesses\Content\Snippets\CopyrightFooter.flsnp&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5" ErrorID="10055" />
+        <LogEntry File="../../../Content/Resources/MasterPages/DocStandards.flmsp" Message="Link points outside project file:///C:/Users/Elizabeth Warden/Documents/Git/JennyDrummey.github.io/DocStandardsProcesses/Data_Insiders_Community.htm&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5" ErrorID="10056" />
+        <LogEntry File="../../../Content/Resources/MasterPages/DocStandards.flmsp" Message="Missing linked source file: C:\Users\Elizabeth Warden\Documents\Git\JennyDrummey.github.io\DocStandardsProcesses\Content\Images\topNav\SynitiGradientLogo.png&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5" ErrorID="10001" />
+        <LogEntry File="../../../Content/Resources/MasterPages/DocStandards.flmsp" Message="Missing snippet file: C:\Users\Elizabeth Warden\Documents\Git\JennyDrummey.github.io\DocStandardsProcesses\Content\Snippets\CopyrightFooter.flsnp&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5" ErrorID="10055" />
+        <LogEntry File="../../../Content/Resources/MasterPages/DocStandards.flmsp" Message="Link points outside project file:///C:/Users/Elizabeth Warden/Documents/Git/JennyDrummey.github.io/DocStandardsProcesses/Data_Insiders_Community.htm&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5" ErrorID="10056" />
+        <LogEntry File="../../../Content/Resources/MasterPages/DocStandards.flmsp" Message="Missing linked source file: C:\Users\Elizabeth Warden\Documents\Git\JennyDrummey.github.io\DocStandardsProcesses\Content\Images\topNav\SynitiGradientLogo.png&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5" ErrorID="10001" />
+        <LogEntry File="../../../Content/Resources/MasterPages/DocStandards.flmsp" Message="Missing snippet file: C:\Users\Elizabeth Warden\Documents\Git\JennyDrummey.github.io\DocStandardsProcesses\Content\Snippets\CopyrightFooter.flsnp&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5" ErrorID="10055" />
+        <LogEntry File="../../../Content/Resources/MasterPages/DocStandards.flmsp" Message="Link points outside project file:///C:/Users/Elizabeth Warden/Documents/Git/JennyDrummey.github.io/DocStandardsProcesses/Data_Insiders_Community.htm&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5" ErrorID="10056" />
+        <LogEntry File="../../../Content/Resources/MasterPages/DocStandards.flmsp" Message="Missing linked source file: C:\Users\Elizabeth Warden\Documents\Git\JennyDrummey.github.io\DocStandardsProcesses\Content\Images\topNav\SynitiGradientLogo.png&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5" ErrorID="10001" />
         <LogEntry File="../../../Content/SKTDocStandards/IGCDocStandards_bugFixes.html" Message="Topic contains invalid XHTML.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5" ErrorID="20058" />
-        <LogEntry File="../../../Content/Resources/MasterPages/DocStandards.flmsp" Message="Missing snippet file: C:\Users\Donna Knox\git\JennyDrummey.github.io\DocStandardsProcesses\Content\Snippets\CopyrightFooter.flsnp&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5" ErrorID="10055" />
-        <LogEntry File="../../../Content/Resources/MasterPages/DocStandards.flmsp" Message="Link points outside project file:///C:/Users/Donna Knox/git/JennyDrummey.github.io/DocStandardsProcesses/Data_Insiders_Community.htm&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5" ErrorID="10056" />
-        <LogEntry File="../../../Content/Resources/MasterPages/DocStandards.flmsp" Message="Missing linked source file: C:\Users\Donna Knox\git\JennyDrummey.github.io\DocStandardsProcesses\Content\Images\topNav\SynitiGradientLogo.png&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5" ErrorID="10001" />
-        <LogEntry File="../../../Content/When_to_request_a_new_product_license.htm" Message="Link points outside project file:///C:/Users/Donna Knox/git/JennyDrummey.github.io/DocStandardsProcesses/Images/NOTI.png&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5" ErrorID="10056" />
+        <LogEntry File="../../../Content/Resources/MasterPages/DocStandards.flmsp" Message="Missing snippet file: C:\Users\Elizabeth Warden\Documents\Git\JennyDrummey.github.io\DocStandardsProcesses\Content\Snippets\CopyrightFooter.flsnp&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5" ErrorID="10055" />
+        <LogEntry File="../../../Content/Resources/MasterPages/DocStandards.flmsp" Message="Link points outside project file:///C:/Users/Elizabeth Warden/Documents/Git/JennyDrummey.github.io/DocStandardsProcesses/Data_Insiders_Community.htm&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5" ErrorID="10056" />
+        <LogEntry File="../../../Content/Resources/MasterPages/DocStandards.flmsp" Message="Missing linked source file: C:\Users\Elizabeth Warden\Documents\Git\JennyDrummey.github.io\DocStandardsProcesses\Content\Images\topNav\SynitiGradientLogo.png&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5" ErrorID="10001" />
+        <LogEntry File="../../../Content/When_to_request_a_new_product_license.htm" Message="Link points outside project file:///C:/Users/Elizabeth Warden/Documents/Git/JennyDrummey.github.io/DocStandardsProcesses/Images/NOTI.png&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5" ErrorID="10056" />
         <LogEntry File="../../../Content/SKTDocStandards/IGCDocStandards_styleToneShort.html" Message="Topic contains invalid XHTML.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5" ErrorID="20058" />
         <LogEntry File="../../../Content/DocProcess/BOADocProcess_CLDSPWorkflow.html" Message="Topic contains invalid XHTML.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5" ErrorID="20058" />
-        <LogEntry File="../../../Content/Resources/MasterPages/DocStandards.flmsp" Message="Missing snippet file: C:\Users\Donna Knox\git\JennyDrummey.github.io\DocStandardsProcesses\Content\Snippets\CopyrightFooter.flsnp&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5" ErrorID="10055" />
-        <LogEntry File="../../../Content/Resources/MasterPages/DocStandards.flmsp" Message="Link points outside project file:///C:/Users/Donna Knox/git/JennyDrummey.github.io/DocStandardsProcesses/Data_Insiders_Community.htm&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5" ErrorID="10056" />
-        <LogEntry File="../../../Content/Resources/MasterPages/DocStandards.flmsp" Message="Missing linked source file: C:\Users\Donna Knox\git\JennyDrummey.github.io\DocStandardsProcesses\Content\Images\topNav\SynitiGradientLogo.png&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5" ErrorID="10001" />
-        <LogEntry File="../../../Content/Resources/MasterPages/DocStandards.flmsp" Message="Missing snippet file: C:\Users\Donna Knox\git\JennyDrummey.github.io\DocStandardsProcesses\Content\Snippets\CopyrightFooter.flsnp&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5" ErrorID="10055" />
-        <LogEntry File="../../../Content/Resources/MasterPages/DocStandards.flmsp" Message="Link points outside project file:///C:/Users/Donna Knox/git/JennyDrummey.github.io/DocStandardsProcesses/Data_Insiders_Community.htm&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5" ErrorID="10056" />
-        <LogEntry File="../../../Content/Resources/MasterPages/DocStandards.flmsp" Message="Missing linked source file: C:\Users\Donna Knox\git\JennyDrummey.github.io\DocStandardsProcesses\Content\Images\topNav\SynitiGradientLogo.png&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5" ErrorID="10001" />
-        <LogEntry File="../../../Content/Resources/MasterPages/DocStandards.flmsp" Message="Missing snippet file: C:\Users\Donna Knox\git\JennyDrummey.github.io\DocStandardsProcesses\Content\Snippets\CopyrightFooter.flsnp&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5" ErrorID="10055" />
-        <LogEntry File="../../../Content/Resources/MasterPages/DocStandards.flmsp" Message="Link points outside project file:///C:/Users/Donna Knox/git/JennyDrummey.github.io/DocStandardsProcesses/Data_Insiders_Community.htm&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5" ErrorID="10056" />
-        <LogEntry File="../../../Content/Resources/MasterPages/DocStandards.flmsp" Message="Missing linked source file: C:\Users\Donna Knox\git\JennyDrummey.github.io\DocStandardsProcesses\Content\Images\topNav\SynitiGradientLogo.png&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5" ErrorID="10001" />
-        <LogEntry File="../../../Content/Resources/MasterPages/DocStandards.flmsp" Message="Missing snippet file: C:\Users\Donna Knox\git\JennyDrummey.github.io\DocStandardsProcesses\Content\Snippets\CopyrightFooter.flsnp&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5" ErrorID="10055" />
-        <LogEntry File="../../../Content/Resources/MasterPages/DocStandards.flmsp" Message="Link points outside project file:///C:/Users/Donna Knox/git/JennyDrummey.github.io/DocStandardsProcesses/Data_Insiders_Community.htm&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5" ErrorID="10056" />
-        <LogEntry File="../../../Content/Resources/MasterPages/DocStandards.flmsp" Message="Missing linked source file: C:\Users\Donna Knox\git\JennyDrummey.github.io\DocStandardsProcesses\Content\Images\topNav\SynitiGradientLogo.png&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5" ErrorID="10001" />
+        <LogEntry File="../../../Content/Resources/MasterPages/DocStandards.flmsp" Message="Missing snippet file: C:\Users\Elizabeth Warden\Documents\Git\JennyDrummey.github.io\DocStandardsProcesses\Content\Snippets\CopyrightFooter.flsnp&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5" ErrorID="10055" />
+        <LogEntry File="../../../Content/Resources/MasterPages/DocStandards.flmsp" Message="Link points outside project file:///C:/Users/Elizabeth Warden/Documents/Git/JennyDrummey.github.io/DocStandardsProcesses/Data_Insiders_Community.htm&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5" ErrorID="10056" />
+        <LogEntry File="../../../Content/Resources/MasterPages/DocStandards.flmsp" Message="Missing linked source file: C:\Users\Elizabeth Warden\Documents\Git\JennyDrummey.github.io\DocStandardsProcesses\Content\Images\topNav\SynitiGradientLogo.png&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5" ErrorID="10001" />
+        <LogEntry File="../../../Content/Resources/MasterPages/DocStandards.flmsp" Message="Missing snippet file: C:\Users\Elizabeth Warden\Documents\Git\JennyDrummey.github.io\DocStandardsProcesses\Content\Snippets\CopyrightFooter.flsnp&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5" ErrorID="10055" />
+        <LogEntry File="../../../Content/Resources/MasterPages/DocStandards.flmsp" Message="Link points outside project file:///C:/Users/Elizabeth Warden/Documents/Git/JennyDrummey.github.io/DocStandardsProcesses/Data_Insiders_Community.htm&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5" ErrorID="10056" />
+        <LogEntry File="../../../Content/Resources/MasterPages/DocStandards.flmsp" Message="Missing linked source file: C:\Users\Elizabeth Warden\Documents\Git\JennyDrummey.github.io\DocStandardsProcesses\Content\Images\topNav\SynitiGradientLogo.png&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5" ErrorID="10001" />
+        <LogEntry File="../../../Content/Resources/MasterPages/DocStandards.flmsp" Message="Missing snippet file: C:\Users\Elizabeth Warden\Documents\Git\JennyDrummey.github.io\DocStandardsProcesses\Content\Snippets\CopyrightFooter.flsnp&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5" ErrorID="10055" />
+        <LogEntry File="../../../Content/Resources/MasterPages/DocStandards.flmsp" Message="Link points outside project file:///C:/Users/Elizabeth Warden/Documents/Git/JennyDrummey.github.io/DocStandardsProcesses/Data_Insiders_Community.htm&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5" ErrorID="10056" />
+        <LogEntry File="../../../Content/Resources/MasterPages/DocStandards.flmsp" Message="Missing linked source file: C:\Users\Elizabeth Warden\Documents\Git\JennyDrummey.github.io\DocStandardsProcesses\Content\Images\topNav\SynitiGradientLogo.png&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5" ErrorID="10001" />
+        <LogEntry File="../../../Content/Resources/MasterPages/DocStandards.flmsp" Message="Missing snippet file: C:\Users\Elizabeth Warden\Documents\Git\JennyDrummey.github.io\DocStandardsProcesses\Content\Snippets\CopyrightFooter.flsnp&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5" ErrorID="10055" />
+        <LogEntry File="../../../Content/Resources/MasterPages/DocStandards.flmsp" Message="Link points outside project file:///C:/Users/Elizabeth Warden/Documents/Git/JennyDrummey.github.io/DocStandardsProcesses/Data_Insiders_Community.htm&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5" ErrorID="10056" />
+        <LogEntry File="../../../Content/Resources/MasterPages/DocStandards.flmsp" Message="Missing linked source file: C:\Users\Elizabeth Warden\Documents\Git\JennyDrummey.github.io\DocStandardsProcesses\Content\Images\topNav\SynitiGradientLogo.png&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5" ErrorID="10001" />
         <LogEntry File="../../../Content/DocProcess/BOADocProcess_CLDSPStandards.html" Message="Topic contains invalid XHTML.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5" ErrorID="20058" />
         <LogEntry File="../../../Content/SKTDocStandards/IGCDocStandards_styleToneLong.html" Message="Topic contains invalid XHTML.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5" ErrorID="20058" />
-        <LogEntry File="../../../Content/Resources/MasterPages/DocStandards.flmsp" Message="Missing snippet file: C:\Users\Donna Knox\git\JennyDrummey.github.io\DocStandardsProcesses\Content\Snippets\CopyrightFooter.flsnp&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5" ErrorID="10055" />
-        <LogEntry File="../../../Content/Resources/MasterPages/DocStandards.flmsp" Message="Link points outside project file:///C:/Users/Donna Knox/git/JennyDrummey.github.io/DocStandardsProcesses/Data_Insiders_Community.htm&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5" ErrorID="10056" />
-        <LogEntry File="../../../Content/Resources/MasterPages/DocStandards.flmsp" Message="Missing linked source file: C:\Users\Donna Knox\git\JennyDrummey.github.io\DocStandardsProcesses\Content\Images\topNav\SynitiGradientLogo.png&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5" ErrorID="10001" />
-        <LogEntry File="../../../Content/Resources/MasterPages/DocStandards.flmsp" Message="Missing snippet file: C:\Users\Donna Knox\git\JennyDrummey.github.io\DocStandardsProcesses\Content\Snippets\CopyrightFooter.flsnp&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5" ErrorID="10055" />
-        <LogEntry File="../../../Content/Resources/MasterPages/DocStandards.flmsp" Message="Link points outside project file:///C:/Users/Donna Knox/git/JennyDrummey.github.io/DocStandardsProcesses/Data_Insiders_Community.htm&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5" ErrorID="10056" />
-        <LogEntry File="../../../Content/Resources/MasterPages/DocStandards.flmsp" Message="Missing linked source file: C:\Users\Donna Knox\git\JennyDrummey.github.io\DocStandardsProcesses\Content\Images\topNav\SynitiGradientLogo.png&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5" ErrorID="10001" />
-        <LogEntry File="../../../Content/Resources/MasterPages/DocStandards.flmsp" Message="Missing snippet file: C:\Users\Donna Knox\git\JennyDrummey.github.io\DocStandardsProcesses\Content\Snippets\CopyrightFooter.flsnp&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5" ErrorID="10055" />
-        <LogEntry File="../../../Content/Resources/MasterPages/DocStandards.flmsp" Message="Link points outside project file:///C:/Users/Donna Knox/git/JennyDrummey.github.io/DocStandardsProcesses/Data_Insiders_Community.htm&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5" ErrorID="10056" />
-        <LogEntry File="../../../Content/Resources/MasterPages/DocStandards.flmsp" Message="Missing linked source file: C:\Users\Donna Knox\git\JennyDrummey.github.io\DocStandardsProcesses\Content\Images\topNav\SynitiGradientLogo.png&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5" ErrorID="10001" />
-        <LogEntry File="../../../Content/Resources/MasterPages/DocStandards.flmsp" Message="Missing snippet file: C:\Users\Donna Knox\git\JennyDrummey.github.io\DocStandardsProcesses\Content\Snippets\CopyrightFooter.flsnp&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5" ErrorID="10055" />
-        <LogEntry File="../../../Content/Resources/MasterPages/DocStandards.flmsp" Message="Link points outside project file:///C:/Users/Donna Knox/git/JennyDrummey.github.io/DocStandardsProcesses/Data_Insiders_Community.htm&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5" ErrorID="10056" />
-        <LogEntry File="../../../Content/Resources/MasterPages/DocStandards.flmsp" Message="Missing linked source file: C:\Users\Donna Knox\git\JennyDrummey.github.io\DocStandardsProcesses\Content\Images\topNav\SynitiGradientLogo.png&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5" ErrorID="10001" />
-        <LogEntry File="../../../Content/Resources/MasterPages/DocStandards.flmsp" Message="Missing snippet file: C:\Users\Donna Knox\git\JennyDrummey.github.io\DocStandardsProcesses\Content\Snippets\CopyrightFooter.flsnp&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5" ErrorID="10055" />
-        <LogEntry File="../../../Content/Resources/MasterPages/DocStandards.flmsp" Message="Link points outside project file:///C:/Users/Donna Knox/git/JennyDrummey.github.io/DocStandardsProcesses/Data_Insiders_Community.htm&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5" ErrorID="10056" />
-        <LogEntry File="../../../Content/Resources/MasterPages/DocStandards.flmsp" Message="Missing linked source file: C:\Users\Donna Knox\git\JennyDrummey.github.io\DocStandardsProcesses\Content\Images\topNav\SynitiGradientLogo.png&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5" ErrorID="10001" />
-        <LogEntry File="../../../Content/Resources/MasterPages/DocStandards.flmsp" Message="Missing snippet file: C:\Users\Donna Knox\git\JennyDrummey.github.io\DocStandardsProcesses\Content\Snippets\CopyrightFooter.flsnp&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5" ErrorID="10055" />
-        <LogEntry File="../../../Content/Resources/MasterPages/DocStandards.flmsp" Message="Link points outside project file:///C:/Users/Donna Knox/git/JennyDrummey.github.io/DocStandardsProcesses/Data_Insiders_Community.htm&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5" ErrorID="10056" />
-        <LogEntry File="../../../Content/Resources/MasterPages/DocStandards.flmsp" Message="Missing linked source file: C:\Users\Donna Knox\git\JennyDrummey.github.io\DocStandardsProcesses\Content\Images\topNav\SynitiGradientLogo.png&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5" ErrorID="10001" />
+        <LogEntry File="../../../Content/Resources/MasterPages/DocStandards.flmsp" Message="Missing snippet file: C:\Users\Elizabeth Warden\Documents\Git\JennyDrummey.github.io\DocStandardsProcesses\Content\Snippets\CopyrightFooter.flsnp&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5" ErrorID="10055" />
+        <LogEntry File="../../../Content/Resources/MasterPages/DocStandards.flmsp" Message="Link points outside project file:///C:/Users/Elizabeth Warden/Documents/Git/JennyDrummey.github.io/DocStandardsProcesses/Data_Insiders_Community.htm&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5" ErrorID="10056" />
+        <LogEntry File="../../../Content/Resources/MasterPages/DocStandards.flmsp" Message="Missing linked source file: C:\Users\Elizabeth Warden\Documents\Git\JennyDrummey.github.io\DocStandardsProcesses\Content\Images\topNav\SynitiGradientLogo.png&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5" ErrorID="10001" />
+        <LogEntry File="../../../Content/Resources/MasterPages/DocStandards.flmsp" Message="Missing snippet file: C:\Users\Elizabeth Warden\Documents\Git\JennyDrummey.github.io\DocStandardsProcesses\Content\Snippets\CopyrightFooter.flsnp&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5" ErrorID="10055" />
+        <LogEntry File="../../../Content/Resources/MasterPages/DocStandards.flmsp" Message="Link points outside project file:///C:/Users/Elizabeth Warden/Documents/Git/JennyDrummey.github.io/DocStandardsProcesses/Data_Insiders_Community.htm&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5" ErrorID="10056" />
+        <LogEntry File="../../../Content/Resources/MasterPages/DocStandards.flmsp" Message="Missing linked source file: C:\Users\Elizabeth Warden\Documents\Git\JennyDrummey.github.io\DocStandardsProcesses\Content\Images\topNav\SynitiGradientLogo.png&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5" ErrorID="10001" />
+        <LogEntry File="../../../Content/Resources/MasterPages/DocStandards.flmsp" Message="Missing snippet file: C:\Users\Elizabeth Warden\Documents\Git\JennyDrummey.github.io\DocStandardsProcesses\Content\Snippets\CopyrightFooter.flsnp&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5" ErrorID="10055" />
+        <LogEntry File="../../../Content/Resources/MasterPages/DocStandards.flmsp" Message="Link points outside project file:///C:/Users/Elizabeth Warden/Documents/Git/JennyDrummey.github.io/DocStandardsProcesses/Data_Insiders_Community.htm&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5" ErrorID="10056" />
+        <LogEntry File="../../../Content/Resources/MasterPages/DocStandards.flmsp" Message="Missing linked source file: C:\Users\Elizabeth Warden\Documents\Git\JennyDrummey.github.io\DocStandardsProcesses\Content\Images\topNav\SynitiGradientLogo.png&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5" ErrorID="10001" />
+        <LogEntry File="../../../Content/Resources/MasterPages/DocStandards.flmsp" Message="Missing snippet file: C:\Users\Elizabeth Warden\Documents\Git\JennyDrummey.github.io\DocStandardsProcesses\Content\Snippets\CopyrightFooter.flsnp&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5" ErrorID="10055" />
+        <LogEntry File="../../../Content/Resources/MasterPages/DocStandards.flmsp" Message="Link points outside project file:///C:/Users/Elizabeth Warden/Documents/Git/JennyDrummey.github.io/DocStandardsProcesses/Data_Insiders_Community.htm&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5" ErrorID="10056" />
+        <LogEntry File="../../../Content/Resources/MasterPages/DocStandards.flmsp" Message="Missing linked source file: C:\Users\Elizabeth Warden\Documents\Git\JennyDrummey.github.io\DocStandardsProcesses\Content\Images\topNav\SynitiGradientLogo.png&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5" ErrorID="10001" />
+        <LogEntry File="../../../Content/Resources/MasterPages/DocStandards.flmsp" Message="Missing snippet file: C:\Users\Elizabeth Warden\Documents\Git\JennyDrummey.github.io\DocStandardsProcesses\Content\Snippets\CopyrightFooter.flsnp&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5" ErrorID="10055" />
+        <LogEntry File="../../../Content/Resources/MasterPages/DocStandards.flmsp" Message="Link points outside project file:///C:/Users/Elizabeth Warden/Documents/Git/JennyDrummey.github.io/DocStandardsProcesses/Data_Insiders_Community.htm&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5" ErrorID="10056" />
+        <LogEntry File="../../../Content/Resources/MasterPages/DocStandards.flmsp" Message="Missing linked source file: C:\Users\Elizabeth Warden\Documents\Git\JennyDrummey.github.io\DocStandardsProcesses\Content\Images\topNav\SynitiGradientLogo.png&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5" ErrorID="10001" />
+        <LogEntry File="../../../Content/Resources/MasterPages/DocStandards.flmsp" Message="Missing snippet file: C:\Users\Elizabeth Warden\Documents\Git\JennyDrummey.github.io\DocStandardsProcesses\Content\Snippets\CopyrightFooter.flsnp&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5" ErrorID="10055" />
+        <LogEntry File="../../../Content/Resources/MasterPages/DocStandards.flmsp" Message="Link points outside project file:///C:/Users/Elizabeth Warden/Documents/Git/JennyDrummey.github.io/DocStandardsProcesses/Data_Insiders_Community.htm&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5" ErrorID="10056" />
+        <LogEntry File="../../../Content/Resources/MasterPages/DocStandards.flmsp" Message="Missing linked source file: C:\Users\Elizabeth Warden\Documents\Git\JennyDrummey.github.io\DocStandardsProcesses\Content\Images\topNav\SynitiGradientLogo.png&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5" ErrorID="10001" />
         <LogEntry File="../../../Content/DocProcess/CheckLatestBuild.html" Message="Topic contains invalid XHTML.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5" ErrorID="20058" />
         <LogEntry File="../../../Content/SKTDocStandards/IGCDocStandards_gifs.html" Message="Topic contains invalid XHTML.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5" ErrorID="20058" />
-        <LogEntry File="../../../Content/Resources/MasterPages/DocStandards.flmsp" Message="Missing snippet file: C:\Users\Donna Knox\git\JennyDrummey.github.io\DocStandardsProcesses\Content\Snippets\CopyrightFooter.flsnp&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5" ErrorID="10055" />
-        <LogEntry File="../../../Content/Resources/MasterPages/DocStandards.flmsp" Message="Link points outside project file:///C:/Users/Donna Knox/git/JennyDrummey.github.io/DocStandardsProcesses/Data_Insiders_Community.htm&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5" ErrorID="10056" />
-        <LogEntry File="../../../Content/Resources/MasterPages/DocStandards.flmsp" Message="Missing linked source file: C:\Users\Donna Knox\git\JennyDrummey.github.io\DocStandardsProcesses\Content\Images\topNav\SynitiGradientLogo.png&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5" ErrorID="10001" />
-        <LogEntry File="../../../Content/Resources/MasterPages/DocStandards.flmsp" Message="Missing snippet file: C:\Users\Donna Knox\git\JennyDrummey.github.io\DocStandardsProcesses\Content\Snippets\CopyrightFooter.flsnp&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5" ErrorID="10055" />
-        <LogEntry File="../../../Content/Resources/MasterPages/DocStandards.flmsp" Message="Link points outside project file:///C:/Users/Donna Knox/git/JennyDrummey.github.io/DocStandardsProcesses/Data_Insiders_Community.htm&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5" ErrorID="10056" />
-        <LogEntry File="../../../Content/Resources/MasterPages/DocStandards.flmsp" Message="Missing linked source file: C:\Users\Donna Knox\git\JennyDrummey.github.io\DocStandardsProcesses\Content\Images\topNav\SynitiGradientLogo.png&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5" ErrorID="10001" />
+        <LogEntry File="../../../Content/Resources/MasterPages/DocStandards.flmsp" Message="Missing snippet file: C:\Users\Elizabeth Warden\Documents\Git\JennyDrummey.github.io\DocStandardsProcesses\Content\Snippets\CopyrightFooter.flsnp&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5" ErrorID="10055" />
+        <LogEntry File="../../../Content/Resources/MasterPages/DocStandards.flmsp" Message="Link points outside project file:///C:/Users/Elizabeth Warden/Documents/Git/JennyDrummey.github.io/DocStandardsProcesses/Data_Insiders_Community.htm&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5" ErrorID="10056" />
+        <LogEntry File="../../../Content/Resources/MasterPages/DocStandards.flmsp" Message="Missing linked source file: C:\Users\Elizabeth Warden\Documents\Git\JennyDrummey.github.io\DocStandardsProcesses\Content\Images\topNav\SynitiGradientLogo.png&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5" ErrorID="10001" />
+        <LogEntry File="../../../Content/Resources/MasterPages/DocStandards.flmsp" Message="Missing snippet file: C:\Users\Elizabeth Warden\Documents\Git\JennyDrummey.github.io\DocStandardsProcesses\Content\Snippets\CopyrightFooter.flsnp&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5" ErrorID="10055" />
+        <LogEntry File="../../../Content/Resources/MasterPages/DocStandards.flmsp" Message="Link points outside project file:///C:/Users/Elizabeth Warden/Documents/Git/JennyDrummey.github.io/DocStandardsProcesses/Data_Insiders_Community.htm&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5" ErrorID="10056" />
+        <LogEntry File="../../../Content/Resources/MasterPages/DocStandards.flmsp" Message="Missing linked source file: C:\Users\Elizabeth Warden\Documents\Git\JennyDrummey.github.io\DocStandardsProcesses\Content\Images\topNav\SynitiGradientLogo.png&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5" ErrorID="10001" />
     </Warnings>
     <Errors />
 </MadCapLog>
