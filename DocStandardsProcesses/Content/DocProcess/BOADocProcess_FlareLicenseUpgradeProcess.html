@@ -7,19 +7,22 @@
         <p>
             <h1>MadCap Flare Licensing and Upgrade Process</h1>
             <p class="note"><b>NOTE:</b> The Documentation Team uses Madcap Flare to generate the online Help for  Syniti products. Contact the Technical Writer Manager for the Flare license key to install or upgrade the software and the maintenance key to use to report problems with the Flare software.</p>
-            <p>When upgrading the software, the Technical Writer Manager assigns one writer to upgrade and test the upgrade for Flare. The writer who tests the upgrade performs the following checks:</p>
-            <ul>
+            <p class="note">When upgrading Flare, you must <a href="#UpgradeYourLocalVersion">upgrade your local version</a> and the <a href="#UpgradeFlareServer">upgrade the version on the Jenkins server</a>.</p>
+            <h3><span class="H2"><a name="UpgradeYourLocalVersion"></a>Upgrade your local version </span>
+            </h3>
+            <p>When upgrading the software, the Technical Writer Manager assigns one writer to upgrade and test the upgrade for Flare. Upgrade your local version of Flare and perform the following checks:</p>
+            <ol>
                 <li>
                     <p>Build each Target in each Flare project to make sure there are no build errors.</p>
-                    <p class="note"><b>NOTE:</b> If there are build errors export the build log and report the issue to Flare support.</p>
                 </li>
-            </ul>
-            <ul>
+            </ol>
+            <p class="note"><b>NOTE:</b> If there are build errors export the build log and report the issue to Flare support.</p>
+            <ol MadCap:continue="true">
                 <li>
                     <p>Check the output to make sure that the master pages are applied correctly.</p>
                 </li>
-            </ul>
-            <ul>
+            </ol>
+            <ol MadCap:continue="true">
                 <li>
                     <p>Click on all clickable items and verify they work as expected (for example the arrow drop down menu next to the logo in the header).</p>
                 </li>
@@ -29,9 +32,114 @@
                 <li>
                     <p>Make sure the print and Remove Highlights icons in the Help toolbar work.</p>
                 </li>
-            </ul>
+            </ol>
             <p>For the SST Help project if everything checks out, commit a build to source control and make sure that the Context Sensitive Help is working as expected in a test SST environment.</p>
             <p>Once the build is confirmed working in the SST test environment, notify the Documentation Team that they can upgrade.</p>
+            <h3 class="masterpage" style="font-size: 1.5em;"><a name="UpgradeFlareServer"></a>Upgrade Flare on the Jenkins Server</h3>
+            <p>Upgrading Flare on the Jenkins server requires an AWS VPN connection and a login to the remote desktop.</p>
+            <h3 class="masterpage">Get the correct access</h3>
+            <ul>
+                <li>
+                    <p><b>AWS VPN—</b><a href="https://backofficeassociates.zendesk.com/agent/dashboard" target="_blank" rel="noopener noreferrer">Submit a ticket to Syniti Support</a> to request a connection to the AWS VPN. You will receive an email from CloudOps with instructions on what to download and how to connect. Run through these steps to ensure you can connect.</p>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <p><b>Remote Desktop—</b>Ask a member of the Doc Team to create you a login. Refer to <a href="#CreateRemoteDesktopUser">Create a User Account for the Remote Desktop</a> for details. Log into the Remote Desktop to ensure you can connect. IP Address of the server is <b>172.31.88.245</b></p>
+                </li>
+            </ul>
+            <h3 class="masterpage">Perform the Flare upgrade</h3>
+            <ol>
+                <li>
+                    <p><a href="https://backofficeassociates.zendesk.com/agent/dashboard" target="_blank" rel="noopener noreferrer">Submit a ticket to Syniti Support</a>, requesting CloudOps to take an AMI the Jenkins server before performing the Flare upgrade. Syniti Support will need the IP Address of the server to complete this request (172.31.88.245).</p>
+                    <p class="noteNumList"><b>NOTE:</b> An AMI is an image; we want to capture the state of the server prior to the upgrade for safety. If anything breaks, we can revert to a copy of the server beforehand.</p>
+                </li>
+            </ol>
+            <ol MadCap:continue="true">
+                <li>
+                    <p>Wait for CloudOps to reply saying that the AMI finished.</p>
+                </li>
+                <li>
+                    <p>Message the team to ensure no one is actively using Flare.</p>
+                </li>
+                <li>
+                    <p>Connect to the AWS VPN. If the connection was correctly set up, this step is as simple as opening the AWS VPN Client and clicking <b>Connect</b>.</p>
+                    <p>
+                        <img src="../Resources/Images/UpgradeFlareServer_AWS VPN.png" />
+                    </p>
+                </li>
+                <li>
+                    <p>Log into the Remote Desktop. If the connection was correctly set up, this step is as simple as opening the Remote Desktop Connection and clicking <b>Connect</b>. If you did not save your login credentials, you will have to enter them before connecting.</p>
+                    <p>
+                        <img src="../Resources/Images/UpgradeFlareServer_Remote Desktop.png" />
+                    </p>
+                </li>
+                <li>
+                    <p>Open Flare and perform the upgrade.</p>
+                    <p class="noteNumList"><b>NOTE:</b> If downloads from the Flare website are blocked on the server, copy the Flare install .exe file from your local computer to the Jenkins server. Then, open and run the .exe file on the server to complete the install.</p>
+                </li>
+                <li>
+                    <p>Reply in the Support ticket that the upgrade is complete and request another AMI of the server to capture the new version of Flare.</p>
+                </li>
+            </ol>
+            <p>
+                <h3 class="masterpage"><a name="CreateRemoteDesktopUser"></a>Create a User Account for the Remote Desktop</h3>
+            </p>
+            <p>For new team members, create a user account for the remote desktop.</p>
+            <p>To create a user account for the remote desktop:</p>
+            <ol>
+                <li>
+                    <p>Connect to the AWS VPN.</p>
+                </li>
+                <li>
+                    <p>Log into the Remote Desktop.</p>
+                </li>
+                <li>
+                    <p>Right-click Windows Start and select <b>Computer Managemen</b>t.</p>
+                </li>
+                <li>
+                    <p>Expand <b>Local Users and Groups</b>.</p>
+                </li>
+                <li>
+                    <p>Right-click <b>Users</b> and select <b>New User…</b></p>
+                </li>
+                <li>
+                    <p>Enter a <b>User name</b> following the convention <b>FirstInitialLastName</b>, e.g., EWarden.</p>
+                </li>
+                <li>
+                    <p>Enter any password (the user can change it at login). Feel free to use a <a href="https://www.lastpass.com/features/password-generator" target="_blank" rel="noopener noreferrer">password generato</a>r to take the guesswork out of the process.</p>
+                </li>
+                <li>
+                    <p>Uncheck <b>User must change password at next logon</b> check box.</p>
+                </li>
+                <li>
+                    <p>Check <b>Password never expires</b> check box.</p>
+                </li>
+                <li>
+                    <p>Click <b>Create</b>.</p>
+                </li>
+                <li>
+                    <p>Return to Computer Management.</p>
+                </li>
+                <li>
+                    <p>Click <b>Groups</b>.</p>
+                </li>
+                <li>
+                    <p>Right-click <b>Administrators</b> and select <b>Add to Group …</b></p>
+                </li>
+                <li>
+                    <p>Click <b>Add</b>.</p>
+                    <p>
+                        <img src="../Resources/Images/UpgradeFlareServer_Create Remote Desktop User.png" />
+                    </p>
+                </li>
+                <li>
+                    <p>Enter the username in the <b>Enter the object names to select</b> text box and click <b>Check Names</b>. The new account name displays.</p>
+                </li>
+                <li>
+                    <p>Click <b>OK</b>. The user has been created and added as an Administrator.</p>
+                </li>
+            </ol>
         </p>
     </body>
 </html>

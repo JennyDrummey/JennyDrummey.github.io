@@ -1,5 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <UrlList>
+    <Url Source="Resources/Images/UpgradeFlareServer_Create Remote Desktop User.png" />
+    <Url Source="Resources/Images/UpgradeFlareServer_Remote Desktop.png" />
+    <Url Source="Resources/Images/UpgradeFlareServer_AWS VPN.png" />
     <Url Source="Resources/Images/Variable-Target.png" />
     <Url Source="Resources/Images/Variable.png" />
     <Url Source="Resources/Images/StaticGuidanceFlowDiagram.png" />
