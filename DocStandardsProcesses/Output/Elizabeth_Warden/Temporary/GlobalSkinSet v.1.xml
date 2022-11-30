@@ -307,6 +307,8 @@
       <Class
         Name="RegisterUser" />
     </Tag>
+    <Tag
+      Name="Search Micro Content Response Button" />
   </Map>
   <SourceUrls>
     <Url
@@ -332,6 +334,6 @@
     <Url
       Source="../Project/Skins/TripaneFavicon.flskn" />
     <Url
-      Source="../../../../../../../Program Files/MadCap Software/MadCap Flare 17/Flare.app/Resources/Stylesheets/MasterSkin.xmlstylesdef" />
+      Source="../../../../../../../Program Files/MadCap Software/MadCap Flare 18/Flare.app/Resources/Stylesheets/MasterSkin.xmlstylesdef" />
   </SourceUrls>
 </CatapultGlobalSkinCache>
