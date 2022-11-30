@@ -84,10 +84,17 @@
       Link="/Content/DocProcess/UpdateStaticGuidance.htm"></TocEntry>
     <TocEntry
       Title="Overview of In-Line Help"
-      Link="/Content/DocProcess/WriteInlineHelp.html" />
-    <TocEntry
-      Title="Add In-line and Page Level Help"
-      Link="/Content/DocProcess/Adding_Inline_and_PageLevel_Help.html" />
+      Link="/Content/DocProcess/WriteInlineHelp.html">
+      <TocEntry
+        Title="Add In-line and Page Level Help"
+        Link="/Content/DocProcess/Adding_Inline_and_PageLevel_Help.html" />
+      <TocEntry
+        Title="Add a Gif to Page-level Help"
+        Link="/Content/DocProcess/Add_Gifs_Page_Help.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="Troubleshoot Localization PRs"
+        Link="/Content/DocProcess/TroubleshootLocalizationPRs.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    </TocEntry>
     <TocEntry
       Title="Create Weekly SKP Release Notes"
       Link="/Content/DocProcess/Create Weekly SKP Release Notes .htm" />

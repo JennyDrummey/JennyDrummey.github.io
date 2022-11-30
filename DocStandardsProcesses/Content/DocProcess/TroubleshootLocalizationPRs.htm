@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-template-page: url('../Resources/MasterPages/DocProcess.flmsp');">
+    <head>
+    </head>
+    <body>
+        <h1>Troubleshoot Localization PRs</h1>
+        <h2>When Chromatic Fails</h2>
+        <p>Chromatic defines all the pieces of the UI. It’s a library of all the UI elements, both what it looks like in the UI and the code behind it. If a visual change has been made to one of these defined pieces, Chromatic fails the localization PR.</p>
+        <p>We can easily view the change in Chromatic, accept that this is a change we want, and merge the PR.</p>
+        <p>This is how you know Chromatic failed your PR:</p>
+        <p>
+            <img src="../Resources/Images/Troubleshoot_ChromaticFails1.png" />
+        </p>
+        <p>To accept the change and continue with the PR:</p>
+        <ol>
+            <li>
+                <p>Click <b>Details</b>; CircleCi opens.</p>
+            </li>
+            <li>
+                <p>Copy and paste this link into a new browser.</p>
+                <p>
+                    <img src="../Resources/Images/Troubleshoot_ChromaticFails2.png" />
+                </p>
+                <p><b>NOTE: </b>In this case, the Subject Matter Experts label, which is a label defined in Chromatic, was modified</p>
+                <p>
+                    <img src="../Resources/Images/Troubleshoot_ChromaticFails3.png" />
+                </p>
+            </li>
+            <li>
+                <p>Click<b> Review change </b>to see what the before and after are.</p>
+                <p>
+                    <img src="../Resources/Images/Troubleshoot_ChromaticFails4.png" />
+                </p>
+            </li>
+            <li>
+                <p>Click <b>Accept </b>if you meant to make this change. Otherwise, click <b>Deny</b>.</p>
+            </li>
+            <li>
+                <p>Return to Chromatic and run the build from fail; rerunning the build takes a few minutes.</p>
+                <p>
+                    <img src="../Resources/Images/Troubleshoot_ChromaticFails5.png" />
+                </p>
+            </li>
+        </ol>
+        <ol MadCap:continue="true">
+            <li>
+                <p>Return to the PR once the build successfully ran. Confirm that all checks have passed.</p>
+                <p>
+                    <img src="../Resources/Images/Troubleshoot_ChromaticFails6.png" />
+                </p>
+                <p>&#160;</p>
+            </li>
+        </ol>
+        <p>&#160;</p>
+        <p>&#160;</p>
+        <p>&#160;</p>
+        <p>&#160;</p>
+        <p>
+            <br />
+        </p>
+        <p class="noteNumList">&#160;</p>
+        <p class="noteNumList">&#160;</p>
+        <p class="noteNumList">&#160;</p>
+        <p>&#160;</p>
+        <p>&#160;</p>
+        <p>&#160;</p>
+    </body>
+</html>

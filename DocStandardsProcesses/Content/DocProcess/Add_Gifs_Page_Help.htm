@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-template-page: url('../Resources/MasterPages/DocProcess.flmsp');">
+    <head>
+    </head>
+    <body>
+        <h1>Add a Gif to Page-level Help</h1>
+        <p>To add a gif to page-level help:</p>
+        <ol>
+            <li>
+                <p><a href="UseGIFsInOnlineHelp.html" target="_blank" rel="noopener noreferrer">Create the gif</a>.</p>
+            </li>
+            <li>
+                <p><a href="#AddGifToSynitiCDN">Ask an engineer to add the gif to the Syniti CDC</a>.</p>
+            </li>
+            <li>
+                <p><a href="#AddGifToPageHelp">Add the gif file to the page-level help in i18Nexus</a>.</p>
+            </li>
+        </ol>
+        <h2><a name="AddGifToSynitiCDN"></a>Add/Update the gif in the Syniti CDN</h2>
+        <p>Gifs are stored on the Syniti CDN, which requires access to AWS. Provide an engineer with these instructions and ask for the file path when the gif is uploaded.</p>
+        <p><b>The engineer needs Production AWS Access.</b> That is where the CDN bucket is stored.</p>
+        <p>To add or update a gif in the Syniti CDN:</p>
+        <ol>
+            <li>
+                <p>Log in to <code>boa-igc-dev</code>.</p>
+            </li>
+            <li>
+                <p>Switch to <code>devops </code>role for the production account <code>723806118003.</code></p>
+            </li>
+            <li>
+                <p>Go to S3.</p>
+            </li>
+            <li>
+                <p>Open bucket <code>cdn-syniti-com</code>.</p>
+            </li>
+            <li>
+                <p>Upload/replace the image to <code>images/</code> folder.</p>
+            </li>
+            <li>
+                <p>The image is accessible at https://cdn.syniti.com/images/name-of-file.gif.</p>
+            </li>
+        </ol>
+        <p class="noteNumList"><b>NOTE:  </b>If you override an image that is currently there it will take ~24 hours for the CDN to purge the contents.</p>
+        <h2><a name="AddGifToPageHelp"></a>Add the Gif to Page-level Help</h2>
+        <p>Use the following markdown to add the gif to page-level help:</p>
+        <p><b>Format:</b> ![gif](FilePathFromEngineering)</p>
+        <p><b>Example:</b> ![gif](https://cdn.syniti.com/images/ObjectsSetUsagetoProfiling.gif)</p>
+        <p>&#160;</p>
+        <p>&#160;</p>
+    </body>
+</html>

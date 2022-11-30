@@ -1,5 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <UrlList>
+    <Url Source="Resources/Images/Troubleshoot_ChromaticFails6.png" />
+    <Url Source="Resources/Images/Troubleshoot_ChromaticFails5.png" />
+    <Url Source="Resources/Images/Troubleshoot_ChromaticFails4.png" />
+    <Url Source="Resources/Images/Troubleshoot_ChromaticFails3.png" />
+    <Url Source="Resources/Images/Troubleshoot_ChromaticFails2.png" />
+    <Url Source="Resources/Images/Troubleshoot_ChromaticFails1.png" />
     <Url Source="Resources/Images/UpgradeFlareServer_Create Remote Desktop User.png" />
     <Url Source="Resources/Images/UpgradeFlareServer_Remote Desktop.png" />
     <Url Source="Resources/Images/UpgradeFlareServer_AWS VPN.png" />
@@ -14,5 +20,4 @@
     <Url Source="Resources/Images/PostArticleToSC2.png" />
     <Url Source="Resources/Images/PostArticleToSC1.png" />
     <Url Source="Resources/Images/UseGifExample2.gif" />
-    <Url Source="Resources/Images/UseGifExample1.gif" />
 </UrlList>
