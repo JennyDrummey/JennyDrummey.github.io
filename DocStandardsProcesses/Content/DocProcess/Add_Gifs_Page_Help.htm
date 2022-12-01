@@ -3,7 +3,7 @@
     <head>
     </head>
     <body>
-        <h1>Add a Gif to Page-level Help</h1>
+        <h1>Add a Gif or Image to Page-level Help</h1>
         <p>To add a gif to page-level help:</p>
         <ol>
             <li>
@@ -45,7 +45,22 @@
         <p>Use the following markdown to add the gif to page-level help:</p>
         <p><b>Format:</b> ![gif](FilePathFromEngineering)</p>
         <p><b>Example:</b> ![gif](https://cdn.syniti.com/images/ObjectsSetUsagetoProfiling.gif)</p>
-        <p>&#160;</p>
-        <p>&#160;</p>
+        <h2>Add an Image to Page-level Help</h2>
+        <p>Images can be stored in the Resources/Images folder in the igc-help Flare project so that they are on the hosted server. You can then reference them to add that image to the page-level help. </p>
+        <ol>
+            <li>
+                <p>In the igc-help project, add the image to the Resources/folder, noting the folder and file name. </p>
+            </li>
+            <li>
+                <p>Check in the repo and build in dev and prod so the image is accessible. </p>
+            </li>
+            <li>
+                <p>In I18nexus, in the markdown in the page-help namespace, use this syntax:</p>
+            </li>
+        </ol>
+        <p>:![title on hover]{path to image with image name)</p>
+        <p>For examle:</p>
+        <p>![Business process example](https://skthelp.syniti.com/Resources/Images/DQExamples/BusinessConceptExample.png)</p>
+        <p>After you have saved the change and run the workflow, the image displays in the vercel preview. </p>
     </body>
 </html>

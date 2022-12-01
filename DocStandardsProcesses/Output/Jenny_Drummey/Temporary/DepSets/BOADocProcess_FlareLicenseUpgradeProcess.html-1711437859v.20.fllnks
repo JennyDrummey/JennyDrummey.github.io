@@ -11,14 +11,49 @@
       Url="Content/Resources/MasterPages/DocProcess.flmsp" />
     <Link
       Url="Content/Resources/Stylesheets/newDefault.css" />
+    <Link
+      Url="Content/DocProcess/BOADocProcess_FlareLicenseUpgradeProcess.html" />
+    <Link
+      Url="https://backofficeassociates.zendesk.com/agent/dashboard" />
+    <Link
+      Url="Content/Resources/Images/UpgradeFlareServer_AWS VPN.png" />
+    <Link
+      Url="Content/Resources/Images/UpgradeFlareServer_Remote Desktop.png" />
+    <Link
+      Url="https://www.lastpass.com/features/password-generator" />
+    <Link
+      Url="Content/Resources/Images/UpgradeFlareServer_Create Remote Desktop User.png" />
   </Links>
   <LongLinks>
     <Link
       Url="Content/Resources/MasterPages/DocProcess.flmsp" />
     <Link
       Url="Content/Resources/Stylesheets/newDefault.css" />
+    <Link
+      Url="Content/DocProcess/BOADocProcess_FlareLicenseUpgradeProcess.html#UpgradeYourLocalVersion" />
+    <Link
+      Url="Content/DocProcess/BOADocProcess_FlareLicenseUpgradeProcess.html#UpgradeFlareServer" />
+    <Link
+      Url="https://backofficeassociates.zendesk.com/agent/dashboard" />
+    <Link
+      Url="Content/DocProcess/BOADocProcess_FlareLicenseUpgradeProcess.html#CreateRemoteDesktopUser" />
+    <Link
+      Url="Content/Resources/Images/UpgradeFlareServer_AWS VPN.png" />
+    <Link
+      Url="Content/Resources/Images/UpgradeFlareServer_Remote Desktop.png" />
+    <Link
+      Url="https://www.lastpass.com/features/password-generator" />
+    <Link
+      Url="Content/Resources/Images/UpgradeFlareServer_Create Remote Desktop User.png" />
   </LongLinks>
-  <Anchors />
+  <Anchors>
+    <Anchor
+      Name="UpgradeYourLocalVersion" />
+    <Anchor
+      Name="UpgradeFlareServer" />
+    <Anchor
+      Name="CreateRemoteDesktopUser" />
+  </Anchors>
   <Keywords />
   <Concepts />
   <ConceptControlNames />
