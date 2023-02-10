@@ -14,7 +14,7 @@
     <Link
       Url="Content/DocProcess/BOADocProcess_UpdateOnlineHelp.html" />
     <Link
-      Url="Content/DocProcess/Publish_SKT_Help.htm" />
+      Url="Content/DocProcess/SKP_Help.htm" />
     <Link
       Url="Content/DocProcess/BOADocProcess_Add_Topics_to_the_TOC.html" />
     <Link
@@ -102,7 +102,7 @@
     <Link
       Url="Content/DocProcess/BOADocProcess_UpdateOnlineHelp.html#Add" />
     <Link
-      Url="Content/DocProcess/Publish_SKT_Help.htm" />
+      Url="Content/DocProcess/SKP_Help.htm" />
     <Link
       Url="Content/DocProcess/BOADocProcess_Add_Topics_to_the_TOC.html" />
     <Link

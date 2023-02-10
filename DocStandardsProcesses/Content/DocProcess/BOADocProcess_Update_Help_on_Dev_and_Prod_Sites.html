@@ -6,7 +6,7 @@
     <body>
         <h1><a name="top"></a>Update Help on Dev and Prod Sites </h1>
         <p>The dev site is for Tech Writers to test that the online help works. The prod site is the site that users access directly from the product, either when they click the ? on any page or a link on a product page.</p>
-        <p>The process for updating the help on the dev and prod sites is the same for updating help is the same for the product help (stored in the dps-docs repo) and the Install Manuals/Requirements/SAP Config guides (stored in the dsp-install-manuals repo). </p>
+        <p>The process for updating the SST help and the Installation Guides on the dev and prod sites is the same. </p>
         <ul>
             <li>
                 <p>Each SST release has a branch in the dsp-docs repo with the naming convention develop_nnn, where nnn is the release number (develop_701, for example). After a pull request is merged to the branch develop_nnn, a Technical Writer can then log in to Jenkins and build the help on the dev site, prod site, or both.</p>
@@ -110,7 +110,7 @@
                 <p>After the build completes, open an incognito window in Chrome to view the help to confirm your updates are on the site.</p>
             </li>
         </ol>
-        <p>To update the sites for the SKP you do not need to run Jenkins. Instead, you push content to two different repositories:</p>
+        <p>To update the sites for the SKP you do not need to run Jenkins. Instead, you push content to two different branches:</p>
         <ol>
             <li>
                 <p>Merge your branch to the develop branch. This runs a job to automatically update the develop site.</p>
@@ -119,6 +119,6 @@
                 <p>After checking the develop site, merge the develop branch to the master branch. This pushes your updates to the production site. </p>
             </li>
         </ol>
-        <p><b>NOTE</b>: Pushing content to develop automatically starts a build in jenkins called ‘<b>CloudDocsDev</b>’ to build the new content in the dev site. There is no need to access jenkins when updating SKP help (unless to check for failure issues). Refer to <a href="SKP_Help.htm#Merge" target="_blank" rel="noopener noreferrer">Merge the Develop Branch to the Master Branch</a> for details of pushing from develop to master.</p>
+        <p class="note"><b>NOTE</b>: Pushing content to develop automatically starts a build in jenkins called ‘<b>CloudDocsDev</b>’ to build the new content in the dev site. There is no need to access jenkins when updating SKP help (unless to check for failure issues). Refer to <a href="SKP_Help.htm#Merge" target="_blank" rel="noopener noreferrer">Merge the Develop Branch to the Master Branch</a> for details of pushing from develop to master.</p>
     </body>
 </html>

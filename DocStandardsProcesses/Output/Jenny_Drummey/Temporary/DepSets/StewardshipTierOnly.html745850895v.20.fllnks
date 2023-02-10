@@ -26,6 +26,8 @@
       Url="Content/DocProcess/BOADocProcess_CheckLlistForGeneratingHelp.htm" />
     <Link
       Url="Content/DocProcess/BOADocProcess_CLAddNewComponent.html" />
+    <Link
+      Url="Content/DocProcess/AddDuplicateLinksforSolex.htm" />
   </Links>
   <LongLinks>
     <Link
@@ -48,6 +50,8 @@
       Url="Content/DocProcess/BOADocProcess_CheckLlistForGeneratingHelp.htm" />
     <Link
       Url="Content/DocProcess/BOADocProcess_CLAddNewComponent.html" />
+    <Link
+      Url="Content/DocProcess/AddDuplicateLinksforSolex.htm" />
   </LongLinks>
   <Anchors />
   <Keywords />

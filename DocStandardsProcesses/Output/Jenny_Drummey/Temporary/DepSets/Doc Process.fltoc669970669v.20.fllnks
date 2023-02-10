@@ -36,6 +36,8 @@
     <Link
       Url="Content/DocProcess/BOADocProcess_UpdateOnlineHelp.html" />
     <Link
+      Url="Content/DocProcess/UpdateSynitiReplicateDocumentation.htm" />
+    <Link
       Url="Content/DocProcess/StewardshipTierOnly.html" />
     <Link
       Url="Content/DocProcess/BOADocProcess_PrepareWhatsNew.html" />
@@ -52,13 +54,21 @@
     <Link
       Url="Content/DocProcess/AddDuplicateLinksforSolex.htm" />
     <Link
-      Url="Content/DocProcess/KnowledgeTierOnly.html" />
+      Url="Content/DocProcess/KnowledgePlatformOnly.html" />
     <Link
-      Url="Content/DocProcess/Publish_SKT_Help.htm" />
+      Url="Content/DocProcess/SKP_Help.htm" />
     <Link
       Url="Content/DocProcess/WriteInlineHelp.html" />
     <Link
-      Url="Content/DocProcess/UpdateStaticGuidance.htm" />
+      Url="Content/DocProcess/Adding_Inline_and_PageLevel_Help.html" />
+    <Link
+      Url="Content/DocProcess/Add_Gifs_Page_Help.htm" />
+    <Link
+      Url="Content/DocProcess/TroubleshootLocalizationPRs.htm" />
+    <Link
+      Url="Content/DocProcess/Create Weekly SKP Release Notes .htm" />
+    <Link
+      Url="Content/DocProcess/Create_Monthly_ConstructMigrate_Release_Notes .htm" />
     <Link
       Url="Content/DocProcess/BOADocProcess_SrcFiles.html" />
     <Link
@@ -68,13 +78,13 @@
     <Link
       Url="Content/DocProcess/BOADocProcess_IncorpFeedbackPrint.html" />
     <Link
-      Url="Content/DocProcess/APIDocProcess.htm" />
-    <Link
       Url="Content/DocProcess/BOADocProcess_UnifyKBArticles.html" />
     <Link
       Url="Content/DocProcess/PostAnArticleToSynitiConnect.html" />
     <Link
       Url="Content/DocProcess/UseGIFsInOnlineHelp.html" />
+    <Link
+      Url="Content/DocProcess/MaintenanceOfSSTSAPTransports.htm" />
     <Link
       Url="Content/DocProcess/BOADocProcess_FlareLicenseUpgradeProcess.html" />
     <Link

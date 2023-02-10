@@ -24,22 +24,22 @@
       Link="/Content/SSTDocStandards/BOADocStandards_CompNamesTerms.html" />
   </TocEntry>
   <TocEntry
-    Title="SKT Help Standards"
+    Title="SKP Help Standards"
     Link="/Content/SKTDocStandards/IGCDocStandards_genWritingStyle.html">
     <TocEntry
-      Title="SKT Use Case Example"
+      Title="SKP Use Case Example"
       Link="/Content/SKTDocStandards/IGCDocStandards_useCase.html"></TocEntry>
     <TocEntry
-      Title="SKT What's New Standards"
+      Title="SKP What's New Standards"
       Link="/Content/SKTDocStandards/IGCDocStandards_enhancements.html" />
     <TocEntry
-      Title="SKT Styles"
+      Title="SKP Styles"
       Link="/Content/SKTDocStandards/IGCDocStandards_styles.html"></TocEntry>
     <TocEntry
       Title="UI Terms for the SKT"
       Link="/Content/SKTDocStandards/IGCDocStandards_wordChoice.html"></TocEntry>
     <TocEntry
-      Title="SKT Notifications and Messaging"
+      Title="SKP Notifications and Messaging"
       Link="/Content/SKTDocStandards/IGCDocStandards_notifications.html" />
   </TocEntry>
   <TocEntry

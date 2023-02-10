@@ -1,0 +1,201 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-template-page: url('../Resources/MasterPages/DocProcess.flmsp');">
+    <head>
+        <link href="../Resources/TableStylesheets/fielddescription.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <h1>Update Syniti Replicate Documentation</h1>
+        <h2>Overview</h2>
+        <p>This product is called Syniti Data Replication in the desktop version prior to 10. The cloud version is called Syniti Replicate. The desktop versions after 10 are also called Syniti Replicate. </p>
+        <p>The tickets to track updates to the desktop version of Syniti Data Replication (product name prior to 10) and Syniti Replicate (product name 10 and later) are tracked on the DBM board in Jira. Many of these tickets are difficult to understand, highly technical and many do not require documentation. Ask developers about documentation content at the time of release for the desktop version. </p>
+        <p>Tickets to track updates to Syniti Replicate (cloud) are tracked on the KYB board. For Syniti Replicate (cloud), the help is in the form for page level help and field level help only. We do not yet have online help that is specific to the Syniti Replicate product in the cloud. </p>
+        <p>The documentation updates for Syniti Replicate (cloud) follow the same steps as <a href="Adding_Inline_and_PageLevel_Help.html">Add In-line and Page Level Help</a>.</p>
+        <p>Documentation updates in the Users Guide (online help) for Syniti Data Replication/Syniti Replicate when a new desktop version is released: </p>
+        <ul>
+            <li>
+                <p>Update What’s New with their content.</p>
+            </li>
+            <li>
+                Update use cases as developers point out where changes are need
+            </li>
+            <li>
+               Update the version number on these pages:
+            </li>
+            <ul>
+                <li>
+                    <p>Quick Start Guide</p>
+                </li>
+                <li>
+                    <p>Whats New in Release</p>
+                </li>
+                <li>
+                    <p>Upgrading to the latest version</p>
+                </li>
+            </ul>
+        </ul>
+        <p>With each desktop release of Syniti Data Replication/Syniti Replicate, there are also 43 Configuration Guides in Word that must be updated and made into pdfs. </p>
+        <p>When updating these guides:</p>
+        <ol>
+            <li>
+                <p>Change the version number in the Word doc and create a new PDF</p>
+            </li>
+            <li>
+                <p>Remove the second page, the version history. </p>
+            </li>
+            <li>
+                <p>Do not add security to the pdf. Users must be able to copy the code from it. </p>
+            </li>
+        </ol>
+        <p class="note"><b>NOTE:</b>&#160;There is also API help, but this is generated when the product itslef is built. Even though the API Help is stored in the repo, it is not produced by the Documentation team. Devs have to forward. The latest vesion of the API&#160;help was produced in 2021. </p>
+        <h2>Update User's Guide and API&#160;Help</h2>
+        <p class="note"><b>NOTE:</b>&#160;To update the User Guide and API Help, you need a login to AWS. Contact Syniti Support for help getting a login. They will send you a detailed set of steps to log in to AWS and your specific links.</p>
+        <p>To update the User’s Guide/API Help on a new release:</p>
+        <ol>
+            <li>
+                <p>PM/Development informs the Doc team of what changes impact documentation. </p>
+            </li>
+            <li>
+                <p>Pull down the latest release branch in git</p>
+            </li>
+            <li>
+                <p>Create the new release branch using the naming convention /release/###, for example /release/9.8.2.</p>
+            </li>
+            <li>
+                <p>Make changes to Flare and build the project (HTML5 output).</p>
+            </li>
+            <li>
+                Access the Output folder, and rename the <b>HTML5</b> folder to <b>UsersGuide</b>. If a folder already exists with that name, delete it. </li>
+            <li>Push the new release branch up to the <b>db-moto-docs</b> repo.
+            </li>
+            <li>
+                <p>To upload the help files, log in to AWS using the two-factor authentication.</p>
+                <p class="note"><b>NOTE:</b> Contact the IT Help Desk for a login to AWS. You will be given instructions and links unique to your login credentials that are used to upload the files to the server.</p>
+            </li>
+            <li>
+                <p>Navigate to the two specific links provided by support.</p>
+            </li>
+            <li>
+                <p>Create the new folder for the new release (for example 1010).</p>
+            </li>
+            <li>
+                <p>Open the folder and upload the new version, which is the entire UsersGuide folder. If you are updating, remove the UsersGuide folder that's there before uploading. This process may take a few minutes. If you get a message that a file isn’t uploading successfully, there may have been a hiccup in the connection. Delete what has been uploaded and try uploading the folder again.</p>
+            </li>
+            <li>
+                Upload the API Help folder to this same folder. The API&#160;Help is stored in the folder in the root of the project. 
+				</li>
+            <li>
+                View the link to help in production to verify the changes are there.
+<a href="https://sdrhelp.syniti.com/1010/UsersGuide/Quick_Start.htm">https://sdrhelp.syniti.com/1010/UsersGuide/Quick_Start.htm</a></li>
+        </ol>
+        <h2>Update the Configuration Guides</h2>
+        <p>For each release of the desktop version, development provides details on what changes need to be made. At the very least, the version number on all the files needs to be updated and new PDFs generated and uploaded.</p>
+        <p>To update the Configuration Guides:</p>
+        <p>Navigate to [file path].https://drive.google.com/drive/folders/0B7bmwABAYi-wNUJPcHJmV0ttWDQ?resourcekey=0-Hb6QALRZ5wnSTVdluvukKQ&amp;usp=share_link</p>
+        <ol>
+            <li>
+                <p>Download the most recent version of the Configuration Guides.</p>
+            </li>
+            <li>
+                <p>Rename the folder and all the Word documents to include the new version number.</p>
+                <p class="note"><b>NOTE:</b> You don’t have to update the Version History table</p>
+            </li>
+            <li>
+                <p>Open each Word doc and update the version number on the title page.</p>
+            </li>
+            <li>
+                <p>Make any other changes that were provided by Development.</p>
+            </li>
+            <li>
+                <p>Generate a PDF for each file. Delete the Version History page from the PDF.</p>
+            </li>
+            <li>
+                <p>Upload the final PDFs to the Google drive.</p>
+            </li>
+            <li>
+                <p>Replace the PDFs on their respective articles on the Syniti Support site.</p>
+            </li>
+        </ol>
+        <h2>File Locations</h2>
+        <table style="mc-table-style: url('../Resources/TableStylesheets/fielddescription.css');" class="TableStyle-fielddescription" cellspacing="0">
+            <col />
+            <col />
+            <col style="width: 613px;" />
+            <col />
+            <tbody>
+                <tr class="TableStyle-fielddescription-Body-Body1">
+                    <td class="TableStyle-fielddescription-BodyE-Column1-Body1" role="rowheader">
+                        <p class="TableColumn">Document</p>
+                    </td>
+                    <td class="TableStyle-fielddescription-BodyE-Column2-Body1">
+                        <p class="TableColumn">Format</p>
+                    </td>
+                    <td class="TableStyle-fielddescription-BodyE-Column2-Body1">
+                        <p class="TableColumn">Sources</p>
+                    </td>
+                    <td class="TableStyle-fielddescription-BodyD-Column2-Body1">
+                        <p>Published Location</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-fielddescription-Body-Body1">
+                    <td class="TableStyle-fielddescription-BodyE-Column1-Body1" role="rowheader">
+                        <p class="TableColumn">User’s Guide</p>
+                    </td>
+                    <td class="TableStyle-fielddescription-BodyE-Column2-Body1">
+                        <p class="TableText">HTML5</p>
+                    </td>
+                    <td class="TableStyle-fielddescription-BodyE-Column2-Body1">
+                        <p class="TableText">Flare project stored in git under dbmoto-docs.</p>
+                    </td>
+                    <td class="TableStyle-fielddescription-BodyD-Column2-Body1">
+                        <p>Hosted server for HTML5 - UsersGuide folder</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-fielddescription-Body-Body1">
+                    <td class="TableStyle-fielddescription-BodyE-Column1-Body1" role="rowheader">
+                        <p class="TableColumn">User’s Guide Top Page</p>
+                        <p class="TableColumn">This is the page that displays when a user enters a wrong URL.</p>
+                    </td>
+                    <td class="TableStyle-fielddescription-BodyE-Column2-Body1">
+                        <p class="TableText">HTML5</p>
+                    </td>
+                    <td class="TableStyle-fielddescription-BodyE-Column2-Body1">
+                        <p class="TableText">All_SDR_Guides</p>
+                        <p class="TableText">Directory stored in git under dbmoto-docs</p>
+                    </td>
+                    <td class="TableStyle-fielddescription-BodyD-Column2-Body1">
+                        <p>Hosted server for HTML5 - root folder</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-fielddescription-Body-Body1">
+                    <td class="TableStyle-fielddescription-BodyE-Column1-Body1" role="rowheader">
+                        <p class="TableColumn">API Help</p>
+                    </td>
+                    <td class="TableStyle-fielddescription-BodyE-Column2-Body1">
+                        <p class="TableText">HTML5</p>
+                    </td>
+                    <td class="TableStyle-fielddescription-BodyE-Column2-Body1">
+                        <p class="TableText">Generated during product build. Stored in git under dbmoto-docs</p>
+                    </td>
+                    <td class="TableStyle-fielddescription-BodyD-Column2-Body1">
+                        <p>Hosted Server - APIHelp folder</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-fielddescription-Body-Body1">
+                    <td class="TableStyle-fielddescription-BodyB-Column1-Body1" role="rowheader">
+                        <p class="TableColumn">Setup Guides</p>
+                    </td>
+                    <td class="TableStyle-fielddescription-BodyB-Column2-Body1">
+                        <p class="TableText">PDF</p>
+                    </td>
+                    <td class="TableStyle-fielddescription-BodyB-Column2-Body1">
+                        <p class="TableText">Word files for completed versions in Product Documentation folder on google drive</p>
+                        <p class="TableText">The most recent folder for Word sources is https://drive.google.com/drive/folders/1d09ONvTXXOhMaN-uqj2wfpoe4dyEnR-C?usp=sharing</p>
+                        <p class="TableText">The most recent folder for PDF deliverables is:</p>
+                        <p class="TableText">https://drive.google.com/drive/folders/1S2mwY87IoU0Z_Ds08yyOosuleqj6gL31?usp=sharing</p>
+                    </td>
+                    <td class="TableStyle-fielddescription-BodyA-Column2-Body1">Google drive (PDF for use by support)Help Center</td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

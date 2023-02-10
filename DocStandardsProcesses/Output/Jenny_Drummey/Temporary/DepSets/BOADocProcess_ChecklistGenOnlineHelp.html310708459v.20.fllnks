@@ -14,8 +14,6 @@
     <Link
       Url="https://jenkins.io/doc/pipeline/tour/getting-started/" />
     <Link
-      Url="Content/Resources/Images/CheckBuild1.png" />
-    <Link
       Url="Content/Resources/Images/CheckBuild2.png" />
     <Link
       Url="Content/Resources/Images/CheckBuild3.png" />
@@ -35,8 +33,6 @@
       Url="Content/Resources/Stylesheets/newDefault.css" />
     <Link
       Url="https://jenkins.io/doc/pipeline/tour/getting-started/" />
-    <Link
-      Url="Content/Resources/Images/CheckBuild1.png" />
     <Link
       Url="Content/Resources/Images/CheckBuild2.png" />
     <Link
