@@ -5,7 +5,7 @@
     Title="Doc Process Overview"
     Link="/Content/DocProcess/BOADocProcess_DSPDocOverview.html">
     <TocEntry
-      Title="Documentation Updates by Release Type"
+      Title="Stewardship Tier Documentation Updates by Release Type"
       Link="/Content/DocProcess/BOADocProcess_DocUpdatesTable.html" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"></TocEntry>
     <TocEntry
       Title="Project Documentation Roles"
@@ -49,6 +49,9 @@
     Title="Update Online Help in Flare"
     Link="/Content/DocProcess/BOADocProcess_UpdateOnlineHelp.html"></TocEntry>
   <TocEntry
+    Title="Update Syniti Replicate Documentation"
+    Link="/Content/DocProcess/UpdateSynitiReplicateDocumentation.htm" />
+  <TocEntry
     Title="Stewardship Tier Only"
     Link="/Content/DocProcess/StewardshipTierOnly.html">
     <TocEntry
@@ -80,13 +83,10 @@
       Title="SKP Help"
       Link="/Content/DocProcess/SKP_Help.htm"></TocEntry>
     <TocEntry
-      Title="Update Static Guidance"
-      Link="/Content/DocProcess/UpdateStaticGuidance.htm"></TocEntry>
-    <TocEntry
-      Title="Overview of In-Line Help"
+      Title="Overview of Field Help"
       Link="/Content/DocProcess/WriteInlineHelp.html">
       <TocEntry
-        Title="Add In-line and Page Level Help"
+        Title="Add Field and Page Level Help"
         Link="/Content/DocProcess/Adding_Inline_and_PageLevel_Help.html" />
       <TocEntry
         Title="Add a Gif or Image to Page-level Help"
@@ -114,9 +114,6 @@
     <TocEntry
       Title="Add User Feedback to the Help"
       Link="/Content/DocProcess/BOADocProcess_IncorpFeedbackPrint.html"></TocEntry>
-    <TocEntry
-      Title="API Documentation Process"
-      Link="/Content/DocProcess/APIDocProcess.htm" />
     <TocEntry
       Title="Unifying KB Articles and Help"
       Link="/Content/DocProcess/BOADocProcess_UnifyKBArticles.html"></TocEntry>

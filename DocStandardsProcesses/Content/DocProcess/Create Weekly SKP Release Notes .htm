@@ -4,7 +4,7 @@
     <body>
         <h1>Create Weekly SKP Release Notes</h1>
         <p>Tech Writers and PM (Jon, Emily,  Andy and Caroline) work together to create the weekly release notes for Syniti Knowledge Platform (SKP).</p>
-        <p class="note"><b>NOTE</b>: The weekly update is for these systems - SKP, Replicate, and Match (as of Oct ‘22). Both Construct and Migrate produce monthly release notes per their cadence.</p>
+        <p class="note"><b>NOTE</b>: The weekly update is for the SKP, Migrate, Construct and Orchestrate. Other modules are note yet released. Both Construct and Migrate produce monthly release notes per their cadence.</p>
         <p class="note">At a high level, PM produces the bulk of the release notes by:</p>
         <ul>
             <li>
@@ -12,6 +12,9 @@
             </li>
             <li>
                 <p>Reviewing the list and, using track changes, deleting PRs that are not relevant.</p>
+            </li>
+            <li>
+                <p>Running a query in Jira to see which issues were tested successfully in prod. The release notes should only include these issues.</p>
             </li>
             <li>
                 <p>Providing details for the PRs where the provided descriptions are not enough.</p>
@@ -68,7 +71,7 @@
             </li>
         </ol>
         <h2><a name="find_PR"></a>How to find PR descriptions</h2>
-        <p>In the skt-repo, click the Pull Requests tab, then click the Closed filter.</p>
+        <p>In the skt-ui repo, click the Pull Requests tab, then click the Closed filter.</p>
         <p>
             <img src="../Resources/Images/WeeklySKPReleases_1.PNG" />
         </p>

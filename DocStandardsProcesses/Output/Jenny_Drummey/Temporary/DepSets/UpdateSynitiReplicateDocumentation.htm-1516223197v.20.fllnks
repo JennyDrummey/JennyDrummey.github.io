@@ -1,6 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <CatapultFileLinkSet
-  FileTitle=""
   FileSearchable="true"
   MasterPage="file:///C:/Users/Jenny Drummey/git/JennyDrummey.github.io/DocStandardsProcesses/Content/Resources/MasterPages/DocProcess.flmsp"
   OnlyLocalStylesheets="false"
@@ -10,25 +9,21 @@
     <Link
       Url="Content/Resources/MasterPages/DocProcess.flmsp" />
     <Link
-      Url="Content/Resources/Stylesheets/newDefault.css" />
+      Url="Content/Resources/TableStylesheets/fielddescription.css" />
     <Link
-      Url="Content/DocProcess/Create Weekly SKP Release Notes .htm" />
+      Url="Content/DocProcess/Adding_Inline_and_PageLevel_Help.html" />
     <Link
-      Url="Content/DocProcess/BOADocProcess_Workflow_Approved.html" />
-    <Link
-      Url="Content/DocProcess/BOADocProcess_Workflow_InProcess.html" />
+      Url="https://sdrhelp.syniti.com/1010/UsersGuide/Quick_Start.htm" />
   </Links>
   <LongLinks>
     <Link
       Url="Content/Resources/MasterPages/DocProcess.flmsp" />
     <Link
-      Url="Content/Resources/Stylesheets/newDefault.css" />
+      Url="Content/Resources/TableStylesheets/fielddescription.css" />
     <Link
-      Url="Content/DocProcess/Create Weekly SKP Release Notes .htm" />
+      Url="Content/DocProcess/Adding_Inline_and_PageLevel_Help.html" />
     <Link
-      Url="Content/DocProcess/BOADocProcess_Workflow_Approved.html" />
-    <Link
-      Url="Content/DocProcess/BOADocProcess_Workflow_InProcess.html" />
+      Url="https://sdrhelp.syniti.com/1010/UsersGuide/Quick_Start.htm" />
   </LongLinks>
   <Anchors />
   <Keywords />
@@ -41,6 +36,6 @@
   <AllConditions />
   <Stylesheets>
     <Url
-      Source="Content/Resources/Stylesheets/newDefault.css" />
+      Source="Content/Resources/TableStylesheets/fielddescription.css" />
   </Stylesheets>
 </CatapultFileLinkSet>

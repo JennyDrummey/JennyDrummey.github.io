@@ -198,13 +198,12 @@
                                                 <br />
                                                 <div role="main" id="mc-main-content">
                                                     <h1>Adding Help to the SKP</h1>
-                                                    <p>Technical Writers add <a href="#AddPageLevel">page-level help</a> and <a href="#AddInline">inline help</a> to the pages in the Syniti Knowledge Platform (SKP).</p>
-                                                    <h1><a name="AddInline"></a>Add Inline Help for the SKP</h1>
+                                                    <p>Technical Writers add <a href="#AddPageLevel">page-level help</a> and <a href="#AddInline">field help</a> to the pages in the Syniti Knowledge Platform (SKP).</p>
+                                                    <h1><a name="AddInline"></a>Add Field Help for the SKP</h1>
                                                     <p>The dev environment to view changes is <a href="https://login.syniti-dev.com/home" target="_blank" rel="noopener noreferrer">Home | Syniti Knowledge Platform (syniti-dev.com)</a></p>
-                                                    <p>The process is tracked with this googledoc: <a href="https://docs.google.com/document/d/10SzZFPtGuzsr-IUJiFkP590SowGlHxIVaqcP_e8Jbi0/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Add or Edit Inline Help for the Knowledge Platform</a>.</p>
-                                                    <p>Developers and Technical Writers work together to ensure that the pages in the SKP UI have correct and complete settings to support internationalization/localization and inline help.</p>
+                                                    <p>Developers and Technical Writers work together to ensure that the pages in the SKP UI have correct and complete settings to support internationalization/localization and field help.</p>
                                                     <h2>Attributes</h2>
-                                                    <p>The following attributes are used for inline help:</p>
+                                                    <p>The following attributes are used for field  help:</p>
                                                     <table style="mc-table-style: url('../Resources/TableStylesheets/fielddescription.css');" class="TableStyle-fielddescription" cellspacing="0">
                                                         <col style="width: 356px;" class="TableStyle-fielddescription-Column-Column1" />
                                                         <col class="TableStyle-fielddescription-Column-Column2" />
@@ -283,10 +282,10 @@
                                                     <h3>Doc Team</h3>
                                                     <ul>
                                                         <li>
-                                                            <p>Write the inline help in Google docs.</p>
+                                                            <p>Write the field help in Google docs.</p>
                                                         </li>
                                                         <li>
-                                                            <p>Add keys and inline help content to i18nexus.com</p>
+                                                            <p>Add keys and field  help content to i18nexus.com</p>
                                                         </li>
                                                         <li>
                                                             <p>Let developers know when there are updates to be deployed (if needed)</p>
@@ -301,16 +300,16 @@
                                                             <p>Perform doc peer reviews</p>
                                                         </li>
                                                     </ul>
-                                                    <p>As part of the internationalization effort, developers add tags to each string of text on a page that the TWs can pair with a key and value to use to add the inline help. The values that match the keys are stored in localized files, and the application refers to them when generating help for the SKP page.</p>
+                                                    <p>As part of the internationalization effort, developers add tags to each string of text on a page that the TWs can pair with a key and value to use to add the field  help. The values that match the keys are stored in localized files, and the application refers to them when generating help for the SKP page.</p>
                                                     <p class="note"><b>NOTE</b>: Keys may be page-specific or may be used in multiple pages across the product.</p>
                                                     <h2>Tools</h2>
-                                                    <p>Here’s a list of tools used within the inline help process:</p>
+                                                    <p>Here’s a list of tools used within the field  help process:</p>
                                                     <ul>
                                                         <li>
-                                                            <p><b>GoogleDocs</b> - Draft your content in a Google doc to make it easy for reviewers to offer feedback and collaborate on the inline help.</p>
+                                                            <p><b>GoogleDocs</b> - Draft your content in a Google doc to make it easy for reviewers to offer feedback and collaborate on the field  help.</p>
                                                         </li>
                                                         <li>
-                                                            <p><b>i18Nexus</b> - Rather than directly editing .json files, the writers use a web UI (i18nexus) to add and edit the inline help. Writers also use i18nexus to create a namespace (basically a file) for different sections of the SKT and  enter the tags (referred to as Keys in i18nexus) for each page.</p>
+                                                            <p><b>i18Nexus</b> - Rather than directly editing .json files, the writers use a web UI (i18nexus) to add and edit the field  help. Writers also use i18nexus to create a namespace (basically a file) for different sections of the SKT and  enter the tags (referred to as Keys in i18nexus) for each page.</p>
                                                         </li>
                                                         <li>
                                                             <p><b>Vercel</b> - Vercel creates a unique environment for every PR that can be used as a test site. The Preview link (located in the PR) is sent to PM and writers for reviews.</p>
@@ -319,15 +318,15 @@
                                                             <p><b>Skt-ui repo in Git</b> - This repo is where the code for the pages is stored, and where the PRs are created and merged. In most cases, an automated git process controlled by the writers creates a PR. A developer can also include help updates in a PR they are working on.</p>
                                                         </li>
                                                     </ul>
-                                                    <h2>Inline Help Standards</h2>
+                                                    <h2>Field Help Standards</h2>
                                                     <p><a href="https://entota.atlassian.net/wiki/spaces/SYNITI/pages/1406468543/In-line+Help+Standards" target="_blank" rel="noopener noreferrer">Here</a>
                                                     </p>
                                                     <h2>Localization wiki</h2>
                                                     <p>Containing standards for keys used in translations</p>
                                                     <p><a href="https://github.com/BackOfficeAssoc/skt-ui/wiki/Localization" target="_blank" rel="noopener noreferrer">https://github.com/BackOfficeAssoc/skt-ui/wiki/Localization</a>
                                                     </p>
-                                                    <h2>Add or Update Inline Help</h2>
-                                                    <p>When working with inline help, writers can either:</p>
+                                                    <h2>Add or Update Field Help</h2>
+                                                    <p>When working with field  help, writers can either:</p>
                                                     <ul>
                                                         <li>
                                                             <p>Create a new record (i.e., a new piece of help content on a UI page) with a tag (i.e., key) pulled from the UI and added to i18nexus</p>
@@ -339,7 +338,7 @@
                                                             <p>Update an existing tag in i18nexus</p>
                                                         </li>
                                                     </ul>
-                                                    <p>To add and update inline help on a page:</p>
+                                                    <p>To add and update field  help on a page:</p>
                                                     <ol>
                                                         <li value="1">
                                                             <p>Locate the tags that are being used for the label, description, placeholder or help icon on a page in a development site by pressing F10. </p>
@@ -349,7 +348,7 @@
                                                             <p>
                                                                 <img src="../Resources/Images/InlineHelp1.png" />
                                                             </p>
-                                                            <p class="note"><b>NOTE</b>: If you press F10 and the field text does not change, that means that a developer has not created a tag for it. Writers must create the Key along with the inline help. Refer to Create a Key for more information.</p>
+                                                            <p class="note"><b>NOTE</b>: If you press F10 and the field text does not change, that means that a developer has not created a tag for it. Writers must create the Key along with the field  help. Refer to Create a Key for more information.</p>
                                                         </li>
                                                         <li value="3">
                                                             <p>Log in to <a href="https://app.i18nexus.com/">i18nexus.com</a> and access the SKT-UI project.</p>
@@ -362,16 +361,16 @@
                                                             </p>
                                                         </li>
                                                         <li value="5">
-                                                            <p>If adding a new element of inline help (i.e., a String):</p>
+                                                            <p>If adding a new element of field help (i.e., a String):</p>
                                                             <ol style="list-style-type: lower-alpha;">
                                                                 <li value="1">
                                                                     <p>Click the <b>+String</b> button.</p>
                                                                 </li>
                                                                 <li value="2">
-                                                                    <p>Add the <b>KEY</b>, which is the tag that links the inline help content to the element in the UI.</p>
+                                                                    <p>Add the <b>KEY</b>, which is the tag that links the field  help content to the element in the UI.</p>
                                                                 </li>
                                                                 <li value="3">
-                                                                    <p>Add the <b>VALUE</b>, which is the inline help text.</p>
+                                                                    <p>Add the <b>VALUE</b>, which is the field  help text.</p>
                                                                 </li>
                                                                 <li value="4">
                                                                     <p>Click the check mark.</p>
@@ -379,7 +378,7 @@
                                                             </ol>
                                                         </li>
                                                         <li value="6">
-                                                            <p>If editing an existing element of inline help:</p>
+                                                            <p>If editing an existing element of field  help:</p>
                                                             <ol style="list-style-type: lower-alpha;">
                                                                 <li value="1">
                                                                     <p>Click the dot menu in the right-most column and select <b>Edit String</b>.</p>
@@ -394,7 +393,7 @@
                                                         </li>
                                                     </ol>
                                                     <h2><a name="Create"></a>Create a Key</h2>
-                                                    <p>For text on the UI to have inline help, a writer must add a key for it in i18nexus. The developer must then add that key to the skt-ui repo in github.</p>
+                                                    <p>For text on the UI to have field  help, a writer must add a key for it in i18nexus. The developer must then add that key to the skt-ui repo in github.</p>
                                                     <p>Use the following naming convention to create keys:</p>
                                                     <p>&#160;</p>
                                                     <p><b>Create/Edit pages</b>
@@ -419,14 +418,14 @@
                                                             <p>Create a ticket to track the tag work per namespace. Look at <a href="https://entota.atlassian.net/browse/KYB-3897" target="_blank" rel="noopener noreferrer">KYB-3897</a> as an example.</p>
                                                         </li>
                                                         <li value="2">
-                                                            <p>When all the keys and inline help are in i18Nexus, send the ticket to the lead developer so the tags can be added to skt-ui, which will make all the content visible in the UI.</p>
+                                                            <p>When all the keys and field  help are in i18Nexus, send the ticket to the lead developer so the tags can be added to skt-ui, which will make all the content visible in the UI.</p>
                                                         </li>
                                                         <li value="3">
                                                             <p>Add the ticket to this epic <a href="https://entota.atlassian.net/browse/KYB-3845" target="_blank" rel="noopener noreferrer">[KYB-3845] SKT UI Release - Syniti JIRA (atlassian.net)</a>.</p>
                                                         </li>
                                                     </ol>
                                                     <h2><a name="CreatePR"></a>Create the PR in Github</h2>
-                                                    <p>Once the developer has added the keys to the UI, create a PR to see the inline help appear in the UI.</p>
+                                                    <p>Once the developer has added the keys to the UI, create a PR to see the field  help appear in the UI.</p>
                                                     <ol>
                                                         <li value="1">
                                                             <p>Log in to GitHub and open the skt-ui repo.</p>
@@ -489,7 +488,7 @@
                                                     <h2>Notify QE When Labels Change</h2>
                                                     <p>QE’s automated tests use the labels on the page to drive testing. If a Tech Writer updates a label, this breaks the test. In this case, @ mention the tester on the ticket tracking the work. Include the name of the old label and the new label on the ticket.</p>
                                                     <h2>Working with Developers</h2>
-                                                    <p>If writing inline help in conjunction with the development of the feature, let the developer working on the feature know that they must run a command to pull down the latest version of the files from i18nexus. After getting the latest files, the developer pushes that content up to github with a PR, where it is deployed using Vercel.</p>
+                                                    <p>If writing field  help in conjunction with the development of the feature, let the developer working on the feature know that they must run a command to pull down the latest version of the files from i18nexus. After getting the latest files, the developer pushes that content up to github with a PR, where it is deployed using Vercel.</p>
                                                     <h2>Add a Label With an Underlying Hidden Tag</h2>
                                                     <p>If a field, list box, or other control does not have a label (a localization), it could be that the developer has not yet added a tag. However, it could also be that until that point the design did not include the label, but that a tag has already been added.</p>
                                                     <p>Here the cursor points to where a label could be on this field.</p>
@@ -514,7 +513,7 @@
                                                         <img src="../Resources/Images/InlineHelp9.png" />
                                                     </p>
                                                     <p class="note"><b>NOTE</b>: Have PM review and approve page-level help content before you add it, so the PR can move through the process quickly to avoid merge conflicts.</p>
-                                                    <p>Just as with inline help, this page-level help is stored in i18nexus. Instead of entering a key for a corresponding tag entered in the skt-ui, Technical Writers enter the route for the page in the Key field.</p>
+                                                    <p>Just as with field  help, this page-level help is stored in i18nexus. Instead of entering a key for a corresponding tag entered in the skt-ui, Technical Writers enter the route for the page in the Key field.</p>
                                                     <p>Page-level help is written in markdown. Here are some markdown resources:</p>
                                                     <ul>
                                                         <li>

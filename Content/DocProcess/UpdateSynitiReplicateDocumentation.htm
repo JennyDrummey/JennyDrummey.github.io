@@ -11,7 +11,7 @@
         <link rel="icon" sizes="96x96" href="../../Skins/Favicons/favicon-96x96.png" />
         <link rel="icon" sizes="32x32" href="../../Skins/Favicons/favicon-32x32.png" />
         <link rel="icon" sizes="16x16" href="../../Skins/Favicons/favicon-16x16.png" />
-        <meta charset="utf-8" /><title data-title="BOA Help">Update Static Guidance</title>
+        <meta charset="utf-8" /><title data-title="BOA Help">Update Syniti Replicate Documentation</title>
         <!-- Scripts for menu modal dropdown, popup modals, and back-to-top button. -->
         <link href="../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
         <link href="../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
@@ -44,6 +44,7 @@
 }
 
 </style>
+        <link href="../Resources/TableStylesheets/fielddescription.css" rel="stylesheet" data-mc-stylesheet-type="table" />
         <link rel="apple-touch-icon" sizes="180x180" href="../../Skins/Favicons/apple-touch-icon.png" />
         <link rel="shortcut icon" href="../../Skins/Favicons/favicon-32x32.png" />
         <link rel="icon" sizes="96x96" href="../../Skins/Favicons/favicon-96x96.png" />
@@ -196,188 +197,199 @@
                                                 <br />
                                                 <br />
                                                 <div role="main" id="mc-main-content">
-                                                    <h1>Update Static Guidance</h1>
-                                                    <p>PM and the Documentation Team determine when static guidance should be added or updated. Once the static guidance text has been updated, a series of PRs are automatically created to then be merged and approved by various groups. Click the following thumbnail to view the flow diagram of the process</p>
-                                                    <p><a class="MCPopupThumbnailLink" href="../Resources/Images/StaticGuidanceFlowDiagram.png"><img class="MCPopupThumbnail img" data-mc-width="2730" data-mc-height="1534" src="../Resources/Images/StaticGuidanceFlowDiagram_thumb_0_48.png" style="mc-thumbnail: link;" tabindex="" /></a>:</p>
-                                                    <p>To update static guidance:</p>
+                                                    <h1>Update Syniti Replicate Documentation</h1>
+                                                    <h2>Overview</h2>
+                                                    <p>This product is called Syniti Data Replication in the desktop version prior to 10. The cloud version is called Syniti Replicate. The desktop versions after 10 are also called Syniti Replicate. </p>
+                                                    <p>The tickets to track updates to the desktop version of Syniti Data Replication (product name prior to 10) and Syniti Replicate (product name 10 and later) are tracked on the DBM board in Jira. Many of these tickets are difficult to understand, highly technical and many do not require documentation. Ask developers about documentation content at the time of release for the desktop version. </p>
+                                                    <p>Tickets to track updates to Syniti Replicate (cloud) are tracked on the KYB board. For Syniti Replicate (cloud), the help is in the form for page level help and field level help only. We do not yet have online help that is specific to the Syniti Replicate product in the cloud. </p>
+                                                    <p>The documentation updates for Syniti Replicate (cloud) follow the same steps as <a href="Adding_Inline_and_PageLevel_Help.html">Add In-line and Page Level Help</a>.</p>
+                                                    <p>Documentation updates in the Users Guide (online help) for Syniti Data Replication/Syniti Replicate when a new desktop version is released: </p>
+                                                    <ul>
+                                                        <li>
+                                                            <p>Update What’s New with their content.</p>
+                                                        </li>
+                                                        <li>
+                Update use cases as developers point out where changes are need
+            </li>
+                                                        <li>
+               Update the version number on these pages:
+            </li>
+                                                        <ul>
+                                                            <li>
+                                                                <p>Quick Start Guide</p>
+                                                            </li>
+                                                            <li>
+                                                                <p>Whats New in Release</p>
+                                                            </li>
+                                                            <li>
+                                                                <p>Upgrading to the latest version</p>
+                                                            </li>
+                                                        </ul>
+                                                    </ul>
+                                                    <p>With each desktop release of Syniti Data Replication/Syniti Replicate, there are also 43 Configuration Guides in Word that must be updated and made into pdfs. </p>
+                                                    <p>When updating these guides:</p>
                                                     <ol>
                                                         <li value="1">
-                                                            <p>Create a JIRA ticket (typically on the DocTeam ToDos board, but sometimes PM creates static guidance tickets on the Syniti Knowledge Platform (KYB) board) to track the work to update the static guidance.</p>
+                                                            <p>Change the version number in the Word doc and create a new PDF</p>
                                                         </li>
                                                         <li value="2">
-                                                            <p>Pull down the master branch from <span style="font-family: monospace;">ui-component-libs</span> repo.</p>
+                                                            <p>Remove the second page, the version history. </p>
                                                         </li>
                                                         <li value="3">
-                                                            <p>Create a new branch, using the Jira ticket number as a name.</p>
+                                                            <p>Do not add security to the pdf. Users must be able to copy the code from it. </p>
+                                                        </li>
+                                                    </ol>
+                                                    <p class="note"><b>NOTE:</b>&#160;There is also API help, but this is generated when the product itslef is built. Even though the API Help is stored in the repo, it is not produced by the Documentation team. Devs have to forward. The latest vesion of the API&#160;help was produced in 2021. </p>
+                                                    <h2>Update User's Guide and API&#160;Help</h2>
+                                                    <p class="note"><b>NOTE:</b>&#160;To update the User Guide and API Help, you need a login to AWS. Contact Syniti Support for help getting a login. They will send you a detailed set of steps to log in to AWS and your specific links.</p>
+                                                    <p>To update the User’s Guide/API Help on a new release:</p>
+                                                    <ol>
+                                                        <li value="1">
+                                                            <p>PM/Development informs the Doc team of what changes impact documentation. </p>
+                                                        </li>
+                                                        <li value="2">
+                                                            <p>Pull down the latest release branch in git</p>
+                                                        </li>
+                                                        <li value="3">
+                                                            <p>Create the new release branch using the naming convention /release/###, for example /release/9.8.2.</p>
                                                         </li>
                                                         <li value="4">
-                                                            <p>Navigate to this file: <a href="https://github.com/BackOfficeAssoc/ui-component-libs/blob/master/projects/ui-component-libs/src/lib/guidance/constants/static-guidance.ts file." target="_blank" rel="noopener noreferrer">https://github.com/BackOfficeAssoc/ui-component-libs/projects/ui-component-libs/src/lib/guidance/constants/static-guidance.ts</a>.</p>
-                                                            <p class="note"><b>NOTE:</b> Open with Atom or Visual Studio Code.</p>
+                                                            <p>Make changes to Flare and build the project (HTML5 output).</p>
                                                         </li>
                                                         <li value="5">
-                                                            <p>Update the descriptionText as needed, save and close the file.</p>
-                                                        </li>
-                                                        <li value="6">
-                                                            <p>Navigate to the file <span style="font-family: Consolas;">ui-component-libs/projects/ui-commponent libs/package.json</span>.</p>
-                                                        </li>
+                Access the Output folder, and rename the <b>HTML5</b> folder to <b>UsersGuide</b>. If a folder already exists with that name, delete it. </li>
+                                                        <li value="6">Push the new release branch up to the <b>db-moto-docs</b> repo.
+            </li>
                                                         <li value="7">
-                                                            <p>Increment the third decimal place by 1 for version (e.g.: 1.1.14 to 1.1.15).</p>
+                                                            <p>To upload the help files, log in to AWS using the two-factor authentication.</p>
+                                                            <p class="note"><b>NOTE:</b> Contact the IT Help Desk for a login to AWS. You will be given instructions and links unique to your login credentials that are used to upload the files to the server.</p>
                                                         </li>
-                                                    </ol>
-                                                    <p>
-                                                        <img src="../Resources/Images/increment.PNG" style="border: 1px solid black;" />
-                                                    </p>
-                                                    <p class="note"><b>NOTE: </b>Only update the version number once during a round of updates. If you go back and forth with a reviewer, do not update the version number each time. </p>
-                                                    <ol data-mc-continue="true">
                                                         <li value="8">
-                                                            <p>Save and push your repo to the <span style="font-family: monospace;">ui-component-libs</span> repo.</p>
-                                                            <p><b>NOTE:</b> When staging files to commit, only add the 2 files that were changed: <span style="font-family: Consolas;">static-guidance.ts</span> and <span style="font-family: Consolas;">package.json</span>. Do <b>NOT </b>perform a <span style="font-family: Consolas;">git add . </span></p>
+                                                            <p>Navigate to the two specific links provided by support.</p>
                                                         </li>
                                                         <li value="9">
-                                                            <p>Open a PR to merge it to <span style="font-family: monospace;">master</span>.</p>
+                                                            <p>Create the new folder for the new release (for example 1010).</p>
                                                         </li>
                                                         <li value="10">
-                                                            <p>Ask for a review from the following groups:</p>
-                                                            <ul>
-                                                                <li>
-                                                                    <p><b>App Engineering—</b>performs a technical review on things like predicates, page properties and missing quotes/commas. They may also review the package dependency updates</p>
-                                                                </li>
-                                                                <li>
-                                                                    <p><b>Doc Team or BA—</b>performs a textual content review by adding in-line comments to the GitHub PR. Refer to <a href="https://docs.github.com/en/github/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/commenting-on-a-pull-request" target="_blank" rel="noopener noreferrer">Commenting on a Pull Request</a> for more information.</p>
-                                                                </li>
-                                                            </ul>
+                                                            <p>Open the folder and upload the new version, which is the entire UsersGuide folder. If you are updating, remove the UsersGuide folder that's there before uploading. This process may take a few minutes. If you get a message that a file isn’t uploading successfully, there may have been a hiccup in the connection. Delete what has been uploaded and try uploading the folder again.</p>
                                                         </li>
                                                         <li value="11">
-                                                            <p>Set the ticket to Code Review, if it is a KYB ticket and not a DT&#160;ticket (DT tickets don't have a Code Review option).</p>
-                                                        </li>
+                Upload the API Help folder to this same folder. The API&#160;Help is stored in the folder in the root of the project. 
+				</li>
                                                         <li value="12">
-                                                            <p>When the App Engineering and the Doc Team / BA resources have both approved the PRs, merge the PRs to <span style="font-family: monospace;">master</span>. At this point, the following happens:</p>
+                View the link to help in production to verify the changes are there.
+<a href="https://sdrhelp.syniti.com/1010/UsersGuide/Quick_Start.htm">https://sdrhelp.syniti.com/1010/UsersGuide/Quick_Start.htm</a></li>
+                                                    </ol>
+                                                    <h2>Update the Configuration Guides</h2>
+                                                    <p>For each release of the desktop version, development provides details on what changes need to be made. At the very least, the version number on all the files needs to be updated and new PDFs generated and uploaded.</p>
+                                                    <p>To update the Configuration Guides:</p>
+                                                    <p>Navigate to [file path].https://drive.google.com/drive/folders/0B7bmwABAYi-wNUJPcHJmV0ttWDQ?resourcekey=0-Hb6QALRZ5wnSTVdluvukKQ&amp;usp=share_link</p>
+                                                    <ol>
+                                                        <li value="1">
+                                                            <p>Download the most recent version of the Configuration Guides.</p>
+                                                        </li>
+                                                        <li value="2">
+                                                            <p>Rename the folder and all the Word documents to include the new version number.</p>
+                                                            <p class="note"><b>NOTE:</b> You don’t have to update the Version History table</p>
+                                                        </li>
+                                                        <li value="3">
+                                                            <p>Open each Word doc and update the version number on the title page.</p>
+                                                        </li>
+                                                        <li value="4">
+                                                            <p>Make any other changes that were provided by Development.</p>
+                                                        </li>
+                                                        <li value="5">
+                                                            <p>Generate a PDF for each file. Delete the Version History page from the PDF.</p>
+                                                        </li>
+                                                        <li value="6">
+                                                            <p>Upload the final PDFs to the Google drive.</p>
+                                                        </li>
+                                                        <li value="7">
+                                                            <p>Replace the PDFs on their respective articles on the Syniti Support site.</p>
                                                         </li>
                                                     </ol>
-                                                    <ul>
-                                                        <li>
-                                                            <p>CircleCi publishes the new version to the NPM registry</p>
-                                                        </li>
-                                                        <li>
-                                                            <p>CircleCI creates PRs in each of the affected repos to bump the latest ui-component-libs and assigns the Application Engineers as reviewers with the PR author (i.e., the Tech Writer) as the Assignee.</p>
-                                                            <p>
-                                                                <img src="../Resources/Images/StagicGuidanceCircleCI.png" />
-                                                            </p>
-                                                        </li>
-                                                    </ul>
-                                                    <ol data-mc-continue="true">
-                                                        <li value="13">
-                                                            <p>An App Developer approves each of the version update PRs.</p>
-                                                        </li>
-                                                        <li value="14">
-                                                            <p>Merge the <span style="font-family: monospace;">&lt;repo&gt;/bump</span> PRs to <span style="font-family: monospace;">&lt;repo&gt;develop</span>.</p>
-                                                        </li>
-                                                        <li value="15">
-                                                            <p>Verify changes on <span style="font-family: monospace;">dev/us-west-2</span> (<a href="https://admin.syniti-dev.com/" target="_blank" rel="noopener noreferrer">https://admin.syniti-dev.com</a>)</p>
-                                                        </li>
-                                                        <li value="16">
-                                                            <p>Ask the QE resource on the mission to review the changes.</p>
-                                                        </li>
-                                                        <li value="17">
-                                                            <p>Open a PR for each of the repos to merge <span style="font-family: monospace;">&lt;repo&gt;/develop</span> to <span style="font-family: monospace;">&lt;repo&gt;/master</span> and request review from App Engineering.</p>
-                                                        </li>
-                                                    </ol>
-                                                    <p class="note"><b>NOTE:</b> If another Tech Writer also has static guidance changes included in this release, add them as a Reviewer to ensure their changes are ready for production.</p>
-                                                    <ol data-mc-continue="true">
-                                                        <li value="18">
-                                                            <p>Once approved, merge the PRs to their respective <span style="font-family: monospace;">&lt;repo&gt;/master</span>, which pushes the changes to Prod.</p>
-                                                        </li>
-                                                    </ol>
-                                                    <p class="note"><b>NOTE:</b> A final PR for the <span style="font-family: monospace;">gaua-state</span> repo is automatically created for the following two environments: <span style="font-family: monospace;">prd/us-east-2</span> and <span style="font-family: monospace;">prd/eu-central-1</span>.</p>
-                                                    <ol data-mc-continue="true">
-                                                        <li value="19">
-                                                            <p>Approve and merge the two PRs for <span style="font-family: monospace;">gaua-state</span>.This step updates the Image ID, so there’s no need for a developer’s review. The following is an example PR:</p>
-                                                            <p>
-                                                                <img src="../Resources/Images/StagicGuidanceGauaStateRepo.png" />
-                                                            </p>
-                                                        </li>
-                                                        <li value="20">
-                                                            <p>Confirm all looks good in Prod and announce to the mission's Slack channel that static guidance has been updated.</p>
-                                                        </li>
-                                                    </ol>
-                                                    <h2>Identifying apps/services in ui-guidance-libs</h2>
-                                                    <p>In each of our projects that need to support contextual guidance, they'll have a file in the app/models folder named guidancecontext.ts. Looking at the appcontext value on line 11 will show what context value the specific application is passing into the guidance component, which is what's used to look up the static guidance.</p>
-                                                    <p>Here is a list of the front end services and the pages for which they display guidance:</p>
-                                                    <ul>
-                                                        <li>
-                                                            <p>dione (anything that starts with admin.syniti.com/)</p>
-                                                            <ul>
-                                                                <li>
-                                                                    <p>About Me</p>
-                                                                </li>
-                                                                <li>
-                                                                    <p>Accounts</p>
-                                                                </li>
-                                                                <li>
-                                                                    <p>Sites</p>
-                                                                </li>
-                                                                <li>
-                                                                    <p>Stacks</p>
-                                                                </li>
-                                                            </ul>
-                                                        </li>
-                                                    </ul>
-                                                    <ul>
-                                                        <li>
-                                                            <p>enceladus (anything that starts with knowledge.syniti.com/bulk)</p>
-                                                            <ul>
-                                                                <li>
-                                                                    <p>Bulk Update</p>
-                                                                </li>
-                                                                <li>
-                                                                    <p>Search</p>
-                                                                </li>
-                                                            </ul>
-                                                        </li>
-                                                    </ul>
-                                                    <ul>
-                                                        <li>
-                                                            <p>firewatch-ui (anything that starts with dm.syniti.com/)</p>
-                                                            <ul>
-                                                                <li>
-                                                                    <p>Migration dashboards</p>
-                                                                </li>
-                                                                <li>
-                                                                    <p>Though this one doesn’t really have static guidance right now so probably isn’t super relevant, but is technically one of our UI apps.</p>
-                                                                </li>
-                                                            </ul>
-                                                        </li>
-                                                    </ul>
-                                                    <ul>
-                                                        <li>
-                                                            <p>kubernao (anything that starts with knowledge.syniti.com/categories)</p>
-                                                            <ul>
-                                                                <li>
-                                                                    <p>Category Admin</p>
-                                                                </li>
-                                                            </ul>
-                                                        </li>
-                                                    </ul>
-                                                    <ul>
-                                                        <li>
-                                                            <p>Phoebe</p>
-                                                            <ul>
-                                                                <li>
-                                                                    <p>Strategy</p>
-                                                                </li>
-                                                            </ul>
-                                                        </li>
-                                                    </ul>
-                                                    <ul>
-                                                        <li>
-                                                            <p>tethys (anything that starts with knowledge.syniti.com/uploads)</p>
-                                                            <ul>
-                                                                <li>
-                                                                    <p>Remote Uploads</p>
-                                                                </li>
-                                                            </ul>
-                                                        </li>
-                                                    </ul>
+                                                    <h2>File Locations</h2>
+                                                    <table style="mc-table-style: url('../Resources/TableStylesheets/fielddescription.css');" class="TableStyle-fielddescription" cellspacing="0">
+                                                        <col class="TableStyle-fielddescription-Column-Column1" />
+                                                        <col class="TableStyle-fielddescription-Column-Column2" />
+                                                        <col style="width: 613px;" class="TableStyle-fielddescription-Column-Column2" />
+                                                        <col class="TableStyle-fielddescription-Column-Column2" />
+                                                        <tbody>
+                                                            <tr class="TableStyle-fielddescription-Body-Body1">
+                                                                <td class="TableStyle-fielddescription-BodyE-Column1-Body1" role="rowheader">
+                                                                    <p class="TableColumn">Document</p>
+                                                                </td>
+                                                                <td class="TableStyle-fielddescription-BodyE-Column2-Body1">
+                                                                    <p class="TableColumn">Format</p>
+                                                                </td>
+                                                                <td class="TableStyle-fielddescription-BodyE-Column2-Body1">
+                                                                    <p class="TableColumn">Sources</p>
+                                                                </td>
+                                                                <td class="TableStyle-fielddescription-BodyD-Column2-Body1">
+                                                                    <p>Published Location</p>
+                                                                </td>
+                                                            </tr>
+                                                            <tr class="TableStyle-fielddescription-Body-Body1">
+                                                                <td class="TableStyle-fielddescription-BodyE-Column1-Body1" role="rowheader">
+                                                                    <p class="TableColumn">User’s Guide</p>
+                                                                </td>
+                                                                <td class="TableStyle-fielddescription-BodyE-Column2-Body1">
+                                                                    <p class="TableText">HTML5</p>
+                                                                </td>
+                                                                <td class="TableStyle-fielddescription-BodyE-Column2-Body1">
+                                                                    <p class="TableText">Flare project stored in git under dbmoto-docs.</p>
+                                                                </td>
+                                                                <td class="TableStyle-fielddescription-BodyD-Column2-Body1">
+                                                                    <p>Hosted server for HTML5 - UsersGuide folder</p>
+                                                                </td>
+                                                            </tr>
+                                                            <tr class="TableStyle-fielddescription-Body-Body1">
+                                                                <td class="TableStyle-fielddescription-BodyE-Column1-Body1" role="rowheader">
+                                                                    <p class="TableColumn">User’s Guide Top Page</p>
+                                                                    <p class="TableColumn">This is the page that displays when a user enters a wrong URL.</p>
+                                                                </td>
+                                                                <td class="TableStyle-fielddescription-BodyE-Column2-Body1">
+                                                                    <p class="TableText">HTML5</p>
+                                                                </td>
+                                                                <td class="TableStyle-fielddescription-BodyE-Column2-Body1">
+                                                                    <p class="TableText">All_SDR_Guides</p>
+                                                                    <p class="TableText">Directory stored in git under dbmoto-docs</p>
+                                                                </td>
+                                                                <td class="TableStyle-fielddescription-BodyD-Column2-Body1">
+                                                                    <p>Hosted server for HTML5 - root folder</p>
+                                                                </td>
+                                                            </tr>
+                                                            <tr class="TableStyle-fielddescription-Body-Body1">
+                                                                <td class="TableStyle-fielddescription-BodyE-Column1-Body1" role="rowheader">
+                                                                    <p class="TableColumn">API Help</p>
+                                                                </td>
+                                                                <td class="TableStyle-fielddescription-BodyE-Column2-Body1">
+                                                                    <p class="TableText">HTML5</p>
+                                                                </td>
+                                                                <td class="TableStyle-fielddescription-BodyE-Column2-Body1">
+                                                                    <p class="TableText">Generated during product build. Stored in git under dbmoto-docs</p>
+                                                                </td>
+                                                                <td class="TableStyle-fielddescription-BodyD-Column2-Body1">
+                                                                    <p>Hosted Server - APIHelp folder</p>
+                                                                </td>
+                                                            </tr>
+                                                            <tr class="TableStyle-fielddescription-Body-Body1">
+                                                                <td class="TableStyle-fielddescription-BodyB-Column1-Body1" role="rowheader">
+                                                                    <p class="TableColumn">Setup Guides</p>
+                                                                </td>
+                                                                <td class="TableStyle-fielddescription-BodyB-Column2-Body1">
+                                                                    <p class="TableText">PDF</p>
+                                                                </td>
+                                                                <td class="TableStyle-fielddescription-BodyB-Column2-Body1">
+                                                                    <p class="TableText">Word files for completed versions in Product Documentation folder on google drive</p>
+                                                                    <p class="TableText">The most recent folder for Word sources is https://drive.google.com/drive/folders/1d09ONvTXXOhMaN-uqj2wfpoe4dyEnR-C?usp=sharing</p>
+                                                                    <p class="TableText">The most recent folder for PDF deliverables is:</p>
+                                                                    <p class="TableText">https://drive.google.com/drive/folders/1S2mwY87IoU0Z_Ds08yyOosuleqj6gL31?usp=sharing</p>
+                                                                </td>
+                                                                <td class="TableStyle-fielddescription-BodyA-Column2-Body1">Google drive (PDF for use by support)Help Center</td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
                                                 </div>
                                                 <div id="feedback-survey">
                                                     <div class="feedback-question">
