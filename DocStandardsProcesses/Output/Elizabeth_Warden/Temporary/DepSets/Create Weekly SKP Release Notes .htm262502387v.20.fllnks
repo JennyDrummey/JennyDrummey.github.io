@@ -13,6 +13,8 @@
     <Link
       Url="https://jennydrummey.github.io/Content/DocProcess/SKP_Help.htm" />
     <Link
+      Url="Content/Resources/Images/RunQueryInJira.GIF" />
+    <Link
       Url="Content/Resources/Images/WeeklySKPReleases_1.PNG" />
     <Link
       Url="Content/Resources/Images/WeeklySKPReleases_2.png" />
@@ -25,7 +27,7 @@
     <Link
       Url="Content/Resources/MasterPages/DocProcess.flmsp" />
     <Link
-      Url="Content/DocProcess/Create Weekly SKP Release Notes .htm#find_PR" />
+      Url="Content/DocProcess/Create Weekly SKP Release Notes .htm#RunQueryInJira" />
     <Link
       Url="Content/DocProcess/Create Weekly SKP Release Notes .htm#Std" />
     <Link
@@ -34,6 +36,8 @@
       Url="Content/DocProcess/Create Weekly SKP Release Notes .htm#Example" />
     <Link
       Url="Content/DocProcess/Create Weekly SKP Release Notes .htm#Slack" />
+    <Link
+      Url="Content/Resources/Images/RunQueryInJira.GIF" />
     <Link
       Url="Content/Resources/Images/WeeklySKPReleases_1.PNG" />
     <Link
@@ -44,6 +48,8 @@
       Url="Content/Resources/Images/SKP Release Notes Example.png" />
   </LongLinks>
   <Anchors>
+    <Anchor
+      Name="RunQueryInJira" />
     <Anchor
       Name="find_PR" />
     <Anchor
