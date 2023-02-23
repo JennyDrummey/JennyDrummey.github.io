@@ -15,8 +15,6 @@
     <Link
       Url="Content/DocProcess/SKP_Help.htm" />
     <Link
-      Url="Content/DocProcess/UpdateStaticGuidance.htm" />
-    <Link
       Url="Content/DocProcess/WriteInlineHelp.html" />
     <Link
       Url="Content/DocProcess/Adding_Inline_and_PageLevel_Help.html" />
@@ -32,8 +30,6 @@
       Url="Content/Resources/Stylesheets/newDefault.css" />
     <Link
       Url="Content/DocProcess/SKP_Help.htm" />
-    <Link
-      Url="Content/DocProcess/UpdateStaticGuidance.htm" />
     <Link
       Url="Content/DocProcess/WriteInlineHelp.html" />
     <Link

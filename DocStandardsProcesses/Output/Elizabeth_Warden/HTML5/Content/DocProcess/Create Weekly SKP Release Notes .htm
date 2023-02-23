@@ -198,7 +198,7 @@
                                                 <div role="main" id="mc-main-content">
                                                     <h1>Create Weekly SKP Release Notes</h1>
                                                     <p>Tech Writers and PM (Jon, Emily,  Andy and Caroline) work together to create the weekly release notes for Syniti Knowledge Platform (SKP).</p>
-                                                    <p class="note"><b>NOTE</b>: The weekly update is for these systems - SKP, Replicate, and Match (as of Oct ‘22). Both Construct and Migrate produce monthly release notes per their cadence.</p>
+                                                    <p class="note"><b>NOTE</b>: The weekly update is for the SKP, Migrate, Construct and Orchestrate. Other modules are note yet released. Both Construct and Migrate produce monthly release notes per their cadence.</p>
                                                     <p class="note">At a high level, PM produces the bulk of the release notes by:</p>
                                                     <ul>
                                                         <li>
@@ -208,6 +208,9 @@
                                                             <p>Reviewing the list and, using track changes, deleting PRs that are not relevant.</p>
                                                         </li>
                                                         <li>
+                                                            <p>Running a query in Jira to see which issues were tested successfully in prod. The release notes should only include these issues.</p>
+                                                        </li>
+                                                        <li>
                                                             <p>Providing details for the PRs where the provided descriptions are not enough.</p>
                                                         </li>
                                                     </ul>
@@ -215,62 +218,58 @@
                                                     <p>As a PM, to produce the release notes: </p>
                                                     <ol>
                                                         <li value="1">
-                                                            <p>Right-click the skt-ui folder for your local repo and select <b>Git Bash Here</b>.</p>
-                                                            <p class="note"><b>NOTE</b>: If pulling down this branch for the first time, enter the git command <b>git fetch origin main</b>, then proceed with the following steps.</p>
+                                                            <p>Run the following query: <span style="font-family: monospace;">project="KYB" AND "Test Status[Labels]"="ProdTested"</span>. Refer to <a href="#RunQueryInJira">Run a Query in Jira</a> for more information.</p>
                                                         </li>
                                                         <li value="2">
-                                                            <p>Enter the git command <b>git pull origin main</b></p>
+                                                            <p>Review the tickets that have been updated last and compare them to what was listed in the previous week's release notes.</p>
                                                         </li>
                                                         <li value="3">
-                                                            <p>Run this command:</p>
-                                                            <p><b>git log --pretty=format:%s --since="7 days ago" | cat</b>
-                                                            </p>
+                                                            <p>Draft the release notes in a Google doc with the name<b> SKP Release Notes mm/dd/yy</b>.</p>
                                                         </li>
                                                         <li value="4">
-                                                            <p>Copy the line above, right click on Git Bash Here and paste, click enter.</p>
-                                                        </li>
-                                                        <li value="5">
-                                                            <p>Highlight the text in the console, right-click and select <b>Copy</b>.</p>
-                                                        </li>
-                                                        <li value="6">
-                                                            <p>Create a google doc with the name <b>SKP Release Notes mm/dd/yy</b>.</p>
-                                                        </li>
-                                                        <li value="7">
-                                                            <p>Paste the console’s list of changes into this document.</p>
-                                                        </li>
-                                                        <li value="8">
-                                                            <p>Review the list of issues and, using track changes, delete any you think could be excluded.</p>
-                                                            <p class="note"><b>NOTE</b>: If it’s not clear what work is associated with a PR from the name alone you may need to  copy the description from the PR. See the steps for <a href="#find_PR">getting the description from the PR</a> below.</p>
-                                                        </li>
-                                                        <li value="9">
                                                             <p>Post a note in the Slack channel #release-notes asking the other PMs for review and feedback. </p>
                                                         </li>
-                                                        <li value="10">
+                                                        <li value="5">
                                                             <p>Once PM&#160;feedback has been incorporated, let the Tech Writers know in the #release-notes channel that they are ready to post.</p>
                                                         </li>
-                                                        <li value="11">
+                                                        <li value="6">
                                                             <p>The Technical Writer makes changes to the google doc following the <a href="#Std">standards listed below</a>.</p>
                                                         </li>
-                                                        <li value="12">
+                                                        <li value="7">
                                                             <p>The Technical Writer posts a note in the  #release-notes channel to ask for peer review from other writers before adding the content to help. </p>
                                                         </li>
-                                                        <li value="13">
+                                                        <li value="8">
                                                             <p>After the peer review is done, the Technical Writer adds the weekly updates to SCReleases.htm file in the Flare project igc-help <a href="https://jennydrummey.github.io/Content/DocProcess/SKP_Help.htm" target="_blank" rel="noopener noreferrer">following these steps</a>. Add a new month if needed. <a href="#Example">Examples are provided</a>.</p>
                                                         </li>
-                                                        <li value="14">
+                                                        <li value="9">
                                                             <p>Once published in Flare, post the release notes in the #skp_releases channel. <a href="#Slack">Example provided below</a>.</p>
                                                         </li>
                                                     </ol>
-                                                    <h2><a name="find_PR"></a>How to find PR descriptions</h2>
-                                                    <p>In the skt-repo, click the Pull Requests tab, then click the Closed filter.</p>
+                                                    <h2><a name="RunQueryInJira"></a>Run a Query in Jira</h2>
+                                                    <p>To run a query in Jira:</p>
+                                                    <ol>
+                                                        <li value="1">
+                                                            <p>Click in the Search bar.</p>
+                                                        </li>
+                                                        <li value="2">
+                                                            <p>Click<b> Advanced issue search</b>.</p>
+                                                        </li>
+                                                        <li value="3">
+                                                            <p>Click<b> Switch to JQL</b>.</p>
+                                                        </li>
+                                                        <li value="4">
+                                                            <p>Delete any contents that may be in the text box.</p>
+                                                        </li>
+                                                        <li value="5">
+                                                            <p>Paste the query into the text box.</p>
+                                                        </li>
+                                                        <li value="6">
+                                                            <p>Click <b>Search</b>.</p>
+                                                        </li>
+                                                    </ol>
                                                     <p>
-                                                        <img src="../Resources/Images/WeeklySKPReleases_1.PNG" />
+                                                        <img src="../Resources/Images/RunQueryInJira.GIF" />
                                                     </p>
-                                                    <p>Search on the PR number included in the release notes output.</p>
-                                                    <p>
-                                                        <img src="../Resources/Images/WeeklySKPReleases_2.png" />
-                                                    </p>
-                                                    <p>Information about the PR displays on the Conversation tab, including the summary/description.</p>
                                                     <h2><a name="Slack"></a>Post the Release Notes link to Slack channel</h2>
                                                     <p>This needs to be done before EOB on Friday and posted to #skp_releases.</p>
                                                     <p>Example posting:</p>

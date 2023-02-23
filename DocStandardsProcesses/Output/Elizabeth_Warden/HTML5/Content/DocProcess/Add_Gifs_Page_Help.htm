@@ -11,7 +11,7 @@
         <link rel="icon" sizes="96x96" href="../../Skins/Favicons/favicon-96x96.png" />
         <link rel="icon" sizes="32x32" href="../../Skins/Favicons/favicon-32x32.png" />
         <link rel="icon" sizes="16x16" href="../../Skins/Favicons/favicon-16x16.png" />
-        <meta charset="utf-8" /><title data-title="BOA Help">Add a Gif to Page-level Help</title>
+        <meta charset="utf-8" /><title data-title="BOA Help">Add a Gif or Image to Page-level Help</title>
         <!-- Scripts for menu modal dropdown, popup modals, and back-to-top button. -->
         <link href="../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
         <link href="../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
@@ -196,7 +196,7 @@
                                                 <br />
                                                 <br />
                                                 <div role="main" id="mc-main-content">
-                                                    <h1>Add a Gif to Page-level Help</h1>
+                                                    <h1>Add a Gif or Image to Page-level Help</h1>
                                                     <p>To add a gif to page-level help:</p>
                                                     <ol>
                                                         <li value="1">
@@ -238,8 +238,23 @@
                                                     <p>Use the following markdown to add the gif to page-level help:</p>
                                                     <p><b>Format:</b> ![gif](FilePathFromEngineering)</p>
                                                     <p><b>Example:</b> ![gif](https://cdn.syniti.com/images/ObjectsSetUsagetoProfiling.gif)</p>
-                                                    <p>&#160;</p>
-                                                    <p>&#160;</p>
+                                                    <h2>Add an Image to Page-level Help</h2>
+                                                    <p>Images can be stored in the Resources/Images folder in the igc-help Flare project so that they are on the hosted server. You can then reference them to add that image to the page-level help. </p>
+                                                    <ol>
+                                                        <li value="1">
+                                                            <p>In the igc-help project, add the image to the Resources/folder, noting the folder and file name. </p>
+                                                        </li>
+                                                        <li value="2">
+                                                            <p>Check in the repo and build in dev and prod so the image is accessible. </p>
+                                                        </li>
+                                                        <li value="3">
+                                                            <p>In I18nexus, in the markdown in the page-help namespace, use this syntax:</p>
+                                                        </li>
+                                                    </ol>
+                                                    <p>:![title on hover]{path to image with image name)</p>
+                                                    <p>For examle:</p>
+                                                    <p>![Business process example](https://skthelp.syniti.com/Resources/Images/DQExamples/BusinessConceptExample.png)</p>
+                                                    <p>After you have saved the change and run the workflow, the image displays in the vercel preview. </p>
                                                 </div>
                                                 <div id="feedback-survey">
                                                     <div class="feedback-question">

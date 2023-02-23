@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileLinkSet
+  FileSearchable="true"
+  MasterPage="file:///C:/Users/Elizabeth Warden/Documents/Git/JennyDrummey.github.io/DocStandardsProcesses/Content/Resources/MasterPages/DocProcess.flmsp"
+  OnlyLocalStylesheets="false"
+  FileTimeEstimate="0"
+  FilePriority="0">
+  <Links>
+    <Link
+      Url="Content/Resources/MasterPages/DocProcess.flmsp" />
+    <Link
+      Url="Content/Resources/TableStylesheets/fielddescription.css" />
+    <Link
+      Url="Content/DocProcess/Adding_Inline_and_PageLevel_Help.html" />
+    <Link
+      Url="https://sdrhelp.syniti.com/1010/UsersGuide/Quick_Start.htm" />
+  </Links>
+  <LongLinks>
+    <Link
+      Url="Content/Resources/MasterPages/DocProcess.flmsp" />
+    <Link
+      Url="Content/Resources/TableStylesheets/fielddescription.css" />
+    <Link
+      Url="Content/DocProcess/Adding_Inline_and_PageLevel_Help.html" />
+    <Link
+      Url="https://sdrhelp.syniti.com/1010/UsersGuide/Quick_Start.htm" />
+  </LongLinks>
+  <Anchors />
+  <Keywords />
+  <Concepts />
+  <ConceptControlNames />
+  <IndexControlNames />
+  <Variables />
+  <FileConditions />
+  <FileTags />
+  <AllConditions />
+  <Stylesheets>
+    <Url
+      Source="Content/Resources/TableStylesheets/fielddescription.css" />
+  </Stylesheets>
+</CatapultFileLinkSet>
