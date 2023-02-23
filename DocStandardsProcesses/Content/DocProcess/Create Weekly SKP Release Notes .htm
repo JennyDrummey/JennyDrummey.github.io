@@ -24,32 +24,13 @@
         <p>As a PM, to produce the release notes: </p>
         <ol>
             <li>
-                <p>Right-click the skt-ui folder for your local repo and select <b>Git Bash Here</b>.</p>
-                <p class="note"><b>NOTE</b>: If pulling down this branch for the first time, enter the git command <b>git fetch origin main</b>, then proceed with the following steps.</p>
+                <p>Run the following query: <span style="font-family: monospace;">project="KYB" AND "Test Status[Labels]"="ProdTested"</span>. Refer to <a href="#RunQueryInJira">Run a Query in Jira</a> for more information.</p>
             </li>
             <li>
-                <p>Enter the git command <b>git pull origin main</b></p>
+                <p>Review the tickets that have been updated last and compare them to what was listed in the previous week's release notes.</p>
             </li>
             <li>
-                <p>Run this command:</p>
-                <p><b>git log --pretty=format:%s --since="7 days ago" | cat</b>
-                </p>
-            </li>
-            <li>
-                <p>Copy the line above, right click on Git Bash Here and paste, click enter.</p>
-            </li>
-            <li>
-                <p>Highlight the text in the console, right-click and select <b>Copy</b>.</p>
-            </li>
-            <li>
-                <p>Create a google doc with the name <b>SKP Release Notes mm/dd/yy</b>.</p>
-            </li>
-            <li>
-                <p>Paste the console’s list of changes into this document.</p>
-            </li>
-            <li>
-                <p>Review the list of issues and, using track changes, delete any you think could be excluded.</p>
-                <p class="note"><b>NOTE</b>: If it’s not clear what work is associated with a PR from the name alone you may need to  copy the description from the PR. See the steps for <a href="#find_PR">getting the description from the PR</a> below.</p>
+                <p>Draft the release notes in a Google doc with the name<b> SKP Release Notes mm/dd/yy</b>.</p>
             </li>
             <li>
                 <p>Post a note in the Slack channel #release-notes asking the other PMs for review and feedback. </p>
@@ -70,16 +51,31 @@
                 <p>Once published in Flare, post the release notes in the #skp_releases channel. <a href="#Slack">Example provided below</a>.</p>
             </li>
         </ol>
-        <h2><a name="find_PR"></a>How to find PR descriptions</h2>
-        <p>In the skt-ui repo, click the Pull Requests tab, then click the Closed filter.</p>
+        <h2><a name="RunQueryInJira"></a>Run a Query in Jira</h2>
+        <p>To run a query in Jira:</p>
+        <ol>
+            <li>
+                <p>Click in the Search bar.</p>
+            </li>
+            <li>
+                <p>Click<b> Advanced issue search</b>.</p>
+            </li>
+            <li>
+                <p>Click<b> Switch to JQL</b>.</p>
+            </li>
+            <li>
+                <p>Delete any contents that may be in the text box.</p>
+            </li>
+            <li>
+                <p>Paste the query into the text box.</p>
+            </li>
+            <li>
+                <p>Click <b>Search</b>.</p>
+            </li>
+        </ol>
         <p>
-            <img src="../Resources/Images/WeeklySKPReleases_1.PNG" />
+            <img src="../Resources/Images/RunQueryInJira.GIF" />
         </p>
-        <p>Search on the PR number included in the release notes output.</p>
-        <p>
-            <img src="../Resources/Images/WeeklySKPReleases_2.png" />
-        </p>
-        <p>Information about the PR displays on the Conversation tab, including the summary/description.</p>
         <h2><a name="Slack"></a>Post the Release Notes link to Slack channel</h2>
         <p>This needs to be done before EOB on Friday and posted to #skp_releases.</p>
         <p>Example posting:</p>

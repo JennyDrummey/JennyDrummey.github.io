@@ -14,7 +14,7 @@
     <Link
       Url="Content/DocProcess/BOADocProcess_UpdateOnlineHelp.html" />
     <Link
-      Url="Content/DocProcess/Publish_SKT_Help.htm" />
+      Url="Content/DocProcess/SKP_Help.htm" />
     <Link
       Url="Content/DocProcess/BOADocProcess_Add_Topics_to_the_TOC.html" />
     <Link
@@ -45,6 +45,8 @@
       Url="Content/Resources/Images/popupClass.png" />
     <Link
       Url="Content/Resources/Images/insertId.png" />
+    <Link
+      Url="Content/SSTDocStandards/BOADocStandards_SST_Snippets.html" />
     <Link
       Url="Content/Resources/Images/siteToolbar.png" />
     <Link
@@ -92,13 +94,15 @@
     <Link
       Url="Content/DocProcess/BOADocProcess_UpdateOnlineHelp.html#Add5" />
     <Link
+      Url="Content/DocProcess/BOADocProcess_UpdateOnlineHelp.html#Keep" />
+    <Link
       Url="Content/DocProcess/BOADocProcess_UpdateOnlineHelp.html#Add2" />
     <Link
       Url="Content/DocProcess/BOADocProcess_UpdateOnlineHelp.html#Generate" />
     <Link
       Url="Content/DocProcess/BOADocProcess_UpdateOnlineHelp.html#Add" />
     <Link
-      Url="Content/DocProcess/Publish_SKT_Help.htm" />
+      Url="Content/DocProcess/SKP_Help.htm" />
     <Link
       Url="Content/DocProcess/BOADocProcess_Add_Topics_to_the_TOC.html" />
     <Link
@@ -129,6 +133,8 @@
       Url="Content/Resources/Images/popupClass.png" />
     <Link
       Url="Content/Resources/Images/insertId.png" />
+    <Link
+      Url="Content/SSTDocStandards/BOADocStandards_SST_Snippets.html" />
     <Link
       Url="Content/Resources/Images/siteToolbar.png" />
     <Link
@@ -171,6 +177,8 @@
       Name="Add4" />
     <Anchor
       Name="Add5" />
+    <Anchor
+      Name="Keep" />
     <Anchor
       Name="Add2" />
     <Anchor

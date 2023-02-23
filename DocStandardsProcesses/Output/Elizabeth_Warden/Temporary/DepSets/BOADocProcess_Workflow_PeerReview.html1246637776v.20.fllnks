@@ -15,6 +15,10 @@
       Url="Content/DocProcess/BOADocProcess_Workflow_Approved.html" />
     <Link
       Url="Content/DocProcess/BOADocProcess_UpdateOnlineHelp.html" />
+    <Link
+      Url="Content/DocProcess/BOADocProcess_Update_Help_on_Dev_and_Prod_Sites.html" />
+    <Link
+      Url="Content/DocProcess/SKP_Help.htm" />
   </Links>
   <LongLinks>
     <Link
@@ -27,6 +31,12 @@
       Url="Content/DocProcess/BOADocProcess_UpdateOnlineHelp.html#Checklis" />
     <Link
       Url="Content/DocProcess/BOADocProcess_UpdateOnlineHelp.html#Checklis2" />
+    <Link
+      Url="Content/DocProcess/BOADocProcess_Workflow_Approved.html#Author3" />
+    <Link
+      Url="Content/DocProcess/BOADocProcess_Update_Help_on_Dev_and_Prod_Sites.html" />
+    <Link
+      Url="Content/DocProcess/SKP_Help.htm#Merge" />
   </LongLinks>
   <Anchors />
   <Keywords />
