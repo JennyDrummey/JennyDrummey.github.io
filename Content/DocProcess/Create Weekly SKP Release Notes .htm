@@ -197,54 +197,46 @@
                                                 <br />
                                                 <div role="main" id="mc-main-content">
                                                     <h1>Create Weekly SKP Release Notes</h1>
-                                                    <p>Tech Writers and PM (Jon, Emily,  Andy and Caroline) work together to create the weekly release notes for Syniti Knowledge Platform (SKP).</p>
-                                                    <p class="note"><b>NOTE</b>: The weekly update is for the SKP, Migrate, Construct and Orchestrate. Other modules are note yet released. Both Construct and Migrate produce monthly release notes per their cadence.</p>
-                                                    <p class="note">At a high level, PM produces the bulk of the release notes by:</p>
-                                                    <ul>
-                                                        <li>
-                                                            <p>Pulling the filtered list of PRs each week from the skt-ui repo.</p>
-                                                        </li>
-                                                        <li>
-                                                            <p>Reviewing the list and, using track changes, deleting PRs that are not relevant.</p>
-                                                        </li>
-                                                        <li>
-                                                            <p>Running a query in Jira to see which issues were tested successfully in prod. The release notes should only include these issues.</p>
-                                                        </li>
-                                                        <li>
-                                                            <p>Providing details for the PRs where the provided descriptions are not enough.</p>
-                                                        </li>
-                                                    </ul>
-                                                    <p>To start the process, on Friday morning of each week, PM runs the query as described below.</p>
-                                                    <p>As a PM, to produce the release notes: </p>
+                                                    <p>Tech Writers and PM work together to create the weekly release notes for Syniti Knowledge Platform (SKP).</p>
+                                                    <p class="note"><b>NOTE:</b> The weekly update is for the SKP, Match, Replicate and Orchestrate.  Construct and Migrate produce monthly release notes per their cadence.</p>
+                                                    <p>To create the weekly release notes:</p>
                                                     <ol>
                                                         <li value="1">
-                                                            <p>Run the following query: <span style="font-family: monospace;">project="KYB" AND "Test Status[Labels]"="ProdTested"</span>. Refer to <a href="#RunQueryInJira">Run a Query in Jira</a> for more information.</p>
-                                                        </li>
-                                                        <li value="2">
-                                                            <p>Review the tickets that have been updated last and compare them to what was listed in the previous week's release notes.</p>
-                                                        </li>
-                                                        <li value="3">
-                                                            <p>Draft the release notes in a Google doc with the name<b> SKP Release Notes mm/dd/yy</b>.</p>
-                                                        </li>
-                                                        <li value="4">
-                                                            <p>Post a note in the Slack channel #release-notes asking the other PMs for review and feedback. </p>
-                                                        </li>
-                                                        <li value="5">
-                                                            <p>Once PM&#160;feedback has been incorporated, let the Tech Writers know in the #release-notes channel that they are ready to post.</p>
-                                                        </li>
-                                                        <li value="6">
-                                                            <p>The Technical Writer makes changes to the google doc following the <a href="#Std">standards listed below</a>.</p>
-                                                        </li>
-                                                        <li value="7">
-                                                            <p>The Technical Writer posts a note in the  #release-notes channel to ask for peer review from other writers before adding the content to help. </p>
-                                                        </li>
-                                                        <li value="8">
-                                                            <p>After the peer review is done, the Technical Writer adds the weekly updates to SCReleases.htm file in the Flare project igc-help <a href="https://jennydrummey.github.io/Content/DocProcess/SKP_Help.htm" target="_blank" rel="noopener noreferrer">following these steps</a>. Add a new month if needed. <a href="#Example">Examples are provided</a>.</p>
-                                                        </li>
-                                                        <li value="9">
-                                                            <p>Once published in Flare, post the release notes in the #skp_releases channel. <a href="#Slack">Example provided below</a>.</p>
+                                                            <p>Ensure PM has reviewed the tickets and added the <span style="font-family: monospace;">ReleaseNotes</span> label to all tickets being released. </p>
                                                         </li>
                                                     </ol>
+                                                    <ol data-mc-continue="true">
+                                                        <li value="2">
+                                                            <p>Run the following query: <span style="font-family: monospace;"><span style="font-size: 16pt;"><span style="font-size: 12pt;">resolutiondate &gt;= -7d and project = "Syniti Knowledge Platform" and "Test Status[Labels]" in (ProdTested) and labels in (ReleaseNotes) order by created DESC</span></span></span>. Refer to <a href="#RunQueryInJira">Run a Query in Jira</a> for more information.</p>
+                                                            <p>Or</p>
+                                                            <p>Save this filter: <a href="https://entota.atlassian.net/issues/?filter=22438" target="_blank">https://entota.atlassian.net/issues/?filter=22438</a></p>
+                                                        </li>
+                                                        <li value="3">
+                                                            <p>Draft the release notes in a Google doc following <a href="#Std">these standards</a> and named <b> SKP Release Notes mm/dd/yy</b> by Friday morning. </p>
+                                                        </li>
+                                                        <li value="4">
+                                                            <p>Post a note in the Slack channel #release-notes asking  PMs to review. </p>
+                                                        </li>
+                                                        <li value="5">
+                                                            <p>Incorporate PM's feedback.</p>
+                                                        </li>
+                                                        <li value="6">
+                                                            <p>Add the weekly updates to <span style="font-family: monospace;">SCReleases.htm</span> file in the Flare project igc-help <a href="https://jennydrummey.github.io/Content/DocProcess/SKP_Help.htm" target="_blank" rel="noopener noreferrer">following these steps</a>. Add a new month if needed. <a href="#Example">Examples are provided</a>. Push release notes to Dev.</p>
+                                                        </li>
+                                                        <li value="7">
+                                                            <p>Post a note in the Slack channel #release-notes to ask for peer review from other writers before adding the content to help. Include a link to Dev and to the Google doc.</p>
+                                                        </li>
+                                                        <li value="8">
+                                                            <p>Update  <span style="font-family: monospace;">SCReleases.htm</span> with Tech Writer's feedback (if any) and push release notes to Prod. </p>
+                                                        </li>
+                                                        <li value="9">
+                                                            <p>Post the release notes in the #skp_releases channel. <a href="#Slack">Example provided below</a>.</p>
+                                                        </li>
+                                                    </ol>
+                                                    <h2>No Release Notes to Publish </h2>
+                                                    <p>If there aren't any release notes being published, update What's New with the following text:</p>
+                                                    <p><span style="font-family: monospace;"><span style="font-size: 16pt;"><span style="font-size: 12pt;">We are busy enhancing the Syniti Knowledge Platform, but nothing is ready for release just yet. Check back next week!</span></span></span>
+                                                    </p>
                                                     <h2><a name="RunQueryInJira"></a>Run a Query in Jira</h2>
                                                     <p>To run a query in Jira:</p>
                                                     <ol>
@@ -276,7 +268,7 @@
                                                     <p>Weekly release notes for 7/1/2022 for the SKP are published. </p>
                                                     <p> <a href="https://skthelp.syniti.com/SCReleases.htm">https://skthelp.syniti.com/SCReleases.htm</a></p>
                                                     <p>&#160;</p>
-                                                    <h2><a name="Std"></a>Standards for Weekly Release Notes for SKP</h2>
+                                                    <h2><a name="Std"></a>Standards</h2>
                                                     <ul>
                                                         <li>
                                                             <p>Asset names are lower case</p>
@@ -292,6 +284,9 @@
                                                         </li>
                                                         <li>
                                                             <p>Mentions of i18nexus with “translations” are not included in the weekly notes.</p>
+                                                        </li>
+                                                        <li>
+                                                            <p>Use the date format [MonthName], ##, ####, e.g., May 8, 2023 for the release date</p>
                                                         </li>
                                                     </ul>
                                                     <h2><a name="Example"></a>Examples of prior Release Notes</h2>

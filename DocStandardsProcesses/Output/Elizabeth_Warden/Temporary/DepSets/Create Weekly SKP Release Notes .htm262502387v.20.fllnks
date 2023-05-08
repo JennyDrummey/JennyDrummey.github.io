@@ -11,6 +11,8 @@
     <Link
       Url="Content/DocProcess/Create Weekly SKP Release Notes .htm" />
     <Link
+      Url="https://entota.atlassian.net/issues/" />
+    <Link
       Url="https://jennydrummey.github.io/Content/DocProcess/SKP_Help.htm" />
     <Link
       Url="Content/Resources/Images/RunQueryInJira.GIF" />
@@ -24,6 +26,8 @@
       Url="Content/Resources/MasterPages/DocProcess.flmsp" />
     <Link
       Url="Content/DocProcess/Create Weekly SKP Release Notes .htm#RunQueryInJira" />
+    <Link
+      Url="https://entota.atlassian.net/issues/?filter=22438" />
     <Link
       Url="Content/DocProcess/Create Weekly SKP Release Notes .htm#Std" />
     <Link
