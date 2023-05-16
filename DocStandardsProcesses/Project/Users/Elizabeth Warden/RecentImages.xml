@@ -1,5 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <UrlList>
+    <Url Source="Resources/Images/SendSparkContent.png" />
     <Url Source="Resources/Images/RunQueryInJira.GIF" />
     <Url Source="Resources/Images/Troubleshoot_ChromaticFails6.png" />
     <Url Source="Resources/Images/Troubleshoot_ChromaticFails5.png" />
@@ -19,5 +20,4 @@
     <Url Source="Resources/Images/PostArticleToSC4.png" />
     <Url Source="Resources/Images/PostArticleToSC3.png" />
     <Url Source="Resources/Images/PostArticleToSC2.png" />
-    <Url Source="Resources/Images/PostArticleToSC1.png" />
 </UrlList>
