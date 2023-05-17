@@ -1,5 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <UrlList>
+    <Url Source="Resources/Images/migrate2.png" />
+    <Url Source="Resources/Images/migrate1.png" />
     <Url Source="Resources/Images/headercard.png" />
     <Url Source="Resources/Images/number1.png" />
     <Url Source="Resources/Images/vercel1.png" />
@@ -18,6 +20,4 @@
     <Url Source="Resources/Images/k1nkI-rGdF9R_Rhdfp9zPtzxfvwxAGyXG8Wfi6BqGVUTgwU1-pjp5ZUAKxNLI2H8V83PGpvfVcD2UNhJGp3z3ZGTfRU_kf9anofjdZRl.png" />
     <Url Source="Resources/Images/SSTTOC.png" />
     <Url Source="Resources/Images/image1.png" />
-    <Url Source="Resources/Images/image.png" />
-    <Url Source="Resources/Images/CopyHelp.png" />
 </UrlList>

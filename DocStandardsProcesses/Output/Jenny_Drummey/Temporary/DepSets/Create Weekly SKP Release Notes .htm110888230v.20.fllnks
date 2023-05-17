@@ -11,11 +11,11 @@
     <Link
       Url="Content/DocProcess/Create Weekly SKP Release Notes .htm" />
     <Link
+      Url="https://entota.atlassian.net/issues/" />
+    <Link
       Url="https://jennydrummey.github.io/Content/DocProcess/SKP_Help.htm" />
     <Link
-      Url="Content/Resources/Images/WeeklySKPReleases_1.PNG" />
-    <Link
-      Url="Content/Resources/Images/WeeklySKPReleases_2.png" />
+      Url="Content/Resources/Images/RunQueryInJira.GIF" />
     <Link
       Url="https://skthelp.syniti.com/SCReleases.htm" />
     <Link
@@ -25,7 +25,9 @@
     <Link
       Url="Content/Resources/MasterPages/DocProcess.flmsp" />
     <Link
-      Url="Content/DocProcess/Create Weekly SKP Release Notes .htm#find_PR" />
+      Url="Content/DocProcess/Create Weekly SKP Release Notes .htm#RunQueryInJira" />
+    <Link
+      Url="https://entota.atlassian.net/issues/?filter=22438" />
     <Link
       Url="Content/DocProcess/Create Weekly SKP Release Notes .htm#Std" />
     <Link
@@ -35,9 +37,7 @@
     <Link
       Url="Content/DocProcess/Create Weekly SKP Release Notes .htm#Slack" />
     <Link
-      Url="Content/Resources/Images/WeeklySKPReleases_1.PNG" />
-    <Link
-      Url="Content/Resources/Images/WeeklySKPReleases_2.png" />
+      Url="Content/Resources/Images/RunQueryInJira.GIF" />
     <Link
       Url="https://skthelp.syniti.com/SCReleases.htm" />
     <Link
@@ -45,7 +45,7 @@
   </LongLinks>
   <Anchors>
     <Anchor
-      Name="find_PR" />
+      Name="RunQueryInJira" />
     <Anchor
       Name="Slack" />
     <Anchor

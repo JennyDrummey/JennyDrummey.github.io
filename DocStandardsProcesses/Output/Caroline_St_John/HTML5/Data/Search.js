@@ -1,1 +1,0 @@
-define({r:0.5,st:'Stem',n:1,t:[0,76],m:[],u:['../Content/Data_Insiders_Community.htm'],s:['$','do','multipl','sure'],p:[['$',3],['allows',3],['available',59],['changes',72],['create',59],['downvote',42],['fixed',62],['have',50],['index',73],['links',85],['new',45],['oracle',48],['promote',2],['save',34],['start',38],['that',73],['these',14],['type',59],['when',62]]});
