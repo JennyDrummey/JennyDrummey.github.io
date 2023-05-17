@@ -4,7 +4,7 @@
         <Link Value="C:\Users\Jenny Drummey\git\JennyDrummey.github.io\DocStandardsProcesses\Content\DocProcess\UpdateSynitiReplicateDocumentation.htm" />
     </Dialog>
     <Dialog Name="B3.XmlMdiEditorKit.ImageGeneralDialogPage">
-        <Link Value="C:\Users\Jenny Drummey\git\JennyDrummey.github.io\DocStandardsProcesses\Content\Resources\Images\headercard.png" />
+        <Link Value="C:\Users\Jenny Drummey\git\JennyDrummey.github.io\DocStandardsProcesses\Content\Resources\Images\migrate2.png" />
     </Dialog>
     <Dialog Name="B3.XmlTextKit.MultimediaGeneralDialogPage" />
     <Dialog Name="B3.CatapultProjectUserInterfaceKit.InsertSnippetDialog">

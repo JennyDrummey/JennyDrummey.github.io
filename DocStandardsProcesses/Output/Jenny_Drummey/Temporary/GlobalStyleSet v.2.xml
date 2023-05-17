@@ -249,6 +249,8 @@
       <Class
         Name="codeBlock" />
       <Class
+        Name="H2" />
+      <Class
         Name="SearchHighlight" />
       <Class
         Name="SearchHighlight2" />
