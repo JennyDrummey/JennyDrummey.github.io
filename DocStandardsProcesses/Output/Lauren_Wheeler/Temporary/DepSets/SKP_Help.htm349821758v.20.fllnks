@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileLinkSet
+  FileSearchable="true"
+  MasterPage="file:///C:/Users/Lauren Wheeler/Doc_Standards/JennyDrummey.github.io/DocStandardsProcesses/Content/Resources/MasterPages/DocProcess.flmsp"
+  OnlyLocalStylesheets="false"
+  FileTimeEstimate="0"
+  FilePriority="0">
+  <Links>
+    <Link
+      Url="Content/Resources/MasterPages/DocProcess.flmsp" />
+    <Link
+      Url="Content/DocProcess/BOADocProcess_DSPDocOverview.html" />
+    <Link
+      Url="Content/DocProcess/SKP_Help.htm" />
+    <Link
+      Url="Content/DocProcess/BOADocProcess_Workflow_Approved.html" />
+    <Link
+      Url="Content/Resources/Images/gitBashHere.png" />
+    <Link
+      Url="Content/DocProcess/Create Weekly SKP Release Notes .htm" />
+    <Link
+      Url="Content/Resources/Images/image1.png" />
+    <Link
+      Url="Content/Resources/Images/image.png" />
+    <Link
+      Url="Content/Resources/Images/BuildTarget1.png" />
+    <Link
+      Url="Content/Resources/Images/GithubMerge1.png" />
+    <Link
+      Url="Content/Resources/Images/githubMerge2.png" />
+    <Link
+      Url="Content/Resources/Images/githubMerge3.png" />
+    <Link
+      Url="Content/DocProcess/BOADocProcess_Workflow_PeerReview.html" />
+  </Links>
+  <LongLinks>
+    <Link
+      Url="Content/Resources/MasterPages/DocProcess.flmsp" />
+    <Link
+      Url="Content/DocProcess/BOADocProcess_DSPDocOverview.html" />
+    <Link
+      Url="Content/DocProcess/SKP_Help.htm#Synchron" />
+    <Link
+      Url="Content/DocProcess/BOADocProcess_Workflow_Approved.html#Author" />
+    <Link
+      Url="Content/DocProcess/SKP_Help.htm#Add" />
+    <Link
+      Url="Content/DocProcess/SKP_Help.htm#Commit" />
+    <Link
+      Url="Content/DocProcess/BOADocProcess_Workflow_Approved.html#Author3" />
+    <Link
+      Url="Content/DocProcess/SKP_Help.htm#PeerReview" />
+    <Link
+      Url="Content/DocProcess/SKP_Help.htm#Merge" />
+    <Link
+      Url="Content/Resources/Images/gitBashHere.png" />
+    <Link
+      Url="Content/DocProcess/Create Weekly SKP Release Notes .htm" />
+    <Link
+      Url="Content/Resources/Images/image1.png" />
+    <Link
+      Url="Content/Resources/Images/image.png" />
+    <Link
+      Url="Content/Resources/Images/BuildTarget1.png" />
+    <Link
+      Url="Content/Resources/Images/GithubMerge1.png" />
+    <Link
+      Url="Content/Resources/Images/githubMerge2.png" />
+    <Link
+      Url="Content/Resources/Images/githubMerge3.png" />
+    <Link
+      Url="Content/DocProcess/BOADocProcess_Workflow_PeerReview.html" />
+  </LongLinks>
+  <Anchors>
+    <Anchor
+      Name="Synchron" />
+    <Anchor
+      Name="Add" />
+    <Anchor
+      Name="Build" />
+    <Anchor
+      Name="Commit" />
+    <Anchor
+      Name="Merge" />
+    <Anchor
+      Name="PeerReview" />
+  </Anchors>
+  <Keywords />
+  <Concepts />
+  <ConceptControlNames />
+  <IndexControlNames />
+  <Variables />
+  <FileConditions />
+  <FileTags />
+  <AllConditions />
+  <Stylesheets />
+</CatapultFileLinkSet>

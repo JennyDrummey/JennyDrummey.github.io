@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileLinkSet
+  FileSearchable="true"
+  MasterPage="file:///C:/Users/Lauren Wheeler/Doc_Standards/JennyDrummey.github.io/DocStandardsProcesses/Content/Resources/MasterPages/DocProcess.flmsp"
+  OnlyLocalStylesheets="false"
+  FileTimeEstimate="0"
+  FilePriority="0">
+  <Links>
+    <Link
+      Url="Content/Resources/MasterPages/DocProcess.flmsp" />
+    <Link
+      Url="Content/DocProcess/UseGIFsInOnlineHelp.html" />
+    <Link
+      Url="Content/DocProcess/Add_Gifs_Page_Help.htm" />
+  </Links>
+  <LongLinks>
+    <Link
+      Url="Content/Resources/MasterPages/DocProcess.flmsp" />
+    <Link
+      Url="Content/DocProcess/UseGIFsInOnlineHelp.html" />
+    <Link
+      Url="Content/DocProcess/Add_Gifs_Page_Help.htm#AddGifToSynitiCDN" />
+    <Link
+      Url="Content/DocProcess/Add_Gifs_Page_Help.htm#AddGifToPageHelp" />
+  </LongLinks>
+  <Anchors>
+    <Anchor
+      Name="AddGifToSynitiCDN" />
+    <Anchor
+      Name="AddGifToPageHelp" />
+  </Anchors>
+  <Keywords />
+  <Concepts />
+  <ConceptControlNames />
+  <IndexControlNames />
+  <Variables />
+  <FileConditions />
+  <FileTags />
+  <AllConditions />
+  <Stylesheets />
+</CatapultFileLinkSet>

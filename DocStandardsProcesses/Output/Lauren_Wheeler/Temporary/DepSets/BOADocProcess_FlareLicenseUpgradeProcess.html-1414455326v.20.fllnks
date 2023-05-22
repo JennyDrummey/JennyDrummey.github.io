@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileLinkSet
+  FileTitle=""
+  FileSearchable="true"
+  MasterPage="file:///C:/Users/Lauren Wheeler/Doc_Standards/JennyDrummey.github.io/DocStandardsProcesses/Content/Resources/MasterPages/DocProcess.flmsp"
+  OnlyLocalStylesheets="false"
+  FileTimeEstimate="0"
+  FilePriority="0">
+  <Links>
+    <Link
+      Url="Content/Resources/MasterPages/DocProcess.flmsp" />
+    <Link
+      Url="Content/Resources/Stylesheets/newDefault.css" />
+    <Link
+      Url="Content/DocProcess/BOADocProcess_FlareLicenseUpgradeProcess.html" />
+    <Link
+      Url="https://backofficeassociates.zendesk.com/agent/dashboard" />
+    <Link
+      Url="Content/Resources/Images/UpgradeFlareServer_AWS VPN.png" />
+    <Link
+      Url="Content/Resources/Images/UpgradeFlareServer_Remote Desktop.png" />
+    <Link
+      Url="https://www.lastpass.com/features/password-generator" />
+    <Link
+      Url="Content/Resources/Images/UpgradeFlareServer_Create Remote Desktop User.png" />
+  </Links>
+  <LongLinks>
+    <Link
+      Url="Content/Resources/MasterPages/DocProcess.flmsp" />
+    <Link
+      Url="Content/Resources/Stylesheets/newDefault.css" />
+    <Link
+      Url="Content/DocProcess/BOADocProcess_FlareLicenseUpgradeProcess.html#UpgradeYourLocalVersion" />
+    <Link
+      Url="Content/DocProcess/BOADocProcess_FlareLicenseUpgradeProcess.html#UpgradeFlareServer" />
+    <Link
+      Url="https://backofficeassociates.zendesk.com/agent/dashboard" />
+    <Link
+      Url="Content/DocProcess/BOADocProcess_FlareLicenseUpgradeProcess.html#CreateRemoteDesktopUser" />
+    <Link
+      Url="Content/Resources/Images/UpgradeFlareServer_AWS VPN.png" />
+    <Link
+      Url="Content/Resources/Images/UpgradeFlareServer_Remote Desktop.png" />
+    <Link
+      Url="https://www.lastpass.com/features/password-generator" />
+    <Link
+      Url="Content/Resources/Images/UpgradeFlareServer_Create Remote Desktop User.png" />
+  </LongLinks>
+  <Anchors>
+    <Anchor
+      Name="UpgradeYourLocalVersion" />
+    <Anchor
+      Name="UpgradeFlareServer" />
+    <Anchor
+      Name="CreateRemoteDesktopUser" />
+  </Anchors>
+  <Keywords />
+  <Concepts />
+  <ConceptControlNames />
+  <IndexControlNames />
+  <Variables />
+  <FileConditions />
+  <FileTags />
+  <AllConditions />
+  <Stylesheets>
+    <Url
+      Source="Content/Resources/Stylesheets/newDefault.css" />
+  </Stylesheets>
+</CatapultFileLinkSet>

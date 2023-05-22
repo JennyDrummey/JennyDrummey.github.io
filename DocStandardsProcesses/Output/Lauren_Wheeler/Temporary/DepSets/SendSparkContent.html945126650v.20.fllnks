@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileLinkSet
+  FileTitle="Send Spark Content"
+  FileSearchable="true"
+  MasterPage="file:///C:/Users/Lauren Wheeler/Doc_Standards/JennyDrummey.github.io/DocStandardsProcesses/Content/Resources/MasterPages/DocProcess.flmsp"
+  OnlyLocalStylesheets="false"
+  FileTimeEstimate="0"
+  FilePriority="0">
+  <Links>
+    <Link
+      Url="Content/Resources/MasterPages/DocProcess.flmsp" />
+    <Link
+      Url="Content/Resources/Stylesheets/Styles.css" />
+    <Link
+      Url="Content/Resources/Stylesheets/newDefault.css" />
+    <Link
+      Url="mailto:InternalCommunications@syniti.com?subject=Product Content for Spark" />
+    <Link
+      Url="Content/Resources/Images/SendSparkContent.png" />
+  </Links>
+  <LongLinks>
+    <Link
+      Url="Content/Resources/MasterPages/DocProcess.flmsp" />
+    <Link
+      Url="Content/Resources/Stylesheets/Styles.css" />
+    <Link
+      Url="Content/Resources/Stylesheets/newDefault.css" />
+    <Link
+      Url="mailto:InternalCommunications@syniti.com?subject=Product Content for Spark" />
+    <Link
+      Url="Content/Resources/Images/SendSparkContent.png" />
+  </LongLinks>
+  <Anchors />
+  <Keywords />
+  <Concepts />
+  <ConceptControlNames />
+  <IndexControlNames />
+  <Variables />
+  <FileConditions />
+  <FileTags />
+  <AllConditions />
+  <Stylesheets>
+    <Url
+      Source="Content/Resources/Stylesheets/Styles.css" />
+    <Url
+      Source="Content/Resources/Stylesheets/newDefault.css" />
+  </Stylesheets>
+</CatapultFileLinkSet>
