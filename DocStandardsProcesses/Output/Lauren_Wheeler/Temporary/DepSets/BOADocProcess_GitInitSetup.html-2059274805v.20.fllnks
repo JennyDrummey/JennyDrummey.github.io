@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileLinkSet
+  FileSearchable="true"
+  MasterPage="file:///C:/Users/Lauren Wheeler/Doc_Standards/JennyDrummey.github.io/DocStandardsProcesses/Content/Resources/MasterPages/DocProcess.flmsp"
+  OnlyLocalStylesheets="false"
+  FileTimeEstimate="0"
+  FilePriority="0">
+  <Links>
+    <Link
+      Url="Content/Resources/MasterPages/DocProcess.flmsp" />
+    <Link
+      Url="Content/Resources/Stylesheets/Styles.css" />
+    <Link
+      Url="Content/Resources/Stylesheets/newDefault.css" />
+    <Link
+      Url="https://git-scm.com/" />
+    <Link
+      Url="https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup" />
+    <Link
+      Url="https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent" />
+    <Link
+      Url="https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account" />
+    <Link
+      Url="https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh/testing-your-ssh-connection" />
+    <Link
+      Url="https://docs.google.com/document/d/11tQ601_woUizRWog2CLqFah8Wg9A4TomwbsS_KCbc8E/edit" />
+    <Link
+      Url="https://docs.google.com/document/d/14-Uno8VtVW87u2j1aRmxA1uva-3eb9m2WZOOzjSwikY/edit" />
+    <Link
+      Url="https://github.com/BackOfficeAssoc/dsp-docs" />
+    <Link
+      Url="https://github.com/BackOfficeAssoc/igc-help" />
+    <Link
+      Url="https://github.com/BackOfficeAssoc/dsp-install-manuals" />
+    <Link
+      Url="Content/Resources/Images/WRch9WocxzCBKvF9iOma6qg4HYTtFdLo3iF6pUtROSEHZPiWHAnfdHfAUU8vM8LdxZJ2sOpWuIptGqnbN7S2Xd2Vw9nFruGdOifTay9F.png" />
+    <Link
+      Url="Content/Resources/Images/k1nkI-rGdF9R_Rhdfp9zPtzxfvwxAGyXG8Wfi6BqGVUTgwU1-pjp5ZUAKxNLI2H8V83PGpvfVcD2UNhJGp3z3ZGTfRU_kf9anofjdZRl.png" />
+    <Link
+      Url="Content/DocProcess/BOADocProcess_GitInitSetup.html" />
+    <Link
+      Url="Content/DocProcess/BOADocProcess_Workflow_Approved.html" />
+  </Links>
+  <LongLinks>
+    <Link
+      Url="Content/Resources/MasterPages/DocProcess.flmsp" />
+    <Link
+      Url="Content/Resources/Stylesheets/Styles.css" />
+    <Link
+      Url="Content/Resources/Stylesheets/newDefault.css" />
+    <Link
+      Url="https://git-scm.com/" />
+    <Link
+      Url="https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup" />
+    <Link
+      Url="https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent" />
+    <Link
+      Url="https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent#generating-a-new-ssh-key" />
+    <Link
+      Url="https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent#adding-your-ssh-key-to-the-ssh-agent" />
+    <Link
+      Url="https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account" />
+    <Link
+      Url="https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh/testing-your-ssh-connection" />
+    <Link
+      Url="https://docs.google.com/document/d/11tQ601_woUizRWog2CLqFah8Wg9A4TomwbsS_KCbc8E/edit?usp=sharing" />
+    <Link
+      Url="https://docs.google.com/document/d/14-Uno8VtVW87u2j1aRmxA1uva-3eb9m2WZOOzjSwikY/edit?usp=sharing" />
+    <Link
+      Url="https://github.com/BackOfficeAssoc/dsp-docs" />
+    <Link
+      Url="https://github.com/BackOfficeAssoc/igc-help" />
+    <Link
+      Url="https://github.com/BackOfficeAssoc/dsp-install-manuals" />
+    <Link
+      Url="Content/Resources/Images/WRch9WocxzCBKvF9iOma6qg4HYTtFdLo3iF6pUtROSEHZPiWHAnfdHfAUU8vM8LdxZJ2sOpWuIptGqnbN7S2Xd2Vw9nFruGdOifTay9F.png" />
+    <Link
+      Url="Content/Resources/Images/k1nkI-rGdF9R_Rhdfp9zPtzxfvwxAGyXG8Wfi6BqGVUTgwU1-pjp5ZUAKxNLI2H8V83PGpvfVcD2UNhJGp3z3ZGTfRU_kf9anofjdZRl.png" />
+    <Link
+      Url="Content/DocProcess/BOADocProcess_GitInitSetup.html#SSH" />
+    <Link
+      Url="Content/DocProcess/BOADocProcess_Workflow_Approved.html#Author2" />
+  </LongLinks>
+  <Anchors>
+    <Anchor
+      Name="SSH" />
+    <Anchor
+      Name="Clone_BackOffice/dsp-docs_repo_to_local" />
+  </Anchors>
+  <Keywords />
+  <Concepts />
+  <ConceptControlNames />
+  <IndexControlNames />
+  <Variables />
+  <FileConditions />
+  <FileTags />
+  <AllConditions />
+  <Stylesheets>
+    <Url
+      Source="Content/Resources/Stylesheets/Styles.css" />
+    <Url
+      Source="Content/Resources/Stylesheets/newDefault.css" />
+  </Stylesheets>
+</CatapultFileLinkSet>

@@ -1,0 +1,43 @@
+<p><strong>Development Changes -</strong> Tickets may describe a change that you need to see in the DSP in order to get a full understanding.</p>
+<p>{% include note.html content=â€œif the ticket is merged during the day (before about 6:30pm), the ticketâ€™s changes will be available via the next dayâ€™s BuildDeploy Test link.â€ %}</p>
+<p><strong>Document Changes -</strong> If new GUIDs were added, log into the DSP to verify the page-to-help link is correct.</p>
+<h2 id="prerequisites">Prerequisites</h2>
+<p>Before checking the latest build, perform these steps:</p>
+<ol type="1">
+<li>Contact Matt Moore to obtain Jenkins login credentials.</li>
+<li>Log in to <a href="https://jenkins.boaqe.com">Jenkins</a>. {% include note.html content=â€œRefer to Jenkinâ€™s <a href="https://jenkins.io/doc/pipeline/tour/getting-started/">online resources</a> to learn more.â€ %}</li>
+<li>Add yourself to the Slack channel for the latest development cycle. For example, the Slack channel for DSP 7.0.7 is #707dev. {% include note.html content=â€œWhen Jenkins runs the QE tests, results are posted to this channel.â€ %}</li>
+</ol>
+<h2 id="to-check-the-latest-build-for-development-changes">To check the latest build for development changes:</h2>
+<ol type="1">
+<li><p>Navigate to the dev channel in Slack. {% include note.html content=â€œRefer to <a href="#prerequisites">Prerequisites</a> on how to gain access to the dev channel in Slack.â€ %} {% include image.html file=â€œCheckBuild1.pngâ€ alt=â€œClick Jenkins test results linkâ€ caption=â€œJenkins message in Slackâ€ %}</p></li>
+<li><p>Locate the most recent automated test results in the channel. The title in Slack is <strong>RunBuild Test</strong>; the Cucumber report opens. {% include note.html content=â€œDo not click the link with â€˜BuildOnlyâ€™ in the title.â€ %} {% include note.html content=â€œJenkins publishes two different kinds of notes to the Dev channel. Make sure to click the link after <strong>Test results can be found at:</strong>. You may have to log into Jenkins before proceeding.â€ %} {% include image.html file=â€œCheckBuild2.pngâ€ alt=â€œNote the Jenkins build dateâ€ caption=â€œNote the Jenkins build dateâ€ %}</p></li>
+<li><p>Note the build date.</p></li>
+<li><p>Open the Jira ticket that documents the change you are trying to view in the DSP.</p></li>
+<li><p>Open the GitHub pull request link listed in the <strong>GITHUB DEV PR</strong> field.</p></li>
+<li><p>Check to see if the pull request has been merged.</p>
+<ol type="a">
+<li><p>If it <em>has not</em> been merged, check back later.</p></li>
+<li><p>If it <em>has</em> been merged, proceed to the next step in this process.</p></li>
+</ol></li>
+<li><p>Note the date of the latest merge. Hover over the time frame to see the date details. {% include image.html file=â€œCheckBuild3.pngâ€ alt=â€œNote the latest merge dateâ€ caption=â€œNote the latest merge dateâ€ %}</p>
+<ol type="a">
+<li><p>If the latest merge date is <em>after</em> the Jenkins test build, the changes are not in development. Check the Dev Slack channel in a day or so for the latest build.</p></li>
+<li><p>If the latest merge date is <em>before</em> the Jenkins test build, the changes are in development. Proceed to the next step in this process.</p></li>
+</ol></li>
+<li><p>Return to Jenkins and click <strong>App Site URL</strong> to open the latest build site.</p></li>
+<li><p>Log in to the app site using credentials supplied by QE. {% include note.html content=â€œDepending on your settings, the <strong>administrator</strong> login credentials may be saved. Click inside the <strong>username</strong> field. If the <strong>administrator</strong> user name displays, click it and the <strong>password</strong> field automatically populates.â€ %}</p></li>
+<li><p>View changes outlined in the Jira ticket description.</p></li>
+</ol>
+<h2 id="to-check-the-latest-build-for-document-changes">To check the latest build for document changes:</h2>
+<ol type="1">
+<li>Log into <a href="https://jenkins.boaqe.com">Jenkins</a> to build the DSPDocDev site.</li>
+<li>Click the <strong>DSPDocs</strong> link. {% include image.html file=â€œDocChanges1.pngâ€ alt=â€œClick the DSPDocs linkâ€ caption=â€œLocation of the DSPDocs linkâ€ %}</li>
+<li>Locate the <strong>DSPDocDev</strong> row and click the <strong>Schedule a Build</strong> icon. {% include image.html file=â€œDocChanges2.pngâ€ alt=â€œSchedule a Build iconâ€ caption=â€œLocation of the Schedule a Build iconâ€ %}</li>
+<li>Enter the version number <em>without periods</em> in the <strong>VERSION</strong> field. {% include image.html file=â€œDocChanges3.pngâ€ alt=â€œEnter the VERSION numberâ€ caption=â€œWhere to enter the VERSION numberâ€ %}</li>
+<li>Do not change the remaining fields.</li>
+<li>Click <strong>Build</strong>. The online help for the development site builds. View the progress in the <em>Build History</em> window.</li>
+<li>Navigate to the Dev channel in Slack once the build completes. {% include note.html content=â€œRefer to <a href="#prerequisites">Prerequisites</a> on how to gain access to the dev channel in Slack.â€ %} {% include image.html file=â€œDocChanges4.pngâ€ alt=â€œImage of Jenkins message in Slackâ€ caption=â€œJenkins message in Slackâ€ %}</li>
+<li>Click the most recent Jenkins test result link with <strong>BuildDeployTest</strong> in the title to view the latest build; the Cucumber report displays. {% include note.html content=â€œDo not click the link with <strong>BuildOnly</strong> in the title.â€ %} {% include note.html content=â€œJenkins publishes two different kinds of notes to the Dev channel. You may have to log into Jenkins before proceeding.â€ %}</li>
+<li>Log into the DSP and view the online help.</li>
+</ol>

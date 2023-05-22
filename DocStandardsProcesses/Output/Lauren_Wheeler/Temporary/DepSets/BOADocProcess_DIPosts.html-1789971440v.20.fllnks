@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileLinkSet
+  FileSearchable="true"
+  MasterPage="file:///C:/Users/Lauren Wheeler/Doc_Standards/JennyDrummey.github.io/DocStandardsProcesses/Content/Resources/MasterPages/DocProcess.flmsp"
+  OnlyLocalStylesheets="false"
+  FileTimeEstimate="0"
+  FilePriority="0">
+  <Links>
+    <Link
+      Url="Content/Resources/MasterPages/DocProcess.flmsp" />
+    <Link
+      Url="Content/Resources/Stylesheets/Styles.css" />
+    <Link
+      Url="Content/Resources/Stylesheets/newDefault.css" />
+    <Link
+      Url="https://support.syniti.com/hc/en-us/community/topics" />
+    <Link
+      Url="https://support.syniti.com/hc/en-us/community/topics/360000496693--Internal-cConnect-Integration" />
+    <Link
+      Url="Content/Resources/Images/DIPostUpvote.png" />
+    <Link
+      Url="Content/Resources/Images/DIEdit.png" />
+    <Link
+      Url="Content/Resources/Images/DITopicLB.png" />
+    <Link
+      Url="Content/Resources/Images/DIEdit2.png" />
+    <Link
+      Url="Content/Resources/Images/DIAnswered.png" />
+  </Links>
+  <LongLinks>
+    <Link
+      Url="Content/Resources/MasterPages/DocProcess.flmsp" />
+    <Link
+      Url="Content/Resources/Stylesheets/Styles.css" />
+    <Link
+      Url="Content/Resources/Stylesheets/newDefault.css" />
+    <Link
+      Url="https://support.syniti.com/hc/en-us/community/topics" />
+    <Link
+      Url="https://support.syniti.com/hc/en-us/community/topics/360000496693--Internal-cConnect-Integration?page=2#posts" />
+    <Link
+      Url="Content/Resources/Images/DIPostUpvote.png" />
+    <Link
+      Url="Content/Resources/Images/DIEdit.png" />
+    <Link
+      Url="Content/Resources/Images/DITopicLB.png" />
+    <Link
+      Url="Content/Resources/Images/DIEdit2.png" />
+    <Link
+      Url="Content/Resources/Images/DIAnswered.png" />
+  </LongLinks>
+  <Anchors>
+    <Anchor
+      Name="Review" />
+  </Anchors>
+  <Keywords />
+  <Concepts />
+  <ConceptControlNames />
+  <IndexControlNames />
+  <Variables />
+  <FileConditions />
+  <FileTags />
+  <AllConditions />
+  <Stylesheets>
+    <Url
+      Source="Content/Resources/Stylesheets/Styles.css" />
+    <Url
+      Source="Content/Resources/Stylesheets/newDefault.css" />
+  </Stylesheets>
+</CatapultFileLinkSet>

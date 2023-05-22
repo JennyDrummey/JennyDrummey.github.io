@@ -1,0 +1,739 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" class="_Skins_HTML5___Top_Navigationdocproc" data-mc-search-type="Stem" data-mc-help-system-file-name="index.xml" data-mc-path-to-help-system="../../" data-mc-has-content-body="True" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic;Default" data-mc-preload-images="false" data-mc-in-preview-mode="false">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="msapplication-config" content="../../Skins/Favicons/browserconfig.xml" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="apple-touch-icon" sizes="180x180" href="../../Skins/Favicons/apple-touch-icon.png" />
+        <link rel="shortcut icon" href="../../Skins/Favicons/favicon-32x32.png" />
+        <link rel="icon" sizes="96x96" href="../../Skins/Favicons/favicon-96x96.png" />
+        <link rel="icon" sizes="32x32" href="../../Skins/Favicons/favicon-32x32.png" />
+        <link rel="icon" sizes="16x16" href="../../Skins/Favicons/favicon-16x16.png" />
+        <meta charset="utf-8" /><title data-title="BOA Help">Adding Help to the SKP</title>
+        <!-- Scripts for menu modal dropdown, popup modals, and back-to-top button. -->
+        <link href="../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../Skins/Default/Stylesheets/Components/Styles.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../Skins/Default/Stylesheets/Components/Tablet.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../Skins/Default/Stylesheets/Components/Mobile.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../Skins/Default/Stylesheets/Components/Print.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../Skins/Fluid/Stylesheets/foundation.6.2.3.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../Skins/Fluid/Stylesheets/Styles.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../Skins/Fluid/Stylesheets/Tablet.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../Skins/Fluid/Stylesheets/Mobile.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../Skins/Fluid/Stylesheets/Print.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Resources/Stylesheets/newDefault.css" rel="stylesheet" type="text/css" />
+        <style>/*&lt;meta /&gt;*/
+
+.button.print-button
+{
+	-pie-background: linear-gradient(#ffffff, #ececec);
+}
+
+.button.remove-highlight-button
+{
+	-pie-background: linear-gradient(#ffffff, #ececec);
+}
+
+.needs-pie
+{
+	behavior: url('../../Resources/Scripts/PIE-no-motw.htc');
+}
+
+</style>
+        <link href="../Resources/TableStylesheets/fielddescription.css" rel="stylesheet" data-mc-stylesheet-type="table" />
+        <link rel="apple-touch-icon" sizes="180x180" href="../../Skins/Favicons/apple-touch-icon.png" />
+        <link rel="shortcut icon" href="../../Skins/Favicons/favicon-32x32.png" />
+        <link rel="icon" sizes="96x96" href="../../Skins/Favicons/favicon-96x96.png" />
+        <link rel="icon" sizes="32x32" href="../../Skins/Favicons/favicon-32x32.png" />
+        <link rel="icon" sizes="16x16" href="../../Skins/Favicons/favicon-16x16.png" />
+        <script src="../../Resources/Scripts/jquery.min.js" type="text/javascript">
+        </script>
+        <script src="../../Resources/Scripts/purify.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../Resources/Scripts/require.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../Resources/Scripts/require.config.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../Resources/Scripts/foundation.6.2.3_custom.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../Resources/Scripts/plugins.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../Resources/Scripts/MadCapAll.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.6.15/browser-polyfill.min.js">
+        </script>
+        <script type="text/javascript" src="../Resources/Scripts/modal.js">
+        </script>
+        <script type="text/javascript" src="../Resources/Scripts/custom.js">
+        </script>
+        <script type="text/javascript" src="../Resources/Scripts/feedback.js">
+        </script>
+    </head>
+    <body>
+        <div class="foundation-wrap off-canvas-wrapper">
+            <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper="">
+                <aside class="off-canvas position-right" role="navigation" id="offCanvas" data-off-canvas="" data-position="right" data-mc-ignore="true">
+                    <ul class="off-canvas-drilldown vertical menu off-canvas-list" data-drilldown="" data-mc-back-link="Back" data-mc-css-tree-node-expanded="is-drilldown-submenu-parent" data-mc-css-tree-node-collapsed="is-drilldown-submenu-parent" data-mc-css-sub-menu="vertical menu slide-in-right is-drilldown-submenu" data-mc-include-indicator="False" data-mc-include-icon="False" data-mc-include-parent-link="True" data-mc-include-back="True" data-mc-defer-expand-event="True" data-mc-expand-event="click.zf.drilldown" data-mc-toc="True">
+                    </ul>
+                </aside>
+                <div class="off-canvas-content inner-wrap" data-off-canvas-content="">
+                    <div data-sticky-container="" class="title-bar-container">
+                        <nav class="title-bar tab-bar sticky" role="banner" data-sticky="" data-options="marginTop:0" style="width:100%" data-sticky-on="small" data-mc-ignore="true"><a class="skip-to-content fluid-skip showOnFocus" href="#">Skip To Main Content</a>
+                            <div class="middle title-bar-section outer-row clearfix">
+                                <div class="menu-icon-container relative clearfix">
+                                    <div class="central-account-wrapper">
+                                        <div class="central-dropdown"><a class="central-account-drop"><span class="central-account-image"></span><span class="central-account-text">Account</span></a>
+                                            <div class="central-dropdown-content"><a class="MCCentralLink central-dropdown-content-settings">Settings</a>
+                                                <hr class="central-separator" /><a class="MCCentralLink central-dropdown-content-logout">Logout</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <button class="menu-icon" aria-label="Show Navigation Panel" data-toggle="offCanvas"><span></span>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="title-bar-layout outer-row">
+                                <div class="logo-wrapper"><a class="logo" href="BOADocProcess_DSPDocOverview.html" alt="Logo"></a>
+                                </div>
+                                <div class="navigation-wrapper nocontent">
+                                    <ul class="navigation clearfix" role="navigation" data-mc-css-tree-node-has-children="has-children" data-mc-css-sub-menu="sub-menu" data-mc-expand-event="mouseenter" data-mc-top-nav-menu="True" data-mc-max-depth="3" data-mc-include-icon="False" data-mc-include-indicator="False" data-mc-include-children="True" data-mc-include-siblings="True" data-mc-include-parent="True" data-mc-toc="True">
+                                        <li class="placeholder" style="visibility:hidden"><a>placeholder</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="central-account-wrapper">
+                                    <div class="central-dropdown"><a class="central-account-drop"><span class="central-account-image"></span><span class="central-account-text">Account</span></a>
+                                        <div class="central-dropdown-content"><a class="MCCentralLink central-dropdown-content-settings">Settings</a>
+                                            <hr class="central-separator" /><a class="MCCentralLink central-dropdown-content-logout">Logout</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="nav-search-wrapper">
+                                    <div class="nav-search row">
+                                        <form class="search" action="#">
+                                            <div class="search-bar search-bar-container needs-pie">
+                                                <input class="search-field needs-pie" type="search" aria-label="Search Field" placeholder="Search" />
+                                                <div class="search-filter-wrapper"><span class="invisible-label" id="search-filters-label">Filter: </span>
+                                                    <div class="search-filter" aria-haspopup="true" aria-controls="sf-content" aria-expanded="false" aria-label="Search Filter" title="All Files" role="button" tabindex="0">
+                                                    </div>
+                                                    <div class="search-filter-content" id="sf-content">
+                                                        <ul>
+                                                            <li>
+                                                                <button class="mc-dropdown-item" aria-labelledby="search-filters-label filterSelectorLabel-00001"><span id="filterSelectorLabel-00001">All Files</span>
+                                                                </button>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="search-submit-wrapper" dir="ltr">
+                                                    <div class="search-submit" title="Search" role="button" tabindex="0"><span class="invisible-label">Submit Search</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                    <div class="main-section">
+                        <div class="row outer-row sidenav-layout">
+                            <nav class="sidenav-wrapper">
+                                <div class="sidenav-container">
+                                    <ul class="off-canvas-accordion vertical menu sidenav" data-accordion-menu="" data-mc-css-tree-node-expanded="is-accordion-submenu-parent" data-mc-css-tree-node-collapsed="is-accordion-submenu-parent" data-mc-css-sub-menu="vertical menu accordion-menu is-accordion-submenu nested" data-mc-include-indicator="False" data-mc-include-icon="False" data-mc-include-parent-link="False" data-mc-include-back="False" data-mc-defer-expand-event="True" data-mc-expand-event="click.zf.accordionMenu" data-mc-toc="True" data-mc-side-nav-menu="True">
+                                    </ul>
+                                </div>
+                            </nav>
+                            <div class="body-container">
+                                <div data-mc-content-body="True">
+                                    <!--<div id="topbar">
+            <div id="sections_btn_holder">
+                <button id="navarrow"><span id="arrow">▼</span>
+                </button>
+            </div>
+            <div id="sections_panel">
+                <div id="components">
+                    <MadCap:menuProxy style="mc-toc-depth: 2;mc-context-sensitive: False;mc-include-parent: False;mc-include-siblings: True;mc-include-children: True;" data-mc-skin="/Project/Skins/SideMenu.flskn" mc-linked-toc="/Project/TOCs/UseCases.fltoc" />
+                </div>
+            </div>
+        </div
+       <div id="topbar2">
+            <div id="sections_btn_holder2">
+                <button id="navarrow2"><span id="arrow2">▼</span>
+                </button>
+            </div>
+            <div id="sections_panel2">
+                <div id="components2">
+                    <MadCap:menuProxy style="mc-toc-depth: 2;mc-context-sensitive: False;mc-include-parent: False;mc-include-siblings: True;mc-include-children: True;" data-mc-skin="/Project/Skins/SideMenu.flskn" mc-linked-toc="/Project/TOCs/UseCases.fltoc" />
+                </div>
+            </div>
+        </div> -->
+                                    <div class="row collapse">
+                                        <div class="topic-layout" data-sticky-container="">
+                                            <div>
+                                                <div class="buttons popup-container clearfix topicToolbarProxy mc-component nocontent" style="mc-topic-toolbar-items: Print RemoveHighlight;">
+                                                    <div class="button-group-container-left">
+                                                        <button class="button needs-pie print-button" title="Print">
+                                                            <div>
+                                                                <div role="img" class="button-icon-wrapper" aria-label="Print">
+                                                                    <div class="button-icon"> </div>
+                                                                </div>
+                                                            </div>
+                                                        </button>
+                                                        <button class="button needs-pie remove-highlight-button" title="Remove Highlights">
+                                                            <div>
+                                                                <div role="img" class="button-icon-wrapper">
+                                                                    <div class="button-icon"> </div>
+                                                                </div>
+                                                            </div>
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                                <br />
+                                                <br />
+                                                <br />
+                                                <div role="main" id="mc-main-content">
+                                                    <h1>Adding Help to the SKP</h1>
+                                                    <p>Technical Writers add <a href="#AddPageLevel">page-level help</a> and <a href="#AddInline">field help</a> to the pages in the Syniti Knowledge Platform (SKP).</p>
+                                                    <h1><a name="AddInline"></a>Add Field Help for the SKP</h1>
+                                                    <p>The dev environment to view changes is <a href="https://login.syniti-dev.com/home" target="_blank" rel="noopener noreferrer">Home | Syniti Knowledge Platform (syniti-dev.com)</a></p>
+                                                    <p>Developers and Technical Writers work together to ensure that the pages in the SKP UI have correct and complete settings to support internationalization/localization and field help.</p>
+                                                    <h2>Attributes</h2>
+                                                    <p>The following attributes are used for field  help:</p>
+                                                    <table style="mc-table-style: url('../Resources/TableStylesheets/fielddescription.css');" class="TableStyle-fielddescription" cellspacing="0">
+                                                        <col style="width: 356px;" class="TableStyle-fielddescription-Column-Column1" />
+                                                        <col class="TableStyle-fielddescription-Column-Column2" />
+                                                        <tbody>
+                                                            <tr class="TableStyle-fielddescription-Body-Body1">
+                                                                <td class="TableStyle-fielddescription-BodyE-Column1-Body1" role="rowheader">
+                                                                    <p class="TableColumn">Attribute</p>
+                                                                </td>
+                                                                <td class="TableStyle-fielddescription-BodyD-Column2-Body1">
+                                                                    <p class="TableColumn">Description</p>
+                                                                </td>
+                                                            </tr>
+                                                            <tr class="TableStyle-fielddescription-Body-Body1">
+                                                                <td class="TableStyle-fielddescription-BodyE-Column1-Body1" role="rowheader" style="font-family: 'Bahnschrift Light';">description</td>
+                                                                <td class="TableStyle-fielddescription-BodyD-Column2-Body1">text that displays below the label (outside of the text area)</td>
+                                                            </tr>
+                                                            <tr class="TableStyle-fielddescription-Body-Body1">
+                                                                <td class="TableStyle-fielddescription-BodyE-Column1-Body1" role="rowheader" style="font-family: 'Bahnschrift Light';">placeholder</td>
+                                                                <td class="TableStyle-fielddescription-BodyD-Column2-Body1">placeholder or watermark text</td>
+                                                            </tr>
+                                                            <tr class="TableStyle-fielddescription-Body-Body1">
+                                                                <td class="TableStyle-fielddescription-BodyE-Column1-Body1" role="rowheader" style="font-family: 'Bahnschrift Light';">help</td>
+                                                                <td class="TableStyle-fielddescription-BodyD-Column2-Body1">the help icon</td>
+                                                            </tr>
+                                                            <tr class="TableStyle-fielddescription-Body-Body1">
+                                                                <td class="TableStyle-fielddescription-BodyE-Column1-Body1" role="rowheader" style="font-family: 'Bahnschrift Light';">hint</td>
+                                                                <td class="TableStyle-fielddescription-BodyD-Column2-Body1">definition of a list box option that displays below the field</td>
+                                                            </tr>
+                                                            <tr class="TableStyle-fielddescription-Body-Body1">
+                                                                <td class="TableStyle-fielddescription-BodyE-Column1-Body1" role="rowheader" style="font-family: 'Bahnschrift Light';">label</td>
+                                                                <td class="TableStyle-fielddescription-BodyD-Column2-Body1">Labels in the UI, if an update is needed to wording to make it clearer.</td>
+                                                            </tr>
+                                                            <tr class="TableStyle-fielddescription-Body-Body1">
+                                                                <td class="TableStyle-fielddescription-BodyE-Column1-Body1" role="rowheader" style="font-family: 'Bahnschrift Light';">no-results-title</td>
+                                                                <td class="TableStyle-fielddescription-BodyD-Column2-Body1">Title text for no search results pages</td>
+                                                            </tr>
+                                                            <tr class="TableStyle-fielddescription-Body-Body1">
+                                                                <td class="TableStyle-fielddescription-BodyE-Column1-Body1" role="rowheader" style="font-family: 'Bahnschrift Light';">no-results-message</td>
+                                                                <td class="TableStyle-fielddescription-BodyD-Column2-Body1">Message text for no search results pages</td>
+                                                            </tr>
+                                                            <tr class="TableStyle-fielddescription-Body-Body1">
+                                                                <td class="TableStyle-fielddescription-BodyE-Column1-Body1" role="rowheader" style="font-family: 'Bahnschrift Light';">
+                                                                    <p>blankslate-title</p>
+                                                                </td>
+                                                                <td class="TableStyle-fielddescription-BodyD-Column2-Body1">
+                                                                    <p>Title text for no [things] added yet pages</p>
+                                                                </td>
+                                                            </tr>
+                                                            <tr class="TableStyle-fielddescription-Body-Body1">
+                                                                <td class="TableStyle-fielddescription-BodyB-Column1-Body1" role="rowheader" style="font-family: 'Bahnschrift Light';">
+                                                                    <p>blankslate-message</p>
+                                                                </td>
+                                                                <td class="TableStyle-fielddescription-BodyA-Column2-Body1">
+                                                                    <p>Message text for no [things] added yet pages</p>
+                                                                </td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                    <h2>Responsibilities</h2>
+                                                    <h3>Developers</h3>
+                                                    <ul>
+                                                        <li>
+                                                            <p>Add the tag to every label, description, placeholder and help icon that needs to be translated or needs help in the skt-ui repo, using the keys the doc team has added to i18nexus.</p>
+                                                            <p class="note"><b>NOTE</b>: Tags are created by developers in the skt-ui. Tag names may come from tech writers and are added to Jira tickets, or a developer may add the tag and send it to the writer.</p>
+                                                        </li>
+                                                        <li>
+                                                            <p>Add namespaces and keys (corresponding to tags) to i18nexus.com (if needed)</p>
+                                                        </li>
+                                                        <li>
+                                                            <p>After documentation has updated the files, run a command to pull updated .json files from i18nexus (if requested)</p>
+                                                        </li>
+                                                        <li>
+                                                            <p>Push the updated files to a PR for deployment with vercel (if requested)</p>
+                                                        </li>
+                                                    </ul>
+                                                    <h3>Doc Team</h3>
+                                                    <ul>
+                                                        <li>
+                                                            <p>Write the field help in Google docs.</p>
+                                                        </li>
+                                                        <li>
+                                                            <p>Add keys and field  help content to i18nexus.com</p>
+                                                        </li>
+                                                        <li>
+                                                            <p>Let developers know when there are updates to be deployed (if needed)</p>
+                                                        </li>
+                                                        <li>
+                                                            <p>Review PRs as requested by development</p>
+                                                        </li>
+                                                        <li>
+                                                            <p>Add PRs without development help</p>
+                                                        </li>
+                                                        <li>
+                                                            <p>Perform doc peer reviews</p>
+                                                        </li>
+                                                    </ul>
+                                                    <p>As part of the internationalization effort, developers add tags to each string of text on a page that the TWs can pair with a key and value to use to add the field  help. The values that match the keys are stored in localized files, and the application refers to them when generating help for the SKP page.</p>
+                                                    <p class="note"><b>NOTE</b>: Keys may be page-specific or may be used in multiple pages across the product.</p>
+                                                    <h2>Tools</h2>
+                                                    <p>Here’s a list of tools used within the field  help process:</p>
+                                                    <ul>
+                                                        <li>
+                                                            <p><b>GoogleDocs</b> - Draft your content in a Google doc to make it easy for reviewers to offer feedback and collaborate on the field  help.</p>
+                                                        </li>
+                                                        <li>
+                                                            <p><b>i18Nexus</b> - Rather than directly editing .json files, the writers use a web UI (i18nexus) to add and edit the field  help. Writers also use i18nexus to create a namespace (basically a file) for different sections of the SKT and  enter the tags (referred to as Keys in i18nexus) for each page.</p>
+                                                        </li>
+                                                        <li>
+                                                            <p><b>Vercel</b> - Vercel creates a unique environment for every PR that can be used as a test site. The Preview link (located in the PR) is sent to PM and writers for reviews.</p>
+                                                        </li>
+                                                        <li>
+                                                            <p><b>Skt-ui repo in Git</b> - This repo is where the code for the pages is stored, and where the PRs are created and merged. In most cases, an automated git process controlled by the writers creates a PR. A developer can also include help updates in a PR they are working on.</p>
+                                                        </li>
+                                                    </ul>
+                                                    <h2>Field Help Standards</h2>
+                                                    <p><a href="https://entota.atlassian.net/wiki/spaces/SYNITI/pages/1406468543/In-line+Help+Standards" target="_blank" rel="noopener noreferrer">Here</a>
+                                                    </p>
+                                                    <h2>Localization wiki</h2>
+                                                    <p>Containing standards for keys used in translations</p>
+                                                    <p><a href="https://github.com/BackOfficeAssoc/skt-ui/wiki/Localization" target="_blank" rel="noopener noreferrer">https://github.com/BackOfficeAssoc/skt-ui/wiki/Localization</a>
+                                                    </p>
+                                                    <h2>Add or Update Field Help</h2>
+                                                    <p>When working with field  help, writers can either:</p>
+                                                    <ul>
+                                                        <li>
+                                                            <p>Create a new record (i.e., a new piece of help content on a UI page) with a tag (i.e., key) pulled from the UI and added to i18nexus</p>
+                                                        </li>
+                                                        <li>
+                                                            <p>Create a new record that does not have a tag in the UI and add it to i18nexus</p>
+                                                        </li>
+                                                        <li>
+                                                            <p>Update an existing tag in i18nexus</p>
+                                                        </li>
+                                                    </ul>
+                                                    <p>To add and update field  help on a page:</p>
+                                                    <ol>
+                                                        <li value="1">
+                                                            <p>Locate the tags that are being used for the label, description, placeholder or help icon on a page in a development site by pressing F10. </p>
+                                                        </li>
+                                                        <li value="2">
+                                                            <p>To locate the key for a help icon, hover over the icon.</p>
+                                                            <p>
+                                                                <img src="../Resources/Images/InlineHelp1.png" />
+                                                            </p>
+                                                            <p class="note"><b>NOTE</b>: If you press F10 and the field text does not change, that means that a developer has not created a tag for it. Writers must create the Key along with the field  help. Refer to Create a Key for more information.</p>
+                                                        </li>
+                                                        <li value="3">
+                                                            <p>Log in to <a href="https://app.i18nexus.com/">i18nexus.com</a> and access the SKT-UI project.</p>
+                                                        </li>
+                                                        <li value="4">
+                                                            <p>Click English.</p>
+                                                            <p class="note"><b>NOTE</b>: The tag may start with the asset name or “common” indicating the key-value is used in multiple places in the SKT.</p>
+                                                            <p>
+                                                                <img src="../Resources/Images/InlineHelp2.png" />
+                                                            </p>
+                                                        </li>
+                                                        <li value="5">
+                                                            <p>If adding a new element of field help (i.e., a String):</p>
+                                                            <ol style="list-style-type: lower-alpha;">
+                                                                <li value="1">
+                                                                    <p>Click the <b>+String</b> button.</p>
+                                                                </li>
+                                                                <li value="2">
+                                                                    <p>Add the <b>KEY</b>, which is the tag that links the field  help content to the element in the UI.</p>
+                                                                </li>
+                                                                <li value="3">
+                                                                    <p>Add the <b>VALUE</b>, which is the field  help text.</p>
+                                                                </li>
+                                                                <li value="4">
+                                                                    <p>Click the check mark.</p>
+                                                                </li>
+                                                            </ol>
+                                                        </li>
+                                                        <li value="6">
+                                                            <p>If editing an existing element of field  help:</p>
+                                                            <ol style="list-style-type: lower-alpha;">
+                                                                <li value="1">
+                                                                    <p>Click the dot menu in the right-most column and select <b>Edit String</b>.</p>
+                                                                </li>
+                                                                <li value="2">
+                                                                    <p>Make updates as necessary.</p>
+                                                                </li>
+                                                                <li value="3">
+                                                                    <p>Click the check mark icon to save the update.</p>
+                                                                </li>
+                                                            </ol>
+                                                        </li>
+                                                    </ol>
+                                                    <h2><a name="Create"></a>Create a Key</h2>
+                                                    <p>For text on the UI to have field  help, a writer must add a key for it in i18nexus. The developer must then add that key to the skt-ui repo in github.</p>
+                                                    <p>Use the following naming convention to create keys:</p>
+                                                    <p>&#160;</p>
+                                                    <p><b>Create/Edit pages</b>
+                                                    </p>
+                                                    <p>Naming convention: <span style="color: #ff0000; font-family: 'Courier New'; font-size: 11pt;">create-edit-[tab]-[card]-[attribute]</span></p>
+                                                    <p>Example: <span style="color: #ff0000; font-family: 'Courier New'; font-size: 11pt;">create-edit-overview-metadata-definition-description</span></p>
+                                                    <p>&#160;</p>
+                                                    <p><b>View/Display pages</b>
+                                                    </p>
+                                                    <p>Naming convention: <span style="color: #ff0000; font-family: 'Courier New'; font-size: 11pt;">[tab]-[card]-[attribute]</span></p>
+                                                    <p>Example: <span style="color: #ff0000; font-family: 'Courier New'; font-size: 11pt;">overview-metadata-definition-description</span></p>
+                                                    <p class="note"><b>NOTE</b>: Since the namespace in nexus is named after the page, there's no need to duplicate the page name in the key</p>
+                                                    <p>Refer to the <a href="https://github.com/BackOfficeAssoc/skt-ui/wiki/Localization#key-naming" target="_blank" rel="noopener noreferrer">developer guidelines</a> for more detailed information.</p>
+                                                    <p>&#160;</p>
+                                                    <p>The following screenshot shows examples of key naming standards to follow. Note that the key is prefaced with the namespace to generate the tag for the UI. In this example, the namespace is Rules.</p>
+                                                    <p>
+                                                        <img src="../Resources/Images/InlineHelp3.png" />
+                                                    </p>
+                                                    <p>To create a key:</p>
+                                                    <ol>
+                                                        <li value="1">
+                                                            <p>Create a ticket to track the tag work per namespace. Look at <a href="https://entota.atlassian.net/browse/KYB-3897" target="_blank" rel="noopener noreferrer">KYB-3897</a> as an example.</p>
+                                                        </li>
+                                                        <li value="2">
+                                                            <p>When all the keys and field  help are in i18Nexus, send the ticket to the lead developer so the tags can be added to skt-ui, which will make all the content visible in the UI.</p>
+                                                        </li>
+                                                        <li value="3">
+                                                            <p>Add the ticket to this epic <a href="https://entota.atlassian.net/browse/KYB-3845" target="_blank" rel="noopener noreferrer">[KYB-3845] SKT UI Release - Syniti JIRA (atlassian.net)</a>.</p>
+                                                        </li>
+                                                    </ol>
+                                                    <h2><a name="CreatePR"></a>Create the PR in Github</h2>
+                                                    <p>Once the developer has added the keys to the UI, create a PR to see the field  help appear in the UI.</p>
+                                                    <ol>
+                                                        <li value="1">
+                                                            <p>Log in to GitHub and open the skt-ui repo.</p>
+                                                        </li>
+                                                        <li value="2">
+                                                            <p>Click the <b>Actions</b> tab.</p>
+                                                        </li>
+                                                        <li value="3">
+                                                            <p>Click <b>Update Localizations</b>.</p>
+                                                        </li>
+                                                        <li value="4">
+                                                            <p>Click the <b>Run workflow</b> list box.</p>
+                                                        </li>
+                                                        <li value="5">
+                                                            <p>Click the <b>Run workflow</b> button.</p>
+                                                            <p>
+                                                                <img src="../Resources/Images/InlineHelp4.png" />
+                                                            </p>
+                                                            <p class="note"><b>NOTE</b>: This action pulls down the latest content from the main branch and the local files from i18nexus and creates a PR called [Doc] Update Localizations. This action takes about 2-3 minutes to run.</p>
+                                                        </li>
+                                                        <li value="6">
+                                                            <p>Open the [Doc] Update Localizations PR.</p>
+                                                        </li>
+                                                        <li value="7">
+                                                            <p>Click the <b>Preview</b> link, which is automatically generated by Vercel, to view the changes.</p>
+                                                        </li>
+                                                        <li value="8">
+                                                            <p>Send the link along with the Google doc to PM for review if a lot of technical content has been added or if introducing a new feature or enhancement. Fixes for standards and typos found in Doc reviews don’t need PM review.</p>
+                                                        </li>
+                                                        <li value="9">
+                                                            <p>Implement any suggestions from the PM.</p>
+                                                            <p class="note"><b>NOTE</b>: When pushing additional commits to this branch, once you git push, Vercel automatically updates the PR and creates a unique environment, so no further action is required in git other than making sure the commit deploys without failing.</p>
+                                                        </li>
+                                                        <li value="10">
+                                                            <p>Send the Vercel link with the Google doc to #experience-org and request a peer review.</p>
+                                                            <p class="note"><b>NOTE</b>: Once content has been reviewed, merge the [Doc] Update Localizations (which is automatically generated) to main.</p>
+                                                        </li>
+                                                        <li value="11">
+                                                            <p>Return to the [Doc Update Localizations] PR.</p>
+                                                        </li>
+                                                        <li value="12">
+                                                            <p>Verify that all checks have passed and nothing has failed.</p>
+                                                            <p class="note"><b>NOTE</b>: If something failed related to code in the <span style="font-family: 'Courier New'; font-size: 11pt; color: #ff0000;">skt-ui</span>, post the PR to the #skt-ui-release channel for assistance.</p>
+                                                            <p class="note"><b>NOTE</b>: If a localization PR waiting for review gets merge conflicts (because changes had been made to skt-ui since the PR had been opened), Instead of resolving each conflict individually, you can run the workflow again. If no conflicts occur in the new PR, you can close the old PR with the merge conflicts.</p>
+                                                        </li>
+                                                        <li value="13">
+                                                            <p>Request a review on the PR from a doc team member.</p>
+                                                            <p>
+                                                                <img src="../Resources/Images/InlineHelp5.png" />
+                                                            </p>
+                                                            <p>The reviewer you have assigned (in this case, a doc team member) receives an email, clicks the link to the PR, and approves the PR.</p>
+                                                        </li>
+                                                        <li value="14">
+                                                            <p>Click the <b>Squash and merge</b> button.</p>
+                                                        </li>
+                                                        <li value="15">
+                                                            <p>Click the <b>Confirm squash and merge</b> button. Your changes have now been merged to develop. It takes a few minutes for changes to appear in the UI.</p>
+                                                        </li>
+                                                    </ol>
+                                                    <h2>Notify QE When Labels Change</h2>
+                                                    <p>QE’s automated tests use the labels on the page to drive testing. If a Tech Writer updates a label, this breaks the test. In this case, @ mention the tester on the ticket tracking the work. Include the name of the old label and the new label on the ticket.</p>
+                                                    <h2>Working with Developers</h2>
+                                                    <p>If writing field  help in conjunction with the development of the feature, let the developer working on the feature know that they must run a command to pull down the latest version of the files from i18nexus. After getting the latest files, the developer pushes that content up to github with a PR, where it is deployed using Vercel.</p>
+                                                    <h2>Add a Label With an Underlying Hidden Tag</h2>
+                                                    <p>If a field, list box, or other control does not have a label (a localization), it could be that the developer has not yet added a tag. However, it could also be that until that point the design did not include the label, but that a tag has already been added.</p>
+                                                    <p>Here the cursor points to where a label could be on this field.</p>
+                                                    <p>
+                                                        <img src="../Resources/Images/InlineHelp6.png" />
+                                                    </p>
+                                                    <p>After pressing F10, the tag that has been added displays.</p>
+                                                    <p>
+                                                        <img src="../Resources/Images/InlineHelp7.png" />
+                                                    </p>
+                                                    <p>To add the label, add the tag as the Key and the help text as the Value in i18nexus.</p>
+                                                    <h2>Review Content as Requested by Dev</h2>
+                                                    <p>Developers mention the doc team on PRs that require a review.</p>
+                                                    <p>TWs review content related to their assigned missions.</p>
+                                                    <p>To view relevant active PRs for the team, view the list of PRs using the Review filter “Awaiting review from you or your team.”</p>
+                                                    <p>
+                                                        <img src="../Resources/Images/InlineHelp8.png" />
+                                                    </p>
+                                                    <h1><a name="AddPageLevel"></a>Add Page-Level Help</h1>
+                                                    <p>Access page-level help by clicking the ? icon in the upper right  on pages in the SKP.</p>
+                                                    <p>
+                                                        <img src="../Resources/Images/InlineHelp9.png" />
+                                                    </p>
+                                                    <p class="note"><b>NOTE</b>: Have PM review and approve page-level help content before you add it, so the PR can move through the process quickly to avoid merge conflicts.</p>
+                                                    <p>Just as with field  help, this page-level help is stored in i18nexus. Instead of entering a key for a corresponding tag entered in the skt-ui, Technical Writers enter the route for the page in the Key field.</p>
+                                                    <p>Page-level help is written in markdown. Here are some markdown resources:</p>
+                                                    <ul>
+                                                        <li>
+                                                            <p>Markdown Guide: <a href="https://www.markdownguide.org/" target="_blank" rel="noopener noreferrer">https://www.markdownguide.org/</a></p>
+                                                        </li>
+                                                        <li>
+                                                            <p>Quick tutorial: <a href="https://www.markdowntutorial.com/" target="_blank" rel="noopener noreferrer">https://www.markdowntutorial.com/</a></p>
+                                                        </li>
+                                                    </ul>
+                                                    <p>i18Nexus doesn't have a markdown preview, so you can use something like <a href="https://stackedit.io/app#" target="_blank" rel="noopener noreferrer">https://stackedit.io/app#</a> or <a href="https://code.visualstudio.com/docs/languages/markdown" target="_blank" rel="noopener noreferrer">VS code</a> to preview your work.</p>
+                                                    <p class="note"><b>NOTE</b>: In VS Code, to preview the formatted markdown, press <b>Ctrl+Shift+V</b>.</p>
+                                                    <p>While working in i18nexus, you can only see the markdown formatting, For example, the first line is formatted as a heading one (#) in i18nexus:</p>
+                                                    <p>
+                                                        <img src="../Resources/Images/InlineHelp10.png" />
+                                                    </p>
+                                                    <p>The page-level help displays the formatting like this:</p>
+                                                    <p>
+                                                        <img src="../Resources/Images/InlineHelp11.png" />
+                                                    </p>
+                                                    <p>After the content is formatted correctly, add it to i18nexus.</p>
+                                                    <p>To add page-level help:</p>
+                                                    <ol>
+                                                        <li value="1">
+                                                            <p>Determine the route for the page in github. Access the list of routes here:</p>
+                                                            <p><a href="https://github.com/BackOfficeAssoc/skt-ui/blob/main/config%2Froutes.ts">https://github.com/BackOfficeAssoc/skt-ui/blob/main/config%2Froutes.ts</a>
+                                                            </p>
+                                                            <ol style="list-style-type: lower-alpha;">
+                                                                <li value="1">
+                                                                    <p>Go to the page you’re adding page-level help for</p>
+                                                                </li>
+                                                                <li value="2">
+                                                                    <p>Look at the URL after “.com.” In this example, we have “datasets/[ID]/[version].</p>
+                                                                    <p>
+                                                                        <img src="../Resources/Images/InlineHelp12.png" />
+                                                                    </p>
+                                                                </li>
+                                                                <li value="3">
+                                                                    <p>If you look at the route list, we know that of all the routes for datasets listed, the page in the above example uses this route:</p>
+                                                                    <p>
+                                                                        <img src="../Resources/Images/InlineHelp13.png" />
+                                                                    </p>
+                                                                </li>
+                                                            </ol>
+                                                        </li>
+                                                        <li value="2">
+                                                            <p>Select and copy the text inside the tick marks (``)as indicated below, including the forward slash ( /).</p>
+                                                            <p>
+                                                                <img src="../Resources/Images/InlineHelp14.png" />
+                                                            </p>
+                                                        </li>
+                                                        <li value="3">
+                                                            <p>Log in to <a href="https://app.i18nexus.com/">i18nexus.com</a> and access the SKT-UI project.</p>
+                                                        </li>
+                                                        <li value="4">
+                                                            <p>Click <b>English</b>.</p>
+                                                        </li>
+                                                        <li value="5">
+                                                            <p>Open the <b>page-help</b> namespace.</p>
+                                                        </li>
+                                                        <li value="6">
+                                                            <p>Click the <b>+ String</b> button.</p>
+                                                        </li>
+                                                        <li value="7">
+                                                            <p>Paste the route into the <b>KEY</b> field.</p>
+                                                        </li>
+                                                        <li value="8">
+                                                            <p>Paste the page level-help into the <b>VALUE</b> field.</p>
+                                                            <p>
+                                                                <img src="../Resources/Images/InlineHelp15.png" />
+                                                            </p>
+                                                        </li>
+                                                        <li value="9">
+                                                            <p>Click the check mark icon to save the help.</p>
+                                                            <p class="note"><b>NOTE</b>: Scroll down to find this check mark.</p>
+                                                            <p>
+                                                                <img src="../Resources/Images/InlineHelp16.png" />
+                                                            </p>
+                                                        </li>
+                                                    </ol>
+                                                    <p>After adding the help, continue with <a href="#CreatePR">creating the PR in github</a>.</p>
+                                                    <p class="note"><b>NOTE</b>: Pages will likely require multiple strings that will open the page level help on the  new, edit, and display pages. Additionally, page level help can be set at the tab level. Each of these pages will require a string in i18nexus, even if the page level content is identical. Review the datasets example in i18nexus.</p>
+                                                    <h2>Markdown Help</h2>
+                                                    <h3>Open All Links in New Tabs</h3>
+                                                    <p>Add HTML formatting to all links so that the link opens in a new tab, as in:</p>
+                                                    <p>Data quality thresholds also support the calculation of the &lt;a href="https://skthelp.syniti.com/Welcome.htm" target="_blank" &gt;Business Process Data Quality Health indicator&lt;/a&gt;.</p>
+                                                    <h3>Create a “Read more” explain and collapse section</h3>
+                                                    <p>Create a “Read more” with a caret to expand and collapse text. The &lt;details&gt; are set at start and end of the statements, and then the caret has &lt;summary&gt; on either end of it. </p>
+                                                    <p>
+                                                        <img src="../Resources/Images/InlineHelp17.png" />
+                                                    </p>
+                                                    <h2>Link to Another Product Page (Take me there)</h2>
+                                                    <p>Use this format to direct users to another page in the product:</p>
+                                                    <p>&lt;a href="/admin/custom-relations" target="_blank" rel=”noopener noreferrer”&gt;Take me there&lt;/a&gt;.</p>
+                                                    <p class="note"><b>NOTE</b>: You cannot use this if the hyperlink to the page contains  [version] or [id] in its route.</p>
+                                                    <p>&#160;</p>
+                                                </div>
+                                                <div id="feedback-survey">
+                                                    <div class="feedback-question">
+                                                        <p class="feedback-question">Was this article helpful?</p>
+                                                        <button class="feedback-yes" title="Yes, this article was helpful." alt="Yes, this article was helpful.">Yes</button>
+                                                        <button class="feedback-no" title="No, this article wasn't helpful." alt="No, this article wasn't helpful.">No</button>
+                                                    </div>
+                                                    <div class="feedback-reason no">
+                                                        <div>
+                                                            <p class="feedbackW">Sorry about that.</p>
+                                                            <p class="feedbackW">Want to tell us more?</p>
+                                                            <p>Send an email to the Documentation team.</p>
+                                                            <div class="cta" id="feedback">
+                                                                <p>
+                                                                    <script type="text/javascript">/*<![CDATA[*/var mailSubject = 'Online Help Feedback'; 
+											var mailBody    = 'Please let us know how to improve this topic. Please do not edit the link. ' + location.href; 
+											var mailDisplay = '✉ Help us improve this topic'; 
+											document.write( 
+											'<a href="mailto:helpfeedback@syniti.com' 
+											+ '?subject=' + escape(mailSubject) 
+											+ '&body=' + escape(mailBody) 
+											+ '">' + mailDisplay + '</a>' 
+										);/*]]>*/</script>
+                                                                </p>
+                                                            </div>
+                                                            <div class="feedback-reason no-thanks">
+                                                                <p class="feedback-question"><b>Thanks for your feedback.</b>
+                                                                </p>
+                                                                <p class="feedbackW">Want to tell us more?</p>
+                                                                <p>Send an email to our authors to leave your feedback.</p>
+                                                                <p><a href="mailto:Helpfeedback@syniti.com?subject=Feedback" id="feedbackEmailLink" target="_blank" rel="noopener noreferrer">Email us</a>
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="feedback-reason yes-thanks">
+                                                        <p class="feedbackW">Great!
+							</p>
+                                                        <p>Thanks for your feedback.</p>
+                                                    </div>
+                                                </div>
+                                                <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+                                                <div class="cta" id="feedback">
+                                                    <p>
+                                                        <script type="text/javascript">/*<![CDATA[*/var mailSubject = 'Online Help Feedback'; 
+								var mailBody    = 'Please let us know how to improve this topic. Please do not edit the link. ' + location.href; 
+								var mailDisplay = '✉ Send feedback about this topic'; 
+								document.write( 
+								'<a href="mailto:helpfeedback@syniti.com' 
+								+ '?subject=' + escape(mailSubject) 
+								+ '&body=' + escape(mailBody) 
+								+ '">' + mailDisplay + '</a>' 
+							);/*]]>*/</script>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <ul class="nocontent menu _Skins_ContextMenu mc-component" data-mc-linked-toc="Data/Tocs/Doc_Process.js" data-mc-side-menu="True" data-mc-max-depth="3" data-mc-include-icon="False" data-mc-include-indicator="False" data-mc-include-children="True" data-mc-include-siblings="True" data-mc-include-parent="False" data-mc-toc="True">
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="footer" id="sticky_bottom">
+                                        <div class="topicFooter">
+                                            <div>
+                                                <p>&#160;</p>
+                                            </div>
+                                            <div>
+                                                <h5>Get in Touch</h5>
+                                                <p class="footer"><a href="https://support.syniti.com/access/unauthenticated?return_to=https%3A%2F%2Fbackofficeassociates.zendesk.com%2Fagent%2Fdashboard" target="_blank" rel="noopener noreferrer" data-mc-conditions="Primary.dspConduct">Contact Support</a>
+                                                </p>
+                                                <p class="footer"><a href="http://launchpad.support.sap.com/" target="_blank" rel="noopener noreferrer" data-mc-conditions="Primary.ISA">SAP Support (Use component XX-PART-BOA)</a>
+                                                </p>
+                                                <p class="footer"><a href="../Ideas_Portal.htm" target="_blank" rel="noopener noreferrer">Access Product Ideas Portal</a>
+                                                </p>
+                                                <p class="footer"><a href="https://www.syniti.com/support/education/" target="_blank" rel="noopener noreferrer">Request Product Training</a>
+                                                </p>
+                                                <h5>Related Content</h5>
+                                                <p class="footer"><a href="../glossary.htm" target="_blank" rel="noopener noreferrer">Glossary</a>
+                                                </p>
+                                                <p class="footer"><a href="../When_to_request_a_new_product_license.htm" target="_blank" rel="noopener noreferrer">Product Licenses</a>
+                                                </p>
+                                                <p class="footer"><a href="http://support.syniti.com/hc/en-us" target="_blank" rel="noopener noreferrer" data-mc-conditions="Primary.dspConduct">Knowledge Base</a>
+                                                </p>
+                                            </div>
+                                            <div>
+                                                <p class="footer" id="di">&#160;
+					</p>
+                                                <p class="btn more"><a href="../Data_Insiders_Community.htm" target="_blank" rel="noopener noreferrer">Learn More</a>
+                                                </p>
+                                            </div>
+                                            <div>
+                                                <p class="footer">
+                                                    <img src="../Resources/Images/topNav/SynitiGradientLogo_139x62.png" style="width: 139;height: 62;" />
+                                                </p>
+                                                <p class="footer">**Access to pages and visibility of fields may be restricted based on the security settings of the current user.
+					</p>
+                                                <p class="footer copyright">
+                                                    <p class="footer"><span class="mc-variable Primary.et. variable">(Undefined variable: Primary.et.)</span> BackOffice Associates, LLC d/b/a Syniti. and/or its affiliates. All rights reserved. </p>
+                                                    <p class="footer">Names appearing on the Site may be trademarks of their respective owners.</p>
+                                                </p>
+                                            </div>
+                                            <div>
+                                                <p>&#160;</p>
+                                            </div>
+                                            <div>
+                                                <p class="footer bottom"><a href="https://www.syniti.com/privacy-policy/" target="_blank" rel="noopener noreferrer">Privacy Policy</a>
+                                                </p>
+                                            </div>
+                                            <div>
+                                                <p class="footer bottom"><a href="https://www.syniti.com/trademarks/" target="_blank" rel="noopener noreferrer">Trademarks</a>
+                                                </p>
+                                            </div>
+                                            <div>
+                                                <p class="footer bottom"><a href="https://www.syniti.com/terms-of-use/" target="_blank" rel="noopener noreferrer">Terms of Use</a>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div><a data-close="true"></a>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

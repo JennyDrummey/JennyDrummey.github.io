@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileLinkSet
+  FileSearchable="true"
+  MasterPage="file:///C:/Users/Lauren Wheeler/Doc_Standards/JennyDrummey.github.io/DocStandardsProcesses/Content/Resources/MasterPages/DocProcess.flmsp"
+  OnlyLocalStylesheets="false"
+  FileTimeEstimate="0"
+  FilePriority="0">
+  <Links>
+    <Link
+      Url="Content/Resources/MasterPages/DocProcess.flmsp" />
+    <Link
+      Url="Content/Resources/Stylesheets/Styles.css" />
+    <Link
+      Url="Content/Resources/Stylesheets/newDefault.css" />
+    <Link
+      Url="https://entota.atlassian.net/wiki/spaces/SYNITI/pages/1406468543/In-line+Help+Standards" />
+    <Link
+      Url="https://www.nngroup.com/articles/tooltip-guidelines/" />
+    <Link
+      Url="https://www.appcues.com/blog/tooltips" />
+    <Link
+      Url="https://www.wix.com/wordsmatter/blog/2020/06/tooltips/" />
+    <Link
+      Url="https://userguiding.com/blog/tooltips/" />
+  </Links>
+  <LongLinks>
+    <Link
+      Url="Content/Resources/MasterPages/DocProcess.flmsp" />
+    <Link
+      Url="Content/Resources/Stylesheets/Styles.css" />
+    <Link
+      Url="Content/Resources/Stylesheets/newDefault.css" />
+    <Link
+      Url="https://entota.atlassian.net/wiki/spaces/SYNITI/pages/1406468543/In-line+Help+Standards" />
+    <Link
+      Url="https://www.nngroup.com/articles/tooltip-guidelines/" />
+    <Link
+      Url="https://www.appcues.com/blog/tooltips" />
+    <Link
+      Url="https://www.wix.com/wordsmatter/blog/2020/06/tooltips/" />
+    <Link
+      Url="https://userguiding.com/blog/tooltips/" />
+  </LongLinks>
+  <Anchors />
+  <Keywords />
+  <Concepts />
+  <ConceptControlNames />
+  <IndexControlNames />
+  <Variables />
+  <FileConditions />
+  <FileTags />
+  <AllConditions />
+  <Stylesheets>
+    <Url
+      Source="Content/Resources/Stylesheets/Styles.css" />
+    <Url
+      Source="Content/Resources/Stylesheets/newDefault.css" />
+  </Stylesheets>
+</CatapultFileLinkSet>
